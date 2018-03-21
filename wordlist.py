@@ -9,7 +9,7 @@ DEBUG = True
 ns = "{http://www.tei-c.org/ns/1.0}"
 xmlNs = "{http://www.w3.org/XML/1998/namespace}"
 
-ignore = ['(?)', ',', ';', '.', ':', '"', "'", "<", ">"]
+ignore = ['(?)', ',', ';', '.', ':', '"', "'", "<", ">", "+"]
 
 class iip_word:
 	def __init__(self, edition_type, language,  text, file_name):
@@ -23,6 +23,83 @@ class iip_word:
 		self.file_name = file_name
 	def print(self):
 		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name)
+
+def word_list_to_table(word_list):
+	html = etree.Element("html")
+	head = etree.Element("head")
+	title = etree.Element("title")
+	title.text = "Word List"
+	style_link = etree.Element("link")
+	style_link.attrib["rel"] = "stylesheet"
+	style_link.attrib["type"] = "text/css"
+	style_link.attrib["href"] = "wordlist.css"
+	body = etree.Element("body")
+	table = etree.Element("table")
+	body.append(table)
+	head.append(title)
+	head.append(style_link)
+	html.append(head)
+	html.append(body)
+
+	table_header = etree.Element("tr")
+	table_header_word = etree.Element("th")
+	table_header_word.text = "Word"
+	table_header_language = etree.Element("th")
+	table_header_language.text = "Language"
+	table_header_edition = etree.Element("th")
+	table_header_edition.text = "Edition"
+	table_header_file = etree.Element("th")
+	table_header_file.text = "File"
+	table_header.append(table_header_word)
+	table_header.append(table_header_language)
+	table_header.append(table_header_edition)
+	table_header.append(table_header_file)
+	table.append(table_header)
+	
+	for word in word_list:
+		row = etree.Element("tr")
+		text = etree.Element("td")
+		text.text = (word.text)
+		language = etree.Element("td")
+		language.text = (word.language)
+		edition_type = etree.Element("td")
+		edition_type.text = (word.edition_type)
+		file_name = etree.Element("td")
+		file_name_link = etree.Element("a")
+		file_name_link.text = (word.file_name)
+		file_name_link.attrib["href"] = word.file_name
+		file_name.append(file_name_link)
+
+		row.append(text)
+		row.append(language)
+		row.append(edition_type)
+		row.append(file_name)
+		table.append(row)
+	output_file = open("wordlist.html", "w")
+	output_file.write(etree.tostring(html, pretty_print=True).decode())
+	output_file.close()
+
+	style_file = open("wordlist.css", "w")
+	style_file.write("""
+		table {
+			border-collapse: collapse;
+		}
+		th {
+			background-color: black;
+			color: white;
+			text-align: left;
+			border: 1px solid black;
+		}
+		th, td {
+			padding: 3px;
+			padding-right: 3ch;
+		}
+		td {
+			border: 1px solid grey;
+		}
+	""")
+	style_file.close()
+
 def whitespace_to_space(text):
 	if text == None or len(text) < 1:
 		return ""
@@ -58,12 +135,10 @@ def add_element_to_word_list(e, new_words, edition, mainLang, path):
 	if e.tag == ns + "lb" and not ('break' in e.attrib and e.attrib['break'] == "yes"):
 		new_words.append(iip_word(edition.attrib['subtype'], editionLang, "", path))
 	if (e.text != None):
-		print_debug(str(e) + " text: " + e.text)
 		add_trailing_text(new_words, e.text, edition.attrib['subtype'], wordLang, path)
 	for child in e.getchildren():
 		add_element_to_word_list(child, new_words, edition, mainLang, path)
 	if (e.tail != None):
-		print_debug(str(e) + " tail: " + e.tail)
 		add_trailing_text(new_words, e.tail, edition.attrib['subtype'], wordLang, path)
 
 def get_words_from_file(path):
@@ -106,13 +181,17 @@ if __name__ == '__main__':
 
 	# Extract words from each file 
 	for file in sys.argv[1:len(sys.argv)]:
-		print_debug(file)
-		words += get_words_from_file(file)
-	
+		try:
+			words += get_words_from_file(file)
+		except:
+			sys.stderr.write("Cannot read " + file + "\n")
+
 	# Print each extracted word on a new line
 	for word in words:
 		word.print()
-	
+
+	word_list_to_table(words)
+
 	sys.exit(0)
 
 
