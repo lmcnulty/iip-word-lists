@@ -9,7 +9,8 @@ DEBUG = True
 ns = "{http://www.tei-c.org/ns/1.0}"
 xmlNs = "{http://www.w3.org/XML/1998/namespace}"
 
-ignore = ['(?)', ',', ';', '.', ':', '"', "'", "<", ">", "+"]
+ignore = ['(', '?', ')', ',', ';', '.', ':', '"', "'", "<", ">", "+", "[", "]", "∙"]
+include_trailing_linebreak = [ns+"expan"]
 
 class iip_word:
 	def __init__(self, edition_type, language,  text, file_name):
@@ -24,7 +25,11 @@ class iip_word:
 	def print(self):
 		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name)
 
-def word_list_to_table(word_list):
+def word_list_to_table(full_list, num=0):
+	
+	word_list = full_list[0:1000]
+	next_list = full_list[1000:len(full_list)]
+
 	html = etree.Element("html")
 	head = etree.Element("head")
 	title = etree.Element("title")
@@ -75,7 +80,19 @@ def word_list_to_table(word_list):
 		row.append(edition_type)
 		row.append(file_name)
 		table.append(row)
-	output_file = open("wordlist.html", "w")
+	if num > 0:
+		prev_link = etree.Element("a")
+		prev_link.text = "Previous Page"
+		prev_link.attrib["href"] = "wordlist-" + str(num - 1) + ".html"
+		body.append(prev_link)
+	if len(next_list) > 0:
+		next_link = etree.Element("a")
+		next_link.text = "Next Page"
+		next_link.attrib["href"] = "wordlist-" + str(num + 1) + ".html"
+		body.append(next_link)
+	
+
+	output_file = open("wordlist-" + str(num) + ".html", "w")
 	output_file.write(etree.tostring(html, pretty_print=True).decode())
 	output_file.close()
 
@@ -99,6 +116,8 @@ def word_list_to_table(word_list):
 		}
 	""")
 	style_file.close()
+	if (len(next_list) > 0):
+		word_list_to_table(next_list, num + 1)
 
 def whitespace_to_space(text):
 	if text == None or len(text) < 1:
@@ -111,9 +130,9 @@ def word_list_to_str_list(word_list):
 		str_list += e.text + " "
 	return str_list
 
-def add_trailing_text(word_list, trailing_text, edition_type, lang, path):
+def add_trailing_text(word_list, trailing_text, edition_type, lang, path, include_initial_line_break):
 	trailing_text_list = trailing_text.split() 
-	if len(word_list) == 0 or trailing_text[0] == ' ' or trailing_text[0] == '\n':
+	if len(word_list) == 0 or trailing_text[0] == ' ' or (trailing_text[0] == '\n' and include_initial_line_break):
 		if word_list[-1].text != "":
 			word_list.append(iip_word(edition_type, lang, "", path))
 	if len(trailing_text_list) < 1:
@@ -135,11 +154,11 @@ def add_element_to_word_list(e, new_words, edition, mainLang, path):
 	if e.tag == ns + "lb" and not ('break' in e.attrib and e.attrib['break'] == "yes"):
 		new_words.append(iip_word(edition.attrib['subtype'], editionLang, "", path))
 	if (e.text != None):
-		add_trailing_text(new_words, e.text, edition.attrib['subtype'], wordLang, path)
+		add_trailing_text(new_words, e.text, edition.attrib['subtype'], wordLang, path, True)
 	for child in e.getchildren():
 		add_element_to_word_list(child, new_words, edition, mainLang, path)
 	if (e.tail != None):
-		add_trailing_text(new_words, e.tail, edition.attrib['subtype'], wordLang, path)
+		add_trailing_text(new_words, e.tail, edition.attrib['subtype'], wordLang, path, (e.tag in include_trailing_linebreak))
 
 def get_words_from_file(path):
 	root = etree.parse(path).getroot()
@@ -153,14 +172,15 @@ def get_words_from_file(path):
 	for edition in root.findall(".//tei:div[@type='edition']", namespaces=nsmap): 	
 		new_words = [iip_word(edition.attrib['subtype'], mainLang, "", path)]
 		add_element_to_word_list(edition, new_words, edition, mainLang, path)
-		words += new_words
+		words += new_words	
+	null_words = []
 	for word in words:
 		word.text = str(word.text)
+		if (len(word.text) < 1 or word.text == "" or word.text == '\n' or word.text == '\t' or word.text.isspace()):
+			null_words.append(word)
 		for pattern in ignore:
 			word.text = word.text.replace(pattern, "")
-		if (len(word.text) < 1 or word.text == ""):
-			word.text = "NULL"
-			words.remove(word)
+	words = [x for x in words if x not in null_words]
 	return words
 
 def print_usage():
@@ -181,13 +201,13 @@ if __name__ == '__main__':
 
 	# Extract words from each file 
 	for file in sys.argv[1:len(sys.argv)]:
-		try:
-			words += get_words_from_file(file)
-		except:
-			sys.stderr.write("Cannot read " + file + "\n")
+		#try:
+		words += get_words_from_file(file)
+		#except:
+		#	sys.stderr.write("Cannot read " + file + "\n")
 
-	# Print each extracted word on a new line
-	for word in words:
+	# Print each extracted word on a new line	
+	for word in words:		
 		word.print()
 
 	word_list_to_table(words)
