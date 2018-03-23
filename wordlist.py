@@ -4,6 +4,7 @@ import os
 import sys
 from lxml import etree
 import glob
+import argparse
 
 DEBUG = True 
 ns = "{http://www.tei-c.org/ns/1.0}"
@@ -11,6 +12,8 @@ xmlNs = "{http://www.w3.org/XML/1998/namespace}"
 
 ignore = ['(', '?', ')', ',', ';', '.', ':', '"', "'", "<", ">", "+", "[", "]", "∙"]
 include_trailing_linebreak = [ns+"expan"]
+
+output_name = "wordlist"
 
 class iip_word:
 	def __init__(self, edition_type, language,  text, file_name):
@@ -25,11 +28,19 @@ class iip_word:
 	def print(self):
 		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name)
 
-def word_list_to_table(full_list, num=0):
-	
+def word_list_to_csv(full_list):
+	if os.path.isfile(output_name + '.csv'):
+		os.remove(output_name + '.csv')
+	if os.path.isdir(output_name + '.csv'):
+		sys.stderr.write(output_name + '.csv is a directory.')
+		return
+	output_file = open(output_name + ".csv", "a")
+	for word in full_list:
+		output_file.write(word.text + ", " + word.language + ", " + word.edition_type + ", " + word.file_name + "\n")
+
+def word_list_to_html(full_list, num=0):	
 	word_list = full_list[0:1000]
 	next_list = full_list[1000:len(full_list)]
-
 	html = etree.Element("html")
 	head = etree.Element("head")
 	title = etree.Element("title")
@@ -45,7 +56,6 @@ def word_list_to_table(full_list, num=0):
 	head.append(style_link)
 	html.append(head)
 	html.append(body)
-
 	table_header = etree.Element("tr")
 	table_header_word = etree.Element("th")
 	table_header_word.text = "Word"
@@ -60,7 +70,6 @@ def word_list_to_table(full_list, num=0):
 	table_header.append(table_header_edition)
 	table_header.append(table_header_file)
 	table.append(table_header)
-	
 	for word in word_list:
 		row = etree.Element("tr")
 		text = etree.Element("td")
@@ -74,7 +83,6 @@ def word_list_to_table(full_list, num=0):
 		file_name_link.text = (word.file_name)
 		file_name_link.attrib["href"] = word.file_name
 		file_name.append(file_name_link)
-
 		row.append(text)
 		row.append(language)
 		row.append(edition_type)
@@ -83,19 +91,16 @@ def word_list_to_table(full_list, num=0):
 	if num > 0:
 		prev_link = etree.Element("a")
 		prev_link.text = "Previous Page"
-		prev_link.attrib["href"] = "wordlist-" + str(num - 1) + ".html"
+		prev_link.attrib["href"] = output_name + "-" + str(num - 1) + ".html"
 		body.append(prev_link)
 	if len(next_list) > 0:
 		next_link = etree.Element("a")
 		next_link.text = "Next Page"
-		next_link.attrib["href"] = "wordlist-" + str(num + 1) + ".html"
+		next_link.attrib["href"] = output_name + "-" + str(num + 1) + ".html"
 		body.append(next_link)
-	
-
-	output_file = open("wordlist-" + str(num) + ".html", "w")
+	output_file = open(output_name + "-" + str(num) + ".html", "w")
 	output_file.write(etree.tostring(html, pretty_print=True).decode())
 	output_file.close()
-
 	style_file = open("wordlist.css", "w")
 	style_file.write("""
 		table {
@@ -151,7 +156,7 @@ def add_element_to_word_list(e, new_words, edition, mainLang, path):
 	if (xmlNs+'lang' in edition.keys()):
 		editionLang = edition.attrib[xmlNs+'lang']
 	wordLang = editionLang
-	if e.tag == ns + "lb" and not ('break' in e.attrib and e.attrib['break'] == "yes"):
+	if e.tag == ns + "lb" and not ('break' in e.attrib and e.attrib['break'] == "no"):
 		new_words.append(iip_word(edition.attrib['subtype'], editionLang, "", path))
 	if (e.text != None):
 		add_trailing_text(new_words, e.text, edition.attrib['subtype'], wordLang, path, True)
@@ -176,10 +181,10 @@ def get_words_from_file(path):
 	null_words = []
 	for word in words:
 		word.text = str(word.text)
-		if (len(word.text) < 1 or word.text == "" or word.text == '\n' or word.text == '\t' or word.text.isspace()):
-			null_words.append(word)
 		for pattern in ignore:
 			word.text = word.text.replace(pattern, "")
+		if (len(word.text) < 1 or word.text == "" or word.text == '\n' or word.text == '\t' or word.text.isspace()):
+			null_words.append(word)	
 	words = [x for x in words if x not in null_words]
 	return words
 
@@ -192,26 +197,31 @@ def print_debug(string):
 		print(string)
 
 if __name__ == '__main__':
-	# Check for correct usage
-	if (len(sys.argv) < 2):
-		print_usage()
-		sys.exit(1)
-	
+	parser = argparse.ArgumentParser(description='Produce word list from files.')
+	parser.add_argument('files', type=str, nargs='+', help='The epidoc xml files to process')
+	parser.add_argument("--html", help="Output list as html file(s)", action="store_true")
+	parser.add_argument("--csv", help="Output list as csv file", action="store_true")
+	parser.add_argument("--silent", help="Don't pint the word list to the console", action="store_true")
+	args = parser.parse_args()
+
 	words = []
 
 	# Extract words from each file 
-	for file in sys.argv[1:len(sys.argv)]:
-		#try:
-		words += get_words_from_file(file)
-		#except:
-		#	sys.stderr.write("Cannot read " + file + "\n")
+	for file in args.files: #sys.argv[1:len(sys.argv)]:
+		try:
+			words += get_words_from_file(file)
+		except:
+			sys.stderr.write("Cannot read " + file + "\n")
 
-	# Print each extracted word on a new line	
-	for word in words:		
-		word.print()
+	# Print each extracted word on a new line
+	if not args.silent:
+		for word in words:		
+			word.print()
 
-	word_list_to_table(words)
-
+	if args.html:
+		word_list_to_html(words)
+	if args.csv:
+		word_list_to_csv(words)
 	sys.exit(0)
 
 
