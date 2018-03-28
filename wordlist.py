@@ -2,7 +2,9 @@
 
 import os
 import sys
+from collections import OrderedDict
 from lxml import etree
+from copy import copy
 import glob
 import argparse
 
@@ -10,13 +12,14 @@ DEBUG = True
 ns = "{http://www.tei-c.org/ns/1.0}"
 xmlNs = "{http://www.w3.org/XML/1998/namespace}"
 
-ignore = ['(', '?', ')', ',', ';', '.', ':', '"', "'", "<", ">", "+", "[", "]", "∙"]
-include_trailing_linebreak = [ns+"expan"]
+ignore = ['(', '?', ')', ',', ';', '.', ':', '"', "'", "<", ">", "+", "[", "]", "∙", "_"]
+include_trailing_linebreak = [ns + "expan", ns + "choice", ns + "hi", ns + "supplied", ns + "num", ns + "div"]
 
 output_name = "wordlist"
 
 class iip_word:
-	def __init__(self, edition_type, language,  text, file_name):
+	equivilence = ["edition_type", "language", "text", "file_name"]
+	def __init__(self, edition_type, language,  text, file_name, contains_gap=False):
 		# eg: diplomatic
 		self.edition_type = edition_type
 		# eg: grc
@@ -25,6 +28,20 @@ class iip_word:
 		self.text = text
 		# eg: jeru00001.xml
 		self.file_name = file_name
+		
+		self.contains_gap = contains_gap
+	def __hash__(self):
+		new_hash = 0
+		for e in iip_word.equivilence:
+			new_hash += hash(getattr(self, e))
+		return new_hash
+	def __eq__(self, other):
+		if isinstance(other, self.__class__):
+			return hash(self) == hash(other)
+		else:
+			return False
+	def __ne__(self, other):
+		return not self.__eq__(other)
 	def print(self):
 		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name)
 
@@ -135,33 +152,62 @@ def word_list_to_str_list(word_list):
 		str_list += e.text + " "
 	return str_list
 
+# Begin a new word as the supplied word. Will often be blank, such that
+# future characters will be added.
+def append_to_word_list(word_list, word):
+	word_list.append(word)
+
+# Add to the supplied word list text that is either within a tag and 
+# preceding all child elements or following a tag but before any sibling
+# elements. In lxml terms, element.text() and element.tail()
 def add_trailing_text(word_list, trailing_text, edition_type, lang, path, include_initial_line_break):
 	trailing_text_list = trailing_text.split() 
 	if len(word_list) == 0 or trailing_text[0] == ' ' or (trailing_text[0] == '\n' and include_initial_line_break):
 		if word_list[-1].text != "":
-			word_list.append(iip_word(edition_type, lang, "", path))
+			append_to_word_list(word_list, iip_word(edition_type, lang, "", path))
 	if len(trailing_text_list) < 1:
 		return
 	word_list[-1].text += trailing_text_list[0]
 	if len(word_list) > 1:
 		for i in range(1, len(trailing_text_list)):
 			new_word = iip_word(edition_type, lang, trailing_text_list[i], path)
-			word_list.append(new_word)
+			append_to_word_list(word_list, new_word)
 	if (trailing_text[-1] == ' ' or trailing_text[-1] == '\n'):
 		if word_list[-1].text != "":
-			word_list.append(iip_word(edition_type, lang, "", path))
-				
-def add_element_to_word_list(e, new_words, edition, mainLang, path):
+			append_to_word_list(word_list, iip_word(edition_type, lang, "", path))
+	
+def add_element_to_word_list(e, new_words, edition, mainLang, path):	
+	# Get the language of the element
 	editionLang = mainLang
 	if (xmlNs+'lang' in edition.keys()):
 		editionLang = edition.attrib[xmlNs+'lang']
 	wordLang = editionLang
+	
+	# The last word in the list _at the time of calling the function_.
+	prev_word = copy(new_words[-1])
+	
+	if e.tag == ns + "gap":
+		new_words[-1].contains_gap = True
+	
+	# Start a new word if the tag is a linebreak without break="no"
 	if e.tag == ns + "lb" and not ('break' in e.attrib and e.attrib['break'] == "no"):
-		new_words.append(iip_word(edition.attrib['subtype'], editionLang, "", path))
+		append_to_word_list(new_words, iip_word(edition.attrib['subtype'], editionLang, "", path))
+	
+	# Add the text within the elemnt not inside any child element
 	if (e.text != None):
 		add_trailing_text(new_words, e.text, edition.attrib['subtype'], wordLang, path, True)
-	for child in e.getchildren():
-		add_element_to_word_list(child, new_words, edition, mainLang, path)
+	
+	# Add each child element
+	children = e.getchildren()
+	for i in range(0, len(children)):
+		# When adding children of a <choice> element, the preceding word
+		# is added between children so that each possible version of the
+		# word will appear in the final word list.
+		if (e.tag == ns + "choice" and i > 0):
+			append_to_word_list(new_words, prev_word)
+		add_element_to_word_list(children[i], new_words, edition, mainLang, path)
+	
+	# Add the words following the element which are not in any sibling
 	if (e.tail != None):
 		add_trailing_text(new_words, e.tail, edition.attrib['subtype'], wordLang, path, (e.tag in include_trailing_linebreak))
 
@@ -190,34 +236,55 @@ def get_words_from_file(path):
 
 def print_usage():
 	print("wordlist.py [file1] [file2] ... \n"
-	       + "\t Create a list of words from the specified files")
+		   + "\t Create a list of words from the specified files")
 
 def print_debug(string):
 	if (DEBUG):
 		print(string)
+
+def flatten_list(word_list):
+	flat_list = []
+	for word in word_list:
+		flat_list.append(word.text)
+	return flat_list
+
+def remove_duplicates(items):
+	return list(OrderedDict.fromkeys(items))
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Produce word list from files.')
 	parser.add_argument('files', type=str, nargs='+', help='The epidoc xml files to process')
 	parser.add_argument("--html", help="Output list as html file(s)", action="store_true")
 	parser.add_argument("--csv", help="Output list as csv file", action="store_true")
-	parser.add_argument("--silent", help="Don't pint the word list to the console", action="store_true")
+	parser.add_argument("--silent", help="Don't print the word list to the console", action="store_true")
+	parser.add_argument("--duplicates", help="Include each instance of every word in the word list", action="store_true")
+	parser.add_argument("--alphabetical", help="Sort the list alphabetically", action="store_true")
+	parser.add_argument("--fileexception", help="Print exceptions for files which could not be read", action="store_true")
 	args = parser.parse_args()
 
 	words = []
 
 	# Extract words from each file 
 	for file in args.files: #sys.argv[1:len(sys.argv)]:
-		try:
+		if args.fileexception:
 			words += get_words_from_file(file)
-		except:
-			sys.stderr.write("Cannot read " + file + "\n")
+		else:
+			try:
+				words += get_words_from_file(file)
+			except:
+				sys.stderr.write("Cannot read " + file + "\n")
+
+	if not args.duplicates:
+		words = remove_duplicates(words)
+
+	if args.alphabetical:
+		words = sorted(words, key=lambda word: word.text)
 
 	# Print each extracted word on a new line
 	if not args.silent:
 		for word in words:		
 			word.print()
-
+	# Output words to files
 	if args.html:
 		word_list_to_html(words)
 	if args.csv:
