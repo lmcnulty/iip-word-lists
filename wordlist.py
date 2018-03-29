@@ -14,8 +14,7 @@ xmlNs = "{http://www.w3.org/XML/1998/namespace}"
 
 ignore = ['(', '?', ')', ',', ';', '.', ':', '"', "'", "<", ">", "+", "[", "]", "∙", "_"]
 include_trailing_linebreak = [ns + "expan", ns + "choice", ns + "hi", ns + "supplied", ns + "num", ns + "div"]
-
-output_name = "wordlist"
+DEFAULT_OUTPUT_NAME = "wordlist"
 
 class iip_word:
 	equivilence = ["edition_type", "language", "text", "file_name"]
@@ -45,7 +44,7 @@ class iip_word:
 	def print(self):
 		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name)
 
-def word_list_to_csv(full_list):
+def word_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME):
 	if os.path.isfile(output_name + '.csv'):
 		os.remove(output_name + '.csv')
 	if os.path.isdir(output_name + '.csv'):
@@ -55,7 +54,7 @@ def word_list_to_csv(full_list):
 	for word in full_list:
 		output_file.write(word.text + ", " + word.language + ", " + word.edition_type + ", " + word.file_name + "\n")
 
-def word_list_to_html(full_list, num=0):	
+def word_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME):	
 	word_list = full_list[0:1000]
 	next_list = full_list[1000:len(full_list)]
 	html = etree.Element("html")
@@ -251,6 +250,8 @@ def flatten_list(word_list):
 def remove_duplicates(items):
 	return list(OrderedDict.fromkeys(items))
 
+
+
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Produce word list from files.')
 	parser.add_argument('files', type=str, nargs='+', help='The epidoc xml files to process')
@@ -258,8 +259,12 @@ if __name__ == '__main__':
 	parser.add_argument("--csv", help="Output list as csv file", action="store_true")
 	parser.add_argument("--silent", help="Don't print the word list to the console", action="store_true")
 	parser.add_argument("--duplicates", help="Include each instance of every word in the word list", action="store_true")
-	parser.add_argument("--alphabetical", help="Sort the list alphabetically", action="store_true")
+	
+	#parser.add_argument("--alphabetical", help="Sort the list alphabetically", action="store_true")
 	parser.add_argument("--fileexception", help="Print exceptions for files which could not be read", action="store_true")
+	
+	parser.add_argument("-s", "--sort", type=str, help="Sort the list by the specified fields")
+	parser.add_argument("-n", "--name", type=str, help="The name of the output file without the extension")
 	args = parser.parse_args()
 
 	words = []
@@ -277,18 +282,44 @@ if __name__ == '__main__':
 	if not args.duplicates:
 		words = remove_duplicates(words)
 
-	if args.alphabetical:
-		words = sorted(words, key=lambda word: word.text)
+	#sort_order = ["language", "text", "file_name", "edition_type"]
+	sort_order = []
+
+	if args.sort != None:
+		for e in args.sort:
+			if e == 'l':
+				sort_order.append("language")
+			elif e == 't' or e == 'a':
+				sort_order.append("text")
+			elif e == 'f':
+				sort_order.append("file_name")
+			elif e == "e":
+				sort_order.append("edition_type")
+			else:
+				print("Invalid sort criterion: '" + e + "'")
+
+
+	sort_order.reverse()
+	for field in sort_order:
+		words = sorted(words, key=lambda word: word.__dict__[field])
+
+	#if args.alphabetical:
+	#	words = sorted(words, key=lambda word: word.text)
 
 	# Print each extracted word on a new line
 	if not args.silent:
 		for word in words:		
 			word.print()
+
+	output_name = DEFAULT_OUTPUT_NAME;
+	if args.name != None:
+		output_name = args.name
+
 	# Output words to files
 	if args.html:
-		word_list_to_html(words)
+		word_list_to_html(words, output_name=output_name)
 	if args.csv:
-		word_list_to_csv(words)
+		word_list_to_csv(words, output_name=output_name)
 	sys.exit(0)
 
 
