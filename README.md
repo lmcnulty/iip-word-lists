@@ -10,7 +10,7 @@
   Currently these are added to the word list as if they were words, 
   leading to some strange results. However, if we ignored all files
   marked as containing graffiti, we could potentially lose some words.
-* Should <num> elements always indicate the start of a new word?
+* Should `<num>` elements always indicate the start of a new word?
 
 
 ## Probable Mistakes found in iip-texts
