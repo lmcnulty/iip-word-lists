@@ -138,7 +138,7 @@ def word_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME):
 	""")
 	style_file.close()
 	if (len(next_list) > 0):
-		word_list_to_table(next_list, num + 1)
+		word_list_to_html(next_list, num + 1, output_name)
 
 def whitespace_to_space(text):
 	if text == None or len(text) < 1:
@@ -259,7 +259,8 @@ if __name__ == '__main__':
 	parser.add_argument("--csv", help="Output list as csv file", action="store_true")
 	parser.add_argument("--silent", help="Don't print the word list to the console", action="store_true")
 	parser.add_argument("--duplicates", help="Include each instance of every word in the word list", action="store_true")
-	
+	parser.add_argument("--nodiplomatic", help="Do not include words extracted from diplomatic editions in word list", action="store_true")
+
 	#parser.add_argument("--alphabetical", help="Sort the list alphabetically", action="store_true")
 	parser.add_argument("--fileexception", help="Print exceptions for files which could not be read", action="store_true")
 	
@@ -281,6 +282,15 @@ if __name__ == '__main__':
 
 	if not args.duplicates:
 		words = remove_duplicates(words)
+
+	# If this is too slow, it should be changed to be a parameter for 
+	# get_words_from_file so as to avoid iterating over the entire list.
+	if args.nodiplomatic:
+		filtered_words = []
+		for word in words:
+			if word.edition_type != "diplomatic":
+				filtered_words.append(word)
+		words = filtered_words
 
 	#sort_order = ["language", "text", "file_name", "edition_type"]
 	sort_order = []

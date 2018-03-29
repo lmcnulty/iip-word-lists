@@ -1,0 +1,18 @@
+
+		table {
+			border-collapse: collapse;
+		}
+		th {
+			background-color: black;
+			color: white;
+			text-align: left;
+			border: 1px solid black;
+		}
+		th, td {
+			padding: 3px;
+			padding-right: 3ch;
+		}
+		td {
+			border: 1px solid grey;
+		}
+	
