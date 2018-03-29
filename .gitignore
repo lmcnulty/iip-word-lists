@@ -2,3 +2,4 @@
 *.swo
 .~lock*
 wordlist_nltk.py
+__pycache__
