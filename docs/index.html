@@ -24,6 +24,8 @@
 	<table id="data"><tr><th>Word</th><th>Language</th><th>Edition</th><th>File</th></tr></table>
 	<script>
 		let sortOrder = [1, 0, 3, 2];
+		let pathIndex = 3;		
+		
 		let wordList = null;
 		function displayData(wordList, start, end) {
 			let rows = wordList.split("\n");
@@ -51,7 +53,14 @@
 				let newRowData = rows[i].split(",");
 				for (let j = 0; j < newRowData.length; j++) {
 					let newColumn = document.createElement("td");
-					newColumn.innerHTML = newRowData[j];
+					if (j == pathIndex) {
+						let newLink = document.createElement("a");
+						newLink.href = newRowData[j];
+						newLink.innerHTML = newRowData[j].split("/")[1];
+						newColumn.appendChild(newLink);
+					} else {
+						newColumn.innerHTML = newRowData[j];
+					}					
 					newRow.appendChild(newColumn);				
 				}
 				if (newRow.childNodes.length > 1) {
