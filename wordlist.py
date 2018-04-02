@@ -12,7 +12,7 @@ DEBUG = True
 ns = "{http://www.tei-c.org/ns/1.0}"
 xmlNs = "{http://www.w3.org/XML/1998/namespace}"
 
-ignore = ['(', '?', ')', ',', ';', '.', ':', '"', "'", "<", ">", "+", "[", "]", "∙", "_"]
+ignore = ['(', '?', ')', ',', ';', '.', ':', '"', "'", "<", ">", "+", "[", "]", "∙", "_", "/", "#", "*"]
 include_trailing_linebreak = [ns + "expan", ns + "choice", ns + "hi", ns + "supplied", ns + "num", ns + "div"]
 DEFAULT_OUTPUT_NAME = "wordlist"
 

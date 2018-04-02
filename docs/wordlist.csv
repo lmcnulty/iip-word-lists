@@ -1,11 +1,5 @@
-#Π$άρις, grc, transcription, texts/jeru0307.xml
-*, arc, transcription, texts/mare0080.xml
-*μορρδε, grc, transcription, texts/bshe0131.xml
 -, grc, transcription, texts/hamm0020.xml
 -ου, grc, transcription, texts/beth0213.xml
-/, heb, transcription, texts/jord0001.xml
-/, he, transcription, texts/masa0038.xml
-/, arc, transcription, texts/zoor0363.xml
 1, grc, transcription, texts/beth0170.xml
 1, arc, transcription, texts/idum0001.xml
 1, arc, transcription, texts/idum0002.xml
@@ -5050,6 +5044,7 @@ western, grc, transcription, texts/tibe0004.xml
 Π, grc, transcription, texts/bshe0122.xml
 Π, grc, transcription, texts/farj0002.xml
 Π, grc, transcription, texts/zoor0311.xml
+Π$άρις, grc, transcription, texts/jeru0307.xml
 ΠΑ, grc, transcription, texts/zoor0359.xml
 ΠΑΚΑΓ, grc, transcription, texts/zoor0320.xml
 ΠΑΝ, grc, transcription, texts/beth0214.xml
@@ -10124,6 +10119,7 @@ western, grc, transcription, texts/tibe0004.xml
 μονο­, grc, transcription, texts/caes0158.xml
 μονοώ­, grc, transcription, texts/caes0158.xml
 μονάστρια‧, grc, transcription, texts/hamm0049.xml
+μορρδε, grc, transcription, texts/bshe0131.xml
 μος, grc, transcription, texts/hmti0003.xml
 μος, grc, transcription, texts/tibe0004.xml
 μος, grc, transcription, texts/zoor0050.xml
@@ -15146,7 +15142,7 @@ western, grc, transcription, texts/tibe0004.xml
 גדי, heb, transcription, texts/tibe0001.xml
 גדיו, arc, transcription, texts/jmon0007.xml
 גדימו, arc, transcription, texts/sina0101.xml
-גו/יר, arc, transcription, texts/idum0067.xml
+גויר, arc, transcription, texts/idum0067.xml
 גור, arc, transcription, texts/idum0057.xml
 גור, arc, transcription, texts/idum0058.xml
 גור, arc, transcription, texts/idum0061.xml
@@ -15253,7 +15249,6 @@ western, grc, transcription, texts/tibe0004.xml
 ד, arc, transcription, texts/mger0353.xml
 ד, arc, transcription, texts/mger0373.xml
 ד, arc, transcription, texts/unkn0106.xml
-ד/ר, heb, transcription, texts/jord0001.xml
 דא, heb, transcription, texts/jord0001.xml
 דא, arc, transcription, texts/masa0556.xml
 דא, arc, transcription, texts/mger0199.xml
@@ -15421,6 +15416,7 @@ western, grc, transcription, texts/tibe0004.xml
 דר, arc, transcription, texts/idum0207.xml
 דר, arc, transcription, texts/idum0377.xml
 דר, arc, transcription, texts/idum0378.xml
+דר, heb, transcription, texts/jord0001.xml
 דרבי, arc, transcription, texts/jaff0051.xml
 דרהמין, heb, transcription, texts/tibe0010.xml
 דרהנו, arc, transcription, texts/idum0091.xml
@@ -15492,10 +15488,10 @@ western, grc, transcription, texts/tibe0004.xml
 הגדם, arc, transcription, texts/jeru0036.xml
 הגדראין, arc, transcription, texts/masa0420.xml
 הגיור, grc, transcription, texts/akld0020.xml
-הד/י, he, transcription, texts/qumr0001.xml
 הדא, arc, transcription, texts/jaff0051.xml
 הדה, heb, transcription, texts/beth0223.xml
 הדה, arc, transcription, texts/zoor0362.xml
+הדי, he, transcription, texts/qumr0001.xml
 הדן, heb, transcription, texts/sepp0010.xml
 ההרב, arc, transcription, texts/mger0283.xml
 הו, heb, transcription, texts/jord0001.xml
@@ -15549,7 +15545,7 @@ western, grc, transcription, texts/tibe0004.xml
 הכוהן, heb, transcription, texts/sepp0003.xml
 הכלה, heb, transcription, texts/jeru0092.xml
 הל, he, transcription, texts/qumr0001.xml
-הלי/ו, he, transcription, texts/qumr0001.xml
+הליו, he, transcription, texts/qumr0001.xml
 הליוי, heb, transcription, texts/sepp0006.xml
 הלל, arc, transcription, texts/idum0138.xml
 הלל, arc, transcription, texts/masa0423.xml
@@ -15676,8 +15672,6 @@ western, grc, transcription, texts/tibe0004.xml
 ו, arc, transcription, texts/mger0385.xml
 ו, arc, transcription, texts/unkn0106.xml
 ו, arc, transcription, texts/zoor0363.xml
-ו/בצם, arc, transcription, texts/idum0067.xml
-ו/י, he, transcription, texts/qumr0001.xml
 וא, arc, transcription, texts/jmon0001.xml
 וא, arc, transcription, texts/mger0095.xml
 ואגדה, heb, transcription, texts/jord0001.xml
@@ -15747,6 +15741,7 @@ western, grc, transcription, texts/tibe0004.xml
 ובניה, arc, transcription, texts/mger0045.xml
 ובנסד, heb, transcription, texts/jord0001.xml
 ובעה, arc, transcription, texts/mare0135.xml
+ובצם, arc, transcription, texts/idum0067.xml
 וברה, heb, transcription, texts/jeru0045.xml
 וברה, arc, transcription, texts/mger0020.xml
 וברוכין, he, transcription, texts/huqo0001.xml
@@ -15761,7 +15756,7 @@ western, grc, transcription, texts/tibe0004.xml
 ודעתיד, heb, transcription, texts/tibe0003.xml
 וה, heb, transcription, texts/jord0001.xml
 וה, arc, transcription, texts/mger0322.xml
-וה/אתאנים, he, transcription, texts/qumr0001.xml
+והאתאנים, he, transcription, texts/qumr0001.xml
 והבאל, arc, transcription, texts/mare0042.xml
 והבי, arc, transcription, texts/mare0134.xml
 והדך, arc, transcription, texts/unkn0107.xml
@@ -15785,6 +15780,7 @@ western, grc, transcription, texts/tibe0004.xml
 וטפחים, he, transcription, texts/masa0585.xml
 וי, heb, transcription, texts/jord0001.xml
 וי, arc, transcription, texts/masa0674.xml
+וי, he, transcription, texts/qumr0001.xml
 ויאל, arc, transcription, texts/idum0379.xml
 ויהב, arc, transcription, texts/mare0136.xml
 ויהו, arc, transcription, texts/mger0022.xml
@@ -16126,7 +16122,6 @@ western, grc, transcription, texts/tibe0004.xml
 ח, arc, transcription, texts/mger0353.xml
 ח, arc, transcription, texts/mger0393.xml
 ח, he, transcription, texts/qumr0001.xml
-ח/תומ/פותבי/ות, he, transcription, texts/qumr0001.xml
 חא, arc, transcription, texts/mare0080.xml
 חבות, arc, transcription, texts/idum0143.xml
 חבותו, arc, transcription, texts/idum0079.xml
@@ -16329,6 +16324,7 @@ western, grc, transcription, texts/tibe0004.xml
 חשבו, arc, transcription, texts/idum0312.xml
 חשבשעדאל, arc, transcription, texts/idum0124.xml
 חת, heb, transcription, texts/jord0001.xml
+חתומפותביות, he, transcription, texts/qumr0001.xml
 חתם, arc, transcription, texts/mare0136.xml
 ט, arc, transcription, texts/idum0297.xml
 ט, arc, transcription, texts/masa0109.xml
@@ -17076,9 +17072,9 @@ western, grc, transcription, texts/tibe0004.xml
 לבני, arc, transcription, texts/idum0220.xml
 לבני, arc, transcription, texts/idum0226.xml
 לבני, arc, transcription, texts/idum0232.xml
-לבני/לבית, arc, transcription, texts/idum0058.xml
 לבניוצי, arc, transcription, texts/idum0130.xml
 לבניי, arc, transcription, texts/idum0131.xml
+לבנילבית, arc, transcription, texts/idum0058.xml
 לבניעלבעל, arc, transcription, texts/idum0167.xml
 לבניקוצי, arc, transcription, texts/idum0107.xml
 לבנירו, arc, transcription, texts/idum0102.xml
@@ -17199,7 +17195,6 @@ western, grc, transcription, texts/tibe0004.xml
 לי, arc, transcription, texts/masa0197.xml
 לי, arc, transcription, texts/masa0198.xml
 לי, arc, transcription, texts/masa0554.xml
-לי/ואת, he, transcription, texts/qumr0001.xml
 ליד, arc, transcription, texts/idum0010a.xml
 ליד, arc, transcription, texts/idum0023.xml
 ליד, arc, transcription, texts/idum0024.xml
@@ -17214,6 +17209,7 @@ western, grc, transcription, texts/tibe0004.xml
 ליהוחנן, arc, transcription, texts/masa0558.xml
 ליהוחנן, arc, transcription, texts/masa0559.xml
 ליהוחנן, arc, transcription, texts/masa0567.xml
+ליואת, he, transcription, texts/qumr0001.xml
 ליודן, heb, transcription, texts/beth0274.xml
 לייאל, arc, transcription, texts/masa0669.xml
 לינה, grc, transcription, texts/qast0001.xml
@@ -17517,7 +17513,6 @@ western, grc, transcription, texts/tibe0004.xml
 מ, arc, transcription, texts/mger0343.xml
 מ, arc, transcription, texts/mger0345.xml
 מ-, arc, transcription, texts/masa0554.xml
-מ/ת/מ/ת/יום, he, transcription, texts/qumr0001.xml
 מא, heb, transcription, texts/jord0001.xml
 מא, arc, transcription, texts/masa0680.xml
 מא, arc, transcription, texts/zoor0363.xml
@@ -17832,7 +17827,8 @@ western, grc, transcription, texts/tibe0004.xml
 מתיה, arc, transcription, texts/jeru0198.xml
 מתיה, he, transcription, texts/masa0498.xml
 מתיס, arc, transcription, texts/mger0054.xml
-מתכ/מתב, he, transcription, texts/shap0004.xml
+מתכמתב, he, transcription, texts/shap0004.xml
+מתמתיום, he, transcription, texts/qumr0001.xml
 מתן, arc, transcription, texts/mare0133.xml
 מתרקה, arc, transcription, texts/mger0156.xml
 מתתיה, heb, transcription, texts/jeru0025.xml
@@ -17949,7 +17945,7 @@ western, grc, transcription, texts/tibe0004.xml
 נקי, arc, transcription, texts/masa0572.xml
 נקי, arc, transcription, texts/masa0577.xml
 נרו, arc, transcription, texts/mger0231.xml
-נרס/ת, arc, transcription, texts/mger0044.xml
+נרסת, arc, transcription, texts/mger0044.xml
 נשאת, arc, transcription, texts/mare0136.xml
 נשבר, heb, transcription, texts/jord0001.xml
 נשו, arc, transcription, texts/hraq0001.xml
@@ -18174,8 +18170,8 @@ western, grc, transcription, texts/tibe0004.xml
 עגלן, arc, transcription, texts/mare0070.xml
 עגלן, arc, transcription, texts/mare0071.xml
 עד, arc, transcription, texts/unkn0107.xml
-עדיד/רו, arc, transcription, texts/idum0059.xml
 עדידו, arc, transcription, texts/idum0032.xml
+עדידרו, arc, transcription, texts/idum0059.xml
 עדירו, arc, transcription, texts/idum0032.xml
 עדראל, arc, transcription, texts/idum0066.xml
 עדרבעל, arc, transcription, texts/idum0015.xml
@@ -19469,13 +19465,13 @@ western, grc, transcription, texts/tibe0004.xml
 שסאן, arc, transcription, texts/idum0038.xml
 שסמן, heb, transcription, texts/jord0001.xml
 שע, arc, transcription, texts/mger0043.xml
-שעד/רו, arc, transcription, texts/idum0065.xml
 שעדאל, arc, transcription, texts/idum0007.xml
 שעדאל, arc, transcription, texts/idum0008.xml
 שעדאל, arc, transcription, texts/idum0009.xml
 שעדאל, arc, transcription, texts/idum0010a.xml
 שעדאל, arc, transcription, texts/idum0023.xml
 שעדאל, arc, transcription, texts/idum0024.xml
+שעדרו, arc, transcription, texts/idum0065.xml
 שעידו, arc, transcription, texts/idum0075.xml
 שעידו, arc, transcription, texts/idum0216.xml
 שער, heb, transcription, texts/jord0001.xml
@@ -20812,7 +20808,7 @@ western, grc, transcription, texts/tibe0004.xml
 Ἀνάπαυσις, grc, transcription, texts/jaff0028.xml
 Ἀνάπαυσον, grc, transcription, texts/zoor0334.xml
 Ἀνίνα, grc, transcription, texts/bshe0013.xml
-Ἀνίνα*, grc, transcription, texts/bshe0029.xml
+Ἀνίνα, grc, transcription, texts/bshe0029.xml
 Ἀνίνας, grc, transcription, texts/balf0001.xml
 Ἀνίνας, grc, transcription, texts/jeru0158.xml
 Ἀνα, grc, transcription, texts/carm0013.xml
