@@ -5,10 +5,10 @@
 <title></title>
 </head>
 <body>
-	
+	<p  id="content"></p>
 	<script>
 		function displayData(responseText) {
-			body.innerHTML = responseText;
+			document.getElementById("content").innerHTML = responseText;
 		}
 		function getData(url) {
 			var xmlhttp = new XMLHttpRequest();

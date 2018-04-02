@@ -5,7 +5,7 @@
 <title></title>
 </head>
 <body>
-	
+	<p  id="content"></p>
 	<script>
 		function displayData(responseText) {
 			body.innerHTML = responseText;
