@@ -28,6 +28,8 @@ class iip_word:
 		# eg: jeru00001.xml
 		self.file_name = file_name
 		
+		self.xml_context = text
+		
 		self.contains_gap = contains_gap
 	def __hash__(self):
 		new_hash = 0
@@ -41,8 +43,13 @@ class iip_word:
 			return False
 	def __ne__(self, other):
 		return not self.__eq__(other)
+	
+	def append_string(self, string):
+		self.text += string
+		self.xml_context += string
+	
 	def print(self):
-		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name)
+		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name + "|" + self.xml_context)
 
 def word_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME):
 	if os.path.isfile(output_name + '.csv'):
@@ -52,7 +59,7 @@ def word_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME):
 		return
 	output_file = open(output_name + ".csv", "a")
 	for word in full_list:
-		output_file.write(word.text + ", " + word.language + ", " + word.edition_type + ", " + word.file_name + "\n")
+		output_file.write(word.text + ", " + word.language + ", " + word.edition_type + ", " + word.xml_context.replace(",", "&#44;") + ", " + word.file_name + "\n")
 
 def word_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME):	
 	word_list = full_list[0:1000]
@@ -81,9 +88,12 @@ def word_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME):
 	table_header_edition.text = "Edition"
 	table_header_file = etree.Element("th")
 	table_header_file.text = "File"
+	table_header_xml = etree.Element("th")
+	table_header_xml.text = "Xml"
 	table_header.append(table_header_word)
 	table_header.append(table_header_language)
 	table_header.append(table_header_edition)
+	table_header.append(table_header_xml)
 	table_header.append(table_header_file)
 	table.append(table_header)
 	for word in word_list:
@@ -99,9 +109,12 @@ def word_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME):
 		file_name_link.text = (word.file_name)
 		file_name_link.attrib["href"] = word.file_name
 		file_name.append(file_name_link)
+		xml_context = etree.Element("td")
+		xml_context.text = word.xml_context
 		row.append(text)
 		row.append(language)
 		row.append(edition_type)
+		row.append(xml_context)
 		row.append(file_name)
 		table.append(row)
 	if num > 0:
@@ -117,26 +130,26 @@ def word_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME):
 	output_file = open(output_name + "-" + str(num) + ".html", "w")
 	output_file.write(etree.tostring(html, pretty_print=True).decode())
 	output_file.close()
-	style_file = open("wordlist.css", "w")
-	style_file.write("""
-		table {
-			border-collapse: collapse;
-		}
-		th {
-			background-color: black;
-			color: white;
-			text-align: left;
-			border: 1px solid black;
-		}
-		th, td {
-			padding: 3px;
-			padding-right: 3ch;
-		}
-		td {
-			border: 1px solid grey;
-		}
-	""")
-	style_file.close()
+	#style_file = open("wordlist.css", "w")
+	#style_file.write("""
+		#table {
+			#border-collapse: collapse;
+		#}
+		#th {
+			#background-color: black;
+			#color: white;
+			#text-align: left;
+			#border: 1px solid black;
+		#}
+		#th, td {
+			#padding: 3px;
+			#padding-right: 3ch;
+		#}
+		#td {
+			#border: 1px solid grey;
+		#}
+	#""")
+	#style_file.close()
 	if (len(next_list) > 0):
 		word_list_to_html(next_list, num + 1, output_name)
 
@@ -144,6 +157,22 @@ def whitespace_to_space(text):
 	if text == None or len(text) < 1:
 		return ""
 	return " ".join(text.split())
+
+def remove_namespace(tagtext):
+	tokens = tagtext.split()
+	modified_tagtext = ""
+	for e in tokens:
+		if not e.startswith("xmlns"):
+			modified_tagtext += " " + e
+		else:
+			ns_stripped = False
+			for character in e:
+				if character == '>':
+					ns_stripped = True
+				if ns_stripped:
+					modified_tagtext += character
+				
+	return modified_tagtext
 
 def word_list_to_str_list(word_list):
 	str_list = ""
@@ -159,18 +188,24 @@ def append_to_word_list(word_list, word):
 # Add to the supplied word list text that is either within a tag and 
 # preceding all child elements or following a tag but before any sibling
 # elements. In lxml terms, element.text() and element.tail()
-def add_trailing_text(word_list, trailing_text, edition_type, lang, path, include_initial_line_break):
+def add_trailing_text(word_list, element, trailing_text, edition_type, lang, path, include_initial_line_break, xml_context=""):
 	trailing_text_list = trailing_text.split() 
 	if len(word_list) == 0 or trailing_text[0] == ' ' or (trailing_text[0] == '\n' and include_initial_line_break):
 		if word_list[-1].text != "":
 			append_to_word_list(word_list, iip_word(edition_type, lang, "", path))
 	if len(trailing_text_list) < 1:
 		return
-	word_list[-1].text += trailing_text_list[0]
+	if (trailing_text == element.text):
+		word_list[-1].xml_context += "<" + element.tag.replace(ns, "").replace(xmlNs, "") + ">"
+	
+	word_list[-1].append_string(trailing_text_list[0])
 	if len(word_list) > 1:
 		for i in range(1, len(trailing_text_list)):
 			new_word = iip_word(edition_type, lang, trailing_text_list[i], path)
 			append_to_word_list(word_list, new_word)
+	if (trailing_text == element.text): 
+		word_list[-1].xml_context += "</" + element.tag.replace(ns, "").replace(xmlNs, "") + ">"
+	
 	if (trailing_text[-1] == ' ' or trailing_text[-1] == '\n'):
 		if word_list[-1].text != "":
 			append_to_word_list(word_list, iip_word(edition_type, lang, "", path))
@@ -192,9 +227,9 @@ def add_element_to_word_list(e, new_words, edition, mainLang, path):
 	if e.tag == ns + "lb" and not ('break' in e.attrib and e.attrib['break'] == "no"):
 		append_to_word_list(new_words, iip_word(edition.attrib['subtype'], editionLang, "", path))
 	
-	# Add the text within the elemnt not inside any child element
+	# Add the text within the element not inside any child element
 	if (e.text != None):
-		add_trailing_text(new_words, e.text, edition.attrib['subtype'], wordLang, path, True)
+		add_trailing_text(new_words, e, e.text, edition.attrib['subtype'], wordLang, path, True)
 	
 	# Add each child element
 	children = e.getchildren()
@@ -208,7 +243,7 @@ def add_element_to_word_list(e, new_words, edition, mainLang, path):
 	
 	# Add the words following the element which are not in any sibling
 	if (e.tail != None):
-		add_trailing_text(new_words, e.tail, edition.attrib['subtype'], wordLang, path, (e.tag in include_trailing_linebreak))
+		add_trailing_text(new_words, e, e.tail, edition.attrib['subtype'], wordLang, path, (e.tag in include_trailing_linebreak))
 
 def get_words_from_file(path):
 	root = etree.parse(path).getroot()

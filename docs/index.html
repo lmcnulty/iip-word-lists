@@ -7,29 +7,36 @@
 </head>
 <body>
 	<div id="controls">
-	Sort by 
+	<p>Sort by 
 	<select id="sort1"> 
 		<option value="1">Language</option>
-		<option value="3">File</option>		
+		<option value="4">File</option>		
 		<option value="0">Alphabetical</option>	
 	</select> 
 	then by
 	<select id="sort2"> 
 		<option value="0">Alphabetical</option>		
 		<option value="1">Language</option>
-		<option value="3">File</option>	
-	</select>
-	and display from <input type="number" id="startIndex" value="0"/> to <input type="number" id="endIndex" value="1000" /> <button onclick="reorderData()"> Sort </button>
-	</div>	
-	<table id="data"><tr><th>Word</th><th>Language</th><th>Edition</th><th>File</th></tr></table>
+		<option value="4">File</option>	
+	</select><button onclick="reorderData()"> Sort </button></p>
+	
+	<p>Display from <input type="number" id="startIndex" value="0"/> to <input type="number" id="endIndex" value="1000" /> 
+	<button onclick="dataRange()">Display</button>
+	</p>
+	</div>
+	<p></p><button onclick="displayPrev()">Prev</button>	
+	<button onclick="displayNext()">Next</button>	</p>
+	<table id="data"><tr><th>Word</th><th>Language</th><th>Edition</th><th>Xml</th><th>File</th></tr></table>
+	<p></p><button onclick="displayPrev()">Prev</button>	
+	<button onclick="displayNext()">Next</button>	</p>
 	<script>
 		let sortOrder = [1, 0, 3, 2];
-		let pathIndex = 3;		
+		let pathIndex = 4;
+		let xmlIndex = 3;
 		
 		let wordList = null;
-		function displayData(wordList, start, end) {
-			let rows = wordList.split("\n");
-			
+		let rows = null;
+		function sortData(wordList) {
 			rows.sort(function (a, b) {
 				let columnsA = a.split(",");
 				let columnsB = b.split(",");
@@ -41,14 +48,20 @@
 					}
 				}
 				return 0;
-			});			
-			
+			});	
+		}
+				
+		function displayData(wordList, start, end) {
 			let dataTable = document.getElementById('data');
 			while(dataTable.childNodes.length > 1) {
 				dataTable.removeChild(dataTable.lastChild);
 			}			
 			
 			for (let i = start; i < end; i++) {
+				if (rows[i] == null) {
+					console.log("Trying to access null row " + i);
+					return;
+				}
 				let newRow = document.createElement("tr");
 				let newRowData = rows[i].split(",");
 				for (let j = 0; j < newRowData.length; j++) {
@@ -58,6 +71,10 @@
 						newLink.href = newRowData[j];
 						newLink.innerHTML = newRowData[j].split("/")[1];
 						newColumn.appendChild(newLink);
+					} else if (j == xmlIndex) {
+						//let xml = document.createElement("pre");
+						newColumn.innerHTML = newRowData[j].replace("<", " &#60;").replace(">", "&#62;").replace("/", "&#47;");
+						//newColumn.appendChild(xml);
 					} else {
 						newColumn.innerHTML = newRowData[j];
 					}					
@@ -74,6 +91,7 @@
 				if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
 					if (xmlhttp.status == 200) {
 						wordList = xmlhttp.responseText;
+						rows = wordList.split("\n");
 						displayData(wordList, 0, 1000);
 					}
 					else if (xmlhttp.status == 400) {
@@ -90,8 +108,30 @@
 		
 		function reorderData() {
 			sortOrder = [parseInt(document.getElementById("sort1").value), parseInt(document.getElementById("sort2").value)];
-			displayData(wordList, document.getElementById("startIndex").value, document.getElementById("endIndex").value); 
+			sortData(wordList);
+			displayData(wordList, 0, 1000); 
 		}		
+		
+		function dataRange() {
+			console.log("Trying to change data range");
+			displayData(wordList, document.getElementById("startIndex").value, document.getElementById("endIndex").value);
+		}
+		
+		function displayNext() {
+			let newStart = parseInt(document.getElementById("startIndex").value) + 1000;
+			let newEnd = parseInt(document.getElementById("endIndex").value) + 1000;
+			displayData(wordList, newStart, newEnd);
+			document.getElementById("endIndex").value = "" + newEnd;
+			document.getElementById("startIndex").value = "" + newStart;
+		}
+		
+		function displayPrev() {
+			let newStart = Math.max(parseInt(document.getElementById("startIndex").value) - 1000, 0);
+			let newEnd = newStart + 1000;
+			displayData(wordList, newStart, newEnd);
+			document.getElementById("endIndex").value = "" + newEnd;
+			document.getElementById("startIndex").value = "" + newStart;
+		}
 		
 		getData("wordlist.csv");
 		

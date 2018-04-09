@@ -9,7 +9,9 @@ unzip master.zip;
 cp -r iip-texts-master/epidoc-files/ ../docs/texts;
 cd ..;
 rm -rf temp;
+cp viewer.html docs/index.html;
+cp wordlist.css docs/;
 cd docs;
-../wordlist.py texts/* --silent --html --csv --sort aefl --nodiplomatic;
-cp wordlist-0.html index.html;
+../wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic;
+#cp wordlist-0.html index.html;
 
