@@ -24,11 +24,11 @@
 	<button onclick="dataRange()">Display</button>
 	</p>
 	</div>
-	<p></p><button onclick="displayNext()">Prev</button>	
-	<button onclick="displayPrev()">Next</button>	</p>
+	<p></p><button onclick="displayPrev()">Prev</button>	
+	<button onclick="displayNext()">Next</button>	</p>
 	<table id="data"><tr><th>Word</th><th>Language</th><th>Edition</th><th>Xml</th><th>File</th></tr></table>
-	<p></p><button onclick="displayNext()">Prev</button>	
-	<button onclick="displayPrev()">Next</button>	</p>
+	<p></p><button onclick="displayPrev()">Prev</button>	
+	<button onclick="displayNext()">Next</button>	</p>
 	<script>
 		let sortOrder = [1, 0, 3, 2];
 		let pathIndex = 4;
@@ -58,6 +58,10 @@
 			}			
 			
 			for (let i = start; i < end; i++) {
+				if (rows[i] == null) {
+					console.log("Trying to access null row " + i);
+					return;
+				}
 				let newRow = document.createElement("tr");
 				let newRowData = rows[i].split(",");
 				for (let j = 0; j < newRowData.length; j++) {
@@ -113,21 +117,23 @@
 			displayData(wordList, document.getElementById("startIndex").value, document.getElementById("endIndex").value);
 		}
 		
-		function displayPrev() {
-			let startIndex = document.getElementById("startIndex").value;
-			let endIndex = document.getElementById("endIndex").value;
-			let range = endIndex - startIndex;
-			displayData(wordList, endIndex, endIndex + range);
-		}
-		
 		function displayNext() {
-			let startIndex = document.getElementById("startIndex").value;
-			let endIndex = document.getElementById("endIndex").value;
-			let range = endIndex - startIndex;
-			displayData(wordList, Math.max(startIndex - range, 0), startIndex);
+			let newStart = parseInt(document.getElementById("startIndex").value) + 1000;
+			let newEnd = parseInt(document.getElementById("endIndex").value) + 1000;
+			displayData(wordList, newStart, newEnd);
+			document.getElementById("endIndex").value = "" + newEnd;
+			document.getElementById("startIndex").value = "" + newStart;
 		}
 		
-		getData("wordlist.csv");
+		function displayPrev() {
+			let newStart = Math.max(parseInt(document.getElementById("startIndex").value) - 1000, 0);
+			let newEnd = newStart + 1000;
+			displayData(wordList, newStart, newEnd);
+			document.getElementById("endIndex").value = "" + newEnd;
+			document.getElementById("startIndex").value = "" + newStart;
+		}
+		
+		getData("wordlist_lat.csv");
 		
 	</script>
 </body>

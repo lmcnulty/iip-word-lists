@@ -27,20 +27,21 @@ class iip_word:
 		self.text = text
 		# eg: jeru00001.xml
 		self.file_name = file_name
-		
+		# eg: happ<unclear>i</unclear>n<supplied>ess</supplied>
 		self.xml_context = text
 		
-		self.contains_gap = contains_gap
 	def __hash__(self):
 		new_hash = 0
 		for e in iip_word.equivilence:
 			new_hash += hash(getattr(self, e))
 		return new_hash
+	
 	def __eq__(self, other):
 		if isinstance(other, self.__class__):
 			return hash(self) == hash(other)
 		else:
 			return False
+	
 	def __ne__(self, other):
 		return not self.__eq__(other)
 	
@@ -51,17 +52,31 @@ class iip_word:
 	def print(self):
 		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name + "|" + self.xml_context)
 
-def word_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME):
-	if os.path.isfile(output_name + '.csv'):
-		os.remove(output_name + '.csv')
-	if os.path.isdir(output_name + '.csv'):
-		sys.stderr.write(output_name + '.csv is a directory.')
-		return
-	output_file = open(output_name + ".csv", "a")
+def word_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME, langfiles=False):
+	files = {}
+	if not langfiles:
+		if os.path.isfile(output_name + '.csv'):
+			os.remove(output_name + '.csv')
+		if os.path.isdir(output_name + '.csv'):
+			sys.stderr.write(output_name + '.csv is a directory.')
+			return
+		output_file = open(output_name + ".csv", "a")
+	
 	for word in full_list:
-		output_file.write(word.text + ", " + word.language + ", " + word.edition_type + ", " + word.xml_context.replace(",", "&#44;") + ", " + word.file_name + "\n")
+		word_output_file = None
+		if langfiles:
+			if not word.language in files:
+				if os.path.isfile(output_name + '.csv'):
+					os.remove(output_name + '.csv')
+				if os.path.isdir(output_name + '.csv'):
+					sys.stderr.write(output_name + '.csv is a directory.')
+				files[word.language] = open(output_name + "_" + word.language + ".csv", "a")
+			word_output_file = files[word.language]
+		else:
+			word_output_file = output_file
+		word_output_file.write(word.text + ", " + word.language + ", " + word.edition_type + ", " + word.xml_context.replace(",", "&#44;") + ", " + word.file_name + "\n")
 
-def word_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME):	
+def word_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME, langfiles=False):	
 	word_list = full_list[0:1000]
 	next_list = full_list[1000:len(full_list)]
 	html = etree.Element("html")
@@ -196,15 +211,18 @@ def add_trailing_text(word_list, element, trailing_text, edition_type, lang, pat
 	if len(trailing_text_list) < 1:
 		return
 	if (trailing_text == element.text):
-		word_list[-1].xml_context += "<" + element.tag.replace(ns, "").replace(xmlNs, "") + ">"
+		try:
+			word_list[-1].xml_context += "<" + element.tag.replace(ns, "").replace(xmlNs, "") + ">"
+		except:
+			pass
 	
 	word_list[-1].append_string(trailing_text_list[0])
 	if len(word_list) > 1:
 		for i in range(1, len(trailing_text_list)):
 			new_word = iip_word(edition_type, lang, trailing_text_list[i], path)
 			append_to_word_list(word_list, new_word)
-	if (trailing_text == element.text): 
-		word_list[-1].xml_context += "</" + element.tag.replace(ns, "").replace(xmlNs, "") + ">"
+	
+	
 	
 	if (trailing_text[-1] == ' ' or trailing_text[-1] == '\n'):
 		if word_list[-1].text != "":
@@ -241,6 +259,11 @@ def add_element_to_word_list(e, new_words, edition, mainLang, path):
 			append_to_word_list(new_words, prev_word)
 		add_element_to_word_list(children[i], new_words, edition, mainLang, path)
 	
+	try:
+		new_words[-1].xml_context += "</" + e.tag.replace(ns, "").replace(xmlNs, "") + ">"
+	except:
+		pass
+		
 	# Add the words following the element which are not in any sibling
 	if (e.tail != None):
 		add_trailing_text(new_words, e, e.tail, edition.attrib['subtype'], wordLang, path, (e.tag in include_trailing_linebreak))
@@ -285,8 +308,6 @@ def flatten_list(word_list):
 def remove_duplicates(items):
 	return list(OrderedDict.fromkeys(items))
 
-
-
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Produce word list from files.')
 	parser.add_argument('files', type=str, nargs='+', help='The epidoc xml files to process')
@@ -295,18 +316,15 @@ if __name__ == '__main__':
 	parser.add_argument("--silent", help="Don't print the word list to the console", action="store_true")
 	parser.add_argument("--duplicates", help="Include each instance of every word in the word list", action="store_true")
 	parser.add_argument("--nodiplomatic", help="Do not include words extracted from diplomatic editions in word list", action="store_true")
-
-	#parser.add_argument("--alphabetical", help="Sort the list alphabetically", action="store_true")
 	parser.add_argument("--fileexception", help="Print exceptions for files which could not be read", action="store_true")
-	
+	parser.add_argument("--langfiles", help="Write a seperate file for each language", action="store_true")	
 	parser.add_argument("-s", "--sort", type=str, help="Sort the list by the specified fields")
 	parser.add_argument("-n", "--name", type=str, help="The name of the output file without the extension")
 	args = parser.parse_args()
 
+	# Extract words from each file
 	words = []
-
-	# Extract words from each file 
-	for file in args.files: #sys.argv[1:len(sys.argv)]:
+	for file in args.files:
 		if args.fileexception:
 			words += get_words_from_file(file)
 		else:
@@ -327,9 +345,8 @@ if __name__ == '__main__':
 				filtered_words.append(word)
 		words = filtered_words
 
-	#sort_order = ["language", "text", "file_name", "edition_type"]
+	# Sort according to the given arguments before writing to file
 	sort_order = []
-
 	if args.sort != None:
 		for e in args.sort:
 			if e == 'l':
@@ -342,29 +359,21 @@ if __name__ == '__main__':
 				sort_order.append("edition_type")
 			else:
 				print("Invalid sort criterion: '" + e + "'")
-
-
 	sort_order.reverse()
 	for field in sort_order:
 		words = sorted(words, key=lambda word: word.__dict__[field])
-
-	#if args.alphabetical:
-	#	words = sorted(words, key=lambda word: word.text)
 
 	# Print each extracted word on a new line
 	if not args.silent:
 		for word in words:		
 			word.print()
 
+	# Output words to files
 	output_name = DEFAULT_OUTPUT_NAME;
 	if args.name != None:
 		output_name = args.name
-
-	# Output words to files
 	if args.html:
-		word_list_to_html(words, output_name=output_name)
+		word_list_to_html(words, output_name=output_name, langfiles=args.langfiles)
 	if args.csv:
-		word_list_to_csv(words, output_name=output_name)
+		word_list_to_csv(words, output_name=output_name, langfiles=args.langfiles)
 	sys.exit(0)
-
-
