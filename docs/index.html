@@ -16,7 +16,7 @@
 		}		
 		#tabs {
 			height: 50px;
-			background-color: whitesmoke;
+			background-color: lightgrey;
 			display: flex;
 					
 		}
@@ -51,11 +51,13 @@
 		<div class="tab" onclick="switchTab('grc')">Greek</div>
 		<div class="tab" onclick="switchTab('la')">Latin</div>
 		<div class="tab" onclick="switchTab('heb')">Hebrew</div>	
+		<div class="tab" onclick="switchTab('arc')">Aramaic</div>
 	</div>	
 	<div id="view">
 		<iframe id="pane_grc" class="pane" src="wordlist_grc.html"></iframe>
 		<iframe id="pane_la" class="pane" src="wordlist_la.html"></iframe>
 		<iframe id="pane_heb" class="pane" src="wordlist_heb.html"></iframe>
+		<iframe id="pane_arc" class="pane" src="wordlist_arc.html"></iframe>
 	</div>
 	<script type="text/javascript">
 		console.log(document.body.clientWidth);
@@ -76,7 +78,7 @@
 		}
 		function updateSelection(lang) {
 			for (let i = 0; i < theTabs.length; i++) {
-				theTabs[i].style.backgroundColor = "whitesmoke";
+				theTabs[i].style.backgroundColor = "lightgrey";
 			}			
 			switch(lang) {
 				case "grc":
@@ -87,7 +89,9 @@
 					break;
 				case "heb":
 					theTabs[2].style.backgroundColor = "white";
-					break;			
+					break;
+				case "arc":
+					theTabs[3].style.backgroundColor = "white";
 			}		
 		}
 		switchTab("la");
