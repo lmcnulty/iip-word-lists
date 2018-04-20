@@ -101,6 +101,7 @@ Caius, la, transcription, </lb><abbr>C</abbr><ex>aius</ex></expan>, texts/caes00
 Caius, la, transcription, <p>Caius, texts/haif0020a.xml
 Callisto, la, transcription, </space>Callisto, texts/caes0002.xml
 Calpurniano, la, transcription, Calpurniano, texts/caes0010.xml
+Camilia, la, transcription, </lb>Camilia</gap>, texts/emma0001.xml
 Campagonum, la, transcription, </lb>Campagonum, texts/caes0004.xml
 Campestris, la, transcription, <supplied>C</supplied>ampestr<supplied>is</supplied>, texts/masa0830.xml
 Cdo, la, transcription, <p>C</gap>do, texts/caes0062.xml
@@ -188,8 +189,10 @@ Hadrianus, la, transcription, </lb>Hadrianus, texts/caes0051.xml
 Hadrianus, la, transcription, </lb>Hadrianus, texts/caes0052.xml
 Hadrianus, la, transcription, <expan>Hadrianus</expan>, texts/caes0054.xml
 Hemesenorum, la, transcription, Hemese<del>norum, texts/caes0004.xml
+Heres, la, transcription, </lb><abbr>H</abbr><ex>eres</ex></expan>, texts/emma0001.xml
 Herinnius, la, transcription, <abbr>Herin</abbr><ex>nius</ex></expan>, texts/masa0829.xml
 Hestia, la, transcription, </lb>Hest<supplied>ia</supplied>, texts/haif0020a.xml
+Hic, la, transcription, </lb><abbr>H</abbr><ex>ic</ex></expan>, texts/emma0001.xml
 Hilarus, la, transcription, Hilarus, texts/caes0146.xml
 Hispanorum, la, transcription, <abbr>Hispan</abbr><ex>orum</ex></expan>, texts/caes0004.xml
 I, la, transcription, I, texts/caes0003.xml
@@ -244,6 +247,7 @@ MO, la, transcription, <hi>MO</hi>, texts/masa0945.xml
 MON, la, transcription, MON, texts/haif0020a.xml
 MON, la, transcription, <p>MON</gap></p></div>, texts/masa0833.xml
 MT, la, transcription, <p>MT</p></div>, texts/masa0921.xml
+Macedonicae, la, transcription, </lb><abbr>Mac</abbr><ex>edonicae</ex></expan>&#44;, texts/emma0001.xml
 Magnus, la, transcription, <abbr>Magnu</abbr><ex>s</ex></expan>, texts/caes0119.xml
 Manibus, la, transcription, <abbr>M</abbr><ex>anibus</ex></expan>, texts/caes0146.xml
 Manibus, la, transcription, <abbr>M</abbr><ex>anibus</ex></expan>., texts/caes0160.xml
@@ -273,6 +277,7 @@ OLEARI, la, transcription, <p>OLEARI</gap></p></div>, texts/masa0851.xml
 OPOI, la, transcription, </lb></gap>O<unclear>P</unclear>O</gap><unclear>I</unclear></del>., texts/caes0008.xml
 Octa, la, transcription, <abbr>Oct<supplied>a</supplied>, texts/masa0949.xml
 Omni, la, transcription, <p>Omni, texts/caes0016.xml
+Oppiusfilius, la, transcription, Oppi<supplied>us</gap><abbr>f</abbr><ex>ilius</ex></expan>, texts/emma0001.xml
 Osrhoenae, la, transcription, <abbr>Osr</abbr><ex>hoenae</ex></expan>, texts/caes0010.xml
 P, la, transcription, </lb></gap>P</supplied>, texts/caes0013.xml
 PA, la, transcription, <p>PA</p></div>, texts/masa0951.xml
@@ -318,6 +323,8 @@ Quintianus, la, transcription, Quintianus</del>, texts/caes0015.xml
 Quirina, la, transcription, <abbr>Quir</abbr><ex>ina</ex></expan>, texts/caes0015.xml
 Quirina, la, transcription, <abbr>Quir</abbr><ex>ina</ex></expan>, texts/caes0018.xml
 RI, la, transcription, </unclear></unclear></unclear>RI, texts/caes0008.xml
+Ravena, la, transcription, <sic>Rave<supplied>na</supplied>, texts/emma0001.xml
+Ravenna, la, transcription, <corr>Ravenna</corr></choice>, texts/emma0001.xml
 Rhodope, la, transcription, </lb>Rhodo<supplied>pe</supplied>, texts/caes0160.xml
 Romano, la, transcription, <abbr>R</abbr><ex>omano</ex></expan>, texts/caes0010.xml
 Romano, la, transcription, </lb>Romano, texts/caes0107.xml
@@ -379,12 +386,14 @@ Traiano, la, transcription, <abbr>Tr</abbr><ex>aia</ex><abbr>n</abbr><ex>o</ex><
 Traianus, la, transcription, </lb>Traianus, texts/caes0051.xml
 Traianus, la, transcription, </lb>Traianus, texts/caes0052.xml
 Traianus, la, transcription, </lb><abbr>Tra</abbr><ex>ianus</ex></expan>, texts/caes0054.xml
+V, la, transcription, V, texts/emma0001.xml
 V, la, transcription, </lb>V, texts/haif0020a.xml
 VI, la, transcription, VI, texts/caes0004.xml
 VI, la, transcription, </lb>VI, texts/caes0049.xml
 VI, la, transcription, VI, texts/caes0054.xml
 VI, la, transcription, VI, texts/caes0146.xml
 VICVa, la, transcription, </lb>VICV</gap><unclear>a</unclear></gap>, texts/caes0020.xml
+VIIII, la, transcription, VIIII., texts/emma0001.xml
 Valen­, la, transcription, </gap>Vale<supplied>n</supplied>­, texts/caes0148.xml
 Valeriano, la, transcription, Valeriano, texts/caes0004.xml
 Valeriano, la, transcription, <abbr>Val</abbr><ex>eriano</ex></expan>, texts/caes0009.xml
@@ -417,6 +426,7 @@ XX, la, transcription, <p>XX</gap></p></div>, texts/masa0849.xml
 XX, la, transcription, XX</expan>, texts/yotv0001.xml
 XXI, la, transcription, <unclear>X</unclear>XI</p></div>, texts/masa0846.xml
 XXII, la, transcription, XXI</supplied>I</del>, texts/caes0046.xml
+XXX, la, transcription, </lb>XXX&#44;, texts/emma0001.xml
 XXX, la, transcription, <p>XXX</p></div>, texts/masa0845.xml
 XXXII, la, transcription, <num>XXXII</num>, texts/caes0062.xml
 XXXX, la, transcription, <p>XXXX</p></div>, texts/masa0850.xml
@@ -435,6 +445,8 @@ anhar, la, transcription, <p>anhar</gap></p></div>, texts/masa0753.xml
 anhar, la, transcription, <p>anhar</gap></p></div>, texts/masa0754.xml
 anius, la, transcription, <p>anius</p></div>, texts/masa0756.xml
 anius, la, transcription, <p>anius</p></div>, texts/masa0757.xml
+annos, la, transcription, <corr>annos</corr></choice>, texts/emma0001.xml
+anos, la, transcription, <sic>anos</sic>, texts/emma0001.xml
 ar, la, transcription, </lb>ar</gap></unclear></gap>, texts/caes0022.xml
 arius, la, transcription, </gap>arius</p></div>, texts/masa0755.xml
 asi, la, transcription, <unclear>a</unclear>s<unclear>i</unclear>, texts/caes0037.xml
@@ -452,6 +464,7 @@ centurio, la, transcription, </lb><expan>centurio</expan>, texts/caes0119.xml
 centurio, la, transcription, </am><ex>centurio</ex></expan>, texts/caes0146.xml
 centurio, la, transcription, <expan>centurio</expan>, texts/caes0148.xml
 cher, la, transcription, </lb>cher, texts/caes0022.xml
+cio, la, transcription, </lb>cio, texts/emma0001.xml
 ciss, la, transcription, <del>ciss, texts/caes0016.xml
 civium, la, transcription, <abbr>c</abbr><ex>ivium</ex></expan>, texts/caes0004.xml
 clarissimo, la, transcription, </gap><abbr>c</abbr><ex>larissimo</ex></expan>, texts/caes0008.xml
@@ -516,6 +529,7 @@ eorum, la, transcription, <abbr>eor</abbr><ex>um</ex></expan>., texts/caes0017.x
 equite, la, transcription, <abbr>eq</abbr><ex>uite</ex></expan>, texts/caes0010.xml
 equitum, la, transcription, <abbr>eq</abbr><ex>uitum</ex></expan>, texts/caes0004.xml
 es, la, transcription, (es?), texts/caes0044.xml
+est, la, transcription, <abbr>e</abbr><ex>st</ex></expan>., texts/emma0001.xml
 et, la, transcription, e<unclear>t</unclear></del>, texts/caes0008.xml
 et, la, transcription, <hi>et</hi>, texts/caes0010.xml
 et, la, transcription, <hi>et</hi>, texts/caes0014.xml
@@ -537,6 +551,7 @@ fecerunt, la, transcription, fecerunt.</p></div>, texts/caes0146.xml
 fecit, la, transcription, fecit, texts/caes0051.xml
 fecit, la, transcription, fecit, texts/caes0052.xml
 fecit, la, transcription, </lb>fecit.</p></div>, texts/caes0163.xml
+fecit, la, transcription, <abbr>f</abbr><ex>ecit</ex></expan>.</p></div>, texts/emma0001.xml
 felici, la, transcription, <abbr>f</abbr><ex>elici</ex></expan>, texts/caes0006.xml
 felici, la, transcription, <abbr>fel</abbr><ex>ici</ex></expan>, texts/caes0009.xml
 felici, la, transcription, <abbr>f</abbr><ex>elici</ex></expan>, texts/caes0014.xml
@@ -619,6 +634,7 @@ legionis, la, transcription, </choice><abbr>leg</abbr><ex>ionis</ex></expan>, te
 legionis, la, transcription, <abbr>leg</abbr><ex>ionis</ex></expan>, texts/caes0146.xml
 legionis, la, transcription, </choice><abbr>leg</abbr><ex>ionis</ex></expan>, texts/caes0148.xml
 legionis, la, transcription, </gap><abbr>leg</abbr><ex>ionis</ex></expan>, texts/caes0349.xml
+legionis, la, transcription, <abbr>leg</abbr><ex>ionis</ex></expan>, texts/emma0001.xml
 liberti, la, transcription, <abbr>lib</abbr><ex>erti</ex></expan>, texts/caes0146.xml
 liberto, la, transcription, <abbr>liber</abbr><ex>to</ex></expan>, texts/caes0002.xml
 litati, la, transcription, </lb>litati, texts/caes0009.xml
@@ -639,8 +655,10 @@ metr, la, transcription, <abbr>me<hi>tr</hi>, texts/caes0010.xml
 metr, la, transcription, </choice><abbr>me<hi>tr</hi>, texts/caes0011.xml
 metropolis, la, transcription, <expan>metropolis</expan>, texts/caes0010.xml
 metropolis, la, transcription, </choice><expan>metropolis</expan>, texts/caes0011.xml
+miles, la, transcription, </lb>miles, texts/emma0001.xml
 milianus, la, transcription, </lb>mi<supplied>l</supplied>ianus, texts/bshe0006.xml
 miliariae, la, transcription, </lb>miliariae, texts/caes0004.xml
+militavit, la, transcription, <abbr>milita</abbr><ex>vit</ex></expan>, texts/emma0001.xml
 mitia, la, transcription, mitia, texts/haif0020a.xml
 mq, la, transcription, </supplied><supplied>m</supplied>q</abbr>, texts/caes0019.xml
 multi, la, transcription, <expan>mul<ex>ti, texts/yotv0001.xml
@@ -669,6 +687,7 @@ omnes, la, transcription, o<unclear>m</unclear><unclear>n</unclear>es, texts/cae
 omnia, la, transcription, </lb>omni<supplied>a</supplied>, texts/haif0020a.xml
 optimae, la, transcription, <abbr>o</abbr><ex>ptimae</ex></expan>&#44;, texts/caes0148.xml
 optimo, la, transcription, <abbr>o</abbr><ex>ptimo</ex></expan>, texts/caes0037.xml
+optio, la, transcription, optio&#44;, texts/emma0001.xml
 or, la, transcription, or, texts/caes0004.xml
 oratorem, la, transcription, oratorem&#44;, texts/caes0003.xml
 ostio, la, transcription, osti<supplied>o</supplied>, texts/yotv0001.xml
@@ -779,6 +798,7 @@ secundi, la, transcription, secundi, texts/caes0146.xml
 semper, la, transcription, semper, texts/bshe0006.xml
 sgade, la, transcription, </gap><unclear>s</unclear>gade, texts/caes0119.xml
 singularibus, la, transcription, <abbr>sing</abbr><ex>ularibus</ex></expan>, texts/caes0031.xml
+situs, la, transcription, <abbr>s</abbr><ex>itus</ex></expan>, texts/emma0001.xml
 soptimo, la, transcription, </lb></gap><unclear>s</unclear><abbr>op</abbr><ex>timo</ex></expan>, texts/caes0018.xml
 strator, la, transcription, </lb><abbr>strat</abbr><ex>or</ex></expan>, texts/caes0007.xml
 sua, la, transcription, sua, texts/caes0037.xml
@@ -830,6 +850,7 @@ viro, la, transcription, <abbr>v</abbr><ex>iro</ex></expan>, texts/caes0008.xml
 viro, la, transcription, <abbr>v</abbr><ex>iro</ex></expan>, texts/caes0010.xml
 viro, la, transcription, </lb><abbr>v</abbr><ex>iro</ex></expan>, texts/caes0011.xml
 viro, la, transcription, <abbr>v</abbr><ex>iro</ex></expan>, texts/caes0037.xml
+vixit, la, transcription, </lb>vixit, texts/emma0001.xml
 voluntariorum, la, transcription, <abbr>vol</abbr><ex>untariorum</ex></expan>, texts/caes0004.xml
 votis, la, transcription, votis</ex>, texts/yotv0001.xml
 votisXL, la, transcription, votis</ex>XL</expan>, texts/yotv0001.xml

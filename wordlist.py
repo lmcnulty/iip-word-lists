@@ -22,7 +22,12 @@ class iip_word:
 		# eg: diplomatic
 		self.edition_type = edition_type
 		# eg: grc
-		self.language = language
+		if (language == "he"):
+			self.language = "heb"
+		elif (language == "lat"):
+			self.language = "la"
+		else:
+			self.language = language
 		# eg: Πἁποϲ
 		self.text = text
 		# eg: jeru00001.xml

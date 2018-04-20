@@ -2,20 +2,29 @@
 
 update=1;
 exceptions=0;
+use_existing=0;
 for word in $*; do 
-	if [ "$word" == "--no_update" ]; then
+	if [ "$word" == "--help" ] || [ "$word" == "-h" ]; then
+		printf "Usage:\n\n-h, --help           \t Print this message.\n--no-update, -nu\t Do not fetch epidoc files from github.\n--exceptions, -e\t If an exception occurs in the python code, print the error message.\n--use-existing, -ue\t Do not rebuild the word lists.\n";
+		exit;
+	elif [ "$word" == "--no-update" ] || [ "$word" == "-nu" ]; then
 		update=0;
-	elif [ "$word" == "--exceptions" ]; then
+	elif [ "$word" == "--exceptions" ] || [ "$word" == "-e" ]; then
 		exceptions=1;
+	elif [ "$word" == "--use-existing" ] || [ "$word" == "-ue" ]; then
+		use_existing=1;
 	fi
 done
 
 echo "Removing old site...";
+cd docs;
 if [ $update == 0 ]; then
-	cd docs;
 	mv texts ..;
-	cd ..;
 fi
+if [ $use_existing == 1 ]; then
+	mv *.csv ..;
+fi
+cd ..;
 rm -rf docs
 mkdir docs
 
@@ -35,14 +44,18 @@ if [ -f texts/interpretations.xml ]; then
 	rm texts/interpretations.xml;
 fi
 
-echo "Constructing word list..."
-cd docs;
-if [ $exceptions == 1 ]; then
-	../wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception;
+if [ $use_existing == 0 ]; then
+	echo "Constructing word list..."
+	cd docs;
+	if [ $exceptions == 1 ]; then
+		../wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception;
+	else
+		../wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles;
+	fi
+	cd ..;
 else
-	../wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles;
+	mv *.csv docs;
 fi
-cd ..;
 
 echo "Updating files...";
 cd docs;

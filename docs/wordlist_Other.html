@@ -6,8 +6,9 @@
 <link rel="stylesheet" type="text/css" href="wordlist.css">
 </head>
 <body>
+	<a href="wordlist_Other.csv">Download Data</a>
 	<div id="controls">
-	<p>Sort by 
+	<!--<p>Sort by 
 	<select id="sort1"> 
 		<option value="1">Language</option>
 		<option value="4">File</option>		
@@ -25,17 +26,19 @@
 	</p>
 	</div>
 	<p></p><button onclick="displayPrev()">Prev</button>	
-	<button onclick="displayNext()">Next</button>	</p>
+	<button onclick="displayNext()">Next</button>	</p> -->
+	<div id="letterNavigation"></div>
 	<table id="data"><tr><th>Word</th><th>Language</th><th>Edition</th><th>Xml</th><th>File</th></tr></table>
-	<p></p><button onclick="displayPrev()">Prev</button>	
-	<button onclick="displayNext()">Next</button>	</p>
+	<!-- <p></p><button onclick="displayPrev()">Prev</button>	
+	<button onclick="displayNext()">Next</button>	</p> -->
 	<script>
 		let sortOrder = [1, 0, 3, 2];
 		let pathIndex = 4;
 		let xmlIndex = 3;
-		
 		let wordList = null;
-		let rows = null;
+		let alphabetIndex = {};
+		//let rows = null;
+		
 		function sortData(wordList) {
 			rows.sort(function (a, b) {
 				let columnsA = a.split(",");
@@ -51,7 +54,30 @@
 			});	
 		}
 				
-		function displayData(wordList, start, end) {
+		function createNewRow(dataTable, newRowData) {
+			let newRow = document.createElement("tr");
+			for (let j = 0; j < newRowData.length; j++) {
+				let newColumn = document.createElement("td");
+				if (j == pathIndex) {
+					let newLink = document.createElement("a");
+					newLink.href = newRowData[j];
+					newLink.innerHTML = newRowData[j].split("/")[1];
+					newColumn.appendChild(newLink);
+				} else if (j == xmlIndex) {
+					//let xml = document.createElement("pre");
+					newColumn.innerHTML = newRowData[j].replace("<", " &#60;").replace(">", "&#62;").replace("/", "&#47;");
+					//newColumn.appendChild(xml);
+				} else {
+					newColumn.innerHTML = newRowData[j];
+				}					
+				newRow.appendChild(newColumn);				
+			}
+			if (newRow.childNodes.length > 1) {
+				dataTable.appendChild(newRow);
+			}
+		}
+				
+		function displayData(rows, start, end) {
 			let dataTable = document.getElementById('data');
 			while(dataTable.childNodes.length > 1) {
 				dataTable.removeChild(dataTable.lastChild);
@@ -62,43 +88,44 @@
 					console.log("Trying to access null row " + i);
 					return;
 				}
-				let newRow = document.createElement("tr");
-				let newRowData = rows[i].split(",");
-				for (let j = 0; j < newRowData.length; j++) {
-					let newColumn = document.createElement("td");
-					if (j == pathIndex) {
-						let newLink = document.createElement("a");
-						newLink.href = newRowData[j];
-						newLink.innerHTML = newRowData[j].split("/")[1];
-						newColumn.appendChild(newLink);
-					} else if (j == xmlIndex) {
-						//let xml = document.createElement("pre");
-						newColumn.innerHTML = newRowData[j].replace("<", " &#60;").replace(">", "&#62;").replace("/", "&#47;");
-						//newColumn.appendChild(xml);
-					} else {
-						newColumn.innerHTML = newRowData[j];
-					}					
-					newRow.appendChild(newColumn);				
+				createNewRow(dataTable, rows[i].split(","));
+			}
+		}
+		
+		function displayDataAlphabet(rows, letter) {
+			let dataTable = document.getElementById('data');
+			while(dataTable.childNodes.length > 1) {
+				dataTable.removeChild(dataTable.lastChild);
+			}
+			if (alphabetIndex[letter] == null) {
+				alphabetIndex[letter] = [];
+				for (let i = 0; i < rows.length; i++) {
+					if (rows[i].charAt(0) == letter.toUpperCase() || rows[i].charAt(0) == letter.toLowerCase()) {
+						createNewRow(dataTable, rows[i].split(","));
+						alphabetIndex[letter].push(rows[i]);
+					}
 				}
-				if (newRow.childNodes.length > 1) {
-					dataTable.appendChild(newRow);
+			} else {
+				for (let i = 0; i < alphabetIndex[letter].length; i++) {
+					createNewRow(dataTable, alphabetIndex[letter][i].split(","));
 				}
 			}
 		}
+			
 		function getData(url) {
 			var xmlhttp = new XMLHttpRequest();
+			
 			xmlhttp.onreadystatechange = function() {
 				if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
 					if (xmlhttp.status == 200) {
 						wordList = xmlhttp.responseText;
 						rows = wordList.split("\n");
-						displayData(wordList, 0, 1000);
-					}
-					else if (xmlhttp.status == 400) {
-						alert('There was an error 400');
-					}
-					else {
+						//displayData(wordList, 0, 1000);
+						displayDataAlphabet(rows, "a");
+						addLetterNavigation();
+					} else {
 						alert('something else other than 200 was returned');
+						console.log("Error: " + xmlhttp.status);
 					}
 				}
 			};
@@ -132,7 +159,32 @@
 			document.getElementById("endIndex").value = "" + newEnd;
 			document.getElementById("startIndex").value = "" + newStart;
 		}
-		
+	
+		function addLetterNavigation() {
+			let letters = getFirstLetters();
+			let letterNavigation = document.getElementById("letterNavigation");	
+			for (let i = 0; i < letters.length; i++) {
+				let newLink = document.createElement("a");
+				newLink.innerHTML = letters[i];
+				newLink.href="javascript:displayDataAlphabet(rows, '" + letters[i] + "');";
+				letterNavigation.appendChild(newLink);
+			}
+			displayDataAlphabet(rows, letters[0]);
+		}
+
+		function getFirstLetters() {
+			let letters = [];
+			for (let i = 0; i < rows.length; i++) {
+				let firstWord = rows[i].split(',')[0].toLowerCase();
+				console.log("firstWord: " + firstWord + ", type: " + typeof firstWord);
+				let firstLetter = firstWord.charAt(0);
+				if (letters.indexOf(firstLetter) == -1) {
+					letters.push(firstLetter);
+				}
+			}
+			return letters;
+		}
+
 		getData("wordlist_Other.csv");
 		
 	</script>

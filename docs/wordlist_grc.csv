@@ -35,7 +35,7 @@ Cωσίβιος, grc, transcription, <p>Cω<supplied>σίβι</supplied>ος?, t
 Eὐτυχίδης, grc, transcription, <p>Eὐτυχίδης</p></div>, texts/haif0041.xml
 FFF, grc, transcription, <p>_F_F_F, texts/evro0011.xml
 II, grc, transcription, <num>I<unclear>I</unclear></num></p></div>, texts/zoor0392.xml
-IVE𐅹, grc, transcription, IVE𐅹, texts/kede0001.xml
+IΥE, grc, transcription, </lb><orig>IΥE</orig>, texts/kede0001.xml
 Kασσίσου, grc, transcription, </lb>Kασσίσου, texts/zoor0286.xml
 L, grc, transcription, <unclear>L</unclear>, texts/jeri0003.xml
 L, grc, transcription, <am>L</am>, texts/mare0215.xml
@@ -71,8 +71,8 @@ Mνημῖον, grc, transcription, <sic>Mνημῖον</sic>, texts/zoor0285.xm
 Mνῆμα, grc, transcription, <p>Mνῆμα, texts/iopp0003.xml
 N, grc, transcription, N</gap>, texts/sena0005.xml
 Robb, grc, transcription, Robb., texts/beth0163.xml
-S, grc, transcription, </lb><abbr>S</abbr>, texts/beth0036.xml
 S, grc, transcription, <del>S</del>., texts/hamm0057.xml
+Sκαὶ, grc, transcription, </lb><am>S</am><ex>καὶ</ex></expan>, texts/beth0036.xml
 T, grc, transcription, <abbr>T</abbr>, texts/caes0012.xml
 T, grc, transcription, <unclear>T</unclear>, texts/zoor0207.xml
 TPRIM, grc, transcription, <note>TPRIM, texts/hamm0022.xml
@@ -1134,7 +1134,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ζάβδα, grc, transcription, Ζάβδα&#44;, texts/zoor0117.xml
 Ζήνοβίου, grc, transcription, </lb>Ζή<unclear>ν</unclear><supplied>οβίου</supplied>, texts/zoor0350.xml
 Ζήνω, grc, transcription, Ζ<supplied>ήνω</supplied>, texts/zoor0326.xml
-Ζήνων, grc, transcription, <abbr>Ζήνω</abbr><ex>ν</ex></expan>, texts/kede0001.xml
+Ζήνων, grc, transcription, <abbr>Ζήν</lb>ω</abbr><ex>ν</ex></expan>, texts/kede0001.xml
 Ζήνων, grc, transcription, <p>Ζήνω<supplied>ν</supplied>, texts/mare0054.xml
 Ζήνωνε, grc, transcription, Ζήνωνε&#44;, texts/zoor0159.xml
 Ζήνωνο, grc, transcription, <p>Ζήνωνο</p></div>, texts/mare0001.xml
@@ -1195,7 +1195,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ζοσίμου, grc, transcription, Ζοσίμου, texts/bshe0019.xml
 Ζωνε͂, grc, transcription, <abbr>Ζων<unclear>ε͂</unclear></abbr>, texts/elus0018.xml
 Ζων῀ενος, grc, transcription, <expan>Ζων῀ενος</expan>, texts/elus0018.xml
-Ζωσίμου, grc, transcription, Ζωσίμου, texts/kede0001.xml
+Ζωσίμου, grc, transcription, Ζωσί</lb>μου, texts/kede0001.xml
 Ζωσειμᾶς, grc, transcription, Ζωσ<unclear>ε</unclear>ι<unclear>μ</unclear>ᾶς, texts/zoor0111.xml
 Ζωσίμης, grc, transcription, Ζωσίμης, texts/caes0206.xml
 Ζωσίμης, grc, transcription, <p>Ζωσίμης, texts/caes0244.xml
@@ -1229,6 +1229,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ΘΑ, grc, transcription, </lb><unclear>Θ</unclear>Α</unclear></unclear></gap>, texts/elus0034.xml
 ΘΑΑ, grc, transcription, <p>ΘΑΑ, texts/caes0377.xml
 ΘΗ, grc, transcription, <p>ΘΗ</p></div>, texts/jeru0117.xml
+ΘΙΝΣεπτίμιος, grc, transcription, </lb><orig>ΘΙΝ</orig>Σε</lb>πτίμι</lb>ος, texts/kede0001.xml
 ΘΥΕΡΕΑΝΕ, grc, transcription, </lb><unclear>Θ</unclear>ΥΕΡΕΑΝ<unclear>Ε</unclear></gap>, texts/zoor0296.xml
 Θά, grc, transcription, <sic>Θά, texts/zoor0007.xml
 Θά, grc, transcription, <sic>Θά, texts/zoor0141.xml
@@ -1727,7 +1728,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Θεοφίλῳ, grc, transcription, Θεοφ<supplied>ίλῳ</supplied>, texts/mare0301.xml
 Θεοφιλεστά, grc, transcription, Θεο<supplied>φιλεστά</supplied>, texts/tqas0001.xml
 Θεοῖςαχθονίοις, grc, transcription, <supplied>Θεοῖς</supplied>αχθονίο<supplied>ις</supplied>, texts/giva0001.xml
-Θεοῦ, grc, transcription, </lb><ex>Θεοῦ</ex></choice>, texts/birs0006.xml
+Θεοῦ, grc, transcription, </lb><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>, texts/birs0006.xml
 Θεοῦ, grc, transcription, <abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>, texts/bshe0024.xml
 Θεοῦ, grc, transcription, <abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>, texts/bshe0025.xml
 Θεοῦ, grc, transcription, </lb><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>, texts/caes0070.xml
@@ -1850,7 +1851,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 Θύμης, grc, transcription, </lb>Θύμης, texts/beth0011.xml
 Θύμησ, grc, transcription, Θύμησ, texts/beth0012.xml
 Θώμας, grc, transcription, Θώμας&#44;, texts/hamm0039.xml
-Θῦ, grc, transcription, </lb><abbr>Θῦ</abbr>, texts/birs0006.xml
 Θῦ, grc, transcription, </choice><unclear>Θῦ</unclear></abbr>, texts/rams0003.xml
 Θῶμα, grc, transcription, Θῶμα, texts/mums0003.xml
 Ι, grc, transcription, Ι</gap></p></div>, texts/beth0053.xml
@@ -1992,7 +1992,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 Κλευπάτυς, grc, transcription, </lb><unclear>Κ</unclear>λ<unclear>ε</unclear>υπά<supplied>τ</supplied>υς, texts/jeru0130.xml
 Κλη, grc, transcription, Κλη, texts/carm0019.xml
 Κλυδίου, grc, transcription, <sic>Κλυδίου</sic>, texts/zoor0054.xml
-Κν, grc, transcription, </lb><abbr>Κν</abbr>, texts/zoor0089.xml
 Κνίδιον, grc, transcription, Κνί<supplied>διον</supplied></p></div>, texts/mare0012.xml
 Κνρίλλη, grc, transcription, Κνρίλ<del>λ</del>η</p></div>, texts/akld0001.xml
 Κο, grc, transcription, Κο, texts/iopp0004.xml
@@ -2023,8 +2022,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 Κρόνου, grc, transcription, Κρόνου., texts/zoor0044.xml
 Κρόνου, grc, transcription, Κρόνου., texts/zoor0093.xml
 Κυ, grc, transcription, Κυ, texts/zoor0098.xml
-Κυ, grc, transcription, <ex>Κυ</ex></choice>, texts/zoor0100.xml
-Κυ, grc, transcription, <ex>Κυ</ex></choice>, texts/zoor0140.xml
 Κυ, grc, transcription, <abbr>Κ<supplied>υ</supplied>, texts/zoor0197.xml
 Κυ, grc, transcription, </choice><abbr>Κ<unclear>υ</unclear></abbr>, texts/zoor0203.xml
 Κυ, grc, transcription, <abbr>Κ<unclear>υ</unclear></abbr>, texts/zoor0209.xml
@@ -2047,7 +2044,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 Κυρίλλου, grc, transcription, Κυρίλλου, texts/zoor0226.xml
 Κυρίλλους, grc, transcription, <sic>Κυρίλλο<hi>υς</hi>, texts/zoor0096.xml
 Κυρίλλω, grc, transcription, Κυρ<supplied>ί</supplied>λλω, texts/haif0017.xml
-Κυρίον, grc, transcription, <ex>Κυρίον</ex></choice>, texts/zoor0089.xml
 Κυρίου, grc, transcription, Κυρίου</supplied>, texts/eins0002.xml
 Κυρίου, grc, transcription, <abbr>Κυ</abbr><ex>ρίου</ex></expan>, texts/zoor0002.xml
 Κυρίου, grc, transcription, <abbr>Κ<unclear>υ</unclear></abbr><ex>ρίου</ex></expan>, texts/zoor0019.xml
@@ -2068,7 +2064,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Κυρίου, grc, transcription, </lb><abbr>Κυ</abbr><ex>ρίου</ex></expan>, texts/zoor0095.xml
 Κυρίου, grc, transcription, </lb><abbr>Κυ</abbr><ex>ρίου</ex></expan>, texts/zoor0096.xml
 Κυρίου, grc, transcription, </expan><abbr>Κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan>, texts/zoor0099.xml
-Κυρίου, grc, transcription, <abbr>Κυρίου</abbr>, texts/zoor0100.xml
+Κυρίου, grc, transcription, <abbr>Κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan>, texts/zoor0100.xml
 Κυρίου, grc, transcription, </lb>Κυρίου, texts/zoor0101.xml
 Κυρίου, grc, transcription, <abbr>Κυ</abbr><ex>ρίου</ex></expan>, texts/zoor0103.xml
 Κυρίου, grc, transcription, <abbr>Κυ</abbr><ex>ρίου</ex></expan>, texts/zoor0104.xml
@@ -2093,7 +2089,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Κυρίου, grc, transcription, Κυρίου, texts/zoor0136.xml
 Κυρίου, grc, transcription, <abbr>Κυ</abbr><ex>ρίου</ex></expan>, texts/zoor0137.xml
 Κυρίου, grc, transcription, Κυρίου, texts/zoor0138.xml
-Κυρίου, grc, transcription, <abbr>Κυρίου</abbr>, texts/zoor0140.xml
+Κυρίου, grc, transcription, <abbr>Κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan>, texts/zoor0140.xml
 Κυρίου, grc, transcription, </lb><abbr>Κυ</abbr><ex>ρίου</ex></expan>, texts/zoor0145.xml
 Κυρίου, grc, transcription, Κυρίου, texts/zoor0147.xml
 Κυρίου, grc, transcription, <abbr>Κυ</abbr><ex>ρίου</ex></expan>, texts/zoor0149.xml
@@ -2278,7 +2274,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Κύριλλα, grc, transcription, </lb>Κύριλλ<unclear>α</unclear>, texts/farj0002.xml
 Κύριλλε, grc, transcription, Κύριλλε&#44;, texts/zoor0096.xml
 Κύριον, grc, transcription, Κύριον, texts/evro0008.xml
-Κύριον, grc, transcription, </lb><ex>Κύριον</ex></choice>, texts/zoor0089.xml
+Κύριον, grc, transcription, </lb><abbr>Κ</abbr><ex>ύριο</ex><abbr>ν</abbr></expan>, texts/zoor0089.xml
 Κύριος, grc, transcription, <abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan>, texts/bshe0016.xml
 Κύριος, grc, transcription, </lb><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan>, texts/hafa0001.xml
 Κύριος, grc, transcription, <abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan></gap>, texts/narr0001.xml
@@ -3274,7 +3270,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Μνῆμα, grc, transcription, <p>Μνῆμα, texts/jaff0013.xml
 Μνῆμα, grc, transcription, <p>Μνῆμα, texts/jaff0020.xml
 Μνῆμαααν, grc, transcription, <p>Μν<supplied>ῆ</supplied>μα</lb>α</lb>αν, texts/jaff0068.xml
-Μνῆμαν, grc, transcription, <p>Μνῆμαν, texts/zoor0089.xml
+Μνῆμανματοςως, grc, transcription, <p>Μνῆμαν</lb>ματος</lb>ως, texts/zoor0089.xml
 Μνῆματαλίου, grc, transcription, <p>Μνῆμα</lb>τα</lb>λίου, texts/jaff0033.xml
 Μνῆμαυδα, grc, transcription, <p>Μνῆμα</lb>υδα, texts/jaff0009.xml
 Μνῆμαφωνοςοῦ, grc, transcription, <p>Μνῆμα</lb>φωνος</lb>οῦ, texts/jaff0069.xml
@@ -3294,6 +3290,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Μούκιος, grc, transcription, <p>Μούκιος, texts/hamm0051.xml
 Μοῖρα, grc, transcription, Μοῖρα, texts/beth0127.xml
 Μωλέχ, grc, transcription, <abbr>Μωλέ</abbr><ex>χ</ex></expan>, texts/elus0025.xml
+ΜϹΟΥ, grc, transcription, </lb><orig>ΜϹΟ</orig></space><orig>Υ</orig>, texts/kede0001.xml
 Μάγνα, grc, transcription, </lb>Μάγνα, texts/beth0078.xml
 Μάγνος, grc, transcription, <p>Μά</lb>γν</lb>ος, texts/beth0145.xml
 Μάξημον, grc, transcription, Μάξημον, texts/bshe0023.xml
@@ -3507,7 +3504,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Οὔρσο­, grc, transcription, Οὔρ<supplied>σο</supplied>­, texts/caes0210.xml
 Π, grc, transcription, Π</gap></p></div>, texts/beth0217.xml
 Π, grc, transcription, <supplied>Π</supplied>, texts/bshe0122.xml
-Π, grc, transcription, Π</gap></p></div>, texts/farj0002.xml
+Π, grc, transcription, <orig>Π</orig></gap></p></div>, texts/farj0002.xml
 Π, grc, transcription, <unclear>Π</unclear>, texts/zoor0311.xml
 Π$άρις, grc, transcription, </lb></gap>#Π$άρις, texts/jeru0307.xml
 ΠΑ, grc, transcription, </lb>ΠΑ</gap>, texts/zoor0359.xml
@@ -3797,7 +3794,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Πύνχας, grc, transcription, </lb>Πύνχας, texts/haif0034.xml
 Πἀδελ­, grc, transcription, Π</gap>ἀδελ­, texts/sepp0023.xml
 Πἁποϲ, grc, transcription, <p>Πἁποϲ, texts/jeru0001.xml
-Πἐ, grc, transcription, Πἐ, texts/zoor0100.xml
+Πἐτρος, grc, transcription, Πἐ</lb>τρος, texts/zoor0100.xml
 Πἐτρου, grc, transcription, Πἐτρου&#44;, texts/zoor0231.xml
 Πάπος, grc, transcription, Πάπος, texts/beth0131.xml
 Πέτρου, grc, transcription, Πέτρου, texts/hamm0057.xml
@@ -3841,7 +3838,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Σάου, grc, transcription, </lb>Σάου, texts/jeru0130.xml
 Σάρα, grc, transcription, <p>Σάρα, texts/jeru0061.xml
 Σάρας, grc, transcription, </lb>Σάρας, texts/jeru0061.xml
-Σέαλ, grc, transcription, Σέαλ, texts/zoor0140.xml
+Σέαλλου, grc, transcription, Σέαλ</lb>λου&#44;, texts/zoor0140.xml
 Σέργιος, grc, transcription, <abbr>Σέργ</abbr><ex>ιος</ex></expan>, texts/elus0010.xml
 Σέργιος, grc, transcription, <abbr>Σέ</abbr><ex>ργιος</ex></expan>, texts/elus0046.xml
 Σέργιος, grc, transcription, <p>Σέρ<supplied>γιος</supplied>, texts/elus0101.xml
@@ -4027,7 +4024,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 Σεουηριανοῦ, grc, transcription, Σεουηριανοῦ, texts/zoor0112.xml
 Σεούδα, grc, transcription, Σεούδα, texts/zoor0099.xml
 Σεούδα, grc, transcription, Σεούδα, texts/zoor0110.xml
-Σεπτίμιους, grc, transcription, </gap>Σεπτίμιους, texts/kede0001.xml
 Σερ, grc, transcription, Σε<unclear>ρ</unclear>, texts/elus0051.xml
 Σερ, grc, transcription, Σερ</gap></p></div>, texts/rafi0007.xml
 Σεργίου, grc, transcription, </lb>Σε<unclear>ρ</unclear>γίου&#44;, texts/zoor0318.xml
@@ -4435,10 +4431,9 @@ western, grc, transcription, western, texts/tibe0004.xml
 έπισκ, grc, transcription, έπι</supplied>σκ, texts/carm0001.xml
 έπἵ, grc, transcription, έπἵ, texts/evro0004.xml
 έρας, grc, transcription, </lb>έρας, texts/zoor0347.xml
-έρες, grc, transcription, </lb>έρες, texts/farj0002.xml
+έρες, grc, transcription, έρες, texts/farj0002.xml
 έρμου, grc, transcription, </lb>έρμου</sic>, texts/zoor0298.xml
 έροις, grc, transcription, έροις</gap>, texts/mare0050.xml
-έρου, grc, transcription, <ex>έρου</ex></choice>.</p></div>, texts/birs0008.xml
 έρᾳ, grc, transcription, </abbr><expan>έρᾳ</expan>, texts/zoor0165.xml
 έστατοι, grc, transcription, <unclear>έ</unclear>στα<supplied>τοι, texts/fiqg0024.xml
 έφθα, grc, transcription, </lb>έφθα, texts/zoor0085.xml
@@ -4832,13 +4827,13 @@ western, grc, transcription, western, texts/tibe0004.xml
 βοήθι, grc, transcription, <abbr>β</abbr><ex>οήθ</ex><abbr>ι</abbr></expan>, texts/juei0003.xml
 βοήθι, grc, transcription, βοήθι, texts/rafi0007.xml
 βοδοῦς, grc, transcription, </lb>βοδοῦς</sic>, texts/zoor0010.xml
-βοη, grc, transcription, <unclear>βο</unclear>η, texts/rafi0004.xml
 βοηθός, grc, transcription, βοηθός, texts/narr0004.xml
 βοηθός, grc, transcription, <abbr>β</abbr><ex>οηθό</ex><abbr>ς</abbr></expan>., texts/zoor0192.xml
 βοηθών, grc, transcription, βοηθών, texts/evro0009.xml
 βοηθός, grc, transcription, <abbr>β</abbr><ex>οηθό</ex><abbr>ς</abbr></supplied>, texts/caes0080.xml
 βοηθῶν, grc, transcription, β<unclear>οη</unclear><supplied>θῶν</supplied>..., texts/eins0001.xml
 βοηθῶν, grc, transcription, </lb>βοηθῶν, texts/rafi0002.xml
+βοηθῶν, grc, transcription, <unclear>βο</unclear>η</lb>θ<supplied>ῶ</supplied>ν, texts/rafi0004.xml
 βοηθῶν, grc, transcription, βοηθῶν., texts/zoor0197.xml
 βος, grc, transcription, </lb><unclear>β</unclear>ος, texts/zoor0048.xml
 βου, grc, transcription, </lb>βο<unclear>υ</unclear></p></div>, texts/caes0192.xml
@@ -5336,6 +5331,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ε, grc, transcription, </lb></unclear></unclear></unclear></unclear></unclear>ε, texts/akas0002.xml
 ε, grc, transcription, <corr>ε</corr>, texts/bshe0025.xml
 ε, grc, transcription, </gap></unclear>ε, texts/caes0113.xml
+ε, grc, transcription, <num>ε</num>, texts/carm0001.xml
 ε, grc, transcription, </supplied><unclear>ε</unclear>, texts/edda0001.xml
 ε, grc, transcription, <sic>ε</sic>, texts/haif0040.xml
 ε, grc, transcription, </lb>ε, texts/haif0044.xml
@@ -5741,7 +5737,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ηγ’, grc, transcription, ηγ’</space>, texts/caes0109.xml
 ηθ, grc, transcription, </gap>ηθ</p></div>, texts/masa0935.xml
 ηθων, grc, transcription, </choice></unclear></unclear>η<unclear>θ</unclear>ων, texts/khis0082.xml
-ηι, grc, transcription, ηι'</p></div>, texts/kede0001.xml
+ηι, grc, transcription, <num>ηι</num></p></div>, texts/kede0001.xml
 ηιʹ, grc, transcription, </lb>ηιʹ., texts/zoor0084.xml
 ηιʹ, grc, transcription, ηιʹ&#44;, texts/zoor0100.xml
 ηιʹ, grc, transcription, ηιʹ&#44;, texts/zoor0107.xml
@@ -5997,7 +5993,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 θεσίαν, grc, transcription, </lb>θεσίαν, texts/caes0079.xml
 θεσίδεν, grc, transcription, <p>θεσίδεν, texts/caes0252.xml
 θεω, grc, transcription, θεω</p></div>, texts/carm0001.xml
-θεός, grc, transcription, <ex>θεός</ex></choice>, texts/birs0008.xml
+θεός, grc, transcription, <abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>, texts/birs0008.xml
 θεός, grc, transcription, θεός, texts/carm0002.xml
 θεός, grc, transcription, θεός, texts/mare0187.xml
 θεός, grc, transcription, <abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>, texts/rafi0002.xml
@@ -6027,16 +6023,15 @@ western, grc, transcription, western, texts/tibe0004.xml
 θεὀ, grc, transcription, θεὀ</supplied>, texts/zoor0205.xml
 θεὀς, grc, transcription, θ<unclear>ε</unclear>ὀ<unclear>ς</unclear>&#44;, texts/zoor0219.xml
 θεὀς, grc, transcription, θεὀς&#44;, texts/zoor0220.xml
-θεὸ, grc, transcription, <unclear>θε</unclear>ὸ</abbr>, texts/rafi0004.xml
 θεὸν, grc, transcription, θεὸ<supplied>ν, texts/apol0100.xml
 θεὸν, grc, transcription, </lb></gap>θεὸ<unclear>ν</unclear></gap></p></div>, texts/caes0376.xml
 θεὸν, grc, transcription, θεὸν, texts/hamm0049.xml
 θεὸς, grc, transcription, <abbr>θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan>, texts/bshe0022.xml
-θεὸς, grc, transcription, <expan>θεὸς</expan>, texts/rafi0004.xml
+θεὸς, grc, transcription, <unclear>θε</unclear>ὸ<supplied>ς</supplied>, texts/rafi0004.xml
 θεῖον, grc, transcription, θεῖον&#44;, texts/hamm0049.xml
 θεῶν, grc, transcription, θεῶν, texts/mari0001.xml
 θεῷ, grc, transcription, θε</lb>ῷ, texts/bshe0103.xml
-θεῷ, grc, transcription, <unclear>θ</unclear>εῷ, texts/kede0001.xml
+θεῷγίῳ, grc, transcription, <unclear>θ</unclear>εῷ</lb>γίῳ, texts/kede0001.xml
 θη, grc, transcription, </lb>θη, texts/caes0166.xml
 θη, grc, transcription, </lb>θη, texts/evro0004.xml
 θη, grc, transcription, </lb>θη, texts/khis0086.xml
@@ -6060,7 +6055,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 θρεπτὸς, grc, transcription, </lb>θρεπτὸς, texts/hmti0003.xml
 θρεπτὸς, grc, transcription, θρεπτὸς, texts/hmti0005.xml
 θρεπτὸς, grc, transcription, </lb>θρεπτὸς, texts/tibe0004.xml
-θς, grc, transcription, <abbr>θς</abbr>, texts/birs0008.xml
 θς, grc, transcription, <unclear>θς</unclear></abbr>, texts/rafi0005.xml
 θς, grc, transcription, <unclear>θ</unclear>ς</abbr>, texts/suke0001.xml
 θς, grc, transcription, <abbr>θς</abbr>, texts/zoor0255.xml
@@ -6068,7 +6062,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 θυγάτηρ, grc, transcription, θυ</lb><supplied>γάτηρ, texts/fein0002.xml
 θυγάτηρ, grc, transcription, θ<unclear>υ</unclear>γ<supplied>άτηρ, texts/jeru0103.xml
 θυγάτηρ, grc, transcription, <orig>θυγά</lb>τηρ</orig></choice>, texts/zoor0348.xml
-θυγατ, grc, transcription, </lb>θυγατ, texts/farj0002.xml
+θυγατ, grc, transcription, </lb>θυγατ</lb>, texts/farj0002.xml
 θυγατηρ, grc, transcription, θυ<supplied>γα</supplied>τηρ, texts/jeru0103.xml
 θυγατρός, grc, transcription, </lb>θυγατρός, texts/zoor0022.xml
 θυγατρός, grc, transcription, <reg>θυγα</lb>τρός</reg>, texts/zoor0348.xml
@@ -6086,7 +6080,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 θυρ’, grc, transcription, </lb></gap>θυρ’, texts/yavn0001.xml
 θψ, grc, transcription, θψ'</p></div>, texts/ashk0002.xml
 θωθ, grc, transcription, </gap><unclear>θω</unclear>θ, texts/mare0181.xml
-θόνατος, grc, transcription, </lb>θόνατος</sic>, texts/zoor0100.xml
 θόρσι, grc, transcription, </lb><sic>θόρσι</sic>, texts/zoor0217.xml
 θύγατερ, grc, transcription, </lb>θύγατερ&#44;, texts/zoor0344.xml
 θἀνατος, grc, transcription, </lb>θἀνατος., texts/zoor0146.xml
@@ -6153,7 +6146,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 θόλον, grc, transcription, θόλον, texts/hamm0053.xml
 θὺ­, grc, transcription, θὺ­, texts/caes0204.xml
 θῇ, grc, transcription, </lb><supplied>θῇ</supplied>, texts/hamm0061.xml
-θῶν, grc, transcription, </lb>θ<supplied>ῶ</supplied>ν, texts/rafi0004.xml
 θῶσιν, grc, transcription, </lb>θῶσιν, texts/carm0003.xml
 ι, grc, transcription, </lb><sic>ι</sic></choice>, texts/beth0168.xml
 ι, grc, transcription, </lb><supplied>ι</supplied>, texts/caes0109.xml
@@ -6393,7 +6385,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 κα, grc, transcription, κα, texts/zoor0114.xml
 κα, grc, transcription, κα, texts/zoor0123.xml
 κα, grc, transcription, κα</supplied>, texts/zoor0135.xml
-κα, grc, transcription, κα, texts/zoor0140.xml
 κα, grc, transcription, κα, texts/zoor0146.xml
 κα, grc, transcription, κα, texts/zoor0169.xml
 κα, grc, transcription, κ<supplied>α</supplied>, texts/zoor0183.xml
@@ -6497,6 +6488,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 καλοῦ, grc, transcription, καλοῦ, texts/zoor0132.xml
 καλοῦ, grc, transcription, </lb>καλοῦ, texts/zoor0136.xml
 καλοῦ, grc, transcription, καλοῦ, texts/zoor0139.xml
+καλοῦ, grc, transcription, κα</lb>λοῦ, texts/zoor0140.xml
 καλοῦ, grc, transcription, καλοῦ, texts/zoor0141.xml
 καλοῦ, grc, transcription, καλοῦ, texts/zoor0143.xml
 καλοῦ, grc, transcription, καλοῦ, texts/zoor0144.xml
@@ -6766,7 +6758,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 καὶ, grc, transcription, <abbr>κ</abbr><ex>αὶ</ex></expan>, texts/ashk0001.xml
 καὶ, grc, transcription, <supplied>καὶ, texts/ashk0002.xml
 καὶ, grc, transcription, καὶ, texts/balf0001.xml
-καὶ, grc, transcription, </lb><ex>καὶ</ex></choice>, texts/beth0036.xml
 καὶ, grc, transcription, καὶ, texts/beth0061.xml
 καὶ, grc, transcription, <supplied>κ</supplied>αὶ</lem>, texts/beth0074.xml
 καὶ, grc, transcription, καὶ, texts/beth0083.xml
@@ -7162,7 +7153,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 κεῖται, grc, transcription, κεῖτ<supplied>αι</supplied>, texts/beth0217.xml
 κεῖται, grc, transcription, <reg>κεῖται</reg>, texts/fein0001.xml
 κεῖται, grc, transcription, <sic>κεῖται</sic>, texts/zoor0076.xml
-κεῖται, grc, transcription, <corr>κεῖται</corr></choice>&#44;, texts/zoor0089.xml
+κεῖται, grc, transcription, <corr>κεῖ</lb>ται</corr></choice>&#44;, texts/zoor0089.xml
 κεῖται, grc, transcription, </lb>κεῖται, texts/zoor0194.xml
 κεῖται, grc, transcription, κε<unclear>ῖται</unclear>, texts/zoor0253.xml
 κεῖται, grc, transcription, <corr>κεῖται</corr></choice>&#44;, texts/zoor0254.xml
@@ -7414,10 +7405,10 @@ western, grc, transcription, western, texts/tibe0004.xml
 κύρᾳ, grc, transcription, κύρᾳ, texts/caes0172.xml
 κύρῳ, grc, transcription, κύρῳ, texts/hamm0058.xml
 κᾶλου, grc, transcription, κᾶλου, texts/zoor0156.xml
-κῖ, grc, transcription, <sic>κῖ, texts/zoor0089.xml
 κῖ, grc, transcription, <sic>κῖ, texts/zoor0316.xml
 κῖμε, grc, transcription, κῖμε, texts/beth0128.xml
 κῖμε, grc, transcription, κῖμε, texts/beth0129.xml
+κῖται, grc, transcription, <sic>κῖ</lb>ται</sic>, texts/zoor0089.xml
 κῖται, grc, transcription, <sic>κῖ</lb>ται</sic>, texts/zoor0258.xml
 κῖται, grc, transcription, <sic>κῖται</sic>, texts/zoor0259.xml
 κῖται, grc, transcription, <abbr>κῖτ</abbr><ex>αι</ex></expan>, texts/zoor0260.xml
@@ -7499,8 +7490,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 λέσου, grc, transcription, </lb>λέσου&#44;, texts/zoor0110.xml
 λέχω, grc, transcription, </lb>λέχω&#44;, texts/zoor0065.xml
 λήμωνος, grc, transcription, </lb>λήμωνος, texts/zoor0220.xml
-λίακαὶ, grc, transcription, </lb>λί<unclear>α</unclear><ex>καὶ</ex></choice>, texts/farj0002.xml
-λίασ, grc, transcription, </lb>λί<unclear>α</unclear><abbr>σ</abbr>, texts/farj0002.xml
+λία, grc, transcription, λί<unclear>α</unclear>, texts/farj0002.xml
 λίθον, grc, transcription, </gap><unclear>λ</unclear>ίθον, texts/ahma0003.xml
 λίθον, grc, transcription, λίθον, texts/fiqg0025.xml
 λίθον, grc, transcription, </lb>λίθον, texts/ulat0001.xml
@@ -7523,7 +7513,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 λαγόνων, grc, transcription, λαγόνων&#44;, texts/beth0184.xml
 λαμ, grc, transcription, λαμ, texts/tibe0004.xml
 λαμπρο, grc, transcription, λαμπρο, texts/hmti0005.xml
-λαμπροίνο, grc, transcription, <abbr>λαμπροίνο, texts/birs0006.xml
+λαμπροίνοταινται, grc, transcription, <abbr>λαμπροίνο</lb>ται</abbr><ex>νται</ex></expan>, texts/birs0006.xml
 λαμπροτάτου, grc, transcription, <abbr>λαμπρ</abbr><ex>οτάτου</ex></expan>, texts/bguv0100.xml
 λαμπροτάτου, grc, transcription, <abbr>λ</abbr><ex>αμπροτάτου</ex></expan>, texts/bshe0007.xml
 λαμπροτάτου, grc, transcription, </lb><abbr>λ</abbr><ex>αμπροτάτου</ex></expan>, texts/bshe0012.xml
@@ -7598,7 +7588,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 λου, grc, transcription, </lb>λ<ο>υ, texts/rams0004.xml
 λου, grc, transcription, </lb>λου, texts/zoor0078.xml
 λου, grc, transcription, </lb>λου, texts/zoor0130.xml
-λου, grc, transcription, </lb>λου&#44;, texts/zoor0140.xml
 λου, grc, transcription, </lb>λου&#44;, texts/zoor0156.xml
 λου, grc, transcription, </lb>λου, texts/zoor0176.xml
 λου, grc, transcription, </lb>λου&#44;, texts/zoor0268.xml
@@ -7611,7 +7600,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 λοῦ, grc, transcription, </lb>λοῦ, texts/zoor0114.xml
 λοῦ, grc, transcription, </lb><unclear>λ</unclear>οῦ, texts/zoor0123.xml
 λοῦ, grc, transcription, </lb>λοῦ, texts/zoor0135.xml
-λοῦ, grc, transcription, </lb>λοῦ, texts/zoor0140.xml
 λοῦ, grc, transcription, </lb>λοῦ, texts/zoor0146.xml
 λοῦ, grc, transcription, </lb>λοῦ, texts/zoor0169.xml
 λοῦ, grc, transcription, </lb>λοῦ, texts/zoor0183.xml
@@ -7749,7 +7737,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 μαση, grc, transcription, μαση, texts/beth0012.xml
 ματήου, grc, transcription, </lb>ματήου</p></div>, texts/carm0019.xml
 ματος, grc, transcription, </lb>ματος, texts/carm0007.xml
-ματος, grc, transcription, </lb>ματος, texts/zoor0089.xml
 ματος, grc, transcription, </lb>ματος</sic>, texts/zoor0112.xml
 ματος, grc, transcription, </lb>ματος, texts/zoor0152.xml
 ματος, grc, transcription, </lb>ματος, texts/zoor0156.xml
@@ -7851,7 +7838,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 μερις, grc, transcription, </lb>μερις</p></div>, texts/carm0003.xml
 μερόπων, grc, transcription, μερόπων, texts/hamm0049.xml
 μεσ, grc, transcription, μ</supplied>εσ, texts/bshe0025.xml
-μεσίου, grc, transcription, </lb>μεσίου, texts/zoor0140.xml
 μεσίουου, grc, transcription, </lb>μεσίουου</sic>, texts/zoor0232.xml
 μεσω-, grc, transcription, μ</supplied>εσ<sic>ω</sic></choice>-, texts/bshe0025.xml
 μεσίτου, grc, transcription, μεσίτου, texts/caes0109.xml
@@ -8062,12 +8048,10 @@ western, grc, transcription, western, texts/tibe0004.xml
 μη, grc, transcription, μη, texts/zoor0065.xml
 μη, grc, transcription, <abbr>μ<unclear>η</unclear></abbr>, texts/zoor0075.xml
 μη, grc, transcription, μη, texts/zoor0077.xml
-μη, grc, transcription, </lb><sic>μη</sic>, texts/zoor0089.xml
 μη, grc, transcription, </lb><unclear>μη</unclear></abbr>, texts/zoor0115.xml
 μη, grc, transcription, <abbr>μ<unclear>η</unclear></abbr>, texts/zoor0129.xml
 μη, grc, transcription, μη, texts/zoor0162.xml
 μη, grc, transcription, μη, texts/zoor0169.xml
-μη, grc, transcription, <ex>μη</ex></choice>, texts/zoor0175.xml
 μη, grc, transcription, μη, texts/zoor0188.xml
 μη, grc, transcription, μη, texts/zoor0195.xml
 μη, grc, transcription, </lb><unclear>μη</unclear></abbr>, texts/zoor0203.xml
@@ -8105,7 +8089,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 μηνη, grc, transcription, μην<sic>η</sic></choice>, texts/bshe0025.xml
 μηνος, grc, transcription, <ex>μηνος</ex></choice>, texts/zoor0226.xml
 μηνος, grc, transcription, </lb></gap>μ<unclear>ηνο</unclear>ς, texts/zoor0391.xml
-μηνός, grc, transcription, <abbr>μη</abbr><ex>νός</ex></expan>, texts/kede0001.xml
+μηνός, grc, transcription, </lb><abbr>μη</abbr><ex>νός</ex></expan>, texts/kede0001.xml
 μηνός, grc, transcription, <corr>μηνός</corr></choice>, texts/zoor0007.xml
 μηνός, grc, transcription, <corr>μηνός</corr></choice>, texts/zoor0025.xml
 μηνός, grc, transcription, μηνός, texts/zoor0027.xml
@@ -8167,7 +8151,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 μηνὶ, grc, transcription, <abbr>μη</abbr><ex>νὶ</ex></expan>, texts/zoor0170.xml
 μηνὶ, grc, transcription, <abbr>μη</abbr><ex>νὶ</ex></expan>, texts/zoor0171.xml
 μηνὶ, grc, transcription, <corr>μηνὶ</corr></choice>, texts/zoor0172.xml
-μηνὶ, grc, transcription, <abbr>μηνὶ</abbr>, texts/zoor0175.xml
+μηνὶ, grc, transcription, <abbr>μη</abbr><ex>νὶ</ex></expan>, texts/zoor0175.xml
 μηνὶ, grc, transcription, <abbr>μη</abbr><ex>νὶ</ex></expan>, texts/zoor0176.xml
 μηνὶ, grc, transcription, μηνὶ, texts/zoor0177.xml
 μηνὶ, grc, transcription, μηνὶ, texts/zoor0179.xml
@@ -8277,7 +8261,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 μηνὸς, grc, transcription, μηνὸς, texts/zoor0081.xml
 μηνὸς, grc, transcription, </lb>μηνὸς, texts/zoor0082.xml
 μηνὸς, grc, transcription, <abbr>μη</abbr><ex>νὸς</ex></expan>, texts/zoor0088.xml
-μηνὸς, grc, transcription, </lb><corr>μηνὸς</corr></choice>, texts/zoor0089.xml
+μηνὸς, grc, transcription, </lb><abbr>μη</abbr><ex>νὸς</ex></expan>, texts/zoor0089.xml
 μηνὸς, grc, transcription, </lb><abbr>μη</abbr><ex>νὸς</ex></expan>, texts/zoor0090.xml
 μηνὸς, grc, transcription, <abbr>μη</abbr><ex>νὸς</ex></expan>, texts/zoor0093.xml
 μηνὸς, grc, transcription, <abbr>μη</abbr><ex>νὸς</ex></expan>, texts/zoor0094.xml
@@ -8440,8 +8424,8 @@ western, grc, transcription, western, texts/tibe0004.xml
 μμα, grc, transcription, </lb>μμα</p></div>, texts/carm0015.xml
 μνήμης, grc, transcription, <supplied>μν</supplied>ήμης, texts/bshe0019.xml
 μνήμης, grc, transcription, μν<supplied>ήμης, texts/susi0004.xml
-μνήσθη, grc, transcription, μνήσθη, texts/birs0008.xml
 μνήσθητι, grc, transcription, μνήσθητι, texts/abur0001.xml
+μνήσθητι, grc, transcription, μνήσθη</lb>τι, texts/birs0008.xml
 μνήσθι, grc, transcription, μνήσθι, texts/evro0002.xml
 μνήσκου, grc, transcription, μνήσκου, texts/evro0007.xml
 μνήσκου, grc, transcription, </lb>μνήσκο<supplied>υ</supplied>, texts/evro0010.xml
@@ -8630,7 +8614,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 μῖον, grc, transcription, </lb>μῖον</sic>, texts/zoor0310.xml
 μῶν, grc, transcription, </lb>μῶν, texts/elku0001.xml
 μῷ, grc, transcription, </lb>μῷ</sic>, texts/zoor0022.xml
-ν, grc, transcription, </lb>ν., texts/birs0008.xml
 ν, grc, transcription, <abbr>ν</abbr></expan>, texts/bshe0023.xml
 ν, grc, transcription, </lb>ν, texts/bshe0103.xml
 ν, grc, transcription, </lb>ν, texts/caes0172.xml
@@ -8701,7 +8684,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 νάματος, grc, transcription, </lb>νάματος</sic>, texts/zoor0054.xml
 νάντος, grc, transcription, </lb>νάντο<sic>ς</sic>, texts/zoor0304.xml
 νέβου, grc, transcription, </lb>νέβο<unclear>υ</unclear>, texts/farj0004.xml
-νέθηκν, grc, transcription, <abbr>νέθηκν</abbr>, texts/kede0001.xml
 νέμ, grc, transcription, <unclear>ν</unclear>έμ</abbr>, texts/elus0049.xml
 νέμει, grc, transcription, νέμε<supplied>ι</supplied>, texts/bshe0001.xml
 νέμους, grc, transcription, </lb>νέμο<hi>υς</hi>, texts/zoor0061.xml
@@ -9865,7 +9847,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 πίσ, grc, transcription, πίσ, texts/zoor0110.xml
 πίσ, grc, transcription, πίσ, texts/zoor0112.xml
 πίσ, grc, transcription, πίσ, texts/zoor0120.xml
-πίσ, grc, transcription, πίσ, texts/zoor0140.xml
 πίσ, grc, transcription, πίσ, texts/zoor0152.xml
 πίσ, grc, transcription, πίσ, texts/zoor0155.xml
 πίσ, grc, transcription, πίσ, texts/zoor0174.xml
@@ -9897,6 +9878,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 πίστεως, grc, transcription, πίστεως, texts/zoor0122.xml
 πίστεως, grc, transcription, πίστεως, texts/zoor0123.xml
 πίστεως, grc, transcription, πίστεως, texts/zoor0132.xml
+πίστεως, grc, transcription, πίσ</lb>τεως, texts/zoor0140.xml
 πίστεως, grc, transcription, </lb>πίστεως, texts/zoor0141.xml
 πίστεως, grc, transcription, πίστεως, texts/zoor0147.xml
 πίστεως, grc, transcription, </lb>πίστεως, texts/zoor0149.xml
@@ -10169,14 +10151,14 @@ western, grc, transcription, western, texts/tibe0004.xml
 πραιπόσιτος, grc, transcription, <corr>πραιπόσιτος</corr></choice>&#44;, texts/zoor0254.xml
 πρε, grc, transcription, <unclear>πρ</unclear>ε</abbr>, texts/akas0002.xml
 πρε, grc, transcription, πρε, texts/jeru0237.xml
-πρεσβ, grc, transcription, <abbr>πρεσβ</abbr>, texts/birs0007.xml
 πρεσβ, grc, transcription, πρεσβ, texts/carm0004.xml
 πρεσβ, grc, transcription, <abbr>πρεσβ</abbr>, texts/khan0001.xml
 πρεσβ, grc, transcription, <abbr>πρεσβ</abbr>, texts/khir0001.xml
 πρεσβευτο, grc, transcription, </lb>πρεσβευτο, texts/jaff0015.xml
 πρεσβευτὴν, grc, transcription, πρεσβευτὴν, texts/tdor0004.xml
-πρεσβυτ, grc, transcription, <abbr>πρεσβυτ</abbr>, texts/birs0008.xml
 πρεσβυτέρου, grc, transcription, </lb>πρε<supplied>σβυτέρου, texts/abur0001.xml
+πρεσβυτέρου, grc, transcription, <abbr>πρεσβ</abbr><ex>υτέρου</ex></expan>, texts/birs0007.xml
+πρεσβυτέρου, grc, transcription, <abbr>πρεσβυτ</abbr><ex>έρου</ex></expan>.</p></div>, texts/birs0008.xml
 πρεσβυτέρου, grc, transcription, πρεσβυτέρου, texts/bshe0026.xml
 πρεσβυτέρου, grc, transcription, <abbr>π</lb>ρεσβ</abbr><ex>υτέρου</ex></expan>, texts/evro0001.xml
 πρεσβυτέρου, grc, transcription, <abbr>πρεσβ</abbr><ex>υτέρου</ex></expan>, texts/evro0003.xml
@@ -10212,8 +10194,8 @@ western, grc, transcription, western, texts/tibe0004.xml
 προσκυ-, grc, transcription, π</supplied>ροσκυ-, texts/abur0001.xml
 προσσυλήτου, grc, transcription, </lb>προσσυλήτου, texts/caes0165.xml
 προστάτην, grc, transcription, προστά<hi>τη</hi>ν</del>., texts/caes0012.xml
-προσφέρωμε, grc, transcription, προσφέρωμε, texts/birs0008.xml
 προσφέρωμεν, grc, transcription, </lb>προσφέρωμεν., texts/ashk0002.xml
+προσφέρωμεν, grc, transcription, προσφέρωμε</lb>ν., texts/birs0008.xml
 προσφορὰ, grc, transcription, </expan></gap>πρ</supplied>οσ</lb>φορὰ, texts/caes0080.xml
 προσφορὰ, grc, transcription, <abbr>προ</abbr><ex>σφορὰ</ex></expan>, texts/caes0083.xml
 προσφορὰ, grc, transcription, </lb>προσφορὰ, texts/caes0134.xml
@@ -10521,7 +10503,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 σαμένου, grc, transcription, </lb>σαμένου, texts/zoor0152.xml
 σαμβάτου, grc, transcription, <sic>σαμβάτου</sic>, texts/zoor0214.xml
 σαν, grc, transcription, </lb>σαν, texts/knah0002.xml
-σαν, grc, transcription, </lb>σαν, texts/zoor0140.xml
 σανία, grc, transcription, </lb>σανία</p></div>, texts/tbye0001.xml
 σανεθηκεν, grc, transcription, <orig>σανεθηκεν</orig>, texts/khis0087.xml
 σανταν, grc, transcription, </lb>σανταν, texts/evro0009.xml
@@ -10607,6 +10588,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 σιοστοῦ, grc, transcription, </lb>σιοστοῦ, texts/zoor0158.xml
 σιώτατος, grc, transcription, </lb>σιώτ</abbr><ex>ατος</ex></expan>, texts/birs0006.xml
 σκέπη, grc, transcription, σκέπη, texts/bshe0022.xml
+σκαὶ, grc, transcription, <am>σ</am><ex>καὶ</ex></expan>, texts/farj0002.xml
 σκδʹ, grc, transcription, </lb>σκδʹ</p></div>, texts/zoor0004.xml
 σκε, grc, transcription, </lb>σκ<unclear>ε</unclear>, texts/masa0932.xml
 σκζ, grc, transcription, <num>σκζ</num>.</p></div>, texts/zoor0322.xml
@@ -10776,7 +10758,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 σωζέστω, grc, transcription, </lb>σωζέστω., texts/tibe0004.xml
 σωζέστωΣευε͂ρος, grc, transcription, </lb>σωζέστω</p><p>Σευε͂<supplied>ρος</supplied>, texts/hmti0003.xml
 σωμάτων, grc, transcription, σωμάτων, texts/birs0009.xml
-σωνος, grc, transcription, </lb>σωνος, texts/birs0008.xml
 σωσέν, grc, transcription, </lb><supplied>σωσέν</supplied>, texts/caes0142.xml
 σωτερίας, grc, transcription, σωτερ<supplied>ίας</supplied>., texts/ashk0002.xml
 σωτερίας, grc, transcription, <abbr>σωτε</abbr><ex>ρίας</ex></expan>, texts/bshe0032.xml
@@ -10916,10 +10897,8 @@ western, grc, transcription, western, texts/tibe0004.xml
 τα­, grc, transcription, τα­</supplied>, texts/sepp0024.xml
 ταγειτνίου, grc, transcription, </lb><supplied>τ</supplied>αγειτ<supplied>νί</supplied>ου</p></div>, texts/bshe0120.xml
 ταδ, grc, transcription, </lb></gap>ταδ</gap>, texts/caes0344.xml
-ται, grc, transcription, </lb>ται</sic>, texts/zoor0089.xml
 ταιʹ, grc, transcription, ταιʹ&#44;, texts/zoor0111.xml
 ταιʹ, grc, transcription, ταιʹ&#44;, texts/zoor0112.xml
-ταινται, grc, transcription, </lb>ται</abbr><ex>νται</ex></expan>, texts/birs0006.xml
 ταμιτίου, grc, transcription, </lb>ταμιτίου</p></div>, texts/bshe0107.xml
 ταρίου, grc, transcription, </lb>τ<supplied>α</supplied>ρίου</p></div>, texts/jeru0003.xml
 τας, grc, transcription, </lb>τας</sic>, texts/zoor0012.xml
@@ -11035,7 +11014,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 τεως, grc, transcription, </lb>τεως, texts/zoor0110.xml
 τεως, grc, transcription, </lb>τεως, texts/zoor0112.xml
 τεως, grc, transcription, </lb>τεως, texts/zoor0120.xml
-τεως, grc, transcription, </lb>τεως, texts/zoor0140.xml
 τεως, grc, transcription, </lb>τεως, texts/zoor0152.xml
 τεως, grc, transcription, </lb>τεως, texts/zoor0155.xml
 τεως, grc, transcription, </lb>τεως, texts/zoor0174.xml
@@ -11072,11 +11050,9 @@ western, grc, transcription, western, texts/tibe0004.xml
 τησ, grc, transcription, <unclear>τ</unclear><unclear>η</unclear>σ</supplied>, texts/bshe0119.xml
 τητος, grc, transcription, <supplied>τητος</supplied>, texts/fein0002.xml
 τθιʹ, grc, transcription, τθιʹ&#44;, texts/zoor0127.xml
-τι, grc, transcription, </lb>τι, texts/birs0008.xml
 τι, grc, transcription, </lb>τι, texts/zoor0022.xml
 τι, grc, transcription, </lb><unclear>τ</unclear>ι</sic>, texts/zoor0061.xml
 τι, grc, transcription, <sic>τι</sic>, texts/zoor0069.xml
-τι, grc, transcription, </lb>τι, texts/zoor0089.xml
 τι, grc, transcription, </lb>τι</sic>, texts/zoor0198.xml
 τι, grc, transcription, </lb>τι</sic>, texts/zoor0214.xml
 τι, grc, transcription, <sic>τι, texts/zoor0217.xml
@@ -11581,7 +11557,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 τριβούνου, grc, transcription, τρι<unclear>β</unclear><add>ούνου</add>, texts/hamm0022.xml
 τρισμακαρίου, grc, transcription, τρισμακαρίου</note></div>, texts/hamm0022.xml
 τριτῃ, grc, transcription, τρι</lb>τῃ, texts/zoor0334.xml
-τρος, grc, transcription, </lb>τρος, texts/zoor0100.xml
 τρου, grc, transcription, </lb>τρου, texts/elus0003.xml
 τρου, grc, transcription, </lb>τρ</supplied>ου, texts/elus0044.xml
 τρου, grc, transcription, </lb>τρου, texts/zoor0116.xml
@@ -12034,7 +12009,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 υσαρίου, grc, transcription, </lb>υσαρίου, texts/zoor0215.xml
 υσον, grc, transcription, </lb>υσον</sic>, texts/zoor0129.xml
 υσᾶ, grc, transcription, </abbr><ex>υσᾶ</ex></expan>, texts/caes0109.xml
-υτέρου, grc, transcription, <ex>υτέρου</ex></choice>, texts/birs0007.xml
 υτέρου, grc, transcription, </lb>υτέρου</p></div>, texts/carm0004.xml
 υτέρου, grc, transcription, <ex>υτέρου</ex></choice>, texts/khan0001.xml
 υτέρου, grc, transcription, <ex>υτέρου</ex></choice>&#44;, texts/khir0001.xml
@@ -12299,7 +12273,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 ως, grc, transcription, </lb>ως, texts/birs0003.xml
 ως, grc, transcription, </lb><supplied>ως</supplied>, texts/caes0312.xml
 ως, grc, transcription, </lb>ως, texts/hamm0002.xml
-ως, grc, transcription, </lb>ως, texts/zoor0089.xml
 ως, grc, transcription, </lb>ως, texts/zoor0115.xml
 ως, grc, transcription, </lb>ως, texts/zoor0143.xml
 ως, grc, transcription, </lb>ως, texts/zoor0145.xml
@@ -12492,7 +12465,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἀ, grc, transcription, <sic>ἀ, texts/zoor0069.xml
 ἀ, grc, transcription, ἀ, texts/zoor0086.xml
 ἀ, grc, transcription, <sic>ἀ, texts/zoor0098.xml
-ἀ, grc, transcription, <unclear>ἀ</unclear>, texts/zoor0100.xml
 ἀ, grc, transcription, <sic>ἀ, texts/zoor0109.xml
 ἀ, grc, transcription, ἀ, texts/zoor0113.xml
 ἀ, grc, transcription, </lb><supplied>ἀ</supplied>, texts/zoor0117.xml
@@ -12683,7 +12655,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἀθάνατος, grc, transcription, </lb>ἀθάνατος., texts/zoor0097.xml
 ἀθάνατος, grc, transcription, </lb>ἀθάνατος.</p></div>, texts/zoor0098.xml
 ἀθάνατος, grc, transcription, </lb><supplied>ἀθάνα</supplied>τος.</p></div>, texts/zoor0099.xml
-ἀθάνατος, grc, transcription, <corr>ἀθάνατος</corr></choice>.</p></div>, texts/zoor0100.xml
+ἀθάνατος, grc, transcription, <unclear>ἀ</unclear></lb>θάνατος</corr></choice>.</p></div>, texts/zoor0100.xml
 ἀθάνατος, grc, transcription, ἀ<unclear>θά</unclear>νατος.</p></div>, texts/zoor0101.xml
 ἀθάνατος, grc, transcription, </lb>ἀθάνατος., texts/zoor0102.xml
 ἀθάνατος, grc, transcription, <corr>ἀθάνατος</corr></choice>.</p></div>, texts/zoor0103.xml
@@ -12833,6 +12805,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἀθανάτου, grc, transcription, ἀ<unclear>θ</unclear><unclear>α</unclear></lb>νάτου, texts/beth0130.xml
 ἀθς, grc, transcription, <abbr>ἀθ<unclear>ς</unclear></abbr>, texts/elus0059.xml
 ἀθόνα, grc, transcription, <sic>ἀθό<unclear>να</unclear>, texts/zoor0035.xml
+ἀθόνατος, grc, transcription, <unclear>ἀ</unclear></lb>θόνατος</sic>, texts/zoor0100.xml
 ἀθἀ, grc, transcription, ἀθἀ, texts/zoor0147.xml
 ἀθὀνοτος, grc, transcription, <sic>ἀ<unclear>θ</unclear>ὀνοτος.</sic>, texts/zoor0221.xml
 ἀθάναθος, grc, transcription, ἀθ</lb>άναθος, texts/beth0188.xml
@@ -12879,7 +12852,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἀνέθηκαν, grc, transcription, </lb><supplied>ἀνέθηκ</supplied>αν, texts/sena0001.xml
 ἀνέθηκεν, grc, transcription, </lb>ἀνέθηκε<supplied>ν</supplied>., texts/bshe0003.xml
 ἀνέθηκεν, grc, transcription, ἀνέθηκ<supplied>εν</supplied>, texts/bshe0027.xml
-ἀνέθηκεν, grc, transcription, <ex>ἀνέθηκεν</ex></choice>, texts/kede0001.xml
+ἀνέθηκεν, grc, transcription, <corr>ἀνέ</lb>θηκεν</corr></choice>, texts/kede0001.xml
 ἀνέθηκεν, grc, transcription, </lb>ἀνέθηκεν, texts/kede0003.xml
 ἀνα, grc, transcription, <sic>ἀνα, texts/birs0001.xml
 ἀνα, grc, transcription, ἀ<unclear>να</unclear>, texts/zoor0109.xml
@@ -13022,8 +12995,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἀπαρτίας, grc, transcription, </lb><abbr>ἀπαρτί</abbr><ex>ας, texts/beth0206.xml
 ἀπεκλείσθη, grc, transcription, <abbr>ἀπεκ</abbr><ex>λείσθη</ex></expan>, texts/bshe0009.xml
 ἀπελευθέρου, grc, transcription, ἀπελευ</lb>θέρου, texts/jeri0007.xml
-ἀπελευθέρας, grc, transcription, <ex>ἀπελευθέρας</ex></choice>, texts/beth0201.xml
-ἀπελευέρας, grc, transcription, <abbr>ἀπελευέρας</abbr>, texts/beth0201.xml
+ἀπελευθέρας, grc, transcription, <abbr>ἀπελευ</abbr><ex>θ</ex><abbr>έρας</abbr></expan>, texts/beth0201.xml
 ἀπελούθη, grc, transcription, ἀπελ<add>ο</add>ύθη, texts/hamm0054.xml
 ἀπο, grc, transcription, </lb>ἀπο, texts/beth0136.xml
 ἀπο, grc, transcription, ἀπο</gap>, texts/elus0088.xml
@@ -13071,7 +13043,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἀποθ, grc, transcription, ἀποθ, texts/zoor0287.xml
 ἀποθά, grc, transcription, <unclear>ἀ</unclear>πο<unclear>θ</unclear>ά, texts/zoor0052.xml
 ἀποθάνατος, grc, transcription, <sic>ἀπο</lb><unclear>θ</unclear>άνατος</sic>, texts/zoor0063.xml
-ἀποθέσε, grc, transcription, ἀποθέσε, texts/zoor0089.xml
 ἀποθα, grc, transcription, ἀποθα, texts/zoor0073.xml
 ἀποθα, grc, transcription, ἀποθα, texts/zoor0088.xml
 ἀποθα, grc, transcription, ἀποθα, texts/zoor0123.xml
@@ -13136,7 +13107,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἀποθανούσης, grc, transcription, <reg>ἀποθα</lb>νούσης</reg>, texts/zoor0357.xml
 ἀποθανοῦ, grc, transcription, ἀποθανοῦ, texts/zoor0056.xml
 ἀποθανοῦ, grc, transcription, </lb><unclear>ἀπ</unclear>οθανοῦ, texts/zoor0116.xml
-ἀποθανοῦ, grc, transcription, <unclear>ἀ</unclear>πο<unclear>θ</unclear>ανοῦ, texts/zoor0140.xml
 ἀποθανοῦ, grc, transcription, <sic>ἀποθανοῦ, texts/zoor0181.xml
 ἀποθανοῦσ, grc, transcription, ἀποθ<unclear>αν</unclear>οῦ<unclear>σ</unclear>, texts/zoor0101.xml
 ἀποθανοῦσα, grc, transcription, </lb><unclear>ἀποθα</unclear>νοῦσ<unclear>α</unclear>, texts/zoor0005.xml
@@ -13155,6 +13125,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἀποθανοῦσα, grc, transcription, </g><orig>ἀ</lb>ποθανοῦ</lb>σα</orig>, texts/zoor0364.xml
 ἀποθανοῦσαις, grc, transcription, <sic>ἀποθανοῦσαις</sic>, texts/zoor0344.xml
 ἀποθανοῦσαμετὰ, grc, transcription, <orig>ἀποθα</lb>νοῦσα</orig></choice>με<supplied>τ</supplied>ὰ, texts/zoor0357.xml
+ἀποθανοῦσαν, grc, transcription, <unclear>ἀ</unclear>πο<unclear>θ</unclear>ανοῦ</lb>σαν, texts/zoor0140.xml
 ἀποθανοῦσαν, grc, transcription, <corr>ἀποθανοῦσαν</corr></choice>, texts/zoor0293.xml
 ἀποθανοῦσαν, grc, transcription, ἀ<supplied>π</supplied>ο<supplied>θ</supplied>ανο<supplied>ῦ</supplied></lb>σαν, texts/zoor0376.xml
 ἀποθανοῦσης, grc, transcription, ἀποθα</lb>νοῦσης, texts/zoor0323.xml
@@ -13804,7 +13775,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ἀρτεμησίῳ, grc, transcription, Ἀρτεμη</lb>σίῳ, texts/zoor0346.xml
 Ἀρτεμισί, grc, transcription, </lb>Ἀρτεμισί, texts/zoor0031.xml
 Ἀρτεμισίου, grc, transcription, Ἀρτεμισίου, texts/evro0003.xml
-Ἀρτεμισίου, grc, transcription, <ex>Ἀρτεμισίου</ex></choice>, texts/kede0001.xml
+Ἀρτεμισίου, grc, transcription, <corr>Ἀρτεμ</lb>ισίου</corr></choice>, texts/kede0001.xml
 Ἀρτεμισίου, grc, transcription, <corr>Ἀρτεμισίου</corr></choice>, texts/zoor0001.xml
 Ἀρτεμισίου, grc, transcription, Ἀρτεμισίου, texts/zoor0016.xml
 Ἀρτεμισίου, grc, transcription, </lb>Ἀρτεμισίου, texts/zoor0023.xml
@@ -13830,8 +13801,8 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ἀρτεμισίῳ, grc, transcription, <corr>Ἀρτεμισίῳ</corr></choice>, texts/zoor0378.xml
 Ἀρτεμισιίου, grc, transcription, <corr>Ἀρτεμισιίου</corr></choice>, texts/zoor0206.xml
 Ἀρτεμισόυ, grc, transcription, <corr>Ἀρτεμισόυ</corr></choice>, texts/zoor0220.xml
-Ἀρτη, grc, transcription, Ἀρτη, texts/zoor0140.xml
 Ἀρτημ, grc, transcription, <sic>Ἀρτημ, texts/zoor0001.xml
+Ἀρτημεσίου, grc, transcription, Ἀρτη</lb>μεσίου, texts/zoor0140.xml
 Ἀρτημεσίου, grc, transcription, </lb><sic>Ἀρτημεσίου</sic>, texts/zoor0251.xml
 Ἀρχιβίου, grc, transcription, Ἀρχιβίου, texts/bshe0132.xml
 Ἀρχιποιμήν, grc, transcription, <p>Ἀρχιποιμήν, texts/birs0006.xml
@@ -13849,7 +13820,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ἀστεριου, grc, transcription, Ἀστε</lb>ριου</p></div>, texts/jaff0021.xml
 Ἀστήρ, grc, transcription, </lb>Ἀστήρ, texts/beth0177.xml
 Ἀταν, grc, transcription, </lb>Ἀταν, texts/beth0091.xml
-Ἀτεμισίου, grc, transcription, <abbr>Ἀτεμισίου</abbr>, texts/kede0001.xml
 Ἀττικοῦ, grc, transcription, Ἀττικοῦ&#44;, texts/zoor0057.xml
 Ἀττικοῦ, grc, transcription, Ἀττικοῦ&#44;, texts/zoor0086.xml
 Ἀυῖτος, grc, transcription, <p>Ἀυῖτο<supplied>ς</supplied>, texts/beth0213.xml
@@ -13866,6 +13836,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ἀφροδίτης, grc, transcription, <corr>Ἀφροδίτης</corr></choice>, texts/zoor0281.xml
 Ἀχολίας, grc, transcription, Ἀχολί</lb>ας, texts/jaff0021.xml
 Ἀϊαλὰ, grc, transcription, <p>Ἀϊαλὰ, texts/haif0021.xml
+Ἀϙτεμισίου, grc, transcription, <sic>Ἀϙτεμ</lb>ισίου</sic>, texts/kede0001.xml
 Ἀὐγούστος, grc, transcription, </lb><supplied>Ἀ</supplied>ὐ<supplied>γού</supplied>στος, texts/bshe0020.xml
 Ἀέκσο, grc, transcription, <p>Ἀέκσο, texts/beth0133.xml
 Ἁδριανίου, grc, transcription, Ἁδριανίου, texts/caes0058.xml
@@ -14242,6 +14213,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἐνάτης, grc, transcription, ἐν</lb>άτης., texts/zoor0258.xml
 ἐνάτου, grc, transcription, ἐνάτου, texts/zoor0012.xml
 ἐνάτου, grc, transcription, ἐνάτου, texts/zoor0083.xml
+ἐνέθηκον, grc, transcription, <sic>ἐνέ</lb>θηκον</sic>, texts/kede0001.xml
 ἐνγόνιν, grc, transcription, ἐν</lb>γόνιν, texts/jaff0018.xml
 ἐνγὺς, grc, transcription, </lb>ἐνγὺ<supplied>ς, texts/caes0143.xml
 ἐνδοξοτάτου, grc, transcription, <abbr>ἐνδοξ</abbr><ex>οτάτου</ex></expan>, texts/bshe0012.xml
@@ -15339,7 +15311,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ἐλπιδίου, grc, transcription, </lb>Ἐλπιδίου, texts/zoor0166.xml
 Ἐλπιδίου, grc, transcription, </lb><corr>Ἐλπιδίου</corr></choice>&#44;, texts/zoor0266.xml
 Ἐλέου, grc, transcription, Ἐλέου, texts/caes0167.xml
-Ἐμέ, grc, transcription, Ἐμέ, texts/birs0008.xml
+Ἐμέσωνος, grc, transcription, Ἐμέ</lb>σωνος, texts/birs0008.xml
 Ἐμαός, grc, transcription, Ἐμαός, texts/haif0008.xml
 ἘμμεδάβουΜαρκιανοῦ, grc, transcription, <reg>Ἐμμεδάβου</reg></choice>Μαρκι</lb>αν<unclear>ο</unclear>ῦ, texts/zoor0369.xml
 Ἐμὶ, grc, transcription, <g>+</g>Ἐμ<supplied>ὶ, texts/fein0013.xml
@@ -15802,7 +15774,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἡμίσους, grc, transcription, ἡμίσους&#44;, texts/zoor0156.xml
 ἡμεῖς, grc, transcription, </lb>ἡμεῖς, texts/beth0092.xml
 ἡμιόγδοον, grc, transcription, <p>ἡμιόγδ<unclear>οον</unclear></p></div>, texts/mare0220.xml
-ἡμων, grc, transcription, ἡμ</supplied>ων, texts/carm0001.xml
 ἡμέρᾳ, grc, transcription, ἡμέρᾳ, texts/hamm0054.xml
 ἡμᾶς, grc, transcription, <supplied>ἡ</supplied>μᾶς, texts/beth0129.xml
 ἡμᾶς, grc, transcription, </lb>ἡμᾶς, texts/beth0131.xml
@@ -15813,6 +15784,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ἡμῶν, grc, transcription, </lb>ἡμ<supplied>ῶ</supplied>ν, texts/beth0130.xml
 ἡμῶν, grc, transcription, ἡμῶν, texts/beth0192.xml
 ἡμῶν, grc, transcription, ἡμῶν&#44;, texts/bshe0022.xml
+ἡμῶν, grc, transcription, ἡμ</supplied>ῶν, texts/carm0001.xml
 ἡμῶν, grc, transcription, </lb><supplied>ἡμῶ</supplied>ν, texts/evro0003.xml
 ἡμῶν, grc, transcription, ἡμῶν, texts/hamm0057.xml
 ἡνέρᾳ, grc, transcription, <sic>ἡνέρᾳ</sic>, texts/zoor0229.xml
@@ -16043,11 +16015,10 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ἰθαρου, grc, transcription, <p>Ἰθαρου, texts/jeru0188.xml
 Ἰκαρπία, grc, transcription, <p>Ἰκαρπία, texts/jeru0160.xml
 Ἰλία, grc, transcription, </lb>Ἰλία, texts/squf0003.xml
-Ἰνδε, grc, transcription, <abbr>Ἰνδε</abbr>, texts/carm0001.xml
 Ἰνδικτιῶνος, grc, transcription, <abbr>Ἰνδ</abbr><ex>ικτιῶνος</ex></expan>, texts/khis0083.xml
-Ἰνδικτιῶνοςε, grc, transcription, <ex>Ἰνδικτιῶνοςε</ex></choice>, texts/carm0001.xml
 Ἰνδικτιῶος, grc, transcription, <abbr>Ἰν</abbr><ex>δικτιῶος</ex></expan>, texts/evro0003.xml
 Ἰνδικτῶνος, grc, transcription, </lb><abbr>Ἰνδ</abbr><ex>ικτῶνος</ex></expan>, texts/hamm0002.xml
+Ἰνδκτιῶνος, grc, transcription, <abbr>Ἰνδ</abbr><ex>κτιῶνος</ex></expan>, texts/carm0001.xml
 Ἰνδή, grc, transcription, Ἰνδή, texts/hamm0049.xml
 Ἰνδή‧, grc, transcription, </lb>Ἰνδή‧, texts/hamm0049.xml
 Ἰο­, grc, transcription, Ἰο­, texts/hamm0044.xml
@@ -16215,7 +16186,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ἱκλωδις, grc, transcription, <p>Ἱκλωδις, texts/jeru0129.xml
 Ἱλαρίου, grc, transcription, </lb>Ἱλαρίου</p></div>, texts/elus0002.xml
 Ἱλαρία, grc, transcription, Ἱλαρία., texts/hamm0035.xml
-Ἱου, grc, transcription, <p>Ἱου, texts/farj0002.xml
+Ἱου, grc, transcription, <p>Ἱου</lb>, texts/farj0002.xml
 Ἱωάννους, grc, transcription, Ἱωάννους&#44;, texts/evro0007.xml
 Ἱέριος, grc, transcription, </lb>Ἱέρι<add>ο</add>ς, texts/hamm0055.xml
 Ἴκουβος, grc, transcription, <p>Ἴκουβος, texts/beth0094.xml
@@ -16505,7 +16476,7 @@ western, grc, transcription, western, texts/tibe0004.xml
 ὁ, grc, transcription, ὁ, texts/jeru0310.xml
 ὁ, grc, transcription, ὁ</abbr>, texts/narr0003.xml
 ὁ, grc, transcription, ὁ, texts/rafi0002.xml
-ὁ, grc, transcription, </choice>ὁ, texts/rafi0004.xml
+ὁ, grc, transcription, ὁ, texts/rafi0004.xml
 ὁ, grc, transcription, </lb>ὁ, texts/sama0100.xml
 ὁ, grc, transcription, ὁ, texts/sena0001.xml
 ὁ, grc, transcription, ὁ, texts/tibe0006.xml
@@ -16574,8 +16545,8 @@ western, grc, transcription, western, texts/tibe0004.xml
 ὁσιωτάτου, grc, transcription, </lb><abbr>ὁσιωτά</abbr><ex>του</ex></expan>, texts/jeru0310.xml
 ὁσιότε, grc, transcription, <sic>ὁσιότε, texts/zoor0061.xml
 ὁσιότη, grc, transcription, ὁσιότη, texts/zoor0022.xml
-ὁσιότη, grc, transcription, ὁσιό<unclear>τη</unclear>, texts/zoor0089.xml
 ὁσιότητι, grc, transcription, <corr>ὁσιότητι</corr></choice>, texts/zoor0061.xml
+ὁσιότητι, grc, transcription, ὁσιό<unclear>τη</unclear></lb>τι, texts/zoor0089.xml
 ὁσιότητι, grc, transcription, ὁσιό</lb>τητι, texts/zoor0366.xml
 ὁσιότητι, grc, transcription, ὁσιότητι, texts/zoor0369.xml
 ὁσία, grc, transcription, <unclear>ὁ</unclear><supplied>σία</supplied>, texts/beth0038.xml
@@ -16666,7 +16637,6 @@ western, grc, transcription, western, texts/tibe0004.xml
 Ὀμαβί, grc, transcription, <unclear>Ὀμαβί</unclear>, texts/zoor0311.xml
 Ὀμμάβι, grc, transcription, </lb>Ὀμμάβι, texts/zoor0129.xml
 Ὀμμαβίη, grc, transcription, <corr>Ὀμμαβίη</corr></choice>, texts/zoor0311.xml
-Ὀμμαβίης, grc, transcription, Ὀμμαβίης, texts/zoor0089.xml
 Ὀμμο, grc, transcription, Ὀμ<unclear>μ</unclear>ο, texts/elus0043.xml
 Ὀμμο, grc, transcription, </lb><sic>Ὀμμο, texts/elus0059.xml
 Ὀμμοσεείδη, grc, transcription, </lb><corr>Ὀμμοσεείδη</corr></choice>&#44;, texts/elus0059.xml
