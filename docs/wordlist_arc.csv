@@ -529,8 +529,6 @@
 Y, arc, transcription, </lb>Y, texts/sina0111.xml
 makers, arc, transcription, (maker's, texts/mger0059.xml
 mark, arc, transcription, mark)</p></div>, texts/mger0059.xml
-|, arc, transcription, |, texts/mger0392.xml
-|, arc, transcription, |, texts/mger0393.xml
 Α, arc, transcription, <p>Α, texts/masa0282.xml
 Α, arc, transcription, <p>Α, texts/masa0283.xml
 Β, arc, transcription, </lb>Β</p></div>, texts/masa0282.xml
@@ -3246,6 +3244,7 @@ mark, arc, transcription, mark)</p></div>, texts/mger0059.xml
 מ, arc, transcription, מ</gap></p></div>, texts/mare0104.xml
 מ, arc, transcription, <unclear>מ</unclear>, texts/mare0108.xml
 מ, arc, transcription, <p>מ</p></div>, texts/masa0201.xml
+מ, arc, transcription, מ-</gap>, texts/masa0554.xml
 מ, arc, transcription, </lb></gap>מ, texts/masa0606.xml
 מ, arc, transcription, <p>מ</gap></gap></p></div>, texts/masa0688.xml
 מ, arc, transcription, </lb></gap></gap>מ</gap></p></div>, texts/mger0093.xml
@@ -3257,7 +3256,6 @@ mark, arc, transcription, mark)</p></div>, texts/mger0059.xml
 מ, arc, transcription, <unclear>מ</unclear></gap></p></div>, texts/mger0329.xml
 מ, arc, transcription, </gap><unclear>מ</unclear></gap></gap></p></div>, texts/mger0343.xml
 מ, arc, transcription, </lb></gap><unclear>מ</unclear></gap>, texts/mger0345.xml
-מ-, arc, transcription, מ-</gap>, texts/masa0554.xml
 מא, arc, transcription, <p>מא</p></div>, texts/masa0680.xml
 מא, arc, transcription, <supplied>מא, texts/zoor0363.xml
 מאה, arc, transcription, מאה, texts/masa0558.xml
@@ -4538,7 +4536,7 @@ mark, arc, transcription, mark)</p></div>, texts/mger0059.xml
 שבעה, arc, transcription, שבע<supplied>ה</supplied>, texts/unkn0107.xml
 שבעין, arc, transcription, </lb></gap><supplied>שב</supplied>עין, texts/masa0569.xml
 שבעין, arc, transcription, </lb></gap><supplied>ש</supplied>בעין, texts/masa0578.xml
-שברנש-, arc, transcription, </gap>שב<supplied>ר</supplied>נש-</gap>, texts/masa0555.xml
+שברנש, arc, transcription, </gap>שב<supplied>ר</supplied>נש-</gap>, texts/masa0555.xml
 שבתא, arc, transcription, שבתא, texts/unkn0104.xml
 שבתא, arc, transcription, שבתא, texts/unkn0105.xml
 שבתא, arc, transcription, שבתא, texts/unkn0106.xml

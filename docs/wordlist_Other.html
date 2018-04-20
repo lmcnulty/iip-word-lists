@@ -38,7 +38,27 @@
 		let wordList = null;
 		let alphabetIndex = {};
 		//let rows = null;
-		
+		let normalizeTable = [
+			['αἀἁἂἃἄἅἇάὰάᾳᾶ', 'α'],
+			['εἐἑἒἓἔἕέὲέ', 'ε'],
+			['ηἠἡἢἣἤἥἦἧήὴήῆῇ', 'η'],
+			['ωὠὡὤὥὦὧώώᾠᾦῳῶῷ', 'ω'],
+			['οόὀὁὃὄὅὸό', 'ο'],
+			['υύὐὑὕὺύῦ', 'υ'],
+			['ιίϊἰἱἴἷὶίῖ', 'ι'],
+			['ρῥ', 'ρ']
+		]
+		function normalizeLetter(letter) {
+			for (let i = 0; i < normalizeTable.length; i++) {
+				for (let j = 0; j < normalizeTable[i][0].length; j++) {
+					if (letter == normalizeTable[i][0].charAt(j)) {
+						return normalizeTable[i][1];
+					}
+				}
+			}
+			return letter;	
+		}
+
 		function sortData(wordList) {
 			rows.sort(function (a, b) {
 				let columnsA = a.split(",");
@@ -92,7 +112,8 @@
 			}
 		}
 		
-		function displayDataAlphabet(rows, letter) {
+		function displayDataAlphabet(rows, baseLetter) {
+			let letter = normalizeLetter(baseLetter);
 			let dataTable = document.getElementById('data');
 			while(dataTable.childNodes.length > 1) {
 				dataTable.removeChild(dataTable.lastChild);
@@ -100,7 +121,7 @@
 			if (alphabetIndex[letter] == null) {
 				alphabetIndex[letter] = [];
 				for (let i = 0; i < rows.length; i++) {
-					if (rows[i].charAt(0) == letter.toUpperCase() || rows[i].charAt(0) == letter.toLowerCase()) {
+					if (normalizeLetter(rows[i].charAt(0)) == letter.toUpperCase() || normalizeLetter(rows[i].charAt(0)) == letter.toLowerCase()) {
 						createNewRow(dataTable, rows[i].split(","));
 						alphabetIndex[letter].push(rows[i]);
 					}
@@ -176,13 +197,14 @@
 			let letters = [];
 			for (let i = 0; i < rows.length; i++) {
 				let firstWord = rows[i].split(',')[0].toLowerCase();
-				console.log("firstWord: " + firstWord + ", type: " + typeof firstWord);
-				let firstLetter = firstWord.charAt(0);
+				let firstLetter = normalizeLetter(firstWord.charAt(0));
 				if (letters.indexOf(firstLetter) == -1) {
-					letters.push(firstLetter);
+					if (firstLetter != ' ' && firstLetter != '\t'&& firstLetter != '\n' && firstLetter != null && firstLetter != "") {
+						letters.push(firstLetter);
+					}
 				}
 			}
-			return letters;
+			return letters.sort();
 		}
 
 		getData("wordlist_Other.csv");

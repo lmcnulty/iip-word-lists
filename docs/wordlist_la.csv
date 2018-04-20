@@ -140,8 +140,8 @@ Eudemi, la, transcription, </lb><abbr>Eude</abbr><ex>mi</ex></expan>, texts/masa
 FRetensis, la, transcription, </abbr></space><unclear>FR</unclear></hi>e</abbr><ex>tensis</ex></expan>, texts/masa0853.xml
 Felici, la, transcription, <abbr>F</abbr><ex>elici</ex></expan>, texts/bshe0006.xml
 Felicissimo, la, transcription, <p>Felicissimo, texts/caes0009.xml
+Fer, la, transcription, Fer-, texts/bshe0006.xml
 Fer, la, transcription, <abbr>Fe<unclear>r</unclear></abbr>, texts/caes0054.xml
-Fer-, la, transcription, Fer-, texts/bshe0006.xml
 Ferratae, la, transcription, <abbr>Ferr</abbr><ex>atae</ex></expan>, texts/caes0004.xml
 Ferratae, la, transcription, <abbr>Ferr</abbr><ex>atae</ex></expan>., texts/caes0049.xml
 Ferratae, la, transcription, <expan>Ferratae</expan>, texts/caes0054.xml
@@ -752,6 +752,7 @@ principes, la, transcription, </lb><abbr>prin<unclear>c</unclear></abbr><ex>ipes
 principi, la, transcription, <abbr>princip</abbr><ex>i</ex></expan>, texts/caes0009.xml
 principi, la, transcription, principi, texts/caes0014.xml
 principi, la, transcription, principi, texts/caes0017.xml
+pro, la, transcription, pro-, texts/bshe0006.xml
 pro, la, transcription, <supplied>pro, texts/caes0008.xml
 pro, la, transcription, pro, texts/caes0015.xml
 pro, la, transcription, </choice><abbr>pr</abbr><ex>o</ex></expan>, texts/caes0018.xml
@@ -759,7 +760,6 @@ pro, la, transcription, <abbr>pr</abbr><ex>o</ex></expan>, texts/caes0020.xml
 pro, la, transcription, <abbr>pr</abbr><ex>o</ex></expan>, texts/caes0022.xml
 pro, la, transcription, </supplied>pro, texts/caes0031.xml
 pro, la, transcription, p</supplied>ro, texts/caes0034.xml
-pro-, la, transcription, pro-, texts/bshe0006.xml
 proconsule, la, transcription, </lb><abbr>pro</abbr><ex>consule</ex></expan>., texts/caes0107.xml
 procurator, la, transcription, </lb><abbr>proc</abbr><ex>urator</ex></expan>, texts/caes0006.xml
 procurator, la, transcription, </lb><abbr>proc</abbr><ex>urator</ex></expan>, texts/caes0146.xml
