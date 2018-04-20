@@ -17,15 +17,17 @@ for word in $*; do
 done
 
 echo "Removing old site...";
-cd docs;
-if [ $update == 0 ]; then
-	mv texts ..;
+if [ -d docs ]; then
+	cd docs;
+	if [ $update == 0 ]; then
+		mv texts ..;
+	fi
+	if [ $use_existing == 1 ]; then
+		mv *.csv ..;
+	fi
+	cd ..;
+	rm -rf docs
 fi
-if [ $use_existing == 1 ]; then
-	mv *.csv ..;
-fi
-cd ..;
-rm -rf docs
 mkdir docs
 
 if [ $update == 1 ]; then
@@ -48,9 +50,9 @@ if [ $use_existing == 0 ]; then
 	echo "Constructing word list..."
 	cd docs;
 	if [ $exceptions == 1 ]; then
-		../wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception;
+		../src/wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception;
 	else
-		../wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles;
+		../src/wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles;
 	fi
 	cd ..;
 else
@@ -63,11 +65,11 @@ for csvfile in *.csv; do
 	first=$csvfile
 	second="html"
 	htmlfile=${first/csv/$second}
-	cp ../viewer.html $htmlfile;
+	cp ../src/viewer.html $htmlfile;
 	replacestring="s/DATA_FILE/$csvfile/g"
 	sed -i -e "$replacestring" $htmlfile
 done
 cd ..;
-cp index.html docs/index.html;
-cp wordlist.css docs/;
+cp src/index.html docs/index.html;
+cp src/wordlist.css docs/;
 cd docs;
