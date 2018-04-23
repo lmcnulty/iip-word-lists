@@ -2,14 +2,14 @@
 
 ## Introduction
 
-This code in this repository is intended for use in the [Inscriptions of Israel / Palestine project](http://library.brown.edu/cds/projects/iip/search/). It uses Python and LXML to generate word lists from (epidoc)[http://www.stoa.org/epidoc/gl/latest/] filesand includes a simple web interface.
+This code in this repository is intended for use in the [Inscriptions of Israel / Palestine project](http://library.brown.edu/cds/projects/iip/search/). It uses Python and LXML to generate word lists from [epidoc](http://www.stoa.org/epidoc/gl/latest/) files and includes a simple web interface.
 
 ## Project structure
 
 * `docs` contains the files for the [github pages site](lmcnulty.github.io/iip-word-lists).
 * `selection` contains a subset of the xml files used for testing. 
 * `src` contains the list creation script and the html and css templates for the site.
-  * `wordlist.py` is the python script that generates word lists. The basic usage is `./wordlist.py <epidoc files to process>`. By default, the list will be printed to the terminal, other html and csv output can be specified with flags. Run `./wordlist.py --help` for information about the arguments and flags.
+  * `wordlist.py` is the python script that generates word lists. The basic usage is `./wordlist.py <epidoc files to process>`. By default, the list will be printed to the terminal, other output formats can be specified with flags. Run `./wordlist.py --help` for information on usage.
   * `viewer.html` is a template used to display a single word list.
   * `index.html` is the page which displays tabs several pages generated from viewer.html. It is the page that is displayed when a user first visits the site.
 * `.gitignore` lists files that should not be included in the repository, such as lock files, etc.
