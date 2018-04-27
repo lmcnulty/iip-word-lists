@@ -11,6 +11,10 @@ import copy
 from wordlist_constants import *
 from wordlist_output import *
 from wordlist_strings import *
+import cltk
+from cltk.corpus.utils.importer import CorpusImporter
+from cltk.stem.lemma import LemmaReplacer
+from cltk.stem.latin.j_v import JVReplacer
 
 class iip_word:
 	equivilence = ["edition_type", "language", "text", "file_name"]
@@ -30,6 +34,7 @@ class iip_word:
 		self.file_name = file_name
 		# eg: happ<unclear>i</unclear>n<supplied>ess</supplied>
 		self.xml_context = text
+		self.lemmatization = None;
 		
 	def __hash__(self):
 		new_hash = 0
@@ -51,16 +56,16 @@ class iip_word:
 		self.xml_context += string
 	
 	def print(self):
-		print(self.text + " | " + self.language + " | " + self.edition_type + " | " + self.file_name + "|" + self.xml_context)
+		print(self.text + " | " + self.lemmatization + " | " + self.language + " | " + self.edition_type + " | " + self.file_name + "|" + self.xml_context)
 
 # Begin a new word as the supplied word. Will often be blank, such that
 # future characters will be added.
 def append_to_word_list(word_list, word):
-	for existing_word in word_list:
-		if existing_word.text == word.text and existing_word.language == word.language:
-			existing_word.file_name += " " + word.file_name
-			print(word.text + " == " + existing_word.text)
-			return
+	#for existing_word in word_list:
+	#	if existing_word.text == word.text:
+	#		existing_word.file_name += " " + word.file_name
+	#		print(word.text + " == " + existing_word.text)
+	#		return
 	word_list.append(word)
 
 
@@ -196,28 +201,55 @@ def flatten_list(word_list):
 def remove_duplicates(items):
 	return list(OrderedDict.fromkeys(items))
 
+def remove_digits(some_string):
+	return ''.join([i for i in some_string if not i.isdigit()])
+
+def lemmatize(word_list):
+	la_corpus_importer = CorpusImporter('latin')
+	la_corpus_importer.import_corpus('latin_text_latin_library')
+	la_corpus_importer.import_corpus('latin_models_cltk')
+	la_lemmatizer = LemmaReplacer('latin')
+	grc_corpus_importer = CorpusImporter('greek')
+	grc_corpus_importer.import_corpus('greek_models_cltk')
+	grc_lemmatizer = LemmaReplacer('greek')
+	for word in word_list:
+		if word.language in LATIN_CODES:
+			word.lemmatization = remove_digits(la_lemmatizer.lemmatize(word.text)[0])
+		elif word.language in GREEK_CODES:
+			word.lemmatization = remove_digits(grc_lemmatizer.lemmatize(word.text)[0])
+		else:
+			word.lemmatization = word.text
+
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description='Produce word list from files.')
 	parser.add_argument('files', type=str, nargs='+', help='The epidoc xml files to process')
 	parser.add_argument("--html", help="Output list as html file(s)", action="store_true")
 	parser.add_argument("--csv", help="Output list as csv file", action="store_true")
+	parser.add_argument("--plaintext", help="Create flat text document for each parsed file", action="store_true")
 	parser.add_argument("--silent", help="Don't print the word list to the console", action="store_true")
 	parser.add_argument("--duplicates", help="Include each instance of every word in the word list", action="store_true")
 	parser.add_argument("--nodiplomatic", help="Do not include words extracted from diplomatic editions in word list", action="store_true")
 	parser.add_argument("--fileexception", help="Print exceptions for files which could not be read", action="store_true")
-	parser.add_argument("--langfiles", help="Write a seperate file for each language", action="store_true")	
+	parser.add_argument("--langfiles", help="Write a seperate file for each language", action="store_true")
 	parser.add_argument("-s", "--sort", type=str, help="Sort the list by the specified fields")
 	parser.add_argument("-n", "--name", type=str, help="The name of the output file without the extension")
 	args = parser.parse_args()
 
 	# Extract words from each file
 	words = []
+	plaintextdir = "flat"
 	for file in args.files:
 		if args.fileexception:
-			words += get_words_from_file(file)
+			new_words = get_words_from_file(file)
+			if args.plaintext:
+				word_list_to_plain_text(new_words, plaintextdir + "/" + file.replace(".xml", ""))
+			words += new_words
 		else:
 			try:
-				words += get_words_from_file(file)
+				new_words = get_words_from_file(file)
+				if args.plaintext:
+					word_list_to_plain_text(new_words, "flat/" + file.replace(".xml", ""))
+				words += new_words
 			except:
 				sys.stderr.write("Cannot read " + file + "\n")
 
@@ -232,6 +264,8 @@ if __name__ == '__main__':
 			if word.edition_type != "diplomatic":
 				filtered_words.append(word)
 		words = filtered_words
+
+	lemmatize(words)
 
 	# Sort according to the given arguments before writing to file
 	sort_order = []

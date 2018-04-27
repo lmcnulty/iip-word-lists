@@ -7,6 +7,7 @@ This code in this repository is intended for use in the [Inscriptions of Israel 
 ## Project structure
 
 * `docs` contains the files for the [github pages site](lmcnulty.github.io/iip-word-lists).
+* iip-word-lists contains the python virtual environment for this project. In order to use the virtual environment, run `source iip-word-lists/bin/activate`.
 * `selection` contains a subset of the xml files used for testing. 
 * `src` contains the list creation script and the html and css templates for the site.
   * `wordlist.py` is the python script that generates word lists. The basic usage is `./wordlist.py <epidoc files to process>`. By default, the list will be printed to the terminal, other output formats can be specified with flags. Run `./wordlist.py --help` for information on usage.
