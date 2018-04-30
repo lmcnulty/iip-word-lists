@@ -25,10 +25,17 @@ def word_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME, langfiles=False
 			word_output_file = output_file
 		word_output_file.write(word.text + ", " + word.lemmatization + ", " + word.language + ", " + word.edition_type + ", " + word.xml_context.replace(",", "&#44;") + ", " + word.file_name + "\n")
 
-def word_list_to_plain_text(word_list, output_name):
+def word_list_to_plain_text(word_list, output_name, lemmatize=True):
+	if lemmatize:
+		print("lemmatization on")
+	else:
+		print("lemmatization off")
 	text_buffer = ""
 	for word in word_list:
-		text_buffer += word.text + " "
+		if lemmatize and word.lemmatization != None and word.lemmatization != "":
+			text_buffer += word.lemmatization + " "
+		else:
+			text_buffer += word.text + " "
 	filename = output_name + ".txt"
 	os.makedirs(os.path.dirname(filename), exist_ok=True)
 	output_file = open(filename, 'w+')

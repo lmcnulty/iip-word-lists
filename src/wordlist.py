@@ -233,14 +233,22 @@ if __name__ == '__main__':
 	parser.add_argument("--langfiles", help="Write a seperate file for each language", action="store_true")
 	parser.add_argument("-s", "--sort", type=str, help="Sort the list by the specified fields")
 	parser.add_argument("-n", "--name", type=str, help="The name of the output file without the extension")
+	parser.add_argument("-f", "--flat", type=str, help="Specify the location to store plain text files.")
+	parser.add_argument("--nolemma", help="Don't lemmatize words before writing to plain text files", action="store_true")
 	args = parser.parse_args()
 
 	# Extract words from each file
 	words = []
 	plaintextdir = "flat"
+	plaintext_lemmatize = True
+	if args.nolemma != None:
+		plaintext_lemmatize = not args.nolemma
+	if args.flat != None:
+		plaintextdir = args.flat
 	for file in args.files:
 		if args.fileexception:
 			new_words = get_words_from_file(file)
+			lemmatize(new_words)
 			if args.plaintext:
 				word_list_to_plain_text(new_words, plaintextdir + "/" + file.replace(".xml", ""))
 			words += new_words
@@ -248,7 +256,7 @@ if __name__ == '__main__':
 			try:
 				new_words = get_words_from_file(file)
 				if args.plaintext:
-					word_list_to_plain_text(new_words, "flat/" + file.replace(".xml", ""))
+					word_list_to_plain_text(new_words, plaintextdir + "/" + file.replace(".xml", ""), plaintext_lemmatize)
 				words += new_words
 			except:
 				sys.stderr.write("Cannot read " + file + "\n")
@@ -265,7 +273,7 @@ if __name__ == '__main__':
 				filtered_words.append(word)
 		words = filtered_words
 
-	lemmatize(words)
+	
 
 	# Sort according to the given arguments before writing to file
 	sort_order = []
