@@ -81,7 +81,8 @@
 				if (j == pathIndex) {
 					let newLink = document.createElement("a");
 					newLink.href = newRowData[j];
-					newLink.innerHTML = newRowData[j].split("/")[1];
+					let dirs = newRowData[j].split("/");
+					newLink.innerHTML = dirs[dirs.length - 1];
 					newColumn.appendChild(newLink);
 				} else if (j == xmlIndex) {
 					//let xml = document.createElement("pre");

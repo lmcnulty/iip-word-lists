@@ -3,6 +3,9 @@
 update=1;
 exceptions=0;
 use_existing=0;
+
+source environment/bin/activate ;
+
 for word in $*; do 
 	if [ "$word" == "--help" ] || [ "$word" == "-h" ]; then
 		printf "Usage:\n\n-h, --help           \t Print this message.\n--no-update, -nu\t Do not fetch epidoc files from github.\n--exceptions, -e\t If an exception occurs in the python code, print the error message.\n--use-existing, -ue\t Do not rebuild the word lists.\n";
@@ -36,23 +39,28 @@ if [ $update == 1 ]; then
 	cd temp;
 	wget https://github.com/Brown-University-Library/iip-texts/archive/master.zip;
 	unzip master.zip;
-	cp -r iip-texts-master/epidoc-files/ ../docs/texts;
+	mkdir ../docs/texts;
+	cp -r iip-texts-master/epidoc-files/ ../docs/texts/xml;
 	cd ..;
 	rm -rf temp;
+	cd docs/texts/xml;
+	if [ -f interpretations.xml ]; then
+		rm texts/interpretations.xml;
+	fi
+	../../../src/python/wordlist.py * --silent --plaintext -f ../plain;
+	cd ../../..;
 else
 	mv texts docs;
 fi
-if [ -f texts/interpretations.xml ]; then
-	rm texts/interpretations.xml;
-fi
+
 
 if [ $use_existing == 0 ]; then
 	echo "Constructing word list..."
 	cd docs;
 	if [ $exceptions == 1 ]; then
-		../src/wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception;
+		../src/python/wordlist.py texts/xml/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception;
 	else
-		../src/wordlist.py texts/* --silent --csv --sort aefl --nodiplomatic --langfiles;
+		../src/python/wordlist.py texts/xml/* --silent --csv --sort aefl --nodiplomatic --langfiles;
 	fi
 	cd ..;
 else
@@ -65,11 +73,11 @@ for csvfile in *.csv; do
 	first=$csvfile
 	second="html"
 	htmlfile=${first/csv/$second}
-	cp ../src/viewer.html $htmlfile;
+	cp ../src/web/viewer.html $htmlfile;
 	replacestring="s/DATA_FILE/$csvfile/g"
 	sed -i -e "$replacestring" $htmlfile
 done
 cd ..;
-cp src/index.html docs/index.html;
-cp src/wordlist.css docs/;
+cp src/web/index.html docs/index.html;
+cp src/web/wordlist.css docs/;
 cd docs;
