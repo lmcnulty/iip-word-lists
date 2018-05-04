@@ -84,7 +84,6 @@ def add_trailing_text(word_list, element, trailing_text, edition_type, lang, pat
 	
 	# Make a list of tokens in the text following the tag
 	trailing_text_list = trailing_text.split() 
-	
 		
 	# Add a new entry to the word list if it is empty or the previous 
 	# word is complete
@@ -173,7 +172,12 @@ def get_words_from_file(path):
 	for edition in root.findall(".//tei:div[@type='edition']", namespaces=nsmap): 	
 		new_words = [iip_word(edition.attrib['subtype'], mainLang, "", path)]
 		add_element_to_word_list(edition, new_words, edition, mainLang, path)
-		words += new_words	
+		words += new_words
+	for translation in root.findall(".//tei:div[@type='translation']", namespaces=nsmap):
+		mainLang += "-transl"
+		new_words = [iip_word("translation", mainLang, "", path)]
+		add_element_to_word_list(translation, new_words, edition, mainLang, path)
+		words += new_words
 	null_words = []
 	for word in words:
 		word.text = str(word.text)
@@ -204,14 +208,14 @@ def remove_duplicates(items):
 def remove_digits(some_string):
 	return ''.join([i for i in some_string if not i.isdigit()])
 
+la_corpus_importer = CorpusImporter('latin')
+la_corpus_importer.import_corpus('latin_text_latin_library')
+la_corpus_importer.import_corpus('latin_models_cltk')
+la_lemmatizer = LemmaReplacer('latin')
+grc_corpus_importer = CorpusImporter('greek')
+grc_corpus_importer.import_corpus('greek_models_cltk')
+grc_lemmatizer = LemmaReplacer('greek')
 def lemmatize(word_list):
-	la_corpus_importer = CorpusImporter('latin')
-	la_corpus_importer.import_corpus('latin_text_latin_library')
-	la_corpus_importer.import_corpus('latin_models_cltk')
-	la_lemmatizer = LemmaReplacer('latin')
-	grc_corpus_importer = CorpusImporter('greek')
-	grc_corpus_importer.import_corpus('greek_models_cltk')
-	grc_lemmatizer = LemmaReplacer('greek')
 	for word in word_list:
 		if word.language in LATIN_CODES:
 			word.lemmatization = remove_digits(la_lemmatizer.lemmatize(word.text)[0])
@@ -248,15 +252,18 @@ if __name__ == '__main__':
 	for file in args.files:
 		if args.fileexception:
 			new_words = get_words_from_file(file)
-			lemmatize(new_words)
+			if not args.nolemma:
+				lemmatize(new_words)
 			if args.plaintext:
 				word_list_to_plain_text(new_words, plaintextdir + "/" + file.replace(".xml", ""))
 			words += new_words
 		else:
 			try:
 				new_words = get_words_from_file(file)
+				if not args.nolemma:
+					lemmatize(new_words)
 				if args.plaintext:
-					word_list_to_plain_text(new_words, plaintextdir + "/" + file.replace(".xml", ""), plaintext_lemmatize)
+					word_list_to_plain_text(new_words, plaintextdir + "/" + file.replace(".xml", ""))
 				words += new_words
 			except:
 				sys.stderr.write("Cannot read " + file + "\n")
@@ -272,8 +279,6 @@ if __name__ == '__main__':
 			if word.edition_type != "diplomatic":
 				filtered_words.append(word)
 		words = filtered_words
-
-	
 
 	# Sort according to the given arguments before writing to file
 	sort_order = []
