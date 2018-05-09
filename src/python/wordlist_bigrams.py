@@ -2,8 +2,8 @@
 
 from os import listdir
 from os.path import isfile, join
-import nltk
 from nltk import ngrams
+from nltk import word_tokenize
 from collections import Counter
 
 if __name__ == '__main__':
@@ -19,7 +19,9 @@ if __name__ == '__main__':
 			break
 	bigrams = []
 	for text in corpus:
-		token = nltk.word_tokenize(text)
+		token = word_tokenize(text)
 		new_bigrams = ngrams(token, 2)
 		bigrams += new_bigrams
-	print(Counter(bigrams))
+	counter_bigrams = Counter(bigrams)
+	for e in counter_bigrams:
+		print(e)
