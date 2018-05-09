@@ -1,2 +1,2 @@
-SEXT Sextus 
+SEXT sextus Sextus 
 
