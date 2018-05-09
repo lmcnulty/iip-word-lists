@@ -48,6 +48,7 @@
 1, 1, arc-transl, transcription, 1&#44;, texts/xml/idum0229.xml
 1, 1, arc-transl, transcription, 1., texts/xml/idum0299.xml
 1, 1, arc-transl, transcription, 1;, texts/xml/idum0306.xml
+1, 1, arc-transl, transcription, 1).</p></div>, texts/xml/idum0309a.xml
 1, 1, arc-transl, transcription, 1;, texts/xml/idum0311.xml
 1, 1, arc-transl, transcription, 1.</p></div>, texts/xml/idum0313.xml
 1, 1, arc-transl, transcription, 1., texts/xml/idum0317.xml
@@ -59,6 +60,8 @@
 1, 1, arc-transl, transcription, 1, texts/xml/idum0337.xml
 1, 1, arc-transl, transcription, 1.</p></div>, texts/xml/idum0340.xml
 1, 1, arc-transl, transcription, 1;, texts/xml/idum0386.xml
+1, 1, arc-transl, transcription, 1&#44;, texts/xml/mare0018a.xml
+1, 1, arc-transl, transcription, 1</p></div>, texts/xml/mare0018b.xml
 1, 1, arc-transl, transcription, 1(?), texts/xml/mare0020.xml
 1, 1, arc-transl, transcription, </lb>1, texts/xml/mare0074.xml
 1, 1, arc-transl, transcription, 1&#44;, texts/xml/mare0079.xml
@@ -75,6 +78,7 @@
 10, 10, arc-transl, transcription, 10., texts/xml/idum0120.xml
 10, 10, arc-transl, transcription, 10.</p></div>, texts/xml/idum0140.xml
 10, 10, arc-transl, transcription, 10, texts/xml/idum0225.xml
+10, 10, arc-transl, transcription, 10, texts/xml/idum0309a.xml
 10, 10, arc-transl, transcription, 10;, texts/xml/idum0317.xml
 10, 10, arc-transl, transcription, 10[+?], texts/xml/idum0324.xml
 10, 10, arc-transl, transcription, 10;, texts/xml/mare0022.xml
@@ -173,6 +177,7 @@
 2, 2, arc-transl, transcription, 2, texts/xml/idum0375.xml
 2, 2, arc-transl, transcription, 2., texts/xml/idum0379.xml
 2, 2, arc-transl, transcription, 2;, texts/xml/idum0385.xml
+2, 2, arc-transl, transcription, 2, texts/xml/mare0018a.xml
 2, 2, arc-transl, transcription, 2, texts/xml/mare0071.xml
 2, 2, arc-transl, transcription, 2, texts/xml/mare0074.xml
 2, 2, arc-transl, transcription, 2</p></div>, texts/xml/mare0079.xml
@@ -336,6 +341,7 @@
 43, 43, arc-transl, transcription, 43&#44;, texts/xml/idum0297.xml
 44, 44, arc-transl, transcription, 44, texts/xml/idum0105.xml
 44, 44, arc-transl, transcription, 44., texts/xml/idum0306.xml
+44, 44, arc-transl, transcription, 44&#44;, texts/xml/idum0309a.xml
 44, 44, arc-transl, transcription, 44</p></div>, texts/xml/mare0096.xml
 46, 46, arc-transl, transcription, 46:, texts/xml/idum0001.xml
 4th, 4th, arc-transl, transcription, 4th, texts/xml/idum0059.xml
@@ -562,6 +568,7 @@ BALE, BALE, arc-transl, transcription, </lb>BALE&#44;, texts/xml/idum0320.xml
 BALES, BALES, arc-transl, transcription, </lb>BALES&#44;, texts/xml/idum0154.xml
 BALES, BALES, arc-transl, transcription, </lb>BALES&#44;, texts/xml/idum0319.xml
 BALES, BALES, arc-transl, transcription, BALE[S&#44;, texts/xml/idum0321.xml
+BALYTN, BALYTN, arc-transl, translation, BALYTN, texts/xml/mare0018a.xml
 BL, BL, arc-transl, translation, BL, texts/xml/mare0137.xml
 BUNDLE, BUNDLE, arc-transl, transcription, BU[ND]LE, texts/xml/idum0329.xml
 BUNDLES, BUNDLES, arc-transl, transcription, </lb>BUNDLES&#44;, texts/xml/idum0151.xml
@@ -576,6 +583,7 @@ Baalrim, Baalrim, arc-transl, transcription, Baalrim:, texts/xml/idum0005.xml
 Baalrim, Baalrim, arc-transl, transcription, Baalrim:, texts/xml/idum0006.xml
 Baalrim, Baalrim, arc-transl, transcription, Baalrim, texts/xml/idum0007.xml
 Baalrim, Baalrim, arc-transl, transcription, Baalrim, texts/xml/idum0008.xml
+Baalrim, Baalrim, arc-transl, transcription, Baalrim, texts/xml/idum0010a.xml
 Baalrim, Baalrim, arc-transl, transcription, Baalrim, texts/xml/idum0015.xml
 Baalrim, Baalrim, arc-transl, transcription, Baalrim, texts/xml/idum0017.xml
 Baalrim, Baalrim, arc-transl, transcription, Baalrim, texts/xml/idum0018.xml
@@ -644,6 +652,7 @@ Delayah, Delayah, arc-transl, translation, Delayah</p></div>, texts/xml/mger0147
 Demetrius, Demetrius, arc-transl, translation, Demetrius</p></div>, texts/xml/mare0033.xml
 Dikru, Dikru, arc-transl, transcription, </lb>Dikru, texts/xml/idum0024.xml
 Dikru, Dikru, arc-transl, transcription, Dikru:, texts/xml/idum0053.xml
+Dikru, Dikru, arc-transl, translation, Dikru, texts/xml/idum0024a.xml
 Dimras, Dimras, arc-transl, transcription, Dimras, texts/xml/masa0573.xml
 Domitian, Domitian, arc-transl, transcription, Domitian&#44;, texts/xml/zoor0363.xml
 Doris, Doris, arc-transl, translation, Doris</p></div>, texts/xml/jeru0111.xml
@@ -839,6 +848,7 @@ Makkedah, Makkedah, arc-transl, translation, Makkedah&#44;, texts/xml/idum0213.x
 Male, Male, arc-transl, transcription, </lb>Male, texts/xml/mare0136.xml
 Maliku, Maliku, arc-transl, transcription, Maliku, texts/xml/mger0046.xml
 Malkathe, Malkathe, arc-transl, transcription, Malka/the, texts/xml/idum0310.xml
+Malku, Malku, arc-transl, transcription, </lb>Malku, texts/xml/idum0010a.xml
 Malku, Malku, arc-transl, transcription, </lb>Malku, texts/xml/idum0032.xml
 Malku, Malku, arc-transl, transcription, </lb>Malku, texts/xml/idum0034.xml
 Malku, Malku, arc-transl, transcription, </lb>Malku, texts/xml/idum0036.xml
@@ -932,6 +942,7 @@ Now, Now, arc-transl, transcription, Now, texts/xml/mare0136.xml
 Nugayu, Nugayu, arc-transl, transcription, </lb>Nugayu, texts/xml/idum0319.xml
 NʽMʼL, NʽMʼL, arc-transl, transcription, NʽM[ʼL...], texts/xml/mare0108.xml
 O, O, arc-transl, transcription, </lb>O, texts/xml/hraq0001.xml
+OR, OR, arc-transl, transcription, (OR:, texts/xml/idum0309a.xml
 Obodas, Obodas, arc-transl, transcription, Obodas, texts/xml/eavd0001.xml
 Of, Of, arc-transl, translation, Of</p></div>, texts/xml/jeru0133.xml
 Of, Of, arc-transl, translation, Of</p></div>, texts/xml/sina0109.xml
@@ -987,6 +998,7 @@ On, On, arc-transl, translation, On, texts/xml/idum0004.xml
 On, On, arc-transl, translation, On, texts/xml/idum0006.xml
 On, On, arc-transl, translation, On, texts/xml/idum0007.xml
 On, On, arc-transl, translation, On, texts/xml/idum0008.xml
+On, On, arc-transl, translation, [On, texts/xml/idum0010a.xml
 On, On, arc-transl, translation, On, texts/xml/idum0015.xml
 On, On, arc-transl, translation, On, texts/xml/idum0017.xml
 On, On, arc-transl, translation, On, texts/xml/idum0018.xml
@@ -1092,6 +1104,7 @@ On, On, arc-transl, translation, On, texts/xml/idum0226.xml
 On, On, arc-transl, translation, On, texts/xml/idum0232.xml
 On, On, arc-transl, translation, [On, texts/xml/idum0307.xml
 On, On, arc-transl, translation, On, texts/xml/idum0308.xml
+On, On, arc-transl, translation, On, texts/xml/idum0309a.xml
 On, On, arc-transl, translation, On, texts/xml/idum0310.xml
 On, On, arc-transl, translation, On, texts/xml/idum0311.xml
 On, On, arc-transl, translation, On, texts/xml/idum0312.xml
@@ -1374,8 +1387,10 @@ Rufayu, Rufayu, arc-transl, transcription, </lb>Rufayu, texts/xml/idum0312.xml
 Rufayu, Rufayu, arc-transl, translation, Rufayu, texts/xml/idum0313.xml
 Saadel, Saadel, arc-transl, transcription, </lb>Saadel, texts/xml/idum0007.xml
 Saadel, Saadel, arc-transl, transcription, </lb>Saadel, texts/xml/idum0008.xml
+Saadel, Saadel, arc-transl, transcription, [Saadel], texts/xml/idum0010a.xml
 Saadel, Saadel, arc-transl, transcription, Saadel, texts/xml/idum0023.xml
 Saadel, Saadel, arc-transl, transcription, Saadel:, texts/xml/idum0024.xml
+Saadel, Saadel, arc-transl, transcription, Saadel, texts/xml/idum0024a.xml
 Saadel, Saadel, arc-transl, transcription, </lb>Saadel, texts/xml/idum0124.xml
 Saadel, Saadel, arc-transl, transcription, Saadel:, texts/xml/idum0375.xml
 Saadel, Saadel, arc-transl, transcription, Saadel:, texts/xml/idum0376.xml
@@ -1398,6 +1413,7 @@ Samitu, Samitu, arc-transl, transcription, Samitu, texts/xml/idum0075.xml
 Samitu, Samitu, arc-transl, transcription, Samitu:, texts/xml/idum0306.xml
 Samitu, Samitu, arc-transl, transcription, Samitu, texts/xml/idum0307.xml
 Samitu, Samitu, arc-transl, transcription, Samitu, texts/xml/idum0308.xml
+Samitu, Samitu, arc-transl, transcription, Samitu, texts/xml/idum0309a.xml
 Samitu, Samitu, arc-transl, transcription, Samitu&#44;, texts/xml/idum0310.xml
 Samitu, Samitu, arc-transl, transcription, Samitu:, texts/xml/idum0311.xml
 Samitu, Samitu, arc-transl, transcription, Samitu, texts/xml/idum0312.xml
@@ -1603,6 +1619,7 @@ To, To, arc-transl, translation, "To</p></div>, texts/xml/halu0001.xml
 To, To, arc-transl, translation, To, texts/xml/mare0085.xml
 Tomb, Tomb, arc-transl, translation, Tomb, texts/xml/beth0252.xml
 Tomb, Tomb, arc-transl, translation, Tomb, texts/xml/beth0280.xml
+Traces, Traces, arc-transl, transcription, </lb>(Traces, texts/xml/idum0024a.xml
 Tryphon, Tryphon, arc-transl, translation, ...T]ryphon</p></div>, texts/xml/mger0062.xml
 Twenty, Twenty, arc-transl, translation, Twenty</p></div>, texts/xml/masa0576.xml
 Ubaydu, Ubaydu, arc-transl, transcription, Ubaydu, texts/xml/idum0030.xml
@@ -1706,6 +1723,8 @@ Yishma‘el, Yishma‘el, arc-transl, transcription, </lb>[Yishma]‘el, texts/x
 Yn, Yn, arc-transl, transcription, Y--n.</p></div>, texts/xml/idum0084.xml
 Yoezer, Yoezer, arc-transl, translation, Yo'ezer&#44;</p></div>, texts/xml/jeru0009.xml
 Yohana, Yohana, arc-transl, translation, Yohana.</p></div>, texts/xml/jeru0112.xml
+Yoqme‘am, Yoqme‘am, arc-transl, transcription, Yoqme‘am, texts/xml/mger0007a.xml
+Yoqme‘am, Yoqme‘am, arc-transl, transcription, Yoqme‘am, texts/xml/mger0007b.xml
 Yose, Yose, arc-transl, translation, Yose</p></div>, texts/xml/jeru0200.xml
 Yosef, Yosef, arc-transl, transcription, Yosef, texts/xml/mger0020.xml
 You, You, arc-transl, transcription, </lb>You, texts/xml/hraq0001.xml
@@ -1736,6 +1755,7 @@ Zabdibaal, Zabdibaal, arc-transl, transcription, Zabdibaal.</p></div>, texts/xml
 Zabdibaali, Zabdibaali, arc-transl, transcription, </lb>Zabdibaali, texts/xml/idum0099.xml
 Zabdiel, Zabdiel, arc-transl, transcription, </lb>Zabdiel, texts/xml/idum0001.xml
 Zabdiel, Zabdiel, arc-transl, transcription, Zabdiel, texts/xml/idum0015.xml
+Zabdiel, Zabdiel, arc-transl, transcription, </lb>Zabdiel, texts/xml/idum0309a.xml
 Zabdiel, Zabdiel, arc-transl, translation, Zabdiel, texts/xml/idum0103.xml
 Zabdimaran, Zabdimaran, arc-transl, transcription, Zabdimaran, texts/xml/idum0051.xml
 Zabdimaran, Zabdimaran, arc-transl, transcription, Zabdimaran, texts/xml/idum0052.xml
@@ -2022,6 +2042,7 @@ barley, barley, arc-transl, transcription, </lb>b(arley)&#44;, texts/xml/idum031
 barley, barley, arc-transl, transcription, </lb>b(arley)&#44;, texts/xml/idum0335.xml
 barley, barley, arc-transl, transcription, </lb>b(arley)&#44;, texts/xml/idum0336.xml
 barley, barley, arc-transl, transcription, </lb>b(arley)&#44;, texts/xml/idum0341.xml
+barley, barley, arc-transl, transcription, </lb>barley:, texts/xml/mare0018a.xml
 barley, barley, arc-transl, transcription, </lb>barley:, texts/xml/mare0071.xml
 barley, barley, arc-transl, transcription, </lb>barley:, texts/xml/mare0085.xml
 barley, barley, arc-transl, transcription, barley:, texts/xml/mare0091.xml
@@ -2401,6 +2422,8 @@ from, from, arc-transl, transcription, from, texts/xml/jeru0311.xml
 from, from, arc-transl, transcription, from, texts/xml/mare0136.xml
 from, from, arc-transl, transcription, from, texts/xml/masa0555.xml
 from, from, arc-transl, transcription, fr[om, texts/xml/masa0561.xml
+from, from, arc-transl, transcription, </lb>from, texts/xml/mger0007a.xml
+from, from, arc-transl, transcription, </lb>from, texts/xml/mger0007b.xml
 from, from, arc-transl, transcription, </lb>from, texts/xml/mger0008.xml
 from, from, arc-transl, transcription, </lb>...from], texts/xml/mger0014.xml
 from, from, arc-transl, transcription, from, texts/xml/mger0022.xml
@@ -2462,6 +2485,7 @@ grgrn, grgrn, arc-transl, transcription, </lb>grgrn&#44;, texts/xml/idum0082.xml
 grgrn, grgrn, arc-transl, transcription, </lb>grgrn&#44;, texts/xml/idum0097.xml
 grgrn, grgrn, arc-transl, transcription, </lb>grgrn&#44;, texts/xml/idum0178.xml
 grgrn, grgrn, arc-transl, transcription, </lb>grgrn&#44;, texts/xml/idum0305.xml
+grgrn, grgrn, arc-transl, transcription, </lb>g[rgrn, texts/xml/idum0309a.xml
 grinding, grinding, arc-transl, transcription, gr[inding, texts/xml/idum0001.xml
 grinding, grinding, arc-transl, transcription, grinding:, texts/xml/idum0156.xml
 grinding, grinding, arc-transl, transcription, grinding, texts/xml/idum0205.xml
@@ -2515,6 +2539,7 @@ half, half, arc-transl, transcription, h(alf).</p></div>, texts/xml/idum0376.xml
 hamman, hamman, arc-transl, transcription, hamman, texts/xml/hraq0001.xml
 hand, hand, arc-transl, transcription, hand.</p></div>, texts/xml/eavd0001.xml
 hand, hand, arc-transl, transcription, hand, texts/xml/idum0002.xml
+hand, hand, arc-transl, transcription, hand, texts/xml/idum0010a.xml
 hand, hand, arc-transl, transcription, hand, texts/xml/idum0023.xml
 hand, hand, arc-transl, transcription, hand, texts/xml/idum0024.xml
 hand, hand, arc-transl, transcription, hand, texts/xml/idum0032.xml
@@ -2776,6 +2801,7 @@ later, later, arc-transl, transcription, [la]ter, texts/xml/idum0297.xml
 later, later, arc-transl, transcription, </lb>later, texts/xml/idum0315.xml
 let, let, arc-transl, transcription, let, texts/xml/eavd0001.xml
 line, line, arc-transl, translation, (line, texts/xml/idum0005.xml
+lines, lines, arc-transl, transcription, lines?)</p></div>, texts/xml/idum0024a.xml
 lm, lm, arc-transl, translation, ...]lm</p></div>, texts/xml/mger0163.xml
 lm, lm, arc-transl, translation, ...]lm[...</p></div>, texts/xml/mger0339.xml
 lo, lo, arc-transl, translation, ...]lo[..., texts/xml/mger0092.xml
@@ -2794,6 +2820,7 @@ loaves, loaves, arc-transl, transcription, loaves, texts/xml/unkn0105.xml
 log, log, arc-transl, transcription, log&#44;, texts/xml/idum0084.xml
 log, log, arc-transl, transcription, </lb>log&#44;, texts/xml/idum0104.xml
 log, log, arc-transl, transcription, </lb>log&#44;, texts/xml/idum0136.xml
+log, log, arc-transl, transcription, l[og]&#44;, texts/xml/idum0309a.xml
 logs, logs, arc-transl, transcription, logs&#44;, texts/xml/idum0135.xml
 lord, lord, arc-transl, transcription, lord, texts/xml/mare0135.xml
 lp, lp, arc-transl, transcription, </lb>lp, texts/xml/idum0225.xml
@@ -2836,6 +2863,7 @@ month, month, arc-transl, transcription, (month)]&#44;, texts/xml/idum0228.xml
 month, month, arc-transl, transcription, month, texts/xml/mare0080.xml
 month, month, arc-transl, transcription, month, texts/xml/mare0082.xml
 month, month, arc-transl, transcription, month, texts/xml/zoor0362.xml
+more, more, arc-transl, transcription, more, texts/xml/idum0024a.xml
 morning, morning, arc-transl, transcription, morning;, texts/xml/unkn0105.xml
 morning, morning, arc-transl, transcription, morning, texts/xml/unkn0106.xml
 mother, mother, arc-transl, translation, mother</p></div>, texts/xml/jeru0014.xml
@@ -2889,6 +2917,7 @@ of, of, arc-transl, transcription, of, texts/xml/idum0005.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0006.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0007.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0008.xml
+of, of, arc-transl, transcription, [of, texts/xml/idum0010a.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0011.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0012.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0015.xml
@@ -2900,6 +2929,7 @@ of, of, arc-transl, transcription, of, texts/xml/idum0021.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0022.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0023.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0024.xml
+of, of, arc-transl, transcription, of, texts/xml/idum0024a.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0025.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0026.xml
 of, of, arc-transl, transcription, of, texts/xml/idum0027.xml
@@ -3383,6 +3413,7 @@ seahs, seahs, arc-transl, transcription, seahs&#44;, texts/xml/idum0003.xml
 seahs, seahs, arc-transl, transcription, seahs&#44;, texts/xml/idum0004.xml
 seahs, seahs, arc-transl, transcription, s(eahs)&#44;, texts/xml/idum0007.xml
 seahs, seahs, arc-transl, transcription, s(eahs)&#44;, texts/xml/idum0009.xml
+seahs, seahs, arc-transl, transcription, s(eahs)&#44;, texts/xml/idum0010a.xml
 seahs, seahs, arc-transl, transcription, s(eahs)&#44;, texts/xml/idum0015.xml
 seahs, seahs, arc-transl, transcription, s(eahs)&#44;, texts/xml/idum0017.xml
 seahs, seahs, arc-transl, transcription, s(eahs)&#44;, texts/xml/idum0018.xml
@@ -3527,6 +3558,7 @@ seventy, seventy, arc-transl, transcription, s]eventy, texts/xml/masa0578.xml
 shall, shall, arc-transl, transcription, [shall, texts/xml/mare0136.xml
 shall, shall, arc-transl, transcription, shall, texts/xml/masa0556.xml
 she, she, arc-transl, transcription, she, texts/xml/mare0136.xml
+sheqel, sheqel, arc-transl, transcription, </lb>sheqel:, texts/xml/mare0018b.xml
 sheqel, sheqel, arc-transl, transcription, sheqel)</p></div>, texts/xml/masa0426.xml
 sheqel, sheqel, arc-transl, transcription, sheqel, texts/xml/masa0554.xml
 sheqels, sheqels, arc-transl, transcription, sh(eqels)</p></div>, texts/xml/masa0424.xml
@@ -3589,6 +3621,7 @@ sons, sons, arc-transl, transcription, sons, texts/xml/idum0004.xml
 sons, sons, arc-transl, transcription, sons, texts/xml/idum0006.xml
 sons, sons, arc-transl, transcription, sons, texts/xml/idum0007.xml
 sons, sons, arc-transl, transcription, sons, texts/xml/idum0008.xml
+sons, sons, arc-transl, transcription, sons, texts/xml/idum0010a.xml
 sons, sons, arc-transl, transcription, sons, texts/xml/idum0015.xml
 sons, sons, arc-transl, transcription, sons, texts/xml/idum0017.xml
 sons, sons, arc-transl, transcription, sons, texts/xml/idum0019.xml
@@ -3715,6 +3748,7 @@ stone￮￮, stone￮￮, arc-transl, transcription, stone[...]￮￮[?], texts/
 store, store, arc-transl, transcription, store, texts/xml/idum0165.xml
 storehouse, storehouse, arc-transl, transcription, storehouse, texts/xml/idum0007.xml
 storehouse, storehouse, arc-transl, transcription, storehouse, texts/xml/idum0008.xml
+storehouse, storehouse, arc-transl, transcription, storehouse:, texts/xml/idum0010a.xml
 storehouse, storehouse, arc-transl, transcription, storehouse:, texts/xml/idum0015.xml
 storehouse, storehouse, arc-transl, transcription, storehouse:, texts/xml/idum0017.xml
 storehouse, storehouse, arc-transl, transcription, storehouse:, texts/xml/idum0018.xml
@@ -3766,6 +3800,7 @@ the, the, arc-transl, transcription, [the, texts/xml/idum0004.xml
 the, the, arc-transl, transcription, the, texts/xml/idum0006.xml
 the, the, arc-transl, transcription, the, texts/xml/idum0007.xml
 the, the, arc-transl, transcription, the, texts/xml/idum0008.xml
+the, the, arc-transl, transcription, the, texts/xml/idum0010a.xml
 the, the, arc-transl, transcription, the, texts/xml/idum0011.xml
 the, the, arc-transl, transcription, the, texts/xml/idum0012.xml
 the, the, arc-transl, transcription, the, texts/xml/idum0015.xml
@@ -3994,6 +4029,7 @@ to, to, arc-transl, transcription, </lb>to, texts/xml/idum0004.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0005.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0007.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0008.xml
+to, to, arc-transl, transcription, </lb>to, texts/xml/idum0010a.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0015.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0017.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0018.xml
@@ -4003,6 +4039,7 @@ to, to, arc-transl, transcription, </lb>to, texts/xml/idum0021.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0022.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0023.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0024.xml
+to, to, arc-transl, transcription, </lb>to, texts/xml/idum0024a.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0025.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0026.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0027.xml
@@ -4037,6 +4074,7 @@ to, to, arc-transl, transcription, to, texts/xml/idum0225.xml
 to, to, arc-transl, transcription, to, texts/xml/idum0306.xml
 to, to, arc-transl, transcription, to], texts/xml/idum0307.xml
 to, to, arc-transl, transcription, to, texts/xml/idum0308.xml
+to, to, arc-transl, transcription, to, texts/xml/idum0309a.xml
 to, to, arc-transl, transcription, to, texts/xml/idum0310.xml
 to, to, arc-transl, transcription, </lb>to, texts/xml/idum0311.xml
 to, to, arc-transl, transcription, to, texts/xml/idum0312.xml
@@ -4124,6 +4162,7 @@ week, week, arc-transl, transcription, week&#44;, texts/xml/unkn0107.xml
 went, went, arc-transl, transcription, went, texts/xml/unkn0107.xml
 what, what, arc-transl, transcription, what, texts/xml/mare0135.xml
 what, what, arc-transl, transcription, what, texts/xml/mare0136.xml
+wheat, wheat, arc-transl, transcription, </lb>[w(heat)&#44;, texts/xml/idum0010a.xml
 wheat, wheat, arc-transl, transcription, </lb>w(heat)&#44;, texts/xml/idum0015.xml
 wheat, wheat, arc-transl, transcription, </lb>w(heat)&#44;, texts/xml/idum0017.xml
 wheat, wheat, arc-transl, transcription, </lb>w(heat)&#44;, texts/xml/idum0018.xml
@@ -4180,6 +4219,7 @@ wheat, wheat, arc-transl, transcription, w(heat)&#44;, texts/xml/idum0375.xml
 wheat, wheat, arc-transl, transcription, w(heat)&#44;, texts/xml/idum0385.xml
 wheat, wheat, arc-transl, transcription, w(heat)&#44;, texts/xml/idum0386.xml
 wheat, wheat, arc-transl, transcription, </lb>w(heat)&#44;, texts/xml/idum0387.xml
+wheat, wheat, arc-transl, transcription, wheat:, texts/xml/mare0018a.xml
 wheat, wheat, arc-transl, transcription, wheat:, texts/xml/mare0020.xml
 wheat, wheat, arc-transl, transcription, wheat:, texts/xml/mare0074.xml
 wheat, wheat, arc-transl, transcription, wheat:, texts/xml/mare0080.xml
@@ -4261,6 +4301,7 @@ wyrq, wyrq, arc-transl, translation, ...]w/yrq[...</p></div>, texts/xml/mger0304
 wz, wz, arc-transl, transcription, w/z, texts/xml/mger0053.xml
 wznw○, wznw○, arc-transl, translation, w/znw○[...</p></div>, texts/xml/mger0277.xml
 w‛, w‛, arc-transl, translation, ...]w‛[..., texts/xml/mger0099.xml
+x, x, arc-transl, transcription, x...].</p></div>, texts/xml/idum0010a.xml
 x, x, arc-transl, transcription, [x]., texts/xml/idum0039.xml
 x, x, arc-transl, transcription, x].</p></div>, texts/xml/idum0048.xml
 x, x, arc-transl, transcription, x, texts/xml/idum0145.xml
@@ -4307,6 +4348,7 @@ year, year, arc-transl, transcription, </lb>year, texts/xml/idum0225.xml
 year, year, arc-transl, transcription, year, texts/xml/idum0227.xml
 year, year, arc-transl, transcription, </lb>year, texts/xml/idum0297.xml
 year, year, arc-transl, transcription, </lb>year, texts/xml/idum0306.xml
+year, year, arc-transl, transcription, </lb>year, texts/xml/idum0309a.xml
 year, year, arc-transl, transcription, </lb>year, texts/xml/idum0316.xml
 year, year, arc-transl, transcription, </lb>year, texts/xml/idum0328.xml
 year, year, arc-transl, transcription, year, texts/xml/idum0379.xml
@@ -4501,6 +4543,7 @@ z○, z○, arc-transl, translation, ...]z○, texts/xml/mger0382.xml
 ○, ○, arc-transl, transcription, </lb>[...]○, texts/xml/idum0210.xml
 ○, ○, arc-transl, transcription, ○, texts/xml/idum0225.xml
 ○, ○, arc-transl, transcription, ○, texts/xml/mger0075.xml
+○, ○, arc-transl, translation, ...]○, texts/xml/mger0007a.xml
 ○, ○, arc-transl, translation, ...]○, texts/xml/mger0199.xml
 ○, ○, arc-transl, translation, ...]○</p></div>, texts/xml/mger0298.xml
 ○brts, ○brts, arc-transl, translation, ...]○brts</p></div>, texts/xml/mger0284.xml
@@ -4517,6 +4560,7 @@ z○, z○, arc-transl, translation, ...]z○, texts/xml/mger0382.xml
 ○wh, ○wh, arc-transl, translation, ...]○wh[...</p></div>, texts/xml/mger0322.xml
 ○y, ○y, arc-transl, transcription, </lb>[...]○y/[...</p></div>, texts/xml/mger0074.xml
 ○yh, ○yh, arc-transl, transcription, </lb>...]○yh[..., texts/xml/mger0096.xml
+○’, ○’, arc-transl, translation, ...]○’, texts/xml/mger0007b.xml
 ○’, ○’, arc-transl, translation, ...]○’[...</p></div>, texts/xml/mger0279.xml
 ○’, ○’, arc-transl, translation, ...]○’</p></div>, texts/xml/mger0299.xml
 ○’○, ○’○, arc-transl, translation, ...]○’○[...</p></div>, texts/xml/mger0261.xml

@@ -63,6 +63,7 @@
 1, 1, arc, transcription, 1</num>, texts/xml/idum0299.xml
 1, 1, arc, transcription, 1</num>, texts/xml/idum0302.xml
 1, 1, arc, transcription, 1</num>, texts/xml/idum0306.xml
+1, 1, arc, transcription, 1</num>, texts/xml/idum0309b.xml
 1, 1, arc, transcription, 1</num>, texts/xml/idum0311.xml
 1, 1, arc, transcription, 1</num>, texts/xml/idum0313.xml
 1, 1, arc, transcription, 1</num>, texts/xml/idum0317.xml
@@ -93,6 +94,7 @@
 10, 10, arc, transcription, 10</num>, texts/xml/idum0128.xml
 10, 10, arc, transcription, 10</num>, texts/xml/idum0140.xml
 10, 10, arc, transcription, 10</num>, texts/xml/idum0225.xml
+10, 10, arc, transcription, </supplied>10</gap></p></div>, texts/xml/idum0309a.xml
 10, 10, arc, transcription, 10</num>, texts/xml/idum0317.xml
 10, 10, arc, transcription, </gap>10</num>, texts/xml/idum0324.xml
 10, 10, arc, transcription, 10</num>, texts/xml/idum0334.xml
@@ -234,6 +236,7 @@
 2, 2, arc, transcription, 2</num>, texts/xml/idum0300.xml
 2, 2, arc, transcription, 2</num>, texts/xml/idum0301.xml
 2, 2, arc, transcription, 2</num>, texts/xml/idum0306.xml
+2, 2, arc, transcription, 2</num>, texts/xml/idum0309b.xml
 2, 2, arc, transcription, 2</num>, texts/xml/idum0310.xml
 2, 2, arc, transcription, 2</num>, texts/xml/idum0312.xml
 2, 2, arc, transcription, 2</num>, texts/xml/idum0326.xml
@@ -281,6 +284,7 @@
 22, 22, arc, transcription, 22</num>, texts/xml/idum0336.xml
 22, 22, arc, transcription, 22</num>, texts/xml/idum0375.xml
 23, 23, arc, transcription, 23</num>, texts/xml/idum0152.xml
+23, 23, arc, transcription, 23</num>, texts/xml/idum0309a.xml
 23, 23, arc, transcription, 23</num>, texts/xml/idum0317.xml
 23, 23, arc, transcription, 23</num>, texts/xml/idum0327.xml
 23, 23, arc, transcription, 23</num>, texts/xml/idum0331.xml
@@ -374,6 +378,7 @@
 3, 3, arc, transcription, 3</num>, texts/xml/idum0299.xml
 3, 3, arc, transcription, 3</num>, texts/xml/idum0303.xml
 3, 3, arc, transcription, 3</num>, texts/xml/idum0306.xml
+3, 3, arc, transcription, 3</num>, texts/xml/idum0309b.xml
 3, 3, arc, transcription, 3</num>, texts/xml/idum0311.xml
 3, 3, arc, transcription, 3</num>, texts/xml/idum0328.xml
 3, 3, arc, transcription, 3</num>, texts/xml/idum0337.xml
@@ -391,6 +396,7 @@
 30, 30, arc, transcription, 30</num>, texts/xml/idum0311.xml
 33, 33, arc, transcription, 33</num>, texts/xml/idum0138.xml
 4, 4, arc, transcription, 4</num>, texts/xml/idum0001.xml
+4, 4, arc, transcription, 4</num>, texts/xml/idum0010a.xml
 4, 4, arc, transcription, 4</num>, texts/xml/idum0011.xml
 4, 4, arc, transcription, </lb>4</num>, texts/xml/idum0013.xml
 4, 4, arc, transcription, 4</num>, texts/xml/idum0014.xml
@@ -439,6 +445,7 @@
 433, 433, arc, transcription, 43+3</hi>, texts/xml/idum0153.xml
 44, 44, arc, transcription, 44</num>, texts/xml/idum0306.xml
 44, 44, arc, transcription, 44</num>, texts/xml/idum0307.xml
+44, 44, arc, transcription, 44</num>, texts/xml/idum0309a.xml
 44, 44, arc, transcription, 44</num>, texts/xml/idum0310.xml
 45, 45, arc, transcription, 45</hi>, texts/xml/idum0149.xml
 45, 45, arc, transcription, 45</hi>, texts/xml/idum0155.xml
@@ -584,6 +591,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 א, א, arc, transcription, א</unclear>, texts/xml/jmon0017.xml
 א, א, arc, transcription, א, texts/xml/mare0029.xml
 א, א, arc, transcription, </lb></gap></gap>א, texts/xml/mare0083.xml
+א, א, arc, transcription, א</p></div>, texts/xml/masa0001a.xml
 א, א, arc, transcription, א</p></div>, texts/xml/masa0002.xml
 א, א, arc, transcription, </lb></gap>א, texts/xml/masa0554.xml
 א, א, arc, transcription, </gap>א, texts/xml/masa0615.xml
@@ -728,6 +736,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 אלחר, אלחר, arc, transcription, </lb></gap>אלחר, texts/xml/mger0393.xml
 אלי, אלי, arc, transcription, </lb>אלי</supplied>, texts/xml/mger0079.xml
 אליה, אליה, arc, transcription, אליה, texts/xml/unkn0105.xml
+אליהו, אליהו, arc, transcription, </gap></gap>אליהו, texts/xml/mger0007a.xml
 אליעזר, אליעזר, arc, transcription, אליעזר, texts/xml/jeru0116.xml
 אליעזר, אליעזר, arc, transcription, </lb>אליעזר, texts/xml/masa0421.xml
 אלכסא, אלכסא, arc, transcription, אלכסא, texts/xml/jeru0311.xml
@@ -836,6 +845,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 אשר, אשר, arc, transcription, </lb></gap>א</unclear>שר, texts/xml/mger0384.xml
 אשר, אשר, arc, transcription, </lb>אשר, texts/xml/mger0388.xml
 אשתו, אשתו, arc, transcription, אשתו, texts/xml/mger0388.xml
+את, את, arc, transcription, </gap></gap>את</unclear>, texts/xml/mger0007b.xml
 את, את, arc, transcription, </lb>את</gap></p></div>, texts/xml/mger0270.xml
 אתא, אתא, arc, transcription, אתא, texts/xml/masa0556.xml
 אתגןזבדבעל, אתגןזבדבעל, arc, transcription, </lb>אתג</unclear>ןזבד</unclear>בע</unclear>ל, texts/xml/idum0100.xml
@@ -997,6 +1007,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ב, ב, arc, transcription, </lb>ב, texts/xml/idum0306.xml
 ב, ב, arc, transcription, ב</supplied>, texts/xml/idum0307.xml
 ב, ב, arc, transcription, ב, texts/xml/idum0308.xml
+ב, ב, arc, transcription, ב, texts/xml/idum0309a.xml
 ב, ב, arc, transcription, ב, texts/xml/idum0310.xml
 ב, ב, arc, transcription, ב, texts/xml/idum0311.xml
 ב, ב, arc, transcription, ב, texts/xml/idum0312.xml
@@ -1058,6 +1069,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ב, ב, arc, transcription, ב, texts/xml/masa0584.xml
 ב, ב, arc, transcription, ב</supplied>, texts/xml/mger0004.xml
 ב, ב, arc, transcription, ב</unclear>, texts/xml/mger0006.xml
+ב, ב, arc, transcription, ב</unclear>, texts/xml/mger0007a.xml
 ב, ב, arc, transcription, ב</unclear>, texts/xml/mger0009.xml
 ב, ב, arc, transcription, ב</unclear>, texts/xml/mger0010.xml
 ב, ב, arc, transcription, ב</supplied>, texts/xml/mger0011.xml
@@ -1200,6 +1212,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 בכרק, בכרק, arc, transcription, </lb></gap></gap>בכ</hi>רק</unclear>, texts/xml/mger0238.xml
 בל, בל, arc, transcription, בל</supplied>, texts/xml/idum0165.xml
 בל, בל, arc, transcription, בל, texts/xml/mare0137.xml
+בלאב, בלאב, arc, transcription, ב</gap>לא</unclear>ב, texts/xml/idum0010a.xml
 בלט, בלט, arc, transcription, בלט, texts/xml/mare0135.xml
 בלתשרי, בלתשרי, arc, transcription, ב</gap>לתשרי, texts/xml/idum0076.xml
 במותא, במותא, arc, transcription, </lb></gap></gap>במו</unclear>תא, texts/xml/mare0112.xml
@@ -1292,6 +1305,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 בעלדכר, בעלדכר, arc, transcription, </ab>בעלדכר, texts/xml/mare0134.xml
 בעלה, בעלה, arc, transcription, בעלה, texts/xml/mare0136.xml
 בעלי, בעלי, arc, transcription, </lb></gap>בעלי</p></div>, texts/xml/mare0134.xml
+בעליתן, בעליתן, arc, transcription, בעליתן, texts/xml/mare0018a.xml
 בעליתר, בעליתר, arc, transcription, בעליתר, texts/xml/unkn0105.xml
 בעלמלך, בעלמלך, arc, transcription, בעלמלך, texts/xml/idum0014.xml
 בעלמלךלבני, בעלמלךלבני, arc, transcription, בעלמ</unclear>לך</unclear>לבני, texts/xml/idum0215.xml
@@ -1308,6 +1322,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 בעלרים, בעלרים, arc, transcription, </lb>בעלרים, texts/xml/idum0006.xml
 בעלרים, בעלרים, arc, transcription, בעלרים, texts/xml/idum0007.xml
 בעלרים, בעלרים, arc, transcription, </lb>בעלרים, texts/xml/idum0008.xml
+בעלרים, בעלרים, arc, transcription, </supplied>ב</unclear>עלרי</unclear>ם, texts/xml/idum0010a.xml
 בעלרים, בעלרים, arc, transcription, </lb>בעל</supplied>רים, texts/xml/idum0011.xml
 בעלרים, בעלרים, arc, transcription, </lb>בעלרים, texts/xml/idum0013.xml
 בעלרים, בעלרים, arc, transcription, </lb>בע</supplied>לרים, texts/xml/idum0014.xml
@@ -1572,6 +1587,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 גרגרן, גרגרן, arc, transcription, </lb>גרגרן, texts/xml/idum0097.xml
 גרגרן, גרגרן, arc, transcription, </lb>גרגרן, texts/xml/idum0178.xml
 גרגרן, גרגרן, arc, transcription, </lb>גרגר</unclear>ן, texts/xml/idum0305.xml
+גרגרן, גרגרן, arc, transcription, </lb>גרגרן, texts/xml/idum0309a.xml
 גרחו, גרחו, arc, transcription, גרחו, texts/xml/eavd0001.xml
 גרידא, גרידא, arc, transcription, גרידא, texts/xml/jeru0026.xml
 גרידא, גרידא, arc, transcription, גרידא</p></div>, texts/xml/masa0432.xml
@@ -1680,6 +1696,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 דכרא, דכרא, arc, transcription, דכרא</p></div>, texts/xml/mare0024.xml
 דכראי, דכראי, arc, transcription, </lb>דכר</unclear>א</gap>י</p></div>, texts/xml/mare0028.xml
 דכרו, דכרו, arc, transcription, </lb>דכרו, texts/xml/idum0024.xml
+דכרו, דכרו, arc, transcription, דכרו</gap></p></div>, texts/xml/idum0024a.xml
 דכרו, דכרו, arc, transcription, דכ</unclear>רו, texts/xml/idum0053.xml
 דכרי, דכרי, arc, transcription, </lb>דכרי</unclear>, texts/xml/mare0080.xml
 דכרין, דכרין, arc, transcription, דכרין, texts/xml/mare0136.xml
@@ -1981,6 +1998,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 וגרבי, וגרבי, arc, transcription, וגרבי, texts/xml/mare0072.xml
 וד, וד, arc, transcription, </lb>וד, texts/xml/idum0032.xml
 וד, וד, arc, transcription, וד</p></div>, texts/xml/masa0092.xml
+וד, וד, arc, transcription, וד</p></div>, texts/xml/masa0095a.xml
 ודכיר, ודכיר, arc, transcription, ודכיר, texts/xml/eavd0001.xml
 וה, וה, arc, transcription, וה</supplied>, texts/xml/mger0082.xml
 וה, וה, arc, transcription, </choice>וה</gap></p></div>, texts/xml/mger0281.xml
@@ -2129,6 +2147,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 זבדאדהיד, זבדאדהיד, arc, transcription, זבדאדהי</unclear>ד</unclear>, texts/xml/mare0014.xml
 זבדאדהלבני, זבדאדהלבני, arc, transcription, </lb>זבדאדה</unclear>לבני, texts/xml/idum0074.xml
 זבדאל, זבדאל, arc, transcription, זבד</unclear>אל, texts/xml/idum0103.xml
+זבדאל, זבדאל, arc, transcription, </lb>זבד</unclear>אל, texts/xml/idum0309a.xml
 זבדבעל, זבדבעל, arc, transcription, </lb>זבדבעל, texts/xml/mare0040.xml
 זבדבעלי, זבדבעלי, arc, transcription, </lb>ז</unclear>בד</unclear>בעלי, texts/xml/idum0099.xml
 זבדו, זבדו, arc, transcription, זבדו</unclear>, texts/xml/idum0052.xml
@@ -2278,6 +2297,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ח, ח, arc, transcription, ח, texts/xml/idum0143.xml
 ח, ח, arc, transcription, ח</gap></gap></p></div>, texts/xml/idum0208.xml
 ח, ח, arc, transcription, ח</unclear>, texts/xml/jmon0027.xml
+ח, ח, arc, transcription, </g></num>ח, texts/xml/mare0018a.xml
 ח, ח, arc, transcription, ח, texts/xml/mare0020.xml
 ח, ח, arc, transcription, ח, texts/xml/mare0087.xml
 ח, ח, arc, transcription, ח</p></div>, texts/xml/masa0096.xml
@@ -2708,6 +2728,8 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 יפרא, יפרא, arc, transcription, </lb></gap>י</hi>פרא, texts/xml/mger0235.xml
 יצחק, יצחק, arc, transcription, יצחק</p></div>, texts/xml/haif0037.xml
 יק, יק, arc, transcription, </lb></gap></gap>יק</unclear>, texts/xml/mger0385.xml
+יקמעמ, יקמעמ, arc, transcription, יקמעמ, texts/xml/mger0007a.xml
+יקמעמ, יקמעמ, arc, transcription, יקמעמ, texts/xml/mger0007b.xml
 יר, יר, arc, transcription, י</unclear>ר, texts/xml/masa0582.xml
 יר, יר, arc, transcription, יר</unclear>, texts/xml/mger0291.xml
 ירדנא, ירדנא, arc, transcription, ירדנא, texts/xml/eavd0001.xml
@@ -2979,6 +3001,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 לבני, לבני, arc, transcription, לבני, texts/xml/idum0003.xml
 לבני, לבני, arc, transcription, לבני, texts/xml/idum0006.xml
 לבני, לבני, arc, transcription, לבני, texts/xml/idum0007.xml
+לבני, לבני, arc, transcription, לבני, texts/xml/idum0010a.xml
 לבני, לבני, arc, transcription, לבני, texts/xml/idum0024.xml
 לבני, לבני, arc, transcription, </lb>לבני, texts/xml/idum0027.xml
 לבני, לבני, arc, transcription, לבני, texts/xml/idum0028.xml
@@ -3146,6 +3169,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 לי, לי, arc, transcription, לי</p></div>, texts/xml/masa0197.xml
 לי, לי, arc, transcription, לי</p></div>, texts/xml/masa0198.xml
 לי, לי, arc, transcription, לי, texts/xml/masa0554.xml
+ליד, ליד, arc, transcription, ליד, texts/xml/idum0010a.xml
 ליד, ליד, arc, transcription, ליד, texts/xml/idum0023.xml
 ליד, ליד, arc, transcription, ליד, texts/xml/idum0024.xml
 ליד, ליד, arc, transcription, </lb>ליד</unclear>, texts/xml/idum0084.xml
@@ -3206,6 +3230,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 למסכנת, למסכנת, arc, transcription, למסכנת, texts/xml/idum0159.xml
 למסכנת, למסכנת, arc, transcription, למסכנת, texts/xml/idum0166.xml
 למסכנת, למסכנת, arc, transcription, למסכנת</unclear>, texts/xml/idum0327.xml
+למסכנתא, למסכנתא, arc, transcription, למסכנתא</p></div>, texts/xml/idum0010a.xml
 למסכנתא, למסכנתא, arc, transcription, למסכנתא, texts/xml/idum0015.xml
 למסכנתא, למסכנתא, arc, transcription, למסכנתא, texts/xml/idum0017.xml
 למסכנתא, למסכנתא, arc, transcription, </lb>למסכנתא, texts/xml/idum0018.xml
@@ -3237,6 +3262,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 למרחשון, למרחשון, arc, transcription, למרחשון, texts/xml/idum0207.xml
 למרחשון, למרחשון, arc, transcription, למרחשון</supplied>, texts/xml/idum0208.xml
 למרחשון, למרחשון, arc, transcription, </lb>למרחשון, texts/xml/idum0308.xml
+למרחשון, למרחשון, arc, transcription, למרחשון, texts/xml/idum0309a.xml
 למרחשון, למרחשון, arc, transcription, למרחשון, texts/xml/idum0310.xml
 למרחשון, למרחשון, arc, transcription, למרחשון</hi>, texts/xml/idum0319.xml
 למרחשון, למרחשון, arc, transcription, למרחשון, texts/xml/idum0376.xml
@@ -3330,6 +3356,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 לשמתו, לשמתו, arc, transcription, לשמתו, texts/xml/idum0306.xml
 לשמתו, לשמתו, arc, transcription, </lb></gap>ל</supplied>שמתו, texts/xml/idum0307.xml
 לשמתו, לשמתו, arc, transcription, לשמתו</unclear>, texts/xml/idum0308.xml
+לשמתו, לשמתו, arc, transcription, לשמתו, texts/xml/idum0309a.xml
 לשמתו, לשמתו, arc, transcription, לשמתו, texts/xml/idum0310.xml
 לשמתו, לשמתו, arc, transcription, </lb>לשמ</unclear>תו, texts/xml/idum0311.xml
 לשמתו, לשמתו, arc, transcription, לשמתו, texts/xml/idum0312.xml
@@ -3488,6 +3515,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 מלכא, מלכא, arc, transcription, מלכא</unclear>, texts/xml/idum0143.xml
 מלכא, מלכא, arc, transcription, מלכ</unclear>א, texts/xml/idum0310.xml
 מלכא, מלכא, arc, transcription, </gap>מלכא</gap></p></div>, texts/xml/mger0051.xml
+מלכו, מלכו, arc, transcription, מלכו, texts/xml/idum0010a.xml
 מלכו, מלכו, arc, transcription, מלכו, texts/xml/idum0032.xml
 מלכו, מלכו, arc, transcription, מלכו, texts/xml/idum0034.xml
 מלכו, מלכו, arc, transcription, </lb>מלכו, texts/xml/idum0036.xml
@@ -3573,6 +3601,8 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 מןבן, מןבן, arc, transcription, מןב</unclear>ן, texts/xml/idum0340.xml
 מנ, מנ, arc, transcription, מנ</supplied>, texts/xml/idum0106.xml
 מנ, מנ, arc, transcription, </lb>מנ, texts/xml/mger0003.xml
+מנ, מנ, arc, transcription, </lb>מנ, texts/xml/mger0007a.xml
+מנ, מנ, arc, transcription, </lb>מנ, texts/xml/mger0007b.xml
 מנ, מנ, arc, transcription, </lb>מנ, texts/xml/mger0008.xml
 מנ, מנ, arc, transcription, </lb></gap>מנ</supplied>, texts/xml/mger0014.xml
 מנ, מנ, arc, transcription, </gap>מנ</supplied>, texts/xml/mger0015.xml
@@ -3714,6 +3744,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 נ, נ, arc, transcription, נ, texts/xml/masa0606.xml
 נ, נ, arc, transcription, נ</supplied>, texts/xml/masa0672.xml
 נ, נ, arc, transcription, נ</supplied>, texts/xml/masa0673.xml
+נ, נ, arc, transcription, נ</supplied>, texts/xml/mger0007b.xml
 נ, נ, arc, transcription, נ</unclear>, texts/xml/mger0020.xml
 נ, נ, arc, transcription, נ</supplied>, texts/xml/mger0023.xml
 נ, נ, arc, transcription, נ</supplied>, texts/xml/mger0057.xml
@@ -3878,6 +3909,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ס, ס, arc, transcription, ס, texts/xml/idum0301.xml
 ס, ס, arc, transcription, ס, texts/xml/idum0303.xml
 ס, ס, arc, transcription, </lb>ס, texts/xml/idum0306.xml
+ס, ס, arc, transcription, </lb>ס, texts/xml/idum0309b.xml
 ס, ס, arc, transcription, </lb>ס</unclear>, texts/xml/idum0310.xml
 ס, ס, arc, transcription, ס</unclear>, texts/xml/idum0312.xml
 ס, ס, arc, transcription, ס, texts/xml/idum0314.xml
@@ -3978,6 +4010,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 עבדאדה, עבדאדה, arc, transcription, </lb>עבדאדה, texts/xml/idum0162.xml
 עבדאדה, עבדאדה, arc, transcription, עבדאדה, texts/xml/idum0163.xml
 עבדאדה, עבדאדה, arc, transcription, עב</supplied>דאדה, texts/xml/idum0297.xml
+עבדאדה, עבדאדה, arc, transcription, </lb>עבדאדה, texts/xml/idum0309b.xml
 עבדאדהר, עבדאדהר, arc, transcription, עבדאד</unclear>הר</supplied>, texts/xml/idum0071.xml
 עבדאדהש, עבדאדהש, arc, transcription, עבדאדהש</unclear>, texts/xml/idum0298.xml
 עבדאח, עבדאח, arc, transcription, </lb>עבדאח</p></div>, texts/xml/mare0040.xml
@@ -4273,6 +4306,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ף, ף, arc, transcription, ף, texts/xml/idum0162.xml
 ף, ף, arc, transcription, ף, texts/xml/idum0170.xml
 ף, ף, arc, transcription, ף</p></div>, texts/xml/idum0172.xml
+ף, ף, arc, transcription, ף</p></div>, texts/xml/idum0309b.xml
 ף, ף, arc, transcription, ף, texts/xml/idum0328.xml
 ף, ף, arc, transcription, ף, texts/xml/idum0332.xml
 ף, ף, arc, transcription, ף</p></div>, texts/xml/idum0337.xml
@@ -4429,6 +4463,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ק, ק, arc, transcription, ק, texts/xml/idum0301.xml
 ק, ק, arc, transcription, </lb>ק, texts/xml/idum0303.xml
 ק, ק, arc, transcription, ק, texts/xml/idum0306.xml
+ק, ק, arc, transcription, ק, texts/xml/idum0309b.xml
 ק, ק, arc, transcription, ק</unclear>, texts/xml/idum0310.xml
 ק, ק, arc, transcription, </lb>ק, texts/xml/idum0311.xml
 ק, ק, arc, transcription, </lb>ק</unclear>, texts/xml/idum0312.xml
@@ -4699,6 +4734,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ר, ר, arc, transcription, ר</unclear>, texts/xml/jmon0007.xml
 ר, ר, arc, transcription, </g></num>ר</g></num></gap></p></div>, texts/xml/mare0087.xml
 ר, ר, arc, transcription, ר</gap>, texts/xml/masa0555.xml
+ר, ר, arc, transcription, ר</supplied>, texts/xml/mger0007a.xml
 ר, ר, arc, transcription, ר</unclear>, texts/xml/mger0013.xml
 ר, ר, arc, transcription, ר</unclear>, texts/xml/mger0021.xml
 ר, ר, arc, transcription, ר</supplied>, texts/xml/mger0055.xml
@@ -4739,6 +4775,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ראש, ראש, arc, transcription, </lb>רא</supplied>ש, texts/xml/idum0297.xml
 ראש, ראש, arc, transcription, </lb>ראש, texts/xml/idum0299.xml
 ראש, ראש, arc, transcription, ראש, texts/xml/idum0306.xml
+ראש, ראש, arc, transcription, ראש</unclear>, texts/xml/idum0309b.xml
 ראש, ראש, arc, transcription, ראש, texts/xml/idum0310.xml
 ראש, ראש, arc, transcription, ראש</unclear>, texts/xml/mare0080.xml
 רב, רב, arc, transcription, </lb>רב, texts/xml/mger0003.xml
@@ -4790,6 +4827,8 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 ש, ש, arc, transcription, ש</gap>, texts/xml/idum0226.xml
 ש, ש, arc, transcription, ש, texts/xml/jeru0231.xml
 ש, ש, arc, transcription, ש</unclear>, texts/xml/jmon0007.xml
+ש, ש, arc, transcription, </lb>ש</unclear>, texts/xml/mare0018a.xml
+ש, ש, arc, transcription, </lb></gap>ש, texts/xml/mare0018b.xml
 ש, ש, arc, transcription, </lb>ש, texts/xml/mare0071.xml
 ש, ש, arc, transcription, ש, texts/xml/mare0091.xml
 ש, ש, arc, transcription, </lb>ש, texts/xml/masa0424.xml
@@ -4890,7 +4929,9 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 שלמציון, שלמציון, arc, transcription, שלמציון, texts/xml/jeru0018.xml
 שלמצין, שלמצין, arc, transcription, שלמצין, texts/xml/jeru0127.xml
 שם, שם, arc, transcription, שם, texts/xml/idum0163.xml
+שם, שם, arc, transcription, </lb></g>שם</unclear>, texts/xml/idum0309b.xml
 שם, שם, arc, transcription, </lb>שם, texts/xml/idum0317.xml
+שמ, שמ, arc, transcription, שמ</p></div>, texts/xml/masa0095b.xml
 שמ, שמ, arc, transcription, שמ</p></div>, texts/xml/masa0273.xml
 שמ, שמ, arc, transcription, </gap></gap>שמ</gap></gap></p></div>, texts/xml/masa0652.xml
 שמ, שמ, arc, transcription, שמ</p></div>, texts/xml/masa0690.xml
@@ -5027,6 +5068,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 שנת, שנת, arc, transcription, שנת, texts/xml/idum0297.xml
 שנת, שנת, arc, transcription, </lb>שנת, texts/xml/idum0306.xml
 שנת, שנת, arc, transcription, שנת, texts/xml/idum0307.xml
+שנת, שנת, arc, transcription, </lb>שנת, texts/xml/idum0309a.xml
 שנת, שנת, arc, transcription, שנת, texts/xml/idum0310.xml
 שנת, שנת, arc, transcription, </lb>שנת</supplied>, texts/xml/idum0311.xml
 שנת, שנת, arc, transcription, שנת, texts/xml/idum0312.xml
@@ -5084,6 +5126,7 @@ mark, mark, arc, transcription, mark)</p></div>, texts/xml/mger0059.xml
 שעדאל, שעדאל, arc, transcription, </lb>שעדאל, texts/xml/idum0007.xml
 שעדאל, שעדאל, arc, transcription, שעדאל, texts/xml/idum0008.xml
 שעדאל, שעדאל, arc, transcription, שעדאל, texts/xml/idum0009.xml
+שעדאל, שעדאל, arc, transcription, </lb>שעדאל, texts/xml/idum0010a.xml
 שעדאל, שעדאל, arc, transcription, שעדאל, texts/xml/idum0023.xml
 שעדאל, שעדאל, arc, transcription, שעדאל</hi>, texts/xml/idum0024.xml
 שעדאל, שעדאל, arc, transcription, שעד</unclear>אל</p></div>, texts/xml/idum0124.xml

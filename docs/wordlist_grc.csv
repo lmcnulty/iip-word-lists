@@ -186,6 +186,7 @@ a, a, grc, transcription, </lb>a, texts/xml/zoor0357.xml
 a, a, grc, transcription, a, texts/xml/zoor0389.xml
 age, age, grc, transcription, age), texts/xml/zoor0351.xml
 age, age, grc, transcription, age), texts/xml/zoor0356.xml
+ai, ai, grc, transcription, ai</unclear>, texts/xml/masa0942d.xml
 all, all, grc, transcription, all.....</p></div>, texts/xml/zoor0390.xml
 also, also, grc, transcription, also, texts/xml/hamm0022.xml
 and, and, grc, transcription, and, texts/xml/caes0158.xml
@@ -194,6 +195,7 @@ and, and, grc, transcription, and, texts/xml/fein0001.xml
 and, and, grc, transcription, and, texts/xml/tibe0004.xml
 and, and, grc, transcription, and, texts/xml/zoor0356.xml
 and, and, grc, transcription, and, texts/xml/zoor0357.xml
+ant, ant, grc, transcription, ant</unclear>, texts/xml/masa0942a.xml
 asleep, asleep, grc, transcription, asleep, texts/xml/zoor0393.xml
 at, at, grc, transcription, at, texts/xml/zoor0351.xml
 at, at, grc, transcription, </lb>(at, texts/xml/zoor0356.xml
@@ -365,6 +367,7 @@ months, months, grc, transcription, </lb>months, texts/xml/zoor0354.xml
 most, most, grc, transcription, most, texts/xml/beth0029.xml
 most, most, grc, transcription, most, texts/xml/tibe0004.xml
 mother, mother, grc, transcription, mother, texts/xml/fein0002.xml
+nac, nac, grc, transcription, nac</unclear>, texts/xml/masa0942c.xml
 name, name, grc, transcription, </lb>name, texts/xml/zoor0356.xml
 name, name, grc, transcription, name, texts/xml/zoor0357.xml
 name, name, grc, transcription, </lb>[name], texts/xml/zoor0389.xml
@@ -471,6 +474,7 @@ stand, stand, grc, transcription, stand, texts/xml/hamm0022.xml
 starving, starving, grc, transcription, </lb>(starving)&#44;, texts/xml/fein0001.xml
 supervisor, supervisor, grc, transcription, supervisor, texts/xml/tibe0004.xml
 synagogue, synagogue, grc, transcription, synagogue</rs>&#44;, texts/xml/beth0204.xml
+t, t, grc, transcription, t</unclear>, texts/xml/masa0942b.xml
 ten, ten, grc, transcription, ten, texts/xml/zoor0354.xml
 tenth, tenth, grc, transcription, tenth, texts/xml/zoor0393.xml
 the, the, grc, transcription, </persName>the, texts/xml/beth0041.xml
@@ -4963,6 +4967,7 @@ your, your, grc, transcription, your, texts/xml/caes0158.xml
 αι, αι, grc, transcription, αι</corr>, texts/xml/bshe0024.xml
 αι, αι, grc, transcription, αι</corr>, texts/xml/bshe0025.xml
 αι, αι, grc, transcription, αι</p></div>, texts/xml/evro0003.xml
+αι, αι, grc, transcription, αι</unclear>, texts/xml/masa0942d.xml
 αιʹ, αιʹ, grc, transcription, </lb>αιʹ, texts/xml/zoor0011.xml
 ακ, ακ, grc, transcription, ακ</num>&#44;, texts/xml/zoor0331.xml
 ακʹ, ακʹ, grc, transcription, ακʹ&#44;, texts/xml/zoor0177.xml
@@ -4993,6 +4998,7 @@ your, your, grc, transcription, your, texts/xml/caes0158.xml
 ανος, ανος, grc, transcription, </abbr>ανος</ex></expan>, texts/xml/elus0030.xml
 ανούσης, ανούσης, grc, transcription, </lb>ανο</unclear>ύσης, texts/xml/zoor0287.xml
 ανοῦ, ανοῦ, grc, transcription, </lb>ανοῦ&#44;, texts/xml/zoor0091.xml
+αντ, αντ, grc, transcription, αντ</unclear>, texts/xml/masa0942a.xml
 ανόντο, ανόντο, grc, transcription, </lb>ανόντο, texts/xml/zoor0279.xml
 ανόντος, ανόντος, grc, transcription, </lb>ανόντος, texts/xml/zoor0265.xml
 ανὀντος, ανὀντος, grc, transcription, </lb>ανὀντος, texts/xml/zoor0183.xml
@@ -6055,6 +6061,7 @@ your, your, grc, transcription, your, texts/xml/caes0158.xml
 ζ, ζ, grc, transcription, </lb></gap>ζ, texts/xml/mare0181.xml
 ζ, ζ, grc, transcription, ζ</num>, texts/xml/masa0772.xml
 ζ, ζ, grc, transcription, ζ</num>, texts/xml/masa0774.xml
+ζ, ζ, grc, transcription, ζ, texts/xml/masa0942e.xml
 ζ, ζ, grc, transcription, ζ, texts/xml/rafi0001.xml
 ζ, ζ, grc, transcription, ζ, texts/xml/rafi0003.xml
 ζ, ζ, grc, transcription, ζ, texts/xml/zoor0254.xml
@@ -6173,6 +6180,7 @@ your, your, grc, transcription, your, texts/xml/caes0158.xml
 η, η, grc, transcription, η</unclear>, texts/xml/mare0218.xml
 η, η, grc, transcription, η</num>, texts/xml/masa0779.xml
 η, η, grc, transcription, η</unclear>, texts/xml/masa0941.xml
+η, η, grc, transcription, </lb>η, texts/xml/masa0942e.xml
 η, η, grc, transcription, </lb></unclear></unclear></unclear>η, texts/xml/rafi0008.xml
 η, η, grc, transcription, η</unclear>, texts/xml/tdor0003.xml
 η, η, grc, transcription, </lb>η, texts/xml/zoor0129.xml
@@ -6260,6 +6268,7 @@ your, your, grc, transcription, your, texts/xml/caes0158.xml
 θ, θ, grc, transcription, </lb></gap>θ, texts/xml/mare0181.xml
 θ, θ, grc, transcription, θ</num>, texts/xml/masa0779.xml
 θ, θ, grc, transcription, θ, texts/xml/masa0941.xml
+θ, θ, grc, transcription, θ</p></div>, texts/xml/masa0942e.xml
 θoνόντος, θoνόντος, grc, transcription, </lb>θoνόντος</sic>, texts/xml/zoor0238.xml
 θ´, θ´, grc, transcription, θ´, texts/xml/farj0006.xml
 θʹ, θʹ, grc, transcription, θʹ, texts/xml/zoor0005.xml
@@ -9252,6 +9261,7 @@ your, your, grc, transcription, your, texts/xml/caes0158.xml
 νας, νας, grc, transcription, </lb>νας, texts/xml/caes0265.xml
 νας, νας, grc, transcription, </lb>νας, texts/xml/haif0048.xml
 νας, νας, grc, transcription, </lb>νας, texts/xml/susi0004.xml
+νασ, νασ, grc, transcription, νασ</unclear>, texts/xml/masa0942c.xml
 νατος, νατος, grc, transcription, </lb>νατος</p></div>, texts/xml/elus0069.xml
 νατος, νατος, grc, transcription, </lb>νατος., texts/xml/zoor0038.xml
 νατος, νατος, grc, transcription, </lb>νατος.</p></div>, texts/xml/zoor0046.xml
@@ -11446,6 +11456,7 @@ your, your, grc, transcription, your, texts/xml/caes0158.xml
 τ, τ, grc, transcription, τ, texts/xml/mare0181.xml
 τ, τ, grc, transcription, τ</gap>, texts/xml/mare0301.xml
 τ, τ, grc, transcription, τ</unclear>, texts/xml/masa0941.xml
+τ, τ, grc, transcription, τ</unclear>, texts/xml/masa0942b.xml
 τ, τ, grc, transcription, τ</unclear>, texts/xml/zoor0001.xml
 τ, τ, grc, transcription, τ, texts/xml/zoor0183.xml
 τ, τ, grc, transcription, τ, texts/xml/zoor0202.xml

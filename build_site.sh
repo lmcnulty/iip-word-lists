@@ -50,7 +50,6 @@ if [ $update == 1 ]; then
 	if [ -f include_publicationStmt.xml ]; then
 		rm include_publicationStmt.xml;
 	fi
-	rm ?????????????*;
 	../../../src/python/wordlist.py * --silent --plaintext -f ../plain;
 	cd ../../..;
 else
