@@ -15,6 +15,7 @@ import cltk
 from cltk.corpus.utils.importer import CorpusImporter
 from cltk.stem.lemma import LemmaReplacer
 from cltk.stem.latin.j_v import JVReplacer
+from nltk.corpus import stopwords
 
 class iip_word:
 	equivilence = ["edition_type", "language", "text", "file_name"]
@@ -252,6 +253,7 @@ if __name__ == '__main__':
 	parser.add_argument("-n", "--name", type=str, help="The name of the output file without the extension")
 	parser.add_argument("-f", "--flat", type=str, help="Specify the location to store plain text files.")
 	parser.add_argument("--nolemma", help="Don't lemmatize words before writing to plain text files", action="store_true")
+	parser.add_argument("--engstops", help="Do not include translated English words that are in the stop list.", action="store_true")
 	args = parser.parse_args()
 
 	# Extract words from each file
@@ -290,6 +292,15 @@ if __name__ == '__main__':
 		filtered_words = []
 		for word in words:
 			if word.edition_type != "diplomatic":
+				filtered_words.append(word)
+		words = filtered_words
+
+	if args.engstops:
+		stop_words = set(stopwords.words('english'))
+		print(stop_words)
+		filtered_words = []
+		for word in words:
+			if not (word.text in stop_words and "transl" in word.language):
 				filtered_words.append(word)
 		words = filtered_words
 
