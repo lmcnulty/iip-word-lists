@@ -34,7 +34,8 @@ class iip_word:
 		self.file_name = file_name
 		# eg: happ<unclear>i</unclear>n<supplied>ess</supplied>
 		self.xml_context = text
-		self.lemmatization = "";
+		self.lemmatization = ""
+		self.abbreviations = []
 		
 	def __hash__(self):
 		new_hash = 0
@@ -127,6 +128,11 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path):
 		editionLang = edition.attrib[XML_NS + 'lang']
 	wordLang = editionLang
 	
+	# Get the subtype
+	subtype = ""
+	if "subtype" in edition.attrib:
+		subtype = edition.attrib['subtype']
+
 	# The last word in the list _at the time of calling the function_.
 	prev_word = copy.copy(word_list[-1])
 	
@@ -135,11 +141,18 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path):
 	
 	# Start a new word if the tag is a linebreak without break="no"
 	if e.tag == TEI_NS + "lb" and not ('break' in e.attrib and e.attrib['break'] == "no"):
-		append_to_word_list(word_list, iip_word(edition.attrib['subtype'], editionLang, "", path))
-	
+		append_to_word_list(word_list, iip_word(subtype, editionLang, "", path))
+
+	previous = e.getprevious()
+	if e.tag == TEI_NS + "expan" and previous != None and previous.tag == TEI_NS + "abbr":
+		if len(word_list[-1].text) < 1:
+			del(word_list[-1])
+		word_list[-1].text = ""
+		word_list[-1].edition = edition
+
 	# Add the text within the element not inside any child element
-	if (e.text != None):
-		add_trailing_text(word_list, e, e.text, edition.attrib['subtype'], wordLang, path, True)
+	if (e.text != None):	
+		add_trailing_text(word_list, e, e.text, subtype, wordLang, path, True)
 	
 	# Add each child element
 	children = e.getchildren()
@@ -158,7 +171,7 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path):
 		
 	# Add the words following the element which are not in any sibling
 	if (e.tail != None):
-		add_trailing_text(word_list, e, e.tail, edition.attrib['subtype'], wordLang, path, (e.tag in INCLUDE_TRAILING_LINEBREAK))
+		add_trailing_text(word_list, e, e.tail, subtype, wordLang, path, (e.tag in INCLUDE_TRAILING_LINEBREAK))
 
 def get_words_from_file(path):
 	root = etree.parse(path).getroot()
@@ -176,7 +189,7 @@ def get_words_from_file(path):
 	for translation in root.findall(".//tei:div[@type='translation']", namespaces=nsmap):
 		mainLang += "-transl"
 		new_words = [iip_word("translation", mainLang, "", path)]
-		add_element_to_word_list(translation, new_words, edition, mainLang, path)
+		add_element_to_word_list(translation, new_words, translation, mainLang, path)
 		words += new_words
 	null_words = []
 	for word in words:
