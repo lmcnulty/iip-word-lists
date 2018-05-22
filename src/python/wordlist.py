@@ -11,6 +11,7 @@ import copy
 from wordlist_constants import *
 from wordlist_output import *
 from wordlist_strings import *
+from wordlist_ngrams import *
 import cltk
 from cltk.corpus.utils.importer import CorpusImporter
 from cltk.stem.lemma import LemmaReplacer
@@ -37,7 +38,7 @@ class iip_word:
 		self.xml_context = text
 		self.lemmatization = ""
 		self.abbreviations = []
-		
+		self.followups = []	
 	def __hash__(self):
 		new_hash = 0
 		for e in iip_word.equivilence:
