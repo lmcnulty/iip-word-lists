@@ -3,8 +3,6 @@
 import readline
 import os
 
-repl_commands = []
-
 class repl_command:
 	def __init__(self, invocation, execute_function, description=""):
 		self.invocation = invocation
@@ -14,42 +12,66 @@ class repl_command:
 		self.execute_function(line)
 
 class help_command(repl_command):
-	def __init__(self):
+	def __init__(self, loop):
 		self.invocation = "help"
 		self.description = "Print each command and its description."
+		self.loop = loop
 	def execute(self, line):
-		for command in repl_commands:
+		for command in self.loop.repl_commands:
 			print(command.invocation + " - " + command.description)
 
-def read_input(user_input):
-	initial_token = user_input.split()[0]	
-	for command in repl_commands:
-		if command.invocation == initial_token:
-			command.execute(user_input)
-			return
-	print('"' + initial_token + '" - Command not found')
+class exit_command(repl_command):
+	def __init__(self, loop):
+		self.invocation = "exit"
+		self.description = "Exit the repl."
+		self.loop = loop
+	def execute(self, line):
+		self.loop.repl_exit = True
 
-def add_repl_command(command):
-	repl_commands.append(command)
+class repl_instance:
+	def __init__(self, prompt="> "):
+		self.repl_commands = []
+		self.repl_exit = False
+		self.prompt = prompt
 
-def add_repl_commands(*args):
-	commands = []
-	for arg in args:	
-		if isinstance(arg, repl_command):
-			commands.append(arg)
-		else:
-			raise ValueError('"' + str(arg) + '" is not a repl_command.')
-	for command in commands:
-		add_repl_command(command)
-
-def run_repl():
-	readline.set_completer_delims(' \t\n;')
-	readline.parse_and_bind('tab: complete')
+	def read_input(self, user_input):
+		initial_token = user_input.split()[0]	
+		for command in self.repl_commands:
+			if command.invocation == initial_token:
+				command.execute(user_input)
+				return
+		print('"' + initial_token + '" - Command not found')
 	
-	add_repl_commands(help_command(), repl_command("clear", lambda line: os.system("clear"), description="Clear the screen"))
+	def add_repl_command(self, command):
+		self.repl_commands.append(command)
 	
-	while True:
-		read_input(input("> "))
+	def add_repl_commands(self, *args):
+		commands = []
+		for arg in args:	
+			if isinstance(arg, repl_command):
+				commands.append(arg)
+			else:
+				raise ValueError('"' + str(arg) + 
+				                 '" is not a repl_command.')
+		for command in commands:
+			self.add_repl_command(command)
+	
+	def run_repl(self):
+		readline.set_completer_delims(' \t\n;')
+		readline.parse_and_bind('tab: complete')
+		self.add_repl_commands(help_command(loop=self), 
+		                       exit_command(loop=self),
+		                       repl_command("clear", 
+		                                    lambda line: \
+		                                    os.system("clear"), 
+		                                    description=\
+		                                    "Clear the screen."))
+		while not self.repl_exit:
+			try:
+				self.read_input(input(self.prompt))
+			except (EOFError, KeyboardInterrupt) as e:
+				print("")
+				self.repl_exit = True
 		
 if __name__ == "__main__":
-	run_repl()
+	repl_instance().run_repl()
