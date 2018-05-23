@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>h&#9675; [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">3</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>h&#9675;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/mger0271.xml</li><li>texts/xml/mger0282.xml</li><li>texts/xml/mger0025.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Samaria</li></ul>
+</body>
+</html>

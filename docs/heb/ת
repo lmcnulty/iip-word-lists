@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#1514; [Hebrew]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">8</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#1514;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/jord0001.xml</li><li>texts/xml/jeru0183.xml</li><li>texts/xml/qumr0002.xml</li><li>texts/xml/masa0449.xml</li><li>texts/xml/masa0401.xml</li><li>texts/xml/masa0442.xml</li><li>texts/xml/beth0254.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Galilee</li><li>Jordan</li></ul>
+</body>
+</html>

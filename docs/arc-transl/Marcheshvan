@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Marcheshvan [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">7</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Marcheshvan</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0108.xml</li><li>texts/xml/idum0205.xml</li><li>texts/xml/idum0160.xml</li><li>texts/xml/idum0308.xml</li><li>texts/xml/idum0297.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Negev</li></ul>
+</body>
+</html>

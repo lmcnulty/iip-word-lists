@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#8230; [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">27</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#8230;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/mare0098.xml</li><li>texts/xml/mare0072.xml</li><li>texts/xml/mare0088.xml</li><li>texts/xml/mare0083.xml</li><li>texts/xml/mare0097.xml</li><li>texts/xml/mare0090.xml</li><li>texts/xml/mare0136.xml</li><li>texts/xml/mare0078.xml</li><li>texts/xml/mare0135.xml</li><li>texts/xml/mare0100.xml</li><li>texts/xml/mare0109.xml</li><li>texts/xml/mare0091.xml</li><li>texts/xml/mare0108.xml</li><li>texts/xml/mare0092.xml</li><li>texts/xml/mare0086.xml</li><li>texts/xml/mare0077.xml</li><li>texts/xml/mare0104.xml</li><li>texts/xml/mare0076.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li></ul>
+</body>
+</html>

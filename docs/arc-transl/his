@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>his [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">52</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>his</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/mger0084.xml</li><li>texts/xml/mger0080.xml</li><li>texts/xml/mger0388.xml</li><li>texts/xml/mger0055.xml</li><li>texts/xml/mger0067.xml</li><li>texts/xml/sepp0003.xml</li><li>texts/xml/mger0071.xml</li><li>texts/xml/mger0002.xml</li><li>texts/xml/mger0004.xml</li><li>texts/xml/sepp0004.xml</li><li>texts/xml/mger0091.xml</li><li>texts/xml/mger0015.xml</li><li>texts/xml/mare0136.xml</li><li>texts/xml/mger0031.xml</li><li>texts/xml/mger0068.xml</li><li>texts/xml/mger0066.xml</li><li>texts/xml/mger0094.xml</li><li>texts/xml/sepp0006.xml</li><li>texts/xml/mger0065.xml</li><li>texts/xml/sepp0010.xml</li><li>texts/xml/mger0069.xml</li><li>texts/xml/idum0337.xml</li><li>texts/xml/mger0030.xml</li><li>texts/xml/mger0005.xml</li><li>texts/xml/mger0099.xml</li><li>texts/xml/mger0063.xml</li><li>texts/xml/mger0083.xml</li><li>texts/xml/sepp0002.xml</li><li>texts/xml/mger0089.xml</li><li>texts/xml/mger0095.xml</li><li>texts/xml/mger0097.xml</li><li>texts/xml/mger0092.xml</li><li>texts/xml/mger0054.xml</li><li>texts/xml/mger0020.xml</li><li>texts/xml/mger0001.xml</li><li>texts/xml/mger0009.xml</li><li>texts/xml/mger0006.xml</li><li>texts/xml/mare0043.xml</li><li>texts/xml/mger0070.xml</li><li>texts/xml/eavd0001.xml</li><li>texts/xml/masa0556.xml</li><li>texts/xml/sepp0001.xml</li><li>texts/xml/mger0010.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Samaria</li><li>Galilee</li><li>Negev</li></ul>
+</body>
+</html>

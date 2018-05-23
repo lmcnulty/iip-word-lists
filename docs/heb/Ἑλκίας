@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#7961;&#955;&#954;&#943;&#945;&#962; [Hebrew]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">1</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#7961;&#955;&#954;&#943;&#945;&#962;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/mari0005.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li></ul>
+</body>
+</html>

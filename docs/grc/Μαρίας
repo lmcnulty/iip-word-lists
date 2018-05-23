@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#924;&#945;&#961;&#943;&#945;&#962; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">4</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#924;&#945;&#961;&#943;&#945;&#962;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/zoor0344.xml</li><li>texts/xml/elus0022.xml</li><li>texts/xml/zoor0063.xml</li><li>texts/xml/rafi0002.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Golan</li><li>Negev</li></ul>
+</body>
+</html>

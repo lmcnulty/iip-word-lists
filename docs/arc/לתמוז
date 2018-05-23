@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#1500;&#1514;&#1502;&#1493;&#1494; [Aramaic]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">33</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#1500;&#1514;&#1502;&#1493;&#1494;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0214.xml</li><li>texts/xml/idum0229.xml</li><li>texts/xml/idum0090.xml</li><li>texts/xml/idum0019.xml</li><li>texts/xml/idum0122.xml</li><li>texts/xml/idum0341.xml</li><li>texts/xml/idum0023.xml</li><li>texts/xml/idum0060.xml</li><li>texts/xml/idum0063.xml</li><li>texts/xml/idum0004.xml</li><li>texts/xml/idum0166.xml</li><li>texts/xml/idum0017.xml</li><li>texts/xml/idum0024.xml</li><li>texts/xml/idum0020.xml</li><li>texts/xml/idum0328.xml</li><li>texts/xml/idum0329.xml</li><li>texts/xml/idum0057.xml</li><li>texts/xml/idum0022.xml</li><li>texts/xml/idum0062.xml</li><li>texts/xml/idum0025.xml</li><li>texts/xml/idum0226.xml</li><li>texts/xml/idum0018.xml</li><li>texts/xml/idum0043.xml</li><li>texts/xml/mare0070.xml</li><li>texts/xml/idum0307.xml</li><li>texts/xml/idum0385.xml</li><li>texts/xml/idum0156.xml</li><li>texts/xml/idum0216.xml</li><li>texts/xml/idum0026.xml</li><li>texts/xml/idum0157.xml</li><li>texts/xml/idum0069.xml</li><li>texts/xml/idum0003.xml</li><li>texts/xml/idum0021.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Negev</li></ul>
+</body>
+</html>

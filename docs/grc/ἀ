@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#7936; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">43</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#7936;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/birs0003.xml</li><li>texts/xml/zoor0289.xml</li><li>texts/xml/zoor0098.xml</li><li>texts/xml/zoor0131.xml</li><li>texts/xml/zoor0050.xml</li><li>texts/xml/zoor0127.xml</li><li>texts/xml/zoor0008.xml</li><li>texts/xml/zoor0117.xml</li><li>texts/xml/zoor0011.xml</li><li>texts/xml/apol0100.xml</li><li>texts/xml/elus0034.xml</li><li>texts/xml/zoor0214.xml</li><li>texts/xml/zoor0225.xml</li><li>texts/xml/zoor0218.xml</li><li>texts/xml/zoor0139.xml</li><li>texts/xml/zoor0250.xml</li><li>texts/xml/zoor0285.xml</li><li>texts/xml/zoor0339.xml</li><li>texts/xml/zoor0135.xml</li><li>texts/xml/zoor0236.xml</li><li>texts/xml/zoor0155.xml</li><li>texts/xml/zoor0044.xml</li><li>texts/xml/elus0039.xml</li><li>texts/xml/zoor0031.xml</li><li>texts/xml/zoor0100.xml</li><li>texts/xml/zoor0238.xml</li><li>texts/xml/zoor0122.xml</li><li>texts/xml/zoor0298.xml</li><li>texts/xml/caes0265.xml</li><li>texts/xml/zoor0307.xml</li><li>texts/xml/zoor0069.xml</li><li>texts/xml/zoor0045.xml</li><li>texts/xml/zoor0146.xml</li><li>texts/xml/zoor0086.xml</li><li>texts/xml/zoor0109.xml</li><li>texts/xml/zoor0248.xml</li><li>texts/xml/zoor0113.xml</li><li>texts/xml/zoor0308.xml</li><li>texts/xml/zoor0023.xml</li><li>texts/xml/zoor0167.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Negev</li></ul>
+</body>
+</html>

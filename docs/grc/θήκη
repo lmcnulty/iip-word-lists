@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#952;&#8053;&#954;&#951; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">24</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#952;&#8053;&#954;&#951;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/caes0260.xml</li><li>texts/xml/caes0170.xml</li><li>texts/xml/caes0271.xml</li><li>texts/xml/caes0193.xml</li><li>texts/xml/caes0167.xml</li><li>texts/xml/caes0169.xml</li><li>texts/xml/caes0211.xml</li><li>texts/xml/caes0181.xml</li><li>texts/xml/caes0285.xml</li><li>texts/xml/caes0205.xml</li><li>texts/xml/caes0168.xml</li><li>texts/xml/caes0277.xml</li><li>texts/xml/caes0206.xml</li><li>texts/xml/caes0279.xml</li><li>texts/xml/caes0286.xml</li><li>texts/xml/caes0268.xml</li><li>texts/xml/caes0282.xml</li><li>texts/xml/caes0203.xml</li><li>texts/xml/caes0216.xml</li><li>texts/xml/caes0284.xml</li><li>texts/xml/caes0281.xml</li><li>texts/xml/caes0273.xml</li><li>texts/xml/caes0209.xml</li><li>texts/xml/caes0264.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li></ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#7940;&#957; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">62</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#922;&#917;</li><li>&#954;&#941;</li><li>&#954;&#945;</li><li>&#922;&#913;</li><li>&#954;&#949;&#957;</li><li>&#954;&#949;</li><li>&#922;&#917;&#925;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/zoor0123.xml</li><li>texts/xml/zoor0235.xml</li><li>texts/xml/elus0063.xml</li><li>texts/xml/evro0009.xml</li><li>texts/xml/zoor0183.xml</li><li>texts/xml/fiqg0017.xml</li><li>texts/xml/khis0071.xml</li><li>texts/xml/zoor0354.xml</li><li>texts/xml/mare0278.xml</li><li>texts/xml/zoor0187.xml</li><li>texts/xml/sina0103.xml</li><li>texts/xml/zoor0243.xml</li><li>texts/xml/zoor0091.xml</li><li>texts/xml/zoor0382.xml</li><li>texts/xml/mare0386.xml</li><li>texts/xml/caes0192.xml</li><li>texts/xml/zoor0260.xml</li><li>texts/xml/caes0385.xml</li><li>texts/xml/elal0009.xml</li><li>texts/xml/abur0001.xml</li><li>texts/xml/elus0062.xml</li><li>texts/xml/zoor0374.xml</li><li>texts/xml/zoor0135.xml</li><li>texts/xml/caes0266.xml</li><li>texts/xml/zoor0169.xml</li><li>texts/xml/zoor0282.xml</li><li>texts/xml/zoor0095.xml</li><li>texts/xml/carm0009.xml</li><li>texts/xml/hamm0049.xml</li><li>texts/xml/zoor0232.xml</li><li>texts/xml/zoor0244.xml</li><li>texts/xml/zoor0366.xml</li><li>texts/xml/caes0269.xml</li><li>texts/xml/zoor0096.xml</li><li>texts/xml/zoor0105.xml</li><li>texts/xml/sena0002.xml</li><li>texts/xml/zoor0114.xml</li><li>texts/xml/zoor0255.xml</li><li>texts/xml/zoor0343.xml</li><li>texts/xml/zoor0204.xml</li><li>texts/xml/zoor0146.xml</li><li>texts/xml/elal0007.xml</li><li>texts/xml/zoor0109.xml</li><li>texts/xml/juei0003.xml</li><li>texts/xml/caes0258.xml</li><li>texts/xml/sena0003.xml</li><li>texts/xml/zoor0368.xml</li><li>texts/xml/kkom0001.xml</li><li>texts/xml/zoor0256.xml</li><li>texts/xml/bshe0028.xml</li><li>texts/xml/mare0387.xml</li><li>texts/xml/zoor0276.xml</li><li>texts/xml/zoor0200.xml</li><li>texts/xml/zoor0377.xml</li><li>texts/xml/tala0001.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Golan</li><li>Galilee</li><li>Syria</li><li>Negev</li><li>Sinai</li><li>Jordan Valley</li><li>Judaea</li></ul>
+</body>
+</html>

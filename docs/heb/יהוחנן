@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#1497;&#1492;&#1493;&#1495;&#1504;&#1503; [Hebrew]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">13</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#1497;&#1492;&#1493;&#1495;&#1504;&#1503;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/masa0313.xml</li><li>texts/xml/masa0341.xml</li><li>texts/xml/masa0395.xml</li><li>texts/xml/masa0417.xml</li><li>texts/xml/isaw0001.xml</li><li>texts/xml/jeru0234.xml</li><li>texts/xml/masa0397.xml</li><li>texts/xml/masa0412.xml</li><li>texts/xml/jeru0095.xml</li><li>texts/xml/masa0484.xml</li><li>texts/xml/masa0396.xml</li><li>texts/xml/masa0302.xml</li><li>texts/xml/masa0329.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li></ul>
+</body>
+</html>

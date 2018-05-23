@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#964;&#8057;&#960;&#8179; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">15</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#964;&#8057;&#960;&#8179;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/hamm0059.xml</li><li>texts/xml/hamm0046.xml</li><li>texts/xml/hamm0012.xml</li><li>texts/xml/hamm0061.xml</li><li>texts/xml/hamm0014.xml</li><li>texts/xml/hamm0067.xml</li><li>texts/xml/hamm0042.xml</li><li>texts/xml/hamm0060.xml</li><li>texts/xml/hamm0002.xml</li><li>texts/xml/hamm0055.xml</li><li>texts/xml/hamm0006.xml</li><li>texts/xml/hamm0004.xml</li><li>texts/xml/hamm0020.xml</li><li>texts/xml/hamm0003.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Galilee</li></ul>
+</body>
+</html>

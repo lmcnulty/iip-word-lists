@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#965;&#7985;&#972;&#962; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">20</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#965;&#7985;&#8182;&#957;</li><li>&#8017;&#972;&#962;</li><li>&#965;&#7985;&#972;&#962;</li><li>&#965;&#7985;&#959;&#8166;</li><li>&#933;&#7985;&#959;&#8166;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/caes0181.xml</li><li>texts/xml/tqas0001.xml</li><li>texts/xml/jeri0014.xml</li><li>texts/xml/zoor0382.xml</li><li>texts/xml/iopp0004.xml</li><li>texts/xml/jeru0163.xml</li><li>texts/xml/juei0003.xml</li><li>texts/xml/hamm0054.xml</li><li>texts/xml/jaff0031.xml</li><li>texts/xml/beth0207.xml</li><li>texts/xml/ashk0001.xml</li><li>texts/xml/caes0083.xml</li><li>texts/xml/susi0004.xml</li><li>texts/xml/jaff0066.xml</li><li>texts/xml/khis0083.xml</li><li>texts/xml/caes0184.xml</li><li>texts/xml/bshe0024.xml</li><li>texts/xml/beth0190.xml</li><li>texts/xml/balf0001.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Golan</li><li>Galilee</li><li>Negev</li><li>Jordan Valley</li><li>Judaea</li></ul>
+</body>
+</html>

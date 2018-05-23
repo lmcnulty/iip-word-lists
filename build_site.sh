@@ -60,9 +60,9 @@ if [ $use_existing == 0 ]; then
 	echo "Constructing word list..."
 	cd docs;
 	if [ $exceptions == 1 ]; then
-		../src/python/wordlist.py texts/xml/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception;
+		../src/python/wordlist.py texts/xml/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception --html_general;
 	else
-		../src/python/wordlist.py texts/xml/* --silent --csv --sort aefl --nodiplomatic --langfiles;
+		../src/python/wordlist.py texts/xml/* --silent --csv --sort aefl --nodiplomatic --langfiles --html_general;
 	fi
 	cd ..;
 else
@@ -80,6 +80,8 @@ for csvfile in *.csv; do
 	sed -i -e "$replacestring" $htmlfile
 done
 cd ..;
-cp src/web/index.html docs/index.html;
+#cp src/web/index.html docs/index.html;
 cp src/web/wordlist.css docs/;
+cp src/web/style.css docs/;
+cp src/web/index_search.js docs/;
 cd docs;

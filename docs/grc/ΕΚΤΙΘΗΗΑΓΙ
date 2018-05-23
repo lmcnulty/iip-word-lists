@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#917;&#922;&#932;&#921;&#920;&#919;&#919;&#913;&#915;&#921; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">1</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#917;&#922;&#932;&#921;&#920;&#919;&#919;&#913;&#915;&#921;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/carm0001.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Galilee</li></ul>
+</body>
+</html>

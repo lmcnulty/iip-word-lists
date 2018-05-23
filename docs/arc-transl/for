@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>for [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">70</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>for</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0038.xml</li><li>texts/xml/idum0052.xml</li><li>texts/xml/idum0094.xml</li><li>texts/xml/mger0084.xml</li><li>texts/xml/mger0080.xml</li><li>texts/xml/mger0388.xml</li><li>texts/xml/mger0093.xml</li><li>texts/xml/mger0053.xml</li><li>texts/xml/mger0072.xml</li><li>texts/xml/mger0081.xml</li><li>texts/xml/masa0554.xml</li><li>texts/xml/idum0063.xml</li><li>texts/xml/mger0087.xml</li><li>texts/xml/mger0071.xml</li><li>texts/xml/mger0124.xml</li><li>texts/xml/mger0002.xml</li><li>texts/xml/mger0049.xml</li><li>texts/xml/mger0004.xml</li><li>texts/xml/idum0040.xml</li><li>texts/xml/idum0121.xml</li><li>texts/xml/idum0166.xml</li><li>texts/xml/mger0166.xml</li><li>texts/xml/idum0042.xml</li><li>texts/xml/mger0068.xml</li><li>texts/xml/mger0090.xml</li><li>texts/xml/mger0066.xml</li><li>texts/xml/idum0070.xml</li><li>texts/xml/masa0580.xml</li><li>texts/xml/mger0065.xml</li><li>texts/xml/idum0051.xml</li><li>texts/xml/idum0228.xml</li><li>texts/xml/jeru0236.xml</li><li>texts/xml/idum0024.xml</li><li>texts/xml/mger0027.xml</li><li>texts/xml/mger0118.xml</li><li>texts/xml/mger0186.xml</li><li>texts/xml/mger0016.xml</li><li>texts/xml/mger0165.xml</li><li>texts/xml/idum0335.xml</li><li>texts/xml/mger0047.xml</li><li>texts/xml/mger0030.xml</li><li>texts/xml/mger0005.xml</li><li>texts/xml/idum0062.xml</li><li>texts/xml/mger0120.xml</li><li>texts/xml/mger0098.xml</li><li>texts/xml/idum0086.xml</li><li>texts/xml/mger0059.xml</li><li>texts/xml/mger0082.xml</li><li>texts/xml/mger0096.xml</li><li>texts/xml/idum0041.xml</li><li>texts/xml/idum0127.xml</li><li>texts/xml/hraq0001.xml</li><li>texts/xml/mger0001.xml</li><li>texts/xml/idum0039.xml</li><li>texts/xml/mger0048.xml</li><li>texts/xml/tqas0003.xml</li><li>texts/xml/mger0078.xml</li><li>texts/xml/masa0566.xml</li><li>texts/xml/eavd0001.xml</li><li>texts/xml/idum0069.xml</li><li>texts/xml/mger0010.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Judaea</li><li>Samaria</li><li>Negev</li></ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>With [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">10</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>With</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/bshe0103.xml</li><li>texts/xml/beth0127.xml</li><li>texts/xml/bshe0014.xml</li><li>texts/xml/bshe0027.xml</li><li>texts/xml/bshe0004.xml</li><li>texts/xml/bshe0005.xml</li><li>texts/xml/bshe0012.xml</li><li>texts/xml/bshe0028.xml</li><li>texts/xml/bshe0015.xml</li><li>texts/xml/mari0005.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Jordan Valley</li><li>Judaea</li><li>Galilee</li></ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Samitu [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">26</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Samitu</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0319.xml</li><li>texts/xml/idum0336.xml</li><li>texts/xml/idum0333.xml</li><li>texts/xml/idum0323.xml</li><li>texts/xml/idum0334.xml</li><li>texts/xml/idum0327.xml</li><li>texts/xml/idum0075.xml</li><li>texts/xml/idum0317.xml</li><li>texts/xml/idum0314.xml</li><li>texts/xml/idum0306.xml</li><li>texts/xml/idum0337.xml</li><li>texts/xml/idum0335.xml</li><li>texts/xml/idum0309a.xml</li><li>texts/xml/idum0311.xml</li><li>texts/xml/idum0326.xml</li><li>texts/xml/idum0332.xml</li><li>texts/xml/idum0307.xml</li><li>texts/xml/idum0308.xml</li><li>texts/xml/idum0312.xml</li><li>texts/xml/idum0315.xml</li><li>texts/xml/idum0325.xml</li><li>texts/xml/idum0310.xml</li><li>texts/xml/idum0338.xml</li><li>texts/xml/idum0339.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Negev</li></ul>
+</body>
+</html>

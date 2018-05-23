@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Of [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">21</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Of</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/beth0171.xml</li><li>texts/xml/beth0132.xml</li><li>texts/xml/jeru0104.xml</li><li>texts/xml/haif0002.xml</li><li>texts/xml/beth0170.xml</li><li>texts/xml/beth0219.xml</li><li>texts/xml/beth0111.xml</li><li>texts/xml/beth0124.xml</li><li>texts/xml/beth0232.xml</li><li>texts/xml/beth0186.xml</li><li>texts/xml/beth0176.xml</li><li>texts/xml/beth0049.xml</li><li>texts/xml/jeru0103.xml</li><li>texts/xml/haif0047.xml</li><li>texts/xml/beth0115.xml</li><li>texts/xml/beth0082.xml</li><li>texts/xml/wibt0001.xml</li><li>texts/xml/beth0169.xml</li><li>texts/xml/beth0209.xml</li><li>texts/xml/tdor0003.xml</li><li>texts/xml/beth0206.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Coastal Plain</li><li>Galilee</li></ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#1500;&#1502;&#1505;&#1499;&#1504;&#1514; [Aramaic]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">8</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#1500;&#1502;&#1505;&#1499;&#1504;&#1514;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0057.xml</li><li>texts/xml/idum0327.xml</li><li>texts/xml/idum0166.xml</li><li>texts/xml/idum0007.xml</li><li>texts/xml/idum0159.xml</li><li>texts/xml/idum0026.xml</li><li>texts/xml/idum0008.xml</li><li>texts/xml/idum0069.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Negev</li></ul>
+</body>
+</html>

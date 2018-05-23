@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>kor [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">18</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>kor</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0035.xml</li><li>texts/xml/idum0335.xml</li><li>texts/xml/idum0004.xml</li><li>texts/xml/idum0040.xml</li><li>texts/xml/idum0327.xml</li><li>texts/xml/idum0334.xml</li><li>texts/xml/idum0313.xml</li><li>texts/xml/mare0020.xml</li><li>texts/xml/mare0074.xml</li><li>texts/xml/idum0042.xml</li><li>texts/xml/idum0386.xml</li><li>texts/xml/mare0084.xml</li><li>texts/xml/idum0061.xml</li><li>texts/xml/idum0015.xml</li><li>texts/xml/idum0143.xml</li><li>texts/xml/idum0340.xml</li><li>texts/xml/idum0161.xml</li><li>texts/xml/idum0080.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li/><li>Judaea</li><li>Negev</li></ul>
+</body>
+</html>

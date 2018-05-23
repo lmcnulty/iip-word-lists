@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>help [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">3</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>help</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/caes0132.xml</li><li>texts/xml/beth0109.xml</li><li>texts/xml/zoor0361.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Galilee</li><li>Negev</li></ul>
+</body>
+</html>

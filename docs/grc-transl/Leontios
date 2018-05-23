@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Leontios [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">5</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Leontios</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/beth0127.xml</li><li>texts/xml/caes0170.xml</li><li>texts/xml/beth0061.xml</li><li>texts/xml/caes0168.xml</li><li>texts/xml/beth0092.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Galilee</li></ul>
+</body>
+</html>

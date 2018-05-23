@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#949;&#884; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">28</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#949;&#884;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/zoor0123.xml</li><li>texts/xml/zoor0173.xml</li><li>texts/xml/zoor0252.xml</li><li>texts/xml/zoor0070.xml</li><li>texts/xml/zoor0050.xml</li><li>texts/xml/zoor0150.xml</li><li>texts/xml/zoor0166.xml</li><li>texts/xml/zoor0224.xml</li><li>texts/xml/zoor0199.xml</li><li>texts/xml/zoor0209.xml</li><li>texts/xml/zoor0300.xml</li><li>texts/xml/zoor0156.xml</li><li>texts/xml/zoor0250.xml</li><li>texts/xml/zoor0285.xml</li><li>texts/xml/zoor0078.xml</li><li>texts/xml/zoor0135.xml</li><li>texts/xml/zoor0130.xml</li><li>texts/xml/zoor0259.xml</li><li>texts/xml/zoor0190.xml</li><li>texts/xml/zoor0153.xml</li><li>texts/xml/zoor0171.xml</li><li>texts/xml/zoor0069.xml</li><li>texts/xml/zoor0205.xml</li><li>texts/xml/zoor0086.xml</li><li>texts/xml/zoor0028.xml</li><li>texts/xml/zoor0167.xml</li><li>texts/xml/zoor0145.xml</li><li>texts/xml/zoor0112.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Negev</li></ul>
+</body>
+</html>

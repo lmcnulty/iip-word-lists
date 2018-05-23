@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#959;&#965; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">69</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#959;&#965;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/caes0152.xml</li><li>texts/xml/zoor0021.xml</li><li>texts/xml/kafr0003.xml</li><li>texts/xml/caes0170.xml</li><li>texts/xml/beth0213.xml</li><li>texts/xml/zoor0029.xml</li><li>texts/xml/caes0166.xml</li><li>texts/xml/elus0051.xml</li><li>texts/xml/zoor0017.xml</li><li>texts/xml/evro0011.xml</li><li>texts/xml/zoor0011.xml</li><li>texts/xml/zoor0281.xml</li><li>texts/xml/kafr0004.xml</li><li>texts/xml/zoor0207.xml</li><li>texts/xml/hamm0038.xml</li><li>texts/xml/caes0318.xml</li><li>texts/xml/mums0001.xml</li><li>texts/xml/bshe0129.xml</li><li>texts/xml/zoor0054.xml</li><li>texts/xml/caes0230.xml</li><li>texts/xml/caes0267.xml</li><li>texts/xml/mare0215.xml</li><li>texts/xml/sepp0012.xml</li><li>texts/xml/sepp0022.xml</li><li>texts/xml/zoor0035.xml</li><li>texts/xml/zoor0006.xml</li><li>texts/xml/jaff0005.xml</li><li>texts/xml/zoor0065.xml</li><li>texts/xml/zoor0152.xml</li><li>texts/xml/zoor0121.xml</li><li>texts/xml/carm0017.xml</li><li>texts/xml/zoor0285.xml</li><li>texts/xml/caes0343.xml</li><li>texts/xml/zoor0059.xml</li><li>texts/xml/zoor0135.xml</li><li>texts/xml/sepp0016.xml</li><li>texts/xml/zoor0283.xml</li><li>texts/xml/zoor0111.xml</li><li>texts/xml/caes0279.xml</li><li>texts/xml/zoor0265.xml</li><li>texts/xml/zoor0186.xml</li><li>texts/xml/fiqg0006.xml</li><li>texts/xml/zoor0031.xml</li><li>texts/xml/beth0115.xml</li><li>texts/xml/bshe0010.xml</li><li>texts/xml/zoor0317.xml</li><li>texts/xml/zoor0143.xml</li><li>texts/xml/zoor0108.xml</li><li>texts/xml/sena0002.xml</li><li>texts/xml/zoor0079.xml</li><li>texts/xml/zoor0045.xml</li><li>texts/xml/haif0005.xml</li><li>texts/xml/bshe0107.xml</li><li>texts/xml/anri0001.xml</li><li>texts/xml/zoor0273.xml</li><li>texts/xml/zoor0308.xml</li><li>texts/xml/beth0099.xml</li><li>texts/xml/caes0261.xml</li><li>texts/xml/caes0338.xml</li><li>texts/xml/beth0209.xml</li><li>texts/xml/zoor0197.xml</li><li>texts/xml/zoor0231.xml</li><li>texts/xml/beth0063.xml</li><li>texts/xml/zoor0039.xml</li><li>texts/xml/zoor0118.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Syria</li><li>Galilee</li><li>Golan</li><li>Negev</li><li>Jordan Valley</li><li>Judaea</li><li>Unknown</li></ul>
+</body>
+</html>

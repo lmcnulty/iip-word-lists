@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#960;&#951; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">19</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#928;&#913;&#921;</li><li>&#960;&#8135;</li><li>&#928;&#913;</li><li>&#922;&#919;</li><li>&#928;&#945;</li><li>&#960;&#940;</li><li>&#954;&#951;</li><li>&#960;&#945;&#953;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/zoor0207.xml</li><li>texts/xml/zoor0241.xml</li><li>texts/xml/zoor0359.xml</li><li>texts/xml/zoor0381.xml</li><li>texts/xml/caes0220.xml</li><li>texts/xml/caes0393.xml</li><li>texts/xml/caes0144.xml</li><li>texts/xml/hamm0049.xml</li><li>texts/xml/bshe0020.xml</li><li>texts/xml/zoor0383.xml</li><li>texts/xml/elus0049.xml</li><li>texts/xml/zoor0220.xml</li><li>texts/xml/caes0222.xml</li><li>texts/xml/hamm0069.xml</li><li>texts/xml/caes0223.xml</li><li>texts/xml/caes0224.xml</li><li>texts/xml/mare0009.xml</li><li>texts/xml/caes0225.xml</li><li>texts/xml/elal0018.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Golan</li><li>Galilee</li><li>Negev</li><li>Jordan Valley</li><li>Judaea</li></ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>flour [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">13</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>flour</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0155.xml</li><li>texts/xml/idum0040.xml</li><li>texts/xml/idum0156.xml</li><li>texts/xml/idum0086.xml</li><li>texts/xml/idum0009.xml</li><li>texts/xml/idum0173.xml</li><li>texts/xml/idum0073.xml</li><li>texts/xml/idum0144.xml</li><li>texts/xml/idum0153.xml</li><li>texts/xml/idum0228.xml</li><li>texts/xml/idum0041.xml</li><li>texts/xml/idum0127.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Negev</li></ul>
+</body>
+</html>

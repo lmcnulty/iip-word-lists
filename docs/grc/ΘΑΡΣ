@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#920;&#913;&#929;&#931; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">9</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#920;&#913;&#929;&#931;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/khis0075.xml</li><li>texts/xml/squf0002.xml</li><li>texts/xml/jurn0002.xml</li><li>texts/xml/deir0001.xml</li><li>texts/xml/elal0009.xml</li><li>texts/xml/fiqg0010.xml</li><li>texts/xml/elal0006.xml</li><li>texts/xml/fiqg0016.xml</li><li>texts/xml/rafi0011.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Golan</li><li>Syria</li></ul>
+</body>
+</html>

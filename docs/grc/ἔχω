@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#7956;&#967;&#969; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">11</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#949;&#7990;&#967;&#949;&#957;</li><li>&#7957;&#958;&#949;&#953;&#962;</li><li>&#7956;&#967;&#8217;</li><li>&#7956;&#967;&#959;&#953;&#964;&#949;</li><li>&#7956;&#963;&#967;&#949;&#957;</li><li>&#7956;&#967;&#949;&#953;</li><li>&#7956;&#967;&#969;&#957;</li><li>&#7956;&#967;&#8131;</li><li>&#7956;&#967;&#959;&#957;&#964;&#949;&#962;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/beth0129.xml</li><li>texts/xml/zoor0296.xml</li><li>texts/xml/caes0026.xml</li><li>texts/xml/beth0184.xml</li><li>texts/xml/caes0089.xml</li><li>texts/xml/bshe0024.xml</li><li>texts/xml/elus0030.xml</li><li>texts/xml/bshe0025.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Jordan Valley</li><li>Coastal Plain</li><li>Galilee</li><li>Negev</li></ul>
+</body>
+</html>

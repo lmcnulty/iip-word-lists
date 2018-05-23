@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>God [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">15</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>God</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/caes0138.xml</li><li>texts/xml/caes0136.xml</li><li>texts/xml/zoor0305.xml</li><li>texts/xml/zoor0071.xml</li><li>texts/xml/caes0026.xml</li><li>texts/xml/hamm0032.xml</li><li>texts/xml/tkeri0002.xml</li><li>texts/xml/caes0139.xml</li><li>texts/xml/caes0140.xml</li><li>texts/xml/caes0137.xml</li><li>texts/xml/hamm0033.xml</li><li>texts/xml/ashk0002.xml</li><li>texts/xml/zoor0306.xml</li><li>texts/xml/caes0129.xml</li><li>texts/xml/hamm0013.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Galilee</li><li>Negev</li></ul>
+</body>
+</html>

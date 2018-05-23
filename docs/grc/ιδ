@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#953;&#948; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">4</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#953;&#948;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/mare0279.xml</li><li>texts/xml/mare0281.xml</li><li>texts/xml/mare0280.xml</li><li>texts/xml/mare0282.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li></ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Rabbi [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">15</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Rabbi</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/beth0041.xml</li><li>texts/xml/beth0175.xml</li><li>texts/xml/beth0020.xml</li><li>texts/xml/beth0031.xml</li><li>texts/xml/beth0061.xml</li><li>texts/xml/beth0203.xml</li><li>texts/xml/beth0232.xml</li><li>texts/xml/beth0181.xml</li><li>texts/xml/beth0209.xml</li><li>texts/xml/beth0018.xml</li><li>texts/xml/beth0176.xml</li><li>texts/xml/jaff0079.xml</li><li>texts/xml/beth0231.xml</li><li>texts/xml/beth0220.xml</li><li>texts/xml/beth0045.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Galilee</li></ul>
+</body>
+</html>

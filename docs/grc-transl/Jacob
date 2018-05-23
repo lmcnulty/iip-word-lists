@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Jacob [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">11</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Jacob</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/beth0094.xml</li><li>texts/xml/beth0096.xml</li><li>texts/xml/beth0006.xml</li><li>texts/xml/beth0125.xml</li><li>texts/xml/caes0190.xml</li><li>texts/xml/beth0126.xml</li><li>texts/xml/beth0130.xml</li><li>texts/xml/beth0075.xml</li><li>texts/xml/beth0204.xml</li><li>texts/xml/caes0188.xml</li><li>texts/xml/beth0083.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Galilee</li></ul>
+</body>
+</html>

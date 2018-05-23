@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>The [He-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">8</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>The</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/beth0241.xml</li><li>texts/xml/beth0242.xml</li><li>texts/xml/masa0403.xml</li><li>texts/xml/masa0402.xml</li><li>texts/xml/masa0407.xml</li><li>texts/xml/masa0399.xml</li><li>texts/xml/masa0405.xml</li><li>texts/xml/masa0400.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Galilee</li></ul>
+</body>
+</html>

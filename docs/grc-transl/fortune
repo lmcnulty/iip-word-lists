@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>fortune [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">4</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>fortune</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/bshe0103.xml</li><li>texts/xml/caes0058.xml</li><li>texts/xml/caes0244.xml</li><li>texts/xml/caes0059.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Jordan Valley</li><li>Coastal Plain</li></ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>called [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">8</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>called</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/hamm0067.xml</li><li>texts/xml/hamm0048.xml</li><li>texts/xml/hamm0049.xml</li><li>texts/xml/beth0192.xml</li><li>texts/xml/beth0088.xml</li><li>texts/xml/hamm0002.xml</li><li>texts/xml/beth0200.xml</li><li>texts/xml/beth0101.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Galilee</li></ul>
+</body>
+</html>

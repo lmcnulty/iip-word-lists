@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>2 [Aramaic]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">82</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>2</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0038.xml</li><li>texts/xml/idum0214.xml</li><li>texts/xml/idum0218.xml</li><li>texts/xml/idum0112.xml</li><li>texts/xml/idum0376.xml</li><li>texts/xml/idum0309b.xml</li><li>texts/xml/idum0122.xml</li><li>texts/xml/idum0162.xml</li><li>texts/xml/idum0079.xml</li><li>texts/xml/idum0128.xml</li><li>texts/xml/idum0060.xml</li><li>texts/xml/idum0155.xml</li><li>texts/xml/idum0177.xml</li><li>texts/xml/idum0121.xml</li><li>texts/xml/idum0166.xml</li><li>texts/xml/idum0300.xml</li><li>texts/xml/idum0159.xml</li><li>texts/xml/unkn0105.xml</li><li>texts/xml/idum0071.xml</li><li>texts/xml/idum0137.xml</li><li>texts/xml/idum0096.xml</li><li>texts/xml/idum0306.xml</li><li>texts/xml/idum0078.xml</li><li>texts/xml/idum0379.xml</li><li>texts/xml/unkn0107.xml</li><li>texts/xml/idum0030.xml</li><li>texts/xml/idum0179.xml</li><li>texts/xml/idum0083.xml</li><li>texts/xml/idum0072.xml</li><li>texts/xml/idum0034.xml</li><li>texts/xml/idum0024.xml</li><li>texts/xml/idum0058.xml</li><li>texts/xml/idum0107.xml</li><li>texts/xml/idum0151.xml</li><li>texts/xml/idum0297.xml</li><li>texts/xml/idum0022.xml</li><li>texts/xml/idum0205.xml</li><li>texts/xml/idum0207.xml</li><li>texts/xml/idum0007.xml</li><li>texts/xml/idum0037.xml</li><li>texts/xml/idum0120.xml</li><li>texts/xml/idum0326.xml</li><li>texts/xml/idum0086.xml</li><li>texts/xml/idum0100.xml</li><li>texts/xml/idum0172.xml</li><li>texts/xml/idum0089.xml</li><li>texts/xml/idum0056.xml</li><li>texts/xml/idum0118.xml</li><li>texts/xml/idum0227.xml</li><li>texts/xml/idum0375.xml</li><li>texts/xml/idum0110.xml</li><li>texts/xml/idum0035.xml</li><li>texts/xml/idum0301.xml</li><li>texts/xml/idum0385.xml</li><li>texts/xml/idum0156.xml</li><li>texts/xml/idum0216.xml</li><li>texts/xml/idum0101.xml</li><li>texts/xml/idum0168.xml</li><li>texts/xml/idum0312.xml</li><li>texts/xml/idum0010.xml</li><li>texts/xml/idum0098.xml</li><li>texts/xml/idum0174.xml</li><li>texts/xml/idum0036.xml</li><li>texts/xml/idum0310.xml</li><li>texts/xml/idum0033.xml</li><li>texts/xml/idum0076.xml</li><li>texts/xml/idum0087.xml</li><li>texts/xml/idum0161.xml</li><li>texts/xml/idum0080.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Unknown</li><li>Negev</li></ul>
+</body>
+</html>

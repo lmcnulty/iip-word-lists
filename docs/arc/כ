@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#1499; [Aramaic]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">22</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#1499;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/mger0266.xml</li><li>texts/xml/mger0382.xml</li><li>texts/xml/mger0181.xml</li><li>texts/xml/masa0699.xml</li><li>texts/xml/mger0198.xml</li><li>texts/xml/masa0700.xml</li><li>texts/xml/unkn0106.xml</li><li>texts/xml/mger0331.xml</li><li>texts/xml/mger0330.xml</li><li>texts/xml/mger0074.xml</li><li>texts/xml/mger0171.xml</li><li>texts/xml/masa0164.xml</li><li>texts/xml/mger0157.xml</li><li>texts/xml/mger0291.xml</li><li>texts/xml/mger0329.xml</li><li>texts/xml/mger0316.xml</li><li>texts/xml/akko0100.xml</li><li>texts/xml/idum0158.xml</li><li>texts/xml/mger0309.xml</li><li>texts/xml/masa0142.xml</li><li>texts/xml/masa0167.xml</li><li>texts/xml/masa0141.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Negev</li><li>Judaea</li><li>Samaria</li><li>Unknown</li></ul>
+</body>
+</html>

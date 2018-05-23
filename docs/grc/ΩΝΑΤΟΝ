@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#937;&#925;&#913;&#932;&#927;&#925; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">1</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#937;&#925;&#913;&#932;&#927;&#925;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/caes0404.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li></ul>
+</body>
+</html>

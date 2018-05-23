@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>y [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">11</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>y</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0231.xml</li><li>texts/xml/mger0222.xml</li><li>texts/xml/mger0356.xml</li><li>texts/xml/mger0045.xml</li><li>texts/xml/idum0147.xml</li><li>texts/xml/idum0227.xml</li><li>texts/xml/mger0078.xml</li><li>texts/xml/idum0228.xml</li><li>texts/xml/idum0230.xml</li><li>texts/xml/mger0250.xml</li><li>texts/xml/mger0245.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Samaria</li><li>Negev</li></ul>
+</body>
+</html>

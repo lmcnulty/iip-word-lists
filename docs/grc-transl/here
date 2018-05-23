@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>here [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">22</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>here</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/beth0024.xml</li><li>texts/xml/hamm0054.xml</li><li>texts/xml/beth0038.xml</li><li>texts/xml/beth0037.xml</li><li>texts/xml/beth0060.xml</li><li>texts/xml/caes0200.xml</li><li>texts/xml/beth0094.xml</li><li>texts/xml/beth0129.xml</li><li>texts/xml/beth0066.xml</li><li>texts/xml/beth0127.xml</li><li>texts/xml/beth0180.xml</li><li>texts/xml/beth0128.xml</li><li>texts/xml/beth0153.xml</li><li>texts/xml/fein0009.xml</li><li>texts/xml/hamm0049.xml</li><li>texts/xml/beth0040.xml</li><li>texts/xml/beth0184.xml</li><li>texts/xml/beth0085.xml</li><li>texts/xml/beth0034.xml</li><li>texts/xml/beth0043.xml</li><li>texts/xml/beth0035.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Galilee</li><li>Negev</li></ul>
+</body>
+</html>

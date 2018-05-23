@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Remembered [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">11</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Remembered</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/sepp0007.xml</li><li>texts/xml/sepp0004.xml</li><li>texts/xml/sepp0008.xml</li><li>texts/xml/sepp0011.xml</li><li>texts/xml/sepp0005.xml</li><li>texts/xml/sepp0006.xml</li><li>texts/xml/sepp0002.xml</li><li>texts/xml/sepp0010.xml</li><li>texts/xml/jmon0003.xml</li><li>texts/xml/sepp0003.xml</li><li>texts/xml/sepp0001.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Sinai</li><li>Galilee</li></ul>
+</body>
+</html>

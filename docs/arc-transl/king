@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>king [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">3</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>king</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/gaza0101.xml</li><li>texts/xml/idum0143.xml</li><li>texts/xml/idum0310.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Negev</li></ul>
+</body>
+</html>

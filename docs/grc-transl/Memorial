@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Memorial [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">11</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Memorial</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/jaff0045.xml</li><li>texts/xml/jaff0009.xml</li><li>texts/xml/jaff0065.xml</li><li>texts/xml/jaff0069.xml</li><li>texts/xml/jaff0033.xml</li><li>texts/xml/jaff0025.xml</li><li>texts/xml/jaff0068.xml</li><li>texts/xml/jaff0037.xml</li><li>texts/xml/jaff0013.xml</li><li>texts/xml/jaff0073.xml</li><li>texts/xml/jaff0020.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li></ul>
+</body>
+</html>

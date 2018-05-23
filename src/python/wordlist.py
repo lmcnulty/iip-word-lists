@@ -225,6 +225,8 @@ def get_words_from_file(path, file_dict):
 		words += new_words
 	for translation in root.findall(".//tei:div[@type='translation']", 
 	                                                  namespaces=nsmap):
+		if mainLang.strip == "":
+			mainLang = "unk"
 		mainLang += "-transl"
 		new_words = [iip_word_occurence("translation", mainLang, 
 		                                                "", path)]
@@ -236,9 +238,10 @@ def get_words_from_file(path, file_dict):
 		word.text = str(word.text)
 		for pattern in IGNORE:
 			word.text = word.text.replace(pattern, "")
-		if (len(word.text) < 1 or word.text == "" or word.text == '\n' 
-		                  or word.text == '\t' or word.text.isspace()):
+		if (word.text.strip() == ""):
 			null_words.append(word)	
+		if word.language.strip() == "":
+			word.language = "unk"
 	words = [x for x in words if x not in null_words]
 	return words
 
@@ -327,6 +330,8 @@ def add_arguments(parser):
 	                    action="store_true")
 	parser.add_argument("--repl", help="start repl after tasks",
 	                                       action = "store_true")
+	parser.add_argument("--html_general", help="""output general word 
+	                     list as html""", action = "store_true")
 	return parser
 
 def print_word_info(word_string, word_dict):
@@ -366,10 +371,11 @@ if __name__ == '__main__':
 	args = add_arguments(parser).parse_args()
 
 	# Extract words from each file
-	words = []  # Contains the iip_word_occurence objects 
+	occurences = []  # Contains the iip_word_occurence objects 
 	# Contains the iip_word objects
 	word_dict = defaultdict(lambda: defaultdict(lambda: iip_word()))
 	file_dict = {} # Maps file names to iip_file objects
+	languages = set()
 	
 	plaintextdir = "flat"
 	plaintext_lemmatize = True
@@ -384,7 +390,7 @@ if __name__ == '__main__':
 			if args.plaintext:
 				word_list_to_plain_text(new_words, plaintextdir +"/"
 				                        + file.replace(".xml", ""))
-			words += new_words
+			occurences += new_words
 		except Exception as exception:
 			if args.fileexception:
 				raise exception
@@ -396,7 +402,8 @@ if __name__ == '__main__':
 	# list.		
 	filtered_words = []
 	stop_words = set(stopwords.words('english'))
-	for word in words:
+	for word in occurences:
+		languages.add(word.language)
 		# Filter the word ocurances if necessary
 		add = True
 		if args.nodiplomatic:
@@ -415,7 +422,7 @@ if __name__ == '__main__':
 		word_dict[word.lemmatization][word.language].regions.add(file_dict[word.file_name].region)
 		
 	if args.nodiplomatic or args.engstops:
-		words = filtered_words
+		occurences = filtered_words
 
 	# Sort according to the given arguments before writing to file
 	sort_order = []
@@ -433,11 +440,11 @@ if __name__ == '__main__':
 				print("Invalid sort criterion: '" + e + "'")
 	sort_order.reverse()
 	for field in sort_order:
-		words = sorted(words, key=lambda word: word.__dict__[field])
-
+		occurences = sorted(occurences, key=lambda word: 
+			                        word.__dict__[field])
 	# Print each extracted word on a new line
 	if not args.silent:
-		for word in words:		
+		for word in occurences:		
 			word.print()
 
 	# Output words to files
@@ -445,13 +452,11 @@ if __name__ == '__main__':
 	if args.name != None:
 		output_name = args.name
 	if args.html:
-		word_list_to_html(words, output_name=output_name, 
-                                 langfiles=args.langfiles)
+		occurence_list_to_html(occurences, langfiles=args.langfiles)
 	if args.csv:
-		word_list_to_csv(words, output_name=output_name, 
-		                        langfiles=args.langfiles)
-
-	
+		occurence_list_to_csv(occurences, langfiles=args.langfiles)
+	if args.html_general:
+		word_list_to_html(word_dict, languages, output_name=".")
 	if args.repl:
 		main_repl = repl_instance()
 		main_repl.add_repl_command(word_info_command(word_dict))

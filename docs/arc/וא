@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#1493;&#1488; [Aramaic]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">1</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#1493;&#1488;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/jmon0001.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Sinai</li></ul>
+</body>
+</html>

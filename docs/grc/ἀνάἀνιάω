@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#7936;&#957;&#940;&#7936;&#957;&#953;&#940;&#969; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">1</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#7944;&#957;&#945;&#957;&#943;&#945;&#962;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/jeru0228.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li></ul>
+</body>
+</html>

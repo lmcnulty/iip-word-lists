@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>wife [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">27</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>wife</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/mger0084.xml</li><li>texts/xml/mger0080.xml</li><li>texts/xml/mger0388.xml</li><li>texts/xml/mger0055.xml</li><li>texts/xml/mger0067.xml</li><li>texts/xml/mger0071.xml</li><li>texts/xml/mger0002.xml</li><li>texts/xml/mger0091.xml</li><li>texts/xml/mger0031.xml</li><li>texts/xml/mare0136.xml</li><li>texts/xml/mger0068.xml</li><li>texts/xml/mger0094.xml</li><li>texts/xml/mger0066.xml</li><li>texts/xml/mger0065.xml</li><li>texts/xml/mger0030.xml</li><li>texts/xml/mger0005.xml</li><li>texts/xml/mger0099.xml</li><li>texts/xml/mger0083.xml</li><li>texts/xml/mger0089.xml</li><li>texts/xml/mger0095.xml</li><li>texts/xml/mger0054.xml</li><li>texts/xml/mger0001.xml</li><li>texts/xml/mger0009.xml</li><li>texts/xml/mger0019.xml</li><li>texts/xml/mger0006.xml</li><li>texts/xml/mger0092.xml</li><li>texts/xml/mger0010.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Samaria</li></ul>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Greek [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">8</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Greek</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/geze0002.xml</li><li>texts/xml/geze0007.xml</li><li>texts/xml/geze0001.xml</li><li>texts/xml/geze0008.xml</li><li>texts/xml/geze0004.xml</li><li>texts/xml/geze0005.xml</li><li>texts/xml/geze0003.xml</li><li>texts/xml/geze0006.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li></ul>
+</body>
+</html>

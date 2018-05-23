@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#1504; [Aramaic]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">37</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#1504;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0094.xml</li><li>texts/xml/mger0057.xml</li><li>texts/xml/mger0146.xml</li><li>texts/xml/masa0672.xml</li><li>texts/xml/mger0241.xml</li><li>texts/xml/mger0388.xml</li><li>texts/xml/mger0307.xml</li><li>texts/xml/mger0124.xml</li><li>texts/xml/mger0162.xml</li><li>texts/xml/masa0207.xml</li><li>texts/xml/mger0115.xml</li><li>texts/xml/mger0166.xml</li><li>texts/xml/mger0179.xml</li><li>texts/xml/mger0344.xml</li><li>texts/xml/mger0336.xml</li><li>texts/xml/masa0209.xml</li><li>texts/xml/mger0023.xml</li><li>texts/xml/mger0007b.xml</li><li>texts/xml/masa0606.xml</li><li>texts/xml/mger0168.xml</li><li>texts/xml/mger0154.xml</li><li>texts/xml/mger0237.xml</li><li>texts/xml/mger0098.xml</li><li>texts/xml/mger0089.xml</li><li>texts/xml/mger0163.xml</li><li>texts/xml/masa0673.xml</li><li>texts/xml/masa0202.xml</li><li>texts/xml/mger0157.xml</li><li>texts/xml/mger0020.xml</li><li>texts/xml/mger0305.xml</li><li>texts/xml/mger0310.xml</li><li>texts/xml/mger0308.xml</li><li>texts/xml/mger0078.xml</li><li>texts/xml/mger0142.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Samaria</li><li>Negev</li></ul>
+</body>
+</html>

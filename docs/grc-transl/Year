@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Year [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">12</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Year</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/bshe0003.xml</li><li>texts/xml/mari0100.xml</li><li>texts/xml/mare0215.xml</li><li>texts/xml/mare0209.xml</li><li>texts/xml/mare0211.xml</li><li>texts/xml/mare0216.xml</li><li>texts/xml/kkom0001.xml</li><li>texts/xml/tdor0003.xml</li><li>texts/xml/bshe0002.xml</li><li>texts/xml/mare0210.xml</li><li>texts/xml/bshe0100.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Jordan Valley</li><li>Judaea</li><li>Coastal Plain</li></ul>
+</body>
+</html>

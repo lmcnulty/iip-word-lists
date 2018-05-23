@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#924;&#925;&#920;&#919;&#923;&#922;&#925;&#921; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">1</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#924;&#925;&#920;&#919;&#923;&#922;&#925;&#921;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/haif0020.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li></ul>
+</body>
+</html>

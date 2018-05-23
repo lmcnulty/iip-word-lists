@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Simon [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">9</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>Simon</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/ahma0002.xml</li><li>texts/xml/jeru0307.xml</li><li>texts/xml/beth0216.xml</li><li>texts/xml/jeru0125.xml</li><li>texts/xml/beth0221.xml</li><li>texts/xml/beth0060.xml</li><li>texts/xml/jeri0010.xml</li><li>texts/xml/beth0059.xml</li><li>texts/xml/beth0046.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Golan</li><li>Galilee</li></ul>
+</body>
+</html>

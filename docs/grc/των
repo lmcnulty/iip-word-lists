@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#964;&#969;&#957; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">21</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#964;&#969;&#957;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/zoor0210.xml</li><li>texts/xml/zoor0252.xml</li><li>texts/xml/hamm0054.xml</li><li>texts/xml/zoor0263.xml</li><li>texts/xml/zoor0359.xml</li><li>texts/xml/zoor0239.xml</li><li>texts/xml/zoor0242.xml</li><li>texts/xml/zoor0156.xml</li><li>texts/xml/abur0001.xml</li><li>texts/xml/tqas0001.xml</li><li>texts/xml/evro0002.xml</li><li>texts/xml/zoor0307.xml</li><li>texts/xml/zoor0248.xml</li><li>texts/xml/zoor0346.xml</li><li>texts/xml/elus0089.xml</li><li>texts/xml/zoor0221.xml</li><li>texts/xml/zoor0229.xml</li><li>texts/xml/zoor0308.xml</li><li>texts/xml/zoor0311.xml</li><li>texts/xml/zoor0231.xml</li><li>texts/xml/birs0005.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Coastal Plain</li><li>Galilee</li><li>Negev</li></ul>
+</body>
+</html>

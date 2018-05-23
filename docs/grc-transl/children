@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>children [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">24</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>children</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/caes0158.xml</li><li>texts/xml/caes0207.xml</li><li>texts/xml/beth0211.xml</li><li>texts/xml/caes0246.xml</li><li>texts/xml/caes0153.xml</li><li>texts/xml/hamm0013.xml</li><li>texts/xml/caes0318.xml</li><li>texts/xml/hamm0010.xml</li><li>texts/xml/caes0229.xml</li><li>texts/xml/caes0324.xml</li><li>texts/xml/caes0205.xml</li><li>texts/xml/caes0204.xml</li><li>texts/xml/caes0215.xml</li><li>texts/xml/caes0291.xml</li><li>texts/xml/tqas0001.xml</li><li>texts/xml/hamm0055.xml</li><li>texts/xml/caes0210.xml</li><li>texts/xml/caes0172.xml</li><li>texts/xml/caes0183.xml</li><li>texts/xml/haif0039.xml</li><li>texts/xml/hamm0062.xml</li><li>texts/xml/fein0002.xml</li><li>texts/xml/caes0180.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Coastal Plain</li><li>Galilee</li><li>Negev</li></ul>
+</body>
+</html>

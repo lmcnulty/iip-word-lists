@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>In [Arc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">7</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>In</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/mare0075.xml</li><li>texts/xml/mare0136.xml</li><li>texts/xml/mare0025.xml</li><li>texts/xml/jmon0018.xml</li><li>texts/xml/idum0379.xml</li><li>texts/xml/mare0073.xml</li><li>texts/xml/mare0080.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Judaea</li><li>Sinai</li><li>Negev</li></ul>
+</body>
+</html>

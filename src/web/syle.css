@@ -1,0 +1,9 @@
+body {
+	background-color: periwinkle;
+}
+ul {
+	column-count: 2
+}
+li {
+	list-style-type: none;
+}

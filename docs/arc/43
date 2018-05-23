@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>43 [Aramaic]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">5</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>43</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/idum0297.xml</li><li>texts/xml/idum0311.xml</li><li>texts/xml/idum0105.xml</li><li>texts/xml/idum0146.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Negev</li></ul>
+</body>
+</html>

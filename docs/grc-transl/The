@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>The [Grc-Transl]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">134</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>The</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/caes0207.xml</li><li>texts/xml/beth0061.xml</li><li>texts/xml/beth0207.xml</li><li>texts/xml/ulat0017.xml</li><li>texts/xml/elus0051.xml</li><li>texts/xml/beth0011.xml</li><li>texts/xml/caes0263.xml</li><li>texts/xml/caes0185.xml</li><li>texts/xml/caes0169.xml</li><li>texts/xml/ulat0002.xml</li><li>texts/xml/bshe0021.xml</li><li>texts/xml/masa0795.xml</li><li>texts/xml/caes0259.xml</li><li>texts/xml/iopp0001.xml</li><li>texts/xml/caes0157.xml</li><li>texts/xml/eins0002.xml</li><li>texts/xml/ulat0003.xml</li><li>texts/xml/caes0200.xml</li><li>texts/xml/caes0151.xml</li><li>texts/xml/caes0188.xml</li><li>texts/xml/caes0268.xml</li><li>texts/xml/juei0001.xml</li><li>texts/xml/beth0173.xml</li><li>texts/xml/masa0784.xml</li><li>texts/xml/caes0180.xml</li><li>texts/xml/caes0273.xml</li><li>texts/xml/elus0066.xml</li><li>texts/xml/iopp0004.xml</li><li>texts/xml/elus0040.xml</li><li>texts/xml/caes0248.xml</li><li>texts/xml/caes0262.xml</li><li>texts/xml/caes0005.xml</li><li>texts/xml/elus0022.xml</li><li>texts/xml/caes0196.xml</li><li>texts/xml/caes0211.xml</li><li>texts/xml/caes0181.xml</li><li>texts/xml/caes0229.xml</li><li>texts/xml/beth0149.xml</li><li>texts/xml/caes0114.xml</li><li>texts/xml/caes0205.xml</li><li>texts/xml/caes0187.xml</li><li>texts/xml/caes0215.xml</li><li>texts/xml/susi0006.xml</li><li>texts/xml/caes0174.xml</li><li>texts/xml/ulat0014.xml</li><li>texts/xml/caes0173.xml</li><li>texts/xml/caes0190.xml</li><li>texts/xml/caes0129.xml</li><li>texts/xml/beth0141.xml</li><li>texts/xml/caes0195.xml</li><li>texts/xml/shea0001.xml</li><li>texts/xml/caes0288.xml</li><li>texts/xml/caes0231.xml</li><li>texts/xml/caes0165.xml</li><li>texts/xml/caes0208.xml</li><li>texts/xml/caes0265.xml</li><li>texts/xml/caes0172.xml</li><li>texts/xml/hamm0053.xml</li><li>texts/xml/caes0287.xml</li><li>texts/xml/ulat0013.xml</li><li>texts/xml/caes0083.xml</li><li>texts/xml/caes0209.xml</li><li>texts/xml/caes0256.xml</li><li>texts/xml/caes0213.xml</li><li>texts/xml/caes0133.xml</li><li>texts/xml/evro0008.xml</li><li>texts/xml/mare0180.xml</li><li>texts/xml/beth0112.xml</li><li>texts/xml/caes0152.xml</li><li>texts/xml/caes0198.xml</li><li>texts/xml/caes0246.xml</li><li>texts/xml/caes0199.xml</li><li>texts/xml/caes0193.xml</li><li>texts/xml/caes0167.xml</li><li>texts/xml/beth0137.xml</li><li>texts/xml/caes0153.xml</li><li>texts/xml/beth0135.xml</li><li>texts/xml/iopp0003.xml</li><li>texts/xml/caes0324.xml</li><li>texts/xml/caes0267.xml</li><li>texts/xml/caes0204.xml</li><li>texts/xml/khir0001.xml</li><li>texts/xml/caes0168.xml</li><li>texts/xml/tibr0001.xml</li><li>texts/xml/caes0232.xml</li><li>texts/xml/ulat0015.xml</li><li>texts/xml/caes0212.xml</li><li>texts/xml/ulat0001.xml</li><li>texts/xml/beth0012.xml</li><li>texts/xml/caes0191.xml</li><li>texts/xml/caes0176.xml</li><li>texts/xml/carm0001.xml</li><li>texts/xml/ulat0016.xml</li><li>texts/xml/caes0184.xml</li><li>texts/xml/caes0202.xml</li><li>texts/xml/caes0290.xml</li><li>texts/xml/caes0203.xml</li><li>texts/xml/caes0289.xml</li><li>texts/xml/caes0264.xml</li><li>texts/xml/caes0255.xml</li><li>texts/xml/caes0247.xml</li><li>texts/xml/caes0260.xml</li><li>texts/xml/caes0170.xml</li><li>texts/xml/beth0181.xml</li><li>texts/xml/elus0020.xml</li><li>texts/xml/caes0166.xml</li><li>texts/xml/bshe0026.xml</li><li>texts/xml/khis0083.xml</li><li>texts/xml/kafr0011.xml</li><li>texts/xml/caes0249.xml</li><li>texts/xml/caes0318.xml</li><li>texts/xml/beth0051.xml</li><li>texts/xml/mari0001.xml</li><li>texts/xml/juei0002.xml</li><li>texts/xml/caes0192.xml</li><li>texts/xml/caes0291.xml</li><li>texts/xml/beth0154.xml</li><li>texts/xml/caes0154.xml</li><li>texts/xml/caes0189.xml</li><li>texts/xml/caes0266.xml</li><li>texts/xml/mare0324.xml</li><li>texts/xml/mare0189.xml</li><li>texts/xml/caes0206.xml</li><li>texts/xml/masa0798.xml</li><li>texts/xml/caes0175.xml</li><li>texts/xml/beth0201.xml</li><li>texts/xml/hamm0049.xml</li><li>texts/xml/caes0250.xml</li><li>texts/xml/beth0172.xml</li><li>texts/xml/caes0210.xml</li><li>texts/xml/beth0200.xml</li><li>texts/xml/caes0194.xml</li><li>texts/xml/caes0261.xml</li><li>texts/xml/beth0157.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Golan</li><li>Coastal Plain</li><li>Galilee</li><li>Negev</li><li>Jordan Valley</li><li>Judaea</li></ul>
+</body>
+</html>

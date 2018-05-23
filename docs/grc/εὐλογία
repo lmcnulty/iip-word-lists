@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+</head>
+<body>
+<h1>&#949;&#965;&#787;&#955;&#959;&#947;&#943;&#945; [Greek]</h1>
+<table>
+<tr>
+<td>Occurences: </td><td id="num-occurences">4</td>
+</tr>
+</table>
+<h2>Variations</h2>
+<ul id="variations">
+<li>&#949;&#8016;&#955;&#959;&#947;&#943;&#945;&#957;</li></ul>
+<h2>Files</h2>
+<ul id="files">
+<li>texts/xml/bshe0011.xml</li><li>texts/xml/tibe0006.xml</li><li>texts/xml/hmti0004.xml</li><li>texts/xml/ashd0001.xml</li></ul>
+<h2>Regions</h2>
+<ul id="regions">
+<li>Jordan Valley</li><li>Coastal Plain</li><li>Galilee</li></ul>
+</body>
+</html>
