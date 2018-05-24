@@ -60,7 +60,7 @@ def word_list_to_html(word_dict, languages,
 			add_to_html_list(root.find(".//ul[@id='regions']"), word_obj.regions)
 			add_to_html_list(root.find(".//ul[@id='files']"), word_obj.files)
 			try: 
-				info_file = open(output_name + '/' + language + '/' + word, 'w')
+				info_file = open(output_name + '/' + language + '/' + word + "_.html", 'w')
 				info_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8"))
 				info_file.close()
 			except:
@@ -89,7 +89,7 @@ def word_list_to_html(word_dict, languages,
 			list_element = etree.Element("li")
 			link = etree.Element("a")
 			link.text = e
-			link.attrib["href"] = "./" + e
+			link.attrib["href"] = "./" + e + "_.html"
 			list_element.append(link)
 			word_list_html.append(list_element)
 		
