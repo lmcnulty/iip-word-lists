@@ -10,7 +10,7 @@ h1 {
 	color: black;
 }
 ul {
-	margin-top: 0px;
+	margin-top: 7.5px;
 	margin-bottom: 0px;
 	column-width: 15em;
 	background: white;
@@ -30,7 +30,7 @@ input[type=text] {
 	width: 100%;
 	height: 20px;
 	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 7.5px;
 	max-width: 500px;
 	border: 2px solid lightgrey;
 	border-radius: 5px; 
@@ -39,4 +39,11 @@ input[type=text] {
 }
 li {
 	list-style-type: none;
+	width: 15em;
+	overflow: hidden;
+	text-overflow: none;
+}
+
+.suspicious a {
+	color: red;
 }

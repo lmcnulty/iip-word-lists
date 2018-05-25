@@ -69,7 +69,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			link.text = e
 			link.attrib["href"] = "./" + e + "_.html"
 			if (word_dict[e][language].suspicious):
-				link.attrib["style"] = "color: red;"
+				list_element.attrib["class"] = "suspicious"
 			list_element.append(link)
 			word_list_html.append(list_element)
 		language_index_file = open(output_name + '/' + language + '/index.html', "w")
