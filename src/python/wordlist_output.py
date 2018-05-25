@@ -42,7 +42,10 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			for e in word_obj.occurences:
 				row = etree.fromstring(OCCURENCE_TABLE_ROW_HTML)
 				row.find(".//td[@id='variation']").text = e.text
-				row.find(".//td[@id='file']").text = e.file_name
+				link = etree.Element('a')
+				link.attrib['href'] = "../" + e.file_name
+				link.text = e.file_name.split('/')[-1]
+				row.find(".//td[@id='file']").append(link)
 				row.find(".//td[@id='xml']").text = e.xml_context
 				row.find(".//td[@id='region']").text = e.region
 				root.find(".//table[@id='occurences']").append(row)
