@@ -36,11 +36,18 @@ INFO_PAGE_HTML = """
 		<h2>Files</h2>
 		<ul id='files'>
 		</ul>
-		<h2>Xml</h2>
-		<ul id='xml-occurences'></ul>
 		<h2>Regions</h2>
 		<ul id='regions'>
 		</ul>
+		<h2>Occurences</h2>
+		<table id="occurences">
+			<tr>
+				<th>Variation</th>
+				<th>File</th>
+				<th>XML</th>
+				<th>Region</th>
+			</tr>
+		</table>
 	</body>
 </html>
 """.replace("\t", "")
@@ -71,4 +78,13 @@ FRONT_PAGE_HTML = """
 		<ul id='language-list-html'></ul>
 	</body>
 </html>
+""".replace("\t", "")
+
+OCCURENCE_TABLE_ROW_HTML = """
+<tr>
+	<td id="variation"></td>
+	<td id="file"></td>
+	<td id="xml"></td>
+	<td id="region"></td>
+</tr>
 """.replace("\t", "")

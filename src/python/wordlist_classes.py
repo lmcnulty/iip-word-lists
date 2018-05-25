@@ -15,7 +15,7 @@ class iip_file:
 
 class iip_word_occurence:
 	equivilence = ["edition_type", "language", "text", "file_name"]
-	def __init__(self, edition_type, language,  text, file_name, 
+	def __init__(self, edition_type, language,  text, file_name, region,
 	                                          contains_gap=False):
 		# eg: diplomatic
 		self.edition_type = edition_type
@@ -35,7 +35,8 @@ class iip_word_occurence:
 		self.lemmatization = ""
 		self.suspicious = False
 		self.abbreviations = []
-		self.followups = []	
+		self.followups = []
+		self.region = region
 	def __hash__(self):
 		new_hash = 0
 		for e in iip_word_occurence.equivilence:

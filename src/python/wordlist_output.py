@@ -40,8 +40,13 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			add_to_html_list(root.find(".//ul[@id='regions']"), word_obj.regions)
 			xml_contexts = []
 			for e in word_obj.occurences:
+				row = etree.fromstring(OCCURENCE_TABLE_ROW_HTML)
+				row.find(".//td[@id='variation']").text = e.text
+				row.find(".//td[@id='file']").text = e.file_name
+				row.find(".//td[@id='xml']").text = e.xml_context
+				row.find(".//td[@id='region']").text = e.region
+				root.find(".//table[@id='occurences']").append(row)
 				xml_contexts.append(e.xml_context)
-			add_to_html_list(root.find(".//ul[@id='xml-occurences']"), xml_contexts)
 			files_list_html = root.find(".//ul[@id='files']")
 			for e in word_obj.files:
 				list_element = etree.Element("li")
@@ -65,6 +70,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 		word_list_html = root.find(".//ul[@id='words']")
 		for e in sorted(word_lists[language]):
 			list_element = etree.Element("li")
+			list_element.attrib["data-num-occurences"] = str(len(word_dict[e][language].occurences))
 			link = etree.Element("a")
 			link.text = e
 			link.attrib["href"] = "./" + e + "_.html"

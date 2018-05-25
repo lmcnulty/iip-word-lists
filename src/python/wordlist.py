@@ -46,7 +46,7 @@ def append_string_to_word_list_end(word_list, addition):
 # elements. In lxml terms, element.text() and element.tail()
 def add_trailing_text(word_list, element, trailing_text, edition_type, 
                                lang, path, include_initial_line_break, 
-                                                        xml_context=""):
+                                                region, xml_context=""):
 	# Make a list of tokens in the text following the tag
 	for e in IGNORE:
 		trailing_text.replace(e, " ")
@@ -58,7 +58,7 @@ def add_trailing_text(word_list, element, trailing_text, edition_type,
 	    or (trailing_text[0] == '\n' and include_initial_line_break)):
 		if word_list[-1].text != "":
 			append_to_word_list(word_list, iip_word_occurence( 
-                                          edition_type, lang, "", path))
+                                  edition_type, lang, "", path, region))
 	# If the text in question is the inner text of the element, add it 
 	# to the xml field of the generated word.
 	if (trailing_text == element.text):
@@ -80,7 +80,7 @@ def add_trailing_text(word_list, element, trailing_text, edition_type,
 	if len(word_list) > 1:
 		for i in range(1, len(trailing_text_list)):
 			new_word = iip_word_occurence(edition_type, lang, 
-			                     trailing_text_list[i], path)
+			                     trailing_text_list[i], path, region)
 			append_to_word_list(word_list, new_word)
 	
 	# If the last word is complete, add an empty word to the end of the
@@ -88,9 +88,9 @@ def add_trailing_text(word_list, element, trailing_text, edition_type,
 	if (trailing_text[-1] == ' ' or trailing_text[-1] == '\n'):
 		if word_list[-1].text != "":
 			append_to_word_list(word_list, iip_word_occurence( 
-			                              edition_type, lang, "", path))
+			                    edition_type, lang, "", path, region))
 
-def add_element_to_word_list(e, word_list, edition, mainLang, path):	
+def add_element_to_word_list(e, word_list, edition, mainLang, path, region):	
 	# Get the language of the element
 	editionLang = mainLang
 	if (XML_NS + 'lang' in edition.keys()):
@@ -112,8 +112,7 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path):
 	if e.tag == TEI_NS + "lb" and not ('break' in e.attrib 
 	                                   and e.attrib['break'] == "no"):
 		append_to_word_list(word_list, iip_word_occurence(subtype, 
-		                                                  editionLang, 
-		                                                      "", path))
+		                    editionLang, "", path, region))
 	previous = e.getprevious()
 	if (e.tag == TEI_NS + "expan" and previous != None 
 	               and previous.tag == TEI_NS + "abbr"):
@@ -125,7 +124,7 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path):
 	# Add the text within the element not inside any child element
 	if (e.text != None):	
 		add_trailing_text(word_list, e, e.text, subtype, 
-		                            wordLang, path, True)
+		                            wordLang, path, True, region)
 	# Add each child element
 	children = e.getchildren()
 	for i in range(0, len(children)):
@@ -135,7 +134,7 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path):
 		if (e.tag == TEI_NS + "choice" and i > 0):
 			append_to_word_list(word_list, prev_word)
 		add_element_to_word_list(children[i], word_list, 
-                                 edition, mainLang, path)
+                                 edition, mainLang, path, region)
 	try:
 		word_list[-1].xml_context += \
 		"</" + e.tag.replace(TEI_NS, "").replace(XML_NS, "") + ">"
@@ -145,7 +144,8 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path):
 	# Add the words following the element which are not in any sibling
 	if (e.tail != None):
 		add_trailing_text(word_list, e, e.tail, subtype, wordLang, 
-		                  path, (e.tag in INCLUDE_TRAILING_LINEBREAK))
+		                  path, (e.tag in INCLUDE_TRAILING_LINEBREAK), 
+		                                                        region)
 
 def get_words_from_file(path, file_dict):
 	root = etree.parse(path).getroot()
@@ -162,9 +162,9 @@ def get_words_from_file(path, file_dict):
 	for edition in root.findall(".//tei:div[@type='edition']", 
 	                                          namespaces=nsmap):
 		new_words = [iip_word_occurence(edition.attrib['subtype'], 
-		                            mainLang, "", path)]
+		                            mainLang, "", path, textRegion.text)]
 		add_element_to_word_list(edition, new_words, edition, 
-		                                        mainLang, path)
+		                                     mainLang, path, textRegion.text)
 		words += new_words
 	for translation in root.findall(".//tei:div[@type='translation']", 
 	                                                  namespaces=nsmap):
@@ -172,9 +172,9 @@ def get_words_from_file(path, file_dict):
 			mainLang = "unk"
 		mainLang += "-transl"
 		new_words = [iip_word_occurence("translation", mainLang, 
-		                                                "", path)]
+		                                          "", path, textRegion.text)]
 		add_element_to_word_list(translation, new_words, 
-		                         translation, mainLang, path)
+		                         translation, mainLang, path, textRegion.text)
 		words += new_words
 	null_words = []
 	for word in words:

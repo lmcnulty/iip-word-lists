@@ -22,13 +22,49 @@ let showSuspiciousLabel = document.createElement("label");
 showSuspiciousLabel.for = "showSuspiciousCheck";
 showSuspiciousLabel.innerHTML = "Show suspicious words";
 
+let sortSelect = document.createElement("select");
+let alphabet = document.createElement("option");
+alphabet.value = "alphabet";
+alphabet.innerHTML = "Alphabet"
+sortSelect.appendChild(alphabet)
+let numOccurences = document.createElement("option");
+numOccurences.value = "occurences";
+numOccurences.innerHTML = "Occurences"
+sortSelect.appendChild(numOccurences)
+sortSelect.addEventListener("change", () => {
+	sortWordList();
+	render();
+}, false);
+sortSelect.id = "sortSelect";
+let sortByLabel = document.createElement("label");
+sortByLabel.for = "sortSelect";
+sortByLabel.innerHTML = "Sort by"
 
 words.parentNode.insertBefore(searchbar, words);
-insertAfter(showSuspiciousCheck, searchbar);
+insertAfter(sortByLabel, searchbar);
+insertAfter(sortSelect, sortByLabel);
+
+insertAfter(showSuspiciousCheck, sortSelect);
 insertAfter(showSuspiciousLabel, showSuspiciousCheck);
 insertAfter(document.createElement("br"), searchbar);
 
+
+
 let wordList = []
+
+function sortWordList() {
+	if (sortSelect.value == "occurences") {
+		wordList.sort((a, b) => {
+			return b.getAttribute("data-num-occurences") - 
+			       a.getAttribute("data-num-occurences");
+		});
+	} else if (sortSelect.value = "alphabet") {
+		wordList.sort((a, b) => {
+			return a.children[0].innerHTML.localeCompare(b.children[0].innerHTML);
+		});
+	}
+}
+
 for (let i = 0; i < words.childNodes.length; i++) {
 	word = words.childNodes[i];
 	wordList.push(word)
@@ -64,6 +100,7 @@ function render() {
 	}
 	let added = 0; let seen = 0;
 	prev.disabled = true; next.disabled = true;
+	
 	for (let i = 0; i < wordList.length; i++) {
 		if (added == wordsPerPage) {
 			next.disabled = false;
@@ -86,4 +123,5 @@ function render() {
 }
 
 searchbar.addEventListener("input", () => {after = 0; render();}, false);
+sortWordList();
 render();
