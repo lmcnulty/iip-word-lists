@@ -2,93 +2,34 @@
 
 import os
 import sys
-from collections import OrderedDict
-from collections import defaultdict
-from lxml import etree
-from copy import copy
+import traceback
+import re
 import glob
 import argparse
 import copy
-from wordlist_constants import *
-from wordlist_output import *
-from wordlist_strings import *
-from wordlist_ngrams import *
 import cltk
+
+from collections import OrderedDict
+from collections import defaultdict
+from lxml import etree
 from cltk.corpus.utils.importer import CorpusImporter
 from cltk.stem.lemma import LemmaReplacer
 from cltk.stem.latin.j_v import JVReplacer
 from nltk.corpus import stopwords
+
 from repl import *
-import traceback
-
-class iip_word:
-	def __init__(self):
-		self.lemma = ""
-		self.occurences = []
-		self.variations = set()
-		self.files = set()
-		self.regions = set()
-
-class iip_file:
-	def __init__(self, file_name, region):
-		self.file_name = file_name
-		self.region = region
-
-class iip_word_occurence:
-	equivilence = ["edition_type", "language", "text", "file_name"]
-	def __init__(self, edition_type, language,  text, file_name, 
-	                                          contains_gap=False):
-		# eg: diplomatic
-		self.edition_type = edition_type
-		# eg: grc
-		if (language == "he"):
-			self.language = "heb"
-		elif (language == "lat"):
-			self.language = "la"
-		else:
-			self.language = language
-		# eg: Πἁποϲ
-		self.text = text
-		# eg: jeru00001.xml
-		self.file_name = file_name
-		# eg: happ<unclear>i</unclear>n<supplied>ess</supplied>
-		self.xml_context = text
-		self.lemmatization = ""
-		self.abbreviations = []
-		self.followups = []	
-	def __hash__(self):
-		new_hash = 0
-		for e in iip_word_occurence.equivilence:
-			new_hash += hash(getattr(self, e))
-		return new_hash
-	
-	def __eq__(self, other):
-		if isinstance(other, self.__class__):
-			return hash(self) == hash(other)
-		else:
-			return False
-	
-	def __ne__(self, other):
-		return not self.__eq__(other)
-	
-	def append_string(self, string):
-		self.text += string
-		self.xml_context += string
-	
-	def print(self):
-		print(self.text + " | " + self.lemmatization + " | " + 
-		      self.language + " | " + self.edition_type + " | " + 
-		                  self.file_name + "|" + self.xml_context)
-	
+from wordlist_constants import *
+from wordlist_output import *
+from wordlist_strings import *
+from wordlist_ngrams import *
+from wordlist_classes import *
+from wordlist_arguments import *
+from wordlist_check_suspicious import *
+from wordlist_commands import *
 
 # Begin a new word as the supplied word. Will often be blank, such that
 # future characters will be added.
 def append_to_word_list(word_list, word):
-	#for existing_word in word_list:
-	#	if existing_word.text == word.text:
-	#		existing_word.file_name += " " + word.file_name
-	#		print(word.text + " == " + existing_word.text)
-	#		return
 	word_list.append(word)
 
 
@@ -107,6 +48,8 @@ def add_trailing_text(word_list, element, trailing_text, edition_type,
                                lang, path, include_initial_line_break, 
                                                         xml_context=""):
 	# Make a list of tokens in the text following the tag
+	for e in IGNORE:
+		trailing_text.replace(e, " ")
 	trailing_text_list = trailing_text.split() 
 		
 	# Add a new entry to the word list if it is empty or the previous 
@@ -168,9 +111,9 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path):
 	# Start a new word if the tag is a linebreak without break="no"
 	if e.tag == TEI_NS + "lb" and not ('break' in e.attrib 
 	                                   and e.attrib['break'] == "no"):
-		append_to_word_list(word_list, 
-		                    iip_word_occurence(subtype, editionLang, 
-		                                                     "", path))
+		append_to_word_list(word_list, iip_word_occurence(subtype, 
+		                                                  editionLang, 
+		                                                      "", path))
 	previous = e.getprevious()
 	if (e.tag == TEI_NS + "expan" and previous != None 
 	               and previous.tag == TEI_NS + "abbr"):
@@ -283,57 +226,6 @@ def lemmatize(word_list, copy):
 		else:
 			word.lemmatization = word.text
 
-def add_arguments(parser):
-	parser.add_argument('files', type=str, nargs='+', 
-	                    help='The epidoc xml files to process')
-	parser.add_argument("--html", help="Output list as html file(s)", 
-	                                              action="store_true")
-	parser.add_argument("--csv", help="Output list as csv file", 
-	                                         action="store_true")
-	parser.add_argument("--plaintext", 
-	                    help="""Create flat text document for each 
-	                            parsed file""", 
-	                    action="store_true")
-	parser.add_argument("--silent",
-	                    help="Don't print the word list to the console", 
-	                    action="store_true")
-	#parser.add_argument("--duplicates", 
-	#                    help="""Include each instance of every word in  
-	#                            the word list""",
-	#                    action="store_true")
-	parser.add_argument("--nodiplomatic",
-	                    help="""Do not include words extracted from  
-	                            diplomatic editions in word list""",
-	                    action="store_true")
-	parser.add_argument("--fileexception", 
-	                    help="""Print exceptions for files which could  
-	                            not be read""", 
-	                    action="store_true")
-	parser.add_argument("--langfiles", 
-	                    help="Write a seperate file for each language", 
-	                    action="store_true")
-	parser.add_argument("-s", "--sort", type=str, 
-	                    help="Sort the list by the specified fields")
-	parser.add_argument("-n", "--name", type=str, 
-	                    help="""The name of the output file without the 
-	                            extension""")
-	parser.add_argument("-f", "--flat", type=str, 
-	                    help="""Specify the location to store plain 
-	                            text files.""")
-	parser.add_argument("--nolemma", 
-	                    help="""Don't lemmatize words before writing to 
-	                            plain text files""", 
-	                    action="store_true")
-	parser.add_argument("--engstops", 
-	                    help="""Do not include translated English words  
-	                            that are in the stop list.""", 
-	                    action="store_true")
-	parser.add_argument("--repl", help="start repl after tasks",
-	                                       action = "store_true")
-	parser.add_argument("--html_general", help="""output general word 
-	                     list as html""", action = "store_true")
-	return parser
-
 def print_word_info(word_string, word_dict):
 	print("")
 	language_dict = word_dict[word_string]
@@ -353,17 +245,7 @@ def print_word_info(word_string, word_dict):
 			print("    " + region)
 		print("")
 
-class word_info_command(repl_command):
-	def __init__(self, word_dict):
-		self.word_dict = word_dict
-		self.invocation = "info"
-		self.description ="Get information on the given word."
-	def execute(self, line):
-		word = line.split()[1]
-		if word in self.word_dict:
-			print_word_info(word, word_dict)
-		else:
-			print('"' + word + '" not found.')
+
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description="""Produce word list 
@@ -388,7 +270,7 @@ if __name__ == '__main__':
 			new_words = get_words_from_file(file, file_dict)
 			lemmatize(new_words, args.nolemma)
 			if args.plaintext:
-				word_list_to_plain_text(new_words, plaintextdir +"/"
+				occurence_list_to_plain_text(new_words, plaintextdir +"/"
 				                        + file.replace(".xml", ""))
 			occurences += new_words
 		except Exception as exception:
@@ -419,7 +301,10 @@ if __name__ == '__main__':
 		word_dict[word.lemmatization][word.language].occurences.append(word)
 		word_dict[word.lemmatization][word.language].variations.add(word.text)
 		word_dict[word.lemmatization][word.language].files.add(word.file_name)
+		word_dict[word.lemmatization][word.language].language = word.language
+		word_dict[word.lemmatization][word.language].lemma = word.lemmatization
 		word_dict[word.lemmatization][word.language].regions.add(file_dict[word.file_name].region)
+		check_suspicious(word_dict[word.lemmatization][word.language])
 		
 	if args.nodiplomatic or args.engstops:
 		occurences = filtered_words

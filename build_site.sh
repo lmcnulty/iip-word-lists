@@ -4,7 +4,16 @@ update=1;
 exceptions=0;
 use_existing=0;
 
-source environment/bin/activate ;
+run_script() {
+	source environment/bin/activate;
+	cd docs;
+	if [ $exceptions == 1 ]; then
+		../src/python/wordlist.py texts/xml/* --silent --nodiplomatic --fileexception --plain --html_general;
+	else
+		../src/python/wordlist.py texts/xml/* --silent --nodiplomatic --html_general --plain;
+	fi
+	cd ..;
+}
 
 for word in $*; do 
 	if [ "$word" == "--help" ] || [ "$word" == "-h" ]; then
@@ -14,8 +23,6 @@ for word in $*; do
 		update=0;
 	elif [ "$word" == "--exceptions" ] || [ "$word" == "-e" ]; then
 		exceptions=1;
-	elif [ "$word" == "--use-existing" ] || [ "$word" == "-ue" ]; then
-		use_existing=1;
 	fi
 done
 
@@ -24,9 +31,6 @@ if [ -d docs ]; then
 	cd docs;
 	if [ $update == 0 ]; then
 		mv texts ..;
-	fi
-	if [ $use_existing == 1 ]; then
-		mv *.csv ..;
 	fi
 	cd ..;
 	rm -rf docs
@@ -50,38 +54,13 @@ if [ $update == 1 ]; then
 	if [ -f include_publicationStmt.xml ]; then
 		rm include_publicationStmt.xml;
 	fi
-	../../../src/python/wordlist.py * --silent --plaintext -f ../plain;
 	cd ../../..;
 else
 	mv texts docs;
 fi
 
-if [ $use_existing == 0 ]; then
-	echo "Constructing word list..."
-	cd docs;
-	if [ $exceptions == 1 ]; then
-		../src/python/wordlist.py texts/xml/* --silent --csv --sort aefl --nodiplomatic --langfiles --fileexception --html_general;
-	else
-		../src/python/wordlist.py texts/xml/* --silent --csv --sort aefl --nodiplomatic --langfiles --html_general;
-	fi
-	cd ..;
-else
-	mv *.csv docs;
-fi
+run_script;
 
-echo "Updating files...";
-cd docs;
-for csvfile in *.csv; do 
-	first=$csvfile
-	second="html"
-	htmlfile=${first/csv/$second}
-	cp ../src/web/viewer.html $htmlfile;
-	replacestring="s/DATA_FILE/$csvfile/g"
-	sed -i -e "$replacestring" $htmlfile
-done
-cd ..;
-#cp src/web/index.html docs/index.html;
 cp src/web/wordlist.css docs/;
 cp src/web/style.css docs/;
 cp src/web/index_search.js docs/;
-cd docs;

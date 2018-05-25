@@ -16,72 +16,50 @@ def full_language(abbr):
 				return codelist[0]
 	return abbr
 
-def word_list_to_html(word_dict, languages, 
-                      output_name=DEFAULT_OUTPUT_NAME):
+def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
+	# Create top level directory
 	if not os.path.exists(output_name):
 		os.makedirs(output_name)
+		
+	# Create directory for each language
 	for language in languages:
 		if not os.path.exists(output_name + '/' + language):
 			os.makedirs(output_name + '/' + language)
-	info_page_html = """
-		<html>
-			<head>
-				<meta charset='UTF-8' />
-			</head>
-			<body>
-				<h1></h1>
-				<table>
-					<tr>
-						<td>Occurences: </td><td id='num-occurences'></td>
-					</tr>
-				</table>
-				<h2>Variations</h2>
-				<ul id='variations'>
-				</ul>
-				<h2>Files</h2>
-				<ul id='files'>
-				</ul>
-				<h2>Regions</h2>
-				<ul id='regions'>
-				</ul>
-			</body>
-		</html>
-	""".replace("\t", "")
+			
+	# Create file for each word
 	word_lists = defaultdict(lambda: [])
 	for word in word_dict:
 		for language in word_dict[word]:
 			word_lists[language].append(word)
-			root = etree.fromstring(info_page_html)
+			root = etree.fromstring(INFO_PAGE_HTML)
 			word_obj = word_dict[word][language]
 			occurences = word_obj.occurences
-			root.find(".//h1").text = word + " [" + full_language(language).title() + "]"
+			root.find(".//h1").text = (word + " [" + full_language(language).title() + "]")
 			root.find(".//td[@id='num-occurences']").text = str(len(word_obj.occurences))
 			add_to_html_list(root.find(".//ul[@id='variations']"), word_obj.variations)
 			add_to_html_list(root.find(".//ul[@id='regions']"), word_obj.regions)
-			add_to_html_list(root.find(".//ul[@id='files']"), word_obj.files)
+			xml_contexts = []
+			for e in word_obj.occurences:
+				xml_contexts.append(e.xml_context)
+			add_to_html_list(root.find(".//ul[@id='xml-occurences']"), xml_contexts)
+			files_list_html = root.find(".//ul[@id='files']")
+			for e in word_obj.files:
+				list_element = etree.Element("li")
+				link = etree.Element("a")
+				link.text = e.split('/')[-1]
+				link.attrib["href"] = "../" + e
+				list_element.append(link)
+				files_list_html.append(list_element)
 			try: 
 				info_file = open(output_name + '/' + language + '/' + word + "_.html", 'w')
 				info_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8"))
 				info_file.close()
 			except:
 				continue
-	index_page_html = """
-		<html>
-			<head>
-				<meta charset='UTF-8' />
-				<title></title>
-				<link rel="stylesheet" type="text/css" href="../style.css" />
-			</head>
-			<body>
-				<h1></h1>
-				<ul id='words'></ul>
-				<script src='../index_search.js'>   </script>
-			</body>
-		</html>
-	""".replace("\t", "")
-	
+
+	# Create index list for each language
 	for language in word_lists:
-		root = etree.fromstring(index_page_html)
+		root = etree.fromstring(INDEX_PAGE_HTML)
 		root.find(".//title").text = full_language(language).title()
 		root.find(".//h1").text = full_language(language).title()
 		word_list_html = root.find(".//ul[@id='words']")
@@ -90,26 +68,17 @@ def word_list_to_html(word_dict, languages,
 			link = etree.Element("a")
 			link.text = e
 			link.attrib["href"] = "./" + e + "_.html"
+			if (word_dict[e][language].suspicious):
+				link.attrib["style"] = "color: red;"
 			list_element.append(link)
 			word_list_html.append(list_element)
-		
 		language_index_file = open(output_name + '/' + language + '/index.html', "w")
 		language_index_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8"))
 		language_index_file.close()
-	front_page_html = """
-		<html>
-			<head>
-				<meta charset='UTF-8' />
-				<title>Language Selection</title>
-			</head>
-			<body>
-				<h1>Languages</h1>
-				<ul id='language-list-html'></ul>
-			</body>
-		</html>
-	""".replace("\t", "")
-	root = etree.fromstring(front_page_html)
-	for e in languages:
+		
+	# Create front page for language selection
+	root = etree.fromstring(FRONT_PAGE_HTML)
+	for e in sorted(languages):
 		list_element = etree.Element("li")
 		link = etree.Element("a")
 		link.text = e
@@ -120,8 +89,7 @@ def word_list_to_html(word_dict, languages,
 	index_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8"))
 	index_file.close()
 
-def occurence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME +
-                                        "_occurences", langfiles=False):
+def occurence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occurences", langfiles=False):
 	files = {}
 	if not langfiles:
 		if os.path.isfile(output_name + '.csv'):
@@ -138,25 +106,22 @@ def occurence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME +
 				if os.path.isfile(output_name + '.csv'):
 					os.remove(output_name + '.csv')
 				if os.path.isdir(output_name + '.csv'):
-					sys.stderr.write(output_name + 
-					                 '.csv is a directory.')
-				files[word.language] = open(output_name + "_" + 
-				                            word.language + ".csv", "a")
+					sys.stderr.write(output_name + '.csv is a directory.')
+				files[word.language] = open(output_name + "_" + word.language + ".csv", "a")
 			word_output_file = files[word.language]
 		else:
 			word_output_file = output_file
-		word_output_file.write(word.text + ", " + word.lemmatization + 
-		                                 ", " + word.language + ", " + 
-		                                    word.edition_type + ", " + 
-		                      word.xml_context.replace(",", "&#44;") + 
-		                                   ", " + word.file_name + "\n")
-		                                   
-def occurence_list_to_plain_text(word_list, output_name, 
-                                          lemmatize=True):
+		word_output_file.write(word.text + ", ") 
+		word_output_file.write(word.lemmatization + ", ") 
+		word_output_file.write(word.language + ", ")
+		word_output_file.write(word.edition_type + ", ")
+		word_output_file.write(word.xml_context.replace(",", "&#44;") + ", ")
+		word_output_file.write(word.file_name + "\n")   
+
+def occurence_list_to_plain_text(word_list, output_name, lemmatize=True):
 	text_buffer = ""
 	for word in word_list:
-		if (lemmatize and word.lemmatization != None 
-		                and word.lemmatization != ""):
+		if (lemmatize and word.lemmatization != None and word.lemmatization != ""):
 			text_buffer += word.lemmatization + " "
 		else:
 			text_buffer += word.text + " "
@@ -166,9 +131,7 @@ def occurence_list_to_plain_text(word_list, output_name,
 	output_file = open(filename, 'w+')
 	output_file.write(text_buffer)
 
-def occurence_list_to_html(full_list, num=0, 
-                           output_name=DEFAULT_OUTPUT_NAME
-                           + "_occurences", langfiles=False):	
+def occurence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME + "_occurences", langfiles=False):	
 	word_list = full_list[0:1000]
 	next_list = full_list[1000:len(full_list)]
 	html = etree.Element("html")
@@ -227,37 +190,15 @@ def occurence_list_to_html(full_list, num=0,
 	if num > 0:
 		prev_link = etree.Element("a")
 		prev_link.text = "Previous Page"
-		prev_link.attrib["href"] = (output_name + "-" + 
-		                            str(num - 1) + ".html")
+		prev_link.attrib["href"] = (output_name + "-" + str(num - 1) + ".html")
 		body.append(prev_link)
 	if len(next_list) > 0:
 		next_link = etree.Element("a")
 		next_link.text = "Next Page"
-		next_link.attrib["href"] = (output_name + "-" + 
-		                            str(num + 1) + ".html")
+		next_link.attrib["href"] = (output_name + "-" + str(num + 1) + ".html")
 		body.append(next_link)
 	output_file = open(output_name + "-" + str(num) + ".html", "w")
 	output_file.write(etree.tostring(html, pretty_print=True).decode())
 	output_file.close()
-	#style_file = open("wordlist.css", "w")
-	#style_file.write("""
-		#table {
-			#border-collapse: collapse;
-		#}
-		#th {
-			#background-color: black;
-			#color: white;
-			#text-align: left;
-			#border: 1px solid black;
-		#}
-		#th, td {
-			#padding: 3px;
-			#padding-right: 3ch;
-		#}
-		#td {
-			#border: 1px solid grey;
-		#}
-	#""")
-	#style_file.close()
 	if (len(next_list) > 0):
 		word_list_to_html(next_list, num + 1, output_name)
