@@ -20,6 +20,10 @@ ul {
 	min-height: 50px;
 	text-align: left;
 }
+label {
+	margin-left: 5px;
+	margin-right: 5px;
+}
 button {
 	margin-top: 15px;
 	margin-left: 5px;
