@@ -64,11 +64,24 @@ function sortWordList() {
 		});
 	}
 }
-
+/*
 for (let i = 0; i < words.childNodes.length; i++) {
 	word = words.childNodes[i];
 	wordList.push(word)
+}*/
+
+for (let i = 0; i < wordsArray.length; i++) {
+	let newWord = document.createElement("li");
+	let newLink = document.createElement("a");
+	newWord.appendChild(newLink);
+	newLink.innerHTML = wordsArray[i].text;
+	newWord.setAttribute("data-num-occurences", wordsArray[i].occurences);
+	if (wordsArray[i].suspicious) {
+		newWord.classList = "suspicious";
+	}
+	wordList.push(newWord);
 }
+
 let prev = document.createElement("button");
 let next = document.createElement("button");
 prev.innerHTML = "Prev"

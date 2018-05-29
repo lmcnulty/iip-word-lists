@@ -70,10 +70,25 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 		root = etree.fromstring(INDEX_PAGE_HTML)
 		root.find(".//title").text = full_language(language).title()
 		root.find(".//h1").text = full_language(language).title()
-		word_list_html = root.find(".//ul[@id='words']")
+		word_list_html = root.find(".//noscript[@id='wordList']")
+		words_object_string = ""
 		for e in sorted(word_lists[language]):
+			num_occurences = str(len(word_dict[e][language].occurences))
+			
+			# Write to javascript object (necessary for performance)
+			words_object_string += '{'
+			words_object_string += ("text: '" + e + "',").replace("\n", "").replace("\\", "");
+			words_object_string += "occurences: " + num_occurences + ','
+			if (word_dict[e][language].suspicious):
+				words_object_string += "suspicious: true,"
+			else:
+				words_object_string += "suspicious: false,"
+			words_object_string += '},\n'
+			
+			# Write directly to tags for noscript users
 			list_element = etree.Element("li")
-			list_element.attrib["data-num-occurences"] = str(len(word_dict[e][language].occurences))
+			list_element.attrib["data-num-occurences"] = num_occurences
+			
 			link = etree.Element("a")
 			link.text = e
 			link.attrib["href"] = "./" + e + "_.html"
@@ -81,8 +96,9 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				list_element.attrib["class"] = "suspicious"
 			list_element.append(link)
 			word_list_html.append(list_element)
+			
 		language_index_file = open(output_name + '/' + language + '/index.html', "w")
-		language_index_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8"))
+		language_index_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8").replace("$WORDS_OBJECT", words_object_string))
 		language_index_file.close()
 		
 	# Create front page for language selection

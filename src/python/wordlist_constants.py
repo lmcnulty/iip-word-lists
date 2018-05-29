@@ -61,7 +61,16 @@ INDEX_PAGE_HTML = """
 	</head>
 	<body>
 		<h1></h1>
-		<ul id='words'></ul>
+		<ul id='words'>
+			<noscript id="wordList">
+			
+			</noscript>
+		</ul>
+		<script>
+			wordsArray = [
+				$WORDS_OBJECT
+			];
+		</script>
 		<script src='../index_search.js'>   </script>
 	</body>
 </html>

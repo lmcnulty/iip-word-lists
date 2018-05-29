@@ -8,9 +8,9 @@ run_script() {
 	source environment/bin/activate;
 	cd docs;
 	if [ $exceptions == 1 ]; then
-		../src/python/wordlist.py texts/xml/* --silent --nodiplomatic --fileexception --plain --html_general;
+		../src/python/wordlist.py texts/xml/* --silent --nodiplomatic --fileexception --html_general --plaintext --flat texts/plain;
 	else
-		../src/python/wordlist.py texts/xml/* --silent --nodiplomatic --html_general --plain;
+		../src/python/wordlist.py texts/xml/* --silent --nodiplomatic --html_general --plaintext --flat texts/plain;
 	fi
 	cd ..;
 }
