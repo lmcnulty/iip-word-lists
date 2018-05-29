@@ -70,13 +70,16 @@ for (let i = 0; i < words.childNodes.length; i++) {
 	wordList.push(word)
 }*/
 
+console.log(wordsArray);
 for (let i = 0; i < wordsArray.length; i++) {
 	let newWord = document.createElement("li");
 	let newLink = document.createElement("a");
 	newWord.appendChild(newLink);
 	newLink.innerHTML = wordsArray[i].text;
+	newLink.href = wordsArray[i].text + "_.html";
 	newWord.setAttribute("data-num-occurences", wordsArray[i].occurences);
 	if (wordsArray[i].suspicious) {
+		console.log(wordsArray[i].text + ": suspicious");
 		newWord.classList = "suspicious";
 	}
 	wordList.push(newWord);

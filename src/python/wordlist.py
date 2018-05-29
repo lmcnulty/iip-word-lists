@@ -298,13 +298,13 @@ if __name__ == '__main__':
 		if add:
 			filtered_words.append(word)
 		# Add occurences to dictionary
-		word_dict[word.lemmatization][word.language].occurences.append(word)
-		word_dict[word.lemmatization][word.language].variations.add(word.text)
-		word_dict[word.lemmatization][word.language].files.add(word.file_name)
-		word_dict[word.lemmatization][word.language].language = word.language
-		word_dict[word.lemmatization][word.language].lemma = word.lemmatization
-		word_dict[word.lemmatization][word.language].regions.add(file_dict[word.file_name].region)
-		check_suspicious(word_dict[word.lemmatization][word.language])
+		word_dict[word.lemmatization.lower()][word.language].occurences.append(word)
+		word_dict[word.lemmatization.lower()][word.language].variations.add(word.text)
+		word_dict[word.lemmatization.lower()][word.language].files.add(word.file_name)
+		word_dict[word.lemmatization.lower()][word.language].language = word.language
+		word_dict[word.lemmatization.lower()][word.language].lemma = word.lemmatization
+		word_dict[word.lemmatization.lower()][word.language].regions.add(file_dict[word.file_name].region)
+		check_suspicious(word_dict[word.lemmatization.lower()][word.language])
 		
 	if args.nodiplomatic or args.engstops:
 		occurences = filtered_words
