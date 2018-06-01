@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 class iip_word:
 	def __init__(self):
 		self.lemma = ""
@@ -13,10 +15,23 @@ class iip_file:
 		self.file_name = file_name
 		self.region = region
 
+def format_element_list(element_list):
+	result = ""
+	for e in element_list:
+		tag = e.tag.split("}")[1]
+		if tag == "div":
+			continue
+		result += tag
+		for attribute in e.attrib:
+			result += "[" + attribute + "="
+			result += e.attrib[attribute] + "]"
+		result += " "
+	return result
+
 class iip_word_occurence:
 	equivilence = ["edition_type", "language", "text", "file_name"]
 	def __init__(self, edition_type, language,  text, file_name, region,
-	                                          contains_gap=False):
+	                                        within, contains_gap=False):
 		# eg: diplomatic
 		self.edition_type = edition_type
 		# eg: grc
@@ -37,6 +52,11 @@ class iip_word_occurence:
 		self.abbreviations = []
 		self.followups = []
 		self.region = region
+		self.within = within
+		self.surrounding_elements = []
+		self.internal_elements = defaultdict(lambda: internal_element_index())
+		
+		
 	def __hash__(self):
 		new_hash = 0
 		for e in iip_word_occurence.equivilence:
@@ -57,6 +77,8 @@ class iip_word_occurence:
 		self.xml_context += string
 	
 	def print(self):
-		print(self.text + " | " + self.lemmatization + " | " + 
-		      self.language + " | " + self.edition_type + " | " + 
-		                  self.file_name + "|" + self.xml_context)
+		print(self.text + " | " + self.lemmatization + " | "  
+		      + self.language + " | " + self.edition_type + " | "  
+		      + self.file_name + "|" + self.xml_context )
+		      #+ "|" + format_element_list(self.within))
+

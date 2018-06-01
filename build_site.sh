@@ -3,27 +3,42 @@
 update=1;
 exceptions=0;
 use_existing=0;
+new_system=0;
 
 run_script() {
 	source environment/bin/activate;
 	cd docs;
+	exceptions_flag=""
+	new_system_flag=""
 	if [ $exceptions == 1 ]; then
-		../src/python/wordlist.py texts/xml/* --silent --nodiplomatic --fileexception --html_general --plaintext --flat texts/plain;
-	else
-		../src/python/wordlist.py texts/xml/* --silent --nodiplomatic --html_general --plaintext --flat texts/plain;
+		exceptions_flag="--fileexception"
 	fi
+	if [ $new_system == 1 ]; then
+		new_system_flag="--new_system"
+	fi
+	../src/python/wordlist.py texts/xml/* --nodiplomatic --html_general\
+	--plaintext --flat texts/plain $exceptions_flag $new_system_flag;
 	cd ..;
 }
 
 for word in $*; do 
 	if [ "$word" == "--help" ] || [ "$word" == "-h" ]; then
-		printf "Usage:\n\n-h, --help           \t Print this message.\n--no-update, -nu\t Do not fetch epidoc files from github.\n--exceptions, -e\t If an exception occurs in the python code, print the error message.\n--use-existing, -ue\t Do not rebuild the word lists.\n";
+		printf "Usage:\n
+		-h, --help            Print this message.
+		--no-update, -nu      Do not fetch epidoc files from github.
+		--exceptions, -e      If an exception occurs in the python \
+		code, print the error message.
+		--use-existing, -ue   Do not rebuild the word lists.\n" |
+		sed -e 's:\t::g';
 		exit;
 	elif [ "$word" == "--no-update" ] || [ "$word" == "-nu" ]; then
 		update=0;
 	elif [ "$word" == "--exceptions" ] || [ "$word" == "-e" ]; then
 		exceptions=1;
+	elif [ "$word" == "--new-system" ] || [ "$word" == "-ns" ]; then
+		new_system=1;
 	fi
+	
 done
 
 echo "Removing old site...";
@@ -41,7 +56,8 @@ if [ $update == 1 ]; then
 	echo "Updating texts...";
 	mkdir temp;
 	cd temp;
-	wget https://github.com/Brown-University-Library/iip-texts/archive/master.zip;
+	wget $(echo "https://github.com/Brown-University-Library/iip-texts/\
+	archive/master.zip" | sed -e 's:\t::g');
 	unzip master.zip;
 	mkdir ../docs/texts;
 	cp -r iip-texts-master/epidoc-files/ ../docs/texts/xml;

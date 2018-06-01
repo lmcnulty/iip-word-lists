@@ -17,6 +17,7 @@ from cltk.stem.lemma import LemmaReplacer
 from cltk.stem.latin.j_v import JVReplacer
 from nltk.corpus import stopwords
 
+
 from repl import *
 from wordlist_constants import *
 from wordlist_output import *
@@ -26,167 +27,8 @@ from wordlist_classes import *
 from wordlist_arguments import *
 from wordlist_check_suspicious import *
 from wordlist_commands import *
-
-# Begin a new word as the supplied word. Will often be blank, such that
-# future characters will be added.
-def append_to_word_list(word_list, word):
-	word_list.append(word)
-
-
-# Add a string to the end of the last word in the word list.
-def append_string_to_word_list_end(word_list, addition):
-	word_copy = copy.deepcopy(word_list[-1])
-	word_copy.append_string(addition)
-	del word_list[-1]
-	append_to_word_list(word_list, word_copy)
-	
-
-# Add to the supplied word list text that is either within a tag and 
-# preceding all child elements or following a tag but before any sibling
-# elements. In lxml terms, element.text() and element.tail()
-def add_trailing_text(word_list, element, trailing_text, edition_type, 
-                               lang, path, include_initial_line_break, 
-                                                region, xml_context=""):
-	# Make a list of tokens in the text following the tag
-	for e in IGNORE:
-		trailing_text.replace(e, " ")
-	trailing_text_list = trailing_text.split() 
-		
-	# Add a new entry to the word list if it is empty or the previous 
-	# word is complete
-	if (len(word_list) == 0 or trailing_text[0] == ' ' 
-	    or (trailing_text[0] == '\n' and include_initial_line_break)):
-		if word_list[-1].text != "":
-			append_to_word_list(word_list, iip_word_occurence( 
-                                  edition_type, lang, "", path, region))
-	# If the text in question is the inner text of the element, add it 
-	# to the xml field of the generated word.
-	if (trailing_text == element.text):
-		try:
-			word_list[-1].xml_context += \
-			"<" + element.tag.replace(ns, "").replace(xmlNs, "") + ">"
-		except:
-			pass
-			
-	# If there is no trailing text, return.
-	if len(trailing_text_list) < 1:
-		return
-
-	# Append first token of the trailing text to the last word in the 
-	# list.
-	append_string_to_word_list_end(word_list, trailing_text_list[0])
-	
-	# For all following words, add a new element to the words list.
-	if len(word_list) > 1:
-		for i in range(1, len(trailing_text_list)):
-			new_word = iip_word_occurence(edition_type, lang, 
-			                     trailing_text_list[i], path, region)
-			append_to_word_list(word_list, new_word)
-	
-	# If the last word is complete, add an empty word to the end of the
-	# list.
-	if (trailing_text[-1] == ' ' or trailing_text[-1] == '\n'):
-		if word_list[-1].text != "":
-			append_to_word_list(word_list, iip_word_occurence( 
-			                    edition_type, lang, "", path, region))
-
-def add_element_to_word_list(e, word_list, edition, mainLang, path, region):	
-	# Get the language of the element
-	editionLang = mainLang
-	if (XML_NS + 'lang' in edition.keys()):
-		editionLang = edition.attrib[XML_NS + 'lang']
-	wordLang = editionLang
-	
-	# Get the subtype
-	subtype = ""
-	if "subtype" in edition.attrib:
-		subtype = edition.attrib['subtype']
-
-	# The last word in the list _at the time of calling the function_.
-	prev_word = copy.copy(word_list[-1])
-	
-	if e.tag == TEI_NS + "gap":
-		word_list[-1].contains_gap = True
-	
-	# Start a new word if the tag is a linebreak without break="no"
-	if e.tag == TEI_NS + "lb" and not ('break' in e.attrib 
-	                                   and e.attrib['break'] == "no"):
-		append_to_word_list(word_list, iip_word_occurence(subtype, 
-		                    editionLang, "", path, region))
-	previous = e.getprevious()
-	if (e.tag == TEI_NS + "expan" and previous != None 
-	               and previous.tag == TEI_NS + "abbr"):
-		if len(word_list[-1].text) < 1:
-			del(word_list[-1])
-		word_list[-1].text = ""
-		word_list[-1].edition = edition
-
-	# Add the text within the element not inside any child element
-	if (e.text != None):	
-		add_trailing_text(word_list, e, e.text, subtype, 
-		                            wordLang, path, True, region)
-	# Add each child element
-	children = e.getchildren()
-	for i in range(0, len(children)):
-		# When adding children of a <choice> element, the preceding word
-		# is added between children so that each possible version of the
-		# word will appear in the final word list.
-		if (e.tag == TEI_NS + "choice" and i > 0):
-			append_to_word_list(word_list, prev_word)
-		add_element_to_word_list(children[i], word_list, 
-                                 edition, mainLang, path, region)
-	try:
-		word_list[-1].xml_context += \
-		"</" + e.tag.replace(TEI_NS, "").replace(XML_NS, "") + ">"
-	except:
-		pass
-		
-	# Add the words following the element which are not in any sibling
-	if (e.tail != None):
-		add_trailing_text(word_list, e, e.tail, subtype, wordLang, 
-		                  path, (e.tag in INCLUDE_TRAILING_LINEBREAK), 
-		                                                        region)
-
-def get_words_from_file(path, file_dict):
-	root = etree.parse(path).getroot()
-	words = []
-	nsmap = {'tei': "http://www.tei-c.org/ns/1.0"}
-	bodies = root.findall('.//' + TEI_NS + 'body')
-	textLang = root.find('.//' + TEI_NS + 'textLang')
-	textRegion = root.find('.//' + TEI_NS + 'region')
-	if textRegion != None:
-		file_dict[path] = iip_file(path, textRegion.text)	
-	mainLang = ""
-	if (textLang != None):
-		mainLang = textLang.attrib['mainLang']
-	for edition in root.findall(".//tei:div[@type='edition']", 
-	                                          namespaces=nsmap):
-		new_words = [iip_word_occurence(edition.attrib['subtype'], 
-		                            mainLang, "", path, textRegion.text)]
-		add_element_to_word_list(edition, new_words, edition, 
-		                                     mainLang, path, textRegion.text)
-		words += new_words
-	for translation in root.findall(".//tei:div[@type='translation']", 
-	                                                  namespaces=nsmap):
-		if mainLang.strip == "":
-			mainLang = "unk"
-		mainLang += "-transl"
-		new_words = [iip_word_occurence("translation", mainLang, 
-		                                          "", path, textRegion.text)]
-		add_element_to_word_list(translation, new_words, 
-		                         translation, mainLang, path, textRegion.text)
-		words += new_words
-	null_words = []
-	for word in words:
-		word.text = str(word.text)
-		for pattern in IGNORE:
-			word.text = word.text.replace(pattern, "")
-		if (word.text.strip() == ""):
-			null_words.append(word)	
-		if word.language.strip() == "":
-			word.language = "unk"
-	words = [x for x in words if x not in null_words]
-	return words
+from wordlist_builder import *
+from wordlist_getter import *
 
 def print_usage():
 	print("wordlist.py [file1] [file2] ... \n"
@@ -245,7 +87,62 @@ def print_word_info(word_string, word_dict):
 			print("    " + region)
 		print("")
 
-
+def get_words_from_file(path, file_dict, new_system):
+	root = etree.parse(path).getroot()
+	words = []
+	nsmap = {'tei': "http://www.tei-c.org/ns/1.0"}
+	bodies = root.findall('.//' + TEI_NS + 'body')
+	textLang = root.find('.//' + TEI_NS + 'textLang')
+	textRegion = root.find('.//' + TEI_NS + 'region')
+	if textRegion != None:
+		file_dict[path] = iip_file(path, textRegion.text)	
+	mainLang = ""
+	if (textLang != None):
+		mainLang = textLang.attrib['mainLang']
+	for edition in (
+		root.findall(".//tei:div[@type='edition']", namespaces=nsmap) 
+		+ root.findall(".//tei:div[@type='translation']", 
+		               namespaces=nsmap)
+	):
+		if mainLang.strip == "":
+			mainLang = "unk"
+		edition_type = ""
+		if 'subtype' in edition.attrib:
+			edition_type = edition.attrib['subtype']
+		if edition.attrib["type"] == "translation":
+			edition_type = "translation"
+			mainLang += "-transl"
+		new_words = []
+		if new_system:
+			for e in get_words_from_element(edition):
+				new_words.append(iip_word_occurence(
+					edition_type,
+					mainLang,
+					e.text,
+					path,
+					textRegion.text,
+					e.surrounding_elements
+				))
+				new_words[-1].internal_elements = e.internal_elements
+		else:
+			new_words = [iip_word_occurence(edition_type, 
+			             mainLang, "", path, textRegion.text, [])]
+			add_element_to_word_list(edition, new_words, edition, 
+			                         mainLang, path, textRegion.text, 
+			                         [])
+		words += new_words
+	
+	null_words = []
+	for word in words:
+		word.text = str(word.text)
+		for pattern in IGNORE:
+			word.text = word.text.replace(pattern, "")
+		if (word.text.strip() == ""):
+			null_words.append(word)	
+		if word.language.strip() == "":
+			word.language = "unk"
+	words = [x for x in words if x not in null_words]
+	return words
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description="""Produce word list 
@@ -267,11 +164,13 @@ if __name__ == '__main__':
 		plaintextdir = args.flat
 	for file in args.files:
 		try:
-			new_words = get_words_from_file(file, file_dict)
+			new_words = get_words_from_file(file, file_dict, 
+			                                args.new_system)
 			lemmatize(new_words, args.nolemma)
 			if args.plaintext:
-				occurence_list_to_plain_text(new_words, plaintextdir +"/"
-				                        + file.replace(".xml", ""))
+				occurence_list_to_plain_text(new_words, plaintextdir
+				                             + "/" + file.replace
+				                             (".xml", ""))
 			occurences += new_words
 		except Exception as exception:
 			if args.fileexception:
@@ -297,17 +196,70 @@ if __name__ == '__main__':
 				add = False
 		if add:
 			filtered_words.append(word)
-		# Add occurences to dictionary
-		word_dict[word.lemmatization.lower()][word.language].occurences.append(word)
-		word_dict[word.lemmatization.lower()][word.language].variations.add(word.text)
-		word_dict[word.lemmatization.lower()][word.language].files.add(word.file_name)
-		word_dict[word.lemmatization.lower()][word.language].language = word.language
-		word_dict[word.lemmatization.lower()][word.language].lemma = word.lemmatization
-		word_dict[word.lemmatization.lower()][word.language].regions.add(file_dict[word.file_name].region)
-		check_suspicious(word_dict[word.lemmatization.lower()][word.language])
+		
+		word.xml_context = ""
+		
+		delayed_prepend = []
+		delayed_postpend =[]
+		for i in range(0, len(word.text)):
+			for e in word.internal_elements:
+				if not isinstance(e.tag, str):
+					continue
+				if word.internal_elements[e].start_index == i and word.internal_elements[e].end_index == i:
+					word.xml_context += "<" + e.tag + "/>"
+				else:
+					if word.internal_elements[e].start_index == i:
+						word.xml_context += "<" + e.tag + ">"
+						delayed_postpend.append(e)
+					if word.internal_elements[e].end_index == i:
+						word.xml_context += "</" + e.tag + ">"
+						if e in delayed_postpend:
+							delayed_postpend.remove(e)
+						else:
+							delayed_prepend.append(e)
+			word.xml_context += word.text[i]
+		for e in delayed_prepend:
+			word.xml_context = "<" + e.tag + ">" + word.xml_context
+		for e in delayed_postpend:
+			word.xml_context = word.xml_context + "</"+ e.tag + ">"
+		
+		for e in reversed(word.within):
+			if not isinstance(e.tag, str):
+				continue
+			tag = e.tag.split("}")[1]
+			if tag == "div":
+				continue
+			start_tag = "<" + tag
+			for attribute in e.attrib:
+				start_tag += " " + attribute + "="
+				start_tag += '"' + e.attrib[attribute] + '"'
+			start_tag += ">"
+			word.xml_context = (start_tag + word.xml_context 
+			                    + "</" + tag + ">")
+			
+		word.xml_context = word.xml_context.replace(XML_NS, "")\
+			.replace(TEI_NS,"")
 		
 	if args.nodiplomatic or args.engstops:
 		occurences = filtered_words
+
+	for word in occurences:
+		# Add occurences to dictionary
+		word_dict[word.lemmatization.lower()][word.language]\
+			.occurences.append(word)
+		word_dict[word.lemmatization.lower()][word.language]\
+			.variations.add(word.text)
+		word_dict[word.lemmatization.lower()][word.language]\
+			.files.add(word.file_name)
+		word_dict[word.lemmatization.lower()][word.language]\
+			.language = word.language
+		word_dict[word.lemmatization.lower()][word.language]\
+			.lemma = word.lemmatization
+		word_dict[word.lemmatization.lower()][word.language]\
+			.regions.add(file_dict[word.file_name].region)
+		check_suspicious(
+			word_dict[word.lemmatization.lower()][word.language]
+		)
 
 	# Sort according to the given arguments before writing to file
 	sort_order = []

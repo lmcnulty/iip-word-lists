@@ -1,0 +1,2157 @@
+Ὀλυμπιόδωρος | Ὀλυμπιόδωρος | grc | transcription | docs/texts/xml/caes0001.xml|<p>Ὀλυμπιόδωρος
+Olympiodoros | Olympiodoros | grc-transl | translation | docs/texts/xml/caes0001.xml|<p><persName lang="grc " ref="persons.xml#caes0001p01">Olympiodoros
+Tito | Tito | la | transcription | docs/texts/xml/caes0002.xml|<p><expan>Tito
+Flavio | Flavio | la | transcription | docs/texts/xml/caes0002.xml|<p>Flavio
+Augusti | augustus | la | transcription | docs/texts/xml/caes0002.xml|<p>Augusti
+liberto | libertus | la | transcription | docs/texts/xml/caes0002.xml|<p>liberto
+honoris | honor | la | transcription | docs/texts/xml/caes0002.xml|<p><lb>honoris
+Callisto | Callisto | la | transcription | docs/texts/xml/caes0002.xml|<p><space>Callisto
+causa | causa | la | transcription | docs/texts/xml/caes0002.xml|<p><space>causa
+Caius | Caius | la | transcription | docs/texts/xml/caes0002.xml|<p><expan>Caius
+Aurunculeius | Aurunculeius | la | transcription | docs/texts/xml/caes0002.xml|<p>Aurunculeius
+amico | amicus | la | transcription | docs/texts/xml/caes0002.xml|<p>amico
+suo | suo | la | transcription | docs/texts/xml/caes0002.xml|<p>suo.
+Gaius | Gaius | la-transl | translation | docs/texts/xml/caes0002.xml|<p><name>Gaius
+Aurunculeius | Aurunculeius | la-transl | translation | docs/texts/xml/caes0002.xml|<p><name>Aurunculeius
+to | to | la-transl | translation | docs/texts/xml/caes0002.xml|<p><name>to
+his | his | la-transl | translation | docs/texts/xml/caes0002.xml|<p>his
+friend | friend | la-transl | translation | docs/texts/xml/caes0002.xml|<p>friend
+Titus | Titus | la-transl | translation | docs/texts/xml/caes0002.xml|<p><name>Titus
+Flavius | Flavius | la-transl | translation | docs/texts/xml/caes0002.xml|<p><name>Flavius
+Callistus | Callistus | la-transl | translation | docs/texts/xml/caes0002.xml|<p><name>Callistus
+freedman | freedman | la-transl | translation | docs/texts/xml/caes0002.xml|<p><name><rs type="status">freedman
+of | of | la-transl | translation | docs/texts/xml/caes0002.xml|<p>of
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0002.xml|<p><persName lang="la " ref="persons.xml#caes0002p06">Augustus
+out | out | la-transl | translation | docs/texts/xml/caes0002.xml|<p>out
+of | of | la-transl | translation | docs/texts/xml/caes0002.xml|<p>of
+respect | respect | la-transl | translation | docs/texts/xml/caes0002.xml|<p>respect.
+Marcum | marcus | la | transcription | docs/texts/xml/caes0003.xml|<p>Marcum
+Flavium | Flavium | la | transcription | docs/texts/xml/caes0003.xml|<p><expan>Flavium
+Agrippam | Agrippam | la | transcription | docs/texts/xml/caes0003.xml|<p>Agrippam
+pontificem | pontifex | la | transcription | docs/texts/xml/caes0003.xml|<p>pontificem
+II | eo | la | transcription | docs/texts/xml/caes0003.xml|<p><lb>II
+viralem | viralem | la | transcription | docs/texts/xml/caes0003.xml|<p>viralem
+coloniae | colonia | la | transcription | docs/texts/xml/caes0003.xml|<p><lb><expan>coloniae
+I | eo | la | transcription | docs/texts/xml/caes0003.xml|<p>I
+Flaviae | Flaviae | la | transcription | docs/texts/xml/caes0003.xml|<p>Flaviae
+Augustae | augustus | la | transcription | docs/texts/xml/caes0003.xml|<p><expan>Augustae
+Caesareae | Caesareae | la | transcription | docs/texts/xml/caes0003.xml|<p>Caesareae
+oratoremex | oratoremex | la | transcription | docs/texts/xml/caes0003.xml|<p>oratoremex
+decreto | decerno | la | transcription | docs/texts/xml/caes0003.xml|<p>decreto
+decurionum | decurio | la | transcription | docs/texts/xml/caes0003.xml|<p>decurionum
+pecunia | pecunia | la | transcription | docs/texts/xml/caes0003.xml|<p>pecunia
+publica | publico | la | transcription | docs/texts/xml/caes0003.xml|<p>publica.
+Marcus | Marcus | la-transl | translation | docs/texts/xml/caes0003.xml|<p><name><persName lang="la " ref="persons.xml#caes0003p01" nymRef="names.xml#caes0003n01">Marcus
+Flavius | Flavius | la-transl | translation | docs/texts/xml/caes0003.xml|<p><name><persName lang="la " ref="persons.xml#caes0003p02" nymRef="names.xml#caes0003n02">Flavius
+Agrippa | Agrippa | la-transl | translation | docs/texts/xml/caes0003.xml|<p><name>Agrippa
+priest | priest | la-transl | translation | docs/texts/xml/caes0003.xml|<p><name><rs type="religTitle">priest
+duovir | duovir | la-transl | translation | docs/texts/xml/caes0003.xml|<p><rs type="admTitle">duovir
+orator | orator | la-transl | translation | docs/texts/xml/caes0003.xml|<p><rs type="occupation">orator
+of | of | la-transl | translation | docs/texts/xml/caes0003.xml|<p>of
+Caesarea | Caesarea | la-transl | translation | docs/texts/xml/caes0003.xml|<p><placeName>Caesarea
+the | the | la-transl | translation | docs/texts/xml/caes0003.xml|<p>the
+first | first | la-transl | translation | docs/texts/xml/caes0003.xml|<p>first
+colony | colony | la-transl | translation | docs/texts/xml/caes0003.xml|<p>colony
+of | of | la-transl | translation | docs/texts/xml/caes0003.xml|<p>of
+Flavius | Flavius | la-transl | translation | docs/texts/xml/caes0003.xml|<p><name><persName lang="la " ref="persons.xml#caes0003p04" nymRef="names.xml#caes0003n04">Flavius
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0003.xml|<p><name><persName lang="la " ref="persons.xml#caes0003p05" nymRef="names.xml#caes0003n05">Augustus
+By | By | la-transl | translation | docs/texts/xml/caes0003.xml|<p>By
+decree | decree | la-transl | translation | docs/texts/xml/caes0003.xml|<p>decree
+of | of | la-transl | translation | docs/texts/xml/caes0003.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0003.xml|<p>the
+decurions | decurions | la-transl | translation | docs/texts/xml/caes0003.xml|<p>decurions
+and | and | la-transl | translation | docs/texts/xml/caes0003.xml|<p>and
+at | at | la-transl | translation | docs/texts/xml/caes0003.xml|<p>at
+public | public | la-transl | translation | docs/texts/xml/caes0003.xml|<p>public
+expense | expense | la-transl | translation | docs/texts/xml/caes0003.xml|<p>expense.
+Lucio | lucius | la | transcription | docs/texts/xml/caes0004.xml|<p><expan>Lucio
+Valerio | Valerio | la | transcription | docs/texts/xml/caes0004.xml|<p>Valerio
+Valeriano | Valeriano | la | transcription | docs/texts/xml/caes0004.xml|<p>Valeriano
+procuratori | procurator | la | transcription | docs/texts/xml/caes0004.xml|<p><del>procuratori
+provinciae | provincia | la | transcription | docs/texts/xml/caes0004.xml|<p><del>provinciae
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0004.xml|<p><del><lb>Syriae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0004.xml|<p>Palaestinae
+provinciae | provincia | la | transcription | docs/texts/xml/caes0004.xml|<p>provinciae
+praeposito | praepono | la | transcription | docs/texts/xml/caes0004.xml|<p><gap reason="illegible" quantity="6" unit="character"><lb>praeposito
+summae | summa | la | transcription | docs/texts/xml/caes0004.xml|<p>summae
+felicissimae | felix | la | transcription | docs/texts/xml/caes0004.xml|<p><del>felicissimae
+expeditionis | expeditio | la | transcription | docs/texts/xml/caes0004.xml|<p><del>expeditionis
+Mesopotamenae | Mesopotamenae | la | transcription | docs/texts/xml/caes0004.xml|<p><del><lb>Mesopotamenae
+adv | adv | la | transcription | docs/texts/xml/caes0004.xml|<p>adv
+ersus | ersus | la | transcription | docs/texts/xml/caes0004.xml|<p><del>ersus
+Arabos | Arabos | la | transcription | docs/texts/xml/caes0004.xml|<p><del>Arabos
+or | or | la | transcription | docs/texts/xml/caes0004.xml|<p><del>or
+Parthos | Parthos | la | transcription | docs/texts/xml/caes0004.xml|<p><del>Parthos
+praeposito | praepono | la | transcription | docs/texts/xml/caes0004.xml|<p><lb>praeposito
+vexillationis | vexillationis | la | transcription | docs/texts/xml/caes0004.xml|<p><expan>vexillationis
+felicissimae | felix | la | transcription | docs/texts/xml/caes0004.xml|<p>felicissimae
+expeditionis | expeditio | la | transcription | docs/texts/xml/caes0004.xml|<p><supplied reason="undefined">expeditionis
+urbicae | urbicus | la | transcription | docs/texts/xml/caes0004.xml|<p>urbicae
+itemque | ito | la | transcription | docs/texts/xml/caes0004.xml|<p><expan>itemque
+Asianae | Asianae | la | transcription | docs/texts/xml/caes0004.xml|<p>Asianae
+adversus | adverro | la | transcription | docs/texts/xml/caes0004.xml|<p><del>adversus
+hostes | hostis | la | transcription | docs/texts/xml/caes0004.xml|<p><del><gap reason="illegible" quantity="2" unit="characters"><lb>hostes
+publicos | publicus | la | transcription | docs/texts/xml/caes0004.xml|<p>publicos
+praeposito | praepono | la | transcription | docs/texts/xml/caes0004.xml|<p>praeposito
+equitum | equio | la | transcription | docs/texts/xml/caes0004.xml|<p><del>equitum
+peregrinarum | peregrina | la | transcription | docs/texts/xml/caes0004.xml|<p><del><lb>peregrinarum
+adversus | adverro | la | transcription | docs/texts/xml/caes0004.xml|<p>adversus
+procuratori | procurator | la | transcription | docs/texts/xml/caes0004.xml|<p><del><lb><expan>procuratori
+Cypri | cyprus | la | transcription | docs/texts/xml/caes0004.xml|<p>Cypri
+praefecto | praeficio | la | transcription | docs/texts/xml/caes0004.xml|<p><expan>praefecto
+al | al | la | transcription | docs/texts/xml/caes0004.xml|<p>al
+ae | ae | la | transcription | docs/texts/xml/caes0004.xml|<p><del>ae
+I | eo | la | transcription | docs/texts/xml/caes0004.xml|<p><del>I
+Hispanorum | Hispanorum | la | transcription | docs/texts/xml/caes0004.xml|<p><del>Hispanorum
+Campagonum | Campagonum | la | transcription | docs/texts/xml/caes0004.xml|<p><del><lb>Campagonum
+in | in | la | transcription | docs/texts/xml/caes0004.xml|<p>in
+Dacia | Dacia | la | transcription | docs/texts/xml/caes0004.xml|<p>Dacia
+tribuno | tribunus | la | transcription | docs/texts/xml/caes0004.xml|<p><del>tribuno
+cohortis | cohors | la | transcription | docs/texts/xml/caes0004.xml|<p><del><expan>cohortis
+I | eo | la | transcription | docs/texts/xml/caes0004.xml|<p><del>I
+miliariae | miliarius | la | transcription | docs/texts/xml/caes0004.xml|<p><lb>miliariae
+Hemesenorum | Hemesenorum | la | transcription | docs/texts/xml/caes0004.xml|<p>Hemesenorum
+civium | civis | la | transcription | docs/texts/xml/caes0004.xml|<p><del>civium
+Romanorum | Romanorum | la | transcription | docs/texts/xml/caes0004.xml|<p><del><expan>Romanorum
+in | in | la | transcription | docs/texts/xml/caes0004.xml|<p><del>in
+Pannonia | Pannonia | la | transcription | docs/texts/xml/caes0004.xml|<p><lb>Pannonia
+praefecto | praeficio | la | transcription | docs/texts/xml/caes0004.xml|<p>praefecto
+cohortis | cohors | la | transcription | docs/texts/xml/caes0004.xml|<p>cohortis
+IIII | IIII | la | transcription | docs/texts/xml/caes0004.xml|<p><del>IIII
+voluntariorum | voluntarius | la | transcription | docs/texts/xml/caes0004.xml|<p><del>voluntariorum
+civium | civis | la | transcription | docs/texts/xml/caes0004.xml|<p><del>civium
+Romanorum | Romanorum | la | transcription | docs/texts/xml/caes0004.xml|<p><del><expan>Romanorum
+in | in | la | transcription | docs/texts/xml/caes0004.xml|<p><del>in
+Pannonia | Pannonia | la | transcription | docs/texts/xml/caes0004.xml|<p><lb>Pannonia
+Mevius | Mevius | la | transcription | docs/texts/xml/caes0004.xml|<p>Mevius
+Romanus | Romanus | la | transcription | docs/texts/xml/caes0004.xml|<p>Romanus
+centurio | centurio | la | transcription | docs/texts/xml/caes0004.xml|<p><abbr>centurio
+legionis | legio | la | transcription | docs/texts/xml/caes0004.xml|<p><del><expan>legionis
+VI | vis | la | transcription | docs/texts/xml/caes0004.xml|<p><del>VI
+Ferratae | ferratus | la | transcription | docs/texts/xml/caes0004.xml|<p><del>Ferratae
+fidelis | fidelis | la | transcription | docs/texts/xml/caes0004.xml|<p><del><lb>fidelis
+constantis | consto | la | transcription | docs/texts/xml/caes0004.xml|<p><expan>constantis
+Antoninianae | Antoninianae | la | transcription | docs/texts/xml/caes0004.xml|<p>Antoninianae
+eius | is | la | transcription | docs/texts/xml/caes0004.xml|<p><gap reason="illegible" quantity="4" unit="character"><lb>eius
+viro | vir | la | transcription | docs/texts/xml/caes0004.xml|<p>viro
+i | eo | la | transcription | docs/texts/xml/caes0004.xml|<p>i
+ncompara | ncompara | la | transcription | docs/texts/xml/caes0004.xml|<p><del>ncompara
+bili | bilis | la | transcription | docs/texts/xml/caes0004.xml|<p><lb>bili.
+To | To | la-transl | translation | docs/texts/xml/caes0004.xml|<p>To
+Lucius | Lucius | la-transl | translation | docs/texts/xml/caes0004.xml|<p><name><persName lang="la " ref="persons.xml#caes0004p01" nymRef="names.xml#caes0004n01">Lucius
+Valerius | Valerius | la-transl | translation | docs/texts/xml/caes0004.xml|<p><name><persName lang="la " ref="persons.xml#caes0004p02" nymRef="names.xml#caes0004n02">Valerius
+Valerianus | Valerianus | la-transl | translation | docs/texts/xml/caes0004.xml|<p><name><persName lang="la " ref="persons.xml#caes0004p03" nymRef="names.xml#caes0004n03">Valerianus
+procurator | procurator | la-transl | translation | docs/texts/xml/caes0004.xml|<p><name><rs type="admTitle">procurator
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0004.xml|<p>province
+Syria | Syria | la-transl | translation | docs/texts/xml/caes0004.xml|<p><placeName>Syria
+Palestina | Palestina | la-transl | translation | docs/texts/xml/caes0004.xml|<p><placeName>Palestina
+and | and | la-transl | translation | docs/texts/xml/caes0004.xml|<p>and
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0004.xml|<p>province...;
+charged | charged | la-transl | translation | docs/texts/xml/caes0004.xml|<p>charged
+with | with | la-transl | translation | docs/texts/xml/caes0004.xml|<p>with
+completing | completing | la-transl | translation | docs/texts/xml/caes0004.xml|<p>completing
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+most | most | la-transl | translation | docs/texts/xml/caes0004.xml|<p>most
+fortunate | fortunate | la-transl | translation | docs/texts/xml/caes0004.xml|<p>fortunate
+Mesopotamian | Mesopotamian | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Mesopotamian
+expedition | expedition | la-transl | translation | docs/texts/xml/caes0004.xml|<p>expedition
+against | against | la-transl | translation | docs/texts/xml/caes0004.xml|<p>against
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+Arabs | Arabs | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Arabs
+or | or | la-transl | translation | docs/texts/xml/caes0004.xml|<p>(or
+Parthians | Parthians | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Parthians);
+placed | placed | la-transl | translation | docs/texts/xml/caes0004.xml|<p>placed
+in | in | la-transl | translation | docs/texts/xml/caes0004.xml|<p>in
+charge | charge | la-transl | translation | docs/texts/xml/caes0004.xml|<p>charge
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+a | a | la-transl | translation | docs/texts/xml/caes0004.xml|<p>a
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0004.xml|<p>detachment
+for | for | la-transl | translation | docs/texts/xml/caes0004.xml|<p>for
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+most | most | la-transl | translation | docs/texts/xml/caes0004.xml|<p>most
+fortunate | fortunate | la-transl | translation | docs/texts/xml/caes0004.xml|<p>fortunate
+urban | urban | la-transl | translation | docs/texts/xml/caes0004.xml|<p>urban
+expedition | expedition | la-transl | translation | docs/texts/xml/caes0004.xml|<p>expedition
+likewise | likewise | la-transl | translation | docs/texts/xml/caes0004.xml|<p>likewise
+for | for | la-transl | translation | docs/texts/xml/caes0004.xml|<p>for
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+Asian | Asian | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Asian
+expedition | expedition | la-transl | translation | docs/texts/xml/caes0004.xml|<p>expedition
+against | against | la-transl | translation | docs/texts/xml/caes0004.xml|<p>against
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+public | public | la-transl | translation | docs/texts/xml/caes0004.xml|<p>public
+enemies | enemies | la-transl | translation | docs/texts/xml/caes0004.xml|<p>enemies;
+placed | placed | la-transl | translation | docs/texts/xml/caes0004.xml|<p>placed
+in | in | la-transl | translation | docs/texts/xml/caes0004.xml|<p>in
+charge | charge | la-transl | translation | docs/texts/xml/caes0004.xml|<p>charge
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+a | a | la-transl | translation | docs/texts/xml/caes0004.xml|<p>a
+peregrine | peregrine | la-transl | translation | docs/texts/xml/caes0004.xml|<p>peregrine
+cavalry | cavalry | la-transl | translation | docs/texts/xml/caes0004.xml|<p>cavalry
+unit | unit | la-transl | translation | docs/texts/xml/caes0004.xml|<p>unit
+against | against | la-transl | translation | docs/texts/xml/caes0004.xml|<p>against...;
+procurator | procurator | la-transl | translation | docs/texts/xml/caes0004.xml|<p><rs type="admTitle">procurator
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+Cyprus | Cyprus | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Cyprus;
+prefect | prefect | la-transl | translation | docs/texts/xml/caes0004.xml|<p><rs type="admTitle">prefect
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+first | first | la-transl | translation | docs/texts/xml/caes0004.xml|<p>first
+cavalry | cavalry | la-transl | translation | docs/texts/xml/caes0004.xml|<p>cavalry
+squadron | squadron | la-transl | translation | docs/texts/xml/caes0004.xml|<p>squadron
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+Spanish | Spanish | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Spanish
+Campagoni | Campagoni | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Campagoni
+in | in | la-transl | translation | docs/texts/xml/caes0004.xml|<p>in
+Dacia | Dacia | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Dacia;
+tribune | tribune | la-transl | translation | docs/texts/xml/caes0004.xml|<p><rs type="admTitle">tribune
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+first | first | la-transl | translation | docs/texts/xml/caes0004.xml|<p>first
+thousandman | thousandman | la-transl | translation | docs/texts/xml/caes0004.xml|<p>thousand-man
+cohort | cohort | la-transl | translation | docs/texts/xml/caes0004.xml|<p>cohort
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+Roman | Roman | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Roman
+citizen | citizen | la-transl | translation | docs/texts/xml/caes0004.xml|<p>citizen
+Hemeseni | Hemeseni | la-transl | translation | docs/texts/xml/caes0004.xml|<p><persName lang="la " ref="persons.xml#caes0004p04">Hemeseni
+in | in | la-transl | translation | docs/texts/xml/caes0004.xml|<p>in
+Pannonia | Pannonia | la-transl | translation | docs/texts/xml/caes0004.xml|<p><placeName>Pannonia
+prefect | prefect | la-transl | translation | docs/texts/xml/caes0004.xml|<p><rs type="admTitle">prefect
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+fourth | fourth | la-transl | translation | docs/texts/xml/caes0004.xml|<p>fourth
+cohort | cohort | la-transl | translation | docs/texts/xml/caes0004.xml|<p>cohort
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+Roman | Roman | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Roman
+citizen | citizen | la-transl | translation | docs/texts/xml/caes0004.xml|<p>citizen
+volunteers | volunteers | la-transl | translation | docs/texts/xml/caes0004.xml|<p>volunteers
+in | in | la-transl | translation | docs/texts/xml/caes0004.xml|<p>in
+Pannonia | Pannonia | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Pannonia.
+Mevius | Mevius | la-transl | translation | docs/texts/xml/caes0004.xml|<p><name><persName lang="la " ref="persons.xml#caes0004p05" nymRef="names.xml#caes0004n05">Mevius
+Romanus | Romanus | la-transl | translation | docs/texts/xml/caes0004.xml|<p><name><persName lang="la " ref="persons.xml#caes0004p06" nymRef="names.xml#caes0004n06">Romanus
+centurion | centurion | la-transl | translation | docs/texts/xml/caes0004.xml|<p><name><rs type="admTitle">centurion
+of | of | la-transl | translation | docs/texts/xml/caes0004.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0004.xml|<p>the
+sixth | sixth | la-transl | translation | docs/texts/xml/caes0004.xml|<p>sixth
+legion | legion | la-transl | translation | docs/texts/xml/caes0004.xml|<p>legion
+Ferrata | Ferrata | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Ferrata
+fidelis | fidelis | la-transl | translation | docs/texts/xml/caes0004.xml|<p>fidelis
+constans | constans | la-transl | translation | docs/texts/xml/caes0004.xml|<p>constans
+Antoniniana | Antoniniana | la-transl | translation | docs/texts/xml/caes0004.xml|<p>Antoniniana
+his | his | la-transl | translation | docs/texts/xml/caes0004.xml|<p>his...
+to | to | la-transl | translation | docs/texts/xml/caes0004.xml|<p>to
+an | an | la-transl | translation | docs/texts/xml/caes0004.xml|<p>an
+incomparable | incomparable | la-transl | translation | docs/texts/xml/caes0004.xml|<p>incomparable
+man | man | la-transl | translation | docs/texts/xml/caes0004.xml|<p>man.
+Αὐρήλιον | Αὐρήλιον | grc | transcription | docs/texts/xml/caes0005.xml|<p><choice><abbr>Αὐρήλιον
+Αὐρήλιον | Αὐρήλιον | grc | transcription | docs/texts/xml/caes0005.xml|<p><choice><abbr>Αὐρήλιον
+Μάρωνα | Μάρωνα | grc | transcription | docs/texts/xml/caes0005.xml|<p><choice>Μάρωνα
+ἐπίτρ | ἐπίτρ | grc | transcription | docs/texts/xml/caes0005.xml|<p><choice><abbr>ἐπίτρ
+ἐπίτροπον | ἐπίτροπον | grc | transcription | docs/texts/xml/caes0005.xml|<p><choice><abbr>ἐπίτροπον
+τοῦ | ὁ | grc | transcription | docs/texts/xml/caes0005.xml|<p><choice><lb>τοῦ
+Σεβαστοῦ | σεβαστός | grc | transcription | docs/texts/xml/caes0005.xml|<p><expan>Σεβαστοῦ
+διέποντα | διέποντα | grc | transcription | docs/texts/xml/caes0005.xml|<p>διέποντα
+τὰ | τὰ | grc | transcription | docs/texts/xml/caes0005.xml|<p>τὰ
+μέρη | μέρη | grc | transcription | docs/texts/xml/caes0005.xml|<p>μέρη
+τῆς | ὁ | grc | transcription | docs/texts/xml/caes0005.xml|<p>τῆς
+ἡγεμονίας | ἡγεμονίας | grc | transcription | docs/texts/xml/caes0005.xml|<p>ἡγεμονίας
+Ν | Ν | grc | transcription | docs/texts/xml/caes0005.xml|<p>Ν
+ς | ς | grc | transcription | docs/texts/xml/caes0005.xml|<p><gap reason="illegible"><unclear>ς
+Ἀλέξανδρος | Ἀλέξανδρος | grc | transcription | docs/texts/xml/caes0005.xml|<p>Ἀλέξανδρος
+ἑκατόνταρχος | ἑκατόνταρχος | grc | transcription | docs/texts/xml/caes0005.xml|<p>ἑκατόνταρχος
+τόν | τόν | grc | transcription | docs/texts/xml/caes0005.xml|<p>τόν
+φίλον | φίλον | grc | transcription | docs/texts/xml/caes0005.xml|<p>φίλον.
+The | The | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>The
+centurion | centurion | grc-transl | translation | docs/texts/xml/caes0005.xml|<p><rs type="admTitle">centurion
+N | N | grc-transl | translation | docs/texts/xml/caes0005.xml|<p><persName lang="la " ref="persons.xml#caes0005p01">N-
+Alexandros | Alexandros | grc-transl | translation | docs/texts/xml/caes0005.xml|<p><persName lang="la " ref="persons.xml#caes0005p01">Alexandros
+honors | honors | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>honors
+his | his | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>his
+friend | friend | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>friend
+Aurelios | Aurelios | grc-transl | translation | docs/texts/xml/caes0005.xml|<p><persName lang="la " ref="persons.xml#caes0005p02">Aurelios
+Maron | Maron | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>Maron
+procurator | procurator | grc-transl | translation | docs/texts/xml/caes0005.xml|<p><rs type="admTitle">procurator
+of | of | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>of
+Augustus | Augustus | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>Augustus
+and | and | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>and
+acting | acting | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>acting
+governor | governor | grc-transl | translation | docs/texts/xml/caes0005.xml|<p>governor.
+Imperatori | imperator | la | transcription | docs/texts/xml/caes0006.xml|<p>Imperatori
+Caes | Caes | la | transcription | docs/texts/xml/caes0006.xml|<p><choice><abbr>Caes
+Caesari | Caesari | la | transcription | docs/texts/xml/caes0006.xml|<p><choice>Caesari
+Caio | caio | la | transcription | docs/texts/xml/caes0006.xml|<p><choice><expan>Caio
+Valerio | Valerio | la | transcription | docs/texts/xml/caes0006.xml|<p>Valerio
+Diocletiano | Diocletiano | la | transcription | docs/texts/xml/caes0006.xml|<p><lb>Diocletiano
+pio | pius | la | transcription | docs/texts/xml/caes0006.xml|<p><supplied reason="undefined">pio
+felici | felix | la | transcription | docs/texts/xml/caes0006.xml|<p><supplied reason="undefined">felici
+invicto | invictus | la | transcription | docs/texts/xml/caes0006.xml|<p><supplied reason="undefined">invicto
+Aug | Aug | la | transcription | docs/texts/xml/caes0006.xml|<p><choice><abbr>Aug
+Augusto | augustus | la | transcription | docs/texts/xml/caes0006.xml|<p><choice>Augusto
+Clemes | Clemes | la | transcription | docs/texts/xml/caes0006.xml|<p><choice><lb><gap reason="illegible" quantity="1" unit="character"><unclear>Clemes
+vir | vir | la | transcription | docs/texts/xml/caes0006.xml|<p>vir
+perfectissimus | perficio | la | transcription | docs/texts/xml/caes0006.xml|<p>perfectissimus
+procurator | procurator | la | transcription | docs/texts/xml/caes0006.xml|<p><lb>procurator
+devotus | de_-voveo | la | transcription | docs/texts/xml/caes0006.xml|<p>devotus
+numini | numen | la | transcription | docs/texts/xml/caes0006.xml|<p>numini
+maiestatique | majestas | la | transcription | docs/texts/xml/caes0006.xml|<p>maiestatique
+eius | is | la | transcription | docs/texts/xml/caes0006.xml|<p>eius.
+To | To | la-transl | translation | docs/texts/xml/caes0006.xml|<p>To
+Emperor | Emperor | la-transl | translation | docs/texts/xml/caes0006.xml|<p><rs type="admTitle">Emperor
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0006.xml|<p><rs type="admTitle">Caesar
+Gaius | Gaius | la-transl | translation | docs/texts/xml/caes0006.xml|<p><name><persName lang="la " ref="persons.xml#caes0006p01" nymRef="names.xml#caes0006n01">Gaius
+Valerius | Valerius | la-transl | translation | docs/texts/xml/caes0006.xml|<p><name><persName lang="la " ref="persons.xml#caes0006p02" nymRef="names.xml#caes0006n02">Valerius
+Diocletian | Diocletian | la-transl | translation | docs/texts/xml/caes0006.xml|<p><name><persName lang="la " ref="persons.xml#caes0006p03" nymRef="names.xml#caes0006n03">Diocletian
+faithful | faithful | la-transl | translation | docs/texts/xml/caes0006.xml|<p><name>faithful
+and | and | la-transl | translation | docs/texts/xml/caes0006.xml|<p>and
+happy | happy | la-transl | translation | docs/texts/xml/caes0006.xml|<p>happy
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0006.xml|<p>Augustus.
+Clemens | Clemens | la-transl | translation | docs/texts/xml/caes0006.xml|<p><persName lang="la " ref="persons.xml#caes0006p05" nymRef="names.xml#caes0006n05">Clemens
+of | of | la-transl | translation | docs/texts/xml/caes0006.xml|<p>of
+perfectissimate | perfectissimate | la-transl | translation | docs/texts/xml/caes0006.xml|<p><rs type="admTitle">perfectissimate
+rank | rank | la-transl | translation | docs/texts/xml/caes0006.xml|<p>rank
+procurator | procurator | la-transl | translation | docs/texts/xml/caes0006.xml|<p><rs type="admTitle">procurator
+devoted | devoted | la-transl | translation | docs/texts/xml/caes0006.xml|<p>devoted
+to | to | la-transl | translation | docs/texts/xml/caes0006.xml|<p>to
+his | his | la-transl | translation | docs/texts/xml/caes0006.xml|<p>his
+spirit | spirit | la-transl | translation | docs/texts/xml/caes0006.xml|<p>spirit
+and | and | la-transl | translation | docs/texts/xml/caes0006.xml|<p>and
+majesty | majesty | la-transl | translation | docs/texts/xml/caes0006.xml|<p>majesty.
+Caio | caio | la | transcription | docs/texts/xml/caes0007.xml|<p><expan>Caio
+FurioTimesitheo | FurioTimesitheo | la | transcription | docs/texts/xml/caes0007.xml|<p>FurioTimesitheo
+procuratori | procurator | la | transcription | docs/texts/xml/caes0007.xml|<p>procuratori
+Augusti | augustus | la | transcription | docs/texts/xml/caes0007.xml|<p>Augusti
+Aurelius | Aurelius | la | transcription | docs/texts/xml/caes0007.xml|<p><expan>Aurelius
+Iustinus | Iustinus | la | transcription | docs/texts/xml/caes0007.xml|<p>Iustinus
+centurio | centurio | la | transcription | docs/texts/xml/caes0007.xml|<p><choice><abbr>centurio
+strator | strator | la | transcription | docs/texts/xml/caes0007.xml|<p><choice><lb><expan>strator
+eius | is | la | transcription | docs/texts/xml/caes0007.xml|<p>eius.
+To | To | la-transl | translation | docs/texts/xml/caes0007.xml|<p>To
+Gaius | Gaius | la-transl | translation | docs/texts/xml/caes0007.xml|<p><name><persName lang="la " ref="persons.xml#caes0007p01" nymRef="names.xml#caes0007n01">Gaius
+Furius | Furius | la-transl | translation | docs/texts/xml/caes0007.xml|<p><name><persName lang="la " ref="persons.xml#caes0007p02" nymRef="names.xml#caes0007n02">Furius
+Timesitheus | Timesitheus | la-transl | translation | docs/texts/xml/caes0007.xml|<p><name><persName lang="la " ref="persons.xml#caes0007p03" nymRef="names.xml#caes0007n03">Timesitheus
+procurator | procurator | la-transl | translation | docs/texts/xml/caes0007.xml|<p><name><rs type="admTitle">procurator
+of | of | la-transl | translation | docs/texts/xml/caes0007.xml|<p>of
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0007.xml|<p>Augustus.
+Aurelius | Aurelius | la-transl | translation | docs/texts/xml/caes0007.xml|<p><name><persName lang="la " ref="persons.xml#caes0007p04" nymRef="names.xml#caes0007n04">Aurelius
+Justinus | Justinus | la-transl | translation | docs/texts/xml/caes0007.xml|<p><name><persName lang="la " ref="persons.xml#caes0007p05" nymRef="names.xml#caes0007n05">Justinus
+centurion | centurion | la-transl | translation | docs/texts/xml/caes0007.xml|<p><name><rs type="admTitle">centurion
+and | and | la-transl | translation | docs/texts/xml/caes0007.xml|<p>and
+his | his | la-transl | translation | docs/texts/xml/caes0007.xml|<p>his
+strator | strator | la-transl | translation | docs/texts/xml/caes0007.xml|<p>strator.
+A | ab | la | transcription | docs/texts/xml/caes0008.xml|<p>A
+clarissimo | clarus | la | transcription | docs/texts/xml/caes0008.xml|<p><unclear><del><gap reason="illegible" atLeast="14" atMost="16" unit="character"><supplied reason="undefined">clarissimo
+viro | vir | la | transcription | docs/texts/xml/caes0008.xml|<p><del><supplied reason="undefined">viro
+legato | lego | la | transcription | docs/texts/xml/caes0008.xml|<p><del><supplied reason="undefined"><lb>legato
+Augusti | augustus | la | transcription | docs/texts/xml/caes0008.xml|<p>Augusti
+pro | pro | la | transcription | docs/texts/xml/caes0008.xml|<p><del><supplied reason="lost">pro
+praetore | praetor | la | transcription | docs/texts/xml/caes0008.xml|<p><del><supplied reason="lost">praetore
+provinciae | provincia | la | transcription | docs/texts/xml/caes0008.xml|<p><del><supplied reason="lost">provinciae
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0008.xml|<p><del>Syriae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0008.xml|<p><del><lb>Palaestinae
+ACER | acer | la | transcription | docs/texts/xml/caes0008.xml|<p><del><gap reason="illegible" atLeast="10" atMost="12" unit="character">ACER
+II | eo | la | transcription | docs/texts/xml/caes0008.xml|<p><del><gap reason="illegible" atLeast="4" atMost="6" unit="character">II
+patrono | patronus | la | transcription | docs/texts/xml/caes0008.xml|<p>patrono
+ex | ex | la | transcription | docs/texts/xml/caes0008.xml|<p><del><gap reason="illegible" atLeast="8" atMost="10" unit="character">ex
+decreto | decerno | la | transcription | docs/texts/xml/caes0008.xml|<p><del>decreto
+decurionum | decurio | la | transcription | docs/texts/xml/caes0008.xml|<p><del>decurionum
+pecunia | pecunia | la | transcription | docs/texts/xml/caes0008.xml|<p><del>pecunia
+publica | publico | la | transcription | docs/texts/xml/caes0008.xml|<p><del>publica
+duovir | duovir | la | transcription | docs/texts/xml/caes0008.xml|<p><lb>duovir
+E | ex | la | transcription | docs/texts/xml/caes0008.xml|<p><del><gap reason="illegible" atLeast="7" atMost="9" unit="character"><unclear>E
+IS | eo | la | transcription | docs/texts/xml/caes0008.xml|<p><del>IS
+RI | rus | la | transcription | docs/texts/xml/caes0008.xml|<p><del><unclear><unclear><unclear>RI
+et | et | la | transcription | docs/texts/xml/caes0008.xml|<p><del>et
+OPO | opos | la | transcription | docs/texts/xml/caes0008.xml|<p><del><lb><del><gap reason="illegible" atLeast="10" atMost="12" unit="character">OPO
+I | eo | la | transcription | docs/texts/xml/caes0008.xml|<p><del>I
+Felicissimo | felix | la | transcription | docs/texts/xml/caes0009.xml|<p>Felicissimo
+ac | atque | la | transcription | docs/texts/xml/caes0009.xml|<p>ac
+providentissimo | providentissimo | la | transcription | docs/texts/xml/caes0009.xml|<p>providentissimo
+victoriosissimόque | victoriosissimόque | la | transcription | docs/texts/xml/caes0009.xml|<p><lb>victoriosissimόque
+principi | princeps | la | transcription | docs/texts/xml/caes0009.xml|<p>principi
+domino | dominus | la | transcription | docs/texts/xml/caes0009.xml|<p><lb>domino
+nostro | noster | la | transcription | docs/texts/xml/caes0009.xml|<p>nostro
+Marco | marcus | la | transcription | docs/texts/xml/caes0009.xml|<p>Marco
+Aurelio | Aurelio | la | transcription | docs/texts/xml/caes0009.xml|<p>Aurelio
+Valeriano | Valeriano | la | transcription | docs/texts/xml/caes0009.xml|<p>Valeriano
+Maximiano | Maximiano | la | transcription | docs/texts/xml/caes0009.xml|<p><lb>Maximiano
+pio | pius | la | transcription | docs/texts/xml/caes0009.xml|<p>pio
+felici | felix | la | transcription | docs/texts/xml/caes0009.xml|<p><expan>felici
+invicto | invictus | la | transcription | docs/texts/xml/caes0009.xml|<p>invicto
+Augusto | augustus | la | transcription | docs/texts/xml/caes0009.xml|<p>Augusto
+Arbaeus | Arbaeus | la | transcription | docs/texts/xml/caes0009.xml|<p>Arbaeus
+Africanus | Africanus | la | transcription | docs/texts/xml/caes0009.xml|<p>Africanus
+vir | vir | la | transcription | docs/texts/xml/caes0009.xml|<p>vir
+perfectissimus | perficio | la | transcription | docs/texts/xml/caes0009.xml|<p>perfectissimus
+praeses | praeses | la | transcription | docs/texts/xml/caes0009.xml|<p><lb>praeses
+provinciae | provincia | la | transcription | docs/texts/xml/caes0009.xml|<p>provinciae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0009.xml|<p><expan>Palaestinae
+tranquil | tranquil | la | transcription | docs/texts/xml/caes0009.xml|<p>tranquil
+litati | litati | la | transcription | docs/texts/xml/caes0009.xml|<p>litati
+eius | is | la | transcription | docs/texts/xml/caes0009.xml|<p>eius
+dicatissimus | dicatissimus | la | transcription | docs/texts/xml/caes0009.xml|<p>dicatissimus.
+To | To | la-transl | translation | docs/texts/xml/caes0009.xml|<p>To
+the | the | la-transl | translation | docs/texts/xml/caes0009.xml|<p>the
+most | most | la-transl | translation | docs/texts/xml/caes0009.xml|<p>most
+fortunate | fortunate | la-transl | translation | docs/texts/xml/caes0009.xml|<p>fortunate
+prudent | prudent | la-transl | translation | docs/texts/xml/caes0009.xml|<p>prudent
+and | and | la-transl | translation | docs/texts/xml/caes0009.xml|<p>and
+victorious | victorious | la-transl | translation | docs/texts/xml/caes0009.xml|<p>victorious
+prince | prince | la-transl | translation | docs/texts/xml/caes0009.xml|<p>prince
+our | our | la-transl | translation | docs/texts/xml/caes0009.xml|<p>our
+Lord | Lord | la-transl | translation | docs/texts/xml/caes0009.xml|<p><rs type="title">Lord
+Marcus | Marcus | la-transl | translation | docs/texts/xml/caes0009.xml|<p><name><persName lang="la " ref="persons.xml#caes0009p01" nymRef="names.xml#caes0009n01">Marcus
+Aurelius | Aurelius | la-transl | translation | docs/texts/xml/caes0009.xml|<p><name><persName lang="la " ref="persons.xml#caes0009p02" nymRef="names.xml#caes0009n02">Aurelius
+Valerius | Valerius | la-transl | translation | docs/texts/xml/caes0009.xml|<p><name><persName lang="la " ref="persons.xml#caes0009p03" nymRef="names.xml#caes0009n03">Valerius
+Maximianus | Maximianus | la-transl | translation | docs/texts/xml/caes0009.xml|<p><name><rs type="epithet" lang="la ">Maximianus
+Pius | Pius | la-transl | translation | docs/texts/xml/caes0009.xml|<p><rs type="epithet" lang="la ">Pius
+Felix | Felix | la-transl | translation | docs/texts/xml/caes0009.xml|<p><rs type="epithet" lang="la ">Felix
+Invictus | Invictus | la-transl | translation | docs/texts/xml/caes0009.xml|<p><rs type="epithet" lang="la ">Invictus
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0009.xml|<p><rs type="epithet" lang="la ">Augustus
+Arbaeus | Arbaeus | la-transl | translation | docs/texts/xml/caes0009.xml|<p><name><persName lang="la " ref="persons.xml#caes0009p04" nymRef="names.xml#caes0009n04">Arbaeus
+Africanus | Africanus | la-transl | translation | docs/texts/xml/caes0009.xml|<p><name><persName lang="la " ref="persons.xml#caes0009p05" nymRef="names.xml#caes0009n05">Africanus
+of | of | la-transl | translation | docs/texts/xml/caes0009.xml|<p><name>of
+perfectissimate | perfectissimate | la-transl | translation | docs/texts/xml/caes0009.xml|<p><rs type="admTitle">perfectissimate
+rank | rank | la-transl | translation | docs/texts/xml/caes0009.xml|<p>rank
+governor | governor | la-transl | translation | docs/texts/xml/caes0009.xml|<p><rs type="admTitle">governor
+of | of | la-transl | translation | docs/texts/xml/caes0009.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0009.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0009.xml|<p>province
+Palaestina | Palaestina | la-transl | translation | docs/texts/xml/caes0009.xml|<p><placeName>Palaestina
+most | most | la-transl | translation | docs/texts/xml/caes0009.xml|<p>most
+devoted | devoted | la-transl | translation | docs/texts/xml/caes0009.xml|<p>devoted
+to | to | la-transl | translation | docs/texts/xml/caes0009.xml|<p>to
+His | His | la-transl | translation | docs/texts/xml/caes0009.xml|<p><rs type="epithet">His
+Serenity | Serenity | la-transl | translation | docs/texts/xml/caes0009.xml|<p>Serenity.
+Valerio | Valerio | la | transcription | docs/texts/xml/caes0010.xml|<p><expan>Valerio
+Calpurniano | Calpurniano | la | transcription | docs/texts/xml/caes0010.xml|<p>Calpurniano
+viro | vir | la | transcription | docs/texts/xml/caes0010.xml|<p>viro
+perfectissimo | perficio | la | transcription | docs/texts/xml/caes0010.xml|<p><supplied reason="undefined">perfectissimo
+praefecto | praeficio | la | transcription | docs/texts/xml/caes0010.xml|<p><supplied reason="undefined"><lb>praefecto
+Mesopotamiae | Mesopotamiae | la | transcription | docs/texts/xml/caes0010.xml|<p>Mesopotamiae
+et | et | la | transcription | docs/texts/xml/caes0010.xml|<p>et
+Osrhoenae | Osrhoenae | la | transcription | docs/texts/xml/caes0010.xml|<p>Osrhoenae
+patrono | patronus | la | transcription | docs/texts/xml/caes0010.xml|<p>patrono
+metr | metr | la | transcription | docs/texts/xml/caes0010.xml|<p><choice><abbr>metr
+metropolis | metropolis | la | transcription | docs/texts/xml/caes0010.xml|<p><choice><abbr>metropolis
+ex | ex | la | transcription | docs/texts/xml/caes0010.xml|<p><choice><lb>ex
+decreto | decerno | la | transcription | docs/texts/xml/caes0010.xml|<p>decreto
+decurionum | decurio | la | transcription | docs/texts/xml/caes0010.xml|<p>decurionum
+pecunia | pecunia | la | transcription | docs/texts/xml/caes0010.xml|<p>pecunia
+publica | publico | la | transcription | docs/texts/xml/caes0010.xml|<p>publica
+Aurelio | Aurelio | la | transcription | docs/texts/xml/caes0010.xml|<p>Aurelio
+Flavio | Flavio | la | transcription | docs/texts/xml/caes0010.xml|<p><expan>Flavio
+Theophilo | Theophilo | la | transcription | docs/texts/xml/caes0010.xml|<p>Theophilo
+equite | equio | la | transcription | docs/texts/xml/caes0010.xml|<p>equite
+Romano | Romano | la | transcription | docs/texts/xml/caes0010.xml|<p><expan>Romano
+et | et | la | transcription | docs/texts/xml/caes0010.xml|<p>et
+decurione | decurio | la | transcription | docs/texts/xml/caes0010.xml|<p>decurione
+metropolis | metropolis | la | transcription | docs/texts/xml/caes0010.xml|<p>metropolis.
+To | To | la-transl | translation | docs/texts/xml/caes0010.xml|<p>To
+Valerius | Valerius | la-transl | translation | docs/texts/xml/caes0010.xml|<p><name><persName lang="la " ref="persons.xml#caes0010p01" nymRef="names.xml#caes0010n01">Valerius
+Calpurnianus | Calpurnianus | la-transl | translation | docs/texts/xml/caes0010.xml|<p><name><persName lang="la " ref="persons.xml#caes0010p02" nymRef="names.xml#caes0010n02">Calpurnianus
+of | of | la-transl | translation | docs/texts/xml/caes0010.xml|<p><name>of
+perfectissimate | perfectissimate | la-transl | translation | docs/texts/xml/caes0010.xml|<p><rs type="admTitle">perfectissimate
+rank | rank | la-transl | translation | docs/texts/xml/caes0010.xml|<p>rank
+prefect | prefect | la-transl | translation | docs/texts/xml/caes0010.xml|<p><rs type="admTitle">prefect
+of | of | la-transl | translation | docs/texts/xml/caes0010.xml|<p>of
+Mesopotamia | Mesopotamia | la-transl | translation | docs/texts/xml/caes0010.xml|<p><placeName>Mesopotamia
+and | and | la-transl | translation | docs/texts/xml/caes0010.xml|<p>and
+Osrhoene | Osrhoene | la-transl | translation | docs/texts/xml/caes0010.xml|<p><placeName>Osrhoene
+patron | patron | la-transl | translation | docs/texts/xml/caes0010.xml|<p><rs type="status">patron
+of | of | la-transl | translation | docs/texts/xml/caes0010.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0010.xml|<p>the
+metropolis | metropolis | la-transl | translation | docs/texts/xml/caes0010.xml|<p>metropolis.
+By | By | la-transl | translation | docs/texts/xml/caes0010.xml|<p>By
+decree | decree | la-transl | translation | docs/texts/xml/caes0010.xml|<p>decree
+of | of | la-transl | translation | docs/texts/xml/caes0010.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0010.xml|<p>the
+decurions | decurions | la-transl | translation | docs/texts/xml/caes0010.xml|<p>decurions
+at | at | la-transl | translation | docs/texts/xml/caes0010.xml|<p>at
+public | public | la-transl | translation | docs/texts/xml/caes0010.xml|<p>public
+expense | expense | la-transl | translation | docs/texts/xml/caes0010.xml|<p>expense.
+Aurelius | Aurelius | la-transl | translation | docs/texts/xml/caes0010.xml|<p><name><persName lang="la " ref="persons.xml#caes0010p03" nymRef="names.xml#caes0010n03">Aurelius
+Flavius | Flavius | la-transl | translation | docs/texts/xml/caes0010.xml|<p><name><persName lang="la " ref="persons.xml#caes0010p04" nymRef="names.xml#caes0010n04">Flavius
+Theophilus | Theophilus | la-transl | translation | docs/texts/xml/caes0010.xml|<p><name><persName lang="la " ref="persons.xml#caes0010p05" nymRef="names.xml#caes0010n05">Theophilus
+Roman | Roman | la-transl | translation | docs/texts/xml/caes0010.xml|<p><name>Roman
+knight | knight | la-transl | translation | docs/texts/xml/caes0010.xml|<p><rs type="admTitle">knight
+and | and | la-transl | translation | docs/texts/xml/caes0010.xml|<p>and
+decurion | decurion | la-transl | translation | docs/texts/xml/caes0010.xml|<p><rs type="admTitle">decurion
+of | of | la-transl | translation | docs/texts/xml/caes0010.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0010.xml|<p>the
+metropolis | metropolis | la-transl | translation | docs/texts/xml/caes0010.xml|<p>metropolis
+was | was | la-transl | translation | docs/texts/xml/caes0010.xml|<p>was
+responsible | responsible | la-transl | translation | docs/texts/xml/caes0010.xml|<p>responsible.
+Aelio | Aelio | la | transcription | docs/texts/xml/caes0011.xml|<p>Aelio
+Iulian | Iulian | la | transcription | docs/texts/xml/caes0011.xml|<p>Iulian
+o | o | la | transcription | docs/texts/xml/caes0011.xml|<p>o
+viro | vir | la | transcription | docs/texts/xml/caes0011.xml|<p><lb>viro
+egregio | egregius | la | transcription | docs/texts/xml/caes0011.xml|<p>egregio
+procuratori | procurator | la | transcription | docs/texts/xml/caes0011.xml|<p>procuratori
+Augusti | augustus | la | transcription | docs/texts/xml/caes0011.xml|<p>Augusti
+nostri | noster | la | transcription | docs/texts/xml/caes0011.xml|<p>nostri
+patr | patr | la | transcription | docs/texts/xml/caes0011.xml|<p><lb><choice><abbr>patr
+patrono | patronus | la | transcription | docs/texts/xml/caes0011.xml|<p><choice><abbr>patrono
+metr | metr | la | transcription | docs/texts/xml/caes0011.xml|<p><choice><choice><abbr>metr
+metropolis | metropolis | la | transcription | docs/texts/xml/caes0011.xml|<p><choice><abbr>metropolis
+ex | ex | la | transcription | docs/texts/xml/caes0011.xml|<p><choice>ex
+decreto | decerno | la | transcription | docs/texts/xml/caes0011.xml|<p>decreto
+decurionum | decurio | la | transcription | docs/texts/xml/caes0011.xml|<p>decurionum.
+In | In | la-transl | translation | docs/texts/xml/caes0011.xml|<p>In
+honor | honor | la-transl | translation | docs/texts/xml/caes0011.xml|<p>honor
+of | of | la-transl | translation | docs/texts/xml/caes0011.xml|<p>of
+Aelius | Aelius | la-transl | translation | docs/texts/xml/caes0011.xml|<p><name><persName lang="la " ref="persons.xml#caes0011p01" nymRef="names.xml#caes0011n01">Aelius
+Julianus | Julianus | la-transl | translation | docs/texts/xml/caes0011.xml|<p><name><persName lang="la " ref="persons.xml#caes0011p02" nymRef="names.xml#caes0011n02">Julianus
+of | of | la-transl | translation | docs/texts/xml/caes0011.xml|<p><name>of
+egregiate | egregiate | la-transl | translation | docs/texts/xml/caes0011.xml|<p><rs type="admTitle">egregiate
+rank | rank | la-transl | translation | docs/texts/xml/caes0011.xml|<p>rank
+procurator | procurator | la-transl | translation | docs/texts/xml/caes0011.xml|<p><rs type="admTitle">procurator
+of | of | la-transl | translation | docs/texts/xml/caes0011.xml|<p>of
+our | our | la-transl | translation | docs/texts/xml/caes0011.xml|<p>our
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0011.xml|<p>Augustus
+patron | patron | la-transl | translation | docs/texts/xml/caes0011.xml|<p><rs type="status">patron
+of | of | la-transl | translation | docs/texts/xml/caes0011.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0011.xml|<p>the
+metropolis | metropolis | la-transl | translation | docs/texts/xml/caes0011.xml|<p>metropolis
+by | by | la-transl | translation | docs/texts/xml/caes0011.xml|<p>by
+decree | decree | la-transl | translation | docs/texts/xml/caes0011.xml|<p>decree
+of | of | la-transl | translation | docs/texts/xml/caes0011.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0011.xml|<p>the
+decurions | decurions | la-transl | translation | docs/texts/xml/caes0011.xml|<p>decurions.
+TΤίτον | TΤίτον | grc | transcription | docs/texts/xml/caes0012.xml|<p><del>TΤίτον
+Φλάουιον | Φλάουιον | grc | transcription | docs/texts/xml/caes0012.xml|<p><del><expan>Φλάουιον
+Μάξιμον | Μάξιμον | grc | transcription | docs/texts/xml/caes0012.xml|<p><del>Μάξιμον
+φιλόσοφον | φιλόσοφον | grc | transcription | docs/texts/xml/caes0012.xml|<p><lb><del>φιλόσοφον
+Οὐάριος | Οὐάριος | grc | transcription | docs/texts/xml/caes0012.xml|<p><del>Οὐάριος
+Σέλευκος | Σέλευκος | grc | transcription | docs/texts/xml/caes0012.xml|<p><del>Σέλευκος
+κουράτορ | κουράτορ | grc | transcription | docs/texts/xml/caes0012.xml|<p><lb><del>κουράτορ
+πλοίων | πλοίων | grc | transcription | docs/texts/xml/caes0012.xml|<p><del>πλοίων
+κολωνίας | κολωνίας | grc | transcription | docs/texts/xml/caes0012.xml|<p><del><lb><del><expan>κολωνίας
+Καισαρείας | Καισαρείας | grc | transcription | docs/texts/xml/caes0012.xml|<p><del>Καισαρείας
+τὸν | τὸν | grc | transcription | docs/texts/xml/caes0012.xml|<p><lb><del>τὸν
+προστάτην | προστάτην | grc | transcription | docs/texts/xml/caes0012.xml|<p>προστάτην.
+Varios | Varios | grc-transl | translation | docs/texts/xml/caes0012.xml|<p><persName lang="grc " ref="persons.xml#caes0012p01">Varios
+Seleukos | Seleukos | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>Seleukos
+curator | curator | grc-transl | translation | docs/texts/xml/caes0012.xml|<p><rs type="occupation">curator
+of | of | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>of
+ships | ships | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>ships
+for | for | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>for
+the | the | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>the
+colony | colony | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>colony
+Caesarea | Caesarea | grc-transl | translation | docs/texts/xml/caes0012.xml|<p><placeName>Caesarea
+honors | honors | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>honors
+as | as | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>as
+his | his | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>his
+patron | patron | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>patron
+the | the | grc-transl | translation | docs/texts/xml/caes0012.xml|<p>the
+philosopher | philosopher | grc-transl | translation | docs/texts/xml/caes0012.xml|<p><rs type="occupation">philosopher
+Titos | Titos | grc-transl | translation | docs/texts/xml/caes0012.xml|<p><name><persName lang="la " ref="persons.xml#caes0012p02" nymRef="names.xml#caes0012n02">Titos
+Flavios | Flavios | grc-transl | translation | docs/texts/xml/caes0012.xml|<p><name><persName lang="la " ref="persons.xml#caes0012p03" nymRef="names.xml#caes0012n03">Flavios
+Maximos | Maximos | grc-transl | translation | docs/texts/xml/caes0012.xml|<p><name><persName lang="la " ref="persons.xml#caes0012p04" nymRef="names.xml#caes0012n04">Maximos
+Probo | probo | la | transcription | docs/texts/xml/caes0013.xml|<p><supplied reason="undefined"><gap reason="illegible" atLeast="9" atMost="11" unit="character"><del><gap reason="illegible" atLeast="4" atMost="6" unit="character"><lb>Probo
+Aug | Aug | la | transcription | docs/texts/xml/caes0013.xml|<p><expan><abbr>Aug
+usto | uro | la | transcription | docs/texts/xml/caes0013.xml|<p><expan><ex>usto
+super | supo | la | transcription | docs/texts/xml/caes0013.xml|<p><expan><gap reason="illegible"><del><gap reason="illegible" atLeast="2" atMost="4" unit="character"><lb>super
+om | om | la | transcription | docs/texts/xml/caes0013.xml|<p>om
+nes | no | la | transcription | docs/texts/xml/caes0013.xml|<p>nes
+retro | retro | la | transcription | docs/texts/xml/caes0013.xml|<p>retro
+principes | princeps | la | transcription | docs/texts/xml/caes0013.xml|<p>principes
+fortissimo | fortis | la | transcription | docs/texts/xml/caes0013.xml|<p>fortissimo
+P | P | la | transcription | docs/texts/xml/caes0013.xml|<p><gap reason="illegible" atLeast="3" atMost="5" unit="character">P
+assenianus | assenianus | la | transcription | docs/texts/xml/caes0013.xml|<p>assenianus
+vir | vir | la | transcription | docs/texts/xml/caes0013.xml|<p>vir
+clarissimus | clarus | la | transcription | docs/texts/xml/caes0013.xml|<p>clarissimus
+praeses | praeses | la | transcription | docs/texts/xml/caes0013.xml|<p>praeses
+provinciae | provincia | la | transcription | docs/texts/xml/caes0013.xml|<p>provinciae
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0013.xml|<p>Syriae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0013.xml|<p><lb><expan>Palaestinae
+devotus | de_-voveo | la | transcription | docs/texts/xml/caes0013.xml|<p>devotus
+numini | numen | la | transcription | docs/texts/xml/caes0013.xml|<p>numini
+maiestatique | majestas | la | transcription | docs/texts/xml/caes0013.xml|<p>maiestatique
+eius | is | la | transcription | docs/texts/xml/caes0013.xml|<p>eius.
+To | To | la-transl | translation | docs/texts/xml/caes0013.xml|<p>To...
+Probus | Probus | la-transl | translation | docs/texts/xml/caes0013.xml|<p><name><persName lang="la " ref="persons.xml#caes0013p01" nymRef="names.xml#caes0013n01">Probus
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0013.xml|<p><name><persName lang="la " ref="persons.xml#caes0013p02" nymRef="names.xml#caes0013n02">Augustus
+most | most | la-transl | translation | docs/texts/xml/caes0013.xml|<p><name>...most
+powerful | powerful | la-transl | translation | docs/texts/xml/caes0013.xml|<p>powerful
+beyond | beyond | la-transl | translation | docs/texts/xml/caes0013.xml|<p>beyond
+all | all | la-transl | translation | docs/texts/xml/caes0013.xml|<p>all
+previous | previous | la-transl | translation | docs/texts/xml/caes0013.xml|<p>previous
+princesPassenianus | princesPassenianus | la-transl | translation | docs/texts/xml/caes0013.xml|<p>princes...Passenianus
+of | of | la-transl | translation | docs/texts/xml/caes0013.xml|<p>of
+clarissimate | clarissimate | la-transl | translation | docs/texts/xml/caes0013.xml|<p><rs type="admTitle">clarissimate
+rank | rank | la-transl | translation | docs/texts/xml/caes0013.xml|<p>rank
+governor | governor | la-transl | translation | docs/texts/xml/caes0013.xml|<p><rs type="admTitle">governor
+of | of | la-transl | translation | docs/texts/xml/caes0013.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0013.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0013.xml|<p>province
+Syria | Syria | la-transl | translation | docs/texts/xml/caes0013.xml|<p><placeName>Syria
+Palaestina | Palaestina | la-transl | translation | docs/texts/xml/caes0013.xml|<p><placeName>Palaestina
+devoted | devoted | la-transl | translation | docs/texts/xml/caes0013.xml|<p>devoted
+to | to | la-transl | translation | docs/texts/xml/caes0013.xml|<p>to
+his | his | la-transl | translation | docs/texts/xml/caes0013.xml|<p>his
+might | might | la-transl | translation | docs/texts/xml/caes0013.xml|<p>might
+and | and | la-transl | translation | docs/texts/xml/caes0013.xml|<p>and
+majesty | majesty | la-transl | translation | docs/texts/xml/caes0013.xml|<p>majesty.
+Fortissimo | fortis | la | transcription | docs/texts/xml/caes0014.xml|<p>Fortissimo
+et | et | la | transcription | docs/texts/xml/caes0014.xml|<p>et
+consultissimo | consultissimo | la | transcription | docs/texts/xml/caes0014.xml|<p>consultissimo
+iuventutis | juventus | la | transcription | docs/texts/xml/caes0014.xml|<p><lb>iuventutis
+principi | princeps | la | transcription | docs/texts/xml/caes0014.xml|<p>principi
+Galerio | Galerio | la | transcription | docs/texts/xml/caes0014.xml|<p>Galerio
+Valerio | Valerio | la | transcription | docs/texts/xml/caes0014.xml|<p><expan>Valerio
+Maximiano | Maximiano | la | transcription | docs/texts/xml/caes0014.xml|<p>Maximiano
+pio | pius | la | transcription | docs/texts/xml/caes0014.xml|<p>pio
+felici | felix | la | transcription | docs/texts/xml/caes0014.xml|<p>felici
+invicto | invictus | la | transcription | docs/texts/xml/caes0014.xml|<p>invicto
+nobilissimo | nobilis | la | transcription | docs/texts/xml/caes0014.xml|<p>nobilissimo
+Caesari | Caesari | la | transcription | docs/texts/xml/caes0014.xml|<p>Caesari
+Aufidius | Aufidius | la | transcription | docs/texts/xml/caes0014.xml|<p><expan>Aufidius
+Priscus | priscus | la | transcription | docs/texts/xml/caes0014.xml|<p>Priscus
+vir | vir | la | transcription | docs/texts/xml/caes0014.xml|<p>vir
+perfectissimus | perficio | la | transcription | docs/texts/xml/caes0014.xml|<p>perfectissimus
+praeses | praeses | la | transcription | docs/texts/xml/caes0014.xml|<p>praeses
+provinciae | provincia | la | transcription | docs/texts/xml/caes0014.xml|<p><lb>provinciae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0014.xml|<p><expan>Palaestinae
+devotus | de_-voveo | la | transcription | docs/texts/xml/caes0014.xml|<p>devotus
+numini | numen | la | transcription | docs/texts/xml/caes0014.xml|<p>numini
+maiestatique | majestas | la | transcription | docs/texts/xml/caes0014.xml|<p>maiestatique
+eius | is | la | transcription | docs/texts/xml/caes0014.xml|<p>eius.
+To | To | la-transl | translation | docs/texts/xml/caes0014.xml|<p>To
+the | the | la-transl | translation | docs/texts/xml/caes0014.xml|<p>the
+strongest | strongest | la-transl | translation | docs/texts/xml/caes0014.xml|<p>strongest
+and | and | la-transl | translation | docs/texts/xml/caes0014.xml|<p>and
+wisest | wisest | la-transl | translation | docs/texts/xml/caes0014.xml|<p>wisest
+leader | leader | la-transl | translation | docs/texts/xml/caes0014.xml|<p>leader
+of | of | la-transl | translation | docs/texts/xml/caes0014.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0014.xml|<p>the
+young | young | la-transl | translation | docs/texts/xml/caes0014.xml|<p>young
+Galerius | Galerius | la-transl | translation | docs/texts/xml/caes0014.xml|<p><name><persName lang="la " ref="persons.xml#caes0014p01" nymRef="names.xml#caes0014n01">Galerius
+Valerius | Valerius | la-transl | translation | docs/texts/xml/caes0014.xml|<p><name><persName lang="la " ref="persons.xml#caes0014p02" nymRef="names.xml#caes0014n02">Valerius
+Maximianus | Maximianus | la-transl | translation | docs/texts/xml/caes0014.xml|<p><name><persName lang="la " ref="persons.xml#caes0014p03" nymRef="names.xml#caes0014n03">Maximianus
+faithful | faithful | la-transl | translation | docs/texts/xml/caes0014.xml|<p><name>faithful
+happy | happy | la-transl | translation | docs/texts/xml/caes0014.xml|<p>happy
+unconquered | unconquered | la-transl | translation | docs/texts/xml/caes0014.xml|<p>unconquered
+most | most | la-transl | translation | docs/texts/xml/caes0014.xml|<p>most
+noble | noble | la-transl | translation | docs/texts/xml/caes0014.xml|<p>noble
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0014.xml|<p>Caesar.
+Aufidius | Aufidius | la-transl | translation | docs/texts/xml/caes0014.xml|<p><name><persName lang="la " ref="persons.xml#caes0014p04" nymRef="names.xml#caes0014n04">Aufidius
+Priscus | Priscus | la-transl | translation | docs/texts/xml/caes0014.xml|<p><name><persName lang="la " ref="persons.xml#caes0014p05" nymRef="names.xml#caes0014n05">Priscus
+of | of | la-transl | translation | docs/texts/xml/caes0014.xml|<p><name>of
+perfectissimate | perfectissimate | la-transl | translation | docs/texts/xml/caes0014.xml|<p><rs type="admTitle">perfectissimate
+rank | rank | la-transl | translation | docs/texts/xml/caes0014.xml|<p>rank
+governor | governor | la-transl | translation | docs/texts/xml/caes0014.xml|<p><rs type="admTitle">governor
+of | of | la-transl | translation | docs/texts/xml/caes0014.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0014.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0014.xml|<p>province
+Palaestina | Palaestina | la-transl | translation | docs/texts/xml/caes0014.xml|<p><placeName>Palaestina
+devoted | devoted | la-transl | translation | docs/texts/xml/caes0014.xml|<p>devoted
+to | to | la-transl | translation | docs/texts/xml/caes0014.xml|<p>to
+his | his | la-transl | translation | docs/texts/xml/caes0014.xml|<p>his
+might | might | la-transl | translation | docs/texts/xml/caes0014.xml|<p>might
+and | and | la-transl | translation | docs/texts/xml/caes0014.xml|<p>and
+majesty | majesty | la-transl | translation | docs/texts/xml/caes0014.xml|<p>majesty.
+Decimo | decimus | la | transcription | docs/texts/xml/caes0015.xml|<p><expan>Decimo
+Seio | Seio | la | transcription | docs/texts/xml/caes0015.xml|<p>Seio
+Decimi | decimus | la | transcription | docs/texts/xml/caes0015.xml|<p>Decimi
+filio | filius | la | transcription | docs/texts/xml/caes0015.xml|<p>filio
+Quirina | Quirina | la | transcription | docs/texts/xml/caes0015.xml|<p><expan>Quirina
+Senecae | Senecae | la | transcription | docs/texts/xml/caes0015.xml|<p>Senecae
+legato | lego | la | transcription | docs/texts/xml/caes0015.xml|<p>legato
+Augusti | augustus | la | transcription | docs/texts/xml/caes0015.xml|<p><expan>Augusti
+pro | pro | la | transcription | docs/texts/xml/caes0015.xml|<p>pro
+praetore | praetor | la | transcription | docs/texts/xml/caes0015.xml|<p>praetore
+provinciae | provincia | la | transcription | docs/texts/xml/caes0015.xml|<p>provinciae
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0015.xml|<p><lb>Syriae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0015.xml|<p>Palaestinae
+mandatu | mando | la | transcription | docs/texts/xml/caes0015.xml|<p>mandatu
+Sexti | sextus | la | transcription | docs/texts/xml/caes0015.xml|<p>Sexti
+Cornelii | Cornelii | la | transcription | docs/texts/xml/caes0015.xml|<p><expan>Cornelii
+Quirina | Quirina | la | transcription | docs/texts/xml/caes0015.xml|<p>Quirina
+Taurini | taurinus | la | transcription | docs/texts/xml/caes0015.xml|<p>Taurini
+duumviralis | duumviralis | la | transcription | docs/texts/xml/caes0015.xml|<p>duumviralis
+Cornelius | Cornelius | la | transcription | docs/texts/xml/caes0015.xml|<p>Cornelius
+Quintianus | Quintianus | la | transcription | docs/texts/xml/caes0015.xml|<p><del>Quintianus
+filius | filius | la | transcription | docs/texts/xml/caes0015.xml|<p><lb>filius
+To | To | la-transl | translation | docs/texts/xml/caes0015.xml|<p>To
+Decimus | Decimus | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><persName lang="la " ref="persons.xml#caes0015p01" nymRef="names.xml#caes0015n01">Decimus
+Seius | Seius | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><persName lang="la " ref="persons.xml#caes0015p02" nymRef="names.xml#caes0015n02">Seius
+Seneca | Seneca | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><persName lang="la " ref="persons.xml#caes0015p03" nymRef="names.xml#caes0015n03">Seneca
+son | son | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><rs type="family">son
+of | of | la-transl | translation | docs/texts/xml/caes0015.xml|<p>of
+Decimus | Decimus | la-transl | translation | docs/texts/xml/caes0015.xml|<p><persName lang="la " ref="persons.xml#caes0015p04">Decimus
+of | of | la-transl | translation | docs/texts/xml/caes0015.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0015.xml|<p>the
+tribe | tribe | la-transl | translation | docs/texts/xml/caes0015.xml|<p>tribe
+Quirina | Quirina | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name>Quirina
+propraetorian | propraetorian | la-transl | translation | docs/texts/xml/caes0015.xml|<p><rs type="admTitle">propraetorian
+legate | legate | la-transl | translation | docs/texts/xml/caes0015.xml|<p><rs type="admTitle">legate
+of | of | la-transl | translation | docs/texts/xml/caes0015.xml|<p>of
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0015.xml|<p>Augustus
+for | for | la-transl | translation | docs/texts/xml/caes0015.xml|<p>for
+the | the | la-transl | translation | docs/texts/xml/caes0015.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0015.xml|<p>province
+Syria | Syria | la-transl | translation | docs/texts/xml/caes0015.xml|<p><placeName>Syria
+Palaestina | Palaestina | la-transl | translation | docs/texts/xml/caes0015.xml|<p>Palaestina.
+By | By | la-transl | translation | docs/texts/xml/caes0015.xml|<p>By
+order | order | la-transl | translation | docs/texts/xml/caes0015.xml|<p>order
+of | of | la-transl | translation | docs/texts/xml/caes0015.xml|<p>of
+Sextus | Sextus | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><persName lang="la " ref="persons.xml#caes0015p05" nymRef="names.xml#caes0015n05">Sextus
+Cornelius | Cornelius | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><persName lang="la " ref="persons.xml#caes0015p06" nymRef="names.xml#caes0015n06">Cornelius
+Taurinus | Taurinus | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><persName lang="la " ref="persons.xml#caes0015p07" nymRef="names.xml#caes0015n07">Taurinus
+of | of | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name>of
+the | the | la-transl | translation | docs/texts/xml/caes0015.xml|<p>the
+tribe | tribe | la-transl | translation | docs/texts/xml/caes0015.xml|<p>tribe
+Quirina | Quirina | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name>Quirina
+former | former | la-transl | translation | docs/texts/xml/caes0015.xml|<p>former
+duumvir | duumvir | la-transl | translation | docs/texts/xml/caes0015.xml|<p>duumvir.
+His | His | la-transl | translation | docs/texts/xml/caes0015.xml|<p>His
+son | son | la-transl | translation | docs/texts/xml/caes0015.xml|<p><rs type="family">son
+Cornelius | Cornelius | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><persName lang="la " ref="persons.xml#caes0015p08" nymRef="names.xml#caes0015n08">Cornelius
+Quintianus | Quintianus | la-transl | translation | docs/texts/xml/caes0015.xml|<p><name><persName lang="la " ref="persons.xml#caes0015p09" nymRef="names.xml#caes0015n09">Quintianus
+Omni | omne | la | transcription | docs/texts/xml/caes0016.xml|<p>Omni
+um | um | la | transcription | docs/texts/xml/caes0016.xml|<p><del><supplied reason="undefined">um
+gentium | gens | la | transcription | docs/texts/xml/caes0016.xml|<p><del>gentium
+vere | verus | la | transcription | docs/texts/xml/caes0016.xml|<p><del><lb>vere
+victoriosiss | victoriosiss | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>victoriosiss
+victoriosissimo | victoriosissimo | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>victoriosissimo
+ac | atque | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><lb>ac
+felicissimo | felix | la | transcription | docs/texts/xml/caes0016.xml|<p>felicissimo
+ciss | ciss | la | transcription | docs/texts/xml/caes0016.xml|<p><del>ciss
+indulgent | indulgeo | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>indulgent
+indulgentissimo | indulgeo | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>indulgentissimo
+Caesari | Caesari | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><lb>Caesari
+nostro | noster | la | transcription | docs/texts/xml/caes0016.xml|<p>nostro
+Marco | marcus | la | transcription | docs/texts/xml/caes0016.xml|<p>Marco
+Aurelio | Aurelio | la | transcription | docs/texts/xml/caes0016.xml|<p><del><expan>Aurelio
+Probo | probo | la | transcription | docs/texts/xml/caes0016.xml|<p><del>Probo
+invicto | invictus | la | transcription | docs/texts/xml/caes0016.xml|<p><del><supplied reason="undefined"><lb>invicto
+Aug | Aug | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>Aug
+Augusto | augustus | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice>Augusto
+imperatori | imperator | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice>imperatori
+Acilius | Acilius | la | transcription | docs/texts/xml/caes0016.xml|<p><del><supplied reason="undefined"><gap reason="illegible" quantity="1" unit="characters"><lb>Acilius
+Cleobulus | Cleobulus | la | transcription | docs/texts/xml/caes0016.xml|<p><del>Cleobulus
+vir | vir | la | transcription | docs/texts/xml/caes0016.xml|<p><del><supplied reason="undefined">vir
+clarissimus | clarus | la | transcription | docs/texts/xml/caes0016.xml|<p><del><supplied reason="undefined">clarissimus
+praes | praes | la | transcription | docs/texts/xml/caes0016.xml|<p><del><supplied reason="undefined"><lb><choice><abbr>praes
+praeses | praeses | la | transcription | docs/texts/xml/caes0016.xml|<p><choice><abbr>praeses
+provinciae | provincia | la | transcription | docs/texts/xml/caes0016.xml|<p><choice><del>provinciae
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0016.xml|<p><del>Syriae
+Pal | Pal | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>Pal
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>Palaestinae
+devotus | de_-voveo | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><lb><del>devotus
+numini | numen | la | transcription | docs/texts/xml/caes0016.xml|<p><del>numini
+maiestatique | majestas | la | transcription | docs/texts/xml/caes0016.xml|<p><del>maiestatique
+e | ex | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>e
+eius | is | la | transcription | docs/texts/xml/caes0016.xml|<p><del><choice><abbr>eius
+To | To | la-transl | translation | docs/texts/xml/caes0016.xml|<p>To
+our | our | la-transl | translation | docs/texts/xml/caes0016.xml|<p>our
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0016.xml|<p><rs type="admTitle">Caesar
+Marcus | Marcus | la-transl | translation | docs/texts/xml/caes0016.xml|<p><name><persName lang="la " ref="persons.xml#caes0016p01" nymRef="names.xml#caes0016n01">Marcus
+Aurelius | Aurelius | la-transl | translation | docs/texts/xml/caes0016.xml|<p><name><persName lang="la " ref="persons.xml#caes0016p02" nymRef="names.xml#caes0016n02">Aurelius
+Probus | Probus | la-transl | translation | docs/texts/xml/caes0016.xml|<p><name><persName lang="la " ref="persons.xml#caes0016p03" nymRef="names.xml#caes0016n03">Probus
+unconquered | unconquered | la-transl | translation | docs/texts/xml/caes0016.xml|<p><name>...unconquered
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0016.xml|<p>Augustus
+Emperor | Emperor | la-transl | translation | docs/texts/xml/caes0016.xml|<p>Emperor...
+truly | truly | la-transl | translation | docs/texts/xml/caes0016.xml|<p>truly
+most | most | la-transl | translation | docs/texts/xml/caes0016.xml|<p>most
+victorious | victorious | la-transl | translation | docs/texts/xml/caes0016.xml|<p>victorious
+over | over | la-transl | translation | docs/texts/xml/caes0016.xml|<p>over
+all | all | la-transl | translation | docs/texts/xml/caes0016.xml|<p>all
+peoples | peoples | la-transl | translation | docs/texts/xml/caes0016.xml|<p>peoples
+and | and | la-transl | translation | docs/texts/xml/caes0016.xml|<p>and
+most | most | la-transl | translation | docs/texts/xml/caes0016.xml|<p>most
+happy | happy | la-transl | translation | docs/texts/xml/caes0016.xml|<p>happy
+and | and | la-transl | translation | docs/texts/xml/caes0016.xml|<p>and
+forbearing | forbearing | la-transl | translation | docs/texts/xml/caes0016.xml|<p>forbearing.
+Acilius | Acilius | la-transl | translation | docs/texts/xml/caes0016.xml|<p><name><persName lang="la " ref="persons.xml#caes0016p04" nymRef="names.xml#caes0016n04">Acilius
+Cleobulus | Cleobulus | la-transl | translation | docs/texts/xml/caes0016.xml|<p><name><persName lang="la " ref="persons.xml#caes0016p05" nymRef="names.xml#caes0016n05">Cleobulus
+of | of | la-transl | translation | docs/texts/xml/caes0016.xml|<p><name>of
+clarissimate | clarissimate | la-transl | translation | docs/texts/xml/caes0016.xml|<p><rs type="admTitle">clarissimate
+rank | rank | la-transl | translation | docs/texts/xml/caes0016.xml|<p>rank
+governor | governor | la-transl | translation | docs/texts/xml/caes0016.xml|<p><rs type="admTitle">governor
+of | of | la-transl | translation | docs/texts/xml/caes0016.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0016.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0016.xml|<p>province
+Syria | Syria | la-transl | translation | docs/texts/xml/caes0016.xml|<p><placeName>Syria
+Palaestina | Palaestina | la-transl | translation | docs/texts/xml/caes0016.xml|<p><placeName>Palaestina
+devoted | devoted | la-transl | translation | docs/texts/xml/caes0016.xml|<p>devoted
+to | to | la-transl | translation | docs/texts/xml/caes0016.xml|<p>to
+his | his | la-transl | translation | docs/texts/xml/caes0016.xml|<p>his
+might | might | la-transl | translation | docs/texts/xml/caes0016.xml|<p>might
+and | and | la-transl | translation | docs/texts/xml/caes0016.xml|<p>and
+majesty | majesty | la-transl | translation | docs/texts/xml/caes0016.xml|<p>majesty.
+Fortissimo | fortis | la | transcription | docs/texts/xml/caes0017.xml|<p><supplied reason="undefined">Fortissimo
+et | et | la | transcription | docs/texts/xml/caes0017.xml|<p><supplied reason="undefined">et
+consultissimo | consultissimo | la | transcription | docs/texts/xml/caes0017.xml|<p>consultissimo
+iuventutis | juventus | la | transcription | docs/texts/xml/caes0017.xml|<p>iuventutis
+principi | princeps | la | transcription | docs/texts/xml/caes0017.xml|<p>principi
+Flavio | Flavio | la | transcription | docs/texts/xml/caes0017.xml|<p><expan>Flavio
+Valerio | Valerio | la | transcription | docs/texts/xml/caes0017.xml|<p>Valerio
+Constantio | Constantio | la | transcription | docs/texts/xml/caes0017.xml|<p>Constantio
+pio | pius | la | transcription | docs/texts/xml/caes0017.xml|<p>pio
+felici | felix | la | transcription | docs/texts/xml/caes0017.xml|<p>felici
+invicto | invictus | la | transcription | docs/texts/xml/caes0017.xml|<p>invicto
+nobilissimo | nobilis | la | transcription | docs/texts/xml/caes0017.xml|<p>nobilissimo
+Caesari | Caesari | la | transcription | docs/texts/xml/caes0017.xml|<p>Caesari
+Aufidius | Aufidius | la | transcription | docs/texts/xml/caes0017.xml|<p><expan>Aufidius
+Priscus | priscus | la | transcription | docs/texts/xml/caes0017.xml|<p>Priscus
+vir | vir | la | transcription | docs/texts/xml/caes0017.xml|<p>vir
+perfectissimus | perficio | la | transcription | docs/texts/xml/caes0017.xml|<p>perfectissimus
+praeses | praeses | la | transcription | docs/texts/xml/caes0017.xml|<p>praeses
+provinciae | provincia | la | transcription | docs/texts/xml/caes0017.xml|<p>provinciae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0017.xml|<p><lb><expan>Palaestinae
+devotus | de_-voveo | la | transcription | docs/texts/xml/caes0017.xml|<p>devotus
+numini | numen | la | transcription | docs/texts/xml/caes0017.xml|<p>numini
+maiestatique | majestas | la | transcription | docs/texts/xml/caes0017.xml|<p>maiestatique
+eorum | is | la | transcription | docs/texts/xml/caes0017.xml|<p>eorum.
+To | To | la-transl | translation | docs/texts/xml/caes0017.xml|<p>To
+the | the | la-transl | translation | docs/texts/xml/caes0017.xml|<p>the
+strongest | strongest | la-transl | translation | docs/texts/xml/caes0017.xml|<p>strongest
+and | and | la-transl | translation | docs/texts/xml/caes0017.xml|<p>and
+wisest | wisest | la-transl | translation | docs/texts/xml/caes0017.xml|<p>wisest
+leader | leader | la-transl | translation | docs/texts/xml/caes0017.xml|<p>leader
+of | of | la-transl | translation | docs/texts/xml/caes0017.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0017.xml|<p>the
+young | young | la-transl | translation | docs/texts/xml/caes0017.xml|<p>young
+Flavius | Flavius | la-transl | translation | docs/texts/xml/caes0017.xml|<p><name><persName lang="la " ref="persons.xml#caes0017p01" nymRef="names.xml#caes0017n01">Flavius
+Valerius | Valerius | la-transl | translation | docs/texts/xml/caes0017.xml|<p><name><persName lang="la " ref="persons.xml#caes0017p02" nymRef="names.xml#caes0017n02">Valerius
+Constantius | Constantius | la-transl | translation | docs/texts/xml/caes0017.xml|<p><name><persName lang="la " ref="persons.xml#caes0017p03" nymRef="names.xml#caes0017n03">Constantius
+faithful | faithful | la-transl | translation | docs/texts/xml/caes0017.xml|<p><name>faithful
+happy | happy | la-transl | translation | docs/texts/xml/caes0017.xml|<p>happy
+unconquered | unconquered | la-transl | translation | docs/texts/xml/caes0017.xml|<p>unconquered
+most | most | la-transl | translation | docs/texts/xml/caes0017.xml|<p>most
+noble | noble | la-transl | translation | docs/texts/xml/caes0017.xml|<p>noble
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0017.xml|<p>Caesar.
+Aufidius | Aufidius | la-transl | translation | docs/texts/xml/caes0017.xml|<p><name><persName lang="la " ref="persons.xml#caes0017p04" nymRef="names.xml#caes0017n04">Aufidius
+Priscus | Priscus | la-transl | translation | docs/texts/xml/caes0017.xml|<p><name><persName lang="la " ref="persons.xml#caes0017p05" nymRef="names.xml#caes0017n05">Priscus
+of | of | la-transl | translation | docs/texts/xml/caes0017.xml|<p><name>of
+perfectissimate | perfectissimate | la-transl | translation | docs/texts/xml/caes0017.xml|<p><rs type="admTitle">perfectissimate
+rank | rank | la-transl | translation | docs/texts/xml/caes0017.xml|<p>rank
+governor | governor | la-transl | translation | docs/texts/xml/caes0017.xml|<p><rs type="admTitle">governor
+of | of | la-transl | translation | docs/texts/xml/caes0017.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0017.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0017.xml|<p>province
+of | of | la-transl | translation | docs/texts/xml/caes0017.xml|<p>of
+Palaestina | Palaestina | la-transl | translation | docs/texts/xml/caes0017.xml|<p><placeName>Palaestina
+to | to | la-transl | translation | docs/texts/xml/caes0017.xml|<p>to
+their | their | la-transl | translation | docs/texts/xml/caes0017.xml|<p>their
+might | might | la-transl | translation | docs/texts/xml/caes0017.xml|<p>might
+and | and | la-transl | translation | docs/texts/xml/caes0017.xml|<p>and
+majesty | majesty | la-transl | translation | docs/texts/xml/caes0017.xml|<p>majesty.
+C | C | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>C
+Caio | caio | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>Caio
+Iulio | Iulio | la | transcription | docs/texts/xml/caes0018.xml|<p><choice>Iulio
+Titiano | Titiano | la | transcription | docs/texts/xml/caes0018.xml|<p><supplied reason="undefined"><gap reason="illegible" quantity="2" unit="characters"><lb>Titiano
+legato | lego | la | transcription | docs/texts/xml/caes0018.xml|<p><lb>legato
+Aug | Aug | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>Aug
+Augusti | augustus | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>Augusti
+pro | pro | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><supplied reason="undefined">pro
+praetore | praetor | la | transcription | docs/texts/xml/caes0018.xml|<p><supplied reason="undefined">praetore
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0018.xml|<p><supplied reason="undefined"><lb>Syriae
+Pa | Pa | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>Pa
+laest | laest | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>laest
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>Palaestinae
+Marcus | marcus | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><lb>Marcus
+Flavius | flavus | la | transcription | docs/texts/xml/caes0018.xml|<p>Flavius
+Quirina | Quirina | la | transcription | docs/texts/xml/caes0018.xml|<p><expan>Quirina
+S | S | la | transcription | docs/texts/xml/caes0018.xml|<p>S
+legionis | legio | la | transcription | docs/texts/xml/caes0018.xml|<p><lb><expan>legionis
+X | X | la | transcription | docs/texts/xml/caes0018.xml|<p>X
+Fretensis | Fretensis | la | transcription | docs/texts/xml/caes0018.xml|<p>Fretensis
+Antoninianae | Antoninianae | la | transcription | docs/texts/xml/caes0018.xml|<p><lb><del>Antoninianae
+s | s | la | transcription | docs/texts/xml/caes0018.xml|<p><del><lb><gap reason="illegible" quantity="1" unit="character">s
+optimo | bonus | la | transcription | docs/texts/xml/caes0018.xml|<p><expan>optimo
+et | et | la | transcription | docs/texts/xml/caes0018.xml|<p>et
+mer | mer | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>mer
+merenti | mereo | la | transcription | docs/texts/xml/caes0018.xml|<p><choice><abbr>merenti
+To | To | la-transl | translation | docs/texts/xml/caes0018.xml|<p>To
+Gaius | Gaius | la-transl | translation | docs/texts/xml/caes0018.xml|<p><name><persName lang="la " ref="persons.xml#caes0018p01" nymRef="names.xml#caes0018n01">Gaius
+Julius | Julius | la-transl | translation | docs/texts/xml/caes0018.xml|<p><name><persName lang="la " ref="persons.xml#caes0018p02" nymRef="names.xml#caes0018n02">Julius
+Titianus | Titianus | la-transl | translation | docs/texts/xml/caes0018.xml|<p><name><persName lang="la " ref="persons.xml#caes0018p03" nymRef="names.xml#caes0018n03">Titianus
+propaetorian | propaetorian | la-transl | translation | docs/texts/xml/caes0018.xml|<p><name><rs type="admTitle">propaetorian
+legate | legate | la-transl | translation | docs/texts/xml/caes0018.xml|<p><rs type="admTitle">legate
+of | of | la-transl | translation | docs/texts/xml/caes0018.xml|<p>of
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0018.xml|<p>Augustus
+for | for | la-transl | translation | docs/texts/xml/caes0018.xml|<p>for
+Syria | Syria | la-transl | translation | docs/texts/xml/caes0018.xml|<p><placeName>Syria
+Palaestina | Palaestina | la-transl | translation | docs/texts/xml/caes0018.xml|<p><placeName>Palaestina
+Marcus | Marcus | la-transl | translation | docs/texts/xml/caes0018.xml|<p><name><persName lang="la " ref="persons.xml#caes0018p04" nymRef="names.xml#caes0018n04">Marcus
+Flavius | Flavius | la-transl | translation | docs/texts/xml/caes0018.xml|<p><name><persName lang="la " ref="persons.xml#caes0018p05" nymRef="names.xml#caes0018n05">Flavius
+S | S | la-transl | translation | docs/texts/xml/caes0018.xml|<p><name><persName lang="la " ref="persons.xml#caes0018p06" nymRef="names.xml#caes0018n06">S-
+of | of | la-transl | translation | docs/texts/xml/caes0018.xml|<p><name>of
+the | the | la-transl | translation | docs/texts/xml/caes0018.xml|<p>the
+tribe | tribe | la-transl | translation | docs/texts/xml/caes0018.xml|<p>tribe
+Quirinaof | Quirinaof | la-transl | translation | docs/texts/xml/caes0018.xml|<p>Quirina...of
+the | the | la-transl | translation | docs/texts/xml/caes0018.xml|<p>the
+tenth | tenth | la-transl | translation | docs/texts/xml/caes0018.xml|<p>tenth
+legion | legion | la-transl | translation | docs/texts/xml/caes0018.xml|<p>legion
+Fretensis | Fretensis | la-transl | translation | docs/texts/xml/caes0018.xml|<p>Fretensis
+Antoniniana | Antoniniana | la-transl | translation | docs/texts/xml/caes0018.xml|<p>Antoniniana
+tobest | tobest | la-transl | translation | docs/texts/xml/caes0018.xml|<p>to...best
+and | and | la-transl | translation | docs/texts/xml/caes0018.xml|<p>and
+deserving | deserving | la-transl | translation | docs/texts/xml/caes0018.xml|<p>deserving.
+to | to | la | transcription | docs/texts/xml/caes0019.xml|<p><gap reason="illegible" quantity="4" unit="character"><unclear><unclear><unclear><unclear><lb><gap reason="illegible" quantity="4" unit="character">to
+raes | raes | la | transcription | docs/texts/xml/caes0019.xml|<p><gap reason="illegible" quantity="4" unit="character"><lb><gap reason="illegible" quantity="4" unit="character">raes
+devotus | de_-voveo | la | transcription | docs/texts/xml/caes0019.xml|<p><gap reason="illegible" quantity="4" unit="character"><lb><supplied reason="undefined"><gap reason="illegible" quantity="1" unit="characters">devotus
+numini | numen | la | transcription | docs/texts/xml/caes0019.xml|<p><supplied reason="undefined">numini
+mq | mq | la | transcription | docs/texts/xml/caes0019.xml|<p><supplied reason="undefined"><choice><abbr>mq
+maiestatique | majestas | la | transcription | docs/texts/xml/caes0019.xml|<p><choice>maiestatique
+eius | is | la | transcription | docs/texts/xml/caes0019.xml|<p><choice>eius
+legato | lego | la | transcription | docs/texts/xml/caes0020.xml|<p><gap reason="illegible" quantity="5" unit="character"><lb><gap reason="illegible">legato
+Augusti | augustus | la | transcription | docs/texts/xml/caes0020.xml|<p>Augusti
+pro | pro | la | transcription | docs/texts/xml/caes0020.xml|<p>pro
+praetore | praetor | la | transcription | docs/texts/xml/caes0020.xml|<p>praetore
+provinciae | provincia | la | transcription | docs/texts/xml/caes0020.xml|<p><lb>provinciae
+Syr | Syr | la | transcription | docs/texts/xml/caes0020.xml|<p><choice><abbr>Syr
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0020.xml|<p><choice><abbr>Syriae
+Palaest | Palaest | la | transcription | docs/texts/xml/caes0020.xml|<p><choice><lb><choice><abbr>Palaest
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0020.xml|<p><choice>Palaestinae
+VICV | VICV | la | transcription | docs/texts/xml/caes0020.xml|<p><choice><lb>VICV
+a | ab | la | transcription | docs/texts/xml/caes0020.xml|<p>a
+Victorinus | Victorinus | la | transcription | docs/texts/xml/caes0020.xml|<p><gap reason="illegible" atLeast="1" atMost="3" unit="character"><lb>Victorinus.
+propraetorian | propraetorian | la-transl | translation | docs/texts/xml/caes0020.xml|<p><rs type="admTitle">propraetorian
+legate | legate | la-transl | translation | docs/texts/xml/caes0020.xml|<p><rs type="admTitle">legate
+of | of | la-transl | translation | docs/texts/xml/caes0020.xml|<p>of
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0020.xml|<p><rs type="admTitle">Augustus
+for | for | la-transl | translation | docs/texts/xml/caes0020.xml|<p>for
+the | the | la-transl | translation | docs/texts/xml/caes0020.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0020.xml|<p>province
+Syria | Syria | la-transl | translation | docs/texts/xml/caes0020.xml|<p><placeName>Syria
+PalaestinaVictorinus | PalaestinaVictorinus | la-transl | translation | docs/texts/xml/caes0020.xml|<p>Palaestina...Victorinus.
+Tiberio | Tiberio | la | transcription | docs/texts/xml/caes0021.xml|<p>Tiberio
+Claudio | Claudio | la | transcription | docs/texts/xml/caes0021.xml|<p>Claudio
+G | G | la | transcription | docs/texts/xml/caes0021.xml|<p>G
+legato | lego | la | transcription | docs/texts/xml/caes0021.xml|<p><gap reason="illegible" quantity="2" unit="character"><lb>legato
+leg | leg | la | transcription | docs/texts/xml/caes0021.xml|<p><choice><abbr>leg
+legionis | legio | la | transcription | docs/texts/xml/caes0021.xml|<p><choice><abbr><supplied reason="undefined"><gap reason="illegible" quantity="2" unit="characters">legionis
+T | T | la | transcription | docs/texts/xml/caes0021.xml|<p><choice><lb>T
+E | ex | la | transcription | docs/texts/xml/caes0021.xml|<p>E
+To | To | la-transl | translation | docs/texts/xml/caes0021.xml|<p>To
+Tiberius | Tiberius | la-transl | translation | docs/texts/xml/caes0021.xml|<p><name><persName lang="la " ref="persons.xml#caes0021p01" nymRef="names.xml#caes0021n01">Tiberius
+Claudius | Claudius | la-transl | translation | docs/texts/xml/caes0021.xml|<p><name><persName lang="la " ref="persons.xml#caes0021p02" nymRef="names.xml#caes0021n02">Claudius
+G | G | la-transl | translation | docs/texts/xml/caes0021.xml|<p><name><persName lang="la " ref="persons.xml#caes0021p03" nymRef="names.xml#caes0021n03">G-
+legional | legional | la-transl | translation | docs/texts/xml/caes0021.xml|<p><name><rs type="admTitle">legional
+legate | legate | la-transl | translation | docs/texts/xml/caes0021.xml|<p>legate...
+a | ab | la | transcription | docs/texts/xml/caes0022.xml|<p>a
+Sexto | sextus | la | transcription | docs/texts/xml/caes0022.xml|<p>Sexto
+leg | leg | la | transcription | docs/texts/xml/caes0022.xml|<p><gap reason="illegible" quantity="4" unit="character"><lb><gap reason="illegible" quantity="1" unit="character"><choice><abbr>leg
+legato | lego | la | transcription | docs/texts/xml/caes0022.xml|<p><choice><abbr>legato
+Augusti | augustus | la | transcription | docs/texts/xml/caes0022.xml|<p><choice><supplied reason="undefined">Augusti
+pro | pro | la | transcription | docs/texts/xml/caes0022.xml|<p><supplied reason="undefined">pro
+praetore | praetor | la | transcription | docs/texts/xml/caes0022.xml|<p><supplied reason="undefined">praetore
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0022.xml|<p><supplied reason="undefined">Syriae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0022.xml|<p><supplied reason="undefined">Palaestinae
+praef | praef | la | transcription | docs/texts/xml/caes0022.xml|<p><supplied reason="undefined"><lb><choice><abbr>praef
+praefecto | praeficio | la | transcription | docs/texts/xml/caes0022.xml|<p><choice><abbr>praefecto
+ar | ar | la | transcription | docs/texts/xml/caes0022.xml|<p><choice><supplied reason="undefined"><gap reason="illegible" quantity="2" unit="characters"><lb>ar
+b | b | la | transcription | docs/texts/xml/caes0022.xml|<p><unclear><gap reason="illegible" quantity="7" unit="character"><lb><lb>b
+cher | cher | la | transcription | docs/texts/xml/caes0022.xml|<p>cher
+L | L | la | diplomatic | docs/texts/xml/caes0023.xml|<p><gap reason="illegible" quantity="2" unit="character">>L
+Q | Q | la | diplomatic | docs/texts/xml/caes0023.xml|<p>Q
+STIO | STIO | la | diplomatic | docs/texts/xml/caes0023.xml|<p><gap reason="illegible" atLeast="3" atMost="5" unit="character">STIO
+Flavia | Flavia | la | transcription | docs/texts/xml/caes0024.xml|<p>Flavia
+Augusta | augustus | la | transcription | docs/texts/xml/caes0024.xml|<p>Augusta
+Caesarea | Caesarea | la | transcription | docs/texts/xml/caes0024.xml|<p>Caesarea
+Flavia | Flavia | la-transl | translation | docs/texts/xml/caes0024.xml|<p><name><persName lang="la " ref="persons.xml#caes0024p01" nymRef="names.xml#caes0024n01">Flavia
+Augusta | Augusta | la-transl | translation | docs/texts/xml/caes0024.xml|<p><name><persName lang="la " ref="persons.xml#caes0024p02" nymRef="names.xml#caes0024n02">Augusta
+Caesarea | Caesarea | la-transl | translation | docs/texts/xml/caes0024.xml|<p><name><persName lang="la " ref="persons.xml#caes0024p03" nymRef="names.xml#caes0024n03">Caesarea
+δημοτέρῃ | δημοτέρῃ | grc | transcription | docs/texts/xml/caes0025.xml|<p>δημοτέρῃ
+τίμσε | τίμσε | grc | transcription | docs/texts/xml/caes0025.xml|<p>τίμσε
+Νόμον | Νόμον | grc | transcription | docs/texts/xml/caes0025.xml|<p>Νόμον
+χρυσέῃ | χρυσέῃ | grc | transcription | docs/texts/xml/caes0025.xml|<p>χρυσέῃ
+ἐν | ἐν | grc | transcription | docs/texts/xml/caes0025.xml|<p>ἐν
+ὶ | ὶ | grc | transcription | docs/texts/xml/caes0025.xml|<p>ὶ
+μ | μ | grc | transcription | docs/texts/xml/caes0025.xml|<p>μ
+οφῇ | οφῇ | grc | transcription | docs/texts/xml/caes0025.xml|<p>οφῇ
+ἡ | ὁ | grc | transcription | docs/texts/xml/caes0025.xml|<p>ἡ
+πτόλις | πτόλις | grc | transcription | docs/texts/xml/caes0025.xml|<p>πτόλις
+εὐνομίῃ | εὐνομίῃ | grc | transcription | docs/texts/xml/caes0025.xml|<p>εὐνομίῃ
+μεμελημένον | μεμελημένον | grc | transcription | docs/texts/xml/caes0025.xml|<p>μεμελημένον
+ὄρχαμον | ὄρχαμος | grc | transcription | docs/texts/xml/caes0025.xml|<p>ὄρχαμον
+ἀνδρῶν | ἀνδρόω | grc | transcription | docs/texts/xml/caes0025.xml|<p>ἀνδρῶν
+οἱ | ὁ | grc | transcription | docs/texts/xml/caes0025.xml|<p>οἱ
+δρόμῳ | δρόμῳ | grc | transcription | docs/texts/xml/caes0025.xml|<p>δρόμῳ
+ἐξανύο | ἐξανύο | grc | transcription | docs/texts/xml/caes0025.xml|<p>ἐξανύο
+υ | υ | grc | transcription | docs/texts/xml/caes0025.xml|<p>υ
+σιν | σιν | grc | transcription | docs/texts/xml/caes0025.xml|<p>σιν
+ἐφημοσύνην | ἐφημοσύνην | grc | transcription | docs/texts/xml/caes0025.xml|<p>ἐφημοσύνην
+βασιλήων | βασιλήων | grc | transcription | docs/texts/xml/caes0025.xml|<p>βασιλήων.
+Publicly | Publicly | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>Publicly
+with | with | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>with
+a | a | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>a
+golden | golden | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>golden
+statue | statue | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>statue
+the | the | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>the
+city | city | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>city
+honored | honored | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>honored
+Nomos | Nomos | grc-transl | translation | docs/texts/xml/caes0025.xml|<p><persName lang="grc " ref="persons.xml#caes0025p01">Nomos
+who | who | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>who
+is | is | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>is
+mindful | mindful | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>mindful
+of | of | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>of
+good | good | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>good
+order | order | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>order
+and | and | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>and
+a | a | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>a
+leader | leader | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>leader
+of | of | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>of
+men | men | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>men
+who | who | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>who
+hasten | hasten | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>hasten
+to | to | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>to
+accomplish | accomplish | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>accomplish
+the | the | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>the
+command | command | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>command
+of | of | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>of
+emperors | emperors | grc-transl | translation | docs/texts/xml/caes0025.xml|<p>emperors.
+Ευ | Ευ | grc | transcription | docs/texts/xml/caes0026.xml|<p>Ευ
+ς | ς | grc | transcription | docs/texts/xml/caes0026.xml|<p><unclear><gap reason="illegible" quantity="16" unit="character">ς
+τύπος | τύπος | grc | transcription | docs/texts/xml/caes0026.xml|<p>τύπος
+ησα | ησα | grc | transcription | docs/texts/xml/caes0026.xml|<p><gap reason="illegible" atLeast="6" atMost="8" unit="character"><unclear>ησα
+ἱερομον | ἱερομον | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἱερομον
+Εὐσέβιον | Εὐσέβιον | grc | transcription | docs/texts/xml/caes0026.xml|<p>Εὐσέβιον
+κοιρανίη | κοιρανίη | grc | transcription | docs/texts/xml/caes0026.xml|<p>κοιρανίη
+ἔχει | ἔχω | grc | transcription | docs/texts/xml/caes0026.xml|<p><gap reason="illegible" atLeast="8" atMost="10" unit="character">ἔχει
+γέρας | γέρας | grc | transcription | docs/texts/xml/caes0026.xml|<p>γέρας
+ἐκ | ἐκ | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἐκ
+τῶ | ὁ | grc | transcription | docs/texts/xml/caes0026.xml|<p>τῶ
+ν | ν | grc | transcription | docs/texts/xml/caes0026.xml|<p>ν
+τοῦτο | οὗτος | grc | transcription | docs/texts/xml/caes0026.xml|<p>τοῦτο
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0026.xml|<p>καὶ
+ἐβ | ἐβ | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἐβ
+ν | ν | grc | transcription | docs/texts/xml/caes0026.xml|<p><gap reason="illegible" atLeast="7" atMost="9" unit="character">ν
+εἶχεν | ἔχω | grc | transcription | docs/texts/xml/caes0026.xml|<p>εἶχεν
+ὀφειλόμενον | ὀφειλόμενον | grc | transcription | docs/texts/xml/caes0026.xml|<p>ὀφειλόμενον.
+ἕργων | ἕργων | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἕργων
+δ᾽ | δ᾽ | grc | transcription | docs/texts/xml/caes0026.xml|<p>δ᾽
+ἀν | ἀν | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἀν
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0026.xml|<p><gap reason="illegible" atLeast="6" atMost="8" unit="character">καὶ
+δαψομένοισιν | δαψομένοισιν | grc | transcription | docs/texts/xml/caes0026.xml|<p>δαψομένοισιν
+οὐ | οὐ | grc | transcription | docs/texts/xml/caes0026.xml|<p><gap reason="illegible" quantity="1" unit="character"><lb>οὐ
+χρυσὸν | χρυσὸν | grc | transcription | docs/texts/xml/caes0026.xml|<p>χρυσὸν
+προτιμότερον | προτιμότερον | grc | transcription | docs/texts/xml/caes0026.xml|<p><gap reason="illegible" atLeast="9" atMost="11" unit="character">προτιμότερον.
+οὕτω | οὕτως | grc | transcription | docs/texts/xml/caes0026.xml|<p>οὕτω
+ἐς | εἰς | grc | transcription | docs/texts/xml/caes0026.xml|<p><supplied reason="undefined">ἐς
+Θεὸν | Θεὸν | grc | transcription | docs/texts/xml/caes0026.xml|<p>Θεὸν
+ἔσχεν | ἔχω | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἔσχεν
+ὅλον | ὅλοξ | grc | transcription | docs/texts/xml/caes0026.xml|<p>ὅλον
+νόον | νόον | grc | transcription | docs/texts/xml/caes0026.xml|<p>νόον
+εὐσεβίῃ | εὐσεβίῃ | grc | transcription | docs/texts/xml/caes0026.xml|<p>εὐσεβίῃ
+τε | τε | grc | transcription | docs/texts/xml/caes0026.xml|<p>τε
+μᾶλλον | μᾶλλον | grc | transcription | docs/texts/xml/caes0026.xml|<p><lb>μᾶλλον
+κοιρανέειν | κοιρανέειν | grc | transcription | docs/texts/xml/caes0026.xml|<p>κοιρανέειν
+ἤθε | ἤθε | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἤθε
+λεν | λεν | grc | transcription | docs/texts/xml/caes0026.xml|<p>λεν
+ἢ | ἢ | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἢ
+δυνάμι | δυνάμι | grc | transcription | docs/texts/xml/caes0026.xml|<p>δυνάμι.
+λισσομένῳ | λισσομένῳ | grc | transcription | docs/texts/xml/caes0026.xml|<p>λισσομένῳ
+δ᾽ | δ᾽ | grc | transcription | docs/texts/xml/caes0026.xml|<p>δ᾽
+ἐπένε | ἐπένε | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἐπένε
+υσεν | υσεν | grc | transcription | docs/texts/xml/caes0026.xml|<p>υσεν
+Ἀλυπίῳ | Ἀλυπίῳ | grc | transcription | docs/texts/xml/caes0026.xml|<p>Ἀλυπίῳ
+ἐν | ἐν | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἐν
+ἀντ᾽ | ἀντ᾽ | grc | transcription | docs/texts/xml/caes0026.xml|<p><unclear><gap reason="illegible" quantity="2" unit="character"><lb>ἀντ᾽
+εὐεργεσίης | εὐεργεσίης | grc | transcription | docs/texts/xml/caes0026.xml|<p>εὐεργεσίης
+πολλάκις | πολλάκις | grc | transcription | docs/texts/xml/caes0026.xml|<p>πολλάκις
+ἧς | ὅς | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἧς
+ἔ | ἒ | grc | transcription | docs/texts/xml/caes0026.xml|<p>ἔ
+τ | τ | grc | transcription | docs/texts/xml/caes0026.xml|<p>τ
+υ | υ | grc | transcription | docs/texts/xml/caes0026.xml|<p>υ
+χ | χ | grc | transcription | docs/texts/xml/caes0026.xml|<p>χ
+ε | ε | grc | transcription | docs/texts/xml/caes0026.xml|<p>ε.
+statuesacredEusebius | statuesacredEusebius | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>...statue...sacred...Eusebius
+rulehe | rulehe | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>rule...he
+had | had | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>had
+a | a | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>a
+statue | statue | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>statue
+because | because | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>because
+of | of | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>the
+This | This | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>...This
+alsohe | alsohe | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>also...he
+had | had | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>had
+as | as | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>as
+his | his | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>his
+due | due | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>due.
+And | And | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>And
+of | of | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>the
+deedsand | deedsand | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>deeds...and
+to | to | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>to
+those | those | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>those
+that | that | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>that
+will | will | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>will
+consumenot | consumenot | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>consume...not
+goldmore | goldmore | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>gold...more
+honored | honored | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>honored.
+Thus | Thus | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>Thus
+he | he | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>he
+kept | kept | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>kept
+his | his | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>his
+whole | whole | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>whole
+mind | mind | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>mind
+on | on | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>on
+God | God | grc-transl | translation | docs/texts/xml/caes0026.xml|<p><rs type="divine">God
+and | and | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>and
+he | he | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>he
+wished | wished | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>wished
+to | to | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>to
+rule | rule | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>rule
+more | more | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>more
+by | by | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>by
+piety | piety | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>piety
+than | than | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>than
+by | by | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>by
+force | force | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>force.
+And | And | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>And
+he | he | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>he
+permitted | permitted | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>permitted
+Alypius | Alypius | grc-transl | translation | docs/texts/xml/caes0026.xml|<p><persName lang="grc " ref="persons.xml#caes0026p02">Alypius
+at | at | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>at
+the | the | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>the
+latters | latters | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>latter's
+request | request | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>request
+to | to | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>(to
+honor | honor | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>honor
+him | him | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>him)
+in | in | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>in
+return | return | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>return
+for | for | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>for
+the | the | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>the
+kindness | kindness | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>kindness
+that | that | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>that
+he | he | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>he
+frequently | frequently | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>frequently
+obtained | obtained | grc-transl | translation | docs/texts/xml/caes0026.xml|<p>obtained.
+imperatori | imperatori | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined">imperatori
+Caesari | Caesari | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined">Caesari
+Vespasiano | Vespasiano | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined">Vespasiano
+Aug | Aug | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined"><choice><abbr>Aug
+Augusto | Augusto | grc | transcription | docs/texts/xml/caes0027.xml|<p><choice>Augusto
+pont | pont | grc | transcription | docs/texts/xml/caes0027.xml|<p><choice><choice><abbr>pont
+pontifici | pontifici | grc | transcription | docs/texts/xml/caes0027.xml|<p><choice><abbr>pontifici
+maximo | maximo | grc | transcription | docs/texts/xml/caes0027.xml|<p><choice><supplied reason="undefined">maximo
+patri | patri | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined"><lb><supplied reason="undefined"><gap reason="illegible" quantity="2" unit="characters">patri
+patriae | patriae | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined">patriae
+cos | cos | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined"><choice><abbr>cos
+consuli | consuli | grc | transcription | docs/texts/xml/caes0027.xml|<p><choice>consuli
+VII | VII | grc | transcription | docs/texts/xml/caes0027.xml|<p><choice>VII
+censori | censori | grc | transcription | docs/texts/xml/caes0027.xml|<p>censori
+imperatori | imperatori | grc | transcription | docs/texts/xml/caes0027.xml|<p><lb><supplied reason="undefined"><gap reason="illegible" quantity="2" unit="characters"><expan>imperatori
+XVII | XVII | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined">XVII
+or | or | grc | transcription | docs/texts/xml/caes0027.xml|<p><supplied reason="undefined">or
+XVIIII | XVIIII | grc | transcription | docs/texts/xml/caes0027.xml|<p>XVIIII
+tribunicia | tribunicia | grc | transcription | docs/texts/xml/caes0027.xml|<p>tribunicia
+potestate | potestate | grc | transcription | docs/texts/xml/caes0027.xml|<p><expan>potestate
+VIII | VIII | grc | transcription | docs/texts/xml/caes0027.xml|<p>VIII.
+To | To | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>To
+the | the | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>the
+emperor | emperor | grc-transl | translation | docs/texts/xml/caes0027.xml|<p><rs type="admTitle">emperor
+Caesar | Caesar | grc-transl | translation | docs/texts/xml/caes0027.xml|<p><rs type="admTitle">Caesar
+Vespasian | Vespasian | grc-transl | translation | docs/texts/xml/caes0027.xml|<p><name><persName lang="la " ref="persons.xml#caes0027p01" nymRef="names.xml#caes0027n01">Vespasian
+Augustus | Augustus | grc-transl | translation | docs/texts/xml/caes0027.xml|<p><name><persName lang="la " ref="persons.xml#caes0027p02" nymRef="names.xml#caes0027n02">Augustus
+Pontifex | Pontifex | grc-transl | translation | docs/texts/xml/caes0027.xml|<p><name><rs type="epithet">Pontifex
+Maximusfather | Maximusfather | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>Maximus...father
+of | of | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>of
+his | his | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>his
+country | country | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>country
+consul | consul | grc-transl | translation | docs/texts/xml/caes0027.xml|<p><rs type="admTitle">consul
+for | for | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>for
+the | the | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>the
+eighth | eighth | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>eighth
+time | time | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>time
+censor | censor | grc-transl | translation | docs/texts/xml/caes0027.xml|<p><rs type="admTitle">censor
+imperator | imperator | grc-transl | translation | docs/texts/xml/caes0027.xml|<p><rs type="admTitle">imperator
+for | for | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>for
+the | the | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>the
+eighteenth | eighteenth | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>eighteenth
+time | time | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>time
+with | with | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>with
+tribunician | tribunician | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>tribunician
+power | power | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>power
+for | for | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>for
+the | the | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>the
+eighth | eighth | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>eighth
+time | time | grc-transl | translation | docs/texts/xml/caes0027.xml|<p>time...
+devotus | devotus | grc | transcription | docs/texts/xml/caes0029.xml|<p>devotus
+numini | numini | grc | transcription | docs/texts/xml/caes0029.xml|<p>numini
+maiestatique | maiestatique | grc | transcription | docs/texts/xml/caes0029.xml|<p>maiestatique
+e | e | grc | transcription | docs/texts/xml/caes0029.xml|<p><choice><abbr>e
+eius | eius | grc | transcription | docs/texts/xml/caes0029.xml|<p><choice><abbr>eius
+Flavii | Flavii | la | transcription | docs/texts/xml/caes0030.xml|<p><expan>Flavii
+Boethi | boethus | la | transcription | docs/texts/xml/caes0030.xml|<p>Boethi
+cos | cos | la | transcription | docs/texts/xml/caes0030.xml|<p><choice><abbr>cos
+consularis | consulo | la | transcription | docs/texts/xml/caes0030.xml|<p><choice><abbr>consularis
+ro | rus | la | transcription | docs/texts/xml/caes0031.xml|<p><gap reason="illegible" quantity="3" unit="character">ro
+legato | lego | la | transcription | docs/texts/xml/caes0031.xml|<p><supplied reason="undefined">legato
+Augusti | augustus | la | transcription | docs/texts/xml/caes0031.xml|<p><supplied reason="undefined">Augusti
+pro | pro | la | transcription | docs/texts/xml/caes0031.xml|<p><supplied reason="undefined">pro
+praetore | praetor | la | transcription | docs/texts/xml/caes0031.xml|<p>praetore
+hc | hc | la | transcription | docs/texts/xml/caes0031.xml|<p><lb><gap reason="illegible" quantity="3" unit="character">hc
+ius | jus | la | transcription | docs/texts/xml/caes0031.xml|<p><space><lb><gap reason="illegible" quantity="3" unit="character">ius
+Flavianus | Flavianus | la | transcription | docs/texts/xml/caes0031.xml|<p>Flavianus
+C | C | la | transcription | docs/texts/xml/caes0031.xml|<p><lb><gap reason="illegible" quantity="3" unit="character">C
+legionis | legio | la | transcription | docs/texts/xml/caes0031.xml|<p><expan>legionis
+X | X | la | transcription | docs/texts/xml/caes0031.xml|<p>X
+Fretensis | Fretensis | la | transcription | docs/texts/xml/caes0031.xml|<p>Fretensis
+pro | pro | la | transcription | docs/texts/xml/caes0031.xml|<p><lb>pro
+singularibus | singularis | la | transcription | docs/texts/xml/caes0031.xml|<p><expan>singularibus
+eius | is | la | transcription | docs/texts/xml/caes0031.xml|<p>eius
+meritis | mereo | la | transcription | docs/texts/xml/caes0031.xml|<p>meritis
+honoris | honor | la | transcription | docs/texts/xml/caes0031.xml|<p>honoris
+causa | causa | la | transcription | docs/texts/xml/caes0031.xml|<p>causa.
+propretorian | propretorian | la-transl | translation | docs/texts/xml/caes0031.xml|<p>...propretorian
+legate | legate | la-transl | translation | docs/texts/xml/caes0031.xml|<p><rs type="admTitle">legate
+of | of | la-transl | translation | docs/texts/xml/caes0031.xml|<p>of
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0031.xml|<p>Augustus...
+ius | ius | la-transl | translation | docs/texts/xml/caes0031.xml|<p><name><persName lang="la " ref="persons.xml#caes0031p01" nymRef="names.xml#caes0031n01">--ius
+Flavianus | Flavianus | la-transl | translation | docs/texts/xml/caes0031.xml|<p><name><persName lang="la " ref="persons.xml#caes0031p02" nymRef="names.xml#caes0031n02">Flavianus
+of | of | la-transl | translation | docs/texts/xml/caes0031.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0031.xml|<p>the
+Legio | Legio | la-transl | translation | docs/texts/xml/caes0031.xml|<p>Legio
+X | X | la-transl | translation | docs/texts/xml/caes0031.xml|<p>X
+Fretensis | Fretensis | la-transl | translation | docs/texts/xml/caes0031.xml|<p>Fretensis
+because | because | la-transl | translation | docs/texts/xml/caes0031.xml|<p>because
+of | of | la-transl | translation | docs/texts/xml/caes0031.xml|<p>of
+his | his | la-transl | translation | docs/texts/xml/caes0031.xml|<p>his
+extraordinary | extraordinary | la-transl | translation | docs/texts/xml/caes0031.xml|<p>extraordinary
+merits | merits | la-transl | translation | docs/texts/xml/caes0031.xml|<p>merits
+and | and | la-transl | translation | docs/texts/xml/caes0031.xml|<p>and
+out | out | la-transl | translation | docs/texts/xml/caes0031.xml|<p>out
+of | of | la-transl | translation | docs/texts/xml/caes0031.xml|<p>of
+respect | respect | la-transl | translation | docs/texts/xml/caes0031.xml|<p>respect.
+ppr | ppr | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>ppr
+ovi | ovum | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>ovi
+n | n | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>n
+c | c | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>c
+provinciae | provincia | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>provinciae
+S | S | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><choice><abbr>S
+riae | riae | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>riae
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0032.xml|<p><choice>Syriae
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><lb><expan>Palaestinae
+Iul | Iul | la | transcription | docs/texts/xml/caes0032.xml|<p>Iul
+i | eo | la | transcription | docs/texts/xml/caes0032.xml|<p>i
+a | ab | la | transcription | docs/texts/xml/caes0032.xml|<p>a
+Iulii | Iulii | la | transcription | docs/texts/xml/caes0032.xml|<p><lb><expan>Iulii
+Agrippae | Agrippae | la | transcription | docs/texts/xml/caes0032.xml|<p>Agrippae
+p | p | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>p
+p | p | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>p
+primipili | primipilum | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>primipili
+f | f | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><choice><abbr>f
+i | eo | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>i
+l | l | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>l
+filia | filia | la | transcription | docs/texts/xml/caes0032.xml|<p><choice><abbr>filia
+Procul | procul | la | transcription | docs/texts/xml/caes0032.xml|<p><choice>Procul
+a | ab | la | transcription | docs/texts/xml/caes0032.xml|<p>a.
+of | of | la-transl | translation | docs/texts/xml/caes0032.xml|<p>...of
+the | the | la-transl | translation | docs/texts/xml/caes0032.xml|<p>the
+province | province | la-transl | translation | docs/texts/xml/caes0032.xml|<p>province
+Syria | Syria | la-transl | translation | docs/texts/xml/caes0032.xml|<p><placeName>Syria
+Palaestina | Palaestina | la-transl | translation | docs/texts/xml/caes0032.xml|<p>Palaestina.
+Julia | Julia | la-transl | translation | docs/texts/xml/caes0032.xml|<p><name><persName lang="la " ref="persons.xml#caes0032p01" nymRef="names.xml#caes0032n01">Julia
+Procula | Procula | la-transl | translation | docs/texts/xml/caes0032.xml|<p><name><persName lang="la " ref="persons.xml#caes0032p02" nymRef="names.xml#caes0032n02">Procula
+daughter | daughter | la-transl | translation | docs/texts/xml/caes0032.xml|<p><name><rs type="family">daughter
+of | of | la-transl | translation | docs/texts/xml/caes0032.xml|<p>of
+Julius | Julius | la-transl | translation | docs/texts/xml/caes0032.xml|<p><name><persName lang="la " ref="persons.xml#caes0032p03" nymRef="names.xml#caes0032n03">Julius
+Agrippa | Agrippa | la-transl | translation | docs/texts/xml/caes0032.xml|<p><name><persName lang="la " ref="persons.xml#caes0032p04" nymRef="names.xml#caes0032n04">Agrippa
+tronio | tronio | la | transcription | docs/texts/xml/caes0033.xml|<p><gap reason="illegible" quantity="4" unit="character">tronio
+No | no | la | transcription | docs/texts/xml/caes0033.xml|<p>No
+provinc | provinc | la | transcription | docs/texts/xml/caes0033.xml|<p><lb><gap reason="illegible" quantity="3" unit="character"><choice><abbr>provinc
+provinciae | provincia | la | transcription | docs/texts/xml/caes0033.xml|<p><choice>provinciae
+Syriae | Syriae | la | transcription | docs/texts/xml/caes0033.xml|<p><choice>Syriae
+Pal | Pal | la | transcription | docs/texts/xml/caes0033.xml|<p><choice><abbr>Pal
+Palaestinae | Palaestinae | la | transcription | docs/texts/xml/caes0033.xml|<p><choice><abbr>Palaestinae
+legato | lego | la | transcription | docs/texts/xml/caes0034.xml|<p><gap reason="illegible" quantity="7" unit="character"><supplied reason="undefined">legato
+leg | leg | la | transcription | docs/texts/xml/caes0034.xml|<p><supplied reason="undefined"><choice><abbr>leg
+legionis | legio | la | transcription | docs/texts/xml/caes0034.xml|<p><choice>legionis
+legato | lego | la | transcription | docs/texts/xml/caes0034.xml|<p><choice><lb><gap reason="illegible" quantity="2" unit="character"><supplied reason="undefined">legato
+Augusti | augustus | la | transcription | docs/texts/xml/caes0034.xml|<p><supplied reason="undefined"><expan>Augusti
+pro | pro | la | transcription | docs/texts/xml/caes0034.xml|<p>pro
+praetore | praetor | la | transcription | docs/texts/xml/caes0034.xml|<p>praetore
+Thrac | Thrac | la | transcription | docs/texts/xml/caes0035.xml|<p><gap reason="illegible" quantity="2" unit="character"><choice><abbr>Thrac
+Thraciae | Thraciae | la | transcription | docs/texts/xml/caes0035.xml|<p><choice>Thraciae
+legato | lego | la | transcription | docs/texts/xml/caes0035.xml|<p><choice>legato
+Augusti | augustus | la | transcription | docs/texts/xml/caes0035.xml|<p>Augusti
+L | L | la | transcription | docs/texts/xml/caes0035.xml|<p>L
+leg | leg | la | transcription | docs/texts/xml/caes0035.xml|<p><gap reason="illegible" quantity="2" unit="character"><lb><gap reason="illegible" quantity="2" unit="character"><choice><abbr>leg
+legionis | legio | la | transcription | docs/texts/xml/caes0035.xml|<p><choice>legionis
+III | III | la | transcription | docs/texts/xml/caes0035.xml|<p><choice>III
+Cyrenaicae | Cyrenaicae | la | transcription | docs/texts/xml/caes0035.xml|<p>Cyrenaicae
+curat | curo | la | transcription | docs/texts/xml/caes0035.xml|<p><choice><abbr>curat
+curatori | curator | la | transcription | docs/texts/xml/caes0035.xml|<p><choice><abbr>curatori
+viae | via | la | transcription | docs/texts/xml/caes0035.xml|<p><choice>viae?
+SAR | SAR | la | diplomatic | docs/texts/xml/caes0036.xml|<p><gap reason="illegible" quantity="3" unit="character">SAR
+SYR | SYR | la | diplomatic | docs/texts/xml/caes0036.xml|<p><lb><supplied reason="undefined"><gap reason="illegible" quantity="2" unit="characters"><choice><abbr>SYR
+SYRIAE | SYRIAE | la | diplomatic | docs/texts/xml/caes0036.xml|<p><choice>SYRIAE
+PALAESTINAE | PALAESTINAE | la | diplomatic | docs/texts/xml/caes0036.xml|<p><choice>PALAESTINAE
+cus | cus | la | transcription | docs/texts/xml/caes0037.xml|<p><gap reason="illegible" quantity="3" unit="character">cus
+optimo | bonus | la | transcription | docs/texts/xml/caes0037.xml|<p>optimo
+viro | vir | la | transcription | docs/texts/xml/caes0037.xml|<p>viro
+asi | asi | la | transcription | docs/texts/xml/caes0037.xml|<p>asi
+sua | suum | la | transcription | docs/texts/xml/caes0037.xml|<p>sua
+de | de | la | transcription | docs/texts/xml/caes0037.xml|<p>de
+suo | suo | la | transcription | docs/texts/xml/caes0037.xml|<p>suo
+dono | dono | la | transcription | docs/texts/xml/caes0037.xml|<p>dono
+dedit | do | la | transcription | docs/texts/xml/caes0037.xml|<p>dedit.
+cus | cus | la-transl | translation | docs/texts/xml/caes0037.xml|<p>...--cus
+gave | gave | la-transl | translation | docs/texts/xml/caes0037.xml|<p>gave
+it | it | la-transl | translation | docs/texts/xml/caes0037.xml|<p>it
+at | at | la-transl | translation | docs/texts/xml/caes0037.xml|<p>at
+his | his | la-transl | translation | docs/texts/xml/caes0037.xml|<p>his
+expense | expense | la-transl | translation | docs/texts/xml/caes0037.xml|<p>expense
+to | to | la-transl | translation | docs/texts/xml/caes0037.xml|<p>to
+a | a | la-transl | translation | docs/texts/xml/caes0037.xml|<p>a
+great | great | la-transl | translation | docs/texts/xml/caes0037.xml|<p>great
+man | man | la-transl | translation | docs/texts/xml/caes0037.xml|<p>man
+by | by | la-transl | translation | docs/texts/xml/caes0037.xml|<p>by
+his | his | la-transl | translation | docs/texts/xml/caes0037.xml|<p>his
+ρεσεν | ρεσεν | grc | transcription | docs/texts/xml/caes0038.xml|<p><gap reason="illegible" quantity="3" unit="character"><unclear>ρεσεν
+Ἄμβρος | Ἄμβρος | grc | transcription | docs/texts/xml/caes0038.xml|<p>Ἄμβρος
+ἀγήνωρ | ἀγήνωρ | grc | transcription | docs/texts/xml/caes0038.xml|<p>ἀγήνωρ
+manly | manly | grc-transl | translation | docs/texts/xml/caes0038.xml|<p>...manly
+Ambros | Ambros | grc-transl | translation | docs/texts/xml/caes0038.xml|<p>Ambros...
+Ἀνδρέου | Ἀνδρέου | grc | transcription | docs/texts/xml/caes0039.xml|<p>Ἀνδρέου
+ἐνδοξωτάτου | ἐνδοξωτάτου | grc | transcription | docs/texts/xml/caes0039.xml|<p><lb>ἐνδοξωτάτου
+φιλοκτίστου | φιλοκτίστου | grc | transcription | docs/texts/xml/caes0039.xml|<p><lb>φιλοκτίστου
+ἀνθυπάτου | ἀνθυπάτου | grc | transcription | docs/texts/xml/caes0039.xml|<p><lb>ἀνθυπάτου
+πολλὰ | πολλὰ | grc | transcription | docs/texts/xml/caes0039.xml|<p><lb>πολλὰ
+τὰ | τὰ | grc | transcription | docs/texts/xml/caes0039.xml|<p>τὰ
+ἔτη | ἔτος | grc | transcription | docs/texts/xml/caes0039.xml|<p>ἔτη.
+May | May | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>May
+the | the | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>the
+years | years | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>years
+of | of | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>the
+most | most | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>most
+glorious | glorious | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>glorious
+proconsul | proconsul | grc-transl | translation | docs/texts/xml/caes0039.xml|<p><rs type="admTitle">proconsul
+Andreas | Andreas | grc-transl | translation | docs/texts/xml/caes0039.xml|<p><persName lang="grc " ref="persons.xml#caes0039p01">Andreas
+devoted | devoted | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>devoted
+to | to | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>to
+building | building | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>building
+be | be | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>be
+many! | many! | grc-transl | translation | docs/texts/xml/caes0039.xml|<p>many!
+Κύριε | Κύριε | grc | transcription | docs/texts/xml/caes0040.xml|<p>Κύριε
+εἰς | εἰς | grc | transcription | docs/texts/xml/caes0040.xml|<p>εἰς
+αἰῶνα | αἰών | grc | transcription | docs/texts/xml/caes0040.xml|<p>αἰῶνα
+τοῦς | τοῦς | grc | transcription | docs/texts/xml/caes0040.xml|<p>τοῦς
+ὀρθωδόξους | ὀρθωδόξους | grc | transcription | docs/texts/xml/caes0040.xml|<p>ὀρθωδόξους
+στήριξον | στήριξον | grc | transcription | docs/texts/xml/caes0040.xml|<p>στήριξον.
+O | O | grc-transl | translation | docs/texts/xml/caes0040.xml|<p>O
+Lord | Lord | grc-transl | translation | docs/texts/xml/caes0040.xml|<p><rs type="divine">Lord
+establish | establish | grc-transl | translation | docs/texts/xml/caes0040.xml|<p>establish
+the | the | grc-transl | translation | docs/texts/xml/caes0040.xml|<p>the
+orthodox | orthodox | grc-transl | translation | docs/texts/xml/caes0040.xml|<p>orthodox
+into | into | grc-transl | translation | docs/texts/xml/caes0040.xml|<p>into
+eternity! | eternity! | grc-transl | translation | docs/texts/xml/caes0040.xml|<p>eternity!
+νικᾷ | νικάω | grc | transcription | docs/texts/xml/caes0041.xml|<p>νικᾷ
+ἡ | ὁ | grc | transcription | docs/texts/xml/caes0041.xml|<p>ἡ
+τύχη | τύχη | grc | transcription | docs/texts/xml/caes0041.xml|<p>τύχη
+τῶν | ὁ | grc | transcription | docs/texts/xml/caes0041.xml|<p>τῶν
+ὠμοφόρων | ὠμοφόρων | grc | transcription | docs/texts/xml/caes0041.xml|<p>ὠμοφόρων
+κὲ | κὲ | grc | transcription | docs/texts/xml/caes0041.xml|<p><lb>κὲ
+σὶ | σὶ | grc | transcription | docs/texts/xml/caes0041.xml|<p>σὶ
+Ἀνακίῳ | Ἀνακίῳ | grc | transcription | docs/texts/xml/caes0041.xml|<p>Ἀνακίῳ.
+May | May | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>May
+the | the | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>the
+good | good | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>good
+luck | luck | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>luck
+of | of | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>the
+porters | porters | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>porters
+prevail | prevail | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>prevail:
+also | also | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>also
+for | for | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>for
+you | you | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>you
+Anakios | Anakios | grc-transl | translation | docs/texts/xml/caes0041.xml|<p><persName lang="grc " ref="persons.xml#caes0041p01">Anakios
+! | ! | grc-transl | translation | docs/texts/xml/caes0041.xml|<p>!
+ΚΑΚΑΤΑΕΤΗ | ΚΑΚΑΤΑΕΤΗ | grc | diplomatic | docs/texts/xml/caes0042.xml|<p>ΚΑΚΑΤΑΕΤΗ
+Ρ | Ρ | grc | diplomatic | docs/texts/xml/caes0042.xml|<p>Ρ
+ΓΕΜΗΝΙΣΤΟ | ΓΕΜΗΝΙΣΤΟ | grc | diplomatic | docs/texts/xml/caes0042.xml|<p><gap reason="illegible" quantity="2" unit="character"><lb>ΓΕΜΗΝΙΣΤΟ
+Evil | Evil | grc-transl | translation | docs/texts/xml/caes0042.xml|<p>Evil
+be | be | grc-transl | translation | docs/texts/xml/caes0042.xml|<p>be
+the | the | grc-transl | translation | docs/texts/xml/caes0042.xml|<p>the
+years | years | grc-transl | translation | docs/texts/xml/caes0042.xml|<p>years
+of | of | grc-transl | translation | docs/texts/xml/caes0042.xml|<p>of
+R | R | grc-transl | translation | docs/texts/xml/caes0042.xml|<p>R--...
+s | s | la | transcription | docs/texts/xml/caes0043.xml|<p><gap reason="illegible" quantity="3" unit="character">s
+Tiberiéum | Tiberiéum | la | transcription | docs/texts/xml/caes0043.xml|<p>Tiberiéum
+Po | Po | la | transcription | docs/texts/xml/caes0043.xml|<p><gap reason="illegible" quantity="1" unit="character">Po
+ntius | ntius | la | transcription | docs/texts/xml/caes0043.xml|<p>ntius
+Pilatus | pilo | la | transcription | docs/texts/xml/caes0043.xml|<p>Pilatus
+praefectus | praeficio | la | transcription | docs/texts/xml/caes0043.xml|<p>praefectus
+Iudaeae | Iudaeae | la | transcription | docs/texts/xml/caes0043.xml|<p>Iudaeae
+Pontius | Pontius | la-transl | translation | docs/texts/xml/caes0043.xml|<p><name><persName lang="la " ref="persons.xml#caes0043p01" nymRef="names.xml#caes0043n01">Pontius
+Pilatus | Pilatus | la-transl | translation | docs/texts/xml/caes0043.xml|<p><name><persName lang="la " ref="persons.xml#caes0043p02" nymRef="names.xml#caes0043n02">Pilatus
+prefect | prefect | la-transl | translation | docs/texts/xml/caes0043.xml|<p><name><rs type="admTitle">prefect
+of | of | la-transl | translation | docs/texts/xml/caes0043.xml|<p>of
+Judaeathe | Judaeathe | la-transl | translation | docs/texts/xml/caes0043.xml|<p>Judaea...the
+Tiberieum | Tiberieum | la-transl | translation | docs/texts/xml/caes0043.xml|<p>Tiberieum....
+Coloniae | colonia | la | transcription | docs/texts/xml/caes0044.xml|<p>Coloniae?
+Primae | primus | la | transcription | docs/texts/xml/caes0044.xml|<p>Primae
+Flaviae | Flaviae | la | transcription | docs/texts/xml/caes0044.xml|<p>Flaviae
+Augustae | augustus | la | transcription | docs/texts/xml/caes0044.xml|<p>Augustae
+Caesareae | Caesareae | la | transcription | docs/texts/xml/caes0044.xml|<p><supplied reason="undefined">Caesareae
+ex | ex | la | transcription | docs/texts/xml/caes0044.xml|<p><supplied reason="undefined">ex
+testamento | testamentum | la | transcription | docs/texts/xml/caes0044.xml|<p>testamento
+Cleopatra | Cleopatra | la | transcription | docs/texts/xml/caes0044.xml|<p><gap quantity="3" unit="character" reason="lost"><lb><space><gap quantity="1" unit="character" reason="lost">Cleo?patra
+mater | mater | la | transcription | docs/texts/xml/caes0044.xml|<p>mater
+eius | is | la | transcription | docs/texts/xml/caes0044.xml|<p>eius
+herq | herq | la | transcription | docs/texts/xml/caes0044.xml|<p>herq
+es | edo | la | transcription | docs/texts/xml/caes0044.xml|<p><unclear>(es?)
+facere | facio | la | transcription | docs/texts/xml/caes0044.xml|<p><unclear>facere
+iussit | jubeo | la | transcription | docs/texts/xml/caes0044.xml|<p>iussit?
+Cleopatra | Cleopatra | la-transl | translation | docs/texts/xml/caes0044.xml|<p><name><persName lang="egy " ref="persons.xml#caes0044p01">Cleopatra
+mother | mother | la-transl | translation | docs/texts/xml/caes0044.xml|<p><name><rs type="family">mother
+and | and | la-transl | translation | docs/texts/xml/caes0044.xml|<p>and
+heir | heir | la-transl | translation | docs/texts/xml/caes0044.xml|<p>heir
+of | of | la-transl | translation | docs/texts/xml/caes0044.xml|<p>of
+by | by | la-transl | translation | docs/texts/xml/caes0044.xml|<p>(by
+testament | testament | la-transl | translation | docs/texts/xml/caes0044.xml|<p>testament
+made | made | la-transl | translation | docs/texts/xml/caes0044.xml|<p>made
+this | this | la-transl | translation | docs/texts/xml/caes0044.xml|<p>this)
+for | for | la-transl | translation | docs/texts/xml/caes0044.xml|<p>?for
+Caesarea | Caesarea | la-transl | translation | docs/texts/xml/caes0044.xml|<p><placeName>Caesarea
+the | the | la-transl | translation | docs/texts/xml/caes0044.xml|<p>the
+Colony | Colony | la-transl | translation | docs/texts/xml/caes0044.xml|<p>Colony
+Prima | Prima | la-transl | translation | docs/texts/xml/caes0044.xml|<p><placeName>Prima
+Flavia | Flavia | la-transl | translation | docs/texts/xml/caes0044.xml|<p><placeName>Flavia
+Augusta | Augusta | la-transl | translation | docs/texts/xml/caes0044.xml|<p>Augusta.
+Imperatore | imperator | la | transcription | docs/texts/xml/caes0045.xml|<p><expan>Imperatore
+TraianoHadriano | TraianoHadriano | la | transcription | docs/texts/xml/caes0045.xml|<p>TraianoHadriano
+Augusto | augustus | la | transcription | docs/texts/xml/caes0045.xml|<p>Augusto
+vexillatio | vexillatio | la | transcription | docs/texts/xml/caes0045.xml|<p><lb>vexillatio
+legionis | legio | la | transcription | docs/texts/xml/caes0045.xml|<p><expan>legionis
+X | X | la | transcription | docs/texts/xml/caes0045.xml|<p>X
+Fretensis | Fretensis | la | transcription | docs/texts/xml/caes0045.xml|<p>Fretensis.
+A | A | la-transl | translation | docs/texts/xml/caes0045.xml|<p>A
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0045.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0045.xml|<p>of
+Legio | Legio | la-transl | translation | docs/texts/xml/caes0045.xml|<p>Legio
+X | X | la-transl | translation | docs/texts/xml/caes0045.xml|<p>X
+Fretensis | Fretensis | la-transl | translation | docs/texts/xml/caes0045.xml|<p>Fretensis
+built | built | la-transl | translation | docs/texts/xml/caes0045.xml|<p>(built
+this | this | la-transl | translation | docs/texts/xml/caes0045.xml|<p>this)
+under | under | la-transl | translation | docs/texts/xml/caes0045.xml|<p>(under)
+Imperator | Imperator | la-transl | translation | docs/texts/xml/caes0045.xml|<p><rs type="admTitle">Imperator
+Trajan | Trajan | la-transl | translation | docs/texts/xml/caes0045.xml|<p><name><persName lang="la " ref="persons.xml#caes0045p01" nymRef="names.xml#caes0045n01">Trajan
+Hadrian | Hadrian | la-transl | translation | docs/texts/xml/caes0045.xml|<p><name><persName lang="la " ref="persons.xml#caes0045p02" nymRef="names.xml#caes0045n02">Hadrian
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0045.xml|<p><name><persName lang="la " ref="persons.xml#caes0045p03" nymRef="names.xml#caes0045n03">Augustus
+Vexillatio | Vexillatio | la | transcription | docs/texts/xml/caes0046.xml|<p><del>Vexillatio
+legionis | legio | la | transcription | docs/texts/xml/caes0046.xml|<p><del><lb><del>legionis
+XXII | XXII | la | transcription | docs/texts/xml/caes0046.xml|<p><del>XXII
+D | D | la | transcription | docs/texts/xml/caes0046.xml|<p><lb><del>D
+eio | eio | la | transcription | docs/texts/xml/caes0046.xml|<p><del>eio
+t | t | la | transcription | docs/texts/xml/caes0046.xml|<p><del>t
+arian | arian | la | transcription | docs/texts/xml/caes0046.xml|<p><del>arian
+a | ab | la | transcription | docs/texts/xml/caes0046.xml|<p><del>a.
+A | A | la-transl | translation | docs/texts/xml/caes0046.xml|<p>A
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0046.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0046.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0046.xml|<p>the
+twentyfirst | twentyfirst | la-transl | translation | docs/texts/xml/caes0046.xml|<p>twenty-first
+legion | legion | la-transl | translation | docs/texts/xml/caes0046.xml|<p>legion
+Deiotariana | Deiotariana | la-transl | translation | docs/texts/xml/caes0046.xml|<p>Deiotariana.
+Imperatore | imperator | la | transcription | docs/texts/xml/caes0047.xml|<p>Imperatore
+Caesare | Caesare | la | transcription | docs/texts/xml/caes0047.xml|<p><lb>Caesare
+Traiano | Traiano | la | transcription | docs/texts/xml/caes0047.xml|<p>Traiano
+Hadriano | Hadriano | la | transcription | docs/texts/xml/caes0047.xml|<p>Hadriano
+Augusto | augustus | la | transcription | docs/texts/xml/caes0047.xml|<p><lb>Augusto
+vexillatio | vexillatio | la | transcription | docs/texts/xml/caes0047.xml|<p>vexillatio
+legionis | legio | la | transcription | docs/texts/xml/caes0047.xml|<p><expan>legionis
+II | eo | la | transcription | docs/texts/xml/caes0047.xml|<p>II
+Traianae | Traianae | la | transcription | docs/texts/xml/caes0047.xml|<p>Traianae
+fortis | fortis | la | transcription | docs/texts/xml/caes0047.xml|<p>fortis.
+A | A | la-transl | translation | docs/texts/xml/caes0047.xml|<p>A
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0047.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0047.xml|<p>of
+Legio | Legio | la-transl | translation | docs/texts/xml/caes0047.xml|<p>Legio
+II | II | la-transl | translation | docs/texts/xml/caes0047.xml|<p>II
+Taiana | Taiana | la-transl | translation | docs/texts/xml/caes0047.xml|<p>Taiana
+Fortis | Fortis | la-transl | translation | docs/texts/xml/caes0047.xml|<p>Fortis
+made | made | la-transl | translation | docs/texts/xml/caes0047.xml|<p>(made
+this | this | la-transl | translation | docs/texts/xml/caes0047.xml|<p>this)
+under | under | la-transl | translation | docs/texts/xml/caes0047.xml|<p>(under)
+Imperator | Imperator | la-transl | translation | docs/texts/xml/caes0047.xml|<p><rs type="admTitle">Imperator
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0047.xml|<p><rs type="admTitle">Caesar
+Trajan | Trajan | la-transl | translation | docs/texts/xml/caes0047.xml|<p><name><persName lang="la " ref="persons.xml#caes0047p01" nymRef="names.xml#caes0047n01">Trajan
+Hadrian | Hadrian | la-transl | translation | docs/texts/xml/caes0047.xml|<p><name><persName lang="la " ref="persons.xml#caes0047p02" nymRef="names.xml#caes0047n02">Hadrian
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0047.xml|<p><name><persName lang="la " ref="persons.xml#caes0047p03" nymRef="names.xml#caes0047n03">Augustus
+Vexillatio | Vexillatio | la | transcription | docs/texts/xml/caes0048.xml|<p>Vexillatio
+legionis | legio | la | transcription | docs/texts/xml/caes0048.xml|<p><lb><expan>legionis
+X | X | la | transcription | docs/texts/xml/caes0048.xml|<p>X
+Fretensis | Fretensis | la | transcription | docs/texts/xml/caes0048.xml|<p>Fretensis.
+A | A | la-transl | translation | docs/texts/xml/caes0048.xml|<p>A
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0048.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0048.xml|<p>of
+the | the | la-transl | translation | docs/texts/xml/caes0048.xml|<p>the
+tenth | tenth | la-transl | translation | docs/texts/xml/caes0048.xml|<p>tenth
+legion | legion | la-transl | translation | docs/texts/xml/caes0048.xml|<p>legion
+Fretensis | Fretensis | la-transl | translation | docs/texts/xml/caes0048.xml|<p>Fretensis
+made | made | la-transl | translation | docs/texts/xml/caes0048.xml|<p>(made
+this | this | la-transl | translation | docs/texts/xml/caes0048.xml|<p>this).
+Imperatore | imperator | la | transcription | docs/texts/xml/caes0049.xml|<p>Imperatore
+Caesare | Caesare | la | transcription | docs/texts/xml/caes0049.xml|<p>Caesare
+Tr | Tr | la | transcription | docs/texts/xml/caes0049.xml|<p><lb><choice><abbr>Tr
+Traiano | Traiano | la | transcription | docs/texts/xml/caes0049.xml|<p><choice><abbr>Traiano
+Hadriano | Hadriano | la | transcription | docs/texts/xml/caes0049.xml|<p><choice>Hadriano
+Aug | Aug | la | transcription | docs/texts/xml/caes0049.xml|<p><choice><abbr>Aug
+Augusto | augustus | la | transcription | docs/texts/xml/caes0049.xml|<p><choice>Augusto
+vexillatio | vexillatio | la | transcription | docs/texts/xml/caes0049.xml|<p><choice><lb>vexillatio
+legionis | legio | la | transcription | docs/texts/xml/caes0049.xml|<p>legionis
+VI | vis | la | transcription | docs/texts/xml/caes0049.xml|<p><lb>VI
+Ferratae | ferratus | la | transcription | docs/texts/xml/caes0049.xml|<p>Ferratae.
+A | A | la-transl | translation | docs/texts/xml/caes0049.xml|<p>A
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0049.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0049.xml|<p>of
+Legio | Legio | la-transl | translation | docs/texts/xml/caes0049.xml|<p>Legio
+VI | VI | la-transl | translation | docs/texts/xml/caes0049.xml|<p>VI
+Ferrata | Ferrata | la-transl | translation | docs/texts/xml/caes0049.xml|<p>Ferrata
+made | made | la-transl | translation | docs/texts/xml/caes0049.xml|<p>(made
+this | this | la-transl | translation | docs/texts/xml/caes0049.xml|<p>this)
+under | under | la-transl | translation | docs/texts/xml/caes0049.xml|<p>(under)
+Imperator | Imperator | la-transl | translation | docs/texts/xml/caes0049.xml|<p><rs type="admTitle">Imperator
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0049.xml|<p><rs type="admTitle">Caesar
+Trajan | Trajan | la-transl | translation | docs/texts/xml/caes0049.xml|<p><name><persName lang="la " ref="persons.xml#caes0049p01" nymRef="names.xml#caes0049n01">Trajan
+Hadrian | Hadrian | la-transl | translation | docs/texts/xml/caes0049.xml|<p><name><persName lang="la " ref="persons.xml#caes0049p02" nymRef="names.xml#caes0049n02">Hadrian
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0049.xml|<p><name><persName lang="la " ref="persons.xml#caes0049p03" nymRef="names.xml#caes0049n03">Augustus
+legionis | legio | la | transcription | docs/texts/xml/caes0050.xml|<p><supplied reason="undefined"><expan>legionis
+X | X | la | transcription | docs/texts/xml/caes0050.xml|<p><supplied reason="undefined">X
+Fretensis | Fretensis | la | transcription | docs/texts/xml/caes0050.xml|<p>Fretensis
+Imperator | imperator | la | transcription | docs/texts/xml/caes0051.xml|<p><expan>Imperator
+CaesarTraianusHadrianus | CaesarTraianusHadrianus | la | transcription | docs/texts/xml/caes0051.xml|<p>CaesarTraianusHadrianus
+Augustus | augustus | la | transcription | docs/texts/xml/caes0051.xml|<p><expan>Augustus
+fecitper | fecitper | la | transcription | docs/texts/xml/caes0051.xml|<p>fecitper
+vexillationem | vexillationem | la | transcription | docs/texts/xml/caes0051.xml|<p>vexillationem
+legionis | legio | la | transcription | docs/texts/xml/caes0051.xml|<p><lb><expan>legionis
+X | X | la | transcription | docs/texts/xml/caes0051.xml|<p>X
+Fretensis | Fretensis | la | transcription | docs/texts/xml/caes0051.xml|<p>Fretensis.
+Imperator | Imperator | la-transl | translation | docs/texts/xml/caes0051.xml|<p><rs type="admTitle">Imperator
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0051.xml|<p><rs type="admTitle">Caesar
+Trajan | Trajan | la-transl | translation | docs/texts/xml/caes0051.xml|<p><name><persName lang="la " ref="persons.xml#caes0051p01" nymRef="names.xml#caes0051n01">Trajan
+Hadrian | Hadrian | la-transl | translation | docs/texts/xml/caes0051.xml|<p><name><persName lang="la " ref="persons.xml#caes0051p02" nymRef="names.xml#caes0051n02">Hadrian
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0051.xml|<p><name><persName lang="la " ref="persons.xml#caes0051p03" nymRef="names.xml#caes0051n03">Augustus
+made | made | la-transl | translation | docs/texts/xml/caes0051.xml|<p><name>made
+the | the | la-transl | translation | docs/texts/xml/caes0051.xml|<p>(the
+aqueduct | aqueduct | la-transl | translation | docs/texts/xml/caes0051.xml|<p>aqueduct)
+through | through | la-transl | translation | docs/texts/xml/caes0051.xml|<p>through
+a | a | la-transl | translation | docs/texts/xml/caes0051.xml|<p>a
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0051.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0051.xml|<p>of
+Legio | Legio | la-transl | translation | docs/texts/xml/caes0051.xml|<p>Legio
+X | X | la-transl | translation | docs/texts/xml/caes0051.xml|<p>X
+Fretensis | Fretensis | la-transl | translation | docs/texts/xml/caes0051.xml|<p>Fretensis.
+Imperatore | imperator | la | transcription | docs/texts/xml/caes0052.xml|<p>Imperatore
+Caesar | Caesar | la | transcription | docs/texts/xml/caes0052.xml|<p>Caesar
+TraianusHadrianus | TraianusHadrianus | la | transcription | docs/texts/xml/caes0052.xml|<p><lb>TraianusHadrianus
+Augustus | augustus | la | transcription | docs/texts/xml/caes0052.xml|<p><expan>Augustus
+fecitper | fecitper | la | transcription | docs/texts/xml/caes0052.xml|<p>fecitper
+vexillationem | vexillationem | la | transcription | docs/texts/xml/caes0052.xml|<p>vexillationem
+legionis | legio | la | transcription | docs/texts/xml/caes0052.xml|<p><lb><expan>legionis
+X | X | la | transcription | docs/texts/xml/caes0052.xml|<p>X
+Fretensis | Fretensis | la | transcription | docs/texts/xml/caes0052.xml|<p>Fretensis.
+Imperator | Imperator | la-transl | translation | docs/texts/xml/caes0052.xml|<p><rs type="admTitle">Imperator
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0052.xml|<p><rs type="admTitle">Caesar
+Trajan | Trajan | la-transl | translation | docs/texts/xml/caes0052.xml|<p><name><persName lang="la " ref="persons.xml#caes0052p01" nymRef="names.xml#caes0052n01">Trajan
+Hadrian | Hadrian | la-transl | translation | docs/texts/xml/caes0052.xml|<p><name><persName lang="la " ref="persons.xml#caes0052p02" nymRef="names.xml#caes0052n02">Hadrian
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0052.xml|<p><name><persName lang="la " ref="persons.xml#caes0052p03" nymRef="names.xml#caes0052n03">Augustus
+made | made | la-transl | translation | docs/texts/xml/caes0052.xml|<p><name>made
+the | the | la-transl | translation | docs/texts/xml/caes0052.xml|<p>(the
+aqueduct | aqueduct | la-transl | translation | docs/texts/xml/caes0052.xml|<p>aqueduct)
+through | through | la-transl | translation | docs/texts/xml/caes0052.xml|<p>through
+a | a | la-transl | translation | docs/texts/xml/caes0052.xml|<p>a
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0052.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0052.xml|<p>of
+Legio | Legio | la-transl | translation | docs/texts/xml/caes0052.xml|<p>Legio
+X | X | la-transl | translation | docs/texts/xml/caes0052.xml|<p>X
+Fretensis | Fretensis | la-transl | translation | docs/texts/xml/caes0052.xml|<p>Fretensis.
+Imperatore | imperator | la | transcription | docs/texts/xml/caes0053.xml|<p>Imperatore
+Traiano | Traiano | la | transcription | docs/texts/xml/caes0053.xml|<p>Traiano
+Hadriano | Hadriano | la | transcription | docs/texts/xml/caes0053.xml|<p><lb>Hadriano
+Augusto | augustus | la | transcription | docs/texts/xml/caes0053.xml|<p><supplied reason="undefined">Augusto
+vexillatio | vexillatio | la | transcription | docs/texts/xml/caes0053.xml|<p><supplied reason="undefined"><lb>vexillatio
+legionis | legio | la | transcription | docs/texts/xml/caes0053.xml|<p>legionis
+X | X | la | transcription | docs/texts/xml/caes0053.xml|<p><lb>X
+Fretensis | Fretensis | la | transcription | docs/texts/xml/caes0053.xml|<p>Fretensis
+A | A | la-transl | translation | docs/texts/xml/caes0053.xml|<p>A
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0053.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0053.xml|<p>of
+Legio | Legio | la-transl | translation | docs/texts/xml/caes0053.xml|<p>Legio
+X | X | la-transl | translation | docs/texts/xml/caes0053.xml|<p>X
+Fretensis | Fretensis | la-transl | translation | docs/texts/xml/caes0053.xml|<p>Fretensis
+made | made | la-transl | translation | docs/texts/xml/caes0053.xml|<p>(made
+this | this | la-transl | translation | docs/texts/xml/caes0053.xml|<p>this)
+under | under | la-transl | translation | docs/texts/xml/caes0053.xml|<p>(under)
+Imperator | Imperator | la-transl | translation | docs/texts/xml/caes0053.xml|<p><rs type="admTitle">Imperator
+Trajan | Trajan | la-transl | translation | docs/texts/xml/caes0053.xml|<p><name><persName lang="la " ref="persons.xml#caes0053p01" nymRef="names.xml#caes0053n01">Trajan
+Hadrian | Hadrian | la-transl | translation | docs/texts/xml/caes0053.xml|<p><name><persName lang="la " ref="persons.xml#caes0053p02" nymRef="names.xml#caes0053n02">Hadrian
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0053.xml|<p><name><persName lang="la " ref="persons.xml#caes0053p03" nymRef="names.xml#caes0053n03">Augustus
+Imperator | imperator | la | transcription | docs/texts/xml/caes0054.xml|<p>Imperator
+Caesar | Caesar | la | transcription | docs/texts/xml/caes0054.xml|<p>Caesar
+Traianus | Traianus | la | transcription | docs/texts/xml/caes0054.xml|<p><lb>Traianus
+Hadr | Hadr | la | transcription | docs/texts/xml/caes0054.xml|<p><choice><abbr>Hadr
+Hadrianus | Hadrianus | la | transcription | docs/texts/xml/caes0054.xml|<p><choice><abbr>Hadrianus
+Aug | Aug | la | transcription | docs/texts/xml/caes0054.xml|<p><choice><choice><abbr>Aug
+Augustus | augustus | la | transcription | docs/texts/xml/caes0054.xml|<p><choice>Augustus
+per | per | la | transcription | docs/texts/xml/caes0054.xml|<p><choice><lb>per
+vexillationem | vexillationem | la | transcription | docs/texts/xml/caes0054.xml|<p>vexillationem
+legionis | legio | la | transcription | docs/texts/xml/caes0054.xml|<p><lb><expan>legionis
+VI | vis | la | transcription | docs/texts/xml/caes0054.xml|<p>VI
+Fer | fero | la | transcription | docs/texts/xml/caes0054.xml|<p><choice><abbr>Fer
+Ferratae | ferratus | la | transcription | docs/texts/xml/caes0054.xml|<p><choice><abbr>Ferratae
+Emperor | Emperor | la-transl | translation | docs/texts/xml/caes0054.xml|<p><rs type="admTitle">Emperor
+Caesar | Caesar | la-transl | translation | docs/texts/xml/caes0054.xml|<p><rs type="admTitle">Caesar
+Trajan | Trajan | la-transl | translation | docs/texts/xml/caes0054.xml|<p><name><persName lang="la " ref="persons.xml#caes0054p01" nymRef="names.xml#caes0054n01">Trajan
+Hadrian | Hadrian | la-transl | translation | docs/texts/xml/caes0054.xml|<p><name><persName lang="la " ref="persons.xml#caes0054p02" nymRef="names.xml#caes0054n02">Hadrian
+Augustus | Augustus | la-transl | translation | docs/texts/xml/caes0054.xml|<p><name><persName lang="la " ref="persons.xml#caes0054p03" nymRef="names.xml#caes0054n03">Augustus
+made | made | la-transl | translation | docs/texts/xml/caes0054.xml|<p><name>(made
+the | the | la-transl | translation | docs/texts/xml/caes0054.xml|<p>the
+aqueduct | aqueduct | la-transl | translation | docs/texts/xml/caes0054.xml|<p>aqueduct)
+through | through | la-transl | translation | docs/texts/xml/caes0054.xml|<p>through
+a | a | la-transl | translation | docs/texts/xml/caes0054.xml|<p>a
+detachment | detachment | la-transl | translation | docs/texts/xml/caes0054.xml|<p>detachment
+of | of | la-transl | translation | docs/texts/xml/caes0054.xml|<p>of
+Legio | Legio | la-transl | translation | docs/texts/xml/caes0054.xml|<p>Legio
+VI | VI | la-transl | translation | docs/texts/xml/caes0054.xml|<p>VI
+Ferrata | Ferrata | la-transl | translation | docs/texts/xml/caes0054.xml|<p>Ferrata.
+ἐπὶ | ἐπὶ | la | transcription | docs/texts/xml/caes0055.xml|<p>ἐπὶ
+Φλαουίου | Φλαουίου | la | transcription | docs/texts/xml/caes0055.xml|<p><expan>Φλαουίου
+Φλωρεντίουτοῦ | Φλωρεντίουτοῦ | la | transcription | docs/texts/xml/caes0055.xml|<p>Φλωρεντίουτοῦ
+μεγαλοπρεπεστάτουἀνθυπάτου | μεγαλοπρεπεστάτουἀνθυπάτου | la | transcription | docs/texts/xml/caes0055.xml|<p>μεγαλοπρεπεστάτουἀνθυπάτου
+τὰ | τὰ | la | transcription | docs/texts/xml/caes0055.xml|<p>τὰ
+δύοὑδραγώγια | δύοὑδραγώγια | la | transcription | docs/texts/xml/caes0055.xml|<p>δύοὑδραγώγια
+ἐκ | ἐκ | la | transcription | docs/texts/xml/caes0055.xml|<p>ἐκ
+θεμελίων | θεμελίων | la | transcription | docs/texts/xml/caes0055.xml|<p>θεμελίων
+ἀνενεώθη | ἀνενεώθη | la | transcription | docs/texts/xml/caes0055.xml|<p><lb>ἀνενεώθη.
+Under | Under | la-transl | translation | docs/texts/xml/caes0055.xml|<p>Under
+Flavios | Flavios | la-transl | translation | docs/texts/xml/caes0055.xml|<p><name><persName lang="la " ref="persons.xml#caes0055p01" nymRef="names.xml#caes0055n01">Flavios
+Florentios | Florentios | la-transl | translation | docs/texts/xml/caes0055.xml|<p><name><persName lang="la " ref="persons.xml#caes0055p02" nymRef="names.xml#caes0055n02">Florentios
+proconsul | proconsul | la-transl | translation | docs/texts/xml/caes0055.xml|<p><name><rs type="admTitle">proconsul
+of | of | la-transl | translation | docs/texts/xml/caes0055.xml|<p>of
+magnificentissimate | magnificentissimate | la-transl | translation | docs/texts/xml/caes0055.xml|<p><rs type="admTitle">magnificentissimate
+grade | grade | la-transl | translation | docs/texts/xml/caes0055.xml|<p>grade
+the | the | la-transl | translation | docs/texts/xml/caes0055.xml|<p>the
+two | two | la-transl | translation | docs/texts/xml/caes0055.xml|<p>two
+aqueducts | aqueducts | la-transl | translation | docs/texts/xml/caes0055.xml|<p>aqueducts
+were | were | la-transl | translation | docs/texts/xml/caes0055.xml|<p>were
+rebuilt | rebuilt | la-transl | translation | docs/texts/xml/caes0055.xml|<p>rebuilt
+from | from | la-transl | translation | docs/texts/xml/caes0055.xml|<p>from
+their | their | la-transl | translation | docs/texts/xml/caes0055.xml|<p>their
+foundations | foundations | la-transl | translation | docs/texts/xml/caes0055.xml|<p>foundations.
+ΑΣΙΑΡΟΥ | ΑΣΙΑΡΟΥ | grc | diplomatic | docs/texts/xml/caes0056.xml|<p>ΑΣΙΑΡΟΥ
+ἐπὶ | ἐπὶ | grc | transcription | docs/texts/xml/caes0057.xml|<p>ἐπὶ
+Φλαουίου | Φλαουίου | grc | transcription | docs/texts/xml/caes0057.xml|<p><expan>Φλαουίου
+Προκοπίου | Προκοπίου | grc | transcription | docs/texts/xml/caes0057.xml|<p>Προκοπίου
+Κωνσταντίου | Κωνσταντίου | grc | transcription | docs/texts/xml/caes0057.xml|<p>Κωνσταντίου
+Σευήρου | Σευήρου | grc | transcription | docs/texts/xml/caes0057.xml|<p><lb>Σευήρου
+Ἀλεξάνδρου | Ἀλεξάνδρου | grc | transcription | docs/texts/xml/caes0057.xml|<p>Ἀλεξάνδρου
+τοῦ | ὁ | grc | transcription | docs/texts/xml/caes0057.xml|<p>τοῦ
+περιβλέπτου | περιβλέπτου | grc | transcription | docs/texts/xml/caes0057.xml|<p>περιβλέπτου
+κόμητος | κόμητος | grc | transcription | docs/texts/xml/caes0057.xml|<p><lb><expan>κόμητος
+ἀπὸ | ἀπὸ | grc | transcription | docs/texts/xml/caes0057.xml|<p>ἀπὸ
+ἡγεμόνων | ἡγεμόνων | grc | transcription | docs/texts/xml/caes0057.xml|<p><expan>ἡγεμόνων
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0057.xml|<p>καὶ
+ὑπατικοῦὁ | ὑπατικοῦὁ | grc | transcription | docs/texts/xml/caes0057.xml|<p>ὑπατικοῦὁ
+βοῦργος | βοῦργος | grc | transcription | docs/texts/xml/caes0057.xml|<p>βοῦργος
+ἐκ | ἐκ | grc | transcription | docs/texts/xml/caes0057.xml|<p>ἐκ
+θεμελίων | θεμελίων | grc | transcription | docs/texts/xml/caes0057.xml|<p>θεμελίων
+ἐγένετο | ἐγένετο | grc | transcription | docs/texts/xml/caes0057.xml|<p>ἐγένετο.+
+Under | Under | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>Under
+Flavios | Flavios | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><name>Flavios
+Prokopios | Prokopios | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><name>Prokopios
+Konstantios | Konstantios | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><name>Konstantios
+Severos | Severos | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><name>Severos
+Alexandros | Alexandros | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><name>Alexandros
+count | count | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><rs type="title">count
+of | of | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>of
+spectabilate | spectabilate | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><rs type="title">spectabilate
+grade | grade | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>grade
+former | former | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>former
+praesidial | praesidial | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><rs type="admTitle">praesidial
+governor | governor | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><rs type="admTitle">governor
+and | and | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>and
+consular | consular | grc-transl | translation | docs/texts/xml/caes0057.xml|<p><rs type="admTitle">consular
+the | the | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>the
+tower | tower | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>tower
+was | was | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>was
+constructed | constructed | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>constructed
+from | from | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>from
+its | its | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>its
+foundations | foundations | grc-transl | translation | docs/texts/xml/caes0057.xml|<p>foundations.
+ἐπὶ | ἐπὶ | grc | transcription | docs/texts/xml/caes0058.xml|<p>ἐπὶ
+Φλϛαουίουἐπὶ | Φλϛαουίουἐπὶ | grc | transcription | docs/texts/xml/caes0058.xml|<p>Φλϛαουίουἐπὶ
+ΦλϛαουίουΕὐελπιδίου | ΦλϛαουίουΕὐελπιδίου | grc | transcription | docs/texts/xml/caes0058.xml|<p>ΦλϛαουίουΕὐελπιδίου
+τοῦ | ὁ | grc | transcription | docs/texts/xml/caes0058.xml|<p>τοῦ
+μεγαλοπρεπεστάτου | μεγαλοπρεπεστάτου | grc | transcription | docs/texts/xml/caes0058.xml|<p>μεγαλοπρεπεστάτου
+κόμϛ | κόμϛ | grc | transcription | docs/texts/xml/caes0058.xml|<p><lb><expan>κόμϛ
+ητος | ητος | grc | transcription | docs/texts/xml/caes0058.xml|<p><expan><ex>ητος
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0058.xml|<p><expan>καὶ
+Ἠλίου | Ἠλίου | grc | transcription | docs/texts/xml/caes0058.xml|<p>Ἠλίου
+λαμπροτάτου | λαμπροτάτου | grc | transcription | docs/texts/xml/caes0058.xml|<p><expan>λαμπροτάτου
+πατρὸςτῆς | πατρὸςτῆς | grc | transcription | docs/texts/xml/caes0058.xml|<p>πατρὸςτῆς
+πόλεωςκαὶ | πόλεωςκαὶ | grc | transcription | docs/texts/xml/caes0058.xml|<p>πόλεωςκαὶ
+ἡ | ὁ | grc | transcription | docs/texts/xml/caes0058.xml|<p>ἡ
+βασιλικὴμετὰ | βασιλικὴμετὰ | grc | transcription | docs/texts/xml/caes0058.xml|<p>βασιλικὴμετὰ
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0058.xml|<p>καὶ
+τῆςπλακώσεωςκαὶ | τῆςπλακώσεωςκαὶ | grc | transcription | docs/texts/xml/caes0058.xml|<p>τῆςπλακώσεωςκαὶ
+τῆς | ὁ | grc | transcription | docs/texts/xml/caes0058.xml|<p>τῆς
+ψηφώσεωςκαὶ | ψηφώσεωςκαὶ | grc | transcription | docs/texts/xml/caes0058.xml|<p>ψηφώσεωςκαὶ
+τῶν | ὁ | grc | transcription | docs/texts/xml/caes0058.xml|<p>τῶν
+βαθμῶντοῦ | βαθμῶντοῦ | grc | transcription | docs/texts/xml/caes0058.xml|<p>βαθμῶντοῦ
+Ἁδριανίουγέγοναν | Ἁδριανίουγέγοναν | grc | transcription | docs/texts/xml/caes0058.xml|<p>Ἁδριανίουγέγοναν
+ἐν | ἐν | grc | transcription | docs/texts/xml/caes0058.xml|<p>ἐν
+ἰνδικτιῶνι | ἰνδικτιῶνι | grc | transcription | docs/texts/xml/caes0058.xml|<p><expan>ἰνδικτιῶνι
+α´εὐτυχῶς | α´εὐτυχῶς | grc | transcription | docs/texts/xml/caes0058.xml|<p>α´εὐτυχῶς.
+Under | Under | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>Under
+Flavios | Flavios | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><name><persName lang="la " ref="persons.xml#caes0058p01" nymRef="names.xml#caes0058n01">Flavios
+Euelpidios | Euelpidios | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><name><persName lang="la " ref="persons.xml#caes0058p02" nymRef="names.xml#caes0058n02">Euelpidios
+count | count | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><name><rs type="admTitle">count
+of | of | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>of
+magnificentissimate | magnificentissimate | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><rs type="admTitle">magnificentissimate
+rank | rank | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>rank
+and | and | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>and
+Elias | Elias | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><persName ref="persons.xml#caes0058p03">Elias
+of | of | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>of
+clarissimate | clarissimate | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><rs type="admTitle">clarissimate
+rank | rank | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>rank
+and | and | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>and
+father | father | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><rs type="admTitle">father
+of | of | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><rs type="admTitle">of
+the | the | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><rs type="admTitle">the
+city | city | grc-transl | translation | docs/texts/xml/caes0058.xml|<p><rs type="admTitle">city
+the | the | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>the
+basilica | basilica | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>basilica
+along | along | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>along
+with | with | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>with
+the | the | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>the
+marble | marble | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>marble
+revetment | revetment | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>revetment
+and | and | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>and
+the | the | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>the
+mosaic | mosaic | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>mosaic
+pavement | pavement | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>pavement
+and | and | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>and
+the | the | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>the
+steps | steps | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>steps
+of | of | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>the
+Hadrianeum | Hadrianeum | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>Hadrianeum
+were | were | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>were
+constructed | constructed | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>constructed
+in | in | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>in
+the | the | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>the
+first | first | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>first
+indiction | indiction | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>indiction
+with | with | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>with
+good | good | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>good
+fortune | fortune | grc-transl | translation | docs/texts/xml/caes0058.xml|<p>fortune.
+ἐπὶ | ἐπὶ | grc | transcription | docs/texts/xml/caes0059.xml|<p>ἐπὶ
+Φλαουίου | Φλαουίου | grc | transcription | docs/texts/xml/caes0059.xml|<p><expan>Φλαουίου
+Ἐντολίου | Ἐντολίου | grc | transcription | docs/texts/xml/caes0059.xml|<p>Ἐντολίου
+τοῦ | ὁ | grc | transcription | docs/texts/xml/caes0059.xml|<p>τοῦ
+ἐνδοξωτάτου | ἐνδοξωτάτου | grc | transcription | docs/texts/xml/caes0059.xml|<p>ἐνδοξωτάτου
+στρατηλάτου | στρατηλάτου | grc | transcription | docs/texts/xml/caes0059.xml|<p><lb><expan>στρατηλάτου
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0059.xml|<p>καὶ
+ἀνθυπάτου | ἀνθυπάτου | grc | transcription | docs/texts/xml/caes0059.xml|<p>ἀνθυπάτου
+Φλάουιος | Φλάουιος | grc | transcription | docs/texts/xml/caes0059.xml|<p><expan>Φλάουιος
+Στρατήγιος | Στρατήγιος | grc | transcription | docs/texts/xml/caes0059.xml|<p>Στρατήγιος
+περίβλεπτος | περίβλεπτος | grc | transcription | docs/texts/xml/caes0059.xml|<p><expan>περίβλεπτος
+πατὴρκαὶ | πατὴρκαὶ | grc | transcription | docs/texts/xml/caes0059.xml|<p>πατὴρκαὶ
+πρωτεύων | πρωτεύων | grc | transcription | docs/texts/xml/caes0059.xml|<p><expan>πρωτεύων
+τὴν | τὴν | grc | transcription | docs/texts/xml/caes0059.xml|<p>τὴν
+ἁψῖδα | ἁψίς | grc | transcription | docs/texts/xml/caes0059.xml|<p>ἁψῖδα
+σὺν | σὺν | grc | transcription | docs/texts/xml/caes0059.xml|<p>σὺν
+τῷ | ὁ | grc | transcription | docs/texts/xml/caes0059.xml|<p>τῷ
+τοίχῳκαὶ | τοίχῳκαὶ | grc | transcription | docs/texts/xml/caes0059.xml|<p>τοίχῳκαὶ
+τῇ | ὁ | grc | transcription | docs/texts/xml/caes0059.xml|<p>τῇ
+ἀναβάθρᾳ | ἀναβάθρᾳ | grc | transcription | docs/texts/xml/caes0059.xml|<p>ἀναβάθρᾳ
+ἀπὸ | ἀπὸ | grc | transcription | docs/texts/xml/caes0059.xml|<p>ἀπὸ
+πολιτικῶν | πολιτικός | grc | transcription | docs/texts/xml/caes0059.xml|<p>πολιτικῶν
+ἰνδικτιῶνος | ἰνδικτιῶνος | grc | transcription | docs/texts/xml/caes0059.xml|<p><expan>ἰνδικτιῶνος
+δεκάτης | δεκάτης | grc | transcription | docs/texts/xml/caes0059.xml|<p>δεκάτης
+εὐτυχῶς | εὐτυχής | grc | transcription | docs/texts/xml/caes0059.xml|<p>εὐτυχῶς.
+Under | Under | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>Under
+Flavios | Flavios | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><name><persName lang="la " ref="persons.xml#caes0059p01">Flavios
+Entolios | Entolios | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><name><name><persName lang="la " ref="persons.xml#caes0059p02">Entolios
+of | of | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><name>of
+gloriosissimate | gloriosissimate | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><rs type="admTitle">gloriosissimate
+grade | grade | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>grade
+general | general | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><rs type="admTitle">general
+and | and | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>and
+proconsul | proconsul | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><rs type="admTitle">proconsul
+Flavios | Flavios | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><name><persName lang="la " ref="persons.xml#caes0059p03">Flavios
+Strategios | Strategios | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><name><name><persName lang="la " ref="persons.xml#caes0059p04">Strategios
+of | of | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><name>of
+spectabilate | spectabilate | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><rs type="admTitle">spectabilate
+grade | grade | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>grade
+father | father | grc-transl | translation | docs/texts/xml/caes0059.xml|<p><rs type="family">father
+and | and | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>and
+first | first | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>first
+man | man | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>man
+built | built | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>(built)
+the | the | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>the
+arch | arch | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>arch
+together | together | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>together
+with | with | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>with
+the | the | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>the
+wall | wall | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>wall
+and | and | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>and
+the | the | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>the
+staircase | staircase | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>staircase
+from | from | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>from
+city | city | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>city
+funds | funds | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>funds
+in | in | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>in
+the | the | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>the
+tenth | tenth | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>tenth
+indiction | indiction | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>indiction
+with | with | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>with
+good | good | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>good
+fortune | fortune | grc-transl | translation | docs/texts/xml/caes0059.xml|<p>fortune.
+τὴν | τὴν | grc | transcription | docs/texts/xml/caes0060.xml|<p><gap reason="illegible" quantity="3" unit="character">τὴν
+μητρόπολιν | μητρόπολιν | grc | transcription | docs/texts/xml/caes0060.xml|<p>μητρόπολιν
+ἔκτισεν | κτίζω | grc | transcription | docs/texts/xml/caes0060.xml|<p>ἔκτισεν
+He | He | grc-transl | translation | docs/texts/xml/caes0060.xml|<p>He
+founded | founded | grc-transl | translation | docs/texts/xml/caes0060.xml|<p>founded
+the | the | grc-transl | translation | docs/texts/xml/caes0060.xml|<p>the
+metropolis | metropolis | grc-transl | translation | docs/texts/xml/caes0060.xml|<p>metropolis
+αὔξοις | αὐξάνω | grc | transcription | docs/texts/xml/caes0061.xml|<p><supplied reason="undefined">αὔξοις
+μητρόπολι | μητρόπολι | grc | transcription | docs/texts/xml/caes0061.xml|<p>μητρόπολι.
+May | May | grc-transl | translation | docs/texts/xml/caes0061.xml|<p>May
+you | you | grc-transl | translation | docs/texts/xml/caes0061.xml|<p>you
+flourish | flourish | grc-transl | translation | docs/texts/xml/caes0061.xml|<p>flourish
+Metropolis! | Metropolis! | grc-transl | translation | docs/texts/xml/caes0061.xml|<p>Metropolis!
+Cdo | Cdo | la | transcription | docs/texts/xml/caes0062.xml|<p>Cdo
+ped | ped | la | transcription | docs/texts/xml/caes0062.xml|<p><expan><abbr>ped
+es | edo | la | transcription | docs/texts/xml/caes0062.xml|<p><expan><ex>es
+XXXIILati | XXXIILati | la | transcription | docs/texts/xml/caes0062.xml|<p><expan>XXXIILati
+tudo | tudo | la | transcription | docs/texts/xml/caes0062.xml|<p>tudo
+pedes | pedo | la | transcription | docs/texts/xml/caes0062.xml|<p>pedes
+XX | XX | la | transcription | docs/texts/xml/caes0062.xml|<p>XX
+Height | Height | la-transl | translation | docs/texts/xml/caes0062.xml|<p>(Height?)
+32 | 32 | la-transl | translation | docs/texts/xml/caes0062.xml|<p>32
+feet | feet | la-transl | translation | docs/texts/xml/caes0062.xml|<p>feet
+width | width | la-transl | translation | docs/texts/xml/caes0062.xml|<p>width
+20 | 20 | la-transl | translation | docs/texts/xml/caes0062.xml|<p>20(+)
+feet | feet | la-transl | translation | docs/texts/xml/caes0062.xml|<p>feet
+μετὰ | μετὰ | grc | transcription | docs/texts/xml/caes0063.xml|<p>μετὰ
+τῶν | ὁ | grc | transcription | docs/texts/xml/caes0063.xml|<p>τῶν
+ἄλλων | ἄλλος | grc | transcription | docs/texts/xml/caes0063.xml|<p>ἄλλων
+πολλῶν | πολύς | grc | transcription | docs/texts/xml/caes0063.xml|<p>πολλῶν
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0063.xml|<p>καὶ
+μεγάλων | μεγάλων | grc | transcription | docs/texts/xml/caes0063.xml|<p>μεγάλων
+ἔργων | ἔργνυμι | grc | transcription | docs/texts/xml/caes0063.xml|<p>ἔργων
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0063.xml|<p>καὶ
+τὸ | τὸ | grc | transcription | docs/texts/xml/caes0063.xml|<p>τὸ
+ἔργον | ἔργνυμι | grc | transcription | docs/texts/xml/caes0063.xml|<p>ἔργον
+τῆς | ὁ | grc | transcription | docs/texts/xml/caes0063.xml|<p>τῆς
+πλακώ­ | πλακώ­ | grc | transcription | docs/texts/xml/caes0063.xml|<p>πλακώ­
+σεως | σεως | grc | transcription | docs/texts/xml/caes0063.xml|<p>σεως
+ψηφο | ψηφο | grc | transcription | docs/texts/xml/caes0063.xml|<p>ψηφο
+θ | θ | grc | transcription | docs/texts/xml/caes0063.xml|<p>θ
+ε | ε | grc | transcription | docs/texts/xml/caes0063.xml|<p>ε
+τοῦμε | τοῦμε | grc | transcription | docs/texts/xml/caes0063.xml|<p>τοῦμε
+ψήφισμα | ψήφισμα | grc | transcription | docs/texts/xml/caes0063.xml|<p><gap reason="illegible" atLeast="11" atMost="13" unit="character">ψήφισμα
+Along | Along | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>Along
+with | with | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>with
+other | other | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>other
+works | works | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>works
+many | many | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>many
+and | and | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>and
+great | great | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>great
+we | we | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>we
+also | also | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>also
+lay | lay | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>lay
+the | the | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>the
+pavementmosaic | pavementmosaic | grc-transl | translation | docs/texts/xml/caes0063.xml|<p>pavement...mosaic...
+Ο | Ο | grc | diplomatic | docs/texts/xml/caes0064.xml|<p><gap reason="illegible" quantity="7" unit="character">Ο
+Θ | Θ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>Θ
+Η | Η | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>Η
+ΤΩΝ | ΤΩΝ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p><gap reason="illegible" quantity="4" unit="character"><lb><gap reason="illegible" quantity="6" unit="character">ΤΩΝ
+ΑΨΙΔΩΝ | ΑΨΙΔΩΝ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>ΑΨΙΔΩΝ
+ΤΗΣ | ΤΗΣ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p><supplied reason="undefined"><lb><supplied reason="undefined"><gap reason="illegible" quantity="1" unit="characters">ΤΗΣ
+ΨΗΦΩΣ | ΨΗΦΩΣ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>ΨΗΦΩΣ
+ΕΩΣ | ΕΩΣ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>ΕΩΣ
+ΠΑΣΗΣ | ΠΑΣΗΣ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>ΠΑΣΗΣ
+ΗΜΕΝΤΟΙΚΑ | ΗΜΕΝΤΟΙΚΑ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p><gap reason="illegible" quantity="2" unit="character"><lb><gap reason="illegible" quantity="6" unit="character">ΗΜΕΝΤΟΙΚΑ
+Π | Π | grc | diplomatic | docs/texts/xml/caes0064.xml|<p><lb><gap reason="illegible" quantity="7" unit="character">Π
+Α | Α | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>Α
+Ν | Ν | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>Ν
+Τ | Τ | grc | diplomatic | docs/texts/xml/caes0064.xml|<p>Τ
+τῇ | ὁ | grc | transcription | docs/texts/xml/caes0065.xml|<p><unclear><unclear><unclear><unclear><gap reason="illegible" quantity="5" unit="character"><lb>τῇ
+ἁγιω | ἁγιω | grc | transcription | docs/texts/xml/caes0065.xml|<p>ἁγιω
+τάτῃ | τάτῃ | grc | transcription | docs/texts/xml/caes0065.xml|<p>τάτῃ
+ἤτοι | ἤτοι | grc | transcription | docs/texts/xml/caes0065.xml|<p><lb>ἤτοι
+τῷ | ὁ | grc | transcription | docs/texts/xml/caes0065.xml|<p>τῷ
+εὐαγεῖ | εὐαγής | grc | transcription | docs/texts/xml/caes0065.xml|<p>εὐαγεῖ
+ὀρφαντροφίῳ | ὀρφαντροφίῳ | grc | transcription | docs/texts/xml/caes0065.xml|<p>ὀρφαντροφίῳ.
+to | to | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>...to...
+the | the | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>the
+most | most | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>most
+holy | holy | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>holy
+indeed | indeed | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>indeed
+to | to | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>to
+the | the | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>the
+pure | pure | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>pure
+orphanage | orphanage | grc-transl | translation | docs/texts/xml/caes0065.xml|<p>orphanage.
+ἐν | ἐν | grc | transcription | docs/texts/xml/caes0066.xml|<p><supplied reason="undefined"><gap reason="illegible" quantity="3" unit="characters">ἐν
+τού | τού | grc | transcription | docs/texts/xml/caes0066.xml|<p>τού
+τῳ | τις | grc | transcription | docs/texts/xml/caes0066.xml|<p>τῳ
+νικῶ | νικάω | grc | transcription | docs/texts/xml/caes0066.xml|<p>νικῶ
+in | in | grc-transl | translation | docs/texts/xml/caes0066.xml|<p>...in
+this | this | grc-transl | translation | docs/texts/xml/caes0066.xml|<p>this
+sign | sign | grc-transl | translation | docs/texts/xml/caes0066.xml|<p>(sign)
+I | I | grc-transl | translation | docs/texts/xml/caes0066.xml|<p>I
+conquer | conquer | grc-transl | translation | docs/texts/xml/caes0066.xml|<p>conquer....
+εἰς | εἰς | grc | transcription | docs/texts/xml/caes0067.xml|<p><gap reason="illegible" quantity="2" unit="characters">εἰς
+εἰρήνην | εἰρήνην | grc | transcription | docs/texts/xml/caes0067.xml|<p>εἰρήνην
+Κύριε | Κύριε | grc | transcription | docs/texts/xml/caes0068.xml|<p><gap reason="illegible" quantity="2" unit="characters">Κύριε
+Κ | Κ | grc | diplomatic | docs/texts/xml/caes0069.xml|<p><gap reason="illegible" quantity="3" unit="character">Κ
+Ο | Ο | grc | diplomatic | docs/texts/xml/caes0069.xml|<p>Ο
+Θ | Θ | grc | transcription | docs/texts/xml/caes0070.xml|<p><expan><abbr>Θ
+εοῦ | εοῦ | grc | transcription | docs/texts/xml/caes0070.xml|<p><expan>εοῦ
+ΙΩ | ΙΩ | grc | diplomatic | docs/texts/xml/caes0071.xml|<p>+ΙΩ+
+Ω | Ω | grc | diplomatic | docs/texts/xml/caes0072.xml|<p><gap reason="illegible" quantity="1" unit="character">Ω
+ΝΝΗ | ΝΝΗ | grc | diplomatic | docs/texts/xml/caes0072.xml|<p><lb>ΝΝΗ
+ΣβΩ | ΣβΩ | grc | diplomatic | docs/texts/xml/caes0072.xml|<p>ΣβΩ
+ΤΡΥΣ | ΤΡΥΣ | grc | diplomatic | docs/texts/xml/caes0072.xml|<p>ΤΡΥΣ
+τὸ | τὸ | grc | transcription | docs/texts/xml/caes0073.xml|<p>τὸ
+ἔργο | ἔργο | grc | transcription | docs/texts/xml/caes0073.xml|<p>ἔργο
+ν | ν | grc | transcription | docs/texts/xml/caes0073.xml|<p><supplied reason="undefined">ν
+Ο | Ο | grc | diplomatic | docs/texts/xml/caes0074.xml|<p>Ο
+Σ | Σ | grc | diplomatic | docs/texts/xml/caes0074.xml|<p>Σ
+ΟΝ | ΟΝ | grc | diplomatic | docs/texts/xml/caes0074.xml|<p>ΟΝ
+ΦΥΣΙΣ | ΦΥΣΙΣ | grc | diplomatic | docs/texts/xml/caes0074.xml|<p>ΦΥΣΙΣ
+Ε | Ε | grc | diplomatic | docs/texts/xml/caes0074.xml|<p>Ε
+Σ | Σ | grc | diplomatic | docs/texts/xml/caes0074.xml|<p>Σ
+Ο | Ο | grc | diplomatic | docs/texts/xml/caes0074.xml|<p><unclear><unclear><unclear><unclear><gap reason="illegible" quantity="3" unit="character"><unclear>Ο
+Ν | Ν | grc | diplomatic | docs/texts/xml/caes0074.xml|<p>Ν
+αρωι | αρωι | grc | transcription | docs/texts/xml/caes0075.xml|<p><gap reason="illegible" quantity="3" unit="character">αρωι
+τ | τ | grc | transcription | docs/texts/xml/caes0075.xml|<p>τ
+ΚΑΜ | ΚΑΜ | grc | diplomatic | docs/texts/xml/caes0076.xml|<p><gap reason="illegible" quantity="2" unit="character"><unclear>ΚΑΜ
+ΑΙΖΟΕΙΟ | ΑΙΖΟΕΙΟ | grc | diplomatic | docs/texts/xml/caes0077.xml|<p><gap reason="illegible" quantity="2" unit="character">ΑΙΖΟΕΙΟ
+Ἰοῦλις | Ἰοῦλις | grc | transcription | docs/texts/xml/caes0078.xml|<p>Ἰοῦλις
+εὐξάμ | εὐξάμ | grc | transcription | docs/texts/xml/caes0078.xml|<p>εὐξάμ
+ε | ε | grc | transcription | docs/texts/xml/caes0078.xml|<p>ε
+νος | νος | grc | transcription | docs/texts/xml/caes0078.xml|<p><lb>νος
+ἐπο | ἐπο | grc | transcription | docs/texts/xml/caes0078.xml|<p>ἐπο
+ίησε | ίησε | grc | transcription | docs/texts/xml/caes0078.xml|<p><lb>ίησε
+πό | πό | grc | transcription | docs/texts/xml/caes0078.xml|<p>πό
+δ | δ | grc | transcription | docs/texts/xml/caes0078.xml|<p><lb>δ
+ας | ας | grc | transcription | docs/texts/xml/caes0078.xml|<p><supplied reason="undefined">ας
+Ioulis | Ioulis | grc-transl | translation | docs/texts/xml/caes0078.xml|<p><persName lang="grc " ref="persons.xml#caes0078p01">Ioulis
+donatedfeet | donatedfeet | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>donated...feet
+of | of | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>(of
+mosaic | mosaic | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>mosaic
+pavement | pavement | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>pavement)
+in | in | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>in
+fulfillment | fulfillment | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>fulfillment
+of | of | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>of
+a | a | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>a
+vow | vow | grc-transl | translation | docs/texts/xml/caes0078.xml|<p>vow.
+βηρύλλος | βηρύλλος | grc | transcription | docs/texts/xml/caes0079.xml|<p>βηρύλλος
+ἀρχισ | ἀρχισ | grc | transcription | docs/texts/xml/caes0079.xml|<p><choice><abbr>ἀρχισ
+ἀρχισυνάγωγος | ἀρχισυνάγωγος | grc | transcription | docs/texts/xml/caes0079.xml|<p><choice><abbr>ἀρχισυνάγωγος
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0079.xml|<p><choice><lb>καὶ
+φροντιστὴςὑὸς | φροντιστὴςὑὸς | grc | transcription | docs/texts/xml/caes0079.xml|<p>φροντιστὴςὑὸς
+Ἰούτου | Ἰούτου | grc | transcription | docs/texts/xml/caes0079.xml|<p>Ἰούτου
+ἐποί­ησε | ἐποί­ησε | grc | transcription | docs/texts/xml/caes0079.xml|<p>ἐποί­ησε
+τὴν | τὴν | grc | transcription | docs/texts/xml/caes0079.xml|<p>τὴν
+ψηφο­θεσίαν | ψηφο­θεσίαν | grc | transcription | docs/texts/xml/caes0079.xml|<p>ψηφο­θεσίαν
+τοῦ | ὁ | grc | transcription | docs/texts/xml/caes0079.xml|<p>τοῦ
+τρι­κλίνου | τρι­κλίνου | grc | transcription | docs/texts/xml/caes0079.xml|<p>τρι­κλίνου
+τῷ | ὁ | grc | transcription | docs/texts/xml/caes0079.xml|<p>τῷ
+ἰδίῳ | ἰδίῳ | grc | transcription | docs/texts/xml/caes0079.xml|<p>ἰδίῳ.
+Beryllos | Beryllos | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>Beryllos
+son | son | grc-transl | translation | docs/texts/xml/caes0079.xml|<p><rs type="family">son
+of | of | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>of
+Iouda | Iouda | grc-transl | translation | docs/texts/xml/caes0079.xml|<p><persName lang="grc " ref="persons.xml#caes0079p02">Iouda
+the | the | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>the
+head | head | grc-transl | translation | docs/texts/xml/caes0079.xml|<p><rs type="religTitle">head
+of | of | grc-transl | translation | docs/texts/xml/caes0079.xml|<p><rs type="religTitle">of
+the | the | grc-transl | translation | docs/texts/xml/caes0079.xml|<p><rs type="religTitle">the
+synagogue | synagogue | grc-transl | translation | docs/texts/xml/caes0079.xml|<p><rs type="religTitle">synagogue
+and | and | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>and
+curator | curator | grc-transl | translation | docs/texts/xml/caes0079.xml|<p><rs type="religTitle">curator
+donated | donated | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>donated
+the | the | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>the
+tessellated | tessellated | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>tessellated
+pavement | pavement | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>pavement
+of | of | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>the
+triclinium | triclinium | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>triclinium
+at | at | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>at
+his | his | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>his
+own | own | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>own
+cost | cost | grc-transl | translation | docs/texts/xml/caes0079.xml|<p>cost.
+Κύριος | Κύριος | grc | transcription | docs/texts/xml/caes0080.xml|<p>Κύριος
+βοηθός | βοηθός | grc | transcription | docs/texts/xml/caes0080.xml|<p><expan>βοηθός
+προσ | προσ | grc | transcription | docs/texts/xml/caes0080.xml|<p><expan><gap reason="illegible" quantity="1" unit="character">προσ
+φορὰ | φορὰ | grc | transcription | docs/texts/xml/caes0080.xml|<p>φορὰ
+τοῦ | ὁ | grc | transcription | docs/texts/xml/caes0080.xml|<p><expan>τοῦ
+λα | λα | grc | transcription | docs/texts/xml/caes0080.xml|<p>λα
+οῦ | οῦ | grc | transcription | docs/texts/xml/caes0080.xml|<p>οῦ
+ἐπὴ | ἐπὴ | grc | transcription | docs/texts/xml/caes0080.xml|<p>ἐπὴ
+Μ | Μ | grc | transcription | docs/texts/xml/caes0080.xml|<p>Μ
+αρουθᾶ | αρουθᾶ | grc | transcription | docs/texts/xml/caes0080.xml|<p>αρουθᾶ.
+May | May | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>May
+the | the | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>the
+Lord | Lord | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>Lord
+be | be | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>be
+our | our | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>our
+helper | helper | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>helper.
+An | An | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>An
+offering | offering | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>offering
+of | of | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>the
+congregation | congregation | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>congregation
+under | under | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>under
+Marouthas | Marouthas | grc-transl | translation | docs/texts/xml/caes0080.xml|<p>Marouthas.
+ΕΙΥΠΟΜΕ | ΕΙΥΠΟΜΕ | grc | diplomatic | docs/texts/xml/caes0082.xml|<p><gap reason="illegible" quantity="2" unit="character">ΕΙΥΠΟΜΕ
+Α | Α | grc | diplomatic | docs/texts/xml/caes0082.xml|<p><supplied reason="undefined">Α
+ΟΝΤΑΙΣ | ΟΝΤΑΙΣ | grc | diplomatic | docs/texts/xml/caes0082.xml|<p><supplied reason="undefined">ΟΝΤΑΙΣ
+ΛΛΑΞΟΥΣΙΝ | ΛΛΑΞΟΥΣΙΝ | grc | diplomatic | docs/texts/xml/caes0082.xml|<p><gap reason="illegible" quantity="2" unit="character">ΛΛΑΞΟΥΣΙΝ
+Ν | Ν | grc | diplomatic | docs/texts/xml/caes0082.xml|<p><gap reason="illegible" quantity="3" unit="character">Ν
+ΦΟΡΑ | ΦΟΡΑ | grc | diplomatic | docs/texts/xml/caes0082.xml|<p><gap reason="illegible" quantity="2" unit="character">ΦΟΡΑ
+ΠΟΔΑΣ | ΠΟΔΑΣ | grc | diplomatic | docs/texts/xml/caes0082.xml|<p>ΠΟΔΑΣ
+ΛΙ | ΛΙ | grc | diplomatic | docs/texts/xml/caes0082.xml|<p><lb><gap reason="illegible" quantity="9" unit="character">ΛΙ
+προσφορὰ | προσφορὰ | grc | transcription | docs/texts/xml/caes0083.xml|<p><expan>προσφορὰ
+Θεωδώροε | Θεωδώροε | grc | transcription | docs/texts/xml/caes0083.xml|<p>Θεωδώροε
+υἱοῦ | υἱός | grc | transcription | docs/texts/xml/caes0083.xml|<p>υἱοῦ
+Ὀλύμπου | Ὀλύμπου | grc | transcription | docs/texts/xml/caes0083.xml|<p>Ὀλύμπου
+ὑπὲρ | ὑπὲρ | grc | transcription | docs/texts/xml/caes0083.xml|<p><lb>ὑπὲρ
+σωτερίας | σωτερίας | grc | transcription | docs/texts/xml/caes0083.xml|<p>σωτερίας
+Ματρώνας | Ματρώνας | grc | transcription | docs/texts/xml/caes0083.xml|<p>Ματρώνας
+θυγατρός | θυγατρός | grc | transcription | docs/texts/xml/caes0083.xml|<p>θυγατρός.
+The | The | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>The
+offering | offering | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>offering
+of | of | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>of
+Theodoros | Theodoros | grc-transl | translation | docs/texts/xml/caes0083.xml|<p><persName lang="grc " ref="persons.xml#caes0083p01">Theodoros
+son | son | grc-transl | translation | docs/texts/xml/caes0083.xml|<p><rs type="family">son
+of | of | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>of
+Olympos | Olympos | grc-transl | translation | docs/texts/xml/caes0083.xml|<p><persName lang="grc " ref="persons.xml#caes0083p02">Olympos
+for | for | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>for
+the | the | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>the
+deliverance | deliverance | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>deliverance
+of | of | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>of
+his | his | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>his
+daughter | daughter | grc-transl | translation | docs/texts/xml/caes0083.xml|<p><rs type="family">daughter
+Matrona | Matrona | grc-transl | translation | docs/texts/xml/caes0083.xml|<p>Matrona.
+εὐτυχῶς | εὐτυχής | grc | transcription | docs/texts/xml/caes0085.xml|<p>εὐτυχῶς
+εἴσελθε | εἰσέρχομαι | grc | transcription | docs/texts/xml/caes0085.xml|<p>εἴσελθε
+χαίρων | χαίρων | grc | transcription | docs/texts/xml/caes0085.xml|<p>χαίρων.
+Enter | Enter | grc-transl | translation | docs/texts/xml/caes0085.xml|<p>Enter
+rejoicing | rejoicing | grc-transl | translation | docs/texts/xml/caes0085.xml|<p>rejoicing
+with | with | grc-transl | translation | docs/texts/xml/caes0085.xml|<p>with
+good | good | grc-transl | translation | docs/texts/xml/caes0085.xml|<p>good
+fortune! | fortune! | grc-transl | translation | docs/texts/xml/caes0085.xml|<p>fortune!
+εὐτθχῶς | εὐτθχῶς | grc | transcription | docs/texts/xml/caes0086.xml|<p><gap reason="illegible" quantity="1" unit="characters">εὐτθχῶς
+Εὐγ | Εὐγ | grc | transcription | docs/texts/xml/caes0086.xml|<p>Εὐγ
+ὁ | ὁ | grc | transcription | docs/texts/xml/caes0086.xml|<p><lb><gap reason="illegible" quantity="4" unit="character"><unclear>ὁ
+κτίστνς | κτίστνς | grc | transcription | docs/texts/xml/caes0086.xml|<p>κτίστνς
+εἰρήνῃ | εἰρήνῃ | grc | transcription | docs/texts/xml/caes0087.xml|<p>εἰρήνῃ
+ἡ | ὁ | grc | transcription | docs/texts/xml/caes0087.xml|<p>ἡ
+εἴσοδός | εἴσοδός | grc | transcription | docs/texts/xml/caes0087.xml|<p>εἴσοδός
+σου | σύ | grc | transcription | docs/texts/xml/caes0087.xml|<p>σου
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0087.xml|<p><lb>καὶ
+ἡ | ὁ | grc | transcription | docs/texts/xml/caes0087.xml|<p>ἡ
+ἔξοδός | ἔξοδός | grc | transcription | docs/texts/xml/caes0087.xml|<p>ἔξοδός
+σου | σύ | grc | transcription | docs/texts/xml/caes0087.xml|<p>σου.
+May | May | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>May
+your | your | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>your
+coming | coming | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>coming
+in | in | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>in
+and | and | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>and
+your | your | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>your
+going | going | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>going
+out | out | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>out
+be | be | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>be
+in | in | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>in
+peace | peace | grc-transl | translation | docs/texts/xml/caes0087.xml|<p>peace.
+θέλεις | θέλεις | grc | transcription | docs/texts/xml/caes0088.xml|<p>θέλεις
+μὴ | μὴ | grc | transcription | docs/texts/xml/caes0088.xml|<p>μὴ
+φοβῖσθαι | φοβῖσθαι | grc | transcription | docs/texts/xml/caes0088.xml|<p>φοβῖσθαι
+τὴν | τὴν | grc | transcription | docs/texts/xml/caes0088.xml|<p>τὴν
+ἐξουσίαν | ἐξουσίαν | grc | transcription | docs/texts/xml/caes0088.xml|<p>ἐξουσίαν;
+τὸ | τὸ | grc | transcription | docs/texts/xml/caes0088.xml|<p>τὸ
+ἀγαθὸν | ἀγαθὸν | grc | transcription | docs/texts/xml/caes0088.xml|<p>ἀγαθὸν
+ποίει | ποίει | grc | transcription | docs/texts/xml/caes0088.xml|<p>ποίει.
+Do | Do | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>Do
+you | you | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>you
+wish | wish | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>wish
+not | not | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>not
+to | to | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>to
+fear | fear | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>fear
+the | the | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>the
+authority | authority | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>authority?
+Then | Then | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>Then
+do | do | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>do
+good! | good! | grc-transl | translation | docs/texts/xml/caes0088.xml|<p>good!
+θέλεις | θέλεις | grc | transcription | docs/texts/xml/caes0089.xml|<p>θέλεις
+μὴ | μὴ | grc | transcription | docs/texts/xml/caes0089.xml|<p>μὴ
+φοβεῖσθαι | φοβέω | grc | transcription | docs/texts/xml/caes0089.xml|<p>φοβεῖσθαι
+τὴν | τὴν | grc | transcription | docs/texts/xml/caes0089.xml|<p>τὴν
+ἐξουσίαν | ἐξουσίαν | grc | transcription | docs/texts/xml/caes0089.xml|<p>ἐξουσίαν;
+τὸ | τὸ | grc | transcription | docs/texts/xml/caes0089.xml|<p>τὸ
+ἀγαθὸν | ἀγαθὸν | grc | transcription | docs/texts/xml/caes0089.xml|<p>ἀγαθὸν
+ποίει | ποίει | grc | transcription | docs/texts/xml/caes0089.xml|<p>ποίει
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0089.xml|<p>καὶ
+ἕξεις | ἔχω | grc | transcription | docs/texts/xml/caes0089.xml|<p>ἕξεις
+ἔπαινον | ἔπαινος | grc | transcription | docs/texts/xml/caes0089.xml|<p>ἔπαινον
+ἐξ | ἐκ | grc | transcription | docs/texts/xml/caes0089.xml|<p>ἐξ
+αὐτῆς | αὐτός | grc | transcription | docs/texts/xml/caes0089.xml|<p>αὐτῆς.
+Do | Do | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>Do
+you | you | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>you
+wish | wish | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>wish
+not | not | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>not
+to | to | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>to
+fear | fear | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>fear
+the | the | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>the
+authority | authority | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>authority?
+Do | Do | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>Do
+good | good | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>good
+and | and | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>and
+you | you | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>you
+will | will | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>will
+receive | receive | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>receive
+praise | praise | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>praise
+from | from | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>from
+it | it | grc-transl | translation | docs/texts/xml/caes0089.xml|<p>it.
+Χ | Χ | grc | transcription | docs/texts/xml/caes0090.xml|<p><expan><abbr>Χ
+ριστὲ | ριστὲ | grc | transcription | docs/texts/xml/caes0090.xml|<p><expan>ριστὲ
+βοήθι | βοήθι | grc | transcription | docs/texts/xml/caes0090.xml|<p><expan>βοήθι
+Ἀμπελίῳ | Ἀμπελίῳ | grc | transcription | docs/texts/xml/caes0090.xml|<p>Ἀμπελίῳ
+χαρτϛουλαρίῳ | χαρτϛουλαρίῳ | grc | transcription | docs/texts/xml/caes0090.xml|<p>χαρτϛουλαρίῳ
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0090.xml|<p><lb>καὶ
+Μουσωνίῳ | Μουσωνίῳ | grc | transcription | docs/texts/xml/caes0090.xml|<p>Μουσωνίῳ
+νουμερϛαρίῳ | νουμερϛαρίῳ | grc | transcription | docs/texts/xml/caes0090.xml|<p>νουμερϛαρίῳ
+καὶ | καὶ | grc | transcription | docs/texts/xml/caes0090.xml|<p><lb>καὶ
+λοιποῖς | λοιπός | grc | transcription | docs/texts/xml/caes0090.xml|<p>λοιποῖς
+χαρτουλαρϛίοις | χαρτουλαρϛίοις | grc | transcription | docs/texts/xml/caes0090.xml|<p>χαρτουλαρϛίοις
+τοῦ | ὁ | grc | transcription | docs/texts/xml/caes0090.xml|<p><lb>τοῦ
+αὐτοῦ | αὐτός | grc | transcription | docs/texts/xml/caes0090.xml|<p>αὐτοῦ
+σκρινίου | σκρινίου | grc | transcription | docs/texts/xml/caes0090.xml|<p>σκρινίου.
+Christ | Christ | grc-transl | translation | docs/texts/xml/caes0090.xml|<p><rs type="divine">Christ
+help | help | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>help
+Ampelios | Ampelios | grc-transl | translation | docs/texts/xml/caes0090.xml|<p><persName lang="grc " ref="persons.xml#caes0090p01">Ampelios
+the | the | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>the
+chartoularios | chartoularios | grc-transl | translation | docs/texts/xml/caes0090.xml|<p><rs type="occupation">chartoularios
+and | and | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>and
+Mousonios | Mousonios | grc-transl | translation | docs/texts/xml/caes0090.xml|<p><persName lang="grc " ref="persons.xml#caes0090p02">Mousonios
+the | the | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>the
+noumerarios | noumerarios | grc-transl | translation | docs/texts/xml/caes0090.xml|<p><rs type="occupation">noumerarios
+and | and | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>and
+the | the | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>the
+rest | rest | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>rest
+of | of | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>the
+chartularioi | chartularioi | grc-transl | translation | docs/texts/xml/caes0090.xml|<p><rs type="occupation">chartularioi
+of | of | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>of
+the | the | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>the
+same | same | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>same
+skrinion | skrinion | grc-transl | translation | docs/texts/xml/caes0090.xml|<p>skrinion.
