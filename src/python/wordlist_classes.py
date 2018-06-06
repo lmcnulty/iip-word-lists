@@ -9,6 +9,7 @@ class iip_word:
 		self.files = set()
 		self.regions = set()
 		self.suspicious = False
+		self.alternatives = []
 
 class iip_file:
 	def __init__(self, file_name, region):
@@ -54,6 +55,7 @@ class iip_word_occurence:
 		self.region = region
 		self.within = within
 		self.surrounding_elements = []
+		self.alternatives = []
 		self.internal_elements = defaultdict(lambda: internal_element_index())
 		
 		
@@ -79,6 +81,7 @@ class iip_word_occurence:
 	def print(self):
 		print(self.text + " | " + self.lemmatization + " | "  
 		      + self.language + " | " + self.edition_type + " | "  
-		      + self.file_name + "|" + self.xml_context )
+		      + self.file_name + "|" + self.xml_context + "|" 
+		      + str(self.alternatives))
 		      #+ "|" + format_element_list(self.within))
 

@@ -63,7 +63,9 @@ class walkable_xml:
 		self.self_closing_elements = defaultdict(lambda: [])
 		self.text = mutable_text("")
 		self.index = -1
-		get_indices(root, self.starting_elements, self.ending_elements, self.self_closing_elements, self.text, 0, ignore)
+		get_indices(root, self.starting_elements, 
+		            self.ending_elements, self.self_closing_elements,
+		            self.text, 0, ignore)
 	def __iter__(self):
 		return self
 	def at_end(self):
@@ -86,12 +88,15 @@ class walkable_xml:
 			raise StopIteration
 		return self.get_step(self.index)
 		
-def preceding_element(a_step, walker):
+def preceding_element(a_step, walker, whitespace_only=False):
 	previous_step = walker.get_neighbor(-1, step_index=a_step.index)
 	if previous_step == None:
 		return None
 	while len(previous_step.self_closing + previous_step.ending) == 0:
-		previous_step = walker.get_neighbor(-1, step_index=previous_step.index)
+		if whitespace_only and not previous_step.character.isspace():
+			return None
+		previous_step = walker.get_neighbor(
+			-1, step_index=previous_step.index)
 		if previous_step == None:
 			return None
 	return (previous_step.self_closing + previous_step.ending)[-1]

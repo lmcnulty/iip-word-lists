@@ -123,7 +123,7 @@ def occurence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occuren
 			sys.stderr.write(output_name + '.csv is a directory.')
 			return
 		output_file = open(output_name + ".csv", "a")
-	
+		output_file.write("Text,Lemma,Language,Edition Type,XML Context,File\n")
 	for word in full_list:
 		word_output_file = None
 		if langfiles:
@@ -133,6 +133,7 @@ def occurence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occuren
 				if os.path.isdir(output_name + '.csv'):
 					sys.stderr.write(output_name + '.csv is a directory.')
 				files[word.language] = open(output_name + "_" + word.language + ".csv", "a")
+				files[word.language].write("Text,Lemma,Language,Edition Type,XML Context,File\n")
 			word_output_file = files[word.language]
 		else:
 			word_output_file = output_file

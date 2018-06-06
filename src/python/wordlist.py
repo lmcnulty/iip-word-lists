@@ -124,6 +124,7 @@ def get_words_from_file(path, file_dict, new_system):
 					e.surrounding_elements
 				))
 				new_words[-1].internal_elements = e.internal_elements
+				new_words[-1].alternatives = e.alternatives
 		else:
 			new_words = [iip_word_occurence(edition_type, 
 			             mainLang, "", path, textRegion.text, [])]
