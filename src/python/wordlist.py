@@ -88,7 +88,9 @@ def print_word_info(word_string, word_dict):
 		print("")
 
 def get_words_from_file(path, file_dict, new_system):
-	root = etree.parse(path).getroot()
+	with open(path, "r") as path_file:
+		file_string = path_file.read().replace("...", " ").encode("utf-8")
+	root = etree.fromstring(file_string)
 	words = []
 	nsmap = {'tei': "http://www.tei-c.org/ns/1.0"}
 	bodies = root.findall('.//' + TEI_NS + 'body')
@@ -104,7 +106,7 @@ def get_words_from_file(path, file_dict, new_system):
 		+ root.findall(".//tei:div[@type='translation']", 
 		               namespaces=nsmap)
 	):
-		if mainLang.strip == "":
+		if mainLang.strip() == "":
 			mainLang = "unk"
 		edition_type = ""
 		if 'subtype' in edition.attrib:

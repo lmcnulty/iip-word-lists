@@ -10,11 +10,12 @@ def add_to_html_list(element, some_list):
 		element.append(new_element)
 
 def full_language(abbr):
+	full_name = abbr
 	for codelist in codes:
 		for code in codelist[1]:
-			if code == abbr:
-				return codelist[0]
-	return abbr
+			if code == abbr.split("-")[0]:
+				full_name = full_name.replace(abbr.split("-")[0], codelist[0])
+	return full_name.replace("-transl", " (translated)")
 
 def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 	# Create top level directory
@@ -46,7 +47,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				link.attrib['href'] = "../" + e.file_name
 				link.text = e.file_name.split('/')[-1]
 				row.find(".//td[@id='file']").append(link)
-				row.find(".//td[@id='xml']").text = e.xml_context
+				row.find(".//code[@id='xml']").text = e.xml_context
 				row.find(".//td[@id='region']").text = e.region
 				root.find(".//table[@id='occurences']").append(row)
 				xml_contexts.append(e.xml_context)
@@ -106,7 +107,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 	for e in sorted(languages):
 		list_element = etree.Element("li")
 		link = etree.Element("a")
-		link.text = e
+		link.text = full_language(e).title()
 		link.attrib["href"] = "./" + e
 		list_element.append(link)
 		root.find(".//ul").append(list_element)

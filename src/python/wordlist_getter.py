@@ -56,7 +56,7 @@ def get_words_from_element(root):
 	for a_step in walker:
 		# Add starting elements
 		for element in a_step.starting:
-			if strip_namespace(element.tag) == "choice":
+			if type(element.tag) is str and strip_namespace(element.tag) == "choice":
 				choice_stack.append(choice(element, copy(new_word.text),
 				                    len(words)))
 			if (len(choice_stack) > 0 and 
@@ -106,7 +106,7 @@ def get_words_from_element(root):
 			
 		# Remove closing elements
 		for element in a_step.ending: 
-			if strip_namespace(element.tag) == "choice":
+			if type(element.tag) is str and strip_namespace(element.tag) == "choice":
 				choice_stack.pop()
 			within.remove(element)
 			if (len(new_word.text) > 0 

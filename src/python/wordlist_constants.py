@@ -2,7 +2,7 @@ DEFAULT_OUTPUT_NAME = "wordlist"
 DEBUG = True 
 TEI_NS = "{http://www.tei-c.org/ns/1.0}"
 XML_NS = "{http://www.w3.org/XML/1998/namespace}"
-IGNORE = ['⎜', '{', '}', '|', '-', '(', '?', ')', ',', ';', '.', ':', 
+IGNORE = ['⎜', '{', '}', '|', '(', '?', ')', ',', ';', '.', ':', 
            '"', "'", "<", ">", "+", "[", "]", "_", "/", "#", "*", '~', 
            '´', '=', '·', '‧', '⋅', '•', '∙']
 INCLUDE_TRAILING_LINEBREAK = [TEI_NS + "persName", TEI_NS + "expan", 
@@ -16,12 +16,14 @@ codes = [
 	["hebrew",["heb", "he"]],
 	["greek",["grc", "grk"]],
 	["aramaic",["arc"]],
+	["unknown", ["unk"]]
 ]
 
 INFO_PAGE_HTML = """
 <html>
 	<head>
 		<meta charset='UTF-8' />
+		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script>
 	</head>
 	<body>
 		<h1></h1>
@@ -93,7 +95,7 @@ OCCURENCE_TABLE_ROW_HTML = """
 <tr>
 	<td id="variation"></td>
 	<td id="file"></td>
-	<td id="xml"></td>
+	<td><code id="xml" class="prettyprint"></code></td>
 	<td id="region"></td>
 </tr>
 """.replace("\t", "")
