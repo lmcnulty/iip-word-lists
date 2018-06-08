@@ -38,8 +38,25 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			occurences = word_obj.occurences
 			root.find(".//h1").text = (word + " [" + full_language(language).title() + "]")
 			root.find(".//td[@id='num-occurences']").text = str(len(word_obj.occurences))
-			add_to_html_list(root.find(".//ul[@id='variations']"), word_obj.variations)
-			add_to_html_list(root.find(".//ul[@id='regions']"), word_obj.regions)
+			
+			variation_plus_count = []
+			for variation in word_obj.variations:
+				count = 0
+				for occurence in occurences:
+					if variation == occurence.text:
+						count += 1
+				if variation != None:
+					variation_plus_count.append(variation + " [" + str(count) + "]")
+			add_to_html_list(root.find(".//ul[@id='variations']"), variation_plus_count)
+			region_plus_count = []
+			for region in word_obj.regions:
+				count = 0
+				for occurence in occurences:
+					if region == occurence.region:
+						count += 1
+				if region != None:
+					region_plus_count.append(region + " [" + str(count) + "]")
+			add_to_html_list(root.find(".//ul[@id='regions']"), region_plus_count)
 			xml_contexts = []
 			for e in word_obj.occurences:
 				row = etree.fromstring(OCCURENCE_TABLE_ROW_HTML)
