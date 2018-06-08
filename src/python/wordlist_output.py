@@ -2,6 +2,7 @@ from wordlist_constants import *
 import os
 from lxml import etree
 from collections import defaultdict
+from sugar import *
 
 def add_to_html_list(element, some_list):
 	for e in some_list:
@@ -60,8 +61,10 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				list_element.append(link)
 				files_list_html.append(list_element)
 			try: 
-				info_file = open(output_name + '/' + language + '/' + word + "_.html", 'w')
-				info_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8"))
+				info_file = open(output_name + '/' + language + '/' 
+				                 + word + "_.html", 'w')
+				info_file.write("<!DOCTYPE HTML>\n" 
+				                + etree.tostring(root).decode("utf-8"))
 				info_file.close()
 			except:
 				continue
@@ -78,12 +81,19 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			
 			# Write to javascript object (necessary for performance)
 			words_object_string += '{'
-			words_object_string += ("text: '" + e + "',").replace("\n", "").replace("\\", "");
+			words_object_string += ("text: '" + e + "',").replace("\n", 
+			                        "").replace("\\", "");
 			words_object_string += "occurences: " + num_occurences + ','
 			if (word_dict[e][language].suspicious):
 				words_object_string += "suspicious: true,"
 			else:
 				words_object_string += "suspicious: false,"
+			
+			regions_string = str(list(word_dict[e][language].regions))
+			
+			if not (regions_string == '[None]'):
+				words_object_string += "regions: " + regions_string
+			
 			words_object_string += '},\n'
 			
 			# Write directly to tags for noscript users

@@ -1,3 +1,30 @@
+// Utility Functions
+function create(elementType) {
+	let newElement = document.createElement(elementType);
+	for (let i = 1; i < arguments.length; i++) {
+		let currentArgument = arguments[i];		
+		if (typeof(currentArgument) === 'string') {
+			newElement.innerHTML += currentArgument;
+		} else if (Array.isArray(currentArgument)) {
+			for (let j = 0; j < arguments[i].length; j++) {
+				if (typeof(arguments[i][j]) === 'string') {
+					newElement.innerHTML += currentArgument[j];		
+				} else {	
+					newElement.appendChild(currentArgument[j]);
+				}
+			}
+		} else if (currentArgument instanceof Element) {
+			newElement.appendChild(currentArgument);
+		} else {
+			Object.getOwnPropertyNames(currentArgument).forEach(
+				function (val, idx, array) {
+					newElement.setAttribute(val, currentArgument[val]);
+				}
+			);
+		}
+	}
+	return newElement;
+}
 function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
@@ -5,52 +32,46 @@ function insertBefore(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode);
 }
 
-let wordsPerPage = 60; 
-let after = 0;
-let words = document.getElementById("words");
+// Create a searchbar
+let searchbar = create("input", {
+	type: "text", 
+	placeholder: "Search for matching words..."
+})
 
-let searchbar = document.createElement("input");
-searchbar.type = "text";
-searchbar.placeholder = "Search for matching words...";
-
-let showSuspiciousCheck = document.createElement("input");
-showSuspiciousCheck.type = "checkbox";
-showSuspiciousCheck.id = "showSuspiciousCheck"
-showSuspiciousCheck.checked = false;
+// Create checkbox for toggling visibility of suspicious words
+let showSuspiciousCheck = create("input", {
+	type: "checkbox", 
+	id: "showSuspiciousCheck"
+});
 showSuspiciousCheck.addEventListener("click", render, false);
-let showSuspiciousLabel = document.createElement("label");
-showSuspiciousLabel.for = "showSuspiciousCheck";
-showSuspiciousLabel.innerHTML = "Show suspicious words";
+let showSuspiciousLabel = create("label", "Show suspicious words", 
+                                 {for: showSuspiciousCheck});
 
-let sortSelect = document.createElement("select");
-let alphabet = document.createElement("option");
-alphabet.value = "alphabet";
-alphabet.innerHTML = "Alphabet"
-sortSelect.appendChild(alphabet)
-let numOccurences = document.createElement("option");
-numOccurences.value = "occurences";
-numOccurences.innerHTML = "Occurences"
-sortSelect.appendChild(numOccurences)
+// Create a <select> for choosing sort method
+let sortSelect = create("select", {id: "sortSelect"}, [
+	create("option", "Alphabet", {value: "alphabet"}),
+	create("option", "Occurences", {value: "occurences"})
+]);
 sortSelect.addEventListener("change", () => {
 	sortWordList();
 	render();
 }, false);
-sortSelect.id = "sortSelect";
-let sortByLabel = document.createElement("label");
-sortByLabel.for = "sortSelect";
-sortByLabel.innerHTML = "Sort by"
+let sortByLabel = create("label", "Sort by", {for: "sortSelect"});
 
+// Add created elements to document
+let words = document.getElementById("words");
 words.parentNode.insertBefore(searchbar, words);
 insertAfter(sortByLabel, searchbar);
 insertAfter(sortSelect, sortByLabel);
-
 insertAfter(showSuspiciousCheck, sortSelect);
 insertAfter(showSuspiciousLabel, showSuspiciousCheck);
 insertAfter(document.createElement("br"), searchbar);
 
-
-
+// Global Variables
+let wordsPerPage = 60; 
+let after = 0;
 let wordList = []
+let regionsSet = new Set();
 
 function sortWordList() {
 	if (sortSelect.value == "occurences") {
@@ -64,26 +85,34 @@ function sortWordList() {
 		});
 	}
 }
-/*
-for (let i = 0; i < words.childNodes.length; i++) {
-	word = words.childNodes[i];
-	wordList.push(word)
-}*/
 
-console.log(wordsArray);
 for (let i = 0; i < wordsArray.length; i++) {
-	let newWord = document.createElement("li");
-	let newLink = document.createElement("a");
-	newWord.appendChild(newLink);
-	newLink.innerHTML = wordsArray[i].text;
-	newLink.href = wordsArray[i].text + "_.html";
-	newWord.setAttribute("data-num-occurences", wordsArray[i].occurences);
-	if (wordsArray[i].suspicious) {
-		console.log(wordsArray[i].text + ": suspicious");
-		newWord.classList = "suspicious";
+	if (wordsArray[i].regions != null) {
+		for (let j = 0; j < wordsArray[i].regions.length; j++) {
+			regionsSet.add(wordsArray[i].regions[j]);
+		}
 	}
+	let newWord = create("li", 
+		{"data-num-occurences": wordsArray[i].occurences, 
+		 "data-regions": wordsArray[i].regions},
+		[create("a", wordsArray[i].text, 
+		        {href: wordsArray[i].text + "_.html"})]
+	);
+	if (wordsArray[i].suspicious) { newWord.classList = "suspicious"; }
 	wordList.push(newWord);
 }
+
+let regionSelect = create("select", {id: "regionSelect"}, create("option", "All", {value: "all"}));
+let regionLabel = create("label", "Region", {for: "regionSelect"});
+for (var i of regionsSet) {
+	regionSelect.appendChild(create("option", i, {value: i}));
+}
+insertBefore(regionSelect, sortByLabel);
+insertBefore(regionLabel, regionSelect);
+
+regionSelect.addEventListener("change", () => {
+	render();
+}, false);
 
 let prev = document.createElement("button");
 let next = document.createElement("button");
@@ -107,6 +136,11 @@ function checkSkip(word) {
 		if (word.classList.contains("suspicious")) {return true;}
 	}
 	if (word.children[0].innerHTML.length < 1) {return true;}
+	if (regionSelect.value != "all") {
+		if (word.getAttribute("data-regions").indexOf(regionSelect.value) == -1) {
+			return true;
+		}
+	}
 	return false;
 }
 
