@@ -8,6 +8,7 @@ import glob
 import argparse
 import copy
 import cltk
+from kwic import *
 
 from collections import OrderedDict
 from collections import defaultdict
@@ -127,6 +128,8 @@ def get_words_from_file(path, file_dict, new_system):
 				))
 				new_words[-1].internal_elements = e.internal_elements
 				new_words[-1].alternatives = e.alternatives
+				new_words[-1].preceding = e.preceding
+				new_words[-1].following = e.following
 		else:
 			new_words = [iip_word_occurence(edition_type, 
 			             mainLang, "", path, textRegion.text, [])]
@@ -170,10 +173,12 @@ if __name__ == '__main__':
 			new_words = get_words_from_file(file, file_dict, 
 			                                args.new_system)
 			lemmatize(new_words, args.nolemma)
+			add_kwic_to_occurences(new_words)
 			if args.plaintext:
 				occurence_list_to_plain_text(new_words, plaintextdir
-				                             + "/" + file.replace
-				                             (".xml", ""))
+				                             + "_lemma/" + file.split("/")[-1].replace(".xml", ""))
+				occurence_list_to_plain_text(new_words, plaintextdir
+				                             + "/" + file.split("/")[-1].replace(".xml", ""), False)
 			occurences += new_words
 		except Exception as exception:
 			if args.fileexception:

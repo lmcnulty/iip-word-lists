@@ -19,6 +19,8 @@ codes = [
 	["unknown", ["unk"]]
 ]
 
+NUM_CONTEXT = 5
+
 INFO_PAGE_HTML = """
 <html>
 	<head>
@@ -35,17 +37,20 @@ INFO_PAGE_HTML = """
 		<h2>Variations</h2>
 		<ul id='variations'>
 		</ul>
-		<h2>Files</h2>
+		<!-- <h2>Files</h2>
 		<ul id='files'>
-		</ul>
+		</ul> -->
 		<h2>Regions</h2>
 		<ul id='regions'>
 		</ul>
+		<!-- <h2>Keyword in Context</h2>
+		<ul id='kwic'></ul> -->
 		<h2>Occurences</h2>
 		<table id="occurences">
 			<tr>
 				<th>Variation</th>
 				<th>File</th>
+				<th>Word in Context</th>
 				<th>XML</th>
 				<th>Region</th>
 			</tr>
@@ -95,6 +100,7 @@ OCCURENCE_TABLE_ROW_HTML = """
 <tr>
 	<td id="variation"></td>
 	<td id="file"></td>
+	<td id="kwic"></td>
 	<td><code id="xml" class="prettyprint"></code></td>
 	<td id="region"></td>
 </tr>

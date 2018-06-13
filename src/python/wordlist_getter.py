@@ -16,6 +16,8 @@ class walker_word:
 		self.text = ""
 		self.alternatives = []
 		self.surrounding_elements = []
+		self.following = []
+		self.preceding = []
 		self.internal_elements = defaultdict(
 			lambda: internal_element_index())
 		
@@ -101,6 +103,10 @@ def get_words_from_element(root):
 		# If necessary, end the word and begin a new one
 		if is_word_terminating(a_step, walker) or walker.at_end():
 			if new_word.text != "":
+				# for i in range(0, NUM_CONTEXT):
+					# if len(words) > i:
+						# words[-i].following.append(new_word)
+						# new_word.preceding.append(words[-i])
 				words.append(new_word)
 				new_word = walker_word()
 			

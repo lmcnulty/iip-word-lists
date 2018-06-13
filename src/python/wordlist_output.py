@@ -3,6 +3,7 @@ import os
 from lxml import etree
 from collections import defaultdict
 from sugar import *
+from wordlist_concordances import *
 
 def add_to_html_list(element, some_list):
 	for e in some_list:
@@ -17,6 +18,9 @@ def full_language(abbr):
 			if code == abbr.split("-")[0]:
 				full_name = full_name.replace(abbr.split("-")[0], codelist[0])
 	return full_name.replace("-transl", " (translated)")
+
+def sanitize(some_string):
+	return some_string.replace("<", "")
 
 def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 	# Create top level directory
@@ -35,10 +39,12 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			word_lists[language].append(word)
 			root = etree.fromstring(INFO_PAGE_HTML)
 			word_obj = word_dict[word][language]
+			
+			
+				
 			occurences = word_obj.occurences
 			root.find(".//h1").text = (word + " [" + full_language(language).title() + "]")
 			root.find(".//td[@id='num-occurences']").text = str(len(word_obj.occurences))
-			
 			variation_plus_count = []
 			for variation in word_obj.variations:
 				count = 0
@@ -58,6 +64,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 					region_plus_count.append(region + " [" + str(count) + "]")
 			add_to_html_list(root.find(".//ul[@id='regions']"), region_plus_count)
 			xml_contexts = []
+			
 			for e in word_obj.occurences:
 				row = etree.fromstring(OCCURENCE_TABLE_ROW_HTML)
 				row.find(".//td[@id='variation']").text = e.text
@@ -65,18 +72,31 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				link.attrib['href'] = "../" + e.file_name
 				link.text = e.file_name.split('/')[-1]
 				row.find(".//td[@id='file']").append(link)
+				
+				
+				kwic = row.find(".//td[@id='kwic']")
+				item = "<span>"
+				for preceding_item in e.preceding:
+					item += sanitize(preceding_item.text) + " "
+				item += "<span style='color: blue;'>" + sanitize(e.text) + "</span> "
+				for following_item in e.following:
+					item += sanitize(following_item.text) + " "
+				item += "</span>"
+				kwic.append(etree.fromstring(item))
+			
+				
 				row.find(".//code[@id='xml']").text = e.xml_context
 				row.find(".//td[@id='region']").text = e.region
 				root.find(".//table[@id='occurences']").append(row)
 				xml_contexts.append(e.xml_context)
 			files_list_html = root.find(".//ul[@id='files']")
-			for e in word_obj.files:
-				list_element = etree.Element("li")
-				link = etree.Element("a")
-				link.text = e.split('/')[-1]
-				link.attrib["href"] = "../" + e
-				list_element.append(link)
-				files_list_html.append(list_element)
+			# for e in word_obj.files:
+				# list_element = etree.Element("li")
+				# link = etree.Element("a")
+				# link.text = e.split('/')[-1]
+				# link.attrib["href"] = "../" + e
+				# list_element.append(link)
+				# files_list_html.append(list_element)
 			try: 
 				info_file = open(output_name + '/' + language + '/' 
 				                 + word + "_.html", 'w')
@@ -174,17 +194,32 @@ def occurence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occuren
 
 def occurence_list_to_plain_text(word_list, output_name, lemmatize=True):
 	text_buffer = ""
+	text_buffer_transl = ""
 	for word in word_list:
-		if (lemmatize and word.lemmatization != None and word.lemmatization != ""):
-			text_buffer += word.lemmatization + " "
+		if "transl" in word.language:
+			if (lemmatize and word.lemmatization != None and word.lemmatization != ""):
+				text_buffer_transl += word.lemmatization + " "
+			else:
+				text_buffer_transl += word.text + " "
 		else:
-			text_buffer += word.text + " "
+			if (lemmatize and word.lemmatization != None and word.lemmatization != ""):
+				text_buffer += word.lemmatization + " "
+			else:
+				text_buffer += word.text + " "
 	text_buffer += "\n\n"
+	text_buffer_transl += "\n\n"
 	filename = output_name + ".txt"
 	os.makedirs(os.path.dirname(filename), exist_ok=True)
 	output_file = open(filename, 'w+')
 	output_file.write(text_buffer)
-
+	output_file.close()
+	
+	filename = output_name + "_transl.txt"
+	os.makedirs(os.path.dirname(filename), exist_ok=True)
+	output_file = open(filename, 'w+')
+	output_file.write(text_buffer_transl)
+	output_file.close()
+	
 def occurence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME + "_occurences", langfiles=False):	
 	word_list = full_list[0:1000]
 	next_list = full_list[1000:len(full_list)]

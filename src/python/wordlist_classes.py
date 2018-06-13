@@ -57,6 +57,8 @@ class iip_word_occurence:
 		self.surrounding_elements = []
 		self.alternatives = []
 		self.internal_elements = defaultdict(lambda: internal_element_index())
+		self.previous = []
+		self.following = []
 		
 		
 	def __hash__(self):
