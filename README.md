@@ -35,7 +35,7 @@ not work.)
 
 ## Project structure
 
-* `docs` contains the files for the [github pages site](lmcnulty.github.io/iip-word-lists).
+* `docs` contains the files for the [github pages site](https://lmcnulty.github.io/iip-word-lists).
 * `src` contains the list creation script and the html and css templates for the site.
   * `python` contains the python scripts for processing the data
     * `wordlist.py` is the python script that generates word lists. The basic usage is `./wordlist.py <epidoc files to process>`. By default, the list will be printed to the terminal, other output formats can be specified with flags. Run `./wordlist.py --help` for information on usage.
