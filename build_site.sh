@@ -80,3 +80,8 @@ run_script;
 cp src/web/wordlist.css docs/;
 cp src/web/style.css docs/;
 cp src/web/index_search.js docs/;
+cp src/web/doubletree.html docs/;
+cp -r src/web/doubletreejs docs/;
+
+cat docs/texts/plain/* > docs/combined.txt
+./src/python/per_line.py docs/combined.txt docs/doubletree-data.txt

@@ -44,6 +44,10 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				
 			occurences = word_obj.occurences
 			root.find(".//h1").text = (word + " [" + full_language(language).title() + "]")
+			
+			root.find(".//iframe[@id='doubletree-frame']").attrib["src"]\
+				= "../doubletree.html?word=" + word_obj.lemma.lower()
+			
 			root.find(".//td[@id='num-occurences']").text = str(len(word_obj.occurences))
 			variation_plus_count = []
 			for variation in word_obj.variations:

@@ -43,6 +43,7 @@ INFO_PAGE_HTML = """
 		<h2>Regions</h2>
 		<ul id='regions'>
 		</ul>
+		<iframe id='doubletree-frame' style='width: 100%; height: 400px;'>Your browser does not support frames.</iframe>
 		<!-- <h2>Keyword in Context</h2>
 		<ul id='kwic'></ul> -->
 		<h2>Occurences</h2>
