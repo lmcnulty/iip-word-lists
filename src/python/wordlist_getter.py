@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+"""
+The code in this file is used to extract word occurences from XML files.
+"""
 
 from xml_walker import *
 from wordlist_classes import iip_word_occurence
@@ -149,9 +151,4 @@ def get_words_from_element(root):
 						# print("</" + e.tag + ">", end="")
 			# print(word.text[i], end="")
 		# print("")
-
-if __name__ == '__main__':
-	print("To import this library, add 'from wordlist_getter import *' to your python script")
-	
-
-
+		

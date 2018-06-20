@@ -1,0 +1,1618 @@
+Text,Lemma,Language,Edition Type,XML Context,File
+Imperatori, imperator, la, transcription, <p><supplied reason="undefined"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied></p>, docs/texts/xml/caes0106.xml
+Caesari, Caesari, la, transcription, <p><supplied reason="undefined"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied></p>, docs/texts/xml/caes0106.xml
+Caio, caio, la, transcription, <p><supplied reason="undefined"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied></p>, docs/texts/xml/caes0106.xml
+Iulio, Iulio, la, transcription, <p><supplied reason="undefined"><lb><supplied reason="undefined">Iulio</supplied></lb></supplied></p>, docs/texts/xml/caes0106.xml
+Vero, verus, la, transcription, <p><supplied reason="undefined">Vero</supplied></p>, docs/texts/xml/caes0106.xml
+Maximino, Maximino, la, transcription, <p><lb><supplied reason="undefined">Maximino</supplied></lb></p>, docs/texts/xml/caes0106.xml
+pio, pius, la, transcription, <p><supplied reason="undefined"><expan><abbr>p</abbr><ex>io</ex></expan></supplied></p>, docs/texts/xml/caes0106.xml
+felici, felix, la, transcription, <p><supplied reason="undefined"><expan><abbr>f</abbr><ex>elici</ex></expan></supplied></p>, docs/texts/xml/caes0106.xml
+Aug, Aug, la, transcription, <p><supplied reason="undefined"><lb><supplied reason="undefined"><choice>Aug</choice></supplied></lb></supplied></p>, docs/texts/xml/caes0106.xml
+nostro, noster, la, transcription, <p><supplied reason="undefined"><expan><abbr>n</abbr><ex>ostro</ex></expan></supplied></p>, docs/texts/xml/caes0106.xml
+et, et, la, transcription, <p><supplied reason="undefined">et</supplied></p>, docs/texts/xml/caes0106.xml
+Gaio, Gaio, la, transcription, <p><lb><supplied reason="undefined"><expan><abbr>G</abbr><ex>aio</ex></expan></supplied></lb></p>, docs/texts/xml/caes0106.xml
+Iulio, Iulio, la, transcription, <p><supplied reason="undefined">Iulio</supplied></p>, docs/texts/xml/caes0106.xml
+VeroMaximo, VeroMaximo, la, transcription, <p>Vero<lb/>Maximo</p>, docs/texts/xml/caes0106.xml
+nobilissimo, nobilis, la, transcription, <p><supplied>nobil</supplied>issimo</p>, docs/texts/xml/caes0106.xml
+Caesari, Caesari, la, transcription, <p><supplied>C</supplied>aes<supplied>ari</supplied></p>, docs/texts/xml/caes0106.xml
+filio, filius, la, transcription, <p><lb><supplied>f</supplied>il<supplied>io</supplied></lb></p>, docs/texts/xml/caes0106.xml
+Augusti, augustus, la, transcription, <p><lb><expan><abbr>Aug</abbr><ex>usti</ex></expan></lb></p>, docs/texts/xml/caes0106.xml
+nostri, noster, la, transcription, <p><abbr>n</abbr><ex>ostri</ex></p>, docs/texts/xml/caes0106.xml
+To, To, la-transl, translation, <p>To</p>, docs/texts/xml/caes0106.xml
+Imperator, Imperator, la-transl, translation, <p><rs type="admTitle">Imperator</rs></p>, docs/texts/xml/caes0106.xml
+Caesar, Caesar, la-transl, translation, <p><rs type="admTitle">Caesar</rs></p>, docs/texts/xml/caes0106.xml
+Gaius, Gaius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p01">Gaius</persName></name></p>, docs/texts/xml/caes0106.xml
+Julius, Julius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p02">Julius</persName></name></p>, docs/texts/xml/caes0106.xml
+Verus, Verus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p03">Verus</persName></name></p>, docs/texts/xml/caes0106.xml
+Maximinus, Maximinus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p04">Maximinus</persName></name></p>, docs/texts/xml/caes0106.xml
+dutiful, dutiful, la-transl, translation, <p><name>dutiful</name></p>, docs/texts/xml/caes0106.xml
+and, and, la-transl, translation, <p>and</p>, docs/texts/xml/caes0106.xml
+happy, happy, la-transl, translation, <p>happy</p>, docs/texts/xml/caes0106.xml
+our, our, la-transl, translation, <p>our</p>, docs/texts/xml/caes0106.xml
+Augustus, Augustus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p05">Augustus</persName></name></p>, docs/texts/xml/caes0106.xml
+and, and, la-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0106.xml
+to, to, la-transl, translation, <p>to</p>, docs/texts/xml/caes0106.xml
+Gaius, Gaius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p06">Gaius</persName></name></p>, docs/texts/xml/caes0106.xml
+Julius, Julius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p07">Julius</persName></name></p>, docs/texts/xml/caes0106.xml
+Verus, Verus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p08">Verus</persName></name></p>, docs/texts/xml/caes0106.xml
+Maximus, Maximus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p09">Maximus</persName></name></p>, docs/texts/xml/caes0106.xml
+most, most, la-transl, translation, <p><name>most</name></p>, docs/texts/xml/caes0106.xml
+noble, noble, la-transl, translation, <p>noble</p>, docs/texts/xml/caes0106.xml
+Caesar, Caesar, la-transl, translation, <p><rs type="admTitle">Caesar</rs></p>, docs/texts/xml/caes0106.xml
+son, son, la-transl, translation, <p>son</p>, docs/texts/xml/caes0106.xml
+of, of, la-transl, translation, <p>of</p>, docs/texts/xml/caes0106.xml
+our, our, la-transl, translation, <p>our</p>, docs/texts/xml/caes0106.xml
+Augustus, Augustus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0106p10">Augustus</persName></name></p>, docs/texts/xml/caes0106.xml
+Imperatori, imperator, la, transcription, <p><expan><abbr>Imp</abbr><ex>eratori</ex></expan></p>, docs/texts/xml/caes0107.xml
+Caesari, Caesari, la, transcription, <p><expan><abbr>Caes</abbr><ex>ari</ex></expan></p>, docs/texts/xml/caes0107.xml
+Marco, marcus, la, transcription, <p><lb><expan><abbr>M</abbr><ex>arco</ex></expan></lb></p>, docs/texts/xml/caes0107.xml
+AntonioGordianofilio, AntonioGordianofilio, la, transcription, <p>Antonio<lb/>Gordiano<lb/>filio</p>, docs/texts/xml/caes0107.xml
+Augusti, augustus, la, transcription, <p><expan><abbr>Aug</abbr><ex>usti</ex></expan></p>, docs/texts/xml/caes0107.xml
+SempronianoRomanoAfricanopio, SempronianoRomanoAfricanopio, la, transcription, <p><lb>Semproniano<lb/>Romano<lb/>Africano<lb/>pio</lb></p>, docs/texts/xml/caes0107.xml
+felici, felix, la, transcription, <p><expan><abbr>fel</abbr><ex>ici</ex></expan></p>, docs/texts/xml/caes0107.xml
+Augusto, augustus, la, transcription, <p><expan><abbr>Aug</abbr><ex>usto</ex></expan></p>, docs/texts/xml/caes0107.xml
+pontifici, pontifex, la, transcription, <p><lb><expan><abbr>pontif</abbr><ex>ici</ex></expan></lb></p>, docs/texts/xml/caes0107.xml
+tribunicia, tribunicius, la, transcription, <p><expan><abbr>trib</abbr><ex>unicia</ex></expan></p>, docs/texts/xml/caes0107.xml
+potestate, potestas, la, transcription, <p><lb><expan><abbr>pot</abbr><ex>estate</ex></expan></lb></p>, docs/texts/xml/caes0107.xml
+consuli, consulo, la, transcription, <p><expan><abbr>co</abbr><ex>n<abbr>s<ex>uli</ex></abbr></ex></expan></p>, docs/texts/xml/caes0107.xml
+proconsule, proconsularis, la, transcription, <p><lb><abbr>pro</abbr><ex>consule</ex></lb></p>, docs/texts/xml/caes0107.xml
+To, To, la-transl, translation, <p>To</p>, docs/texts/xml/caes0107.xml
+Imperator, Imperator, la-transl, translation, <p><rs type="admTitle">Imperator</rs></p>, docs/texts/xml/caes0107.xml
+Caesar, Caesar, la-transl, translation, <p><rs type="admTitle">Caesar</rs></p>, docs/texts/xml/caes0107.xml
+Marcus, Marcus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0107p01">Marcus</persName></name></p>, docs/texts/xml/caes0107.xml
+Antonius, Antonius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0107p02">Antonius</persName></name></p>, docs/texts/xml/caes0107.xml
+Gordianus, Gordianus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0107p03">Gordianus</persName></name></p>, docs/texts/xml/caes0107.xml
+Sempronianus, Sempronianus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0107p04">Sempronianus</persName></name></p>, docs/texts/xml/caes0107.xml
+Romanus, Romanus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0107p05">Romanus</persName></name></p>, docs/texts/xml/caes0107.xml
+Africanus, Africanus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0107p06">Africanus</persName></name></p>, docs/texts/xml/caes0107.xml
+dutiful, dutiful, la-transl, translation, <p><name>dutiful</name></p>, docs/texts/xml/caes0107.xml
+and, and, la-transl, translation, <p>and</p>, docs/texts/xml/caes0107.xml
+happy, happy, la-transl, translation, <p>happy</p>, docs/texts/xml/caes0107.xml
+Augustus, Augustus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0107p07">Augustus</persName></name></p>, docs/texts/xml/caes0107.xml
+son, son, la-transl, translation, <p><name>son</name></p>, docs/texts/xml/caes0107.xml
+of, of, la-transl, translation, <p>of</p>, docs/texts/xml/caes0107.xml
+Augustus, Augustus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0107p08">Augustus</persName></name></p>, docs/texts/xml/caes0107.xml
+pontifex, pontifex, la-transl, translation, <p><name><rs type="admTitle">pontifex</rs></name></p>, docs/texts/xml/caes0107.xml
+with, with, la-transl, translation, <p>with</p>, docs/texts/xml/caes0107.xml
+tribunician, tribunician, la-transl, translation, <p><rs type="admTitle">tribunician</rs></p>, docs/texts/xml/caes0107.xml
+power, power, la-transl, translation, <p><rs type="admTitle">power</rs></p>, docs/texts/xml/caes0107.xml
+consul, consul, la-transl, translation, <p><rs type="admTitle">consul</rs></p>, docs/texts/xml/caes0107.xml
+proconsul, proconsul, la-transl, translation, <p>proconsul</p>, docs/texts/xml/caes0107.xml
+Καισαρείας, Καισαρείας, grc, transcription, <p><supplied>Καισ</supplied>αρ<supplied>είας</supplied></p>, docs/texts/xml/caes0108.xml
+μείλια, μείλια, grc, transcription, <p><lb><expan><abbr>μ</abbr><ex>είλια</ex></expan></lb></p>, docs/texts/xml/caes0108.xml
+ι’, ι’, grc, transcription, <p>ι’</p>, docs/texts/xml/caes0108.xml
+ἱπποτρόφοις, ἱπποτρόφοις, grc, transcription, <p>ἱπποτρόφοις</p>, docs/texts/xml/caes0109.xml
+νομίσματα, νομίσματα, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματα</ex></expan></p>, docs/texts/xml/caes0109.xml
+εχκθδ’, εχκθδ’, grc, transcription, <p>εχκθδ’</p>, docs/texts/xml/caes0109.xml
+χρ, χρ, grc, transcription, <p><expan><abbr><hi rend="ligature">χρ</hi></abbr></expan></p>, docs/texts/xml/caes0109.xml
+υσᾶ, υσᾶ, grc, transcription, <p><expan><abbr><ex>υσᾶ</ex></abbr></expan></p>, docs/texts/xml/caes0109.xml
+δ’, δέ, grc, transcription, <p><expan><lb><unclear>δ</unclear>’</lb></expan></p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+τὸ, τὸ, grc, transcription, <p>τὸ</p>, docs/texts/xml/caes0109.xml
+γ’καθ’, γ’καθ’, grc, transcription, <p>γ’<space/>καθ’</p>, docs/texts/xml/caes0109.xml
+ἕκαστὸν, ἕκαστὸν, grc, transcription, <p>ἕκαστὸν</p>, docs/texts/xml/caes0109.xml
+ἐνιαυτόν, ἐνιαυτόν, grc, transcription, <p><expan><abbr>ἐνιαυτ</abbr><ex>όν</ex></expan></p>, docs/texts/xml/caes0109.xml
+γγ’, γγ’, grc, transcription, <p><supplied>γ</supplied>γ’</p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νο, νο, grc, transcription, <p><expan><abbr>νο</abbr></expan></p>, docs/texts/xml/caes0109.xml
+μίσματος, μίσματος, grc, transcription, <p><expan><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+τὸ, τὸ, grc, transcription, <p><expan>τὸ</expan></p>, docs/texts/xml/caes0109.xml
+δλς’μῆνες, δλς’μῆνες, grc, transcription, <p>δλς’<expan><abbr><space/>μῆ<ex>νες</expan></abbr></ex></p>, docs/texts/xml/caes0109.xml
+ιβ’, ιβ’, grc, transcription, <p>ιβ’</p>, docs/texts/xml/caes0109.xml
+νομίσματα, νομίσματα, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματα</ex></expan></p>, docs/texts/xml/caes0109.xml
+χιαγιβ’, χιαγιβ’, grc, transcription, <p>χιαγιβ’</p>, docs/texts/xml/caes0109.xml
+χρ, χρ, grc, transcription, <p><expan><abbr><hi rend="ligature">χρ</hi></abbr></expan></p>, docs/texts/xml/caes0109.xml
+υσᾶ, υσᾶ, grc, transcription, <p><expan><abbr><ex>υσᾶ</ex></abbr></expan></p>, docs/texts/xml/caes0109.xml
+ς’, σύ, grc, transcription, <p><lb><supplied reason="lost">ς’</supplied></lb></p>, docs/texts/xml/caes0109.xml
+κ, κ, grc, transcription, <p><expan><abbr>κ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+ατὰ, ατὰ, grc, transcription, <p><expan><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><expan><abbr>μῆ</abbr><ex>να</ex></expan></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+τὸ, τὸ, grc, transcription, <p>τὸ</p>, docs/texts/xml/caes0109.xml
+β’, β’, grc, transcription, <p>β’</p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+τοῦ, ὁ, grc, transcription, <p><expan>τοῦ</expan></p>, docs/texts/xml/caes0109.xml
+στόλου, στόλου, grc, transcription, <p>στόλου</p>, docs/texts/xml/caes0109.xml
+ι’, ι’, grc, transcription, <p><supplied>ι</supplied>’</p>, docs/texts/xml/caes0109.xml
+δ, δ, grc, transcription, <p>δ</p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+ας’, ας’, grc, transcription, <p>ας’</p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+τοῦ, ὁ, grc, transcription, <p><expan>τοῦ</expan></p>, docs/texts/xml/caes0109.xml
+μεσίτου, μεσίτου, grc, transcription, <p>μεσίτου</p>, docs/texts/xml/caes0109.xml
+ρ’ϙ, ρ’ϙ, grc, transcription, <p><supplied>ρ’</supplied>ϙ</p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+ιε‹γ’, ιε‹γ’, grc, transcription, <p>ιε<g>‹γ’</g></p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+τοῦ, ὁ, grc, transcription, <p><expan>τοῦ</expan></p>, docs/texts/xml/caes0109.xml
+δικερατίου, δικερατίου, grc, transcription, <p><expan><abbr>δικερατίο</abbr><ex>υ</ex></expan></p>, docs/texts/xml/caes0109.xml
+ρ’, ρ’, grc, transcription, <p><lb><supplied reason="lost">ρ’</supplied></lb></p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+ηγ’, ηγ’, grc, transcription, <p>ηγ’</p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+τοῦ, ὁ, grc, transcription, <p><expan>τοῦ</expan></p>, docs/texts/xml/caes0109.xml
+τετρακερατίου, τετρακερατίου, grc, transcription, <p><expan><abbr>τετρακερ</abbr><ex>ατίου</ex></expan></p>, docs/texts/xml/caes0109.xml
+ρ’, ρ’, grc, transcription, <p><lb><supplied reason="lost">ρ’</supplied></lb></p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+ηγ’, ηγ’, grc, transcription, <p>ηγ’</p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+τῶν, ὁ, grc, transcription, <p><expan>τῶν</expan></p>, docs/texts/xml/caes0109.xml
+συναρχιῶν, συναρχιῶν, grc, transcription, <p><expan><abbr>συναρχιῶ</abbr><ex>ν</ex></expan></p>, docs/texts/xml/caes0109.xml
+ρβς’, ρβς’, grc, transcription, <p><supplied>ρ</supplied>βς’</p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+η‹ο’β’, η‹ο’β’, grc, transcription, <p>η<g>‹ο’β’</g></p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+ἐπικεφαλαίου, ἐπικεφαλαίου, grc, transcription, <p><expan><expan><abbr>ἐπικεφ</abbr><ex>αλαίου</ex></expan></expan></p>, docs/texts/xml/caes0109.xml
+καὶ, καὶ, grc, transcription, <p><expan><abbr>κ</abbr><ex>αὶ</ex></expan></p>, docs/texts/xml/caes0109.xml
+ὑποπυργίου, ὑποπυργίου, grc, transcription, <p><expan><abbr>ὑποπυρ</abbr><ex>γίου</ex></expan></p>, docs/texts/xml/caes0109.xml
+ρν’, ρν’, grc, transcription, <p><lb><supplied>ρ</supplied>ν’</lb></p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+ιβ‹’, ιβ‹’, grc, transcription, <p>ιβ<g>‹’</g></p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+ὀκταβαρίων, ὀκταβαρίων, grc, transcription, <p><expan><expan><abbr>ὀκταβαρ</abbr><ex>ίων</ex></expan></expan></p>, docs/texts/xml/caes0109.xml
+καὶ, καὶ, grc, transcription, <p><expan><abbr>κ</abbr><ex>αὶ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μυρεψῶν, μυρεψέω, grc, transcription, <p><expan><abbr>μυρεψ</abbr><ex>ῶν</ex></expan></p>, docs/texts/xml/caes0109.xml
+ι, ι, grc, transcription, <p><lb><supplied reason="lost">ι</supplied></lb></p>, docs/texts/xml/caes0109.xml
+η’, η’, grc, transcription, <p><unclear>η</unclear>’</p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+α‹’, α‹’, grc, transcription, <p>α<g>‹’</g></p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+ζυγῶν, ζυγόω, grc, transcription, <p><expan><expan><abbr>ζυγ</abbr><ex>ῶν</ex></expan></expan></p>, docs/texts/xml/caes0109.xml
+νομισμάτ, νομισμάτ, grc, transcription, <p><expan><abbr>νομισμ<supplied>άτ</supplied></abbr></expan></p>, docs/texts/xml/caes0109.xml
+ων, ων, grc, transcription, <p><expan><abbr><ex>ων</ex></abbr></expan></p>, docs/texts/xml/caes0109.xml
+κ, κ, grc, transcription, <p><expan><lb><supplied reason="lost">κ</supplied></lb></expan></p>, docs/texts/xml/caes0109.xml
+δ’, δέ, grc, transcription, <p><unclear>δ</unclear>’</p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><expan><abbr>μῆ</abbr><ex>να</ex></expan></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p>α’</p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></p>, docs/texts/xml/caes0109.xml
+β’, β’, grc, transcription, <p>β’</p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><expan><abbr>ἀ</abbr></expan></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+χρυσοτελείας, χρυσοτελείας, grc, transcription, <p><expan><expan><abbr>χρυσο</abbr><ex>τελείας</ex></expan></expan></p>, docs/texts/xml/caes0109.xml
+βουλευτῶν, βουλευτός, grc, transcription, <p><expan><abbr>βουλευ</abbr><ex>τῶν</ex></expan></p>, docs/texts/xml/caes0109.xml
+κατὰ, κατὰ, grc, transcription, <p><lb><gap reason="illegible" extent="unknown" unit="character"><supplied reason="lost"><expan><abbr>κ</abbr><ex>ατὰ</ex></expan></supplied></gap></lb></p>, docs/texts/xml/caes0109.xml
+μῆνα, μαίνομαι, grc, transcription, <p><supplied reason="lost"><expan><abbr>μῆ</abbr><ex>να</ex></expan></supplied></p>, docs/texts/xml/caes0109.xml
+α’, α’, grc, transcription, <p><supplied reason="lost">α’</supplied></p>, docs/texts/xml/caes0109.xml
+νομίσματος, νομίσματος, grc, transcription, <p><supplied reason="lost"><expan><abbr>νο</abbr><ex>μίσματος</ex></expan></supplied></p>, docs/texts/xml/caes0109.xml
+ἀ, ἀ, grc, transcription, <p><supplied reason="lost"><unclear><space dim="horizontal"><expan><abbr>ἀ</abbr></expan></space></unclear></supplied></p>, docs/texts/xml/caes0109.xml
+πὸ, πὸ, grc, transcription, <p><expan><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0109.xml
+ὀσπρεοπωλῶν, ὀσπρεοπωλῶν, grc, transcription, <p><expan><expan><abbr>ὀσπρεοπωλ</abbr><ex>ῶν</ex></expan></expan></p>, docs/texts/xml/caes0109.xml
+τα, τα, grc, transcription, <p><lb><gap reason="illegible" quantity="23" unit="character"><space dim="horizontal"><gap reason="illegible" extent="unknown" unit="character">τα</gap></space></gap></lb></p>, docs/texts/xml/caes0109.xml
+μηνίεα, μηνίεα, grc, transcription, <p><hi>μην</hi>ίεα</p>, docs/texts/xml/caes0109.xml
+To, To, grc-transl, translation, <p>To</p>, docs/texts/xml/caes0109.xml
+those, those, grc-transl, translation, <p><rs type="occupation">those</rs></p>, docs/texts/xml/caes0109.xml
+who, who, grc-transl, translation, <p><rs type="occupation">who</rs></p>, docs/texts/xml/caes0109.xml
+care, care, grc-transl, translation, <p><rs type="occupation">care</rs></p>, docs/texts/xml/caes0109.xml
+for, for, grc-transl, translation, <p><rs type="occupation">for</rs></p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p><rs type="occupation">the</rs></p>, docs/texts/xml/caes0109.xml
+horses, horses, grc-transl, translation, <p><rs type="occupation">horses</rs></p>, docs/texts/xml/caes0109.xml
+5629, 5629, grc-transl, translation, <p><space dim="horizontal">5629</space></p>, docs/texts/xml/caes0109.xml
+14, 14, grc-transl, translation, <p>14</p>, docs/texts/xml/caes0109.xml
+gold, gold, grc-transl, translation, <p>gold</p>, docs/texts/xml/caes0109.xml
+coins4, coins4, grc-transl, translation, <p>coins<lb/>4</p>, docs/texts/xml/caes0109.xml
+13, 13, grc-transl, translation, <p>13</p>, docs/texts/xml/caes0109.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0109.xml
+a, a, grc-transl, translation, <p>a</p>, docs/texts/xml/caes0109.xml
+coin, coin, grc-transl, translation, <p>coin</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+montheach, montheach, grc-transl, translation, <p>month<space/>each</p>, docs/texts/xml/caes0109.xml
+year3, year3, grc-transl, translation, <p>year<lb/>3</p>, docs/texts/xml/caes0109.xml
+13, 13, grc-transl, translation, <p>13</p>, docs/texts/xml/caes0109.xml
+518, 518, grc-transl, translation, <p>518</p>, docs/texts/xml/caes0109.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0109.xml
+a, a, grc-transl, translation, <p>a</p>, docs/texts/xml/caes0109.xml
+coin, coin, grc-transl, translation, <p>coin</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+month, month, grc-transl, translation, <p>month</p>, docs/texts/xml/caes0109.xml
+12, 12, grc-transl, translation, <p>12</p>, docs/texts/xml/caes0109.xml
+months, months, grc-transl, translation, <p>months</p>, docs/texts/xml/caes0109.xml
+611, 611, grc-transl, translation, <p>611</p>, docs/texts/xml/caes0109.xml
+1415, 1415, grc-transl, translation, <p>1415</p>, docs/texts/xml/caes0109.xml
+gold, gold, grc-transl, translation, <p>gold</p>, docs/texts/xml/caes0109.xml
+coins6, coins6, grc-transl, translation, <p>coins<lb/>6</p>, docs/texts/xml/caes0109.xml
+12, 12, grc-transl, translation, <p>12</p>, docs/texts/xml/caes0109.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0109.xml
+a, a, grc-transl, translation, <p>a</p>, docs/texts/xml/caes0109.xml
+coin, coin, grc-transl, translation, <p>coin</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+stolos14, stolos14, grc-transl, translation, <p>stolos<lb/>14</p>, docs/texts/xml/caes0109.xml
+1, 1, grc-transl, translation, <p>1</p>, docs/texts/xml/caes0109.xml
+16, 16, grc-transl, translation, <p>16</p>, docs/texts/xml/caes0109.xml
+coins, coins, grc-transl, translation, <p>coins</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+mesites190, mesites190, grc-transl, translation, <p>mesites<lb/>190</p>, docs/texts/xml/caes0109.xml
+15, 15, grc-transl, translation, <p>15</p>, docs/texts/xml/caes0109.xml
+56, 56, grc-transl, translation, <p>56</p>, docs/texts/xml/caes0109.xml
+coins, coins, grc-transl, translation, <p>coins</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+dikeration100, dikeration100, grc-transl, translation, <p>dikeration<lb/>100</p>, docs/texts/xml/caes0109.xml
+8, 8, grc-transl, translation, <p>8</p>, docs/texts/xml/caes0109.xml
+13, 13, grc-transl, translation, <p>13</p>, docs/texts/xml/caes0109.xml
+coins, coins, grc-transl, translation, <p>coins</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+tetrakeration100, tetrakeration100, grc-transl, translation, <p>tetrakeration<lb/>100</p>, docs/texts/xml/caes0109.xml
+8, 8, grc-transl, translation, <p>8</p>, docs/texts/xml/caes0109.xml
+13, 13, grc-transl, translation, <p>13</p>, docs/texts/xml/caes0109.xml
+coins, coins, grc-transl, translation, <p>coins</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+synarchiai102, synarchiai102, grc-transl, translation, <p>synarchiai<lb/>102</p>, docs/texts/xml/caes0109.xml
+16, 16, grc-transl, translation, <p>16</p>, docs/texts/xml/caes0109.xml
+8, 8, grc-transl, translation, <p>8</p>, docs/texts/xml/caes0109.xml
+3772, 3772, grc-transl, translation, <p>3772</p>, docs/texts/xml/caes0109.xml
+coins, coins, grc-transl, translation, <p>coins</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+poll-tax, poll-tax, grc-transl, translation, <p>poll-tax</p>, docs/texts/xml/caes0109.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0109.xml
+hypopyrgion150, hypopyrgion150, grc-transl, translation, <p>hypopyrgion<lb/>150</p>, docs/texts/xml/caes0109.xml
+12, 12, grc-transl, translation, <p>12</p>, docs/texts/xml/caes0109.xml
+12, 12, grc-transl, translation, <p>12</p>, docs/texts/xml/caes0109.xml
+coins, coins, grc-transl, translation, <p>coins</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+octavarii, octavarii, grc-transl, translation, <p>octavarii</p>, docs/texts/xml/caes0109.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0109.xml
+perfumers18, perfumers18, grc-transl, translation, <p>perfumers<lb/>18</p>, docs/texts/xml/caes0109.xml
+1, 1, grc-transl, translation, <p>1</p>, docs/texts/xml/caes0109.xml
+12, 12, grc-transl, translation, <p>12</p>, docs/texts/xml/caes0109.xml
+coins, coins, grc-transl, translation, <p>coins</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+tax, tax, grc-transl, translation, <p>tax</p>, docs/texts/xml/caes0109.xml
+on, on, grc-transl, translation, <p>on</p>, docs/texts/xml/caes0109.xml
+weights, weights, grc-transl, translation, <p>weights</p>, docs/texts/xml/caes0109.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0109.xml
+measures24, measures24, grc-transl, translation, <p>measures<lb/>24</p>, docs/texts/xml/caes0109.xml
+2, 2, grc-transl, translation, <p>2</p>, docs/texts/xml/caes0109.xml
+coins, coins, grc-transl, translation, <p>coins</p>, docs/texts/xml/caes0109.xml
+per, per, grc-transl, translation, <p>per</p>, docs/texts/xml/caes0109.xml
+monthfrom, monthfrom, grc-transl, translation, <p>month<space/>from</p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+tax, tax, grc-transl, translation, <p>tax</p>, docs/texts/xml/caes0109.xml
+on, on, grc-transl, translation, <p>on</p>, docs/texts/xml/caes0109.xml
+councillors, councillors, grc-transl, translation, <p><rs type="occupation">councillors</rs></p>, docs/texts/xml/caes0109.xml
+from, from, grc-transl, translation, <p><lb><space dim="horizontal">from</space></lb></p>, docs/texts/xml/caes0109.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0109.xml
+pulse-dealers, pulse-dealers, grc-transl, translation, <p><rs type="occupation">pulse-dealers</rs></p>, docs/texts/xml/caes0109.xml
+monthly, monthly, grc-transl, translation, <p><lb><space dim="horizontal">monthly</space></lb></p>, docs/texts/xml/caes0109.xml
+ΕΝΧΑΙ, ΕΝΧΑΙ, grc, diplomatic, <p><gap reason="illegible" quantity="10" unit="character">ΕΝΧΑΙ</gap></p>, docs/texts/xml/caes0110.xml
+ΤΟΙΣΑΥΤΟΙΣ, ΤΟΙΣΑΥΤΟΙΣ, grc, diplomatic, <p><lb><gap reason="illegible" quantity="4" unit="character">ΤΟΙΣΑΥΤΟΙΣ</gap></lb></p>, docs/texts/xml/caes0110.xml
+ΑΥΤΟΜΟΝΟΜΕΡΕΣΟ, ΑΥΤΟΜΟΝΟΜΕΡΕΣΟ, grc, diplomatic, <p><lb><gap reason="illegible" quantity="2" unit="character">ΑΥΤΟΜΟΝΟΜΕΡΕΣΟ</gap></lb></p>, docs/texts/xml/caes0110.xml
+ΝΟΥΑΧΡΙ, ΝΟΥΑΧΡΙ, grc, diplomatic, <p><lb><space><lb><gap reason="illegible" quantity="2" unit="character"><unclear>Ν</unclear>ΟΥΑΧΡΙ</gap></lb></space></lb></p>, docs/texts/xml/caes0110.xml
+ΝΝ, ΝΝ, grc, diplomatic, <p>ΝΝ</p>, docs/texts/xml/caes0110.xml
+ΑΠΟΦΑΣΙΣ, ΑΠΟΦΑΣΙΣ, grc, diplomatic, <p><gap reason="illegible" quantity="2" unit="character">ΑΠΟΦΑΣ<supplied>ΙΣ</supplied></gap></p>, docs/texts/xml/caes0111.xml
+ΠΛΙΟΥΥΙΟΣΚ, ΠΛΙΟΥΥΙΟΣΚ, grc, diplomatic, <p><gap reason="illegible" quantity="1" unit="character"><lb><gap reason="illegible" quantity="2" unit="character">ΠΛΙΟΥΥΙΟΣΚ</gap></lb></gap></p>, docs/texts/xml/caes0111.xml
+ΚΛΑΣΣΙΚΗΣ, ΚΛΑΣΣΙΚΗΣ, grc, diplomatic, <p><lb><gap reason="illegible" quantity="2" unit="character">ΚΛΑΣΣΙΚΗΣ</gap></lb></p>, docs/texts/xml/caes0111.xml
+ΚΟΙΝΤΟΣ, ΚΟΙΝΤΟΣ, grc, diplomatic, <p>ΚΟ<supplied>ΙΝΤΟΣ</supplied></p>, docs/texts/xml/caes0111.xml
+ΛΟΥΚΙΟΣΛΕΙΟ, ΛΟΥΚΙΟΣΛΕΙΟ, grc, diplomatic, <p>ΛΟΥΚΙΟΣΛΕΙΟ</p>, docs/texts/xml/caes0111.xml
+ΚΟΙΝΤΟΣ, ΚΟΙΝΤΟΣ, grc, diplomatic, <p>ΚΟΙΝΤ<supplied>ΟΣ</supplied></p>, docs/texts/xml/caes0111.xml
+ΚΟΣΤΑ, ΚΟΣΤΑ, grc, diplomatic, <p><gap reason="illegible" quantity="1" unit="character"><lb><gap reason="illegible" quantity="4" unit="character">ΚΟΣΤ<unclear>Α</unclear></gap></lb></gap></p>, docs/texts/xml/caes0111.xml
+ΠΡΟ, ΠΡΟ, grc, diplomatic, <p><gap reason="illegible" quantity="3" unit="character"><lb><gap reason="illegible" quantity="5" unit="character">ΠΡ<unclear>Ο</unclear></gap></lb></gap></p>, docs/texts/xml/caes0111.xml
+decisionlist, decisionlist, grc-transl, translation, <p>decisionlist</p>, docs/texts/xml/caes0111.xml
+son, son, grc-transl, translation, <p>son</p>, docs/texts/xml/caes0111.xml
+of--plius, of--plius, grc-transl, translation, <p>of--plius</p>, docs/texts/xml/caes0111.xml
+K--, K--, grc-transl, translation, <p>K--</p>, docs/texts/xml/caes0111.xml
+Klassike, Klassike, grc-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0111p01">Klassike</persName></name></p>, docs/texts/xml/caes0111.xml
+Kointos, Kointos, grc-transl, translation, <p><name><name><persName lang="la " ref="persons.xml#caes0111p02">Kointos</persName></name></name></p>, docs/texts/xml/caes0111.xml
+Loukios, Loukios, grc-transl, translation, <p><name><name><persName lang="la " ref="persons.xml#caes0111p03">Loukios</persName></name></name></p>, docs/texts/xml/caes0111.xml
+Leio--, Leio--, grc-transl, translation, <p><name>Leio--</name></p>, docs/texts/xml/caes0111.xml
+Kointos, Kointos, grc-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0111p04">Kointos</persName></name></p>, docs/texts/xml/caes0111.xml
+τῶν, ὁ, grc, transcription, <p><gap reason="illegible" quantity="2" unit="character"><unclear><unclear>τ</unclear>ῶν</unclear></gap></p>, docs/texts/xml/caes0112.xml
+δ, δ, grc, transcription, <p>δ</p>, docs/texts/xml/caes0112.xml
+ω, ω, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character"><lb><gap reason="illegible" quantity="2" unit="character">ω</gap></lb></gap></p>, docs/texts/xml/caes0112.xml
+λύουσιν, λύουσιν, grc, transcription, <p>λύουσιν</p>, docs/texts/xml/caes0112.xml
+τ, τ, grc, transcription, <p><gap reason="illegible" quantity="2" unit="character"><lb><gap reason="illegible" quantity="1" unit="character"><supplied reason="undefined">τ</supplied></gap></lb></gap></p>, docs/texts/xml/caes0112.xml
+ῶν, ῶν, grc, transcription, <p><unclear>ῶ</unclear>ν</p>, docs/texts/xml/caes0112.xml
+νόμων, νόμων, grc, transcription, <p>νόμων</p>, docs/texts/xml/caes0112.xml
+ε, ε, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character"><unclear>ε</unclear></gap></p>, docs/texts/xml/caes0113.xml
+ἤλπισαν, ἐλπίζω, grc, transcription, <p><unclear>ἤ</unclear>λπισαν</p>, docs/texts/xml/caes0113.xml
+ἐ, ἐ, grc, transcription, <p><unclear>ἐ</unclear></p>, docs/texts/xml/caes0113.xml
+π’, π’, grc, transcription, <p><supplied reason="undefined">π’</supplied></p>, docs/texts/xml/caes0113.xml
+ταῦτα, οὗτος, grc, transcription, <p><supplied>τ</supplied>αῦτα</p>, docs/texts/xml/caes0113.xml
+σῷζον, σώζω, grc, transcription, <p><unclear>σ</unclear>ῷζον</p>, docs/texts/xml/caes0113.xml
+οντα, οντα, grc, transcription, <p><unclear><unclear><unclear>οντα</unclear></unclear></unclear></p>, docs/texts/xml/caes0113.xml
+ἄλογα, ἄλογος, grc, transcription, <p>ἄλογα</p>, docs/texts/xml/caes0113.xml
+they, they, grc-transl, translation, <p>they</p>, docs/texts/xml/caes0113.xml
+believed, believed, grc-transl, translation, <p>believed</p>, docs/texts/xml/caes0113.xml
+in, in, grc-transl, translation, <p>in</p>, docs/texts/xml/caes0113.xml
+these, these, grc-transl, translation, <p>these</p>, docs/texts/xml/caes0113.xml
+things, things, grc-transl, translation, <p>things</p>, docs/texts/xml/caes0113.xml
+preserving, preserving, grc-transl, translation, <p>preserving</p>, docs/texts/xml/caes0113.xml
+animals, animals, grc-transl, translation, <p>animals</p>, docs/texts/xml/caes0113.xml
+τάλαντον, τάλαντον, grc, transcription, <p>τάλαντον</p>, docs/texts/xml/caes0114.xml
+τῆς, ὁ, grc, transcription, <p>τῆς</p>, docs/texts/xml/caes0114.xml
+ἁγίας, ἁγίας, grc, transcription, <p>ἁγίας</p>, docs/texts/xml/caes0114.xml
+Μαρίας, Μαρίας, grc, transcription, <p>Μαρίας</p>, docs/texts/xml/caes0114.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0114.xml
+weight, weight, grc-transl, translation, <p>weight</p>, docs/texts/xml/caes0114.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0114.xml
+Saint, Saint, grc-transl, translation, <p>Saint</p>, docs/texts/xml/caes0114.xml
+Mary, Mary, grc-transl, translation, <p>Mary</p>, docs/texts/xml/caes0114.xml
+ΝΕΟ, ΝΕΟ, grc, diplomatic, <p><gap reason="illegible" quantity="2" unit="character">ΝΕΟ</gap></p>, docs/texts/xml/caes0115.xml
+ΝΤΑ, ΝΤΑ, grc, diplomatic, <p><lb><gap reason="illegible" quantity="2" unit="character">ΝΤΑ</gap></lb></p>, docs/texts/xml/caes0115.xml
+ΡΙΤ, ΡΙΤ, grc, diplomatic, <p><gap reason="illegible" quantity="3" unit="character"><unclear>Ρ</unclear>ΙΤ</gap></p>, docs/texts/xml/caes0116.xml
+ΥβΟ, ΥβΟ, grc, diplomatic, <p><gap reason="illegible" quantity="3" unit="character"><unclear>Υ</unclear>βΟ</gap></p>, docs/texts/xml/caes0116.xml
+γ, γ, grc, transcription, <p>γ</p>, docs/texts/xml/caes0118.xml
+sgadeIulius, sgadeIulius, la, transcription, <p><gap reason="illegible" atLeast="22" atMost="24" unit="character"><unclear>s</unclear>gade<lb/>Iulius</gap></p>, docs/texts/xml/caes0119.xml
+Magnus, magnus, la, transcription, <p><expan><abbr>Magnu</abbr><ex>s</ex></expan></p>, docs/texts/xml/caes0119.xml
+legionis, legio, la, transcription, <p><lb><choice><abbr><expan><expan><abbr>leg</abbr><ex>ionis</ex></expan></expan></abbr></choice></lb></p>, docs/texts/xml/caes0119.xml
+XII, XII, la, transcription, <p>XII</p>, docs/texts/xml/caes0119.xml
+Fulminatae, fulmino, la, transcription, <p><expan><abbr>Fulm</abbr><ex>inatae</ex></expan></p>, docs/texts/xml/caes0119.xml
+Julius, Julius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0119p01">Julius</persName></name></p>, docs/texts/xml/caes0119.xml
+Magnus, Magnus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0119p02">Magnus</persName></name></p>, docs/texts/xml/caes0119.xml
+a, a, la-transl, translation, <p><name>a</name></p>, docs/texts/xml/caes0119.xml
+centurion, centurion, la-transl, translation, <p><rs type="admTitle">centurion</rs></p>, docs/texts/xml/caes0119.xml
+of, of, la-transl, translation, <p>of</p>, docs/texts/xml/caes0119.xml
+Legio, Legio, la-transl, translation, <p>Legio</p>, docs/texts/xml/caes0119.xml
+XII, XII, la-transl, translation, <p>XII</p>, docs/texts/xml/caes0119.xml
+Fulminata, Fulminata, la-transl, translation, <p>Fulminata</p>, docs/texts/xml/caes0119.xml
+CE, CE, la, diplomatic, <p><gap reason="illegible" quantity="4" unit="character">CE</gap></p>, docs/texts/xml/caes0120.xml
+OAN, OAN, la, diplomatic, <p><lb><gap reason="illegible" quantity="4" unit="character">OAN</gap></lb></p>, docs/texts/xml/caes0120.xml
+MAGISTER, magister, la, diplomatic, <p><lb><gap reason="illegible" quantity="2" unit="character"><supplied>M</supplied>AGISTE<supplied>R</supplied></gap></lb></p>, docs/texts/xml/caes0120.xml
+VIXITANNOS, VIXITANNOS, la, diplomatic, <p><gap reason="illegible" quantity="1" unit="character"><lb><supplied>VIXIT</supplied>ANNO<supplied>S</supplied></lb></gap></p>, docs/texts/xml/caes0120.xml
+PVB, PVB, la, diplomatic, <p><gap reason="illegible" quantity="1" unit="character"><lb><gap reason="illegible" quantity="3" unit="character">PVB</gap></lb></gap></p>, docs/texts/xml/caes0120.xml
+FATORI, FATORI, la, diplomatic, <p><del unit="characters" extent="5"><lb><gap reason="illegible" quantity="4" unit="character"><unclear>F</unclear>ATORI</gap></lb></del></p>, docs/texts/xml/caes0121.xml
+IE, IE, la, diplomatic, <p><del unit="characters" extent="5"><lb><gap reason="illegible" quantity="3" unit="character">I<gap/>E</gap></lb></del></p>, docs/texts/xml/caes0121.xml
+M, M, la, diplomatic, <p><lb><gap reason="illegible" quantity="4" unit="character">M</gap></lb></p>, docs/texts/xml/caes0121.xml
+di, di, unk, transcription, <p><gap reason="illegible" quantity="2" unit="character">d<unclear>i</unclear></gap></p>, docs/texts/xml/caes0122.xml
+m, m, unk, transcription, <p><unclear>m</unclear></p>, docs/texts/xml/caes0122.xml
+sevir, sevir, unk, transcription, <p><gap reason="illegible" quantity="2" unit="character"><lb><supplied reason="undefined">sevir</supplied></lb></gap></p>, docs/texts/xml/caes0122.xml
+Augustalis, Augustalis, unk, transcription, <p>Augustalis</p>, docs/texts/xml/caes0122.xml
+coloniae, coloniae, unk, transcription, <p><gap reason="illegible"><expan><abbr>colon</abbr><ex>iae</ex></expan></gap></p>, docs/texts/xml/caes0122.xml
+pro, pro, unk, transcription, <p>pro</p>, docs/texts/xml/caes0122.xml
+ludis, ludis, unk, transcription, <p><supplied reason="undefined">ludis</supplied></p>, docs/texts/xml/caes0122.xml
+Augustalibus, Augustalibus, unk, transcription, <p><expan><abbr>Augustali</abbr><ex>bus</ex></expan></p>, docs/texts/xml/caes0122.xml
+fecit, fecit, unk, transcription, <p><expan><abbr>fec</abbr><ex>it</ex></expan></p>, docs/texts/xml/caes0122.xml
+ex, ex, unk, transcription, <p><lb><space>ex</space></lb></p>, docs/texts/xml/caes0122.xml
+decreto, decreto, unk, transcription, <p><expan><abbr>d</abbr><ex>ecreto</ex></expan></p>, docs/texts/xml/caes0122.xml
+decurionum, decurionum, unk, transcription, <p><expan><abbr>d</abbr><ex>ecurionum</ex></expan></p>, docs/texts/xml/caes0122.xml
+an, an, unk-transl, translation, <p>an</p>, docs/texts/xml/caes0122.xml
+Augustal, Augustal, unk-transl, translation, <p><rs type="admTitle">Augustal</rs></p>, docs/texts/xml/caes0122.xml
+one, one, unk-transl, translation, <p>one</p>, docs/texts/xml/caes0122.xml
+of, of, unk-transl, translation, <p>of</p>, docs/texts/xml/caes0122.xml
+the, the, unk-transl, translation, <p>the</p>, docs/texts/xml/caes0122.xml
+Six, Six, unk-transl, translation, <p><rs type="admTitle">Six</rs></p>, docs/texts/xml/caes0122.xml
+Men, Men, unk-transl, translation, <p><rs type="admTitle">Men</rs></p>, docs/texts/xml/caes0122.xml
+of, of, unk-transl, translation, <p>of</p>, docs/texts/xml/caes0122.xml
+the, the, unk-transl, translation, <p>the</p>, docs/texts/xml/caes0122.xml
+colony, colony, unk-transl, translation, <p>colony</p>, docs/texts/xml/caes0122.xml
+made, made, unk-transl, translation, <p>made</p>, docs/texts/xml/caes0122.xml
+it, it, unk-transl, translation, <p>it</p>, docs/texts/xml/caes0122.xml
+for, for, unk-transl, translation, <p>for</p>, docs/texts/xml/caes0122.xml
+the, the, unk-transl, translation, <p>the</p>, docs/texts/xml/caes0122.xml
+Augustan, Augustan, unk-transl, translation, <p>Augustan</p>, docs/texts/xml/caes0122.xml
+competitions, competitions, unk-transl, translation, <p>competitions</p>, docs/texts/xml/caes0122.xml
+by, by, unk-transl, translation, <p>by</p>, docs/texts/xml/caes0122.xml
+the, the, unk-transl, translation, <p>the</p>, docs/texts/xml/caes0122.xml
+decree, decree, unk-transl, translation, <p>decree</p>, docs/texts/xml/caes0122.xml
+of, of, unk-transl, translation, <p>of</p>, docs/texts/xml/caes0122.xml
+the, the, unk-transl, translation, <p>the</p>, docs/texts/xml/caes0122.xml
+decurions, decurions, unk-transl, translation, <p>decurions</p>, docs/texts/xml/caes0122.xml
+augures, augures, grc, transcription, <p><gap reason="lost" extent="unknown" unit="character"><gap reason="illegible" quantity="4" unit="character"><g type="leaf"><lb><gap reason="illegible" quantity="2" unit="character"><expan><abbr>augur</abbr><ex>e<abbr>s</ex></abbr></expan></gap></lb></g></gap></gap></p>, docs/texts/xml/caes0123.xml
+Οὐίκτορ, Οὐίκτορ, unk, transcription, <p>Οὐίκτορ</p>, docs/texts/xml/caes0124.xml
+εὐξά­, εὐξά­, unk, transcription, <p>εὐξ<unclear>ά­</unclear></p>, docs/texts/xml/caes0124.xml
+μενος, μενος, unk, transcription, <p>μενος</p>, docs/texts/xml/caes0124.xml
+ἀνέ­, ἀνέ­, unk, transcription, <p>ἀνέ­</p>, docs/texts/xml/caes0124.xml
+θηκεν, θηκεν, unk, transcription, <p>θηκεν</p>, docs/texts/xml/caes0124.xml
+κὲ, κὲ, unk, transcription, <p>κὲ</p>, docs/texts/xml/caes0124.xml
+ἠρ­, ἠρ­, unk, transcription, <p>ἠρ­</p>, docs/texts/xml/caes0124.xml
+γάσετο, γάσετο, unk, transcription, <p>γάσετο</p>, docs/texts/xml/caes0124.xml
+τῷ, τῷ, unk, transcription, <p>τῷ</p>, docs/texts/xml/caes0124.xml
+Διὶ, Διὶ, unk, transcription, <p><expan><abbr>Δι</abbr><ex>ὶ</ex></expan></p>, docs/texts/xml/caes0124.xml
+Δολιχηνῷ, Δολιχηνῷ, unk, transcription, <p><lb>Δολιχηνῷ</lb></p>, docs/texts/xml/caes0124.xml
+Viktor, Viktor, unk-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0124p01">Viktor</persName></p>, docs/texts/xml/caes0124.xml
+in, in, unk-transl, translation, <p>in</p>, docs/texts/xml/caes0124.xml
+fulfillment, fulfillment, unk-transl, translation, <p>fulfillment</p>, docs/texts/xml/caes0124.xml
+of, of, unk-transl, translation, <p>of</p>, docs/texts/xml/caes0124.xml
+a, a, unk-transl, translation, <p>a</p>, docs/texts/xml/caes0124.xml
+vow, vow, unk-transl, translation, <p>vow</p>, docs/texts/xml/caes0124.xml
+deciated, deciated, unk-transl, translation, <p>deciated</p>, docs/texts/xml/caes0124.xml
+and, and, unk-transl, translation, <p>and</p>, docs/texts/xml/caes0124.xml
+built, built, unk-transl, translation, <p>built</p>, docs/texts/xml/caes0124.xml
+this, this, unk-transl, translation, <p>this</p>, docs/texts/xml/caes0124.xml
+altar, altar, unk-transl, translation, <p>altar</p>, docs/texts/xml/caes0124.xml
+to, to, unk-transl, translation, <p>to</p>, docs/texts/xml/caes0124.xml
+Zeus, Zeus, unk-transl, translation, <p><rs type="divine">Zeus</rs></p>, docs/texts/xml/caes0124.xml
+Jupiter, Jupiter, unk-transl, translation, <p><rs type="divine">Jupiter</rs></p>, docs/texts/xml/caes0124.xml
+Dolichenos, Dolichenos, unk-transl, translation, <p>Dolichenos</p>, docs/texts/xml/caes0124.xml
+Θεῶι, Θεῶι, unk, transcription, <p>Θεῶι</p>, docs/texts/xml/caes0125.xml
+Μεγάλωι, Μεγάλωι, unk, transcription, <p>Μεγάλωι</p>, docs/texts/xml/caes0125.xml
+Δε, Δε, unk, transcription, <p>Δ<unclear>ε</unclear></p>, docs/texts/xml/caes0125.xml
+ς, ς, unk, transcription, <p><unclear>ς</unclear></p>, docs/texts/xml/caes0125.xml
+πότηι, πότηι, unk, transcription, <p><supplied reason="undefined">πότηι</supplied></p>, docs/texts/xml/caes0125.xml
+To, To, unk-transl, translation, <p>To</p>, docs/texts/xml/caes0125.xml
+God, God, unk-transl, translation, <p><rs type="divine">God</rs></p>, docs/texts/xml/caes0125.xml
+Megas, Megas, unk-transl, translation, <p><rs type="divine">Megas</rs></p>, docs/texts/xml/caes0125.xml
+Despotes, Despotes, unk-transl, translation, <p><rs type="divine">Despotes</rs></p>, docs/texts/xml/caes0125.xml
+Κοΐντος, Κοΐντος, unk, transcription, <p><expan><abbr>Κ</abbr><ex>οΐντος</ex></expan></p>, docs/texts/xml/caes0126.xml
+Καικίλλιος, Καικίλλιος, unk, transcription, <p>Καικίλλιος</p>, docs/texts/xml/caes0126.xml
+ους, ους, unk, transcription, <p><unclear><gap reason="illegible" quantity="1" unit="character">ους</gap></unclear></p>, docs/texts/xml/caes0126.xml
+κωμῳδὸς, κωμῳδὸς, unk, transcription, <p>κωμῳδὸς</p>, docs/texts/xml/caes0126.xml
+πρωτο­, πρωτο­, unk, transcription, <p><supplied>πρω</supplied>το­</p>, docs/texts/xml/caes0126.xml
+λόγος, λόγος, unk, transcription, <p>λόγος</p>, docs/texts/xml/caes0126.xml
+Ἀντιοχεὺς, Ἀντιοχεὺς, unk, transcription, <p>Ἀντιοχε<supplied>ὺς</supplied></p>, docs/texts/xml/caes0126.xml
+τῶν, τῶν, unk, transcription, <p><lb>τῶν</lb></p>, docs/texts/xml/caes0126.xml
+πρὸς, πρὸς, unk, transcription, <p>πρὸς</p>, docs/texts/xml/caes0126.xml
+Δάφνην, Δάφνην, unk, transcription, <p>Δάφνην</p>, docs/texts/xml/caes0126.xml
+εὐξάμενος, εὐξάμενος, unk, transcription, <p>εὐξάμενος</p>, docs/texts/xml/caes0126.xml
+ἀνέθηκεν, ἀνέθηκεν, unk, transcription, <p><abbr>ἀνέθη</abbr><ex>κεν</ex></p>, docs/texts/xml/caes0126.xml
+Kointos, Kointos, unk-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0126p01">Kointos</persName></p>, docs/texts/xml/caes0126.xml
+Kaikillios, Kaikillios, unk-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0126p02">Kaikillios</persName></p>, docs/texts/xml/caes0126.xml
+--ous, --ous, unk-transl, translation, <p>--ous</p>, docs/texts/xml/caes0126.xml
+of, of, unk-transl, translation, <p>of</p>, docs/texts/xml/caes0126.xml
+Antioch-by-Daphne, Antioch-by-Daphne, unk-transl, translation, <p>Antioch-by-Daphne</p>, docs/texts/xml/caes0126.xml
+a, a, unk-transl, translation, <p>a</p>, docs/texts/xml/caes0126.xml
+comic, comic, unk-transl, translation, <p><rs type="occupation">comic</rs></p>, docs/texts/xml/caes0126.xml
+actor, actor, unk-transl, translation, <p><rs type="occupation">actor</rs></p>, docs/texts/xml/caes0126.xml
+of, of, unk-transl, translation, <p>of</p>, docs/texts/xml/caes0126.xml
+leading, leading, unk-transl, translation, <p>leading</p>, docs/texts/xml/caes0126.xml
+roles, roles, unk-transl, translation, <p>roles</p>, docs/texts/xml/caes0126.xml
+dedicated, dedicated, unk-transl, translation, <p>dedicated</p>, docs/texts/xml/caes0126.xml
+this, this, unk-transl, translation, <p>this</p>, docs/texts/xml/caes0126.xml
+in, in, unk-transl, translation, <p>in</p>, docs/texts/xml/caes0126.xml
+fulfillment, fulfillment, unk-transl, translation, <p>fulfillment</p>, docs/texts/xml/caes0126.xml
+of, of, unk-transl, translation, <p>of</p>, docs/texts/xml/caes0126.xml
+a, a, unk-transl, translation, <p>a</p>, docs/texts/xml/caes0126.xml
+vow, vow, unk-transl, translation, <p>vow</p>, docs/texts/xml/caes0126.xml
+Ἀσκ, Ἀσκ, unk, transcription, <p><choice><abbr><unclear>Ἀ</unclear>σκ</abbr></choice></p>, docs/texts/xml/caes0127.xml
+Σ, Σ, unk, diplomatic, <p><gap reason="illegible" quantity="3" unit="character"><unclear><unclear><unclear>Σ</unclear></unclear></unclear></gap></p>, docs/texts/xml/caes0128.xml
+Ι, Ι, unk, diplomatic, <p><unclear>Ι</unclear></p>, docs/texts/xml/caes0128.xml
+ΑΙΦΩ, ΑΙΦΩ, unk, diplomatic, <p>ΑΙΦ<unclear>Ω</unclear></p>, docs/texts/xml/caes0128.xml
+ΕΥΤΥΧΩΣ, ΕΥΤΥΧΩΣ, unk, diplomatic, <p><gap reason="illegible" quantity="3" unit="character"><lb><supplied>ΕΥΤΥ</supplied>ΧΩΣ</lb></gap></p>, docs/texts/xml/caes0128.xml
+ΑΝΕΘΗΚΕΝ, ΑΝΕΘΗΚΕΝ, unk, diplomatic, <p>ΑΝΕ<supplied>ΘΗΚΕΝ</supplied></p>, docs/texts/xml/caes0128.xml
+Κύριος, Κύριος, grc, transcription, <p><expan><abbr>Κ</abbr><ex>ύριος</ex></expan></p>, docs/texts/xml/caes0129.xml
+ὁ, ὁ, grc, transcription, <p>ὁ</p>, docs/texts/xml/caes0129.xml
+Θεὸς, Θεὸς, grc, transcription, <p><expan><abbr>Θ</abbr><ex>εὸ<abbr>ς</ex></abbr></expan></p>, docs/texts/xml/caes0129.xml
+εὐλο, εὐλο, grc, transcription, <p>εὐλο</p>, docs/texts/xml/caes0129.xml
+γήσει, γήσει, grc, transcription, <p>γήσει</p>, docs/texts/xml/caes0129.xml
+τὸν, τὸν, grc, transcription, <p>τὸν</p>, docs/texts/xml/caes0129.xml
+σῖτόν, σῖτόν, grc, transcription, <p>σῖτόν</p>, docs/texts/xml/caes0129.xml
+σου, σύ, grc, transcription, <p>σου</p>, docs/texts/xml/caes0129.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0129.xml
+τὸν, τὸν, grc, transcription, <p>τὸν</p>, docs/texts/xml/caes0129.xml
+οἶνόν, οἶνόν, grc, transcription, <p>οἶνόν</p>, docs/texts/xml/caes0129.xml
+σου, σύ, grc, transcription, <p>σου</p>, docs/texts/xml/caes0129.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0129.xml
+τὸ, τὸ, grc, transcription, <p>τὸ</p>, docs/texts/xml/caes0129.xml
+ἔλεόν, ἔλεόν, grc, transcription, <p>ἔλεόν</p>, docs/texts/xml/caes0129.xml
+σου, σύ, grc, transcription, <p>σου</p>, docs/texts/xml/caes0129.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0129.xml
+πληθυ, πληθυ, grc, transcription, <p>πληθυ</p>, docs/texts/xml/caes0129.xml
+νεῖ, νέω, grc, transcription, <p>νεῖ</p>, docs/texts/xml/caes0129.xml
+ἀμήν, ἀμήν, grc, transcription, <p>ἀμήν</p>, docs/texts/xml/caes0129.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0129.xml
+Lord, Lord, grc-transl, translation, <p><rs type="divine">Lord</rs></p>, docs/texts/xml/caes0129.xml
+God, God, grc-transl, translation, <p><rs type="divine">God</rs></p>, docs/texts/xml/caes0129.xml
+will, will, grc-transl, translation, <p>will</p>, docs/texts/xml/caes0129.xml
+bless, bless, grc-transl, translation, <p>bless</p>, docs/texts/xml/caes0129.xml
+your, your, grc-transl, translation, <p>your</p>, docs/texts/xml/caes0129.xml
+grain, grain, grc-transl, translation, <p>grain</p>, docs/texts/xml/caes0129.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0129.xml
+your, your, grc-transl, translation, <p>your</p>, docs/texts/xml/caes0129.xml
+wine, wine, grc-transl, translation, <p>wine</p>, docs/texts/xml/caes0129.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0129.xml
+your, your, grc-transl, translation, <p>your</p>, docs/texts/xml/caes0129.xml
+oil, oil, grc-transl, translation, <p>oil</p>, docs/texts/xml/caes0129.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0129.xml
+he, he, grc-transl, translation, <p>he</p>, docs/texts/xml/caes0129.xml
+will, will, grc-transl, translation, <p>will</p>, docs/texts/xml/caes0129.xml
+multiply, multiply, grc-transl, translation, <p>multiply</p>, docs/texts/xml/caes0129.xml
+it, it, grc-transl, translation, <p>it</p>, docs/texts/xml/caes0129.xml
+Amen, Amen, grc-transl, translation, <p>Amen</p>, docs/texts/xml/caes0129.xml
+ἀπὸ, ἀπὸ, grc, transcription, <p>ἀπὸ</p>, docs/texts/xml/caes0130.xml
+καρ­ποῦ, καρ­ποῦ, grc, transcription, <p>καρ­<lb/>ποῦ</p>, docs/texts/xml/caes0130.xml
+σίτουκαὶ, σίτουκαὶ, grc, transcription, <p>σίτου<lb/>καὶ</p>, docs/texts/xml/caes0130.xml
+οἴνου, οἰνόω, grc, transcription, <p>οἴνου</p>, docs/texts/xml/caes0130.xml
+καὶἐλέου, καὶἐλέου, grc, transcription, <p>καὶ<lb/>ἐλέου</p>, docs/texts/xml/caes0130.xml
+αὐτῶνἐπληθύν­θησαν, αὐτῶνἐπληθύν­θησαν, grc, transcription, <p>αὐτῶν<lb/>ἐπληθύν­<lb/>θησαν</p>, docs/texts/xml/caes0130.xml
+From, From, grc-transl, translation, <p>From</p>, docs/texts/xml/caes0130.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0130.xml
+fruit, fruit, grc-transl, translation, <p>fruit</p>, docs/texts/xml/caes0130.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0130.xml
+their, their, grc-transl, translation, <p>their</p>, docs/texts/xml/caes0130.xml
+grain, grain, grc-transl, translation, <p>grain</p>, docs/texts/xml/caes0130.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0130.xml
+wine, wine, grc-transl, translation, <p>wine</p>, docs/texts/xml/caes0130.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0130.xml
+oil, oil, grc-transl, translation, <p>oil</p>, docs/texts/xml/caes0130.xml
+they, they, grc-transl, translation, <p>they</p>, docs/texts/xml/caes0130.xml
+were, were, grc-transl, translation, <p>were</p>, docs/texts/xml/caes0130.xml
+multiplied, multiplied, grc-transl, translation, <p>multiplied</p>, docs/texts/xml/caes0130.xml
+Κύριε, Κύριε, grc, transcription, <p><abbr>Κ</abbr><ex>ύρι<abbr>ε</ex></abbr></p>, docs/texts/xml/caes0131.xml
+ἸἸησοῦ, ἸἸησοῦ, grc, transcription, <p><expan><abbr>Ἰ</abbr><ex>Ἰησο<abbr>ῦ</ex></abbr></expan></p>, docs/texts/xml/caes0131.xml
+ΧΧριστὲ, ΧΧριστὲ, grc, transcription, <p><expan><abbr>Χ</abbr><ex>Χριστ<abbr>ὲ</ex></abbr></expan></p>, docs/texts/xml/caes0131.xml
+Βοήθει, Βοήθει, grc, transcription, <p><expan><abbr>Β</abbr><ex>οήθ<abbr>ει</ex></abbr></expan></p>, docs/texts/xml/caes0131.xml
+τῷ, ὁ, grc, transcription, <p><lb>τῷ</lb></p>, docs/texts/xml/caes0131.xml
+δόλῳ, δόλῳ, grc, transcription, <p>δόλῳ</p>, docs/texts/xml/caes0131.xml
+σου, σύ, grc, transcription, <p>σου</p>, docs/texts/xml/caes0131.xml
+Lord, Lord, grc-transl, translation, <p>Lord</p>, docs/texts/xml/caes0131.xml
+Jesus, Jesus, grc-transl, translation, <p>Jesus</p>, docs/texts/xml/caes0131.xml
+Christ, Christ, grc-transl, translation, <p>Christ</p>, docs/texts/xml/caes0131.xml
+help, help, grc-transl, translation, <p>help</p>, docs/texts/xml/caes0131.xml
+your, your, grc-transl, translation, <p>your</p>, docs/texts/xml/caes0131.xml
+servant, servant, grc-transl, translation, <p>servant</p>, docs/texts/xml/caes0131.xml
+κυριε, κυριε, grc, transcription, <p><g>κ</g><expan><abbr>υ<ex>ριε</expan></abbr></ex></p>, docs/texts/xml/caes0132.xml
+Ἰησοῦς, ἰησοῦς, grc, transcription, <p><expan><abbr>Ἰ</abbr><ex>ησοῦ<abbr>ς</ex></abbr></expan></p>, docs/texts/xml/caes0132.xml
+Χριστὸς, Χριστὸς, grc, transcription, <p><expan><abbr>Χ</abbr><ex>ριστὸ<abbr>ς</ex></abbr></expan></p>, docs/texts/xml/caes0132.xml
+βοήθησοντῷ, βοήθησοντῷ, grc, transcription, <p><lb>βοήθησον<lb/>τῷ</lb></p>, docs/texts/xml/caes0132.xml
+διακόνῷΧρυσῷ, διακόνῷΧρυσῷ, grc, transcription, <p>διακόνῷ<lb/>Χρυσῷ</p>, docs/texts/xml/caes0132.xml
+τῷ, ὁ, grc, transcription, <p>τῷ</p>, docs/texts/xml/caes0132.xml
+φιλοκ, φιλοκ, grc, transcription, <p>φιλο<orig><lb/>κ</orig></p>, docs/texts/xml/caes0132.xml
+α, α, grc, transcription, <p><orig><unclear>α</unclear></orig></p>, docs/texts/xml/caes0132.xml
+ηνκύριε, ηνκύριε, grc, transcription, <p><gap reason="illegible" quantity="1" unit="charcter"><orig>ην</orig><expan><abbr><gap/>κ<ex>ύρι<abbr>ε</expan></abbr></ex></abbr></gap></p>, docs/texts/xml/caes0132.xml
+Lord, Lord, grc-transl, translation, <p>Lord</p>, docs/texts/xml/caes0132.xml
+Jesus, Jesus, grc-transl, translation, <p><rs type="divine">Jesus</rs></p>, docs/texts/xml/caes0132.xml
+Christ, Christ, grc-transl, translation, <p><rs type="divine">Christ</rs></p>, docs/texts/xml/caes0132.xml
+help, help, grc-transl, translation, <p>help</p>, docs/texts/xml/caes0132.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0132.xml
+deacon, deacon, grc-transl, translation, <p><rs type="admTitle">deacon</rs></p>, docs/texts/xml/caes0132.xml
+Chrysos, Chrysos, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0132p01">Chrysos</persName></name></p>, docs/texts/xml/caes0132.xml
+the, the, grc-transl, translation, <p><name>the</name></p>, docs/texts/xml/caes0132.xml
+philo-, philo-, grc-transl, translation, <p>philo-</p>, docs/texts/xml/caes0132.xml
+Lord!, Lord!, grc-transl, translation, <p>Lord!</p>, docs/texts/xml/caes0132.xml
+φωνὴ, φωνὴ, grc, transcription, <p>φωνὴ</p>, docs/texts/xml/caes0133.xml
+Κυρίου, Κυρίου, grc, transcription, <p><expan><abbr>Κυ</abbr><ex>ρίου</ex></expan></p>, docs/texts/xml/caes0133.xml
+ἐπὶ, ἐπὶ, grc, transcription, <p><lb>ἐπὶ</lb></p>, docs/texts/xml/caes0133.xml
+τῶνὑδάτωνὁ, τῶνὑδάτωνὁ, grc, transcription, <p>τῶν<lb/>ὑδάτων<lb/>ὁ</p>, docs/texts/xml/caes0133.xml
+Θεὸς, Θεὸς, grc, transcription, <p><expan><abbr>Θ</abbr><ex>εὸ<abbr>ς</ex></abbr></expan></p>, docs/texts/xml/caes0133.xml
+τῆς, ὁ, grc, transcription, <p>τῆς</p>, docs/texts/xml/caes0133.xml
+δό­ξης, δό­ξης, grc, transcription, <p>δό­<lb/>ξης</p>, docs/texts/xml/caes0133.xml
+ἐβρόντη­σεν, ἐβρόντη­σεν, grc, transcription, <p>ἐβρόντη­<lb/>σεν</p>, docs/texts/xml/caes0133.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0133.xml
+voice, voice, grc-transl, translation, <p>voice</p>, docs/texts/xml/caes0133.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0133.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0133.xml
+Lord, Lord, grc-transl, translation, <p>Lord</p>, docs/texts/xml/caes0133.xml
+upon, upon, grc-transl, translation, <p>upon</p>, docs/texts/xml/caes0133.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0133.xml
+waters, waters, grc-transl, translation, <p>waters</p>, docs/texts/xml/caes0133.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0133.xml
+God, God, grc-transl, translation, <p>God</p>, docs/texts/xml/caes0133.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0133.xml
+glory, glory, grc-transl, translation, <p>glory</p>, docs/texts/xml/caes0133.xml
+thundered!, thundered!, grc-transl, translation, <p>thundered!</p>, docs/texts/xml/caes0133.xml
+προσφορὰὧν, προσφορὰὧν, grc, transcription, <p>π<lb/>ροσφορὰὧ<lb/>ν</p>, docs/texts/xml/caes0134.xml
+ὁ, ὁ, grc, transcription, <p>ὁ</p>, docs/texts/xml/caes0134.xml
+Κύριοςγινώσκειτὰ, Κύριοςγινώσκειτὰ, grc, transcription, <p>Κύριος<lb/>γινώσκει<lb/>τὰ</p>, docs/texts/xml/caes0134.xml
+ὀνόματα, ὀνόματα, grc, transcription, <p>ὀνόματα</p>, docs/texts/xml/caes0134.xml
+An, An, grc-transl, translation, <p>An</p>, docs/texts/xml/caes0134.xml
+offering, offering, grc-transl, translation, <p>offering</p>, docs/texts/xml/caes0134.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0134.xml
+those, those, grc-transl, translation, <p>those</p>, docs/texts/xml/caes0134.xml
+whose, whose, grc-transl, translation, <p>whose</p>, docs/texts/xml/caes0134.xml
+names, names, grc-transl, translation, <p>names</p>, docs/texts/xml/caes0134.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0134.xml
+Lord, Lord, grc-transl, translation, <p>Lord</p>, docs/texts/xml/caes0134.xml
+knows, knows, grc-transl, translation, <p>knows</p>, docs/texts/xml/caes0134.xml
+σῷζε, σώζω, grc, transcription, <p>σῷζε</p>, docs/texts/xml/caes0135.xml
+αἰώνιος, αἰώνιος, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character"><lb>αἰώνιος</lb></gap></p>, docs/texts/xml/caes0135.xml
+Θεὸς, Θεὸς, grc, transcription, <p>Θεὸς</p>, docs/texts/xml/caes0136.xml
+βοήθει, βοήθει, grc, transcription, <p><expan><abbr>βο</abbr><ex>ήθει</ex></expan></p>, docs/texts/xml/caes0136.xml
+Βερνίκι, Βερνίκι, grc, transcription, <p><lb>Βερνίκι</lb></p>, docs/texts/xml/caes0136.xml
+God, God, grc-transl, translation, <p>God</p>, docs/texts/xml/caes0136.xml
+help, help, grc-transl, translation, <p>help</p>, docs/texts/xml/caes0136.xml
+Bernike, Bernike, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0136p01">Bernike</persName></name></p>, docs/texts/xml/caes0136.xml
+εἷς, εἷς, grc, transcription, <p>εἷς</p>, docs/texts/xml/caes0137.xml
+ΘεὸςἸούδα, ΘεὸςἸούδα, grc, transcription, <p>Θεὸς<lb/>Ἰούδα</p>, docs/texts/xml/caes0137.xml
+βόθι, βόθι, grc, transcription, <p>βόθι</p>, docs/texts/xml/caes0137.xml
+πρεσβυτέρῳ, πρεσβυτέρῳ, grc, transcription, <p><expan><abbr>πρεσ</abbr><ex>βυτέρῳ</ex></expan></p>, docs/texts/xml/caes0137.xml
+ἔτους, ἔτος, grc, transcription, <p><expan><abbr>ἔτ</abbr><ex>ους</ex></expan></p>, docs/texts/xml/caes0137.xml
+αού, αού, grc, transcription, <p>αού</p>, docs/texts/xml/caes0137.xml
+God, God, grc-transl, translation, <p>God</p>, docs/texts/xml/caes0137.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0137.xml
+one!, one!, grc-transl, translation, <p>one!</p>, docs/texts/xml/caes0137.xml
+May, May, grc-transl, translation, <p>May</p>, docs/texts/xml/caes0137.xml
+he, he, grc-transl, translation, <p>he</p>, docs/texts/xml/caes0137.xml
+help, help, grc-transl, translation, <p>help</p>, docs/texts/xml/caes0137.xml
+Iouda, Iouda, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0137p01">Iouda</persName></name></p>, docs/texts/xml/caes0137.xml
+the, the, grc-transl, translation, <p><name>the</name></p>, docs/texts/xml/caes0137.xml
+elder, elder, grc-transl, translation, <p>elder</p>, docs/texts/xml/caes0137.xml
+In, In, grc-transl, translation, <p>In</p>, docs/texts/xml/caes0137.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0137.xml
+year, year, grc-transl, translation, <p>year</p>, docs/texts/xml/caes0137.xml
+471, 471, grc-transl, translation, <p>471</p>, docs/texts/xml/caes0137.xml
+εἷς, εἷς, grc, transcription, <p>εἷς</p>, docs/texts/xml/caes0138.xml
+Θεὸςβόηθι, Θεὸςβόηθι, grc, transcription, <p>Θεὸς<lb/>βόηθι</p>, docs/texts/xml/caes0138.xml
+Μα­ρίνῳ, Μα­ρίνῳ, grc, transcription, <p>Μα­<lb/>ρίνῳ</p>, docs/texts/xml/caes0138.xml
+God, God, grc-transl, translation, <p>God</p>, docs/texts/xml/caes0138.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0138.xml
+one!, one!, grc-transl, translation, <p>one!</p>, docs/texts/xml/caes0138.xml
+May, May, grc-transl, translation, <p>May</p>, docs/texts/xml/caes0138.xml
+he, he, grc-transl, translation, <p>he</p>, docs/texts/xml/caes0138.xml
+help, help, grc-transl, translation, <p>help</p>, docs/texts/xml/caes0138.xml
+Marinos, Marinos, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0138p01">Marinos</persName></name></p>, docs/texts/xml/caes0138.xml
+!, !, grc-transl, translation, <p><name>!</name></p>, docs/texts/xml/caes0138.xml
+εἷς, εἷς, grc, transcription, <p><supplied>ε</supplied>ἷς</p>, docs/texts/xml/caes0139.xml
+Θεὸς, Θεὸς, grc, transcription, <p>Θεὸς</p>, docs/texts/xml/caes0139.xml
+βοήθει, βοήθει, grc, transcription, <p>βο<supplied>ήθει</supplied></p>, docs/texts/xml/caes0139.xml
+God, God, grc-transl, translation, <p>God</p>, docs/texts/xml/caes0139.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0139.xml
+One!, One!, grc-transl, translation, <p>One!</p>, docs/texts/xml/caes0139.xml
+May, May, grc-transl, translation, <p>May</p>, docs/texts/xml/caes0139.xml
+he, he, grc-transl, translation, <p>he</p>, docs/texts/xml/caes0139.xml
+help!, help!, grc-transl, translation, <p>help!</p>, docs/texts/xml/caes0139.xml
+εἷς, εἷς, grc, transcription, <p>εἷς</p>, docs/texts/xml/caes0140.xml
+Θεὸς, Θεὸς, grc, transcription, <p>Θεὸς</p>, docs/texts/xml/caes0140.xml
+God, God, grc-transl, translation, <p>God</p>, docs/texts/xml/caes0140.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0140.xml
+One!, One!, grc-transl, translation, <p>One!</p>, docs/texts/xml/caes0140.xml
+των, των, grc, transcription, <p><gap reason="illegible" quantity="2" unit="character">των</gap></p>, docs/texts/xml/caes0141.xml
+ἠρίνη, ἠρίνη, grc, transcription, <p>ἠρί<hi>νη</hi></p>, docs/texts/xml/caes0141.xml
+ἐπὶ, ἐπὶ, grc, transcription, <p>ἐπὶ</p>, docs/texts/xml/caes0141.xml
+το, το, grc, transcription, <p>το</p>, docs/texts/xml/caes0141.xml
+ις, ις, grc, transcription, <p><gap reason="illegible" quantity="2" unit="character">ις</gap></p>, docs/texts/xml/caes0142.xml
+μοῦ, ἐγώ, grc, transcription, <p>μοῦ</p>, docs/texts/xml/caes0142.xml
+ὅτι, ὅστις, grc, transcription, <p>ὅτι</p>, docs/texts/xml/caes0142.xml
+ἔ, ἒ, grc, transcription, <p>ἔ</p>, docs/texts/xml/caes0142.xml
+σωσέν, σωσέν, grc, transcription, <p><lb><supplied reason="undefined">σωσέν</supplied></lb></p>, docs/texts/xml/caes0142.xml
+με, ἐγώ, grc, transcription, <p>με</p>, docs/texts/xml/caes0142.xml
+ἡ, ὁ, grc, transcription, <p>ἡ</p>, docs/texts/xml/caes0142.xml
+δεξιά, δεξιά, grc, transcription, <p>δεξιά</p>, docs/texts/xml/caes0142.xml
+σου, σύ, grc, transcription, <p>σου</p>, docs/texts/xml/caes0142.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0142.xml
+mine, mine, grc-transl, translation, <p>mine</p>, docs/texts/xml/caes0142.xml
+because, because, grc-transl, translation, <p>because</p>, docs/texts/xml/caes0142.xml
+your, your, grc-transl, translation, <p>your</p>, docs/texts/xml/caes0142.xml
+right, right, grc-transl, translation, <p>right</p>, docs/texts/xml/caes0142.xml
+hand, hand, grc-transl, translation, <p>hand</p>, docs/texts/xml/caes0142.xml
+preserved, preserved, grc-transl, translation, <p>preserved</p>, docs/texts/xml/caes0142.xml
+me, me, grc-transl, translation, <p>me</p>, docs/texts/xml/caes0142.xml
+ἐξουσιάζιν, ἐξουσιάζιν, grc, transcription, <p>ἐξουσιάζιν</p>, docs/texts/xml/caes0143.xml
+π, π, grc, transcription, <p><unclear>π</unclear></p>, docs/texts/xml/caes0143.xml
+ᾶσι, ᾶσι, grc, transcription, <p><supplied reason="undefined">ᾶσι</supplied></p>, docs/texts/xml/caes0143.xml
+τοῖς, ὁ, grc, transcription, <p><supplied reason="undefined">τοῖς</supplied></p>, docs/texts/xml/caes0143.xml
+ἀπογενησ, ἀπογενησ, grc, transcription, <p><lb>ἀπογενη<unclear>σ</unclear></lb></p>, docs/texts/xml/caes0143.xml
+ομένοις, ομένοις, grc, transcription, <p><supplied reason="undefined">ομένοις</supplied></p>, docs/texts/xml/caes0143.xml
+ἐνγὺς, ἐνγὺς, grc, transcription, <p><lb>ἐνγὺ<supplied>ς</supplied></lb></p>, docs/texts/xml/caes0143.xml
+τεθῆναι, τίθημι, grc, transcription, <p><supplied reason="undefined">τεθῆναι</supplied></p>, docs/texts/xml/caes0143.xml
+It, It, grc-transl, translation, <p>It</p>, docs/texts/xml/caes0143.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0143.xml
+permitted, permitted, grc-transl, translation, <p>permitted</p>, docs/texts/xml/caes0143.xml
+for, for, grc-transl, translation, <p>for</p>, docs/texts/xml/caes0143.xml
+all, all, grc-transl, translation, <p>all</p>, docs/texts/xml/caes0143.xml
+my, my, grc-transl, translation, <p>my</p>, docs/texts/xml/caes0143.xml
+descendents, descendents, grc-transl, translation, <p>descendents</p>, docs/texts/xml/caes0143.xml
+to, to, grc-transl, translation, <p>to</p>, docs/texts/xml/caes0143.xml
+be, be, grc-transl, translation, <p>be</p>, docs/texts/xml/caes0143.xml
+buried, buried, grc-transl, translation, <p>buried</p>, docs/texts/xml/caes0143.xml
+nearby, nearby, grc-transl, translation, <p>nearby</p>, docs/texts/xml/caes0143.xml
+κη, πη, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character"><unclear>κ</unclear>η</gap></p>, docs/texts/xml/caes0144.xml
+πεδαρικὴ, πεδαρικὴ, grc, transcription, <p>πεδαρικὴ</p>, docs/texts/xml/caes0144.xml
+ερουγα, ερουγα, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character">ερ<hi>ουγα</hi></gap></p>, docs/texts/xml/caes0144.xml
+μεγά­, μεγά­, grc, transcription, <p>μεγά­</p>, docs/texts/xml/caes0144.xml
+λη, λη, grc, transcription, <p><supplied reason="undefined">λη</supplied></p>, docs/texts/xml/caes0144.xml
+ἐ, ἐ, grc, transcription, <p><supplied reason="undefined">ἐ</supplied></p>, docs/texts/xml/caes0144.xml
+παρχικοῦ, παρχικοῦ, grc, transcription, <p><unclear>π</unclear>αρχικοῦ</p>, docs/texts/xml/caes0144.xml
+pertaining, pertaining, grc-transl, translation, <p>pertaining</p>, docs/texts/xml/caes0144.xml
+to, to, grc-transl, translation, <p>to</p>, docs/texts/xml/caes0144.xml
+slaves, slaves, grc-transl, translation, <p>slaves</p>, docs/texts/xml/caes0144.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0144.xml
+great, great, grc-transl, translation, <p>great</p>, docs/texts/xml/caes0144.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0144.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0144.xml
+prefect, prefect, grc-transl, translation, <p><rs type="admTitle">prefect</rs></p>, docs/texts/xml/caes0144.xml
+s, s, grc-transl, translation, <p>s</p>, docs/texts/xml/caes0144.xml
+Tiberio, Tiberio, la, transcription, <p><expan><abbr>Ti</abbr><ex>berio</ex></expan></p>, docs/texts/xml/caes0145.xml
+Claudio, Claudio, la, transcription, <p><expan><abbr>Cl</abbr><ex>audio</ex></expan></p>, docs/texts/xml/caes0145.xml
+Italico, Italico, la, transcription, <p>Italico</p>, docs/texts/xml/caes0145.xml
+primus, primus, la, transcription, <p><expan><abbr>p</abbr><ex>rimus</ex></expan></p>, docs/texts/xml/caes0145.xml
+pilus, pilus, la, transcription, <p><expan><abbr>p</abbr><ex>ilus</ex></expan></p>, docs/texts/xml/caes0145.xml
+To, To, la-transl, translation, <p>To</p>, docs/texts/xml/caes0145.xml
+Tiberius, Tiberius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0145p01" nymRef="names.xml#caes0145n01">Tiberius</persName></name></p>, docs/texts/xml/caes0145.xml
+Claudius, Claudius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0145p02" nymRef="names.xml#caes0145n02">Claudius</persName></name></p>, docs/texts/xml/caes0145.xml
+Italicus, Italicus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0145p03" nymRef="names.xml#caes0145n03">Italicus</persName></name></p>, docs/texts/xml/caes0145.xml
+primuspilus, primuspilus, la-transl, translation, <p><name>primuspilus</name></p>, docs/texts/xml/caes0145.xml
+Dis, dives, la, transcription, <p><expan><abbr>D</abbr><ex>is</ex></expan></p>, docs/texts/xml/caes0146.xml
+Manibus, manus, la, transcription, <p><expan><abbr>M</abbr><ex>anibus</ex></expan></p>, docs/texts/xml/caes0146.xml
+Fl, Fl, la, transcription, <p><lb><expan><abbr><unclear>F</unclear>l</abbr></expan></lb></p>, docs/texts/xml/caes0146.xml
+avii, avii, la, transcription, <p><expan><ex>avii</ex></expan></p>, docs/texts/xml/caes0146.xml
+Potentis, possum, la, transcription, <p><expan>Potentis</expan></p>, docs/texts/xml/caes0146.xml
+praefecti, praeficio, la, transcription, <p><expan><abbr>praef</abbr><ex>ecti</ex></expan></p>, docs/texts/xml/caes0146.xml
+legionis, legio, la, transcription, <p><expan><abbr>leg</abbr><ex>ionis</ex></expan></p>, docs/texts/xml/caes0146.xml
+VI, vis, la, transcription, <p>VI</p>, docs/texts/xml/caes0146.xml
+Ferratae, ferratus, la, transcription, <p><expan><abbr>Ferr</abbr><ex>atae</ex></expan></p>, docs/texts/xml/caes0146.xml
+fidelis, fidelis, la, transcription, <p><lb><expan><abbr>f</abbr><ex>idelis</ex></expan></lb></p>, docs/texts/xml/caes0146.xml
+constantis, consto, la, transcription, <p><expan><abbr>c</abbr><ex>onstantis</ex></expan></p>, docs/texts/xml/caes0146.xml
+Claudius, claudus, la, transcription, <p><expan><abbr>Cl</abbr><ex>audius</ex></expan></p>, docs/texts/xml/caes0146.xml
+Protianus, Protianus, la, transcription, <p>Protianus</p>, docs/texts/xml/caes0146.xml
+centurio, centurio, la, transcription, <p><expan><am><ex>centurio</ex></am></expan></p>, docs/texts/xml/caes0146.xml
+legionis, legio, la, transcription, <p><expan><expan><abbr>leg</abbr><ex>ionis</ex></expan></expan></p>, docs/texts/xml/caes0146.xml
+X, X, la, transcription, <p>X</p>, docs/texts/xml/caes0146.xml
+Fretensis, Fretensis, la, transcription, <p><expan><abbr>Fret</abbr><ex>ensis</ex></expan></p>, docs/texts/xml/caes0146.xml
+procurator, procurator, la, transcription, <p><lb><expan><abbr>proc</abbr><ex>urator</ex></expan></lb></p>, docs/texts/xml/caes0146.xml
+eius, is, la, transcription, <p>eius</p>, docs/texts/xml/caes0146.xml
+et, et, la, transcription, <p>et</p>, docs/texts/xml/caes0146.xml
+Hilarus, hilarus, la, transcription, <p>Hilarus</p>, docs/texts/xml/caes0146.xml
+et, et, la, transcription, <p>et</p>, docs/texts/xml/caes0146.xml
+Damaset, Damaset, la, transcription, <p>Damas<lb/>et</p>, docs/texts/xml/caes0146.xml
+Symphorus, Symphorus, la, transcription, <p>Symphorus</p>, docs/texts/xml/caes0146.xml
+liberti, libertus, la, transcription, <p><expan><abbr>lib</abbr><ex>erti</ex></expan></p>, docs/texts/xml/caes0146.xml
+et, et, la, transcription, <p>et</p>, docs/texts/xml/caes0146.xml
+secundi, secundus, la, transcription, <p>secundi</p>, docs/texts/xml/caes0146.xml
+heredes, heres, la, transcription, <p><expan><abbr>hered</abbr><ex>es</ex></expan></p>, docs/texts/xml/caes0146.xml
+patrono, patronus, la, transcription, <p><lb>patrono</lb></p>, docs/texts/xml/caes0146.xml
+piissimo, pius, la, transcription, <p>piissimo</p>, docs/texts/xml/caes0146.xml
+fecerunt, facio, la, transcription, <p>fecerunt</p>, docs/texts/xml/caes0146.xml
+To, To, la-transl, translation, <p>To</p>, docs/texts/xml/caes0146.xml
+the, the, la-transl, translation, <p>the</p>, docs/texts/xml/caes0146.xml
+deified, deified, la-transl, translation, <p>deified</p>, docs/texts/xml/caes0146.xml
+manes, manes, la-transl, translation, <p>manes</p>, docs/texts/xml/caes0146.xml
+of, of, la-transl, translation, <p>of</p>, docs/texts/xml/caes0146.xml
+Flavius, Flavius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0146p01">Flavius</persName></name></p>, docs/texts/xml/caes0146.xml
+Potens, Potens, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0146p02">Potens</persName></name></p>, docs/texts/xml/caes0146.xml
+prefect, prefect, la-transl, translation, <p><name><rs type="admTitle">prefect</rs></name></p>, docs/texts/xml/caes0146.xml
+of, of, la-transl, translation, <p>of</p>, docs/texts/xml/caes0146.xml
+Legio, Legio, la-transl, translation, <p>Legio</p>, docs/texts/xml/caes0146.xml
+VI, VI, la-transl, translation, <p>VI</p>, docs/texts/xml/caes0146.xml
+Ferrata, Ferrata, la-transl, translation, <p>Ferrata</p>, docs/texts/xml/caes0146.xml
+Fidelis, Fidelis, la-transl, translation, <p>Fidelis</p>, docs/texts/xml/caes0146.xml
+Constans, Constans, la-transl, translation, <p>Constans</p>, docs/texts/xml/caes0146.xml
+Claudius, Claudius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0146p03">Claudius</persName></name></p>, docs/texts/xml/caes0146.xml
+Protianus, Protianus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0146p04">Protianus</persName></name></p>, docs/texts/xml/caes0146.xml
+a, a, la-transl, translation, <p><name>a</name></p>, docs/texts/xml/caes0146.xml
+centurion, centurion, la-transl, translation, <p><rs type="admTitle">centurion</rs></p>, docs/texts/xml/caes0146.xml
+of, of, la-transl, translation, <p>of</p>, docs/texts/xml/caes0146.xml
+Legio, Legio, la-transl, translation, <p>Legio</p>, docs/texts/xml/caes0146.xml
+X, X, la-transl, translation, <p>X</p>, docs/texts/xml/caes0146.xml
+Fretensis, Fretensis, la-transl, translation, <p>Fretensis</p>, docs/texts/xml/caes0146.xml
+and, and, la-transl, translation, <p>and</p>, docs/texts/xml/caes0146.xml
+his, his, la-transl, translation, <p>his</p>, docs/texts/xml/caes0146.xml
+procurator, procurator, la-transl, translation, <p><rs type="admTitle">procurator</rs></p>, docs/texts/xml/caes0146.xml
+and, and, la-transl, translation, <p>and</p>, docs/texts/xml/caes0146.xml
+Hilarus, Hilarus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0146p05">Hilarus</persName></name></p>, docs/texts/xml/caes0146.xml
+and, and, la-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0146.xml
+Damas, Damas, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0146p06">Damas</persName></name></p>, docs/texts/xml/caes0146.xml
+and, and, la-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0146.xml
+Symphorus, Symphorus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0146p07">Symphorus</persName></name></p>, docs/texts/xml/caes0146.xml
+his, his, la-transl, translation, <p><name>his</name></p>, docs/texts/xml/caes0146.xml
+freedmen, freedmen, la-transl, translation, <p>freedmen</p>, docs/texts/xml/caes0146.xml
+and, and, la-transl, translation, <p>and</p>, docs/texts/xml/caes0146.xml
+heirs, heirs, la-transl, translation, <p>heirs</p>, docs/texts/xml/caes0146.xml
+of, of, la-transl, translation, <p>of</p>, docs/texts/xml/caes0146.xml
+the, the, la-transl, translation, <p>the</p>, docs/texts/xml/caes0146.xml
+second, second, la-transl, translation, <p>second</p>, docs/texts/xml/caes0146.xml
+rank, rank, la-transl, translation, <p>rank</p>, docs/texts/xml/caes0146.xml
+made, made, la-transl, translation, <p>made</p>, docs/texts/xml/caes0146.xml
+this, this, la-transl, translation, <p>this</p>, docs/texts/xml/caes0146.xml
+monument, monument, la-transl, translation, <p>monument</p>, docs/texts/xml/caes0146.xml
+for, for, la-transl, translation, <p>for</p>, docs/texts/xml/caes0146.xml
+their, their, la-transl, translation, <p>their</p>, docs/texts/xml/caes0146.xml
+most, most, la-transl, translation, <p>most</p>, docs/texts/xml/caes0146.xml
+dutiful, dutiful, la-transl, translation, <p>dutiful</p>, docs/texts/xml/caes0146.xml
+patron, patron, la-transl, translation, <p>patron</p>, docs/texts/xml/caes0146.xml
+τῶν, ὁ, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character">τῶν</gap></p>, docs/texts/xml/caes0147.xml
+τέκνων, τέκνων, grc, transcription, <p>τέκνων</p>, docs/texts/xml/caes0147.xml
+Valen­tinae, Valen­tinae, la, transcription, <p><gap reason="illegible" quantity="3" unit="character">Vale<supplied>n­<lb/>tinae</supplied></gap></p>, docs/texts/xml/caes0148.xml
+coniugi, conjunx, la, transcription, <p><expan><abbr>con</abbr><ex>iugi</ex></expan></p>, docs/texts/xml/caes0148.xml
+optimae, bonus, la, transcription, <p><expan><abbr>o</abbr><ex>ptimae</ex></expan></p>, docs/texts/xml/caes0148.xml
+Iulius, Iulius, la, transcription, <p><expan><abbr>Iul</abbr><ex>ius</ex></expan></p>, docs/texts/xml/caes0148.xml
+Tiberia­nus, Tiberia­nus, la, transcription, <p>Tiberia­<lb/>nus</p>, docs/texts/xml/caes0148.xml
+legionis, legio, la, transcription, <p><choice><abbr><expan><expan><abbr>leg</abbr><ex>ionis</ex></expan></expan></abbr></choice></p>, docs/texts/xml/caes0148.xml
+X, X, la, transcription, <p>X</p>, docs/texts/xml/caes0148.xml
+Fretensis, Fretensis, la, transcription, <p><expan><abbr>Fr</abbr><ex>etensis</ex></expan></p>, docs/texts/xml/caes0148.xml
+maritus, maritus, la, transcription, <p><lb><expan><abbr>marit</abbr><ex>us</ex></expan></lb></p>, docs/texts/xml/caes0148.xml
+et, et, la, transcription, <p><hi rend="ligature">et</hi></p>, docs/texts/xml/caes0148.xml
+Iulius, Iulius, la, transcription, <p><expan><abbr>Iul</abbr><ex>ius</ex></expan></p>, docs/texts/xml/caes0148.xml
+Iul­ianus, Iul­ianus, la, transcription, <p>Iul­<lb/>ianus</p>, docs/texts/xml/caes0148.xml
+filius, filius, la, transcription, <p><abbr>fil</abbr><ex>ius</ex></p>, docs/texts/xml/caes0148.xml
+To, To, la-transl, translation, <p>To</p>, docs/texts/xml/caes0148.xml
+Valentina, Valentina, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0148p01">Valentina</persName></name></p>, docs/texts/xml/caes0148.xml
+the, the, la-transl, translation, <p><name>the</name></p>, docs/texts/xml/caes0148.xml
+best, best, la-transl, translation, <p>best</p>, docs/texts/xml/caes0148.xml
+wife, wife, la-transl, translation, <p>wife</p>, docs/texts/xml/caes0148.xml
+Julius, Julius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0148p02">Julius</persName></name></p>, docs/texts/xml/caes0148.xml
+Tiberianus, Tiberianus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0148p03">Tiberianus</persName></name></p>, docs/texts/xml/caes0148.xml
+centurion, centurion, la-transl, translation, <p><name><rs type="admTitle">centurion</rs></name></p>, docs/texts/xml/caes0148.xml
+of, of, la-transl, translation, <p>of</p>, docs/texts/xml/caes0148.xml
+Legio, Legio, la-transl, translation, <p>Legio</p>, docs/texts/xml/caes0148.xml
+X, X, la-transl, translation, <p>X</p>, docs/texts/xml/caes0148.xml
+Fretensis, Fretensis, la-transl, translation, <p>Fretensis</p>, docs/texts/xml/caes0148.xml
+her, her, la-transl, translation, <p>her</p>, docs/texts/xml/caes0148.xml
+husband, husband, la-transl, translation, <p><rs type="family">husband</rs></p>, docs/texts/xml/caes0148.xml
+and, and, la-transl, translation, <p>and</p>, docs/texts/xml/caes0148.xml
+Julius, Julius, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0148p04">Julius</persName></name></p>, docs/texts/xml/caes0148.xml
+Julianus, Julianus, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0148p05">Julianus</persName></name></p>, docs/texts/xml/caes0148.xml
+her, her, la-transl, translation, <p><name>her</name></p>, docs/texts/xml/caes0148.xml
+son, son, la-transl, translation, <p>son</p>, docs/texts/xml/caes0148.xml
+θάρσι, θάρσι, grc, transcription, <p>θάρσι</p>, docs/texts/xml/caes0149.xml
+Μηνόφιλα, Μηνόφιλα, grc, transcription, <p>Μηνόφιλα</p>, docs/texts/xml/caes0149.xml
+ἀσύνκριτεοὐδεὶς, ἀσύνκριτεοὐδεὶς, grc, transcription, <p>ἀσύνκριτε<lb/>οὐδεὶς</p>, docs/texts/xml/caes0149.xml
+ἀθάνατος, ἀθάνατος, grc, transcription, <p>ἀθάνατος</p>, docs/texts/xml/caes0149.xml
+ταῦτα·Ἀλῦπις, ταῦτα·Ἀλῦπις, grc, transcription, <p>ταῦτα·<lb/>Ἀλῦπις</p>, docs/texts/xml/caes0149.xml
+τῇ, ὁ, grc, transcription, <p>τῇ</p>, docs/texts/xml/caes0149.xml
+ἀγαπητῇ, ἀγαπητός, grc, transcription, <p>ἀγαπη<hi>τῇ</hi></p>, docs/texts/xml/caes0149.xml
+συμβίωι, συμβίωι, grc, transcription, <p>συμβίωι</p>, docs/texts/xml/caes0149.xml
+μνήμης, μνήμης, grc, transcription, <p><expan><abbr>μ</abbr><ex>νήμης</ex></expan></p>, docs/texts/xml/caes0149.xml
+χάριν, χάριν, grc, transcription, <p><abbr>χ</abbr><ex>άριν</ex></p>, docs/texts/xml/caes0149.xml
+Take, Take, grc-transl, translation, <p>Take</p>, docs/texts/xml/caes0149.xml
+cheer, cheer, grc-transl, translation, <p>cheer</p>, docs/texts/xml/caes0149.xml
+incomparable, incomparable, grc-transl, translation, <p>incomparable</p>, docs/texts/xml/caes0149.xml
+Menophila, Menophila, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0149p01">Menophila</persName></name></p>, docs/texts/xml/caes0149.xml
+No, No, grc-transl, translation, <p>No</p>, docs/texts/xml/caes0149.xml
+one, one, grc-transl, translation, <p>one</p>, docs/texts/xml/caes0149.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0149.xml
+deathless, deathless, grc-transl, translation, <p>deathless</p>, docs/texts/xml/caes0149.xml
+such, such, grc-transl, translation, <p>such</p>, docs/texts/xml/caes0149.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0149.xml
+life, life, grc-transl, translation, <p>life</p>, docs/texts/xml/caes0149.xml
+Alypis, Alypis, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0149p02">Alypis</persName></name></p>, docs/texts/xml/caes0149.xml
+to, to, grc-transl, translation, <p><name>to</name></p>, docs/texts/xml/caes0149.xml
+his, his, grc-transl, translation, <p>his</p>, docs/texts/xml/caes0149.xml
+beloved, beloved, grc-transl, translation, <p>beloved</p>, docs/texts/xml/caes0149.xml
+wife, wife, grc-transl, translation, <p><rs type="family">wife</rs></p>, docs/texts/xml/caes0149.xml
+for, for, grc-transl, translation, <p>for</p>, docs/texts/xml/caes0149.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0149.xml
+sake, sake, grc-transl, translation, <p>sake</p>, docs/texts/xml/caes0149.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0149.xml
+her, her, grc-transl, translation, <p>her</p>, docs/texts/xml/caes0149.xml
+memory, memory, grc-transl, translation, <p>memory</p>, docs/texts/xml/caes0149.xml
+οὐδεὶς, οὐδεὶς, grc, transcription, <p>οὐδεὶς</p>, docs/texts/xml/caes0150.xml
+ἀ­θάνατος, ἀ­θάνατος, grc, transcription, <p>ἀ­<lb/>θάνατος</p>, docs/texts/xml/caes0150.xml
+No, No, grc-transl, translation, <p>No</p>, docs/texts/xml/caes0150.xml
+one, one, grc-transl, translation, <p>one</p>, docs/texts/xml/caes0150.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0150.xml
+deathless, deathless, grc-transl, translation, <p>deathless</p>, docs/texts/xml/caes0150.xml
+Μ, Μ, grc, transcription, <p><supplied reason="undefined">Μ</supplied></p>, docs/texts/xml/caes0151.xml
+ν, ν, grc, transcription, <p><unclear>ν</unclear></p>, docs/texts/xml/caes0151.xml
+η, η, grc, transcription, <p><unclear>η</unclear></p>, docs/texts/xml/caes0151.xml
+μῖον, μῖον, grc, transcription, <p><unclear>μ</unclear>ῖο<unclear>ν</unclear></p>, docs/texts/xml/caes0151.xml
+Ζωσίμου, Ζωσίμου, grc, transcription, <p>Ζωσίμου</p>, docs/texts/xml/caes0151.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0151.xml
+Γαιάνου, Γαιάνου, grc, transcription, <p>Γαιάνου</p>, docs/texts/xml/caes0151.xml
+ἀδελφῶν, ἀδελφός, grc, transcription, <p><abbr>ἀδελφ</abbr><ex>ῶν</ex></p>, docs/texts/xml/caes0151.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0151.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0151.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0151.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0151.xml
+brothers, brothers, grc-transl, translation, <p><rs type="family">brothers</rs></p>, docs/texts/xml/caes0151.xml
+Zosimos, Zosimos, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0151p01">Zosimos</persName></p>, docs/texts/xml/caes0151.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0151.xml
+Gaianos, Gaianos, grc-transl, translation, <p>Gaianos</p>, docs/texts/xml/caes0151.xml
+μημόριον, μημόριον, grc, transcription, <p>μημόριον</p>, docs/texts/xml/caes0152.xml
+Ἀλεξά, Ἀλεξά, grc, transcription, <p>Ἀλε<unclear>ξά</unclear></p>, docs/texts/xml/caes0152.xml
+νδρ­, νδρ­, grc, transcription, <p><supplied>νδρ</supplied>­</p>, docs/texts/xml/caes0152.xml
+ου, ου, grc, transcription, <p><unclear>ο</unclear>υ</p>, docs/texts/xml/caes0152.xml
+ἰατροῦ, ἰατρός, grc, transcription, <p>ἰατροῦ</p>, docs/texts/xml/caes0152.xml
+Ἐλείνου, Ἐλείνου, grc, transcription, <p>Ἐλείνου</p>, docs/texts/xml/caes0152.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0152.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0152.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0152.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0152.xml
+doctor, doctor, grc-transl, translation, <p><rs type="occupation">doctor</rs></p>, docs/texts/xml/caes0152.xml
+Alexandros, Alexandros, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0152p01">Alexandros</persName></p>, docs/texts/xml/caes0152.xml
+son, son, grc-transl, translation, <p>son</p>, docs/texts/xml/caes0152.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0152.xml
+Heleinos, Heleinos, grc-transl, translation, <p>Heleinos</p>, docs/texts/xml/caes0152.xml
+σορὸς, σορὸς, grc, transcription, <p>σορὸς</p>, docs/texts/xml/caes0153.xml
+Ἀρκαδί, Ἀρκαδί, grc, transcription, <p>Ἀρκαδ<unclear>ί</unclear></p>, docs/texts/xml/caes0153.xml
+ω, ω, grc, transcription, <p><unclear>ω</unclear></p>, docs/texts/xml/caes0153.xml
+καὶ, καὶ, grc, transcription, <p><lb>καὶ</lb></p>, docs/texts/xml/caes0153.xml
+τέκνοις, τέκνοις, grc, transcription, <p>τέκνοις</p>, docs/texts/xml/caes0153.xml
+Εὐτροπίας, Εὐτροπίας, grc, transcription, <p>Εὐτροπίας</p>, docs/texts/xml/caes0153.xml
+ὑπὸ, ὑπὸ, grc, transcription, <p><expan><abbr>ὑ</abbr><ex>πὸ</ex></expan></p>, docs/texts/xml/caes0153.xml
+Παναγίου, Παναγίου, grc, transcription, <p>Παναγίου</p>, docs/texts/xml/caes0153.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0153.xml
+sarcophagus, sarcophagus, grc-transl, translation, <p>sarcophagus</p>, docs/texts/xml/caes0153.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0153.xml
+Arkadios, Arkadios, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0153p01">Arkadios</persName></p>, docs/texts/xml/caes0153.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0153.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0153.xml
+children, children, grc-transl, translation, <p><rs type="family">children</rs></p>, docs/texts/xml/caes0153.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0153.xml
+Eutropia, Eutropia, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0153p02">Eutropia</persName></p>, docs/texts/xml/caes0153.xml
+by, by, grc-transl, translation, <p>by</p>, docs/texts/xml/caes0153.xml
+Panagios, Panagios, grc-transl, translation, <p>Panagios</p>, docs/texts/xml/caes0153.xml
+Θ, Θ, grc, transcription, <p>Θ</p>, docs/texts/xml/caes0154.xml
+Θήκη, Θήκη, grc, transcription, <p>Θήκη</p>, docs/texts/xml/caes0154.xml
+Προκοπίου, Προκοπίου, grc, transcription, <p>Προκοπίου</p>, docs/texts/xml/caes0154.xml
+διακόνου, διακόνου, grc, transcription, <p>διακόνου</p>, docs/texts/xml/caes0154.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0154.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0154.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0154.xml
+Prokopios, Prokopios, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0154p01">Prokopios</persName></p>, docs/texts/xml/caes0154.xml
+deacon, deacon, grc-transl, translation, <p>deacon</p>, docs/texts/xml/caes0154.xml
+Ν, Ν, grc, transcription, <p>Ν</p>, docs/texts/xml/caes0155.xml
+μνίμιν, μνίμιν, grc, transcription, <p>μνίμιν</p>, docs/texts/xml/caes0155.xml
+Ἀνιανοῦ, ἀνιανός, grc, transcription, <p>Ἀνιανοῦ</p>, docs/texts/xml/caes0155.xml
+οἶκ­, οἶκ­, grc, transcription, <p>οἶκ­</p>, docs/texts/xml/caes0155.xml
+ος, ος, grc, transcription, <p>ος</p>, docs/texts/xml/caes0155.xml
+αἰώνιος, αἰώνιος, grc, transcription, <p>αἰώνιος</p>, docs/texts/xml/caes0155.xml
+For, For, grc-transl, translation, <p>For</p>, docs/texts/xml/caes0155.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0155.xml
+memory, memory, grc-transl, translation, <p>memory</p>, docs/texts/xml/caes0155.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0155.xml
+Anianos, Anianos, grc-transl, translation, <p>Anianos</p>, docs/texts/xml/caes0155.xml
+This, This, grc-transl, translation, <p>This</p>, docs/texts/xml/caes0155.xml
+is, is, grc-transl, translation, <p>is</p>, docs/texts/xml/caes0155.xml
+his, his, grc-transl, translation, <p>his</p>, docs/texts/xml/caes0155.xml
+eternal, eternal, grc-transl, translation, <p>eternal</p>, docs/texts/xml/caes0155.xml
+home, home, grc-transl, translation, <p>home</p>, docs/texts/xml/caes0155.xml
+ΤΙΣ, τις, grc, transcription, <p>ΤΙΣ</p>, docs/texts/xml/caes0156.xml
+ΤΗΝ, ΤΗΝ, grc, transcription, <p>ΤΗΝ</p>, docs/texts/xml/caes0156.xml
+ΚΟΡΗΝ, ΚΟΡΗΝ, grc, transcription, <p>ΚΟΡΗΝ</p>, docs/texts/xml/caes0156.xml
+ΦΙΛΑΤΟ, ΦΙΛΑΤΟ, grc, transcription, <p>ΦΙΛΑΤΟ</p>, docs/texts/xml/caes0156.xml
+ΗΝ, ΗΝ, grc, transcription, <p>ΗΝ</p>, docs/texts/xml/caes0156.xml
+ΕΝΔ, ΕΝΔ, grc, transcription, <p>ΕΝΔ</p>, docs/texts/xml/caes0156.xml
+ΤΙΣ, τις, grc, transcription, <p><lb>ΤΙΣ</lb></p>, docs/texts/xml/caes0156.xml
+ΟΙΟ, ΟΙΟ, grc, transcription, <p><unclear>ΟΙΟ</unclear></p>, docs/texts/xml/caes0156.xml
+Ο, Ο, grc, transcription, <p><unclear>Ο</unclear></p>, docs/texts/xml/caes0156.xml
+Δ, Δ, grc, transcription, <p><unclear><unclear>Δ</unclear></unclear></p>, docs/texts/xml/caes0156.xml
+Ι, Ι, grc, transcription, <p><unclear>Ι</unclear></p>, docs/texts/xml/caes0156.xml
+Α, Α, grc, transcription, <p><unclear>Α</unclear></p>, docs/texts/xml/caes0156.xml
+ΑΟΥ, ΑΟΥ, grc, transcription, <p><unclear>Α</unclear>ΟΥ</p>, docs/texts/xml/caes0156.xml
+Λ, Λ, grc, transcription, <p><unclear><unclear>Λ</unclear></unclear></p>, docs/texts/xml/caes0156.xml
+ΣΛΦΙΕΙ, ΣΛΦΙΕΙ, grc, transcription, <p><unclear>Σ</unclear>ΛΦΙΕΙ</p>, docs/texts/xml/caes0156.xml
+τ, τ, grc, transcription, <p><lb><unclear>τ</unclear></lb></p>, docs/texts/xml/caes0156.xml
+ί, ί, grc, transcription, <p><unclear>ί</unclear></p>, docs/texts/xml/caes0156.xml
+ς, ς, grc, transcription, <p><unclear>ς</unclear></p>, docs/texts/xml/caes0156.xml
+ΤΙΣ, τις, grc, transcription, <p>ΤΙΣ</p>, docs/texts/xml/caes0156.xml
+ΤΑΣ, ΤΑΣ, grc, transcription, <p>ΤΑΣ</p>, docs/texts/xml/caes0156.xml
+ΑΔΕΛΦΑΣ, ΑΔΕΛΦΑΣ, grc, transcription, <p>ΑΔΕΛΦΑΣ</p>, docs/texts/xml/caes0156.xml
+ΜΟΥ, ἐγώ, grc, transcription, <p>ΜΟΥ</p>, docs/texts/xml/caes0156.xml
+ΟΡΦΑΝΑΣ, ΟΡΦΑΝΑΣ, grc, transcription, <p>ΟΡΦ<supplied>ΑΝΑΣ</supplied></p>, docs/texts/xml/caes0156.xml
+ΗΤΙΣ, ΗΤΙΣ, grc, transcription, <p><supplied reason="undefined"><lb>ΗΤΙΣ</lb></supplied></p>, docs/texts/xml/caes0156.xml
+ΔΕΝ, ΔΕΝ, grc, transcription, <p>ΔΕΝ</p>, docs/texts/xml/caes0156.xml
+ΓΥΝΕΚΩΝ, ΓΥΝΕΚΩΝ, grc, transcription, <p>ΓΥΝΕΚΩΝ</p>, docs/texts/xml/caes0156.xml
+ΠΕΡΙΚ, ΠΕΡΙΚ, grc, transcription, <p>ΠΕΡΙ<unclear>Κ</unclear></p>, docs/texts/xml/caes0156.xml
+Α, Α, grc, transcription, <p><unclear>Α</unclear></p>, docs/texts/xml/caes0156.xml
+Λ, Λ, grc, transcription, <p><unclear>Λ</unclear></p>, docs/texts/xml/caes0156.xml
+ΛΗΣ, ΛΗΣ, grc, transcription, <p><supplied reason="undefined">ΛΗΣ</supplied></p>, docs/texts/xml/caes0156.xml
+ΗΤΙΣ, ΗΤΙΣ, grc, transcription, <p><supplied reason="undefined"><gap reason="illegible" quantity="2" unit="characters"><lb>ΗΤΙΣ</lb></gap></supplied></p>, docs/texts/xml/caes0156.xml
+Κ, Κ, grc, transcription, <p><unclear>Κ</unclear></p>, docs/texts/xml/caes0156.xml
+Α, Α, grc, transcription, <p><unclear>Α</unclear></p>, docs/texts/xml/caes0156.xml
+ΙΛΑΟΔΑΝ, ΙΛΑΟΔΑΝ, grc, transcription, <p><unclear>Ι</unclear>ΛΑΟΔΑ<unclear>Ν</unclear></p>, docs/texts/xml/caes0156.xml
+Ι, Ι, grc, transcription, <p><unclear>Ι</unclear></p>, docs/texts/xml/caes0156.xml
+ΑΙΕΡΙΖΕΝ, ΑΙΕΡΙΖΕΝ, grc, transcription, <p><unclear>Α</unclear>ΙΕΡΙΖ<unclear>ΕΝ</unclear></p>, docs/texts/xml/caes0156.xml
+ΜΟΥΣ, ΜΟΥΣ, grc, transcription, <p><lb>ΜΟΥΣ</lb></p>, docs/texts/xml/caes0156.xml
+ΑΣ, ΑΣ, grc, transcription, <p><unclear>Α</unclear>Σ</p>, docs/texts/xml/caes0156.xml
+ΦΡΕΝΑΣ, ΦΡΕΝΑΣ, grc, transcription, <p>Φ<unclear>ΡΕΝΑΣ</unclear></p>, docs/texts/xml/caes0156.xml
+ΠΕΝΕΛΟΠ, ΠΕΝΕΛΟΠ, grc, transcription, <p>ΠΕΝΕΛΟ<unclear>Π</unclear></p>, docs/texts/xml/caes0156.xml
+ΕΙΑΣ, ΕΙΑΣ, grc, transcription, <p><supplied reason="undefined">ΕΙΑΣ</supplied></p>, docs/texts/xml/caes0156.xml
+ΟΙΝΕΟΙΑ, ΟΙΝΕΟΙΑ, grc, transcription, <p><supplied reason="undefined"><lb>ΟΙΝΕΟ<unclear>ΙΑ</unclear></lb></supplied></p>, docs/texts/xml/caes0156.xml
+ΕΡΙΖΑΝΑΛΛΕ, ΕΡΙΖΑΝΑΛΛΕ, grc, transcription, <p><unclear>ΕΡΙΖΑΝΑΛΛΕ</unclear></p>, docs/texts/xml/caes0156.xml
+ΕΙΣΡΑΜΟΝΑΡ, ΕΙΣΡΑΜΟΝΑΡ, grc, transcription, <p><lb><gap reason="illegible" atLeast="8" atMost="10" unit="character">ΕΙΣ<unclear>ΡΑΜΟΝΑ<unclear>Ρ</unclear></unclear></gap></lb></p>, docs/texts/xml/caes0156.xml
+Ο, Ο, grc, transcription, <p><unclear>Ο</unclear></p>, docs/texts/xml/caes0156.xml
+Λ, Λ, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character"><lb><unclear><unclear>Λ</unclear></unclear></lb></gap></p>, docs/texts/xml/caes0156.xml
+Ι, Ι, grc, transcription, <p><unclear>Ι</unclear></p>, docs/texts/xml/caes0156.xml
+ΑΙΔΟ, ΑΙΔΟ, grc, transcription, <p>ΑΙΔ<unclear>Ο</unclear></p>, docs/texts/xml/caes0156.xml
+Υ, Υ, grc, transcription, <p><unclear>Υ</unclear></p>, docs/texts/xml/caes0156.xml
+ΕΝ, ΕΝ, grc, transcription, <p>Ε<unclear>Ν</unclear></p>, docs/texts/xml/caes0156.xml
+ΠΥΛΑΙ, ΠΥΛΑΙ, grc, transcription, <p>ΠΥΛΑ<unclear>Ι</unclear></p>, docs/texts/xml/caes0156.xml
+Σ, Σ, grc, transcription, <p><unclear>Σ</unclear></p>, docs/texts/xml/caes0156.xml
+Ι, Ι, grc, transcription, <p><unclear>Ι</unclear></p>, docs/texts/xml/caes0156.xml
+Α, Α, grc, transcription, <p><unclear>Α</unclear></p>, docs/texts/xml/caes0156.xml
+Θήκη, Θήκη, grc, transcription, <p>Θήκη</p>, docs/texts/xml/caes0157.xml
+Νόννου, Νόννου, grc, transcription, <p>Νόννου</p>, docs/texts/xml/caes0157.xml
+κὲ, κὲ, grc, transcription, <p>κὲ</p>, docs/texts/xml/caes0157.xml
+Ἐντολίου, Ἐντολίου, grc, transcription, <p>Ἐντολίου</p>, docs/texts/xml/caes0157.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0157.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0157.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0157.xml
+Nonnos, Nonnos, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0157p01">Nonnos</persName></p>, docs/texts/xml/caes0157.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0157.xml
+Entolios, Entolios, grc-transl, translation, <p>Entolios</p>, docs/texts/xml/caes0157.xml
+εὐψυχεῖτε, εὐψυχεῖτε, grc, transcription, <p>εὐψυχ<supplied>εῖτε</supplied></p>, docs/texts/xml/caes0158.xml
+φίλα, φίλα, grc, transcription, <p><supplied reason="undefined">φίλα</supplied></p>, docs/texts/xml/caes0158.xml
+μου, ἐγώ, grc, transcription, <p>μου</p>, docs/texts/xml/caes0158.xml
+τε’­, τε’­, grc, transcription, <p>τε’­</p>, docs/texts/xml/caes0158.xml
+κνα, κνα, grc, transcription, <p>κνα</p>, docs/texts/xml/caes0158.xml
+εὐψύχει, εὐψύχει, grc, transcription, <p>εὐψ<supplied>ύχει</supplied></p>, docs/texts/xml/caes0158.xml
+Πρεῖσκε, Πρεῖσκε, grc, transcription, <p>Πρεῖσκε</p>, docs/texts/xml/caes0158.xml
+Νεμωνιανέ, Νεμωνιανέ, grc, transcription, <p>Νεμωνιανέ</p>, docs/texts/xml/caes0158.xml
+ἐτῶν, ἐτάζω, grc, transcription, <p>ἐτῶν</p>, docs/texts/xml/caes0158.xml
+ιε’, ιε’, grc, transcription, <p>ιε’</p>, docs/texts/xml/caes0158.xml
+δοῖ, δοῖ, grc, transcription, <p>δοῖ</p>, docs/texts/xml/caes0158.xml
+σοι, σύ, grc, transcription, <p>σοι</p>, docs/texts/xml/caes0158.xml
+ὁ, ὁ, grc, transcription, <p>ὁ</p>, docs/texts/xml/caes0158.xml
+Ὄσειρις, Ὄσειρις, grc, transcription, <p>Ὄσειρις</p>, docs/texts/xml/caes0158.xml
+τὸ, τὸ, grc, transcription, <p>τὸ</p>, docs/texts/xml/caes0158.xml
+ψυχρὸν, ψυχρὸν, grc, transcription, <p>ψυχρὸν</p>, docs/texts/xml/caes0158.xml
+ὕ­, ὕ­, grc, transcription, <p>ὕ­</p>, docs/texts/xml/caes0158.xml
+δωρ, δωρ, grc, transcription, <p>δωρ</p>, docs/texts/xml/caes0158.xml
+σὺν, σὺν, grc, transcription, <p>σὺν</p>, docs/texts/xml/caes0158.xml
+τῇ, ὁ, grc, transcription, <p>τῇ</p>, docs/texts/xml/caes0158.xml
+ἀδελφῇ, ἀδελφή, grc, transcription, <p>ἀδελφῇ</p>, docs/texts/xml/caes0158.xml
+σου, σύ, grc, transcription, <p>σου</p>, docs/texts/xml/caes0158.xml
+τῇ, ὁ, grc, transcription, <p>τῇ</p>, docs/texts/xml/caes0158.xml
+μονο­, μονο­, grc, transcription, <p>μονο­</p>, docs/texts/xml/caes0158.xml
+ώρῳ, ώρῳ, grc, transcription, <p>ώρῳ</p>, docs/texts/xml/caes0158.xml
+ἁρπασθείσῃ, ἁρπασθείσῃ, grc, transcription, <p>ἁρπασθείσῃ</p>, docs/texts/xml/caes0158.xml
+σύν, σύν, grc, transcription, <p>σύν</p>, docs/texts/xml/caes0158.xml
+σοι, σύ, grc, transcription, <p>σοι</p>, docs/texts/xml/caes0158.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0158.xml
+σύ, σύ, grc, transcription, <p>σύ</p>, docs/texts/xml/caes0158.xml
+Ἰσίδωρε, Ἰσίδωρε, grc, transcription, <p>Ἰσίδωρε</p>, docs/texts/xml/caes0158.xml
+εὐψύχει, εὐψύχει, grc, transcription, <p>εὐψύχει</p>, docs/texts/xml/caes0158.xml
+ἐτῶν, ἐτάζω, grc, transcription, <p>ἐτῶν</p>, docs/texts/xml/caes0158.xml
+ζ, ζ, grc, transcription, <p>ζ</p>, docs/texts/xml/caes0158.xml
+δοῖ, δοῖ, grc, transcription, <p>δοῖ</p>, docs/texts/xml/caes0158.xml
+σοι, σύ, grc, transcription, <p>σοι</p>, docs/texts/xml/caes0158.xml
+ὁ, ὁ, grc, transcription, <p>ὁ</p>, docs/texts/xml/caes0158.xml
+Ὄσειρις, Ὄσειρις, grc, transcription, <p>Ὄσειρις</p>, docs/texts/xml/caes0158.xml
+τὸ, τὸ, grc, transcription, <p>τὸ</p>, docs/texts/xml/caes0158.xml
+ψυχρὸν, ψυχρὸν, grc, transcription, <p>ψυχρὸν</p>, docs/texts/xml/caes0158.xml
+ὕδωρ, ὕδωρ, grc, transcription, <p>ὕδωρ</p>, docs/texts/xml/caes0158.xml
+σὺν, σὺν, grc, transcription, <p>σὺν</p>, docs/texts/xml/caes0158.xml
+τῷ, ὁ, grc, transcription, <p>τῷ</p>, docs/texts/xml/caes0158.xml
+ἀδελφῷ, ἀδελφός, grc, transcription, <p>ἀδελφῷ</p>, docs/texts/xml/caes0158.xml
+σου, σύ, grc, transcription, <p>σου</p>, docs/texts/xml/caes0158.xml
+τῷ, ὁ, grc, transcription, <p>τῷ</p>, docs/texts/xml/caes0158.xml
+μονοώ­, μονοώ­, grc, transcription, <p>μονοώ­</p>, docs/texts/xml/caes0158.xml
+σῳ, σῳ, grc, transcription, <p>σῳ</p>, docs/texts/xml/caes0158.xml
+ἁρπασθέντι, ἁρπασθέντι, grc, transcription, <p>ἁρπασθέντι</p>, docs/texts/xml/caes0158.xml
+σύν, σύν, grc, transcription, <p>σύν</p>, docs/texts/xml/caes0158.xml
+σοι, σύ, grc, transcription, <p>σοι</p>, docs/texts/xml/caes0158.xml
+γῆ, γαῖα, grc, transcription, <p>γῆ</p>, docs/texts/xml/caes0158.xml
+ὑ­, ὑ­, grc, transcription, <p>ὑ­</p>, docs/texts/xml/caes0158.xml
+μῖν, μιν, grc, transcription, <p>μῖν</p>, docs/texts/xml/caes0158.xml
+ἐλαφρὰ, ἐλαφρὰ, grc, transcription, <p>ἐλαφρὰ</p>, docs/texts/xml/caes0158.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0158.xml
+τὰ, τὰ, grc, transcription, <p>τὰ</p>, docs/texts/xml/caes0158.xml
+κατὰ, κατὰ, grc, transcription, <p>κατὰ</p>, docs/texts/xml/caes0158.xml
+δοῦσ’, δοῦσ’, grc, transcription, <p>δοῦσ’</p>, docs/texts/xml/caes0158.xml
+ἀγαθά, ἀγαθά, grc, transcription, <p><space>ἀγαθά</space></p>, docs/texts/xml/caes0158.xml
+Farewell, Farewell, grc-transl, translation, <p>Farewell</p>, docs/texts/xml/caes0158.xml
+my, my, grc-transl, translation, <p>my</p>, docs/texts/xml/caes0158.xml
+dear, dear, grc-transl, translation, <p>dear</p>, docs/texts/xml/caes0158.xml
+children, children, grc-transl, translation, <p>children</p>, docs/texts/xml/caes0158.xml
+Farewell, Farewell, grc-transl, translation, <p>Farewell</p>, docs/texts/xml/caes0158.xml
+Priskos, Priskos, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0158p01">Priskos</persName></name></p>, docs/texts/xml/caes0158.xml
+Nemonianos, Nemonianos, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0158p02">Nemonianos</persName></name></p>, docs/texts/xml/caes0158.xml
+fifteen, fifteen, grc-transl, translation, <p><name>fifteen</name></p>, docs/texts/xml/caes0158.xml
+years, years, grc-transl, translation, <p>years</p>, docs/texts/xml/caes0158.xml
+old, old, grc-transl, translation, <p>old</p>, docs/texts/xml/caes0158.xml
+May, May, grc-transl, translation, <p>May</p>, docs/texts/xml/caes0158.xml
+Osiris, Osiris, grc-transl, translation, <p><rs type="divine">Osiris</rs></p>, docs/texts/xml/caes0158.xml
+give, give, grc-transl, translation, <p>give</p>, docs/texts/xml/caes0158.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0158.xml
+cold, cold, grc-transl, translation, <p>cold</p>, docs/texts/xml/caes0158.xml
+water, water, grc-transl, translation, <p>water</p>, docs/texts/xml/caes0158.xml
+to, to, grc-transl, translation, <p>to</p>, docs/texts/xml/caes0158.xml
+you, you, grc-transl, translation, <p>you</p>, docs/texts/xml/caes0158.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0158.xml
+to, to, grc-transl, translation, <p>to</p>, docs/texts/xml/caes0158.xml
+your, your, grc-transl, translation, <p>your</p>, docs/texts/xml/caes0158.xml
+sister, sister, grc-transl, translation, <p><rs type="family">sister</rs></p>, docs/texts/xml/caes0158.xml
+who, who, grc-transl, translation, <p>who</p>, docs/texts/xml/caes0158.xml
+was, was, grc-transl, translation, <p>was</p>, docs/texts/xml/caes0158.xml
+carried, carried, grc-transl, translation, <p>carried</p>, docs/texts/xml/caes0158.xml
+off, off, grc-transl, translation, <p>off</p>, docs/texts/xml/caes0158.xml
+in, in, grc-transl, translation, <p>in</p>, docs/texts/xml/caes0158.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0158.xml
+same, same, grc-transl, translation, <p>same</p>, docs/texts/xml/caes0158.xml
+hour, hour, grc-transl, translation, <p>hour</p>, docs/texts/xml/caes0158.xml
+with, with, grc-transl, translation, <p>with</p>, docs/texts/xml/caes0158.xml
+you, you, grc-transl, translation, <p>you</p>, docs/texts/xml/caes0158.xml
+And, And, grc-transl, translation, <p>And</p>, docs/texts/xml/caes0158.xml
+you, you, grc-transl, translation, <p>you</p>, docs/texts/xml/caes0158.xml
+Isidora, Isidora, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0158p03">Isidora</persName></p>, docs/texts/xml/caes0158.xml
+seven, seven, grc-transl, translation, <p>seven</p>, docs/texts/xml/caes0158.xml
+years, years, grc-transl, translation, <p>years</p>, docs/texts/xml/caes0158.xml
+old, old, grc-transl, translation, <p>old</p>, docs/texts/xml/caes0158.xml
+farewell, farewell, grc-transl, translation, <p>farewell</p>, docs/texts/xml/caes0158.xml
+May, May, grc-transl, translation, <p>May</p>, docs/texts/xml/caes0158.xml
+Osiris, Osiris, grc-transl, translation, <p><rs type="divine">Osiris</rs></p>, docs/texts/xml/caes0158.xml
+give, give, grc-transl, translation, <p>give</p>, docs/texts/xml/caes0158.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0158.xml
+cold, cold, grc-transl, translation, <p>cold</p>, docs/texts/xml/caes0158.xml
+water, water, grc-transl, translation, <p>water</p>, docs/texts/xml/caes0158.xml
+to, to, grc-transl, translation, <p>to</p>, docs/texts/xml/caes0158.xml
+you, you, grc-transl, translation, <p>you</p>, docs/texts/xml/caes0158.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0158.xml
+to, to, grc-transl, translation, <p>to</p>, docs/texts/xml/caes0158.xml
+your, your, grc-transl, translation, <p>your</p>, docs/texts/xml/caes0158.xml
+brother, brother, grc-transl, translation, <p><rs type="family">brother</rs></p>, docs/texts/xml/caes0158.xml
+who, who, grc-transl, translation, <p>who</p>, docs/texts/xml/caes0158.xml
+was, was, grc-transl, translation, <p>was</p>, docs/texts/xml/caes0158.xml
+carried, carried, grc-transl, translation, <p>carried</p>, docs/texts/xml/caes0158.xml
+off, off, grc-transl, translation, <p>off</p>, docs/texts/xml/caes0158.xml
+in, in, grc-transl, translation, <p>in</p>, docs/texts/xml/caes0158.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0158.xml
+same, same, grc-transl, translation, <p>same</p>, docs/texts/xml/caes0158.xml
+hour, hour, grc-transl, translation, <p>hour</p>, docs/texts/xml/caes0158.xml
+with, with, grc-transl, translation, <p>with</p>, docs/texts/xml/caes0158.xml
+you, you, grc-transl, translation, <p>you</p>, docs/texts/xml/caes0158.xml
+May, May, grc-transl, translation, <p>May</p>, docs/texts/xml/caes0158.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0158.xml
+earth, earth, grc-transl, translation, <p>earth</p>, docs/texts/xml/caes0158.xml
+be, be, grc-transl, translation, <p>be</p>, docs/texts/xml/caes0158.xml
+light, light, grc-transl, translation, <p>light</p>, docs/texts/xml/caes0158.xml
+for, for, grc-transl, translation, <p>for</p>, docs/texts/xml/caes0158.xml
+you, you, grc-transl, translation, <p>you</p>, docs/texts/xml/caes0158.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0158.xml
+may, may, grc-transl, translation, <p>may</p>, docs/texts/xml/caes0158.xml
+those, those, grc-transl, translation, <p>those</p>, docs/texts/xml/caes0158.xml
+things, things, grc-transl, translation, <p>things</p>, docs/texts/xml/caes0158.xml
+she, she, grc-transl, translation, <p>she</p>, docs/texts/xml/caes0158.xml
+grants, grants, grc-transl, translation, <p>grants</p>, docs/texts/xml/caes0158.xml
+you, you, grc-transl, translation, <p>you</p>, docs/texts/xml/caes0158.xml
+below, below, grc-transl, translation, <p>below</p>, docs/texts/xml/caes0158.xml
+be, be, grc-transl, translation, <p>be</p>, docs/texts/xml/caes0158.xml
+good, good, grc-transl, translation, <p>good</p>, docs/texts/xml/caes0158.xml
+Τίτε, Τίτε, grc, transcription, <p><expan><abbr>Τ</abbr><ex>ίτε</ex></expan></p>, docs/texts/xml/caes0159.xml
+Φλάουιε, Φλάουιε, grc, transcription, <p><expan><abbr>Φ</abbr><ex>λάουιε</ex></expan></p>, docs/texts/xml/caes0159.xml
+Ἱερώνυμε, Ἱερώνυμε, grc, transcription, <p>Ἱερώνυμε</p>, docs/texts/xml/caes0159.xml
+χρηστὲ, χρηστὲ, grc, transcription, <p>χρηστὲ</p>, docs/texts/xml/caes0159.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0159.xml
+ἄλυπε, ἄλυπε, grc, transcription, <p>ἄλυπε</p>, docs/texts/xml/caes0159.xml
+χαῖρε, χαίρω, grc, transcription, <p>χαῖρε</p>, docs/texts/xml/caes0159.xml
+ἐτῶν, ἐτάζω, grc, transcription, <p>ἐτῶν</p>, docs/texts/xml/caes0159.xml
+κβ’, κβ’, grc, transcription, <p>κβ’</p>, docs/texts/xml/caes0159.xml
+Farewell, Farewell, grc-transl, translation, <p>Farewell</p>, docs/texts/xml/caes0159.xml
+Titos, Titos, grc-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0159p01" nymRef="names.xml#caes0159n01">Titos</persName></name></p>, docs/texts/xml/caes0159.xml
+Flavios, Flavios, grc-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0159p02" nymRef="names.xml#caes0159n02">Flavios</persName></name></p>, docs/texts/xml/caes0159.xml
+Hieronymos, Hieronymos, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0159p03" nymRef="names.xml#caes0159n03">Hieronymos</persName></name></p>, docs/texts/xml/caes0159.xml
+twenty-two, twenty-two, grc-transl, translation, <p><name>twenty-two</name></p>, docs/texts/xml/caes0159.xml
+years, years, grc-transl, translation, <p>years</p>, docs/texts/xml/caes0159.xml
+old, old, grc-transl, translation, <p>old</p>, docs/texts/xml/caes0159.xml
+a, a, grc-transl, translation, <p>a</p>, docs/texts/xml/caes0159.xml
+man, man, grc-transl, translation, <p>man</p>, docs/texts/xml/caes0159.xml
+who, who, grc-transl, translation, <p>who</p>, docs/texts/xml/caes0159.xml
+was, was, grc-transl, translation, <p>was</p>, docs/texts/xml/caes0159.xml
+upright, upright, grc-transl, translation, <p>upright</p>, docs/texts/xml/caes0159.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0159.xml
+harmed, harmed, grc-transl, translation, <p>harmed</p>, docs/texts/xml/caes0159.xml
+no, no, grc-transl, translation, <p>no</p>, docs/texts/xml/caes0159.xml
+one, one, grc-transl, translation, <p>one</p>, docs/texts/xml/caes0159.xml
+Dis, dives, la, transcription, <p><expan><abbr>D</abbr><ex>is</ex></expan></p>, docs/texts/xml/caes0160.xml
+ManibusRhodope, ManibusRhodope, la, transcription, <p><expan><abbr>M</abbr><ex>anibus</expan>R<lb/>hodop<supplied>e</ex></supplied></p>, docs/texts/xml/caes0160.xml
+coniug, coniug, la, transcription, <p><lb><unclear>coniug</unclear></lb></p>, docs/texts/xml/caes0160.xml
+i, eo, la, transcription, <p><supplied reason="undefined">i</supplied></p>, docs/texts/xml/caes0160.xml
+To, To, la-transl, translation, <p>To</p>, docs/texts/xml/caes0160.xml
+the, the, la-transl, translation, <p>the</p>, docs/texts/xml/caes0160.xml
+deified, deified, la-transl, translation, <p>deified</p>, docs/texts/xml/caes0160.xml
+manes, manes, la-transl, translation, <p>manes</p>, docs/texts/xml/caes0160.xml
+To, To, la-transl, translation, <p>To</p>, docs/texts/xml/caes0160.xml
+Rhodope, Rhodope, la-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0160p01">Rhodope</persName></name></p>, docs/texts/xml/caes0160.xml
+wife, wife, la-transl, translation, <p><name><rs type="family">wife</rs></name></p>, docs/texts/xml/caes0160.xml
+Titiae, Titiae, la, transcription, <p>Titiae</p>, docs/texts/xml/caes0161.xml
+C, C, la, transcription, <p>C</p>, docs/texts/xml/caes0161.xml
+ae, ae, la, transcription, <p><lb>ae</lb></p>, docs/texts/xml/caes0161.xml
+uxori, uxor, la, transcription, <p>uxor<supplied>i</supplied></p>, docs/texts/xml/caes0161.xml
+To, To, la-transl, translation, <p>To</p>, docs/texts/xml/caes0161.xml
+Titia, Titia, la-transl, translation, <p><name><persName lang="la " ref="persons.xml#caes0161p01">Titia</persName></name></p>, docs/texts/xml/caes0161.xml
+C, C, la-transl, translation, <p><name>C</name></p>, docs/texts/xml/caes0161.xml
+my, my, la-transl, translation, <p>my</p>, docs/texts/xml/caes0161.xml
+wife, wife, la-transl, translation, <p><rs type="family">wife</rs></p>, docs/texts/xml/caes0161.xml
+AE, AE, la, diplomatic, <p><gap reason="illegible" quantity="3" unit="character">AE</gap></p>, docs/texts/xml/caes0162.xml
+CILLIAE, CILLIAE, la, diplomatic, <p><lb><gap reason="illegible" quantity="2" unit="character">CILLIA<supplied>E</supplied></gap></lb></p>, docs/texts/xml/caes0162.xml
+UXORI, uxor, la, diplomatic, <p><gap reason="illegible" quantity="1" unit="character"><lb><gap reason="illegible" quantity="2" unit="character">UXOR<supplied>I</supplied></gap></lb></gap></p>, docs/texts/xml/caes0162.xml
+to, to, la-transl, translation, <p>to</p>, docs/texts/xml/caes0162.xml
+wife, wife, la-transl, translation, <p><rs type="family">wife</rs></p>, docs/texts/xml/caes0162.xml
+bene, benus, la, transcription, <p>bene</p>, docs/texts/xml/caes0163.xml
+merentifecit, merentifecit, la, transcription, <p>merenti<lb/>fecit</p>, docs/texts/xml/caes0163.xml
+made, made, la-transl, translation, <p>made</p>, docs/texts/xml/caes0163.xml
+this, this, la-transl, translation, <p>this</p>, docs/texts/xml/caes0163.xml
+monument, monument, la-transl, translation, <p>monument</p>, docs/texts/xml/caes0163.xml
+for, for, la-transl, translation, <p>for</p>, docs/texts/xml/caes0163.xml
+who, who, la-transl, translation, <p>who</p>, docs/texts/xml/caes0163.xml
+was, was, la-transl, translation, <p>was</p>, docs/texts/xml/caes0163.xml
+well, well, la-transl, translation, <p>well</p>, docs/texts/xml/caes0163.xml
+deserving, deserving, la-transl, translation, <p>deserving</p>, docs/texts/xml/caes0163.xml
+Aphrodilus, Aphrodilus, la, transcription, <p>Aphrodilus</p>, docs/texts/xml/caes0164.xml
+Marini, marinus, la, transcription, <p><space>Marini</space></p>, docs/texts/xml/caes0164.xml
+μεμόριον, μεμόριον, grc, transcription, <p>μεμόριον</p>, docs/texts/xml/caes0165.xml
+τῆςπροσσυλήτουἌστη, τῆςπροσσυλήτουἌστη, grc, transcription, <p>τῆς<lb/>προσσυλήτου<lb/>Ἄστη</p>, docs/texts/xml/caes0165.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0165.xml
+Παρη­γορίου, Παρη­γορίου, grc, transcription, <p>Παρη­<lb/>γορίου</p>, docs/texts/xml/caes0165.xml
+εὐχα­ριστοῦσα, εὐχα­ριστοῦσα, grc, transcription, <p>εὐχα­<lb/>ριστοῦσα</p>, docs/texts/xml/caes0165.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0165.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0165.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0165.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0165.xml
+proselyte, proselyte, grc-transl, translation, <p><rs type="status">proselyte</rs></p>, docs/texts/xml/caes0165.xml
+Aste, Aste, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0165p01">Aste</persName></name></p>, docs/texts/xml/caes0165.xml
+and, and, grc-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0165.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0165.xml
+Paregorios, Paregorios, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0165p02">Paregorios</persName></name></p>, docs/texts/xml/caes0165.xml
+Thanks!, Thanks!, grc-transl, translation, <p>Thanks!</p>, docs/texts/xml/caes0165.xml
+τώποςἸσιδώρουΘεωδώρ­, τώποςἸσιδώρουΘεωδώρ­, grc, transcription, <p>τώπος<lb/>Ἰσιδώρου<lb/>Θεωδώρ­</p>, docs/texts/xml/caes0166.xml
+ου, ου, grc, transcription, <p><hi rend="ligature">ου</hi></p>, docs/texts/xml/caes0166.xml
+Ἰάκω, Ἰάκω, grc, transcription, <p>Ἰάκω</p>, docs/texts/xml/caes0166.xml
+Δώ­θη, Δώ­θη, grc, transcription, <p>Δώ­<lb/>θη</p>, docs/texts/xml/caes0166.xml
+ἁζάνα, ἁζάνα, grc, transcription, <p>ἁζάνα</p>, docs/texts/xml/caes0166.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0166.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0166.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0166.xml
+Isidoros, Isidoros, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0166p01">Isidoros</persName></name></p>, docs/texts/xml/caes0166.xml
+Theodoros, Theodoros, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0166p02">Theodoros</persName></name></p>, docs/texts/xml/caes0166.xml
+Iakobos, Iakobos, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0166p03">Iakobos</persName></name></p>, docs/texts/xml/caes0166.xml
+Dothe, Dothe, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0166p04">Dothe</persName></name></p>, docs/texts/xml/caes0166.xml
+the, the, grc-transl, translation, <p><name>the</name></p>, docs/texts/xml/caes0166.xml
+hazan, hazan, grc-transl, translation, <p>hazan</p>, docs/texts/xml/caes0166.xml
+θήκη, θήκη, grc, transcription, <p>θήκη</p>, docs/texts/xml/caes0167.xml
+Μα, Μα, grc, transcription, <p>Μα</p>, docs/texts/xml/caes0167.xml
+καὶ, καὶ, grc, transcription, <p><lb><expan><abbr>κ</abbr><ex>αὶ</ex></expan></lb></p>, docs/texts/xml/caes0167.xml
+Ἐλέου, Ἐλέου, grc, transcription, <p>Ἐλέου</p>, docs/texts/xml/caes0167.xml
+καὶ, καὶ, grc, transcription, <p>κ<supplied>αὶ</supplied></p>, docs/texts/xml/caes0167.xml
+­εμα, ­εμα, grc, transcription, <p><gap reason="illegible" quantity="2" unit="character">­<lb/>εμα</gap></p>, docs/texts/xml/caes0167.xml
+εἱερήω, εἱερήω, grc, transcription, <p>εἱερή<unclear>ω</unclear></p>, docs/texts/xml/caes0167.xml
+ν, ν, grc, transcription, <p>ν</p>, docs/texts/xml/caes0167.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0167.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0167.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0167.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0167.xml
+priests, priests, grc-transl, translation, <p>priests</p>, docs/texts/xml/caes0167.xml
+Ma--, Ma--, grc-transl, translation, <p>Ma--</p>, docs/texts/xml/caes0167.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0167.xml
+Elias, Elias, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0167p01">Elias</persName></name></p>, docs/texts/xml/caes0167.xml
+and, and, grc-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0167.xml
+--ema, --ema, grc-transl, translation, <p>--ema</p>, docs/texts/xml/caes0167.xml
+θήκη, θήκη, grc, transcription, <p>θήκη</p>, docs/texts/xml/caes0168.xml
+Λεο­ντήου, Λεο­ντήου, grc, transcription, <p>Λεο­<lb/>ντή<hi>ου</hi></p>, docs/texts/xml/caes0168.xml
+Σησ­ηνίου, Σησ­ηνίου, grc, transcription, <p>Σησ­<lb/>ηνί<hi>ου</hi></p>, docs/texts/xml/caes0168.xml
+κατ­ωλά, κατ­ωλά, grc, transcription, <p>κατ­<lb/>ωλά</p>, docs/texts/xml/caes0168.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0168.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0168.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0168.xml
+Leontios, Leontios, grc-transl, translation, <p><name><persName ref="persons.xml#caes0168p01">Leontios</persName></name></p>, docs/texts/xml/caes0168.xml
+Sisinios, Sisinios, grc-transl, translation, <p><name><persName ref="persons.xml#caes0168p02">Sisinios</persName></name></p>, docs/texts/xml/caes0168.xml
+or, or, grc-transl, translation, <p><name>or</name></p>, docs/texts/xml/caes0168.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0168.xml
+son, son, grc-transl, translation, <p>son</p>, docs/texts/xml/caes0168.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0168.xml
+Sisinios, Sisinios, grc-transl, translation, <p>Sisinios</p>, docs/texts/xml/caes0168.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0168.xml
+woodcutter, woodcutter, grc-transl, translation, <p>woodcutter</p>, docs/texts/xml/caes0168.xml
+θήκη, θήκη, grc, transcription, <p>θήκη</p>, docs/texts/xml/caes0169.xml
+Ἠλ­ία, Ἠλ­ία, grc, transcription, <p>Ἠλ­<lb/>ία</p>, docs/texts/xml/caes0169.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0169.xml
+Ἐντ­, Ἐντ­, grc, transcription, <p>Ἐντ­</p>, docs/texts/xml/caes0169.xml
+ουλίου, ουλίου, grc, transcription, <p><hi>ου</hi>λί<hi>ου</hi></p>, docs/texts/xml/caes0169.xml
+Κρ­, Κρ­, grc, transcription, <p>Κρ­</p>, docs/texts/xml/caes0169.xml
+ούνου, ούνου, grc, transcription, <p><hi>ού</hi>ν<hi>ου</hi></p>, docs/texts/xml/caes0169.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0169.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0169.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0169.xml
+Elias, Elias, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0169p01">Elias</persName></name></p>, docs/texts/xml/caes0169.xml
+and, and, grc-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0169.xml
+Entolios, Entolios, grc-transl, translation, <p><name><persName ref="persons.xml#caes0169p02">Entolios</persName></name></p>, docs/texts/xml/caes0169.xml
+of, of, grc-transl, translation, <p><name>of</name></p>, docs/texts/xml/caes0169.xml
+Krounos, Krounos, grc-transl, translation, <p>Krounos</p>, docs/texts/xml/caes0169.xml
+θήκη, θήκη, grc, transcription, <p><supplied reason="undefined">θήκη</supplied></p>, docs/texts/xml/caes0170.xml
+Ἰωσή­, Ἰωσή­, grc, transcription, <p>Ἰωσ<unclear>ή­</unclear></p>, docs/texts/xml/caes0170.xml
+φο, φο, grc, transcription, <p><supplied reason="undefined">φο</supplied></p>, docs/texts/xml/caes0170.xml
+υ, υ, grc, transcription, <p><unclear>υ</unclear></p>, docs/texts/xml/caes0170.xml
+Λεον­, Λεον­, grc, transcription, <p>Λεον­</p>, docs/texts/xml/caes0170.xml
+τίου, τίου, grc, transcription, <p><supplied reason="undefined">τίου</supplied></p>, docs/texts/xml/caes0170.xml
+τεντ­, τεντ­, grc, transcription, <p>τεντ­</p>, docs/texts/xml/caes0170.xml
+ου, ου, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character"><hi rend="ligature">ου</hi></gap></p>, docs/texts/xml/caes0170.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0170.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0170.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0170.xml
+Iosephos, Iosephos, grc-transl, translation, <p><name><persName ref="persons.xml#caes0170p01">Iosephos</persName></name></p>, docs/texts/xml/caes0170.xml
+Leontios, Leontios, grc-transl, translation, <p><name><persName ref="persons.xml#caes0170p02">Leontios</persName></name></p>, docs/texts/xml/caes0170.xml
+ΥΜΑ, ΥΜΑ, grc, diplomatic, <p><gap reason="illegible" quantity="2" unit="character">ΥΜ<unclear>Α</unclear></gap></p>, docs/texts/xml/caes0171.xml
+ΑΜΟΥ, ΑΜΟΥ, grc, diplomatic, <p><gap reason="illegible" quantity="2" unit="character"><lb><gap reason="illegible" quantity="2" unit="character">ΑΜ<hi>ΟΥ</hi></gap></lb></gap></p>, docs/texts/xml/caes0171.xml
+ΧΑΝΙ, ΧΑΝΙ, grc, diplomatic, <p><gap reason="illegible" quantity="2" unit="character"><lb><gap reason="illegible" quantity="2" unit="character">ΧΑΝΙ</gap></lb></gap></p>, docs/texts/xml/caes0171.xml
+μηνόιων, μηνόιων, grc, transcription, <p>μηνόιων</p>, docs/texts/xml/caes0172.xml
+διαφέρο­, διαφέρο­, grc, transcription, <p>διαφέρο­</p>, docs/texts/xml/caes0172.xml
+τα, τα, grc, transcription, <p>τα</p>, docs/texts/xml/caes0172.xml
+κύρᾳ, κύρᾳ, grc, transcription, <p>κύρᾳ</p>, docs/texts/xml/caes0172.xml
+Σεβήρᾳ, Σεβήρᾳ, grc, transcription, <p>Σεβήρᾳ</p>, docs/texts/xml/caes0172.xml
+κὰ, κὰ, grc, transcription, <p>κὰ</p>, docs/texts/xml/caes0172.xml
+τῶ, ὁ, grc, transcription, <p>τῶ</p>, docs/texts/xml/caes0172.xml
+αυοὐτῆ­, αυοὐτῆ­, grc, transcription, <p>αυοὐτῆ­</p>, docs/texts/xml/caes0172.xml
+Μηκέρω­, Μηκέρω­, grc, transcription, <p>Μηκέρω­</p>, docs/texts/xml/caes0172.xml
+ν, ν, grc, transcription, <p>ν</p>, docs/texts/xml/caes0172.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0172.xml
+Εἰσ­, Εἰσ­, grc, transcription, <p>Εἰσ­</p>, docs/texts/xml/caes0172.xml
+ίσα, ίσα, grc, transcription, <p>ίσα</p>, docs/texts/xml/caes0172.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0172.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0172.xml
+belonging, belonging, grc-transl, translation, <p>belonging</p>, docs/texts/xml/caes0172.xml
+to, to, grc-transl, translation, <p>to</p>, docs/texts/xml/caes0172.xml
+Lady, Lady, grc-transl, translation, <p><rs type="title">Lady</rs></p>, docs/texts/xml/caes0172.xml
+Severa, Severa, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0172p01">Severa</persName></p>, docs/texts/xml/caes0172.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0172.xml
+her, her, grc-transl, translation, <p>her</p>, docs/texts/xml/caes0172.xml
+children, children, grc-transl, translation, <p><rs type="family">children</rs></p>, docs/texts/xml/caes0172.xml
+Mekeron, Mekeron, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0172p02">Mekeron</persName></p>, docs/texts/xml/caes0172.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0172.xml
+Eisisa, Eisisa, grc-transl, translation, <p>Eisisa</p>, docs/texts/xml/caes0172.xml
+Παρηγο, Παρηγο, grc, transcription, <p>Παρηγο</p>, docs/texts/xml/caes0173.xml
+ρίου, ρίου, grc, transcription, <p>ρίου</p>, docs/texts/xml/caes0173.xml
+Μαρί, Μαρί, grc, transcription, <p>Μαρί</p>, docs/texts/xml/caes0173.xml
+νου, νου, grc, transcription, <p>νου</p>, docs/texts/xml/caes0173.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0173.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0173.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0173.xml
+Paregorios, Paregorios, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0173p01">Paregorios</persName></name></p>, docs/texts/xml/caes0173.xml
+Marinos, Marinos, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0173p02">Marinos</persName></name></p>, docs/texts/xml/caes0173.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0174.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0174.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0174.xml
+Symon, Symon, grc-transl, translation, <p><name><persName lang="grc " ref="persons.xml#caes0174p01">Symon</persName></name></p>, docs/texts/xml/caes0174.xml
+Iakon, Iakon, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0174p02">Iakon</persName></name></p>, docs/texts/xml/caes0174.xml
+ΘΗΚ, ΘΗΚ, grc, diplomatic, <p>ΘΗ<unclear>Κ</unclear></p>, docs/texts/xml/caes0175.xml
+Η, Η, grc, diplomatic, <p><supplied reason="undefined">Η</supplied></p>, docs/texts/xml/caes0175.xml
+ἈΛΑΦ, ἈΛΑΦ, grc, diplomatic, <p><lb>ἈΛΑ<unclear>Φ</unclear></lb></p>, docs/texts/xml/caes0175.xml
+ΘΑ, ΘΑ, grc, diplomatic, <p><supplied reason="undefined">ΘΑ</supplied></p>, docs/texts/xml/caes0175.xml
+ΑΜΒ, ΑΜΒ, grc, diplomatic, <p><supplied reason="undefined"><lb>ΑΜΒ</lb></supplied></p>, docs/texts/xml/caes0175.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0175.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0175.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0175.xml
+Alaphtha, Alaphtha, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0175p01">Alaphtha</persName></p>, docs/texts/xml/caes0175.xml
+α, α, grc, transcription, <p><unclear>α</unclear></p>, docs/texts/xml/caes0176.xml
+ς, ς, grc, transcription, <p><unclear>ς</unclear></p>, docs/texts/xml/caes0176.xml
+ί­, ί­, grc, transcription, <p><unclear>ί</unclear>­</p>, docs/texts/xml/caes0176.xml
+ας, ας, grc, transcription, <p>ας</p>, docs/texts/xml/caes0176.xml
+μημόριον, μημόριον, grc, transcription, <p><space><lb>μημόριον</lb></space></p>, docs/texts/xml/caes0176.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0176.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0176.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0176.xml
+ΦΟ, ΦΟ, grc, diplomatic, <p><gap reason="illegible" quantity="3" unit="character">ΦΟ</gap></p>, docs/texts/xml/caes0177.xml
+ο, ο, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character"><unclear><unclear><unclear>ο</unclear></unclear></unclear></gap></p>, docs/texts/xml/caes0178.xml
+υ, υ, grc, transcription, <p><unclear>υ</unclear></p>, docs/texts/xml/caes0178.xml
+Ἀντωνίνουκαὶ, Ἀντωνίνουκαὶ, grc, transcription, <p>Ἀντωνίνου<lb/>καὶ</p>, docs/texts/xml/caes0180.xml
+Κύρουτέκνα, Κύρουτέκνα, grc, transcription, <p>Κύρου<lb/>τέκνα</p>, docs/texts/xml/caes0180.xml
+Σα­μουήλου, Σα­μουήλου, grc, transcription, <p>Σα­<lb/>μουήλου</p>, docs/texts/xml/caes0180.xml
+שלום, שלום, grc, transcription, <p><foreign lang="heb">שלום</foreign></p>, docs/texts/xml/caes0180.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0180.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0180.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0180.xml
+Antoninos, Antoninos, grc-transl, translation, <p><name><persName ref="persons.xml#caes0180p01">Antoninos</persName></name></p>, docs/texts/xml/caes0180.xml
+and, and, grc-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0180.xml
+Kyros, Kyros, grc-transl, translation, <p><name><persName ref="persons.xml#caes0180p02">Kyros</persName></name></p>, docs/texts/xml/caes0180.xml
+children, children, grc-transl, translation, <p><name><rs type="family">children</rs></name></p>, docs/texts/xml/caes0180.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0180.xml
+Samuelos, Samuelos, grc-transl, translation, <p><name><persName ref="persons.xml#caes0180p03">Samuelos</persName></name></p>, docs/texts/xml/caes0180.xml
+Peace!, Peace!, grc-transl, translation, <p>Peace!</p>, docs/texts/xml/caes0180.xml
+θήκη, θήκη, grc, transcription, <p>θήκη</p>, docs/texts/xml/caes0181.xml
+Ν, Ν, grc, transcription, <p>Ν</p>, docs/texts/xml/caes0181.xml
+υἱοῦ, υἱός, grc, transcription, <p><lb>υἱοῦ</lb></p>, docs/texts/xml/caes0181.xml
+Τ, Τ, grc, transcription, <p>Τ</p>, docs/texts/xml/caes0181.xml
+Δωσᾶ, Δωσᾶ, grc, transcription, <p><lb>Δωσᾶ</lb></p>, docs/texts/xml/caes0181.xml
+Βο, Βο, grc, transcription, <p>Βο</p>, docs/texts/xml/caes0181.xml
+ש, ש, grc, transcription, <p><foreign lang="heb">ש</foreign></p>, docs/texts/xml/caes0181.xml
+לום, לום, grc, transcription, <p><foreign lang="heb"><supplied reason="undefined">לום</supplied></foreign></p>, docs/texts/xml/caes0181.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0181.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0181.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0181.xml
+N--, N--, grc-transl, translation, <p>N--</p>, docs/texts/xml/caes0181.xml
+the, the, grc-transl, translation, <p>the</p>, docs/texts/xml/caes0181.xml
+son, son, grc-transl, translation, <p><rs type="family">son</rs></p>, docs/texts/xml/caes0181.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0181.xml
+T--, T--, grc-transl, translation, <p>T--</p>, docs/texts/xml/caes0181.xml
+Dosa, Dosa, grc-transl, translation, <p><name><persName ref="persons.xml#caes0181p01">Dosa</persName></name></p>, docs/texts/xml/caes0181.xml
+Bo--, Bo--, grc-transl, translation, <p><name>Bo--</name></p>, docs/texts/xml/caes0181.xml
+Peace!, Peace!, grc-transl, translation, <p>Peace!</p>, docs/texts/xml/caes0181.xml
+ΜΜΑ, ΜΜΑ, grc, diplomatic, <p>ΜΜΑ</p>, docs/texts/xml/caes0182.xml
+Α­ΒΒΑΝ, Α­ΒΒΑΝ, grc, diplomatic, <p><supplied>Α</supplied>­<lb/>ΒΒΑ<unclear>Ν</unclear></p>, docs/texts/xml/caes0182.xml
+­ΟΥ, ­ΟΥ, grc, diplomatic, <p><gap reason="illegible" quantity="2" unit="character">­<lb/>ΟΥ</gap></p>, docs/texts/xml/caes0182.xml
+של, של, grc, diplomatic, <p><foreign lang="heb"><supplied reason="undefined">של</supplied></foreign></p>, docs/texts/xml/caes0182.xml
+ום, ום, grc, diplomatic, <p><foreign lang="heb">ום</foreign></p>, docs/texts/xml/caes0182.xml
+Amma--, Amma--, grc-transl, translation, <p>Amma--</p>, docs/texts/xml/caes0182.xml
+father, father, grc-transl, translation, <p><rs type="family">father</rs></p>, docs/texts/xml/caes0182.xml
+N--, N--, grc-transl, translation, <p>N--</p>, docs/texts/xml/caes0182.xml
+shalom!, shalom!, grc-transl, translation, <p>shalom!</p>, docs/texts/xml/caes0182.xml
+τέκνα, τέκνα, grc, transcription, <p><gap reason="illegible" quantity="2" unit="character"><supplied>τέ</supplied>κνα</gap></p>, docs/texts/xml/caes0183.xml
+χίας, χίας, grc, transcription, <p><gap reason="illegible" quantity="3" unit="character">χίας</gap></p>, docs/texts/xml/caes0183.xml
+שלום, שלום, grc, transcription, <p><foreign lang="heb">שלום</foreign></p>, docs/texts/xml/caes0183.xml
+ע, ע, grc, transcription, <p><foreign lang="heb">ע</foreign></p>, docs/texts/xml/caes0183.xml
+ל, ל, grc, transcription, <p><foreign lang="heb"><supplied reason="undefined">ל</supplied></foreign></p>, docs/texts/xml/caes0183.xml
+ישראל, ישראל, grc, transcription, <p><foreign lang="heb"><supplied reason="undefined">ישראל</supplied></foreign></p>, docs/texts/xml/caes0183.xml
+children, children, grc-transl, translation, <p><rs type="family">children</rs></p>, docs/texts/xml/caes0183.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0183.xml
+Peace, Peace, grc-transl, translation, <p>Peace</p>, docs/texts/xml/caes0183.xml
+unto, unto, grc-transl, translation, <p>unto</p>, docs/texts/xml/caes0183.xml
+Israel!, Israel!, grc-transl, translation, <p>Israel!</p>, docs/texts/xml/caes0183.xml
+μημόριονΜεγάλου, μημόριονΜεγάλου, grc, transcription, <p>μημόριον<lb/>Μεγάλου</p>, docs/texts/xml/caes0184.xml
+Βαβυ­λωναρίουυἱοῦ, Βαβυ­λωναρίουυἱοῦ, grc, transcription, <p>Βαβυ­<lb/>λωναρίου<lb/>υἱοῦ</p>, docs/texts/xml/caes0184.xml
+Ζερέκα, Ζερέκα, grc, transcription, <p>Ζερέκα</p>, docs/texts/xml/caes0184.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0184.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0184.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0184.xml
+Megas, Megas, grc-transl, translation, <p><name><persName ref="persons.xml#caes0184p01">Megas</persName></name></p>, docs/texts/xml/caes0184.xml
+the, the, grc-transl, translation, <p><name>the</name></p>, docs/texts/xml/caes0184.xml
+Babylonarian, Babylonarian, grc-transl, translation, <p>Babylonarian</p>, docs/texts/xml/caes0184.xml
+son, son, grc-transl, translation, <p><rs type="family">son</rs></p>, docs/texts/xml/caes0184.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0184.xml
+Zereka, Zereka, grc-transl, translation, <p><name><persName ref="persons.xml#caes0184p02">Zereka</persName></name></p>, docs/texts/xml/caes0184.xml
+μημόριονΣύμωνοςκαὶ, μημόριονΣύμωνοςκαὶ, grc, transcription, <p>μημόριον<lb/>Σύμωνος<lb/>καὶ</p>, docs/texts/xml/caes0185.xml
+Ἰουλια­νῆς, Ἰουλια­νῆς, grc, transcription, <p>Ἰουλια­<lb/>νῆς</p>, docs/texts/xml/caes0185.xml
+συνβ­ίου, συνβ­ίου, grc, transcription, <p>συνβ­<lb/>ίου</p>, docs/texts/xml/caes0185.xml
+αοὐτο­ῦ, αοὐτο­ῦ, grc, transcription, <p>αοὐτο­<lb/>ῦ</p>, docs/texts/xml/caes0185.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0185.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0185.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0185.xml
+Symon, Symon, grc-transl, translation, <p><name><persName ref="persons.xml#caes0185p01">Symon</persName></name></p>, docs/texts/xml/caes0185.xml
+and, and, grc-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0185.xml
+Iouliane, Iouliane, grc-transl, translation, <p><name><persName ref="persons.xml#caes0185p02">Iouliane</persName></name></p>, docs/texts/xml/caes0185.xml
+his, his, grc-transl, translation, <p><name>his</name></p>, docs/texts/xml/caes0185.xml
+wife, wife, grc-transl, translation, <p>wife</p>, docs/texts/xml/caes0185.xml
+ΜΗ, ΜΗ, grc, diplomatic, <p>Μ<unclear>Η</unclear></p>, docs/texts/xml/caes0186.xml
+ΜΟΡΙΟΝ, ΜΟΡΙΟΝ, grc, diplomatic, <p><supplied reason="undefined">ΜΟΡΙΟΝ</supplied></p>, docs/texts/xml/caes0186.xml
+ΣΥΜΕΩΝΟΣ, ΣΥΜΕΩΝΟΣ, grc, diplomatic, <p><lb>ΣΥΜΕ<supplied>ΩΝΟΣ</supplied></lb></p>, docs/texts/xml/caes0186.xml
+ΡΥΘΟ, ΡΥΘΟ, grc, diplomatic, <p><lb><gap reason="illegible" quantity="1" unit="character">ΡΥΘΟ</gap></lb></p>, docs/texts/xml/caes0186.xml
+μημόριονδιαφέρωνΜαρίας, μημόριονδιαφέρωνΜαρίας, grc, transcription, <p>μημόριον<lb/>διαφέρων<lb/>Μαρίας</p>, docs/texts/xml/caes0187.xml
+καὶ, καὶ, grc, transcription, <p><expan><abbr>κ</abbr><ex>αὶ</ex></expan></p>, docs/texts/xml/caes0187.xml
+Λαζάρου, Λαζάρου, grc, transcription, <p>Λαζάρου</p>, docs/texts/xml/caes0187.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0187.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0187.xml
+belonging, belonging, grc-transl, translation, <p>belonging</p>, docs/texts/xml/caes0187.xml
+to, to, grc-transl, translation, <p>to</p>, docs/texts/xml/caes0187.xml
+Maria, Maria, grc-transl, translation, <p><name><persName ref="persons.xml#caes0187p01">Maria</persName></name></p>, docs/texts/xml/caes0187.xml
+and, and, grc-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0187.xml
+Lazaros, Lazaros, grc-transl, translation, <p><name><persName ref="persons.xml#caes0187p02">Lazaros</persName></name></p>, docs/texts/xml/caes0187.xml
+μημόριο­ν, μημόριο­ν, grc, transcription, <p>μημόριο­<lb/>ν</p>, docs/texts/xml/caes0188.xml
+Ἰακῶν­ος, Ἰακῶν­ος, grc, transcription, <p>Ἰακῶν­<lb/>ος</p>, docs/texts/xml/caes0188.xml
+κὲ, κὲ, grc, transcription, <p>κὲ</p>, docs/texts/xml/caes0188.xml
+Λα­, Λα­, grc, transcription, <p>Λα­</p>, docs/texts/xml/caes0188.xml
+ζ, ζ, grc, transcription, <p><supplied reason="undefined">ζ</supplied></p>, docs/texts/xml/caes0188.xml
+άρου, άρου, grc, transcription, <p><unclear>ά</unclear>ρ<unclear>ου</unclear></p>, docs/texts/xml/caes0188.xml
+κὲ, κὲ, grc, transcription, <p>κὲ</p>, docs/texts/xml/caes0188.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0188.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0188.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0188.xml
+Iakon, Iakon, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0188p01">Iakon</persName></name></p>, docs/texts/xml/caes0188.xml
+Jacob, Jacob, grc-transl, translation, <p><name>Jacob</name></p>, docs/texts/xml/caes0188.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0188.xml
+Lazaros, Lazaros, grc-transl, translation, <p><name><persName ref="persons.xml#caes0188p02">Lazaros</persName></name></p>, docs/texts/xml/caes0188.xml
+and, and, grc-transl, translation, <p><name>and</name></p>, docs/texts/xml/caes0188.xml
+μνήμα, μνήμα, grc, transcription, <p>μνήμα</p>, docs/texts/xml/caes0189.xml
+Λήα, Λήα, grc, transcription, <p>Λήα</p>, docs/texts/xml/caes0189.xml
+τῆς, ὁ, grc, transcription, <p><supplied>τῆ</supplied><unclear>ς</unclear></p>, docs/texts/xml/caes0189.xml
+θυγατρὸ, θυγατρὸ, grc, transcription, <p>θυγατρὸ</p>, docs/texts/xml/caes0189.xml
+ς, ς, grc, transcription, <p><supplied reason="lost">ς</supplied></p>, docs/texts/xml/caes0189.xml
+Βενιαμῖν, Βενιαμῖν, grc, transcription, <p><supplied>Βεν</supplied>ιαμῖν</p>, docs/texts/xml/caes0189.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0189.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0189.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0189.xml
+Leah, Leah, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0189p01">Leah</persName></name></p>, docs/texts/xml/caes0189.xml
+the, the, grc-transl, translation, <p><name>the</name></p>, docs/texts/xml/caes0189.xml
+daughter, daughter, grc-transl, translation, <p><rs type="family">daughter</rs></p>, docs/texts/xml/caes0189.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0189.xml
+Beniamin, Beniamin, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0189p02">Beniamin</persName></name></p>, docs/texts/xml/caes0189.xml
+μνήμα, μνήμα, grc, transcription, <p><hi>μνήμ</hi>α</p>, docs/texts/xml/caes0190.xml
+Ἰάκ­, Ἰάκ­, grc, transcription, <p>Ἰά<unclear>κ­</unclear></p>, docs/texts/xml/caes0190.xml
+ῶνα, ῶνα, grc, transcription, <p><unclear>ῶ</unclear>να</p>, docs/texts/xml/caes0190.xml
+Βαν, Βαν, grc, transcription, <p>Βαν</p>, docs/texts/xml/caes0190.xml
+εὐψύχει, εὐψύχει, grc, transcription, <p><lb><gap reason="illegible" quantity="1" unit="character"><supplied>εὐ</supplied>ψ<supplied>ύχει</supplied></gap></lb></p>, docs/texts/xml/caes0190.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0190.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0190.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0190.xml
+Iakon, Iakon, grc-transl, translation, <p><name><persName ref="persons.xml#caes0190p01">Iakon</persName></name></p>, docs/texts/xml/caes0190.xml
+Jacob, Jacob, grc-transl, translation, <p><name>Jacob</name></p>, docs/texts/xml/caes0190.xml
+Ban--, Ban--, grc-transl, translation, <p>Ban--</p>, docs/texts/xml/caes0190.xml
+Farewell!, Farewell!, grc-transl, translation, <p>Farewell!</p>, docs/texts/xml/caes0190.xml
+τόπος, τόπος, grc, transcription, <p><supplied>τόπ</supplied>ος</p>, docs/texts/xml/caes0191.xml
+Παρη­, Παρη­, grc, transcription, <p>Παρη­</p>, docs/texts/xml/caes0191.xml
+γορίου, γορίου, grc, transcription, <p><supplied>γορί</supplied>ου</p>, docs/texts/xml/caes0191.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0191.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0191.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0191.xml
+Paregorios, Paregorios, grc-transl, translation, <p>Paregorios</p>, docs/texts/xml/caes0191.xml
+τόπος, τόπος, grc, transcription, <p>τόπ<supplied>ος</supplied></p>, docs/texts/xml/caes0192.xml
+Θεοδο, Θεοδο, grc, transcription, <p><supplied reason="lost">Θεοδο</supplied></p>, docs/texts/xml/caes0192.xml
+σίου, σίου, grc, transcription, <p><lb break="no">σίου</lb></p>, docs/texts/xml/caes0192.xml
+κα, ἄν, grc, transcription, <p>κ<unclear>α</unclear></p>, docs/texts/xml/caes0192.xml
+ὶ, ὶ, grc, transcription, <p><supplied reason="lost">ὶ</supplied></p>, docs/texts/xml/caes0192.xml
+Ἰακώ, Ἰακώ, grc, transcription, <p><supplied reason="lost">Ἰακώ</supplied></p>, docs/texts/xml/caes0192.xml
+βου, βου, grc, transcription, <p><lb break="no">βο<unclear>υ</unclear></lb></p>, docs/texts/xml/caes0192.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0192.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0192.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0192.xml
+Theodosios, Theodosios, grc-transl, translation, <p>Theodosios</p>, docs/texts/xml/caes0192.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0192.xml
+Iakobos, Iakobos, grc-transl, translation, <p><persName lang="hbo " ref="persons.xml#caes0192p01">Iakobos</persName></p>, docs/texts/xml/caes0192.xml
+θήκη, θήκη, grc, transcription, <p><supplied>θήκ</supplied>η</p>, docs/texts/xml/caes0193.xml
+Ἐορ­, Ἐορ­, grc, transcription, <p>Ἐορ­</p>, docs/texts/xml/caes0193.xml
+ταςίου, ταςίου, grc, transcription, <p><supplied>ταςί</supplied>ου</p>, docs/texts/xml/caes0193.xml
+καὶ, καὶ, grc, transcription, <p>καὶ</p>, docs/texts/xml/caes0193.xml
+Νεημίας, Νεημίας, grc, transcription, <p><supplied>Νε</supplied>ημίας</p>, docs/texts/xml/caes0193.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0193.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0193.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0193.xml
+Heortasios, Heortasios, grc-transl, translation, <p><persName lang="grc " ref="persons.xml#caes0193p01">Heortasios</persName></p>, docs/texts/xml/caes0193.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0193.xml
+Nehemiah, Nehemiah, grc-transl, translation, <p>Nehemiah</p>, docs/texts/xml/caes0193.xml
+θήκη, θήκη, grc, transcription, <p>θήκη</p>, docs/texts/xml/caes0194.xml
+Σαμ­, Σαμ­, grc, transcription, <p>Σα<unclear>μ­</unclear></p>, docs/texts/xml/caes0194.xml
+ουείλου, ουείλου, grc, transcription, <p>ουείλου</p>, docs/texts/xml/caes0194.xml
+Ἑζικία, Ἑζικία, grc, transcription, <p>Ἑζικία</p>, docs/texts/xml/caes0194.xml
+Α, Α, grc, transcription, <p>Α</p>, docs/texts/xml/caes0194.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0194.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0194.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0194.xml
+Samuelos, Samuelos, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0194p01">Samuelos</persName></name></p>, docs/texts/xml/caes0194.xml
+Hezekiah, Hezekiah, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0194p02">Hezekiah</persName></name></p>, docs/texts/xml/caes0194.xml
+A----, A----, grc-transl, translation, <p><name>A----</name></p>, docs/texts/xml/caes0194.xml
+Ἰωσῆπος, Ἰωσῆπος, grc, transcription, <p>Ἰωσῆπος</p>, docs/texts/xml/caes0195.xml
+Ἰακκώβου, Ἰακκώβου, grc, transcription, <p>Ἰακκώβου</p>, docs/texts/xml/caes0195.xml
+Ζηχαρία, Ζηχαρία, grc, transcription, <p>Ζηχαρία</p>, docs/texts/xml/caes0195.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0195.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0195.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0195.xml
+Iosepos, Iosepos, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0195p01">Iosepos</persName></name></p>, docs/texts/xml/caes0195.xml
+Joseph, Joseph, grc-transl, translation, <p><name>Joseph</name></p>, docs/texts/xml/caes0195.xml
+Iakkobos, Iakkobos, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0195p02">Iakkobos</persName></name></p>, docs/texts/xml/caes0195.xml
+Zechariah, Zechariah, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0195p03">Zechariah</persName></name></p>, docs/texts/xml/caes0195.xml
+Ἰακκώβου, Ἰακκώβου, grc, transcription, <p>Ἰακκώβου</p>, docs/texts/xml/caes0196.xml
+Δασσᾶ, Δασσᾶ, grc, transcription, <p>Δασσᾶ</p>, docs/texts/xml/caes0196.xml
+ἱοῦ, ἱοῦ, grc, transcription, <p>ἱοῦ</p>, docs/texts/xml/caes0196.xml
+Γάδε, Γάδε, grc, transcription, <p>Γάδε</p>, docs/texts/xml/caes0196.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0196.xml
+tomb, tomb, grc-transl, translation, <p>tomb</p>, docs/texts/xml/caes0196.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0196.xml
+Iakobkos, Iakobkos, grc-transl, translation, <p><name><persName lang="hbo " ref="persons.xml#caes0196p01">Iakobkos</persName></name></p>, docs/texts/xml/caes0196.xml
+Dassa, Dassa, grc-transl, translation, <p><name><persName lang="x-Semitic " ref="persons.xml#caes0196p02">Dassa</persName></name></p>, docs/texts/xml/caes0196.xml
+son, son, grc-transl, translation, <p><name><rs type="family">son</rs></name></p>, docs/texts/xml/caes0196.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0196.xml
+Gade, Gade, grc-transl, translation, <p>Gade</p>, docs/texts/xml/caes0196.xml
+Βρασιδία, Βρασιδία, grc, transcription, <p>Βρασιδία</p>, docs/texts/xml/caes0197.xml
+πιστὴ, πιστὴ, grc, transcription, <p>πιστὴ</p>, docs/texts/xml/caes0197.xml
+ἐνθάδε, ἐνθάδε, grc, transcription, <p>ἐνθάδε</p>, docs/texts/xml/caes0197.xml
+κῖτε, κῖτε, grc, transcription, <p>κῖτε</p>, docs/texts/xml/caes0197.xml
+Here, Here, grc-transl, translation, <p>Here</p>, docs/texts/xml/caes0197.xml
+lies, lies, grc-transl, translation, <p>lies</p>, docs/texts/xml/caes0197.xml
+faithful, faithful, grc-transl, translation, <p>faithful</p>, docs/texts/xml/caes0197.xml
+Brasidia, Brasidia, grc-transl, translation, <p>Brasidia</p>, docs/texts/xml/caes0197.xml
+μημόριον, μημόριον, grc, transcription, <p><expan><abbr>μημό</abbr><ex>ριον</ex></expan></p>, docs/texts/xml/caes0198.xml
+Βαεισήου, Βαεισήου, grc, transcription, <p><lb>Βαεισή<hi>ου</hi></lb></p>, docs/texts/xml/caes0198.xml
+καὶ, καὶ, grc, transcription, <p><lb><expan><abbr>κ</abbr><ex>αὶ</ex></expan></lb></p>, docs/texts/xml/caes0198.xml
+Γηοργίας, Γηοργίας, grc, transcription, <p>Γηοργίας</p>, docs/texts/xml/caes0198.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0198.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0198.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0198.xml
+Baïsios, Baïsios, grc-transl, translation, <p><persName lang="x-Semitic " ref="persons.xml#caes0198p01">Baïsios</persName></p>, docs/texts/xml/caes0198.xml
+and, and, grc-transl, translation, <p>and</p>, docs/texts/xml/caes0198.xml
+Georgia, Georgia, grc-transl, translation, <p>Georgia</p>, docs/texts/xml/caes0198.xml
+μεμόριον, μεμόριον, grc, transcription, <p><supplied reason="undefined">μεμόριον</supplied></p>, docs/texts/xml/caes0199.xml
+διαφέρον, διαφέρον, grc, transcription, <p><lb>διαφ<supplied>έρον</supplied></lb></p>, docs/texts/xml/caes0199.xml
+τ­, τ­, grc, transcription, <p><supplied>τ</supplied>­</p>, docs/texts/xml/caes0199.xml
+οῦ, οῦ, grc, transcription, <p>οῦ</p>, docs/texts/xml/caes0199.xml
+Σι, Σι, grc, transcription, <p>Σι</p>, docs/texts/xml/caes0199.xml
+The, The, grc-transl, translation, <p>The</p>, docs/texts/xml/caes0199.xml
+special, special, grc-transl, translation, <p>special</p>, docs/texts/xml/caes0199.xml
+memorial, memorial, grc-transl, translation, <p>memorial</p>, docs/texts/xml/caes0199.xml
+of, of, grc-transl, translation, <p>of</p>, docs/texts/xml/caes0199.xml

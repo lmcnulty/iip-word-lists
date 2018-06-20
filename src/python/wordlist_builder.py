@@ -1,4 +1,7 @@
-#!/usr/bin/env python3
+"""
+This file contains code used to retrieve word occurences from the xml
+files when the script is invoked with `--old_system`.
+"""
 
 from lxml import etree
 from wordlist_constants import *

@@ -1,4 +1,14 @@
-#!/usr/bin/env python3
+"""
+Provides a character-based approach to reading and modifying XML. The
+system is based on steps which contain 
+
+ex)
+                                    Self-closing br   End i, End p
+                                           |             |
+<p>This <br>is <i>good</i></p>  =  T.h.i.s. .i.s. .g.o.o.d
+                                   |               | 
+                                   Begin p      Begin i
+"""
 
 from lxml import etree
 from collections import defaultdict
@@ -84,6 +94,3 @@ def preceding_element(a_step, walker, whitespace_only=False):
 		if previous_step == None:
 			return None
 	return (previous_step.self_closing + previous_step.ending)[-1]
-
-if __name__ == '__main__':
-	print("To use this library, include 'from xml_walker import *' in your python script")

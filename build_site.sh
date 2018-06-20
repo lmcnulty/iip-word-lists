@@ -3,7 +3,7 @@
 update=1;
 exceptions=0;
 use_existing=0;
-new_system=0;
+#new_system=0;
 
 run_script() {
 	source environment/bin/activate;
@@ -13,9 +13,9 @@ run_script() {
 	if [ $exceptions == 1 ]; then
 		exceptions_flag="--fileexception"
 	fi
-	if [ $new_system == 1 ]; then
-		new_system_flag="--new_system"
-	fi
+	#if [ $new_system == 1 ]; then
+	#	new_system_flag="--new_system"
+	#fi
 	../src/python/wordlist.py texts/xml/* --nodiplomatic --html_general\
 	--plaintext --flat texts/plain $exceptions_flag $new_system_flag;
 	cd ..;

@@ -31,13 +31,14 @@ def add_arguments(parser):
 	#                    action="store_true")
 	parser.add_argument(
 		"--nodiplomatic",
-		help="""Do not include words extracted from editions in word 
-		list""",
+		help="""Do not include words extracted from diplomatic editions 
+        in word list""",
 		action="store_true"
 	)
 	parser.add_argument(
 		"--fileexception", 
-		help="Print exceptions for files which could not be read", action="store_true"
+		help="Print exceptions for files which could not be read", 
+		action="store_true"
 	)
 	parser.add_argument(
 		"--langfiles", 
@@ -76,5 +77,6 @@ def add_arguments(parser):
 		help="output general word list as html", 
 		action = "store_true"
 	)
-	parser.add_argument("--new_system", action = "store_true")
+	#parser.add_argument("--new_system", action = "store_true")
+	parser.add_argument("--old_system", action = "store_true")
 	return parser

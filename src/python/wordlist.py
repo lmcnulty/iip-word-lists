@@ -154,6 +154,9 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description="""Produce word list 
 	                                                from files.""")
 	args = add_arguments(parser).parse_args()
+	new_system = True
+	if args.old_system:
+		new_system = False
 
 	# Extract words from each file
 	occurences = []  # Contains the iip_word_occurence objects 
@@ -170,8 +173,7 @@ if __name__ == '__main__':
 		plaintextdir = args.flat
 	for file in args.files:
 		try:
-			new_words = get_words_from_file(file, file_dict, 
-			                                args.new_system)
+			new_words = get_words_from_file(file, file_dict, new_system)
 			lemmatize(new_words, args.nolemma)
 			add_kwic_to_occurences(new_words)
 			if args.plaintext:

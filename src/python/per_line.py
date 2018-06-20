@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
+"""
+Usage: per_line.py [input_file] [output_file]
+
+This script reads a text file and outputs each word, as seperated by 
+whitespace, on a seperate line. If no output file is specified, prints 
+to stdout 
+"""
 
 import sys
 
 if (len(sys.argv) < 2):
-	print("Usage: per_line.py [input_file] [output_file]")
-	print("\t If no output file is specified, this program prints to stdout")
+	print(__doc__)
 	exit()
 file = open(sys.argv[1], "r+")
 text = file.read()
@@ -18,3 +24,4 @@ else:
 for word in words:
 	print(word, file=file)
 
+	

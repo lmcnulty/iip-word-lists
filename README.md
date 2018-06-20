@@ -44,6 +44,14 @@ not work.)
 * `README.md` lists information about the project.
 * `build_site.sh` is a bash script that rebuilds the site, outputting to the `docs` directory. It can be run by typing `./build_site` in the terminal from the root project directory. To rebuild the site without re-downloading the epidoc files, run `./build_site --use-existing`. To rebuild the site without updating the word-lists (for example, when working on the frontend), run `./build_site --no-update`. For help, run `./build_site --help`.
 
+## Functionality
+
+### Lemmatization
+
+A word's *lemma* is its "basic" form as it might appear in a dictionary. For instance, the lemma of "rethinking" is "think". The process of getting a lemma from a word is called "lemmatization." Lemmatization allows this project to recognize different strings as instances of the same word, which is very useful for learning about the usage and distributions of specific words. 
+
+Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](https://cltk.org).
+
 ## Problems Encountered
 
 * Line breaks following certain tags indicate the start of a new word. 
@@ -69,4 +77,4 @@ not work.)
 ## Misc
 
 Thank you to the [Unicode Consortium](unicode.org) for keeping us on our
-toes by including the seperate characters '·' '‧' '⋅' '•' and '∙'.
+toes by including all these as seperate characters: · ‧ ⋅ • ∙.
