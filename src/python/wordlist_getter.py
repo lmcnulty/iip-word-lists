@@ -35,7 +35,9 @@ def is_word_terminating(a_step, walker):
 				return False
 		return True
 	for element in a_step.self_closing:
-		if element.tag == "lb" and element.attrib["break"] != "no":
+		if strip_namespace(element.tag) == "lb":
+			if "break" in element.attrib and element.attrib["break"] == "no":
+				return False
 			return True
 	return False
 
@@ -111,6 +113,9 @@ def get_words_from_element(root):
 						# new_word.preceding.append(words[-i])
 				words.append(new_word)
 				new_word = walker_word()
+			for self_closing_element in a_step.self_closing:
+				if strip_namespace(self_closing_element.tag) == "lb":
+					new_word.text += (a_step.character)
 			
 		# Remove closing elements
 		for element in a_step.ending: 
