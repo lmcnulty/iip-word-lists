@@ -82,10 +82,10 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 
 ## Todo
 
-[*] - Geographic Word Counts
-[*] - Filter by Region
-[*] - Word in Context
-[ ] - Named Entity Recognition?
+- [x] Geographic Word Counts
+- [x] Filter by Region
+- [x] Word in Context
+- [ ] Named Entity Recognition?
 
 ## Misc
 
