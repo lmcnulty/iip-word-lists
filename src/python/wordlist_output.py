@@ -130,7 +130,10 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			else:
 				words_object_string += "suspicious: false,"
 			
-			regions_string = str(list(word_dict[e][language].regions))
+			the_regions = list(word_dict[e][language].regions)
+			while None in the_regions:
+				the_regions.remove(None)
+			regions_string = str(the_regions)
 			
 			if not (regions_string == '[None]'):
 				words_object_string += "regions: " + regions_string
