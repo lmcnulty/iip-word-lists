@@ -115,7 +115,8 @@ def get_words_from_element(root):
 				new_word = walker_word()
 			for self_closing_element in a_step.self_closing:
 				if strip_namespace(self_closing_element.tag) == "lb":
-					new_word.text += (a_step.character)
+					if not a_step.character.isspace():
+						new_word.text += (a_step.character)
 			
 		# Remove closing elements
 		for element in a_step.ending: 
