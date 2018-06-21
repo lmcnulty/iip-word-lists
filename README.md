@@ -36,6 +36,12 @@ not work.)
 ## Project structure
 
 * `docs` contains the files for the [github pages site](https://lmcnulty.github.io/iip-word-lists).
+  * `texts` contains the files representing individual inscription.
+    * `xml` contains these files in their original XML form.
+    * `plain` contains plain text representations of the inscriptions
+    * `plain_lemma` contains the same as above, but using lemmas of each word instead of the actual text as it appeared in the inscription.
+  * each language has its own directory containing its data in html format.
+  * `doubletreejs` contains code for a the [DoubleTreeJS](http://www.sfs.uni-tuebingen.de/~cculy/software/DoubleTreeJS/index.html) visualization library.
 * `src` contains the list creation script and the html and css templates for the site.
   * `python` contains the python scripts for processing the data
     * `wordlist.py` is the python script that generates word lists. The basic usage is `./wordlist.py <epidoc files to process>`. By default, the list will be printed to the terminal, other output formats can be specified with flags. Run `./wordlist.py --help` for information on usage.
@@ -73,6 +79,13 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 * jeru0003.xml, line 127: <lb> should have attribute break="no"
 * zoor0013.xml, line 136: 'expan="ἔτους"&gt;' appears outside of tag
 * zoor0136.xml, line 156: 'expan="ἡμέρᾳ"&gt;' appears outside of tag
+
+## Todo
+
+[*] - Geographic Word Counts
+[*] - Filter by Region
+[*] - Word in Context
+[ ] - Named Entity Recognition?
 
 ## Misc
 
