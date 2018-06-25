@@ -8,8 +8,8 @@ function create(elementType) {
 		} else if (Array.isArray(currentArgument)) {
 			for (let j = 0; j < arguments[i].length; j++) {
 				if (typeof(arguments[i][j]) === 'string') {
-					newElement.innerHTML += currentArgument[j];		
-				} else {	
+					newElement.innerHTML += currentArgument[j];
+				} else {
 					newElement.appendChild(currentArgument[j]);
 				}
 			}
@@ -32,40 +32,65 @@ function insertBefore(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode);
 }
 
+let controlsBar = create("div", {id: "controlsBar"}, [
+	create("input", {
+		type: "text", 
+		placeholder: "Search for matching words...",
+		id: "searchBar"
+	}),
+	//create("br"),
+	create("label", "Region", {id: "regionLabel", for: "regionSelect"}),
+	create("div", {class: "select-wrapper"}, [
+		create("select", {id: "regionSelect"}, [
+			create("option", "All", {value: "all"})
+		]),
+	]),
+	create("label", "Sort by", {id: "sortByLabel", for: "sortSelect"}),
+	create("div", {class: "select-wrapper"}, [
+		create("select", {id: "sortSelect"}, [
+			create("option", "Alphabet", {value: "alphabet"}),
+			create("option", "Occurences", {value: "occurences"})
+		])
+	]),
+	create("input", {
+		type: "checkbox", 
+		id: "showSuspiciousCheck"
+	}),
+	create("label", "Show suspicious words", {
+		id: "showSuspiciousLabel", for: "showSuspiciousCheck"
+	}),
+]);
+
+// Add created elements to document
+let words = document.getElementById("words");
+words.parentNode.insertBefore(controlsBar, words);
+
 // Create a searchbar
-let searchbar = create("input", {
-	type: "text", 
-	placeholder: "Search for matching words..."
-})
+let searchbar = document.getElementById("searchBar");
 
 // Create checkbox for toggling visibility of suspicious words
-let showSuspiciousCheck = create("input", {
-	type: "checkbox", 
-	id: "showSuspiciousCheck"
-});
+let showSuspiciousCheck = document.getElementById("showSuspiciousCheck");
 showSuspiciousCheck.addEventListener("click", render, false);
-let showSuspiciousLabel = create("label", "Show suspicious words", 
-                                 {for: showSuspiciousCheck});
+let showSuspiciousLabel = document.getElementById("showSuspiciousLabel");
 
 // Create a <select> for choosing sort method
-let sortSelect = create("select", {id: "sortSelect"}, [
-	create("option", "Alphabet", {value: "alphabet"}),
-	create("option", "Occurences", {value: "occurences"})
-]);
+let sortSelect = document.getElementById("sortSelect");
 sortSelect.addEventListener("change", () => {
 	sortWordList();
 	render();
 }, false);
-let sortByLabel = create("label", "Sort by", {for: "sortSelect"});
 
-// Add created elements to document
-let words = document.getElementById("words");
-words.parentNode.insertBefore(searchbar, words);
+let sortByLabel = document.getElementById("sortByLabel");
+
+
+
+/*
 insertAfter(sortByLabel, searchbar);
 insertAfter(sortSelect, sortByLabel);
 insertAfter(showSuspiciousCheck, sortSelect);
 insertAfter(showSuspiciousLabel, showSuspiciousCheck);
 insertAfter(document.createElement("br"), searchbar);
+*/
 
 // Global Variables
 let wordsPerPage = 60; 
@@ -102,13 +127,13 @@ for (let i = 0; i < wordsArray.length; i++) {
 	wordList.push(newWord);
 }
 
-let regionSelect = create("select", {id: "regionSelect"}, create("option", "All", {value: "all"}));
-let regionLabel = create("label", "Region", {for: "regionSelect"});
+let regionSelect = document.getElementById("regionSelect");
+let regionLabel = document.getElementById("regionLabel");
 for (var i of regionsSet) {
 	regionSelect.appendChild(create("option", i, {value: i}));
 }
-insertBefore(regionSelect, sortByLabel);
-insertBefore(regionLabel, regionSelect);
+//insertBefore(regionSelect, sortByLabel);
+//insertBefore(regionLabel, regionSelect);
 
 regionSelect.addEventListener("change", () => {
 	render();
@@ -116,12 +141,19 @@ regionSelect.addEventListener("change", () => {
 
 let prev = document.createElement("button");
 let next = document.createElement("button");
-prev.innerHTML = "Prev"
-next.innerHTML = "Next"
+prev.innerHTML = "PREV"
+next.innerHTML = "NEXT"
 prev.id = "previous-button";
 next.id = "next-button";
-insertAfter(prev, words);
-insertAfter(next, prev);
+
+let bottomControls = create("div", {id: "bottomControls"}, [
+	prev, next
+]);
+
+insertAfter(bottomControls, words);
+//insertAfter(prev, words);
+//insertAfter(next, prev);
+
 prev.addEventListener("click", () => {
 	after = Math.max(after - wordsPerPage, 0); 
 	render();

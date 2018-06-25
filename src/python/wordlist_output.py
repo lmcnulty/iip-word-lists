@@ -114,7 +114,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 	for language in word_lists:
 		root = etree.fromstring(INDEX_PAGE_HTML)
 		root.find(".//title").text = full_language(language).title()
-		root.find(".//h1").text = full_language(language).title()
+		#root.find(".//h1").text = full_language(language).title()
 		word_list_html = root.find(".//noscript[@id='wordList']")
 		words_object_string = ""
 		for e in sorted(word_lists[language]):

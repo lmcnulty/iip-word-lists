@@ -68,7 +68,7 @@ INDEX_PAGE_HTML = """
 		<link rel="stylesheet" type="text/css" href="../style.css" />
 	</head>
 	<body>
-		<h1></h1>
+		<!-- <h1></h1> -->
 		<ul id='words'>
 			<noscript id="wordList">
 			
