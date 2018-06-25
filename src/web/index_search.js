@@ -176,9 +176,25 @@ function checkSkip(word) {
 	return false;
 }
 
+let lastRender = 0;
+
 function render() {
+	let timeDif = Date.now() - lastRender;
+	if (timeDif < 500) {setTimeout(render, 500 - timeDif); return;}
+	lastRender = Date.now();
 	while (words.firstChild) {
 		words.removeChild(words.firstChild);
+	}
+	if (searchbar.value != "") {
+		wordList.sort((a, b) => {
+			a.text = a.children[0].innerHTML;
+			b.text = b.children[0].innerHTML;
+			a.levEdit = Levenshtein.get(a.text, searchbar.value);
+			b.levEdit = Levenshtein.get(b.text, searchbar.value)
+			return a.levEdit - b.levEdit;
+		});
+	} else {
+		sortWordList();
 	}
 	let added = 0; let seen = 0;
 	prev.disabled = true; next.disabled = true;
@@ -191,7 +207,9 @@ function render() {
 		let word = wordList[i]
 		if (checkSkip(word)) {continue;}
 		let text = word.children[0].innerHTML.toLowerCase();
-		if (text.startsWith(searchbar.value.toLowerCase())) {
+		let searchText = searchbar.value.toLowerCase();
+		if (text.startsWith(searchText) || 
+		    wordList[i].levEdit < 4) {
 			seen += 1;
 			if (seen > after) {
 				added += 1;
