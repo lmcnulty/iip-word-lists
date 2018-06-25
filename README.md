@@ -85,7 +85,7 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 - [x] Geographic Word Counts
 - [x] Filter by Region
 - [x] Word in Context
-- [ ] Default to sort by occurence
+- [x] Default to sort by occurence
 - [ ] Word Frequency by Geography
 - [ ] Part of Speech Tagging
 - [ ] Display for `<corr>` `<reg>`

@@ -48,8 +48,8 @@ let controlsBar = create("div", {id: "controlsBar"}, [
 	create("label", "Sort by", {id: "sortByLabel", for: "sortSelect"}),
 	create("div", {class: "select-wrapper"}, [
 		create("select", {id: "sortSelect"}, [
-			create("option", "Alphabet", {value: "alphabet"}),
-			create("option", "Occurences", {value: "occurences"})
+			create("option", "Occurences", {value: "occurences"}),
+			create("option", "Alphabet", {value: "alphabet"})
 		])
 	]),
 	create("input", {
