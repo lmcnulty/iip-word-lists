@@ -193,6 +193,7 @@ function render() {
 			a.regexMatch = false;
 			b.regexMatch = false;		
 			if (a.text.match(re) != null) {
+				console.log(a.text + " matches " + re);
 				a.regexMatch = true; 
 			}
 			if (b.text.match(re) != null) { b.regexMatch = true; }

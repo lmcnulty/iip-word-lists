@@ -185,12 +185,22 @@ function render() {
 	while (words.firstChild) {
 		words.removeChild(words.firstChild);
 	}
+	let re = new RegExp(searchbar.value);
 	if (searchbar.value != "") {
 		wordList.sort((a, b) => {
 			a.text = a.children[0].innerHTML;
-			b.text = b.children[0].innerHTML;
+			b.text = b.children[0].innerHTML;	
+			a.regexMatch = false;
+			b.regexMatch = false;		
+			if (a.text.match(re) != null) {
+				a.regexMatch = true; 
+			}
+			if (b.text.match(re) != null) { b.regexMatch = true; }
 			a.levEdit = Levenshtein.get(a.text, searchbar.value);
 			b.levEdit = Levenshtein.get(b.text, searchbar.value)
+			if (a.regexMatch && !b.regexMatch) { return -1;}
+			if (b.regexMatch && !a.regexMatch) { return 1;}
+			
 			return a.levEdit - b.levEdit;
 		});
 	} else {
@@ -209,7 +219,8 @@ function render() {
 		let text = word.children[0].innerHTML.toLowerCase();
 		let searchText = searchbar.value.toLowerCase();
 		if (text.startsWith(searchText) || 
-		    wordList[i].levEdit < 4) {
+		    wordList[i].levEdit < 4 ||
+		    wordList[i].regexMatch) {
 			seen += 1;
 			if (seen > after) {
 				added += 1;
