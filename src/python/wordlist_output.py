@@ -91,6 +91,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				
 				row.find(".//code[@id='xml']").text = e.xml_context
 				row.find(".//td[@id='region']").text = e.region
+				row.find(".//td[@id='pos']").text = e.pos
 				root.find(".//table[@id='occurences']").append(row)
 				xml_contexts.append(e.xml_context)
 			files_list_html = root.find(".//ul[@id='files']")
@@ -277,11 +278,14 @@ def occurence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME + "
 		file_name.append(file_name_link)
 		xml_context = etree.Element("td")
 		xml_context.text = word.xml_context
+		pos = etree.Element("td")
+		pos.text = word.pos
 		row.append(text)
 		row.append(language)
 		row.append(edition_type)
 		row.append(xml_context)
 		row.append(file_name)
+		row.append(pos)
 		table.append(row)
 	if num > 0:
 		prev_link = etree.Element("a")

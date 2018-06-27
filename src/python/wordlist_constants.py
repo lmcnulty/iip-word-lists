@@ -54,6 +54,7 @@ INFO_PAGE_HTML = """
 				<th>Word in Context</th>
 				<th>XML</th>
 				<th>Region</th>
+				<th>Part of Speech</th>
 			</tr>
 		</table>
 	</body>
@@ -105,5 +106,6 @@ OCCURENCE_TABLE_ROW_HTML = """
 	<td id="kwic"></td>
 	<td><code id="xml" class="prettyprint"></code></td>
 	<td id="region"></td>
+	<td id="pos"></td>
 </tr>
 """.replace("\t", "")

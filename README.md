@@ -1,5 +1,3 @@
-# iip-word-lists
-
 ## Introduction
 
 This code in this repository is intended for use in the [Inscriptions of Israel / Palestine project](http://library.brown.edu/cds/projects/iip/search/). It uses Python and LXML to generate word lists from [epidoc](http://www.stoa.org/epidoc/gl/latest/) files and includes a simple web interface.
@@ -90,10 +88,11 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 - [ ] Part of Speech Tagging
 - [ ] Display for `<corr>` `<reg>`
 - [ ] Stems
-- [ ] Fuzzy Search
-- [ ] Wildcard Search
+- [x] Fuzzy Search
+- [x] Wildcard Search
 - [ ] Named Entity Recognition?
-- [ ] Frontend Redesign
+- [x] Frontend Redesign
+- [ ] Add Alphabet links to frontend
 
 ## Misc
 

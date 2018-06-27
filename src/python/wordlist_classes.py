@@ -59,7 +59,7 @@ class iip_word_occurence:
 		self.internal_elements = defaultdict(lambda: internal_element_index())
 		self.previous = []
 		self.following = []
-		
+		self.pos = ""		
 		
 	def __hash__(self):
 		new_hash = 0
@@ -84,6 +84,6 @@ class iip_word_occurence:
 		print(self.text + " | " + self.lemmatization + " | "  
 		      + self.language + " | " + self.edition_type + " | "  
 		      + self.file_name + "|" + self.xml_context + "|" 
-		      + str(self.alternatives))
+		      + str(self.alternatives) + "|" + str(self.pos))
 		      #+ "|" + format_element_list(self.within))
 

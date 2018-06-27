@@ -17,7 +17,7 @@ from cltk.corpus.utils.importer import CorpusImporter
 from cltk.stem.lemma import LemmaReplacer
 from cltk.stem.latin.j_v import JVReplacer
 from nltk.corpus import stopwords
-
+from cltk.tag.pos import POSTag
 
 from repl import *
 from wordlist_constants import *
@@ -117,7 +117,17 @@ def get_words_from_file(path, file_dict, new_system):
 			mainLang += "-transl"
 		new_words = []
 		if new_system:
-			for e in get_words_from_element(edition):
+			retrieved_words = get_words_from_element(edition)
+			combined_words = ""
+			for e in retrieved_words:
+				combined_words += e.text + " "
+			tagged_words = None
+			if mainLang in LATIN_CODES:
+				tagger = POSTag('latin')
+				tagged_words = tagger.tag_crf(combined_words)
+			if "-transl" in mainLang:
+				tagged_words = nltk.pos_tag(nltk.word_tokenize(combined_words))
+			for e in retrieved_words:
 				new_words.append(iip_word_occurence(
 					edition_type,
 					mainLang,
@@ -130,6 +140,10 @@ def get_words_from_file(path, file_dict, new_system):
 				new_words[-1].alternatives = e.alternatives
 				new_words[-1].preceding = e.preceding
 				new_words[-1].following = e.following
+				if tagged_words != None:
+					for tagged_word in tagged_words:
+						if tagged_word[0] == e.text:
+							new_words[-1].pos = tagged_word[1]
 		else:
 			new_words = [iip_word_occurence(edition_type, 
 			             mainLang, "", path, textRegion.text, [])]
