@@ -99,6 +99,7 @@ let wordList = []
 let regionsSet = new Set();
 
 function sortWordList() {
+	after = 0;
 	if (sortSelect.value == "occurences") {
 		wordList.sort((a, b) => {
 			return b.getAttribute("data-num-occurences") - 
@@ -146,13 +147,40 @@ next.innerHTML = "NEXT"
 prev.id = "previous-button";
 next.id = "next-button";
 
+let alphabetSelect = create("div", {id: "alphabet-select"});
+
 let bottomControls = create("div", {id: "bottomControls"}, [
-	prev, next
+	alphabetSelect, prev, next
 ]);
 
 insertAfter(bottomControls, words);
 //insertAfter(prev, words);
 //insertAfter(next, prev);
+
+
+function jumpToLetter(evt) {
+	sortSelect.value = "alphabet";
+	sortWordList();
+	for (let i = 0; i < wordList.length - wordsPerPage; i += wordsPerPage) {
+		if (wordList[i].children[0].innerHTML[0]
+		    < evt.target.innerHTML[0]
+		) {
+			after = i;
+		}
+	}
+	render();
+}
+
+let letters = new Set();
+for (let i = 0; i < wordList.length; i++) {
+	letters.add(wordList[i].children[0].innerHTML[0]);
+}
+sortedLetters = Array.from(letters).sort();
+for (let i = 0; i < sortedLetters.length; i++) {
+	let link = create("a", sortedLetters[i]);
+	link.addEventListener("click", jumpToLetter, false);
+	alphabetSelect.appendChild(link);
+}
 
 prev.addEventListener("click", () => {
 	after = Math.max(after - wordsPerPage, 0); 
@@ -178,15 +206,17 @@ function checkSkip(word) {
 
 let lastRender = 0;
 
+let standardSort = true;
 function render() {
-	let timeDif = Date.now() - lastRender;
-	if (timeDif < 500) {setTimeout(render, 500 - timeDif); return;}
-	lastRender = Date.now();
+	//let timeDif = Date.now() - lastRender;
+	//if (timeDif < 500) {setTimeout(render, 500 - timeDif); return;}
+	//lastRender = Date.now();
 	while (words.firstChild) {
 		words.removeChild(words.firstChild);
 	}
 	let re = new RegExp(searchbar.value);
 	if (searchbar.value != "") {
+		standardSort = false;
 		wordList.sort((a, b) => {
 			a.text = a.children[0].innerHTML;
 			b.text = b.children[0].innerHTML;	
@@ -204,7 +234,10 @@ function render() {
 			return a.levEdit - b.levEdit;
 		});
 	} else {
-		sortWordList();
+		if (!standardSort) {
+			sortWordList();
+			standardSort = true;
+		}
 	}
 	let added = 0; let seen = 0;
 	prev.disabled = true; next.disabled = true;

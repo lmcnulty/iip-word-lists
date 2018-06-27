@@ -66,7 +66,7 @@ INDEX_PAGE_HTML = """
 	<head>
 		<meta charset='UTF-8' />
 		<title></title>
-		<script src="../levenstein.min.js"> </script>
+		<script src="../levenshtein.min.js"> </script>
 		<link rel="stylesheet" type="text/css" href="../style.css" />
 	</head>
 	<body>

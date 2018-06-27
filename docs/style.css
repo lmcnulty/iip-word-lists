@@ -169,3 +169,10 @@ li {
 	width: 100%;
 	height: 400px;
 }
+#alphabet-select {
+	margin-bottom: 10px;
+}
+#alphabet-select a {
+	margin-left: 2px;
+	margin-right: 2px;
+}

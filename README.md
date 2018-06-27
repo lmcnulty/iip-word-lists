@@ -92,7 +92,7 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 - [x] Wildcard Search
 - [ ] Named Entity Recognition?
 - [x] Frontend Redesign
-- [ ] Add Alphabet links to frontend
+- [x] Add Alphabet links to frontend
 
 ## Misc
 
