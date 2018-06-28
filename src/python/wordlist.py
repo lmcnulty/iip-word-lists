@@ -125,6 +125,9 @@ def get_words_from_file(path, file_dict, new_system):
 			if mainLang in LATIN_CODES:
 				tagger = POSTag('latin')
 				tagged_words = tagger.tag_crf(combined_words)
+			elif mainLang in  GREEK_CODES:
+				tagger = POSTag('greek')
+				tagged_words = tagger.tag_crf(combined_words)
 			if "-transl" in mainLang:
 				tagged_words = nltk.pos_tag(nltk.word_tokenize(combined_words))
 			for e in retrieved_words:

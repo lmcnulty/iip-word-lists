@@ -177,7 +177,7 @@ for (let i = 0; i < wordList.length; i++) {
 }
 sortedLetters = Array.from(letters).sort();
 for (let i = 0; i < sortedLetters.length; i++) {
-	let link = create("a", sortedLetters[i]);
+	let link = create("a", "" + sortedLetters[i]);
 	link.addEventListener("click", jumpToLetter, false);
 	alphabetSelect.appendChild(link);
 }

@@ -1,3 +1,10 @@
 ul {
 	column-width: 20ch;
 }
+a {
+	color: #476757;
+	transition: all 0.3s ease 0s;
+}
+a:focus, a:hover {
+	color: #b1af89;
+}
