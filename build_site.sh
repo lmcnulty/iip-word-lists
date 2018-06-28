@@ -83,6 +83,7 @@ cp src/web/index_search.js docs/;
 cp src/web/doubletree.html docs/;
 cp -r src/web/doubletreejs docs/;
 cp src/web/levenshtein.min.js docs/;
+cp src/web/wordinfo.css docs/;
 
 cat docs/texts/plain/* > docs/combined.txt
 ./src/python/per_line.py docs/combined.txt docs/doubletree-data.txt

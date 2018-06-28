@@ -18,7 +18,7 @@ from cltk.stem.lemma import LemmaReplacer
 from cltk.stem.latin.j_v import JVReplacer
 from nltk.corpus import stopwords
 from cltk.tag.pos import POSTag
-
+from cltk.stem.latin.stem import Stemmer
 from repl import *
 from wordlist_constants import *
 from wordlist_output import *
@@ -267,7 +267,11 @@ if __name__ == '__main__':
 	if args.nodiplomatic or args.engstops:
 		occurences = filtered_words
 
+	lang_count = defaultdict(lambda: 0)
+
 	for word in occurences:
+		lang_count[word.language] += 1
+		
 		# Add occurences to dictionary
 		word_dict[word.lemmatization.lower()][word.language]\
 			.occurences.append(word)
@@ -284,6 +288,16 @@ if __name__ == '__main__':
 		check_suspicious(
 			word_dict[word.lemmatization.lower()][word.language]
 		)
+
+	la_stemmer = Stemmer()
+	for key in word_dict:
+		for language in word_dict[key]:
+			word = word_dict[key][language]
+			word.frequency_total = len(word.occurences) / len(occurences)
+			word.frequency_language = len(word.occurences) / lang_count[word.language]
+			
+			if language == "la":
+				word.stem = la_stemmer.stem(word.lemma)
 
 	# Sort according to the given arguments before writing to file
 	sort_order = []

@@ -10,6 +10,9 @@ class iip_word:
 		self.regions = set()
 		self.suspicious = False
 		self.alternatives = []
+		self.frequency_total = 0
+		self.frequency_language = 0
+		self.stem = ""
 
 class iip_file:
 	def __init__(self, file_name, region):
@@ -59,7 +62,8 @@ class iip_word_occurence:
 		self.internal_elements = defaultdict(lambda: internal_element_index())
 		self.previous = []
 		self.following = []
-		self.pos = ""		
+		self.pos = ""
+		
 		
 	def __hash__(self):
 		new_hash = 0
