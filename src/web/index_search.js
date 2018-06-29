@@ -25,6 +25,11 @@ function create(elementType) {
 	}
 	return newElement;
 }
+
+function normalizeGreek(text) {
+    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+}
+
 function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
@@ -214,20 +219,21 @@ function render() {
 	while (words.firstChild) {
 		words.removeChild(words.firstChild);
 	}
-	let re = new RegExp(searchbar.value);
+	let normalizedSearch = normalizeGreek(searchbar.value);
+	let re = new RegExp(normalizedSearch);
 	if (searchbar.value != "") {
 		standardSort = false;
 		wordList.sort((a, b) => {
-			a.text = a.children[0].innerHTML;
-			b.text = b.children[0].innerHTML;	
+			a.text = normalizeGreek(a.children[0].innerHTML);
+			b.text = normalizeGreek(b.children[0].innerHTML);	
 			a.regexMatch = false;
 			b.regexMatch = false;		
 			if (a.text.match(re) != null) {
 				a.regexMatch = true; 
 			}
 			if (b.text.match(re) != null) { b.regexMatch = true; }
-			a.levEdit = Levenshtein.get(a.text, searchbar.value);
-			b.levEdit = Levenshtein.get(b.text, searchbar.value)
+			a.levEdit = Levenshtein.get(a.text, normalizedSearch);
+			b.levEdit = Levenshtein.get(b.text, normalizedSearch)
 			if (a.regexMatch && !b.regexMatch) { return -1;}
 			if (b.regexMatch && !a.regexMatch) { return 1;}
 			
