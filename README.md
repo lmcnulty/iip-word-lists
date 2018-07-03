@@ -21,7 +21,7 @@ This code in this repository is intended for use in the [Inscriptions of Israel 
 
 0. Enter the docs directory with `cd docs`
 1. Start an http by running python -m SimpleHTTPServer 8000 
-2. Open localhost:8000 in your web browser
+2. Open localhost:8000 to ##simulate a web-server environment
 
 (You can view the files without running the server, but some links will
 not work.)
@@ -52,9 +52,10 @@ not work.)
 
 ### Lemmatization
 
-A word's *lemma* is its "basic" form as it might appear in a dictionary. For instance, the lemma of "rethinking" is "think". The process of getting a lemma from a word is called "lemmatization." Lemmatization allows this project to recognize different strings as instances of the same word, which is very useful for learning about the usage and distributions of specific words. 
+A word's *lemma* is its "basic" form as it might appear in a dictionary. For instance, the lemma of "rethinking" is "think." The process of getting a lemma from a word is called "lemmatization." Lemmatization allows this project to recognize different strings as instances of the same word, which is very useful for learning about the usage and distributions of specific words. 
 
 Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](https://cltk.org).
+## Question: how do we use CLTK to get the lemmatization for Latin and Greek? 
 
 ## Problems Encountered
 
@@ -62,7 +63,7 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
   These are currently listed in the global variable `include_trailing_linebreak`.
   However, this is not comprehensive. A complete list based on the epidoc
   spec should be added.
-* How should gaps be handled?
+* How should gaps be handled? ##list an example
 * Graffiti: some transcriptions, such as masa09390.xml, are of graffiti
   and do not contain complete words but just jumbles of characters.
   Currently these are added to the word list as if they were words, 
@@ -78,7 +79,7 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 * zoor0013.xml, line 136: 'expan="ἔτους"&gt;' appears outside of tag
 * zoor0136.xml, line 156: 'expan="ἡμέρᾳ"&gt;' appears outside of tag
 
-## Todo
+## To do
 
 - [x] Geographic Word Counts
 - [x] Filter by Region
