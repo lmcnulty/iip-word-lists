@@ -5,10 +5,13 @@ XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 IGNORE = ['⎜', '{', '}', '|', '(', '?', ')', ',', ';', '.', ':', 
            '"', "'", "<", ">", "+", "[", "]", "_", "/", "#", "*", '~', 
            '´', '=', '·', '‧', '⋅', '•', '∙']
-INCLUDE_TRAILING_LINEBREAK = [TEI_NS + "persName", TEI_NS + "expan", 
-                              TEI_NS + "choice", TEI_NS + "hi", TEI_NS +
+INCLUDE_TRAILING_LINEBREAK = [TEI_NS + "persName", TEI_NS + "abbr",
+                              TEI_NS + "choice", TEI_NS +
                               "supplied", TEI_NS + "num", TEI_NS + 
                               "div", TEI_NS + "unclear", TEI_NS + "placeName"]
+
+NO_SPAN_WORDS = [TEI_NS + "expan", TEI_NS + "num"]
+
 LATIN_CODES = ["la", "lat"]
 GREEK_CODES = ["grc"]
 codes = [

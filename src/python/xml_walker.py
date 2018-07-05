@@ -45,6 +45,7 @@ class step:
 		self.self_closing = self_closing
 		self.character = character 
 		self.index = index
+		self.is_indent = False
 
 class walkable_xml:
 	def __init__(self, xml, ignore = []):

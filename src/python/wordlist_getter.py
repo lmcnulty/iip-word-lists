@@ -22,23 +22,58 @@ class walker_word:
 		self.preceding = []
 		self.internal_elements = defaultdict(
 			lambda: internal_element_index())
-		
+
+def is_indent(a_step, walker):
+	if not a_step.character.isspace():
+		a_step.is_indent = False
+		return False
+	if len(a_step.starting + a_step.ending + a_step.self_closing) > 0:
+		return False
+	if a_step.character == "\n":
+		a_step.is_indent = False
+		return False
+	prev_step = a_step
+	while prev_step != None and prev_step.character.isspace():
+		if not prev_step.character.isspace():
+			a_step.is_indent = False
+			return False
+		if prev_step.is_indent:
+			a_step.is_indent = True
+			return True
+		if prev_step.character == "\n":
+			a_step.is_indent = True
+			return True
+		prev_step = walker.get_neighbor(-1, prev_step.index)
+	a_step.is_indent = False
+	return False
+
 def is_word_terminating(a_step, walker):
+	#print(a_step.character + " - ", end="")
 	if a_step == None:
+		#print("Word Terminating")
 		return True
-	if a_step.character.isspace():
+	for e in a_step.ending:
+		if e.tag in NO_SPAN_WORDS:
+			return True
+	for element in a_step.self_closing:
+		if strip_namespace(element.tag) == "lb":
+			if "break" in element.attrib and element.attrib["break"] == "no":
+				#print("NOT Word Terminating - Line break Element")
+				return False
+			#print("Word Terminating")
+			return True
+	if a_step.character.isspace() and not is_indent(a_step, walker):
 		if a_step.character == "\n":
 			the_preceding_element = preceding_element(a_step, walker, 
 		                                          whitespace_only=True) 
 			if (the_preceding_element != None 
-			and the_preceding_element in INCLUDE_TRAILING_LINEBREAK):
+			and the_preceding_element.tag in INCLUDE_TRAILING_LINEBREAK):
+				#print("""NOT Word Terminating: Preceding Element in 
+				#      INCLUDE_TRAILING_LINEBREAK""")
 				return False
+		#print("Word Terminating - Space and not indent")
 		return True
-	for element in a_step.self_closing:
-		if strip_namespace(element.tag) == "lb":
-			if "break" in element.attrib and element.attrib["break"] == "no":
-				return False
-			return True
+	#print("NOT Word Terminating")
 	return False
 
 class choice:
@@ -62,7 +97,8 @@ def get_words_from_element(root):
 	for a_step in walker:
 		# Add starting elements
 		for element in a_step.starting:
-			if type(element.tag) is str and strip_namespace(element.tag) == "choice":
+			if (type(element.tag) is str and 
+			strip_namespace(element.tag) == "choice"):
 				choice_stack.append(choice(element, copy(new_word.text),
 				                    len(words)))
 			if (len(choice_stack) > 0 and 
@@ -87,16 +123,21 @@ def get_words_from_element(root):
 				new_word.surrounding_elements.append(element)
 		
 		# Add the character to the word's text
-		if (not is_word_terminating(a_step, walker) 
-		and not a_step.character == "\n"):
-			if len(choice_stack) > 0 and choice_stack[-1].element.getchildren()[0] in within:
+		# TODO: This causes words seperated by linebreak not to include first character
+		if (not a_step.character.isspace() and not (TEI_NS + "lb" in [x.tag for x in a_step.self_closing])
+		and not a_step.character == "\n") and not (is_indent(a_step, walker)):
+			if (len(choice_stack) > 0 and 
+			choice_stack[-1].element.getchildren()[0] in within):
 				 new_word.text += a_step.character
-			elif len(choice_stack) > 0 and set(choice_stack[-1].element.getchildren()).intersection(set(within)):
+			elif (len(choice_stack) > 0 and 
+			set(choice_stack[-1].element.getchildren()).intersection(
+			set(within))):
 				if len(words) > choice_stack[-1].word_index:
 					if len(words[choice_stack[-1].word_index].alternatives) > 0:
 						words[choice_stack[-1].word_index].alternatives[-1] += a_step.character
 					else:
-						words[choice_stack[-1].word_index].alternatives.append("" + a_step.character)
+						words[choice_stack[-1].word_index].alternatives.append(
+						"" + a_step.character)
 				else:
 					new_word.alternatives[-1] += a_step.character
 			else:
@@ -120,7 +161,8 @@ def get_words_from_element(root):
 			
 		# Remove closing elements
 		for element in a_step.ending: 
-			if type(element.tag) is str and strip_namespace(element.tag) == "choice":
+			if (type(element.tag) is str and 
+			strip_namespace(element.tag) == "choice"):
 				choice_stack.pop()
 			within.remove(element)
 			if (len(new_word.text) > 0 
