@@ -167,8 +167,12 @@ function jumpToLetter(evt) {
 	sortSelect.value = "alphabet";
 	sortWordList();
 	for (let i = 0; i < wordList.length - wordsPerPage; i += wordsPerPage) {
-		if (wordList[i].children[0].innerHTML[0]
-		    < evt.target.innerHTML[0]
+		letter = wordList[i].children[0].innerHTML[0];
+		if (letter == null || typeof(letter) == 'undefined') {
+			console.log(wordList[i].children[0].innerHTML);
+			continue;
+		}
+		if (normalizeGreek(letter) < normalizeGreek(evt.target.innerHTML[0])
 		) {
 			after = i;
 		}
@@ -178,7 +182,10 @@ function jumpToLetter(evt) {
 
 let letters = new Set();
 for (let i = 0; i < wordList.length; i++) {
-	letters.add(wordList[i].children[0].innerHTML[0]);
+	letter = wordList[i].children[0].innerHTML[0];
+	if (letter != null && typeof letter != 'undefined') {
+		letters.add(normalizeGreek(letter));
+	}
 }
 sortedLetters = Array.from(letters).sort();
 for (let i = 0; i < sortedLetters.length; i++) {
