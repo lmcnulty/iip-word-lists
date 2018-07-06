@@ -74,9 +74,9 @@ def print_word_info(word_string, word_dict):
 	language_dict = word_dict[word_string]
 	for language in language_dict:
 		word = language_dict[language]
-		occurences = language_dict[language].occurences
+		occurrences = language_dict[language].occurrences
 		print("___" + language + "___")
-		print("Occurances: " + str(len(occurences)))
+		print("Occurances: " + str(len(occurrences)))
 		print("Variations: ")
 		for variation in word.variations:
 			print("    " + variation)
@@ -131,7 +131,7 @@ def get_words_from_file(path, file_dict, new_system):
 			if "-transl" in mainLang:
 				tagged_words = nltk.pos_tag(nltk.word_tokenize(combined_words))
 			for e in retrieved_words:
-				new_words.append(iip_word_occurence(
+				new_words.append(iip_word_occurrence(
 					edition_type,
 					mainLang,
 					e.text,
@@ -148,7 +148,7 @@ def get_words_from_file(path, file_dict, new_system):
 						if tagged_word[0] == e.text:
 							new_words[-1].pos = tagged_word[1]
 		else:
-			new_words = [iip_word_occurence(edition_type, 
+			new_words = [iip_word_occurrence(edition_type, 
 			             mainLang, "", path, textRegion.text, [])]
 			add_element_to_word_list(edition, new_words, edition, 
 			                         mainLang, path, textRegion.text, 
@@ -176,7 +176,7 @@ if __name__ == '__main__':
 		new_system = False
 
 	# Extract words from each file
-	occurences = []  # Contains the iip_word_occurence objects 
+	occurrences = []  # Contains the iip_word_occurrence objects 
 	# Contains the iip_word objects
 	word_dict = defaultdict(lambda: defaultdict(lambda: iip_word()))
 	file_dict = {} # Maps file names to iip_file objects
@@ -192,13 +192,13 @@ if __name__ == '__main__':
 		try:
 			new_words = get_words_from_file(file, file_dict, new_system)
 			lemmatize(new_words, args.nolemma)
-			add_kwic_to_occurences(new_words)
+			add_kwic_to_occurrences(new_words)
 			if args.plaintext:
-				occurence_list_to_plain_text(new_words, plaintextdir
+				occurrence_list_to_plain_text(new_words, plaintextdir
 				                             + "_lemma/" + file.split("/")[-1].replace(".xml", ""))
-				occurence_list_to_plain_text(new_words, plaintextdir
+				occurrence_list_to_plain_text(new_words, plaintextdir
 				                             + "/" + file.split("/")[-1].replace(".xml", ""), False)
-			occurences += new_words
+			occurrences += new_words
 		except Exception as exception:
 			if args.fileexception:
 				raise exception
@@ -210,7 +210,7 @@ if __name__ == '__main__':
 	# list.		
 	filtered_words = []
 	stop_words = set(stopwords.words('english'))
-	for word in occurences:
+	for word in occurrences:
 		languages.add(word.language)
 		# Filter the word ocurances if necessary
 		add = True
@@ -268,16 +268,16 @@ if __name__ == '__main__':
 			.replace(TEI_NS,"")
 		
 	if args.nodiplomatic or args.engstops:
-		occurences = filtered_words
+		occurrences = filtered_words
 
 	lang_count = defaultdict(lambda: 0)
 
-	for word in occurences:
+	for word in occurrences:
 		lang_count[word.language] += 1
 		
-		# Add occurences to dictionary
+		# Add occurrences to dictionary
 		word_dict[word.lemmatization.lower()][word.language]\
-			.occurences.append(word)
+			.occurrences.append(word)
 		word_dict[word.lemmatization.lower()][word.language]\
 			.variations.add(word.text)
 		word_dict[word.lemmatization.lower()][word.language]\
@@ -296,8 +296,8 @@ if __name__ == '__main__':
 	for key in word_dict:
 		for language in word_dict[key]:
 			word = word_dict[key][language]
-			word.frequency_total = len(word.occurences) / len(occurences)
-			word.frequency_language = len(word.occurences) / lang_count[word.language]
+			word.frequency_total = len(word.occurrences) / len(occurrences)
+			word.frequency_language = len(word.occurrences) / lang_count[word.language]
 			
 			if language == "la":
 				word.stem = la_stemmer.stem(word.lemma)
@@ -318,11 +318,11 @@ if __name__ == '__main__':
 				print("Invalid sort criterion: '" + e + "'")
 	sort_order.reverse()
 	for field in sort_order:
-		occurences = sorted(occurences, key=lambda word: 
+		occurrences = sorted(occurrences, key=lambda word: 
 			                        word.__dict__[field])
 	# Print each extracted word on a new line
 	if not args.silent:
-		for word in occurences:		
+		for word in occurrences:		
 			word.print()
 
 	# Output words to files
@@ -330,9 +330,9 @@ if __name__ == '__main__':
 	if args.name != None:
 		output_name = args.name
 	if args.html:
-		occurence_list_to_html(occurences, langfiles=args.langfiles)
+		occurrence_list_to_html(occurrences, langfiles=args.langfiles)
 	if args.csv:
-		occurence_list_to_csv(occurences, langfiles=args.langfiles)
+		occurrence_list_to_csv(occurrences, langfiles=args.langfiles)
 	if args.html_general:
 		word_list_to_html(word_dict, languages, output_name=".")
 	if args.repl:

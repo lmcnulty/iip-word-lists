@@ -171,6 +171,9 @@ li {
 }
 #alphabet-select {
 	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 #alphabet-select a {
 	margin-left: 2px;

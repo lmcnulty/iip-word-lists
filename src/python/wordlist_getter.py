@@ -1,9 +1,9 @@
 """
-The code in this file is used to extract word occurences from XML files.
+The code in this file is used to extract word occurrences from XML files.
 """
 
 from xml_walker import *
-from wordlist_classes import iip_word_occurence
+from wordlist_classes import iip_word_occurrence
 from wordlist_constants import *
 from strip_namespace import *
 from copy import copy

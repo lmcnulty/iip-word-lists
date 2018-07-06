@@ -42,7 +42,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			
 			
 				
-			occurences = word_obj.occurences
+			occurrences = word_obj.occurrences
 			root.find(".//h1").text = (word + " [" + full_language(language).title() + "]")
 			
 			root.find(".//a[@id='doubletree-link']").attrib["href"]\
@@ -50,15 +50,15 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			#root.find(".//iframe[@id='doubletree-frame']").attrib["src"]\
 			#	= "../doubletree.html?word=" + word_obj.lemma.lower()
 			
-			root.find(".//td[@id='num-occurences']").text = str(len(word_obj.occurences))
+			root.find(".//td[@id='num-occurrences']").text = str(len(word_obj.occurrences))
 			root.find(".//td[@id='total-frequency']").text = str(word_obj.frequency_total)
 			root.find(".//td[@id='language-frequency']").text = str(word_obj.frequency_language)
 			root.find(".//td[@id='stem']").text = str(word_obj.stem)
 			variation_plus_count = []
 			for variation in word_obj.variations:
 				count = 0
-				for occurence in occurences:
-					if variation == occurence.text:
+				for occurrence in occurrences:
+					if variation == occurrence.text:
 						count += 1
 				if variation != None:
 					variation_plus_count.append(variation + " [" + str(count) + "]")
@@ -66,15 +66,15 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			region_plus_count = []
 			for region in word_obj.regions:
 				count = 0
-				for occurence in occurences:
-					if region == occurence.region:
+				for occurrence in occurrences:
+					if region == occurrence.region:
 						count += 1
 				if region != None:
 					region_plus_count.append(region + " [" + str(count) + "]")
 			add_to_html_list(root.find(".//ul[@id='regions']"), region_plus_count)
 			xml_contexts = []
 			
-			for e in word_obj.occurences:
+			for e in word_obj.occurrences:
 				row = etree.fromstring(OCCURENCE_TABLE_ROW_HTML)
 				row.find(".//td[@id='variation']").text = e.text
 				link = etree.Element('a')
@@ -97,7 +97,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				row.find(".//code[@id='xml']").text = e.xml_context
 				row.find(".//td[@id='region']").text = e.region
 				row.find(".//td[@id='pos']").text = e.pos
-				root.find(".//table[@id='occurences']").append(row)
+				root.find(".//table[@id='occurrences']").append(row)
 				xml_contexts.append(e.xml_context)
 			files_list_html = root.find(".//ul[@id='files']")
 			# for e in word_obj.files:
@@ -124,13 +124,13 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 		word_list_html = root.find(".//noscript[@id='wordList']")
 		words_object_string = ""
 		for e in sorted(word_lists[language]):
-			num_occurences = str(len(word_dict[e][language].occurences))
+			num_occurrences = str(len(word_dict[e][language].occurrences))
 			
 			# Write to javascript object (necessary for performance)
 			words_object_string += '{'
 			words_object_string += ("text: '" + e + "',").replace("\n", 
 			                        "").replace("\\", "");
-			words_object_string += "occurences: " + num_occurences + ','
+			words_object_string += "occurrences: " + num_occurrences + ','
 			if (word_dict[e][language].suspicious):
 				words_object_string += "suspicious: true,"
 			else:
@@ -148,7 +148,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			
 			# Write directly to tags for noscript users
 			list_element = etree.Element("li")
-			list_element.attrib["data-num-occurences"] = num_occurences
+			list_element.attrib["data-num-occurrences"] = num_occurrences
 			
 			link = etree.Element("a")
 			link.text = e
@@ -175,7 +175,7 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 	index_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8"))
 	index_file.close()
 
-def occurence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occurences", langfiles=False):
+def occurrence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occurrences", langfiles=False):
 	files = {}
 	if not langfiles:
 		if os.path.isfile(output_name + '.csv'):
@@ -205,7 +205,7 @@ def occurence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occuren
 		word_output_file.write(word.xml_context.replace(",", "&#44;") + ", ")
 		word_output_file.write(word.file_name + "\n")   
 
-def occurence_list_to_plain_text(word_list, output_name, lemmatize=True):
+def occurrence_list_to_plain_text(word_list, output_name, lemmatize=True):
 	text_buffer = ""
 	text_buffer_transl = ""
 	for word in word_list:
@@ -233,7 +233,7 @@ def occurence_list_to_plain_text(word_list, output_name, lemmatize=True):
 	output_file.write(text_buffer_transl)
 	output_file.close()
 	
-def occurence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME + "_occurences", langfiles=False):	
+def occurrence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME + "_occurrences", langfiles=False):	
 	word_list = full_list[0:1000]
 	next_list = full_list[1000:len(full_list)]
 	html = etree.Element("html")

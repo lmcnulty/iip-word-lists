@@ -25,9 +25,13 @@ function create(elementType) {
 	}
 	return newElement;
 }
+function inArray(element, array) {
+	return !(array.indexOf(element) == -1);
+}
 
 function normalizeGreek(text) {
-    return text.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    //console.log(text);
+	return text.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
 }
 
 function insertAfter(newNode, referenceNode) {
@@ -53,7 +57,7 @@ let controlsBar = create("div", {id: "controlsBar"}, [
 	create("label", "Sort by", {id: "sortByLabel", for: "sortSelect"}),
 	create("div", {class: "select-wrapper"}, [
 		create("select", {id: "sortSelect"}, [
-			create("option", "Occurences", {value: "occurences"}),
+			create("option", "Occurences", {value: "occurrences"}),
 			create("option", "Alphabet", {value: "alphabet"})
 		])
 	]),
@@ -105,29 +109,44 @@ let regionsSet = new Set();
 
 function sortWordList() {
 	after = 0;
-	if (sortSelect.value == "occurences") {
+	if (sortSelect.value == "occurrences") {
 		wordList.sort((a, b) => {
-			return b.getAttribute("data-num-occurences") - 
-			       a.getAttribute("data-num-occurences");
+			return b.getAttribute("data-num-occurrences") - 
+			       a.getAttribute("data-num-occurrences");
 		});
 	} else if (sortSelect.value = "alphabet") {
 		wordList.sort((a, b) => {
-			return a.children[0].innerHTML.localeCompare(b.children[0].innerHTML);
+			return a.children[0].innerHTML.localeCompare(
+				b.children[0].innerHTML
+			);
 		});
 	}
 }
 
 for (let i = 0; i < wordsArray.length; i++) {
+	wordsArray[i].text.replace(/[\x30\x29\x04]/g,"")
+	                  .replace(/[\u00AD\u002D\u2011]+/g,'')
+					  .replace(String.fromCharCode(173), "");
+	let annoyances = ["_", "-", ".", "`", "!", " ", "\n", "\t", "~", "ʹ", 
+	                  "῾", "῀", "‘", "῀", "᾽"]
+	if (wordsArray[i].text.length < 1 ||
+	    wordsArray[i].text[0] == null ||
+		typeof wordsArray[i].text != "string" ||
+		wordsArray[i].text.includes("\n") ||
+		wordsArray[i].text[0].charCodeAt(0) == 173 || 
+		isNaN(wordsArray[i].text[0].charCodeAt(0)) || 
+	    inArray(wordsArray[i].text[0], annoyances)
+	) { continue; }
 	if (wordsArray[i].regions != null) {
 		for (let j = 0; j < wordsArray[i].regions.length; j++) {
 			regionsSet.add(wordsArray[i].regions[j]);
 		}
-	}
+	}	
 	let newWord = create("li", 
-		{"data-num-occurences": wordsArray[i].occurences, 
+		{"data-num-occurrences": wordsArray[i].occurrences, 
 		 "data-regions": wordsArray[i].regions},
 		[create("a", wordsArray[i].text, 
-		        {href: wordsArray[i].text + "_.html"})]
+		 {href: wordsArray[i].text + "_.html"})]
 	);
 	if (wordsArray[i].suspicious) { newWord.classList = "suspicious"; }
 	wordList.push(newWord);
@@ -162,18 +181,21 @@ insertAfter(bottomControls, words);
 //insertAfter(prev, words);
 //insertAfter(next, prev);
 
-
+//TODO: This doesn't work for Greek.
 function jumpToLetter(evt) {
+	targetLetter = normalizeGreek(evt.target.innerHTML[0]);
+	//console.log("Jump to: " + targetLetter);
 	sortSelect.value = "alphabet";
 	sortWordList();
 	for (let i = 0; i < wordList.length - wordsPerPage; i += wordsPerPage) {
+		//console.log(wordList[i]);
 		letter = wordList[i].children[0].innerHTML[0];
+		//console.log("First Letter: " + normalizeGreek(letter));
 		if (letter == null || typeof(letter) == 'undefined') {
-			console.log(wordList[i].children[0].innerHTML);
 			continue;
 		}
-		if (normalizeGreek(letter) < normalizeGreek(evt.target.innerHTML[0])
-		) {
+		if (normalizeGreek(letter) < targetLetter) {
+			//console.log("Flipping Page.");
 			after = i;
 		}
 	}

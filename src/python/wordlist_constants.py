@@ -39,7 +39,7 @@ INFO_PAGE_HTML = """
 				<td>Stem</td><td id='stem'></td>
 			</tr>
 			<tr>
-				<td>Occurences: </td><td id='num-occurences'></td>
+				<td>Occurences: </td><td id='num-occurrences'></td>
 			</tr>
 			<tr>
 				<td>Total Frequency</td><td id='total-frequency'></td>
@@ -61,7 +61,7 @@ INFO_PAGE_HTML = """
 		<!-- <h2>Keyword in Context</h2>
 		<ul id='kwic'></ul> -->
 		<h2>Occurences</h2>
-		<table id="occurences">
+		<table id="occurrences">
 			<tr>
 				<th>Variation</th>
 				<th>File</th>

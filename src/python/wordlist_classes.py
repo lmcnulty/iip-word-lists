@@ -3,7 +3,7 @@ from collections import defaultdict
 class iip_word:
 	def __init__(self):
 		self.lemma = ""
-		self.occurences = []
+		self.occurrences = []
 		self.variations = set()
 		self.language = ""
 		self.files = set()
@@ -32,7 +32,7 @@ def format_element_list(element_list):
 		result += " "
 	return result
 
-class iip_word_occurence:
+class iip_word_occurrence:
 	equivilence = ["edition_type", "language", "text", "file_name"]
 	def __init__(self, edition_type, language,  text, file_name, region,
 	                                        within, contains_gap=False):
@@ -67,7 +67,7 @@ class iip_word_occurence:
 		
 	def __hash__(self):
 		new_hash = 0
-		for e in iip_word_occurence.equivilence:
+		for e in iip_word_occurrence.equivilence:
 			new_hash += hash(getattr(self, e))
 		return new_hash
 	

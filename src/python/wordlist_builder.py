@@ -1,5 +1,5 @@
 """
-This file contains code used to retrieve word occurences from the xml
+This file contains code used to retrieve word occurrences from the xml
 files when the script is invoked with `--old_system`.
 """
 
@@ -38,7 +38,7 @@ def add_trailing_text(word_list, element, trailing_text, edition_type,
 	if (len(word_list) == 0 or trailing_text[0] == ' ' 
 	    or (trailing_text[0] == '\n' and include_initial_line_break)):
 		if word_list[-1].text != "":
-			append_to_word_list(word_list, iip_word_occurence( 
+			append_to_word_list(word_list, iip_word_occurrence( 
                                 edition_type, lang, "", path, region, 
                                 within))
 	# If the text in question is the inner text of the element, add it 
@@ -64,7 +64,7 @@ def add_trailing_text(word_list, element, trailing_text, edition_type,
 	# For all following words, add a new element to the words list.
 	if len(word_list) > 1:
 		for i in range(1, len(trailing_text_list)):
-			new_word = iip_word_occurence(edition_type, lang, 
+			new_word = iip_word_occurrence(edition_type, lang, 
 			                              trailing_text_list[i], path, 
 			                              region, within)
 			append_to_word_list(word_list, new_word)
@@ -73,7 +73,7 @@ def add_trailing_text(word_list, element, trailing_text, edition_type,
 	# list.
 	if (trailing_text[-1] == ' ' or trailing_text[-1] == '\n'):
 		if word_list[-1].text != "":
-			append_to_word_list(word_list, iip_word_occurence( 
+			append_to_word_list(word_list, iip_word_occurrence( 
 			                    edition_type, lang, "", path, region, 
 			                    within))
 
@@ -99,7 +99,7 @@ def add_element_to_word_list(e, word_list, edition, mainLang, path,
 	# Start a new word if the tag is a linebreak without break="no"
 	if e.tag == TEI_NS + "lb" and not ('break' in e.attrib 
 	                                   and e.attrib['break'] == "no"):
-		append_to_word_list(word_list, iip_word_occurence(subtype, 
+		append_to_word_list(word_list, iip_word_occurrence(subtype, 
 		                    editionLang, "", path, region, within))
 	previous = e.getprevious()
 	if (e.tag == TEI_NS + "expan" and previous != None and previous.tag 

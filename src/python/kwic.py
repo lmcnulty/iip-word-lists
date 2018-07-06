@@ -1,9 +1,9 @@
 from wordlist_constants import *
 from copy import copy
 
-def add_kwic_to_occurences(occurences_list):
+def add_kwic_to_occurrences(occurrences_list):
 	last = []
-	for e in occurences_list:
+	for e in occurrences_list:
 		for f in last:
 			if f.language == e.language:
 				e.preceding.append(f)
