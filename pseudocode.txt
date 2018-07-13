@@ -67,11 +67,11 @@ word_dict is a dictionary mapping lemmas to dictionaries mapping languages to
 iip_word objects in the following manner:
 
 
-					   ---> English --> iip_word | occurences = [a, b, c]
-			---> no  --|
+                       ---> English --> iip_word | occurences = [a, b, c]
+            ---> no  --|
 word_dict --|          ---> Spanish --> iip_word | occurences = [d]
-			|
-			---> dog -----> English --> iip_word | occurences = [e, f, g]
+            |
+            ---> dog -----> English --> iip_word | occurences = [e, f, g]
 
 
 ex) word_dict[no][spanish].occurences == [d]
