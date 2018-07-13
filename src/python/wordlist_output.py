@@ -23,15 +23,16 @@ def sanitize(some_string):
 	return some_string.replace("<", "")
 
 def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
+
 	# Create top level directory
 	if not os.path.exists(output_name):
 		os.makedirs(output_name)
-		
+	
 	# Create directory for each language
 	for language in languages:
 		if not os.path.exists(output_name + '/' + language):
 			os.makedirs(output_name + '/' + language)
-			
+
 	# Create file for each word
 	word_lists = defaultdict(lambda: [])
 	for word in word_dict:
@@ -39,20 +40,17 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			word_lists[language].append(word)
 			root = etree.fromstring(INFO_PAGE_HTML)
 			word_obj = word_dict[word][language]
-			
-			
-				
 			occurrences = word_obj.occurrences
-			root.find(".//h1").text = (word + " [" + full_language(language).title() + "]")
-			
+			root.find(".//h1").text = (word + " [" + 
+			                           full_language(language).title() + "]")
 			root.find(".//a[@id='doubletree-link']").attrib["href"]\
 				= "../doubletree.html?word=" + word_obj.lemma.lower()
-			#root.find(".//iframe[@id='doubletree-frame']").attrib["src"]\
-			#	= "../doubletree.html?word=" + word_obj.lemma.lower()
-			
-			root.find(".//td[@id='num-occurrences']").text = str(len(word_obj.occurrences))
-			root.find(".//td[@id='total-frequency']").text = str(word_obj.frequency_total)
-			root.find(".//td[@id='language-frequency']").text = str(word_obj.frequency_language)
+			root.find(".//td[@id='num-occurrences']").text = \
+				str(len(word_obj.occurrences))
+			root.find(".//td[@id='total-frequency']").text = \
+				str(word_obj.frequency_total)
+			root.find(".//td[@id='language-frequency']").text = \
+				str(word_obj.frequency_language)
 			root.find(".//td[@id='stem']").text = str(word_obj.stem)
 			variation_plus_count = []
 			for variation in word_obj.variations:
@@ -61,8 +59,10 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 					if variation == occurrence.text:
 						count += 1
 				if variation != None:
-					variation_plus_count.append(variation + " [" + str(count) + "]")
-			add_to_html_list(root.find(".//ul[@id='variations']"), variation_plus_count)
+					variation_plus_count.append(variation + " [" + 
+					                            str(count) + "]")
+			add_to_html_list(root.find(".//ul[@id='variations']"), 
+			                 variation_plus_count)
 			region_plus_count = []
 			for region in word_obj.regions:
 				count = 0
@@ -81,8 +81,6 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				link.attrib['href'] = "../" + e.file_name
 				link.text = e.file_name.split('/')[-1]
 				row.find(".//td[@id='file']").append(link)
-				
-				
 				kwic = row.find(".//td[@id='kwic']")
 				item = "<span>"
 				for preceding_item in e.preceding:
@@ -92,21 +90,12 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 					item += sanitize(following_item.text) + " "
 				item += "</span>"
 				kwic.append(etree.fromstring(item))
-			
-				
 				row.find(".//code[@id='xml']").text = e.xml_context
 				row.find(".//td[@id='region']").text = e.region
 				row.find(".//td[@id='pos']").text = e.pos
 				root.find(".//table[@id='occurrences']").append(row)
 				xml_contexts.append(e.xml_context)
-			files_list_html = root.find(".//ul[@id='files']")
-			# for e in word_obj.files:
-				# list_element = etree.Element("li")
-				# link = etree.Element("a")
-				# link.text = e.split('/')[-1]
-				# link.attrib["href"] = "../" + e
-				# list_element.append(link)
-				# files_list_html.append(list_element)
+			files_list_html = root.find(".//ul[@id='files']")	
 			try: 
 				info_file = open(output_name + '/' + language + '/' 
 				                 + word + "_.html", 'w')
@@ -120,7 +109,6 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 	for language in word_lists:
 		root = etree.fromstring(INDEX_PAGE_HTML)
 		root.find(".//title").text = full_language(language).title()
-		#root.find(".//h1").text = full_language(language).title()
 		word_list_html = root.find(".//noscript[@id='wordList']")
 		words_object_string = ""
 		for e in sorted(word_lists[language]):
@@ -128,8 +116,8 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			
 			# Write to javascript object (necessary for performance)
 			words_object_string += '{'
-			words_object_string += ("text: '" + e + "',").replace("\n", 
-			                        "").replace("\\", "");
+			words_object_string += (("text: '" + e + "',").replace("\n", "")
+			                                              .replace("\\", ""));
 			words_object_string += "occurrences: " + num_occurrences + ','
 			if (word_dict[e][language].suspicious):
 				words_object_string += "suspicious: true,"
@@ -159,7 +147,9 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			word_list_html.append(list_element)
 			
 		language_index_file = open(output_name + '/' + language + '/index.html', "w")
-		language_index_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8").replace("$WORDS_OBJECT", words_object_string))
+		language_index_file.write("<!DOCTYPE HTML>\n" + 
+		                          etree.tostring(root).decode("utf-8")
+								  .replace("$WORDS_OBJECT", words_object_string))
 		language_index_file.close()
 		
 	# Create front page for language selection

@@ -143,6 +143,10 @@ def get_words_from_file(path, file_dict, new_system):
 				new_words[-1].alternatives = e.alternatives
 				new_words[-1].preceding = e.preceding
 				new_words[-1].following = e.following
+				#if "transl" in mainLang:
+				#	word_copy = copy(new_words[-1])
+				#	word_copy.language = "transl"
+				#	new_words.append(word_copy)
 				if tagged_words != None:
 					for tagged_word in tagged_words:
 						if tagged_word[0] == e.text:
@@ -195,9 +199,11 @@ if __name__ == '__main__':
 			add_kwic_to_occurrences(new_words)
 			if args.plaintext:
 				occurrence_list_to_plain_text(new_words, plaintextdir
-				                             + "_lemma/" + file.split("/")[-1].replace(".xml", ""))
+				                              + "_lemma/" + file.split("/")[-1]
+				                              .replace(".xml", ""))
 				occurrence_list_to_plain_text(new_words, plaintextdir
-				                             + "/" + file.split("/")[-1].replace(".xml", ""), False)
+				                              + "/" + file.split("/")[-1]
+				                              .replace(".xml", ""), False)
 			occurrences += new_words
 		except Exception as exception:
 			if args.fileexception:
@@ -232,7 +238,8 @@ if __name__ == '__main__':
 			for e in word.internal_elements:
 				if not isinstance(e.tag, str):
 					continue
-				if word.internal_elements[e].start_index == i and word.internal_elements[e].end_index == i:
+				if (word.internal_elements[e].start_index == i 
+				and word.internal_elements[e].end_index == i):
 					word.xml_context += "<" + e.tag + "/>"
 				else:
 					if word.internal_elements[e].start_index == i:
@@ -276,18 +283,24 @@ if __name__ == '__main__':
 		lang_count[word.language] += 1
 		
 		# Add occurrences to dictionary
-		word_dict[word.lemmatization.lower()][word.language]\
-			.occurrences.append(word)
-		word_dict[word.lemmatization.lower()][word.language]\
-			.variations.add(word.text)
-		word_dict[word.lemmatization.lower()][word.language]\
-			.files.add(word.file_name)
-		word_dict[word.lemmatization.lower()][word.language]\
-			.language = word.language
-		word_dict[word.lemmatization.lower()][word.language]\
-			.lemma = word.lemmatization
-		word_dict[word.lemmatization.lower()][word.language]\
-			.regions.add(file_dict[word.file_name].region)
+		word_languages = [word.language]
+		if "transl" in word.language:
+			word_languages.append("transl")
+			languages.add("transl")
+		for language in word_languages:
+			word_dict[word.lemmatization.lower()][language]\
+				.occurrences.append(word)
+			word_dict[word.lemmatization.lower()][language]\
+				.variations.add(word.text)
+			word_dict[word.lemmatization.lower()][language]\
+				.files.add(word.file_name)
+			word_dict[word.lemmatization.lower()][language]\
+				.language = word.language
+			word_dict[word.lemmatization.lower()][language]\
+				.lemma = word.lemmatization
+			word_dict[word.lemmatization.lower()][language]\
+				.regions.add(file_dict[word.file_name].region)
+	
 		check_suspicious(
 			word_dict[word.lemmatization.lower()][word.language]
 		)
@@ -296,9 +309,10 @@ if __name__ == '__main__':
 	for key in word_dict:
 		for language in word_dict[key]:
 			word = word_dict[key][language]
-			word.frequency_total = len(word.occurrences) / len(occurrences)
-			word.frequency_language = len(word.occurrences) / lang_count[word.language]
-			
+			word.frequency_total = \
+				len(word.occurrences) / len(occurrences)
+			word.frequency_language = \
+				len(word.occurrences) / lang_count[word.language]
 			if language == "la":
 				word.stem = la_stemmer.stem(word.lemma)
 

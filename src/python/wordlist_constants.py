@@ -19,7 +19,8 @@ codes = [
 	["hebrew",["heb", "he"]],
 	["greek",["grc", "grk"]],
 	["aramaic",["arc"]],
-	["unknown", ["unk"]]
+	["unknown", ["unk"]],
+	["english", ["transl"]]
 ]
 
 NUM_CONTEXT = 5

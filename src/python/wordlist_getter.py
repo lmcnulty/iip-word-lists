@@ -48,9 +48,7 @@ def is_indent(a_step, walker):
 	return False
 
 def is_word_terminating(a_step, walker):
-	#print(a_step.character + " - ", end="")
 	if a_step == None:
-		#print("Word Terminating")
 		return True
 	for e in a_step.ending:
 		if e.tag in NO_SPAN_WORDS:
@@ -58,9 +56,7 @@ def is_word_terminating(a_step, walker):
 	for element in a_step.self_closing:
 		if strip_namespace(element.tag) == "lb":
 			if "break" in element.attrib and element.attrib["break"] == "no":
-				#print("NOT Word Terminating - Line break Element")
 				return False
-			#print("Word Terminating")
 			return True
 	if a_step.character.isspace() and not is_indent(a_step, walker):
 		if a_step.character == "\n":
@@ -68,12 +64,8 @@ def is_word_terminating(a_step, walker):
 		                                          whitespace_only=True) 
 			if (the_preceding_element != None 
 			and the_preceding_element.tag in INCLUDE_TRAILING_LINEBREAK):
-				#print("""NOT Word Terminating: Preceding Element in 
-				#      INCLUDE_TRAILING_LINEBREAK""")
 				return False
-		#print("Word Terminating - Space and not indent")
 		return True
-	#print("NOT Word Terminating")
 	return False
 
 class choice:
@@ -124,7 +116,8 @@ def get_words_from_element(root):
 		
 		# Add the character to the word's text
 		# TODO: This causes words seperated by linebreak not to include first character
-		if (not a_step.character.isspace() and not (TEI_NS + "lb" in [x.tag for x in a_step.self_closing])
+		if (not a_step.character.isspace() 
+		and not (TEI_NS + "lb" in [x.tag for x in a_step.self_closing])
 		and not a_step.character == "\n") and not (is_indent(a_step, walker)):
 			if (len(choice_stack) > 0 and 
 			choice_stack[-1].element.getchildren()[0] in within):
@@ -134,7 +127,8 @@ def get_words_from_element(root):
 			set(within))):
 				if len(words) > choice_stack[-1].word_index:
 					if len(words[choice_stack[-1].word_index].alternatives) > 0:
-						words[choice_stack[-1].word_index].alternatives[-1] += a_step.character
+						words[choice_stack[-1].word_index].alternatives[-1] \
+						+= a_step.character
 					else:
 						words[choice_stack[-1].word_index].alternatives.append(
 						"" + a_step.character)
@@ -148,10 +142,6 @@ def get_words_from_element(root):
 		# If necessary, end the word and begin a new one
 		if is_word_terminating(a_step, walker) or walker.at_end():
 			if new_word.text != "":
-				# for i in range(0, NUM_CONTEXT):
-					# if len(words) > i:
-						# words[-i].following.append(new_word)
-						# new_word.preceding.append(words[-i])
 				words.append(new_word)
 				new_word = walker_word()
 			for self_closing_element in a_step.self_closing:
