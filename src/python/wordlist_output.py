@@ -71,7 +71,8 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 						count += 1
 				if region != None:
 					region_plus_count.append(region + " [" + str(count) + "]")
-			add_to_html_list(root.find(".//ul[@id='regions']"), region_plus_count)
+			add_to_html_list(root.find(".//ul[@id='regions']"),
+			                 region_plus_count)
 			xml_contexts = []
 			
 			for e in word_obj.occurrences:
@@ -81,15 +82,28 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				link.attrib['href'] = "../" + e.file_name
 				link.text = e.file_name.split('/')[-1]
 				row.find(".//td[@id='file']").append(link)
-				kwic = row.find(".//td[@id='kwic']")
-				item = "<span>"
+				kwic = row.find(".//td[@class='kwic']")
+				kwic_prec = row.find(".//td[@class='kwic-prec']")
+				kwic_post = row.find(".//td[@class='kwic-post']")
+				#item = "<span class='kwic-container'><span>"
+				#for preceding_item in e.preceding:
+				#	item += sanitize(preceding_item.text) + " "
+				#item += "</span>"
+				#item += ("<span style='color: blue;'>" 
+				#         + sanitize(e.text) + "</span> ")
+				#item += "<span>"
+				#for following_item in e.following:
+				#	item += sanitize(following_item.text) + " "
+				#item += "</span></span>"
+				#print(item)
+				#kwic.append(etree.fromstring(item))
+				kwic.text = sanitize(e.text)
+				kwic_prec.text = ""
 				for preceding_item in e.preceding:
-					item += sanitize(preceding_item.text) + " "
-				item += "<span style='color: blue;'>" + sanitize(e.text) + "</span> "
+					kwic_prec.text += sanitize(preceding_item.text) + " " 
+				kwic_post.text = ""
 				for following_item in e.following:
-					item += sanitize(following_item.text) + " "
-				item += "</span>"
-				kwic.append(etree.fromstring(item))
+					kwic_post.text += sanitize(following_item.text) + " "
 				row.find(".//code[@id='xml']").text = e.xml_context
 				row.find(".//td[@id='region']").text = e.region
 				row.find(".//td[@id='pos']").text = e.pos

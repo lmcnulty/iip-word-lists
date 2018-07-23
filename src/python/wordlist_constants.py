@@ -66,7 +66,7 @@ INFO_PAGE_HTML = """
 			<tr>
 				<th>Variation</th>
 				<th>File</th>
-				<th>Word in Context</th>
+				<th colspan="3">Word in Context</th>
 				<th>XML</th>
 				<th>Region</th>
 				<th>Part of Speech</th>
@@ -118,7 +118,9 @@ OCCURENCE_TABLE_ROW_HTML = """
 <tr>
 	<td id="variation"></td>
 	<td id="file"></td>
-	<td id="kwic"></td>
+	<td class="kwic-prec"></td>
+	<td class="kwic"></td>
+	<td class="kwic-post"></td>
 	<td><code id="xml" class="prettyprint"></code></td>
 	<td id="region"></td>
 	<td id="pos"></td>

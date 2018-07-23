@@ -8,3 +8,13 @@ a {
 a:focus, a:hover {
 	color: #b1af89;
 }
+.kwic-container {
+	display: flex;
+	justify-content: center;
+}
+.kwic {
+	color: blue;
+}
+.kwic-prec {
+	text-align: right;
+}

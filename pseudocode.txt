@@ -27,8 +27,7 @@ FUNCTION main(args)
 		print(occurences)
 
 		IF args.html_general
-			word_list_to_html(word_dict)
-
+			word_list_to_html(word_dict, languages)
 
 FUNCTION get_words_from_element(element)
 	walker = NEW xml_walker(element)
@@ -57,23 +56,35 @@ FUNCTION is_word_terminating(step, within)
 			return false
 		return true
 	
-FUNCTION word_list_to_html(word_dict)
+FUNCTION word_list_to_html(word_dict, languages)
+	FOR language IN languages
+		mkdir "docs/" + language
+	FOR word IN word_dict
+		FOR language IN word
+			write_word_info_page(word)
+	FOR language IN languages
+		FOR word IN word_dict
+			IF exists(word[language])
+				index_template.add(word)
+		write(index_template, "docs/" + language + "/index.html")
+
+FUNCTION write_word_info_page(word)
 
 
-
-##############################################################################
+══════════════════════════════════════════════════════════════════════════════
 [FOOTNOTE 1]
 word_dict is a dictionary mapping lemmas to dictionaries mapping languages to 
 iip_word objects in the following manner:
 
 
-                      ┌──> English ──> iip_word | occurences = [a, b, c]
-            ┌──> no  ─┤
-word_dict ──┤         └──> Spanish ──> iip_word | occurences = [d]
+                      ┌──▶ English ──▶ iip_word | occurences = [a, b, c]
+            ┌──▶ no  ─┤
+word_dict ──┤         └──▶ Spanish ──▶ iip_word | occurences = [d]
             │
-            └──> dog ────> English ──> iip_word | occurences = [e, f, g]
+            └──▶ dog ────▶ English ──▶ iip_word | occurences = [e, f, g]
 
 
 ex) word_dict[no][spanish].occurences == [d]
 
-##############################################################################
+══════════════════════════════════════════════════════════════════════════════
+

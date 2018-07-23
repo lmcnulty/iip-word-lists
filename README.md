@@ -1,6 +1,6 @@
 ## Introduction
 
-This code in this repository is intended for use in the [Inscriptions of Israel / Palestine project](http://library.brown.edu/cds/projects/iip/search/). It uses Python and LXML to generate word lists from [epidoc](http://www.stoa.org/epidoc/gl/latest/) files and includes a simple web interface.
+The code in this repository is intended for use in the [Inscriptions of Israel / Palestine project](http://library.brown.edu/cds/projects/iip/search/). It uses Python and LXML to generate word lists from [epidoc](http://www.stoa.org/epidoc/gl/latest/) files and includes a simple web interface.
 
 ## Setup
 
@@ -88,7 +88,7 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 - [ ] Fix alphabet selection for Greek
 - [ ] Fix punctuation characters in alphabet selection
 - [ ] Add general English category
-- [ ] Fix KWIC alignment
+- [x] Fix KWIC alignment
 - [ ] Add option to disable special searching
 - [ ] Ignore soft hyphens in suspicion check
 - [ ] Add regex explanation/tutorial
