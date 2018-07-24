@@ -103,7 +103,7 @@ h1 {
 	font-family: serif;
 	color: black;
 }
-ul {
+#words {
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-top: 0px;
@@ -152,7 +152,7 @@ input[type=text] {
 	margin-right: 10px;
 }
 
-li {
+#words li {
 	list-style-type: none;
 	width: 15em;
 	overflow: hidden;

@@ -103,36 +103,38 @@ let regexExplanation = `
 	we hope that the following examples will provide a useful grounding for use
 	in this application.
 	</p>
-	<p>
+	<ul>
+	<li>
 	<code>^</code> represents the beginning of a string. For instance, 
 	<code>^pre</code> will match any word that starts with "pre."
-	</p>
-	<p>
+	</li>
+	<li>
 	<code>$</code> represents the end of a string. For instance, <code>us$</code>
 	will match any word that ends in "us."
-	</p>
-	<p>
+	</li>
+	<li>
 	<code>.*</code> matches any sequence of characters. For instance, 
 	<code>au.*us</code> will match any word containing "au" followed by 
 	anything, followed by "us." "augustus," "taurus," and "paulus" would 
 	all be matched. 
-	</p>
-	<p>
+	</li>
+	<li>
 	Brackets will match expressions with any one of the containing 
 	characters. For instance, <code>gr[ea]y</code> will match "grey" and "gray."
-	</p>
-	<p>
+	</li>
+	<li>
 	Parenthesis containing expressions seperated by the pipe character, "|" , 
 	will match words containing any one of the pipe-seperated expressions. 
 	For instance, <code>th(is|at)</code> will match "this" and "that". On 
 	most qwerty keyboards, the pipe character appears above the enter key. 
-	</p>
-	<p>
+	</li>
+	<li>
 	The above tools can all be combined. For instance, 
 	<code>^([ui]n|ir).*able$</code> will match anything beginning with 
 	"un" "in" or "ir" and ending with "able," such as "inviolable," 
 	"incomparable," "unrecognizable," and "irresistable."
-	</p>
+	</li>
+	</ul>
 `;
 document.body.appendChild(create(
 	"div", 
