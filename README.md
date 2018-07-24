@@ -85,9 +85,9 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 - [ ] Display for `<corr>` `<reg>`
 - [ ] Stems
 - [ ] Named Entity Recognition?
-- [ ] Fix alphabet selection for Greek
+- [x] Fix alphabet selection for Greek
 - [ ] Fix punctuation characters in alphabet selection
-- [ ] Add general English category
+- [x] Add general English category
 - [x] Fix KWIC alignment
 - [ ] Add option to disable special searching
 - [ ] Ignore soft hyphens in suspicion check

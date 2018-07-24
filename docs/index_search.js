@@ -47,7 +47,6 @@ let controlsBar = create("div", {id: "controlsBar"}, [
 		placeholder: "Search for matching words...",
 		id: "searchBar"
 	}),
-	//create("br"),
 	create("label", "Region", {id: "regionLabel", for: "regionSelect"}),
 	create("div", {class: "select-wrapper"}, [
 		create("select", {id: "regionSelect"}, [
@@ -181,25 +180,39 @@ insertAfter(bottomControls, words);
 //insertAfter(prev, words);
 //insertAfter(next, prev);
 
+function countSkipped(n) {
+	let count = 0;
+	for (let i = 0; i < n; i++) {
+		if (checkSkip(wordList[i])) { count += 1; }
+	}
+	return count;
+}
+
 //TODO: This doesn't work for Greek.
 function jumpToLetter(evt) {
+	console.log("Running jumpToLetter");
 	targetLetter = normalizeGreek(evt.target.innerHTML[0]);
-	//console.log("Jump to: " + targetLetter);
+	console.log("targetLetter = " + targetLetter);
 	sortSelect.value = "alphabet";
 	sortWordList();
+	console.log("wordList:") ;
+	console.log(wordList);
 	for (let i = 0; i < wordList.length - wordsPerPage; i += wordsPerPage) {
-		//console.log(wordList[i]);
-		letter = wordList[i].children[0].innerHTML[0];
-		//console.log("First Letter: " + normalizeGreek(letter));
-		if (letter == null || typeof(letter) == 'undefined') {
-			continue;
+		let firstWord = wordList[i + countSkipped(i)].children[0].innerHTML;
+		let lastWord = wordList[i + countSkipped(i) + wordsPerPage - 1].children[0].innerHTML;
+		console.log(["Page " + i / wordsPerPage, 
+		             "First Word: " + firstWord,
+		             "Last Word: " + lastWord].join(", "));
+		if (letter == null || typeof(letter) == 'undefined') { continue; }
+		if (normalizeGreek(firstWord[0]) < targetLetter  
+		    && normalizeGreek(lastWord[0]) >= targetLetter
+		) {
+			after = i; 
+			render();
+			return;
 		}
-		if (normalizeGreek(letter) < targetLetter) {
-			//console.log("Flipping Page.");
-			after = i;
-		}
+		//if (normalizeGreek(letter) < targetLetter) { after = i; }
 	}
-	render();
 }
 
 let letters = new Set();
