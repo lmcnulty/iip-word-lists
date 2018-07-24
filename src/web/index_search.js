@@ -90,15 +90,57 @@ sortSelect.addEventListener("change", () => {
 
 let sortByLabel = document.getElementById("sortByLabel");
 
+// Add regex explanation
+let regexExplanation = `
+	<h3>Regular Expressions</h3>
+	<p>
+	The search function in this application supports 
+	<a href="https://en.wikipedia.org/wiki/Regular_expression">regular			
+	expressions</a>. A regular expression, or "regex," is a text string that
+	matches a set of possible strings according to a number of standardized
+	syntactic rules. Regular expressions are an extremely powerful tool in
+	text processing, and their usage cannot be fully explained here. However,
+	we hope that the following examples will provide a useful grounding for use
+	in this application.
+	</p>
+	<p>
+	<code>^</code> represents the beginning of a string. For instance, 
+	<code>^pre</code> will match any word that starts with "pre."
+	</p>
+	<p>
+	<code>$</code> represents the end of a string. For instance, <code>us$</code>
+	will match any word that ends in "us."
+	</p>
+	<p>
+	<code>.*</code> matches any sequence of characters. For instance, 
+	<code>au.*us</code> will match any word containing "au" followed by 
+	anything, followed by "us." "augustus," "taurus," and "paulus" would 
+	all be matched. 
+	</p>
+	<p>
+	Brackets will match expressions with any one of the containing 
+	characters. For instance, <code>gr[ea]y</code> will match "grey" and "gray."
+	</p>
+	<p>
+	Parenthesis containing expressions seperated by the pipe character, "|" , 
+	will match words containing any one of the pipe-seperated expressions. 
+	For instance, <code>th(is|at)</code> will match "this" and "that". On 
+	most qwerty keyboards, the pipe character appears above the enter key. 
+	</p>
+	<p>
+	The above tools can all be combined. For instance, 
+	<code>^([ui]n|ir).*able$</code> will match anything beginning with 
+	"un" "in" or "ir" and ending with "able," such as "inviolable," 
+	"incomparable," "unrecognizable," and "irresistable."
+	</p>
+`;
+document.body.appendChild(create(
+	"div", 
+	{class: "info-box", 
+	 style: "text-align: left; background: whitesmoke; padding: 10px; margin: 5px; border: 1px solid black;"}, 
+	regexExplanation)
+);
 
-
-/*
-insertAfter(sortByLabel, searchbar);
-insertAfter(sortSelect, sortByLabel);
-insertAfter(showSuspiciousCheck, sortSelect);
-insertAfter(showSuspiciousLabel, showSuspiciousCheck);
-insertAfter(document.createElement("br"), searchbar);
-*/
 
 // Global Variables
 let wordsPerPage = 60; 
@@ -239,7 +281,9 @@ function checkSkip(word) {
 	}
 	if (word.children[0].innerHTML.length < 1) {return true;}
 	if (regionSelect.value != "all") {
-		if (word.getAttribute("data-regions").indexOf(regionSelect.value) == -1) {
+		if (word.getAttribute("data-regions").
+		    indexOf(regionSelect.value) == -1
+		) {
 			return true;
 		}
 	}
