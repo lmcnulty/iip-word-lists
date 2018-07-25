@@ -25,12 +25,14 @@ function create(elementType) {
 	}
 	return newElement;
 }
+
+// Return true if `element` is in `array`
 function inArray(element, array) {
 	return !(array.indexOf(element) == -1);
 }
 
+// Return the given string with all Greek diacritics removed.
 function normalizeGreek(text) {
-    //console.log(text);
 	return text.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
 }
 
@@ -171,7 +173,8 @@ for (let i = 0; i < wordsArray.length; i++) {
 	                  .replace(/[\u00AD\u002D\u2011]+/g,'')
 					  .replace(String.fromCharCode(173), "");
 	let annoyances = ["_", "-", ".", "`", "!", " ", "\n", "\t", "~", "ʹ", 
-	                  "῾", "῀", "‘", "῀", "᾽"]
+	                  "῾", "῀", "‘", "῀", "᾽", "ʻ", "ʼ", "ʽ", "ʿ", "’", "‛",
+					  "…", "∞", "○", "◦", "⚬", "￮", "¹", "½", "¾", "ɐ"]
 	if (wordsArray[i].text.length < 1 ||
 	    wordsArray[i].text[0] == null ||
 		typeof wordsArray[i].text != "string" ||
@@ -200,8 +203,6 @@ let regionLabel = document.getElementById("regionLabel");
 for (var i of regionsSet) {
 	regionSelect.appendChild(create("option", i, {value: i}));
 }
-//insertBefore(regionSelect, sortByLabel);
-//insertBefore(regionLabel, regionSelect);
 
 regionSelect.addEventListener("change", () => {
 	render();
@@ -221,8 +222,6 @@ let bottomControls = create("div", {id: "bottomControls"}, [
 ]);
 
 insertAfter(bottomControls, words);
-//insertAfter(prev, words);
-//insertAfter(next, prev);
 
 function countSkipped(n) {
 	let count = 0;
@@ -232,21 +231,41 @@ function countSkipped(n) {
 	return count;
 }
 
+function countSkipped(start, end) {
+	//console.log("Checking skip from " + start + " to " + end);
+	let count = 0;
+	for (let i = start; i < end; i++) {
+		if (checkSkip(wordList[i])) { count += 1; }
+	}
+	return count;
+}
+
 function jumpToLetter(evt) {
 	targetLetter = normalizeGreek(evt.target.innerHTML[0]);
 	sortSelect.value = "alphabet";
 	sortWordList();
-	for (let i = 0; i < wordList.length - wordsPerPage; i += wordsPerPage) {
-		let firstWord = wordList[i + countSkipped(i)].children[0].innerHTML;
-		let lastWord = wordList[i + countSkipped(i) + wordsPerPage - 1]
-		               .children[0].innerHTML;
+	// TODO: Don't count skip every time.
+	let skipped = 0;
+	for (let i = 0; i < wordList.length; i += wordsPerPage) {
+		skipped += countSkipped(i, Math.min(i + wordsPerPage, wordList.length - 1));
+		let firstWord = wordList[i + skipped].children[0].innerHTML;
+		let lastWordIndex = Math.min(i + skipped + wordsPerPage - 1, 
+		                             wordList.length - 1);
+		let lastWord = wordList[lastWordIndex].children[0].innerHTML;
 		//console.log(["Page " + i / wordsPerPage, 
 		//             "First Word: " + firstWord,
 		//             "Last Word: " + lastWord].join(", "));
-		if (letter == null || typeof(letter) == 'undefined') { continue; }
-		if (normalizeGreek(firstWord[0]) < targetLetter  
-		    && normalizeGreek(lastWord[0]) >= targetLetter
+		if (letter == null || typeof(letter) == 'undefined') {
+			console.log("Letter is null.");
+			continue;
+		}
+		if ((normalizeGreek(firstWord[0]) <= targetLetter  
+		     && normalizeGreek(lastWord[0]) >= targetLetter)
+			|| lastWordIndex > wordList.length
 		) {
+			//console.log("Target letter is in between '" 
+			//            + firstWord[0] + "' and '" +
+			//            lastWord[0] + "'. Jumping to page.")
 			after = i; 
 			render();
 			return;
