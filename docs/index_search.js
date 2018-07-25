@@ -244,10 +244,10 @@ function jumpToLetter(evt) {
 	targetLetter = normalizeGreek(evt.target.innerHTML[0]);
 	sortSelect.value = "alphabet";
 	sortWordList();
-	// TODO: Don't count skip every time.
 	let skipped = 0;
 	for (let i = 0; i < wordList.length; i += wordsPerPage) {
-		skipped += countSkipped(i, Math.min(i + wordsPerPage, wordList.length - 1));
+		skipped += countSkipped(i, Math.min(i + wordsPerPage, 
+		                                    wordList.length - 1));
 		let firstWord = wordList[i + skipped].children[0].innerHTML;
 		let lastWordIndex = Math.min(i + skipped + wordsPerPage - 1, 
 		                             wordList.length - 1);

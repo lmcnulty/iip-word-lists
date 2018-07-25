@@ -4,12 +4,11 @@ from lxml import etree
 from collections import defaultdict
 from sugar import *
 from wordlist_concordances import *
+from create_xml import create
 
 def add_to_html_list(element, some_list):
 	for e in some_list:
-		new_element = etree.Element("li")
-		new_element.text = e
-		element.append(new_element)
+		element.append(create("li", e))
 
 def full_language(abbr):
 	full_name = abbr
@@ -78,25 +77,11 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			for e in word_obj.occurrences:
 				row = etree.fromstring(OCCURENCE_TABLE_ROW_HTML)
 				row.find(".//td[@id='variation']").text = e.text
-				link = etree.Element('a')
-				link.attrib['href'] = "../" + e.file_name
-				link.text = e.file_name.split('/')[-1]
+				link = create("a", e.file_name.split('/')[-1], {"href": "../" + e.file_name})
 				row.find(".//td[@id='file']").append(link)
 				kwic = row.find(".//td[@class='kwic']")
 				kwic_prec = row.find(".//td[@class='kwic-prec']")
 				kwic_post = row.find(".//td[@class='kwic-post']")
-				#item = "<span class='kwic-container'><span>"
-				#for preceding_item in e.preceding:
-				#	item += sanitize(preceding_item.text) + " "
-				#item += "</span>"
-				#item += ("<span style='color: blue;'>" 
-				#         + sanitize(e.text) + "</span> ")
-				#item += "<span>"
-				#for following_item in e.following:
-				#	item += sanitize(following_item.text) + " "
-				#item += "</span></span>"
-				#print(item)
-				#kwic.append(etree.fromstring(item))
 				kwic.text = sanitize(e.text)
 				kwic_prec.text = ""
 				for preceding_item in e.preceding:
@@ -149,15 +134,10 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			words_object_string += '},\n'
 			
 			# Write directly to tags for noscript users
-			list_element = etree.Element("li")
-			list_element.attrib["data-num-occurrences"] = num_occurrences
-			
-			link = etree.Element("a")
-			link.text = e
-			link.attrib["href"] = "./" + e + "_.html"
+			list_element = create("li", {"data-num-occurences": num_occurrences},
+			                      create("a", e, {"href": "./" + e + "_.html"}))
 			if (word_dict[e][language].suspicious):
 				list_element.attrib["class"] = "suspicious"
-			list_element.append(link)
 			word_list_html.append(list_element)
 			
 		language_index_file = open(output_name + '/' + language + '/index.html', "w")
@@ -240,74 +220,36 @@ def occurrence_list_to_plain_text(word_list, output_name, lemmatize=True):
 def occurrence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME + "_occurrences", langfiles=False):	
 	word_list = full_list[0:1000]
 	next_list = full_list[1000:len(full_list)]
-	html = etree.Element("html")
-	head = etree.Element("head")
-	title = etree.Element("title")
-	title.text = "Word List"
-	style_link = etree.Element("link")
-	style_link.attrib["rel"] = "stylesheet"
-	style_link.attrib["type"] = "text/css"
-	style_link.attrib["href"] = "wordlist.css"
-	body = etree.Element("body")
-	table = etree.Element("table")
-	body.append(table)
-	head.append(title)
-	head.append(style_link)
-	html.append(head)
-	html.append(body)
-	table_header = etree.Element("tr")
-	table_header_word = etree.Element("th")
-	table_header_word.text = "Word"
-	table_header_language = etree.Element("th")
-	table_header_language.text = "Language"
-	table_header_edition = etree.Element("th")
-	table_header_edition.text = "Edition"
-	table_header_file = etree.Element("th")
-	table_header_file.text = "File"
-	table_header_xml = etree.Element("th")
-	table_header_xml.text = "Xml"
-	table_header.append(table_header_word)
-	table_header.append(table_header_language)
-	table_header.append(table_header_edition)
-	table_header.append(table_header_xml)
-	table_header.append(table_header_file)
-	table.append(table_header)
-	for word in word_list:
-		row = etree.Element("tr")
-		text = etree.Element("td")
-		text.text = (word.text)
-		language = etree.Element("td")
-		language.text = (word.language)
-		edition_type = etree.Element("td")
-		edition_type.text = (word.edition_type)
-		file_name = etree.Element("td")
-		file_name_link = etree.Element("a")
-		file_name_link.text = (word.file_name)
-		file_name_link.attrib["href"] = word.file_name
-		file_name.append(file_name_link)
-		xml_context = etree.Element("td")
-		xml_context.text = word.xml_context
-		pos = etree.Element("td")
-		pos.text = word.pos
-		row.append(text)
-		row.append(language)
-		row.append(edition_type)
-		row.append(xml_context)
-		row.append(file_name)
-		row.append(pos)
-		table.append(row)
+	table = create("table", create("tr",
+		create("th", "Word"),
+		create("th", "Language"),
+		create("th", "Edition"),
+		create("th", "XML"),
+		create("th", "File")
+	))
+	body = create("body", table)
+	html = create("html", 
+		create("head", 
+			create("title", "Word List"),
+			create("link", {"rel": "stylesheet", "type": "text/css", "href": "wordlist.css"})
+		),
+		body
+	)
+	for word in word_list: 
+		table.append(create("tr", 
+			create("td", word.text), 
+			create("td", word.language),
+			create("td", word.edition_type),
+			create("td", word.xml_context),
+			create("td", create("a", word.file_name, {"href": word.file_name})),	
+			create("td", word.pos)
+		))
 	if num > 0:
-		prev_link = etree.Element("a")
-		prev_link.text = "Previous Page"
-		prev_link.attrib["href"] = (output_name + "-" + str(num - 1) + ".html")
-		body.append(prev_link)
+		body.append(create("a", "Previous Page", {"href": output_name + "-" + str(num - 1) + ".html"}))
 	if len(next_list) > 0:
-		next_link = etree.Element("a")
-		next_link.text = "Next Page"
-		next_link.attrib["href"] = (output_name + "-" + str(num + 1) + ".html")
-		body.append(next_link)
+		body.append(create("a", "Next Page", {"href": output_name + "-" + str(num + 1) + ".html"}))
 	output_file = open(output_name + "-" + str(num) + ".html", "w")
 	output_file.write(etree.tostring(html, pretty_print=True).decode())
 	output_file.close()
 	if (len(next_list) > 0):
-		word_list_to_html(next_list, num + 1, output_name)
+		occurrence_list_to_html(next_list, num + 1, output_name)
