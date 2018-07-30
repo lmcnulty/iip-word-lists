@@ -80,21 +80,28 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 - [x] Add Alphabet links to frontend
 - [x] Fuzzy Search
 - [x] Wildcard Search
-- [ ] Word Frequency by Geography
+- [x] Word Frequency by Geography
 - [ ] Part of Speech Tagging
-- [ ] Display for `<corr>` `<reg>`
+- [ ] Display for regularized words
 - [ ] Stems
+	- [x] Greek
+	- [x] Latin
+	- [ ] English
+	- [ ] Hebrew
+	- [ ] Aramaic
 - [ ] Named Entity Recognition?
 - [x] Fix alphabet selection for Greek
-- [ ] Fix punctuation characters in alphabet selection
+- [ ] Fix punctuation characters in alphabet selection.
+      This is currently handled by removing words that start with 
+	  non-alphanumeric characters. We can find a better solution.
 - [x] Add general English category
 - [x] Fix KWIC alignment
 - [ ] Add option to disable special searching
 - [ ] Ignore soft hyphens in suspicion check
-- [ ] Add regex explanation/tutorial
+- [x] Add regex explanation/tutorial
 - [ ] Collapse occurrence metadata under dropdown arrow 
 - [ ] Add explanation of libraries in README
-- [ ] Ignore capitalization differences in variations section
+- [x] Ignore capitalization differences in variations section
 
 ## Misc
 

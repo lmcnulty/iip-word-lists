@@ -291,7 +291,7 @@ if __name__ == '__main__':
 			word_dict[word.lemmatization.lower()][language]\
 				.occurrences.append(word)
 			word_dict[word.lemmatization.lower()][language]\
-				.variations.add(word.text)
+				.variations.add(word.text.lower())
 			word_dict[word.lemmatization.lower()][language]\
 				.files.add(word.file_name)
 			word_dict[word.lemmatization.lower()][language]\
