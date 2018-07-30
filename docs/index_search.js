@@ -138,7 +138,7 @@ let regexExplanation = `
 	</li>
 	</ul>
 `;
-document.body.appendChild(create(
+document.getElementById("all-wrapper").appendChild(create(
 	"div", 
 	{class: "info-box", 
 	 style: "text-align: left; background: whitesmoke; padding: 10px; margin: 5px; border: 1px solid black;"}, 

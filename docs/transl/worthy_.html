@@ -1,13 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<title>Worthy</title>
 <meta charset="UTF-8"/>
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script>
 <link rel="stylesheet" type="text/css" href="../wordinfo.css"/>
 </head>
 <body>
-<h1>worthy [English]</h1>
-<a id="doubletree-link" style="position: absolute; top: 20px; right: 20px;" href="../doubletree.html?word=worthy">Doubletree Visualization</a>
+<div id="all-wrapper">
+<div class="info-box">
+<h1>Worthy [English]</h1>
+<div id="doubletree-container">
+<a id="doubletree-link" href="../doubletree.html?word=worthy">
+Doubletree Visualization
+</a>
+</div>
 <table>
 <tr>
 <td>Stem</td><td id="stem"></td>
@@ -16,12 +23,13 @@
 <td>Occurences: </td><td id="num-occurrences">2</td>
 </tr>
 <tr>
-<td>Total Frequency</td><td id="total-frequency">2.9021258071537402e-05</td>
+<td>Total Frequency</td><td id="total-frequency">% 0.0029</td>
 </tr>
 <tr>
-<td>Language Frequency</td><td id="language-frequency">7.705644384511655e-05</td>
+<td>Language Frequency</td><td id="language-frequency">% 0.00771</td>
 </tr>
 </table>
+</div>
 <h2>Variations</h2>
 <ul id="variations">
 <li>worthy [2]</li></ul>
@@ -34,34 +42,46 @@
 <!-- <iframe id='doubletree-frame' style='width: 100%; height: 400px;'>Your browser does not support frames.</iframe> -->
 <!-- <h2>Keyword in Context</h2>
 <ul id='kwic'></ul> -->
+<div class="grey-box">
 <h2>Occurences</h2>
 <table id="occurrences">
 <tr>
 <th>Variation</th>
 <th>File</th>
 <th colspan="3">Word in Context</th>
-<th>XML</th>
+<!--<th>XML</th>-->
 <th>Region</th>
 <th>Part of Speech</th>
 </tr>
+<span>
 <tr>
-<td id="variation">worthy</td>
-<td id="file"><a href="../texts/xml/fiqg0024.xml">fiqg0024.xml</a></td>
+<td class="variation">worthy</td>
+<td class="file"><a href="../texts/xml/fiqg0024.xml">fiqg0024.xml</a></td>
 <td class="kwic-prec">and Constantius and Maximian most </td>
 <td class="kwic">worthy</td>
 <td class="kwic-post">Caesars </td>
-<td><code id="xml" class="prettyprint">&lt;p&gt;worthy&lt;/p&gt;</code></td>
-<td id="region">Syria</td>
-<td id="pos">JJ</td>
-</tr><tr>
-<td id="variation">worthy</td>
-<td id="file"><a href="../texts/xml/fiqg0025.xml">fiqg0025.xml</a></td>
+<td class="region">Syria</td>
+<td class="pos">JJ</td>
+</tr>
+<tr>
+<td colspan="7" style="text-align: center;"><code class="xml prettyprint">&lt;p&gt;worthy&lt;/p&gt;</code></td>
+</tr>
+</span><span>
+<tr>
+<td class="variation">worthy</td>
+<td class="file"><a href="../texts/xml/fiqg0025.xml">fiqg0025.xml</a></td>
 <td class="kwic-prec">and Constantius and Maximian most </td>
 <td class="kwic">worthy</td>
 <td class="kwic-post">Caesars have ordained that this </td>
-<td><code id="xml" class="prettyprint">&lt;p&gt;worthy&lt;/p&gt;</code></td>
-<td id="region">Syria</td>
-<td id="pos">JJ</td>
-</tr></table>
+<td class="region">Syria</td>
+<td class="pos">JJ</td>
+</tr>
+<tr>
+<td colspan="7" style="text-align: center;"><code class="xml prettyprint">&lt;p&gt;worthy&lt;/p&gt;</code></td>
+</tr>
+</span></table>
+</div>
+</div>
+<script src="../wordInfo.js"> </script>
 </body>
 </html>

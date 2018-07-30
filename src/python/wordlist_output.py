@@ -37,25 +37,26 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 	for word in word_dict:
 		for language in word_dict[word]:
 			word_lists[language].append(word)
-			root = etree.fromstring(INFO_PAGE_HTML)
+			root = etree.fromstring(INFO_PAGE_HTML, etree.HTMLParser())
 			word_obj = word_dict[word][language]
 			occurrences = word_obj.occurrences
-			root.find(".//h1").text = (word + " [" + 
+			root.find(".//h1").text = (word.title() + " [" + 
 			                           full_language(language).title() + "]")
+			root.find(".//title").text = word.title()
 			root.find(".//a[@id='doubletree-link']").attrib["href"]\
 				= "../doubletree.html?word=" + word_obj.lemma.lower()
 			root.find(".//td[@id='num-occurrences']").text = \
 				str(len(word_obj.occurrences))
 			root.find(".//td[@id='total-frequency']").text = \
-				str(word_obj.frequency_total)
+				"% " + str(round(100 * word_obj.frequency_total, 5))
 			root.find(".//td[@id='language-frequency']").text = \
-				str(word_obj.frequency_language)
+				"% " + str(round(100 * word_obj.frequency_language, 5))
 			root.find(".//td[@id='stem']").text = str(word_obj.stem)
 			variation_plus_count = []
 			for variation in word_obj.variations:
 				count = 0
 				for occurrence in occurrences:
-					if variation == occurrence.text:
+					if variation == occurrence.text.lower():
 						count += 1
 				if variation != None:
 					variation_plus_count.append(variation + " [" + 
@@ -76,9 +77,10 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 			
 			for e in word_obj.occurrences:
 				row = etree.fromstring(OCCURENCE_TABLE_ROW_HTML)
-				row.find(".//td[@id='variation']").text = e.text
-				link = create("a", e.file_name.split('/')[-1], {"href": "../" + e.file_name})
-				row.find(".//td[@id='file']").append(link)
+				row.find(".//td[@class='variation']").text = e.text
+				link = create("a", e.file_name.split('/')[-1], 
+				              {"href": "../" + e.file_name})
+				row.find(".//td[@class='file']").append(link)
 				kwic = row.find(".//td[@class='kwic']")
 				kwic_prec = row.find(".//td[@class='kwic-prec']")
 				kwic_post = row.find(".//td[@class='kwic-post']")
@@ -89,9 +91,9 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				kwic_post.text = ""
 				for following_item in e.following:
 					kwic_post.text += sanitize(following_item.text) + " "
-				row.find(".//code[@id='xml']").text = e.xml_context
-				row.find(".//td[@id='region']").text = e.region
-				row.find(".//td[@id='pos']").text = e.pos
+				row.find(".//code[@class='xml prettyprint']").text = e.xml_context
+				row.find(".//td[@class='region']").text = e.region
+				row.find(".//td[@class='pos']").text = e.pos
 				root.find(".//table[@id='occurrences']").append(row)
 				xml_contexts.append(e.xml_context)
 			files_list_html = root.find(".//ul[@id='files']")	
@@ -140,7 +142,8 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				list_element.attrib["class"] = "suspicious"
 			word_list_html.append(list_element)
 			
-		language_index_file = open(output_name + '/' + language + '/index.html', "w")
+		language_index_file = open(output_name + '/' + language 
+		                           + '/index.html', "w")
 		language_index_file.write("<!DOCTYPE HTML>\n" + 
 		                          etree.tostring(root).decode("utf-8")
 								  .replace("$WORDS_OBJECT", words_object_string))
@@ -159,7 +162,8 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 	index_file.write("<!DOCTYPE HTML>\n" + etree.tostring(root).decode("utf-8"))
 	index_file.close()
 
-def occurrence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occurrences", langfiles=False):
+def occurrence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME 
+                           + "_occurrences", langfiles=False):
 	files = {}
 	if not langfiles:
 		if os.path.isfile(output_name + '.csv'):
@@ -177,8 +181,11 @@ def occurrence_list_to_csv(full_list, output_name=DEFAULT_OUTPUT_NAME + "_occurr
 					os.remove(output_name + '.csv')
 				if os.path.isdir(output_name + '.csv'):
 					sys.stderr.write(output_name + '.csv is a directory.')
-				files[word.language] = open(output_name + "_" + word.language + ".csv", "a")
-				files[word.language].write("Text,Lemma,Language,Edition Type,XML Context,File\n")
+				files[word.language] = open(output_name + "_" + word.language 
+				                            + ".csv", "a")
+				files[word.language].write(
+					"Text,Lemma,Language,Edition Type,XML Context,File\n"
+				)
 			word_output_file = files[word.language]
 		else:
 			word_output_file = output_file
@@ -194,12 +201,14 @@ def occurrence_list_to_plain_text(word_list, output_name, lemmatize=True):
 	text_buffer_transl = ""
 	for word in word_list:
 		if "transl" in word.language:
-			if (lemmatize and word.lemmatization != None and word.lemmatization != ""):
+			if (lemmatize and word.lemmatization != None 
+			and word.lemmatization != ""):
 				text_buffer_transl += word.lemmatization + " "
 			else:
 				text_buffer_transl += word.text + " "
 		else:
-			if (lemmatize and word.lemmatization != None and word.lemmatization != ""):
+			if (lemmatize and word.lemmatization != None 
+			and word.lemmatization != ""):
 				text_buffer += word.lemmatization + " "
 			else:
 				text_buffer += word.text + " "
@@ -217,7 +226,8 @@ def occurrence_list_to_plain_text(word_list, output_name, lemmatize=True):
 	output_file.write(text_buffer_transl)
 	output_file.close()
 	
-def occurrence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME + "_occurrences", langfiles=False):	
+def occurrence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME 
+                            + "_occurrences", langfiles=False):	
 	word_list = full_list[0:1000]
 	next_list = full_list[1000:len(full_list)]
 	table = create("table", create("tr",
@@ -231,7 +241,8 @@ def occurrence_list_to_html(full_list, num=0, output_name=DEFAULT_OUTPUT_NAME + 
 	html = create("html", 
 		create("head", 
 			create("title", "Word List"),
-			create("link", {"rel": "stylesheet", "type": "text/css", "href": "wordlist.css"})
+			create("link", {"rel": "stylesheet", "type": "text/css", 
+			                "href": "wordlist.css"})
 		),
 		body
 	)

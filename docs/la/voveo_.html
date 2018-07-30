@@ -1,13 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<title>Voveo</title>
 <meta charset="UTF-8"/>
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script>
 <link rel="stylesheet" type="text/css" href="../wordinfo.css"/>
 </head>
 <body>
-<h1>voveo [Latin]</h1>
-<a id="doubletree-link" style="position: absolute; top: 20px; right: 20px;" href="../doubletree.html?word=voveo">Doubletree Visualization</a>
+<div id="all-wrapper">
+<div class="info-box">
+<h1>Voveo [Latin]</h1>
+<div id="doubletree-container">
+<a id="doubletree-link" href="../doubletree.html?word=voveo">
+Doubletree Visualization
+</a>
+</div>
 <table>
 <tr>
 <td>Stem</td><td id="stem">vove </td>
@@ -16,12 +23,13 @@
 <td>Occurences: </td><td id="num-occurrences">3</td>
 </tr>
 <tr>
-<td>Total Frequency</td><td id="total-frequency">4.3531887107306105e-05</td>
+<td>Total Frequency</td><td id="total-frequency">% 0.00435</td>
 </tr>
 <tr>
-<td>Language Frequency</td><td id="language-frequency">0.003303964757709251</td>
+<td>Language Frequency</td><td id="language-frequency">% 0.3304</td>
 </tr>
 </table>
+</div>
 <h2>Variations</h2>
 <ul id="variations">
 <li>votis [2]</li><li>votum [1]</li></ul>
@@ -30,47 +38,63 @@
 </ul> -->
 <h2>Regions</h2>
 <ul id="regions">
-<li>Coastal Plain [1]</li><li>Negev [2]</li></ul>
+<li>Negev [2]</li><li>Coastal Plain [1]</li></ul>
 <!-- <iframe id='doubletree-frame' style='width: 100%; height: 400px;'>Your browser does not support frames.</iframe> -->
 <!-- <h2>Keyword in Context</h2>
 <ul id='kwic'></ul> -->
+<div class="grey-box">
 <h2>Occurences</h2>
 <table id="occurrences">
 <tr>
 <th>Variation</th>
 <th>File</th>
 <th colspan="3">Word in Context</th>
-<th>XML</th>
+<!--<th>XML</th>-->
 <th>Region</th>
 <th>Part of Speech</th>
 </tr>
+<span>
 <tr>
-<td id="variation">votum</td>
-<td id="file"><a href="../texts/xml/haif0020a.xml">haif0020a.xml</a></td>
+<td class="variation">votum</td>
+<td class="file"><a href="../texts/xml/haif0020a.xml">haif0020a.xml</a></td>
 <td class="kwic-prec">MON V HIMITIA OMNI Caius </td>
 <td class="kwic">votum</td>
 <td class="kwic-post">Hestia MON V HI mitia </td>
-<td><code id="xml" class="prettyprint">&lt;p&gt;votum&lt;/p&gt;</code></td>
-<td id="region">Coastal Plain</td>
-<td id="pos">N-S---MA-</td>
-</tr><tr>
-<td id="variation">votis</td>
-<td id="file"><a href="../texts/xml/yotv0001.xml">yotv0001.xml</a></td>
+<td class="region">Coastal Plain</td>
+<td class="pos">N-S---MA-</td>
+</tr>
+<tr>
+<td colspan="7" style="text-align: center;"><code class="xml prettyprint">&lt;p&gt;votum&lt;/p&gt;</code></td>
+</tr>
+</span><span>
+<tr>
+<td class="variation">votis</td>
+<td class="file"><a href="../texts/xml/yotv0001.xml">yotv0001.xml</a></td>
 <td class="kwic-prec">Syriae Palaestinae left ear multi </td>
 <td class="kwic">votis</td>
 <td class="kwic-post">XX right ear multi votis </td>
-<td><code id="xml" class="prettyprint">&lt;p&gt;&lt;expan&gt;&lt;ex&gt;votis&lt;/ex&gt;&lt;/expan&gt;&lt;/p&gt;</code></td>
-<td id="region">Negev</td>
-<td id="pos">T-PRPPMB-</td>
-</tr><tr>
-<td id="variation">votis</td>
-<td id="file"><a href="../texts/xml/yotv0001.xml">yotv0001.xml</a></td>
+<td class="region">Negev</td>
+<td class="pos">T-PRPPMB-</td>
+</tr>
+<tr>
+<td colspan="7" style="text-align: center;"><code class="xml prettyprint">&lt;p&gt;&lt;expan&gt;&lt;ex&gt;votis&lt;/ex&gt;&lt;/expan&gt;&lt;/p&gt;</code></td>
+</tr>
+</span><span>
+<tr>
+<td class="variation">votis</td>
+<td class="file"><a href="../texts/xml/yotv0001.xml">yotv0001.xml</a></td>
 <td class="kwic-prec">votis XX right ear multi </td>
 <td class="kwic">votis</td>
 <td class="kwic-post">XL </td>
-<td><code id="xml" class="prettyprint">&lt;p&gt;&lt;expan&gt;&lt;ex&gt;votis&lt;/ex&gt;&lt;/expan&gt;&lt;/p&gt;</code></td>
-<td id="region">Negev</td>
-<td id="pos">T-PRPPMB-</td>
-</tr></table>
+<td class="region">Negev</td>
+<td class="pos">T-PRPPMB-</td>
+</tr>
+<tr>
+<td colspan="7" style="text-align: center;"><code class="xml prettyprint">&lt;p&gt;&lt;expan&gt;&lt;ex&gt;votis&lt;/ex&gt;&lt;/expan&gt;&lt;/p&gt;</code></td>
+</tr>
+</span></table>
+</div>
+</div>
+<script src="../wordInfo.js"> </script>
 </body>
 </html>

@@ -28,13 +28,20 @@ NUM_CONTEXT = 5
 INFO_PAGE_HTML = """
 <html>
 	<head>
+		<title></title>
 		<meta charset='UTF-8' />
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script>
 		<link rel="stylesheet" type="text/css" href="../wordinfo.css"/>
 	</head>
 	<body>
+		<div id="all-wrapper">
+		<div class="info-box">
 		<h1></h1>
-		<a id="doubletree-link" style="position: absolute; top: 20px; right: 20px;">Doubletree Visualization</a>
+		<div id="doubletree-container">
+			<a id="doubletree-link">
+			Doubletree Visualization
+			</a>
+		</div>
 		<table>
 			<tr>
 				<td>Stem</td><td id='stem'></td>
@@ -49,6 +56,7 @@ INFO_PAGE_HTML = """
 				<td>Language Frequency</td><td id='language-frequency'></td>
 			</tr>
 		</table>
+		</div>
 		<h2>Variations</h2>
 		<ul id='variations'>
 		</ul>
@@ -61,17 +69,21 @@ INFO_PAGE_HTML = """
 		<!-- <iframe id='doubletree-frame' style='width: 100%; height: 400px;'>Your browser does not support frames.</iframe> -->
 		<!-- <h2>Keyword in Context</h2>
 		<ul id='kwic'></ul> -->
+		<div class="grey-box">
 		<h2>Occurences</h2>
 		<table id="occurrences">
 			<tr>
 				<th>Variation</th>
 				<th>File</th>
 				<th colspan="3">Word in Context</th>
-				<th>XML</th>
+				<!--<th>XML</th>-->
 				<th>Region</th>
 				<th>Part of Speech</th>
 			</tr>
 		</table>
+		</div>
+	</div>
+	<script src="../wordInfo.js"> </script>
 	</body>
 </html>
 """.replace("\t", "")
@@ -85,18 +97,20 @@ INDEX_PAGE_HTML = """
 		<link rel="stylesheet" type="text/css" href="../style.css" />
 	</head>
 	<body>
-		<!-- <h1></h1> -->
-		<ul id='words'>
-			<noscript id="wordList">
-			
-			</noscript>
-		</ul>
-		<script>
-			wordsArray = [
-				$WORDS_OBJECT
-			];
-		</script>
-		<script src='../index_search.js'>   </script>
+		<div id="all-wrapper">
+			<!-- <h1></h1> -->
+			<ul id='words'>
+				<noscript id="wordList">
+				
+				</noscript>
+			</ul>
+			<script>
+				wordsArray = [
+					$WORDS_OBJECT
+				];
+			</script>
+			<script src='../index_search.js'>   </script>
+		</div>
 	</body>
 </html>
 """.replace("\t", "")
@@ -115,14 +129,18 @@ FRONT_PAGE_HTML = """
 """.replace("\t", "")
 
 OCCURENCE_TABLE_ROW_HTML = """
+<span>
 <tr>
-	<td id="variation"></td>
-	<td id="file"></td>
+	<td class="variation"></td>
+	<td class="file"></td>
 	<td class="kwic-prec"></td>
 	<td class="kwic"></td>
 	<td class="kwic-post"></td>
-	<td><code id="xml" class="prettyprint"></code></td>
-	<td id="region"></td>
-	<td id="pos"></td>
+	<td class="region"></td>
+	<td class="pos"></td>
 </tr>
+<tr>
+	<td colspan="7" style="text-align: center;"><code class="xml prettyprint"></code></td>
+</tr>
+</span>
 """.replace("\t", "")
