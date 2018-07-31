@@ -97,9 +97,9 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 - [x] Add general English category
 - [x] Fix KWIC alignment
 - [ ] Add option to disable special searching
-- [ ] Ignore soft hyphens in suspicion check
+- [x] Ignore soft hyphens in suspicion check
 - [x] Add regex explanation/tutorial
-- [ ] Collapse occurrence metadata under dropdown arrow 
+- [x] Collapse occurrence metadata under dropdown arrow 
 - [ ] Add explanation of libraries in README
 - [x] Ignore capitalization differences in variations section
 

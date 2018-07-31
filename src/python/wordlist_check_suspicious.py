@@ -19,9 +19,12 @@ def check_suspicious(word):
 			if index > 0 and e.isupper():
 				contains_intermediate_uppercase = True
 			if word.language == "la":
-				if not unicodedata.category(e) in ["Ll", "Lu", "Po"]:
+				if not unicodedata.category(e) in ["Ll", "Lu", "Po", "Cf"]:
 					word.suspicious = True
-		if (contains_letters and contains_numbers and not ("transl" in word.language and re.match("[0-9]*th|[0-9]*2nd|[0-9]*3rd|[0-9]*1st", occurrence.text) != None)):
+		if (contains_letters and contains_numbers 
+		and not ("transl" in word.language 
+		         and re.match("[0-9]*th|[0-9]*2nd|[0-9]*3rd|[0-9]*1st", 
+		         occurrence.text) != None)):
 			word.suspicious = True
 		if contains_lowercase and contains_intermediate_uppercase:
 			word.suspicious = True

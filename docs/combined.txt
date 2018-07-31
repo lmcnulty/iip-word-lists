@@ -2180,9 +2180,9 @@ pertaining to slaves the great of the prefect s
 
 To Tiberius Claudius Italicus primuspilus 
 
-Tiberio Claudio Italico primus pilus 
+Tiberio Claudio Italico primo pilo 
 
-To the deified manes of Flavius Potens prefect of Legio VI Ferrata Fidelis Constans Claudius Protianus a centurion of Legio X Fretensis and his procurator and Hilarus and Damas and Symphorus his freedmen and heirs of the second rank made this monument for their most dutiful patron 
+To the deified manes of FlaviusPotens prefect of Legio VI Ferrata Fidelis Constans ClaudiusProtianus a centurion of Legio X Fretensis and his procurator and Hilarus and Damas and Symphorus his freedmen and heirs of the second rank made this monument for their most dutiful patron 
 
 Dis Manibus Flavii Potentis praefecti legionis VI Ferratae fidelis constantis Claudius Protianus centurio legionis X Fretensis procurator eius et Hilarus et Damas et Symphorus liberti et secundi heredes patrono piissimo fecerunt 
 
@@ -2640,7 +2640,7 @@ The tomb of Manlios Frontina Gregorios and Faustina
 
 The tomb of Priskiane and Zexippos shopkeepers 
 
-θήκη Πρισ­ κιάνης καὶ Ζεχίππου καπήλων 
+θήκη Πρισιάνης καὶ Ζεχίππου καπήλων 
 
 The tomb of Theopemptes the vintner 
 
@@ -3254,13 +3254,13 @@ There is none like unto the God of Jeshurun Deut 3326
 
 אין כאל ישרון 
 
-Theodoros scholastikos Scholastikos may be a personal name but it may also indicate an educated individual eg a lawyer or legal advisor 
+Theodoros scholastikos 
 
-ϹΧΟ ΛΑϹΤΙ ΚΟΥ Θεοδώρου σχολαστικοῦTheodoros scholastikos Scholastikos may be a personal name but it may also indicate an educated individual eg a lawyer or legal advisor Θεοδώρου σχολαστικοῦTheodoros scholastikos Scholastikos may be a personal name but it may also indicate an educated individual eg a lawyer or legal advisor 
+ϹΧΟ ΛΑϹΤΙ ΚΟΥ Θεοδώρου σχολαστικοῦTheodoros scholastikos Θεοδώρου σχολαστικοῦ 
 
 Leon chartoularios 
 
-Λέοντος χαρτουλαρίοῦ 
+Λέοντος χαρτουλαρίου 
 
 Georgios kommerkarios 
 
@@ -4294,6 +4294,10 @@ Diocletian and Maximian Augusti and Constantius and Maximian most worthy Caesars
 
 Θ ΘΧΟΙ ΗΟΙΕ ΗΛΑ ΗΤΙΟ ΝΙΟΥ ΝΡΙΟ Π 
 
+Yosef bar Azi 
+
+יוסף בר עזי 
+
 Abdbaal 
 
 עבדבעל 
@@ -4340,7 +4344,7 @@ Greek of Alkaios Hebrew boundary of Gezer
 
 Of AlkiosBoundary of Gezer 
 
-ΑΛΚΙΟΥ תחמ גזר 
+ΑΛΚΙΟΥ תחם גזר 
 
 To the gods of the underworld Here lie the forefathers of so-and-so the benefactor 
 
@@ -4562,7 +4566,7 @@ To the Most High God Remember me!
 
 Θεῷ ὑψ ίστῳ דכרית 
 
-No longer be in dread of the water-carrying bath being smashed which brough infinite sorrow to many by hurking and killing men in many cases children for the yawning earth buried it all from above But now having laid a pavement on either side made a sporting place Nikashaving let pleasant water to be drawn elsewhere 
+No longer be in dread of the water-carrying bath being smashed which brougth infinite sorrow to many by hurking and killing men in many cases children for the yawning earth buried it all from above But now having laid a pavement on either side made a sporting place Nikas having let pleasant water to be drawn elsewhere 
 
 ΜΗΚΕΤΙΤΑΡΒΟCΕΧΟΙΤΕΛΟΕΤΡΟΦΟΡΟΥΑCΑΜΙΝΘΟΥ ΟΥΛΟΜΕΝΗCΗΜΥΡΙΑΠΟΛΛΟΙCΑΛΓΕΕΘΗΚΕΝ ΝΔΡΑCCΙΝΟΜΕΝΗΚΤΕΙΝΟΥCΑΤΕΠΟΛΛΑΚΙΠΑΙΔΑC CΓΑΡΥΠΕΡΥΕΝΟΛΗΝΚΑΤΕΧWCΑΤΟΓΑΙΗ ΑΔΕCΤΟΡΕCΑCΦΙΛΟΠΑΙΓΜΟΝΑΘΗΚΑΤΟΧWΡΟΝ ΝΘΙΔΟΥCΤΕΡΨΙΜΒΡΟΤΟΝΕΛΚΕΜΕΝΥΔWΡ Μηκέτι τάρβος ἔχοιτε λοετροφόρου ἀσαμίνθου οὐλομένης ἣ μύρια πολλοῖς ἄλγε ἔθηκεν ἄνδρας σινομένη κτείνοθσά τε πολλάκι παῖδας ἡ τ ἀχανὴς γὰρ ὑπέρθεν ὅλην κατεχώσατο γαίη Ἄνδιχα δὲ στορέσας φιλοπαίγμονα θήκετο χῶρον Νικᾶς ἄλλοθι δοὺς τερψίμβροτον ἑλκέμεν ὕδωρ 
 
@@ -6188,7 +6192,7 @@ Hananiah son of Rabbi coming from Alexandria Peace
 
 Hannah daughter of Eilasios 
 
-Ἀννα Εἰασιου 
+Ἀννα Εἰασίου 
 
 Besas son of Nonos 
 
@@ -8412,7 +8416,7 @@ Damokrates
 
 Xenofanes Badromios 
 
-Επι Ξενοφάνεῦ Βαδρομίου 
+Ἐπὶ Ξενοφάνευς Βαδρομίου 
 
 
 
@@ -8420,7 +8424,7 @@ Xenofanes Badromios
 
 Pausania 
 
-Πα υσανία 
+Παυσανία 
 
 Kommos 
 
@@ -10658,7 +10662,7 @@ Yehosef the Zeolot
 
 יהוסף קני 
 
-Eleazar 
+son of Natai 
 
 בר נתי 
 
@@ -10814,7 +10818,7 @@ see note
 
 תאבא 
 
-See note 
+
 
 שמען כתביה שמעון כתבה כתבידח 
 
@@ -11542,7 +11546,7 @@ Aminias Lykias Idem another Lazar son of Masaraios 8 drachmas 8 drachmas 9 drach
 
 εζηθι 
 
-The last visible letter on line 2 could also be read as λ 
+
 
 λεα καιαμμ 
 
@@ -11798,7 +11802,7 @@ SUN
 
 νησ μνησθῇ 
 
-Any of the εs could be read as θ 
+
 
 γ μγ δ ισια εμε σκε γε 
 
@@ -11860,7 +11864,7 @@ t
 
 
 
-nac 
+nas 
 
 
 
@@ -13802,7 +13806,7 @@ Shaul
 
 שאל מטכ שאול מתכמתב 
 
-The LORD shall guard thy going out and thy coming in forever 
+The Lord will watch over your coming and going both now and forevermore 
 
 ΚΣ ΦΥΛΑΞΕΙ ΤΗΝ ΙΣΟΔΟΝΣΟΥ ΚΑΙ ΤΗΝΕΞΟΔΟΝΣΟΥ ΑΠΟ ΤΟΥ ΝΥΝ ΕΩΣ ΤΟΥ ΑΙΩΝΟΣ 
 
@@ -15554,11 +15558,11 @@ Lord our God help Your servant Theodoros It was written in 347
 
 Κύριε ὁ Θεὸς ἠμῶν βο ήθησον τὸν τμζ δοῦλον Θεόδορων Θεώδορων 
 
-This is the tombstone of Hannah daughter of Haniel the priest who died on the Sabbath the first festival day of Passover on the fifteenth day of the month of Nisan in the fifth year of the sabbatical cycle which is the year three hundred and sixty- nine years after the destruction of the Temple Peace May her sould rest Peace 
+This is the tombstone of Hannah daughter of Haniel the priest who died on the Sabbath the first festival day of Passover on the fifteenth day of the month of Nisan in the fifth year of the sabbatical cycle which is the year three hundred and sixty- nine years after the destruction of the Temple Peace May her soul rest Peace 
 
 הדה נפשה דחנה ברתה דחניאל כהנה דמיתת יום שובתה יומא טאבה קדמיה דפסחה חמשת עסר יומין בירח ניסן בשתה חמישיתה דשאבועה דהי שנת תלת מאה ושתין ותשע שנין לחרבן בית מקדשה שלום ניחא נפשה שלום 
 
-Rested be the soul of Hassidah the priest son of Domitian who died on the fifth day of Av in the fifth day of it in the fourth year of the sabbatical cycle which is the year four hundred and forty- ninefive years after the destruction of the Temple Peace on Israel l 
+Rested be the soul of Hassidah the priest son of Domitian who died on the fifth day of Av in the fifth day of it in the fourth year of the sabbatical cycle which is the year four hundred and forty- ninefive years after the destruction of the Temple Peace on Israel 
 
 תתניח נפשה דחסידה כהנה בר דמטין דמית בחמשה באב ביום חמשי בה בשתה רביעיתה דשבועה דהיא שנת ארבע מא וארבעין ו ת שע שנין לחרבן בית מקדשה שלום על ישראל ל 
 
@@ -15710,6 +15714,10 @@ This is the tombstone of Theodora daugther of MYYRH who died on day 1 first in t
 
 הדה נפשׁה דתידרה ברתה דמיירה דמיתת אבשׁבה ז יומין בירח תמוז בשׁתה קדמיתה דשׁבועה בשׁנת שׁ שׁנין לחרבן בית מקדשׁה 
 
+This is the tombstone of … daughter of Peṭrah who died on the sixteenth day in the month first Adar in the seecond year of the seven-year cycle the year three hundred and three years of the destruction of the Sanctuary 
+
+הדה נפשׁה ד ברת פטרה דמיתת בעסרה ושׁתה יומין בירח אדר קדמיה בשׁתה תניניתה דשׁבועא שׁנת תלת מאה ותלת שׁנין לחרבן בית מקדשׁה 
+
 On the thirteenth of the month Iyyar in the second year of the seven-year cycle in the year three hundred and three years there died Deliah the priest son of Yehoshua‛ from Beth Sharon in the boundary of Sepphoris May his repose be in peace and his rising speedily amen 
 
 בתלת עסר בירח איר בשׁתה תנינתה דשׁבועה בשׁנת תלת מאון ותלת שׁננין מית דליה כהנה בר יהושׁע מן בית שׁרון דבתחם צפורין משׁכבה לניח ומקמה בפרע אמן 
@@ -15717,6 +15725,10 @@ On the thirteenth of the month Iyyar in the second year of the seven-year cycle 
 This is the tombstone of ’Umar wife of Yeshua‛ who died on the twentieth day of Adar the year 300 hundred and 5 years of the destruction 
 
 הדה נפשׁה דאומר אתתה דישׁוע דמיתת בעשרין יומין באדר שנת שׁ מאה ה שׁנין לחרבנה 
+
+This is the tombstone of Zym daughter of Shilah who died in the second year of the seven year cycle on the 16th of the month Tebet the year three hundred and 18 years of the destruction of the Sanctuary Peace peace 
+
+הדה נפשׁה דזים ברת שׁילה דמיתת בשׁתה תניניתה דשׁבועה וי יומין בירח טיבת שׁנת תלת מא יח שׁנין לחרבן בית מקדשׁה שׁלום שׁלום 
 
 This is the tombstone of Yaaqob son of Shmuel who died on the second day Monday aged forty years on the third day of the month Iyyar in the first year of the seven-year cycle the year three hundred and twenty-three years of the destruction of the Sanctuary 
 
@@ -15937,12 +15949,4 @@ This is the tombstone of Martah daughter of Shmuel who died in the month Marḥe
 May the soul of Sarah rest daughter of Ḥunan who died on the eleventh day in the month second Adar of the year three of the seven-year cycle the year three hundred and sixty years of the destruction of the Sanctuary May she rest upon her funerary couch Peace 
 
 תתניח נפשה דסארא ברת חונן דמיתת בחדעסר יומין בירה אדאר תנאנה דשתה תלתיאה דשבועה שנת תלת מה ושתין שנין לחרבן בית מקדשה תאנוח על משכבה שאלום 
-
-This is the tombstone of … daughter of Peṭrah who died on the sixteenth day in the month first Adar in the seecond year of the seven-year cycle the year three hundred and three years of the destruction of the Sanctuary 
-
-הדה נפשׁה ד ברת פטרה דמיתת בעסרה ושׁתה יומין בירח אדר קדמיה בשׁתה תניניתה דשׁבועא שׁנת תלת מאה ותלת שׁנין לחרבן בית מקדשׁה 
-
-This is the tombstone of Zym daughter of Shilah who died in the second year of the seven year cycle on the 16th of the month Tebet the year three hundred and 18 years of the destruction of the Sanctuary Peace peace 
-
-הדה נפשׁה דזים ברת שׁילה דמיתת בשׁתה תניניתה דשׁבועה וי יומין בירח טיבת שׁנת תלת מא יח שׁנין לחרבן בית מקדשׁה שׁלום שׁלום 
 
