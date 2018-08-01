@@ -30,6 +30,7 @@ from wordlist_check_suspicious import *
 from wordlist_commands import *
 from wordlist_builder import *
 from wordlist_getter import *
+from wordlist_pos_standardization import *
 
 def print_usage():
 	print("wordlist.py [file1] [file2] ... \n"
@@ -150,7 +151,7 @@ def get_words_from_file(path, file_dict, new_system):
 				if tagged_words != None:
 					for tagged_word in tagged_words:
 						if tagged_word[0] == e.text:
-							new_words[-1].pos = tagged_word[1]
+							new_words[-1].pos = standardize_pos(tagged_word[1])
 		else:
 			new_words = [iip_word_occurrence(edition_type, 
 			             mainLang, "", path, textRegion.text, [])]

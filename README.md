@@ -82,6 +82,12 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 - [x] Wildcard Search
 - [x] Word Frequency by Geography
 - [ ] Part of Speech Tagging
+	- [x] Greek
+	- [x] Latin
+	- [x] English
+	- [ ] Hebrew
+	- [ ] Aramaic
+	- [x] Human-readable Display
 - [ ] Display for regularized words
 - [ ] Stems
 	- [x] Greek
@@ -91,7 +97,7 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 	- [ ] Aramaic
 - [ ] Named Entity Recognition?
 - [x] Fix alphabet selection for Greek
-- [ ] Fix punctuation characters in alphabet selection.
+- [ ] Fix unusual characters in alphabet selection.
       This is currently handled by removing words that start with 
 	  non-alphanumeric characters. We can find a better solution.
 - [x] Add general English category
