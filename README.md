@@ -113,3 +113,4 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
 
 Thank you to the [Unicode Consortium](unicode.org) for keeping us on our
 toes by including all these as separate characters: · ‧ ⋅ • ∙.
+
