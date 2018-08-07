@@ -25,9 +25,7 @@
 	- [ ] Aramaic
 - [ ] Named Entity Recognition?
 - [x] Fix alphabet selection for Greek
-- [ ] Fix unusual characters in alphabet selection.
-      This is currently handled by removing words that start with 
-	  non-alphanumeric characters. We can find a better solution.
+- [x] Fix unusual characters in alphabet selection.
 - [x] Add general English category
 - [x] Fix KWIC alignment
 - [ ] Add option to disable special searching
