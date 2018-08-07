@@ -1,0 +1,39 @@
+## To do
+
+- [x] Geographic Word Counts
+- [x] Filter by Region
+- [x] Word in Context
+- [x] Default to sort by occurrence
+- [x] Frontend Redesign
+- [x] Add Alphabet links to frontend
+- [x] Fuzzy Search
+- [x] Wildcard Search
+- [x] Word Frequency by Geography
+- [ ] Part of Speech Tagging
+	- [x] Greek
+	- [x] Latin
+	- [x] English
+	- [ ] Hebrew
+	- [ ] Aramaic
+	- [x] Human-readable Display
+- [ ] Display for regularized words
+- [ ] Stems
+	- [x] Greek
+	- [x] Latin
+	- [ ] English
+	- [ ] Hebrew
+	- [ ] Aramaic
+- [ ] Named Entity Recognition?
+- [x] Fix alphabet selection for Greek
+- [ ] Fix unusual characters in alphabet selection.
+      This is currently handled by removing words that start with 
+	  non-alphanumeric characters. We can find a better solution.
+- [x] Add general English category
+- [x] Fix KWIC alignment
+- [ ] Add option to disable special searching
+- [x] Ignore soft hyphens in suspicion check
+- [x] Add regex explanation/tutorial
+- [x] Collapse occurrence metadata under dropdown arrow 
+- [ ] Add explanation of libraries in README
+- [x] Ignore capitalization differences in variations section
+
