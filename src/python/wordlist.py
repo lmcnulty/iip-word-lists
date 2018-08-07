@@ -181,10 +181,15 @@ if __name__ == '__main__':
 		new_system = False
 
 	# Extract words from each file
-	occurrences = []  # Contains the iip_word_occurrence objects 
+	
+	# Contains the iip_word_occurrence objects 
+	occurrences = []  
+	
 	# Contains the iip_word objects
 	word_dict = defaultdict(lambda: defaultdict(lambda: iip_word()))
-	file_dict = {} # Maps file names to iip_file objects
+	
+	# Maps file names to iip_file objects
+	file_dict = {} 
 	languages = set()
 	
 	plaintextdir = "flat"
@@ -214,7 +219,7 @@ if __name__ == '__main__':
 
 	# If this is too slow, it should be changed to be parameters for 
 	# get_words_from_file so as to avoid iterating over the entire 
-	# list.		
+	# list.	
 	filtered_words = []
 	stop_words = set(stopwords.words('english'))
 	for word in occurrences:
@@ -224,10 +229,9 @@ if __name__ == '__main__':
 		if args.nodiplomatic:
 			if word.edition_type == "diplomatic":
 				add = False
-		if args.engstops:
-			if (word.text in stop_words and 
-			          "transl" in word.language):
-				add = False
+		if (args.engstops and word.text in stop_words 
+		and "transl" in word.language):
+			add = False
 		if add:
 			filtered_words.append(word)
 		
@@ -279,15 +283,19 @@ if __name__ == '__main__':
 		occurrences = filtered_words
 
 	lang_count = defaultdict(lambda: 0)
-
+	untranslated_occurrence_count = 0
+	translated_occurrence_count = 0
 	for word in occurrences:
 		lang_count[word.language] += 1
 		
 		# Add occurrences to dictionary
 		word_languages = [word.language]
 		if "transl" in word.language:
+			translated_occurrence_count += 1
 			word_languages.append("transl")
 			languages.add("transl")
+		else:
+			untranslated_occurrence_count += 1
 		for language in word_languages:
 			word_dict[word.lemmatization.lower()][language]\
 				.occurrences.append(word)
@@ -310,8 +318,12 @@ if __name__ == '__main__':
 	for key in word_dict:
 		for language in word_dict[key]:
 			word = word_dict[key][language]
-			word.frequency_total = \
-				len(word.occurrences) / len(occurrences)
+			if "transl" in language:
+				word.frequency_total = \
+					len(word.occurrences) / translated_occurrence_count
+			else:
+				word.frequency_total = \
+					len(word.occurrences) / untranslated_occurrence_count
 			word.frequency_language = \
 				len(word.occurrences) / lang_count[word.language]
 			if language == "la":
