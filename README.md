@@ -56,6 +56,14 @@ A word's *lemma* is its "basic" form as it might appear in a dictionary. For ins
 
 Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](https://cltk.org).
 
+## Libraries
+
+This project uses several libraries and toolkits.
+
+* [NLTK](http://www.nltk.org/) (Natural Language Toolkit) is a tool for working with natural language data. It is very approachable and well-documented, including a gratis [ebook](http://www.nltk.org/book/). This project uses NLTK for part-of-speech identification in translated English text.
+* The [Classical Language Toolkit](http://cltk.org/) (CLTK) provides natural language processing (NLP) support for a number of ancient Eurasian languages. It is used in this project for lemmatization, stemming, and part-of-speech identification in Latin and Greek texts. The implementations of these functions are explained in the project's documentation for [each](http://docs.cltk.org/en/latest/latin.html#) [language](http://docs.cltk.org/en/latest/greek.html).
+* [LXML](https://lxml.de/) is a library for fast XML parsing.
+
 ## Problems Encountered
 
 * Line breaks following certain tags indicate the start of a new word. 

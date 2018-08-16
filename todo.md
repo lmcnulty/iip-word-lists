@@ -32,6 +32,6 @@
 - [x] Ignore soft hyphens in suspicion check
 - [x] Add regex explanation/tutorial
 - [x] Collapse occurrence metadata under dropdown arrow 
-- [ ] Add explanation of libraries in README
+- [x] Add explanation of libraries in README
 - [x] Ignore capitalization differences in variations section
 
