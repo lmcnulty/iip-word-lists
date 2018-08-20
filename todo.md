@@ -1,0 +1,38 @@
+## To do
+
+- [x] Geographic Word Counts
+- [x] Filter by Region
+- [x] Word in Context
+- [x] Default to sort by occurrence
+- [x] Frontend Redesign
+- [x] Add Alphabet links to frontend
+- [x] Fuzzy Search
+- [x] Wildcard Search
+- [x] Word Frequency by Geography
+- [ ] Part of Speech Tagging
+	- [x] Greek
+	- [x] Latin
+	- [x] English
+	- [ ] Hebrew
+	- [ ] Aramaic
+	- [x] Human-readable Display
+- [ ] Display for regularized words
+- [ ] Stems
+	- [x] Greek
+	- [x] Latin
+	- [ ] English
+	- [ ] Hebrew
+	- [ ] Aramaic
+- [ ] Named Entity Recognition?
+- [x] Fix alphabet selection for Greek
+- [x] Fix unusual characters in alphabet selection.
+- [x] Add general English category
+- [x] Fix KWIC alignment
+- [ ] Add option to disable special searching
+- [x] Ignore soft hyphens in suspicion check
+- [x] Add regex explanation/tutorial
+- [x] Collapse occurrence metadata under dropdown arrow 
+- [x] Add explanation of libraries in README
+- [x] Ignore capitalization differences in variations section
+- [ ] Handle words separated by `/`
+

@@ -144,14 +144,11 @@ def get_words_from_file(path, file_dict, new_system):
 				new_words[-1].alternatives = e.alternatives
 				new_words[-1].preceding = e.preceding
 				new_words[-1].following = e.following
-				#if "transl" in mainLang:
-				#	word_copy = copy(new_words[-1])
-				#	word_copy.language = "transl"
-				#	new_words.append(word_copy)
 				if tagged_words != None:
 					for tagged_word in tagged_words:
 						if tagged_word[0] == e.text:
 							new_words[-1].pos = standardize_pos(tagged_word[1])
+			#endloop
 		else:
 			new_words = [iip_word_occurrence(edition_type, 
 			             mainLang, "", path, textRegion.text, [])]
@@ -159,7 +156,8 @@ def get_words_from_file(path, file_dict, new_system):
 			                         mainLang, path, textRegion.text, 
 			                         [])
 		words += new_words
-	
+		#endif
+	#endloop
 	null_words = []
 	for word in words:
 		word.text = str(word.text)
@@ -171,6 +169,7 @@ def get_words_from_file(path, file_dict, new_system):
 			word.language = "unk"
 	words = [x for x in words if x not in null_words]
 	return words
+#enddef get_words_from_file
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description="""Produce word list 
@@ -181,10 +180,15 @@ if __name__ == '__main__':
 		new_system = False
 
 	# Extract words from each file
-	occurrences = []  # Contains the iip_word_occurrence objects 
+	
+	# Contains the iip_word_occurrence objects 
+	occurrences = []  
+	
 	# Contains the iip_word objects
 	word_dict = defaultdict(lambda: defaultdict(lambda: iip_word()))
-	file_dict = {} # Maps file names to iip_file objects
+	
+	# Maps file names to iip_file objects
+	file_dict = {} 
 	languages = set()
 	
 	plaintextdir = "flat"
@@ -211,10 +215,11 @@ if __name__ == '__main__':
 				raise exception
 			else:
 				sys.stderr.write("Cannot read " + file + "\n")
+	#endloop
 
 	# If this is too slow, it should be changed to be parameters for 
 	# get_words_from_file so as to avoid iterating over the entire 
-	# list.		
+	# list.	
 	filtered_words = []
 	stop_words = set(stopwords.words('english'))
 	for word in occurrences:
@@ -224,13 +229,11 @@ if __name__ == '__main__':
 		if args.nodiplomatic:
 			if word.edition_type == "diplomatic":
 				add = False
-		if args.engstops:
-			if (word.text in stop_words and 
-			          "transl" in word.language):
-				add = False
+		if (args.engstops and word.text in stop_words 
+		and "transl" in word.language):
+			add = False
 		if add:
 			filtered_words.append(word)
-		
 		word.xml_context = ""
 		
 		delayed_prepend = []
@@ -252,12 +255,13 @@ if __name__ == '__main__':
 							delayed_postpend.remove(e)
 						else:
 							delayed_prepend.append(e)
+			#endloop
 			word.xml_context += word.text[i]
+		#endloop
 		for e in delayed_prepend:
 			word.xml_context = "<" + e.tag + ">" + word.xml_context
 		for e in delayed_postpend:
 			word.xml_context = word.xml_context + "</"+ e.tag + ">"
-		
 		for e in reversed(word.within):
 			if not isinstance(e.tag, str):
 				continue
@@ -271,7 +275,6 @@ if __name__ == '__main__':
 			start_tag += ">"
 			word.xml_context = (start_tag + word.xml_context 
 			                    + "</" + tag + ">")
-			
 		word.xml_context = word.xml_context.replace(XML_NS, "")\
 			.replace(TEI_NS,"")
 		
@@ -279,15 +282,19 @@ if __name__ == '__main__':
 		occurrences = filtered_words
 
 	lang_count = defaultdict(lambda: 0)
-
+	untranslated_occurrence_count = 0
+	translated_occurrence_count = 0
 	for word in occurrences:
 		lang_count[word.language] += 1
 		
 		# Add occurrences to dictionary
 		word_languages = [word.language]
 		if "transl" in word.language:
+			translated_occurrence_count += 1
 			word_languages.append("transl")
 			languages.add("transl")
+		else:
+			untranslated_occurrence_count += 1
 		for language in word_languages:
 			word_dict[word.lemmatization.lower()][language]\
 				.occurrences.append(word)
@@ -301,17 +308,21 @@ if __name__ == '__main__':
 				.lemma = word.lemmatization
 			word_dict[word.lemmatization.lower()][language]\
 				.regions.add(file_dict[word.file_name].region)
-	
 		check_suspicious(
 			word_dict[word.lemmatization.lower()][word.language]
 		)
+	#endloop
 
 	la_stemmer = Stemmer()
 	for key in word_dict:
 		for language in word_dict[key]:
 			word = word_dict[key][language]
-			word.frequency_total = \
-				len(word.occurrences) / len(occurrences)
+			if "transl" in language:
+				word.frequency_total = \
+					len(word.occurrences) / translated_occurrence_count
+			else:
+				word.frequency_total = \
+					len(word.occurrences) / untranslated_occurrence_count
 			word.frequency_language = \
 				len(word.occurrences) / lang_count[word.language]
 			if language == "la":
@@ -331,10 +342,12 @@ if __name__ == '__main__':
 				sort_order.append("edition_type")
 			else:
 				print("Invalid sort criterion: '" + e + "'")
+	
 	sort_order.reverse()
 	for field in sort_order:
 		occurrences = sorted(occurrences, key=lambda word: 
 			                        word.__dict__[field])
+
 	# Print each extracted word on a new line
 	if not args.silent:
 		for word in occurrences:		

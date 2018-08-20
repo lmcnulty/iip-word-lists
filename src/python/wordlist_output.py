@@ -49,8 +49,11 @@ def word_list_to_html(word_dict, languages, output_name=DEFAULT_OUTPUT_NAME):
 				str(len(word_obj.occurrences))
 			root.find(".//td[@id='total-frequency']").text = \
 				"% " + str(round(100 * word_obj.frequency_total, 5))
-			root.find(".//td[@id='language-frequency']").text = \
-				"% " + str(round(100 * word_obj.frequency_language, 5))
+			if "transl" in language:
+				root.find(".//td[@id='language-frequency']").text = "NA"
+			else:
+				root.find(".//td[@id='language-frequency']").text = \
+					"% " + str(round(100 * word_obj.frequency_language, 5))
 			root.find(".//td[@id='stem']").text = str(word_obj.stem)
 			variation_plus_count = []
 			for variation in word_obj.variations:

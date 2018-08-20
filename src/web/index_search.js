@@ -161,27 +161,48 @@ function sortWordList() {
 		});
 	} else if (sortSelect.value = "alphabet") {
 		wordList.sort((a, b) => {
-			return a.children[0].innerHTML.localeCompare(
-				b.children[0].innerHTML
+			return noAnnoyances(a.children[0].innerHTML).localeCompare(
+				noAnnoyances(b.children[0].innerHTML)
 			);
 		});
 	}
+}
+let annoyances = ["_", "-", ".", "`", "!", " ", "\n", "\t", "~", "ʹ", 
+                  "῾", "῀", "‘", "῀", "᾽", "ʻ", "ʼ", "ʽ", "’", "‛",
+                  "…", "∞", "○", "◦", "⚬", "￮", "¹", "½", "¾", "ɐ"]
+
+function firstNonAnnoyance(s) {
+	for (ch of s) { if (!annoyances.includes(ch)) { return ch; } }
+}
+
+function noAnnoyances(s) {
+	let filtered = "";
+	for (ch of s) {
+		if (!annoyances.includes(ch)) { filtered += ch; }
+	}
+	return filtered;
+}
+
+function exists(x) {
+	if (typeof(x) == "undefined"
+	    || x == null
+		|| x == ""
+	) { return false; }
+	return true;
 }
 
 for (let i = 0; i < wordsArray.length; i++) {
 	wordsArray[i].text.replace(/[\x30\x29\x04]/g,"")
 	                  .replace(/[\u00AD\u002D\u2011]+/g,'')
 					  .replace(String.fromCharCode(173), "");
-	let annoyances = ["_", "-", ".", "`", "!", " ", "\n", "\t", "~", "ʹ", 
-	                  "῾", "῀", "‘", "῀", "᾽", "ʻ", "ʼ", "ʽ", "ʿ", "’", "‛",
-					  "…", "∞", "○", "◦", "⚬", "￮", "¹", "½", "¾", "ɐ"]
-	if (wordsArray[i].text.length < 1 ||
-	    wordsArray[i].text[0] == null ||
-		typeof wordsArray[i].text != "string" ||
-		wordsArray[i].text.includes("\n") ||
-		wordsArray[i].text[0].charCodeAt(0) == 173 || 
-		isNaN(wordsArray[i].text[0].charCodeAt(0)) || 
-	    inArray(wordsArray[i].text[0], annoyances)
+	if (wordsArray[i].text.length < 1 
+	    || wordsArray[i].text[0] == null 
+		|| typeof wordsArray[i].text != "string" 
+		|| wordsArray[i].text.includes("\n") 
+		|| wordsArray[i].text[0].charCodeAt(0) == 173 
+		|| isNaN(wordsArray[i].text[0].charCodeAt(0))
+		|| !exists(noAnnoyances(wordsArray[i].text)) 
+	    //|| inArray(wordsArray[i].text[0], annoyances)
 	) { continue; }
 	if (wordsArray[i].regions != null) {
 		for (let j = 0; j < wordsArray[i].regions.length; j++) {
@@ -242,16 +263,21 @@ function countSkipped(start, end) {
 
 function jumpToLetter(evt) {
 	targetLetter = normalizeGreek(evt.target.innerHTML[0]);
+	//console.log("targetLetter: " + targetLetter);
 	sortSelect.value = "alphabet";
 	sortWordList();
 	let skipped = 0;
 	for (let i = 0; i < wordList.length; i += wordsPerPage) {
 		skipped += countSkipped(i, Math.min(i + wordsPerPage, 
 		                                    wordList.length - 1));
-		let firstWord = wordList[i + skipped].children[0].innerHTML;
+		let firstWord = noAnnoyances(
+			wordList[i + skipped].children[0].innerHTML
+		);
 		let lastWordIndex = Math.min(i + skipped + wordsPerPage - 1, 
 		                             wordList.length - 1);
-		let lastWord = wordList[lastWordIndex].children[0].innerHTML;
+		let lastWord = noAnnoyances(
+			wordList[lastWordIndex].children[0].innerHTML
+		);
 		//console.log(["Page " + i / wordsPerPage, 
 		//             "First Word: " + firstWord,
 		//             "Last Word: " + lastWord].join(", "));
@@ -275,7 +301,7 @@ function jumpToLetter(evt) {
 
 let letters = new Set();
 for (let i = 0; i < wordList.length; i++) {
-	letter = wordList[i].children[0].innerHTML[0];
+	letter = firstNonAnnoyance(wordList[i].children[0].innerHTML);
 	if (letter != null && typeof letter != 'undefined') {
 		letters.add(normalizeGreek(letter));
 	}

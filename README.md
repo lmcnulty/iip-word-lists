@@ -56,6 +56,14 @@ A word's *lemma* is its "basic" form as it might appear in a dictionary. For ins
 
 Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](https://cltk.org).
 
+## Libraries
+
+This project uses several libraries and toolkits.
+
+* [NLTK](http://www.nltk.org/) (Natural Language Toolkit) is a tool for working with natural language data. It is very approachable and well-documented, including a gratis [ebook](http://www.nltk.org/book/). This project uses NLTK for part-of-speech identification in translated English text.
+* The [Classical Language Toolkit](http://cltk.org/) (CLTK) provides natural language processing (NLP) support for a number of ancient Eurasian languages. It is used in this project for lemmatization, stemming, and part-of-speech identification in Latin and Greek texts. The implementations of these functions are explained in the project's documentation for [each](http://docs.cltk.org/en/latest/latin.html#) [language](http://docs.cltk.org/en/latest/greek.html).
+* [LXML](https://lxml.de/) is a library for fast XML parsing.
+
 ## Problems Encountered
 
 * Line breaks following certain tags indicate the start of a new word. 
@@ -70,46 +78,9 @@ Lemmatization is currently done only for Latin and Greek, as provided by [CLTK](
   marked as containing graffiti, we could potentially lose some words.
 * Should `<num>` elements always indicate the start of a new word?
 
-## To do
-
-- [x] Geographic Word Counts
-- [x] Filter by Region
-- [x] Word in Context
-- [x] Default to sort by occurrence
-- [x] Frontend Redesign
-- [x] Add Alphabet links to frontend
-- [x] Fuzzy Search
-- [x] Wildcard Search
-- [x] Word Frequency by Geography
-- [ ] Part of Speech Tagging
-	- [x] Greek
-	- [x] Latin
-	- [x] English
-	- [ ] Hebrew
-	- [ ] Aramaic
-	- [x] Human-readable Display
-- [ ] Display for regularized words
-- [ ] Stems
-	- [x] Greek
-	- [x] Latin
-	- [ ] English
-	- [ ] Hebrew
-	- [ ] Aramaic
-- [ ] Named Entity Recognition?
-- [x] Fix alphabet selection for Greek
-- [ ] Fix unusual characters in alphabet selection.
-      This is currently handled by removing words that start with 
-	  non-alphanumeric characters. We can find a better solution.
-- [x] Add general English category
-- [x] Fix KWIC alignment
-- [ ] Add option to disable special searching
-- [x] Ignore soft hyphens in suspicion check
-- [x] Add regex explanation/tutorial
-- [x] Collapse occurrence metadata under dropdown arrow 
-- [ ] Add explanation of libraries in README
-- [x] Ignore capitalization differences in variations section
 
 ## Misc
 
 Thank you to the [Unicode Consortium](unicode.org) for keeping us on our
 toes by including all these as separate characters: · ‧ ⋅ • ∙.
+
