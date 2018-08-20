@@ -34,4 +34,5 @@
 - [x] Collapse occurrence metadata under dropdown arrow 
 - [x] Add explanation of libraries in README
 - [x] Ignore capitalization differences in variations section
+- [ ] Handle words separated by `/`
 

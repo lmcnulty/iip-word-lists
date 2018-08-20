@@ -144,14 +144,11 @@ def get_words_from_file(path, file_dict, new_system):
 				new_words[-1].alternatives = e.alternatives
 				new_words[-1].preceding = e.preceding
 				new_words[-1].following = e.following
-				#if "transl" in mainLang:
-				#	word_copy = copy(new_words[-1])
-				#	word_copy.language = "transl"
-				#	new_words.append(word_copy)
 				if tagged_words != None:
 					for tagged_word in tagged_words:
 						if tagged_word[0] == e.text:
 							new_words[-1].pos = standardize_pos(tagged_word[1])
+			#endloop
 		else:
 			new_words = [iip_word_occurrence(edition_type, 
 			             mainLang, "", path, textRegion.text, [])]
@@ -159,7 +156,8 @@ def get_words_from_file(path, file_dict, new_system):
 			                         mainLang, path, textRegion.text, 
 			                         [])
 		words += new_words
-	
+		#endif
+	#endloop
 	null_words = []
 	for word in words:
 		word.text = str(word.text)
@@ -171,6 +169,7 @@ def get_words_from_file(path, file_dict, new_system):
 			word.language = "unk"
 	words = [x for x in words if x not in null_words]
 	return words
+#enddef get_words_from_file
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description="""Produce word list 
@@ -216,6 +215,7 @@ if __name__ == '__main__':
 				raise exception
 			else:
 				sys.stderr.write("Cannot read " + file + "\n")
+	#endloop
 
 	# If this is too slow, it should be changed to be parameters for 
 	# get_words_from_file so as to avoid iterating over the entire 
@@ -234,7 +234,6 @@ if __name__ == '__main__':
 			add = False
 		if add:
 			filtered_words.append(word)
-		
 		word.xml_context = ""
 		
 		delayed_prepend = []
@@ -256,12 +255,13 @@ if __name__ == '__main__':
 							delayed_postpend.remove(e)
 						else:
 							delayed_prepend.append(e)
+			#endloop
 			word.xml_context += word.text[i]
+		#endloop
 		for e in delayed_prepend:
 			word.xml_context = "<" + e.tag + ">" + word.xml_context
 		for e in delayed_postpend:
 			word.xml_context = word.xml_context + "</"+ e.tag + ">"
-		
 		for e in reversed(word.within):
 			if not isinstance(e.tag, str):
 				continue
@@ -275,7 +275,6 @@ if __name__ == '__main__':
 			start_tag += ">"
 			word.xml_context = (start_tag + word.xml_context 
 			                    + "</" + tag + ">")
-			
 		word.xml_context = word.xml_context.replace(XML_NS, "")\
 			.replace(TEI_NS,"")
 		
@@ -309,10 +308,10 @@ if __name__ == '__main__':
 				.lemma = word.lemmatization
 			word_dict[word.lemmatization.lower()][language]\
 				.regions.add(file_dict[word.file_name].region)
-	
 		check_suspicious(
 			word_dict[word.lemmatization.lower()][word.language]
 		)
+	#endloop
 
 	la_stemmer = Stemmer()
 	for key in word_dict:
@@ -343,10 +342,12 @@ if __name__ == '__main__':
 				sort_order.append("edition_type")
 			else:
 				print("Invalid sort criterion: '" + e + "'")
+	
 	sort_order.reverse()
 	for field in sort_order:
 		occurrences = sorted(occurrences, key=lambda word: 
 			                        word.__dict__[field])
+
 	# Print each extracted word on a new line
 	if not args.silent:
 		for word in occurrences:		
