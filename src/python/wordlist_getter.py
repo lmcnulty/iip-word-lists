@@ -58,7 +58,7 @@ def is_word_terminating(a_step, walker):
 			if "break" in element.attrib and element.attrib["break"] == "no":
 				return False
 			return True
-	if a_step.character.isspace() and not is_indent(a_step, walker):
+	if (a_step.character.isspace() or a_step.character in WORD_TERMINATING ) and not is_indent(a_step, walker):
 		if a_step.character == "\n":
 			the_preceding_element = preceding_element(a_step, walker, 
 		                                          whitespace_only=True) 
