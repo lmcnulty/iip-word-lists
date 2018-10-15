@@ -30,7 +30,7 @@
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="#dedicatory" ana="other_religion">
+                        <msItem class="#dedicatory" ana="#other_religion">
                             <p>Maresha. Fifth to second centuries BCE. Altar. Dedicatory</p>
                         </msItem>
                     </msContents>
@@ -58,7 +58,7 @@
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
+                            <handNote ana="#impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -78,8 +78,7 @@
                                 BCE</date><placeName>
                                 <region>Judaea</region>
                                 <settlement ref="https://pleiades.stoa.org/places/687966">
-                                    
-                                </settlement>
+                                    Maresha</settlement>
                                 <geogName type="site">Maresha</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
