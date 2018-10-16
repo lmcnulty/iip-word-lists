@@ -30,7 +30,7 @@
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="#text_unknown" ana="other_religion">
+                        <msItem class="#text_unknown" ana="#other_religion">
                             <p>Maresha, Hellenistic Period. Ostrakon. Unknown Text.</p>
                         </msItem>
                     </msContents>
@@ -58,7 +58,7 @@
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="painted">
+                            <handNote ana="#painted">
                                 <p>Black ink</p>
                             </handNote>
                         </handDesc>
@@ -75,10 +75,9 @@
                             <rs/>
                         </summary>
                         <origin><date notBefore="-0332" notAfter="-0063">Hellenistic Period</date><placeName>
-                                <region/>
-                                <settlement ref="http://pleiades.stoa.org/places/687966">
-                                    
-                                </settlement>
+                            <region>Judaea</region>
+                            <settlement ref="http://pleiades.stoa.org/places/687966"
+                                >Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

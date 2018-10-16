@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="askh0003b" n="iip">
+    xml:id="ashk0003b" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -30,14 +30,14 @@
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="la" otherLangs="grc"/>
-                        <msItem class="place_marker.milestone" ana="other_religion">
+                        <msItem class="#place_marker.milestone" ana="#other_religion">
                             <p>Ashkelon, 284 CE - 305 CE. Column. Milestone.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="column">
-                            <supportDesc ana="marble">
+                        <objectDesc ana="#column">
+                            <supportDesc ana="#marble">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -46,7 +46,7 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete.broken">
+                                <condition ana="#complete.broken">
                                     <p>Roughly cut at one end and broken at the other. It cannot be
                                         determined whether this milestone had a base. The upper end
                                         of the column seems to have been leveled intentionally</p>
@@ -62,7 +62,7 @@
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed.carved">
+                            <handNote ana="#impressed.inscribed.carved">
                                 <dimensions type="letter" extent="height" unit="cm" atLeast="2.5"
                                     atMost="9.5"/>
                                 <p>s. The lettering varies in height from 2.5 to 6.5 cm in lines
@@ -103,7 +103,7 @@
         </fileDesc>
         <!--  *************************************  <encodingDesc>  ********************************
             
-            Encoders do not edit the <encodingDesc>.
+            Encoders do not edit the <encodingDesc>
         -->
         <encodingDesc>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">

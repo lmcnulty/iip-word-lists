@@ -30,14 +30,14 @@
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="arc" otherLangs="grc"/>
-                        <msItem class="funerary.epitaph" ana="jewish">
+                        <msItem class="#funerary.epitaph" ana="#jewish">
                             <p>Zoora, 358/359 CE. Tombstone. Funerary (Epitaph).</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="tombstone">
-                            <supportDesc ana="stone.other">
+                        <objectDesc ana="#tombstone">
+                            <supportDesc ana="#stone.other">
                                 <support>
                                     <p>Greenish sandstone, almost square in shape and slightly
                                         chipped all around</p>
@@ -47,7 +47,7 @@
                                         <depth>3</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete.intact">
+                                <condition ana="#complete.intact">
                                     <p/>
                                 </condition>
                             </supportDesc>
@@ -59,7 +59,7 @@
                         </objectDesc>
                         <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
+                            <handNote ana="#impressed.inscribed">
                                 <dimensions type="letter" extent="height" unit="cm" atLeast="1.4"
                                     atMost="1.4"/>
                                 <p/>
@@ -110,6 +110,7 @@
         <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
             <change when="2017-11-01" who="Sabrina Whitfill">Initial Entry</change>
+            <change when="2018-10-10" who="Elli Mylonas">joining adjacent unclear elements</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
@@ -136,7 +137,7 @@
                     <p/>
                     <ab>Μνημῖον Μουσῖ<lb/>Μάρσου, γενη<unclear>θ</unclear>έντος<lb/>ἔτους <num
                             value="235">σλε</num>,
-                            <unclear>ἀ</unclear><unclear>π</unclear><unclear>ο</unclear>θανόν<lb
+                            <unclear>ἀπο</unclear>θανόν<lb
                             break="no"/>jτος <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
                         <num value="253">σνγ</num>.<lb/>Ε<unclear>ὑ</unclear>μοιρίτω.</ab>
                 </div>

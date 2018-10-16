@@ -30,7 +30,7 @@
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="#text_unknown" ana="other_religion">
+                        <msItem class="#text_unknown" ana="#other_religion">
                             <p>Maresha, Fifth Century BCE to Second Century BCE. Ostrakon. Unknown
                                 Text.</p>
                         </msItem>
@@ -59,7 +59,7 @@
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
+                            <handNote ana="#impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -109,6 +109,7 @@
         <revisionDesc>
             <change when="2017-04-14" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2017-08-23" who="Gaia Lembi">Edited</change>
+            <change when="2018-10-10" who="Elli Mylonas">joining adjacent unclear elements</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -122,7 +123,7 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p cert="low"><unclear>ε</unclear><unclear>ω</unclear><unclear>δ</unclear></p>
+                <p cert="low"><unclear>εωδ</unclear></p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p/>

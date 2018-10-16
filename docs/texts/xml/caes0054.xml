@@ -25,7 +25,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0054</idno>
+                  <idno>Caes 0054</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
@@ -77,11 +77,11 @@
                      <date notBefore="0117" notAfter="0138">117-138</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. East of
-				  Bet Hanania, presumably from Channel B.</p>
+                     <p>East of Bet Hanania, presumably from Channel B.</p>
                   </origin>
                   <provenance>
                      <placeName> Archeological Insistitute of Hebrew University</placeName>
@@ -125,23 +125,23 @@
                <expan><abbr>Caes</abbr><ex>ar</ex></expan>
                <lb/>
                <expan><abbr>Tra</abbr><ex>ianus</ex></expan>
-               <choice>
+               <expan>
                   <abbr>Ha<hi rend="ligature">dr</hi>
                   </abbr>
-                  <expan>Hadrianus</expan>
-               </choice>
-               <choice>
+                  <ex>ianus</ex>
+               </expan>
+               <expan>
                   <abbr>
                      <hi rend="ligature">Au</hi>g</abbr>
-                  <expan>Augustus</expan>
-               </choice>
+                  <ex>ustus</ex>
+               </expan>
                <lb/>per <expan><abbr>vexil</abbr><ex>lationem</ex></expan>
                <lb/>
-               <expan><abbr>leg</abbr><ex>ionis</ex></expan> VI <choice>
+               <expan><abbr>leg</abbr><ex>ionis</ex></expan> VI <expan>
                   <abbr>Fe<unclear>r</unclear>
                   </abbr>
-                  <expan>Ferratae</expan>
-               </choice>. 
+                  <ex>ratae</ex>
+               </expan>. 
 		  </p>
          </div>
          <div type="translation"

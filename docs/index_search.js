@@ -400,6 +400,14 @@ function render() {
 	}
 }
 
-searchbar.addEventListener("input", () => {after = 0; render();}, false);
+var renderTimeout;
+
+searchbar.addEventListener("input", () => {
+	clearTimeout(renderTimeout);
+	renderTimeout = setTimeout(function() {
+		after = 0;
+		render();
+	}, 150);
+}, false);
 sortWordList();
 render();

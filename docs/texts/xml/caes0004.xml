@@ -25,25 +25,25 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0004</idno>
+                  <idno>Caes 0004</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#dedicatory">
-                     <p>Caesarea. Third century, CE. Engraved column. Dedication.</p>
+                     <p>Caesarea, Early third century CE. Column. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>92</height>
                               <width>40</width>
                            </dimensions>
-                           <p/>
+                           <p>Measures refer to the inscribed area</p>
                         </support>
                         <condition>
                            <p/>
@@ -73,15 +73,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0222">200-222</date>
+                     <date notBefore="0200" notAfter="0222">Early third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, south of
-				  the Old City near a lime kiln west of Imperial Revenue Office and north of
-				  Vault 1. </p>
+                     <p> Caesarea, south of the Old City near a lime kiln west of Imperial Revenue
+                        Office and north of Vault 1. </p>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum</placeName>
@@ -184,7 +184,7 @@
                <lb/>
                <unclear>e</unclear>ius viro <unclear>i</unclear>
                <del>ncompara</del>
-               <lb/>
+               <lb break="no"/>
 		  bili. </p>
          </div>
          <div type="translation"
