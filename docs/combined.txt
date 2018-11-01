@@ -24,7 +24,7 @@ Be of good courage Seeos! Seventy years old
 
 Remember the presbyter Alaph 
 
-ΜΝΣΣ ΟΠΡΕS ΑΛΑΦ Ο ΑΧ Ε ΑΠΛΕΤΒ Ω Α μν ὁ πρεσβύτερος Αλαφ ο αχ ε απλετβ ΩΑ 
+ΜΝΣΣ ΟΠΡΕS ΑΛΑΦ Ο ΑΧ Ε ΑΠΛΕΤΒ Ω Α μνησθῇ ὁ πρεσβύτερος Αλαφ ο αχ ε απλετβ ΩΑ 
 
 
 
@@ -364,7 +364,7 @@ Isaac son of Mokim Joseph
 
 Rabbi Isaac 
 
-Ῥ Εἰσάκιος 
+Ῥ ιββὶ Εἰσάκιος 
 
 Shalom 
 
@@ -1808,11 +1808,11 @@ Lucio Valerio Valeriano procuratori provinciae Syriae Palaestinae provinciae pra
 
 The centurion N- Alexandros honors his friend Aurelios Maronprocurator of Augustus and acting governor 
 
-Αὐρήλιον Μάρωνα ἐπίτρ τοῦ Σεβαστοῦ διέποντα τὰ μέρη τῆς ἡγεμονίας Ν ς Ἀλέξανδρος ἑκατόνταρχος τόν φίλον 
+Αὐρ ήλιον Μάρωνα ἐπίτρ οπον τοῦ Σεβαστοῦ διέποντα τὰ μέρη τῆς ἡγεμονίας Ν ς Ἀλέξανδρος ἑκατόνταρχος τόν φίλον 
 
 To Emperor Caesar Gaius Valerius Diocletian faithful and happy Augustus Clemens of perfectissimate rank procurator devoted to his spirit and majesty 
 
-Imperatori Caes Caio Valerio Diocletiano pio felici invicto Aug Clemes vir perfectissimus procurator devotus numini maiestatique eius 
+Imperatori Caessari Caio Valerio Diocletiano pio felici invicto Augusto Clemes vir perfectissimus procurator devotus numini maiestatique eius 
 
 To Gaius Furius Timesitheus procurator of Augustus Aurelius Justinus centurion and his strator 
 
@@ -1852,7 +1852,7 @@ Decimo Seio Decimi filio Quirina Senecae legato Augusti pro praetore provinciae 
 
 To our Caesar Marcus Aurelius Probus unconquered Augustus Emperor truly most victorious over all peoples and most happy and forbearing Acilius Cleobulus of clarissimate rank governor of the province Syria Palaestina devoted to his might and majesty 
 
-Omni um gentium vere victoriosiss ac felicissimo ciss indulgent Caesari nostro Marco Aurelio Probo invicto Aug imperatori Acilius Cleobulus vir clarissimus praes provinciae Syriae Pal devotus numini maiestatique e 
+Omni um gentium vere victoriosiss imo ac felicissimo indulgent issimo Caesari nostro Marco Aurelio Probo invicto Augusto imperatori Acilius Cleobulus vir clarissimus praes es provinciae Syriae Pal aestinae devotus numini maiestatique e ius 
 
 To the strongest and wisest leader of the young Flavius Valerius Constantius faithful happy unconquered most noble Caesar Aufidius Priscus of perfectissimate rank governor of the province of Palaestina to their might and majesty 
 
@@ -1860,19 +1860,19 @@ Fortissimo et consultissimo iuventutis principi Flavio Valerio Constantio pio fe
 
 To Gaius Julius Titianus propaetorian legate of Augustus for Syria Palaestina Marcus Flavius S- of the tribe Quirina of the tenth legion Fretensis Antoniniana to best and deserving 
 
-C Iulio Titiano legato Aug pro praetore Syriae Palaest Marcus Flavius Quirina S legionis X Fretensis Antoninianae soptimo et mer 
+C Iulio Titiano legato Aug usti pro praetore Syriae Palaest inae Marcus Flavius Quirina S legionis X Fretensis Antoninianae soptimo et mer enti 
 
 
 
-to raes devotus numini mq eius 
+to raes devotus numini maiestatique eius 
 
 propraetorian legate of Augustus for the province Syria Palaestina Victorinus 
 
-legato Augusti pro praetore provinciae Syr Palaest VICV a Victorinus 
+legato Augusti pro praetore provinciae Syr iae Palaestinae VICV a Victorinus 
 
 To Tiberius Claudius G- legional legate 
 
-Tiberio Claudio G legato leg TE 
+Tiberio Claudio G legato legionis TE 
 
 
 
@@ -3548,7 +3548,7 @@ Jesus son of Seilas Sixty years old
 
 Be of good courage Dometianos! Fifty years old 
 
-ΘΑΡΣ ΔΟ ΕΤ ΝΕΤΟ θάρσει Δομ­ ετια­ ν ἐτῶν ο 
+ΘΑΡΣ ΔΟ ΕΤ ΝΕΤΟ θάρσει Δομετιαννέ ἐτῶν ο 
 
 May he who reads be remembered in good memory before Obodas the god and may there be remembered whoever Garmalahi son of Taymalahi set up a statue before Obodas the god And he acts neither for benefit nor for favour And if death claims us let me not be claimed And if affliction seeks let it not seek us Garmalahi wrote this with his own hand 
 
@@ -3620,7 +3620,7 @@ Be of good courage Diodorus! years old
 
 Be of good courage Antoninos! Twenty-five years old 
 
-ΘΑΡΣΙ ΝΑΤΩΝΙΝΕ Ι ΚΕ θάρσι Αντωνῖνε κ´ε 
+ΘΑΡΣΙ ΝΑΤΩΝΙΝΕ Ι ΚΕ θάρσι Αντωνῖνε ἐτῶν κ´ε 
 
 Be of good courage Zebtha! Thirty years old 
 
@@ -3628,7 +3628,7 @@ Be of good courage Zebtha! Thirty years old
 
 Be of good courage mta! Twenty-one years old 
 
-ΘΑΡΣ ΜΤ ΑEΤΟ ΚΑ θάρσι μτ α ἐτο κα 
+ΘΑΡΣ ΜΤ ΑEΤΟ ΚΑ θάρσι μτ α ἐτο υς κα 
 
 Be of good courage Marthone! Thirty-eight years old 
 
@@ -4012,7 +4012,7 @@ John
 
 27th of Audynaios year 2nd indiction 
 
-ΑΡΙ Αὐδ κζʹ ἔτους η ίνδικτιώνος βʹ 
+ΑΡΙ Αὐδυναίου κζʹ ἔτους η ίνδικτιώνος βʹ 
 
 Zunain 
 
@@ -8444,11 +8444,11 @@ An offering of Valens a deacon Amen
 
 Christ born of Mary 
 
-Χ Μ Χριστὸς ὁ ἐκ Μαρίας γ 
+Χ Μ Χριστὸς ὁ ἐκ Μαρίας γ εννηθείς 
 
 Lord ethon and the congregation itself of the catholic church built this Daniel rebuilt it 
 
-ΔΕΣΠ ΗΘΩΝΕΚ ΚΑΙΠΑΡΟΙΚΙΑΙΔΙΑΔΑΝΙΗΛΟΣ ΚΑΘΕΚΛΗΣΙΑΣΕΠΕΚΤΙΣΕΝ δεσπ ηθων ἔκτισεν καὶ παροικία ἰδία καθολικῆς ἐκκλησίας Δανιηλος ἐπέκτισεν 
+ΔΕΣΠ ΗΘΩΝΕΚ ΚΑΙΠΑΡΟΙΚΙΑΙΔΙΑΔΑΝΙΗΛΟΣ ΚΑΘΕΚΛΗΣΙΑΣΕΠΕΚΤΙΣΕΝ δεσπ ότης ηθων ἔκτισεν καὶ παροικία ἰδία καθολικῆς ἐκκλησίας Δανιηλος ἐπέκτισεν 
 
 The offering of Olympios and for the salvation of Leontios and of Eugenios the sons And for the memory and the rest of Ouaros the father and Vasilios and Eugenios the brothers and of Ouaros the son Gratefully he renovated the holy house by the exertions of Thomas the priest and abbot in the month of July Indiction 7 year 667 
 
@@ -14300,7 +14300,7 @@ Monument of Ennathe daughter of Alphios who died at the age of 33 years in the y
 
 Monument of Paulus son of Gemellus who died at the age of eighteen years in the two hundred and 18th year on the day of the month Audynaios 
 
-Μνημεῖον Παύλου Γεμέλλου τελευ τήσαντος ἐτῶν δεκαοκτώ ἔτο υς διακοσ ιηʹ μη νὸςΑὐδοναίου 
+Μνημεῖον Παύλου Γεμέλλου τελευ τήσαντος ἐτῶν δεκαοκτώ ἔτο υς διακοσ ιστοῦ ιηʹ μηὸςΑὐδοναίου 
 
 Be of good cheer Monument of Demetrios the officialis member of the officium who died at the age of 60 years in the year 224 
 

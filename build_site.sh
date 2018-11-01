@@ -5,9 +5,14 @@ exceptions=0;
 use_existing=0;
 #new_system=0;
 
+if ![[ -v DOCS ]]; then
+	export DOCS="docs"
+fi
+echo "Using data in $DOCS."
+
 run_script() {
 	source environment/bin/activate;
-	cd docs;
+	cd $DOCS;
 	exceptions_flag=""
 	new_system_flag=""
 	if [ $exceptions == 1 ]; then
@@ -42,15 +47,15 @@ for word in $*; do
 done
 
 echo "Removing old site...";
-if [ -d docs ]; then
-	cd docs;
+if [ -d $DOCS ]; then
+	cd $DOCS;
 	if [ $update == 0 ]; then
 		mv texts ..;
 	fi
 	cd ..;
-	rm -rf docs
+	rm -rf $DOCS
 fi
-mkdir docs
+mkdir $DOCS
 
 if [ $update == 1 ]; then
 	echo "Updating texts...";
@@ -59,11 +64,11 @@ if [ $update == 1 ]; then
 	wget $(echo "https://github.com/Brown-University-Library/iip-texts/\
 	archive/master.zip" | sed -e 's:\t::g');
 	unzip master.zip;
-	mkdir ../docs/texts;
-	cp -r iip-texts-master/epidoc-files/ ../docs/texts/xml;
+	mkdir ../$DOCS/texts;
+	cp -r iip-texts-master/epidoc-files/ ../$DOCS/texts/xml;
 	cd ..;
 	rm -rf temp;
-	cd docs/texts/xml;
+	cd $DOCS/texts/xml;
 	if [ -f interpretations.xml ]; then
 		rm interpretations.xml;
 	fi
@@ -72,20 +77,20 @@ if [ $update == 1 ]; then
 	fi
 	cd ../../..;
 else
-	mv texts docs;
+	mv texts $DOCS;
 fi
 
 run_script;
 
-cp src/web/wordlist.css docs/;
-cp src/web/style.css docs/;
-cp src/web/index_search.js docs/;
-cp src/web/doubletree.html docs/;
-cp -r src/web/doubletreejs docs/;
-cp src/web/levenshtein.min.js docs/;
-cp src/web/wordinfo.css docs/;
-cp src/web/wordInfo.js docs/;
-cp res/doubletree.svg docs/;
+cp src/web/wordlist.css $DOCS/;
+cp src/web/style.css $DOCS/;
+cp src/web/index_search.js $DOCS/;
+cp src/web/doubletree.html $DOCS/;
+cp -r src/web/doubletreejs $DOCS/;
+cp src/web/levenshtein.min.js $DOCS/;
+cp src/web/wordinfo.css $DOCS/;
+cp src/web/wordInfo.js $DOCS/;
+cp res/doubletree.svg $DOCS/;
 
-cat docs/texts/plain/* > docs/combined.txt
-./src/python/per_line.py docs/combined.txt docs/doubletree-data.txt
+cat $DOCS/texts/plain/* > $DOCS/combined.txt
+./src/python/per_line.py $DOCS/combined.txt $DOCS/doubletree-data.txt

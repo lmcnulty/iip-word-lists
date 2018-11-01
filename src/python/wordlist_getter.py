@@ -117,12 +117,13 @@ def get_words_from_element(root):
 				new_word.surrounding_elements.append(element)
 		
 		# Add the character to the word's text
-		# TODO: This causes words seperated by linebreak not to include first character
+		# This WAS causing words seperated by linebreak not to include first character.
+		# If this problem shows up again, look here!
 		if (not a_step.character.isspace() 
 		and not (TEI_NS + "lb" in [x.tag for x in a_step.self_closing])
 		and not a_step.character == "\n") and not (is_indent(a_step, walker)):
-			if (len(choice_stack) > 0 and 
-			choice_stack[-1].element.getchildren()[0] in within):
+			if (len(choice_stack) > 0 
+			and choice_stack[-1].element.getchildren()[0] in within):
 				 new_word.text += a_step.character
 			elif (len(choice_stack) > 0 and 
 			set(choice_stack[-1].element.getchildren()).intersection(
