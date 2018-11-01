@@ -13,9 +13,22 @@ ex)
 from lxml import etree
 from collections import defaultdict
 from sugar import *
+from strip_namespace import *
 
 # Returns the number of characters advanced through
 def get_indices(element, starting_elements, ending_elements, self_closing_elements, text, base_index, ignore):
+	for child in element.getchildren():
+		try: 
+			child_tag = strip_namespace(child.tag)
+		except:
+			continue
+		# Whichever element is first shows up as the canonical version within
+		# a choice tag, so orig and sic tags should be moved to the end.
+		if (strip_namespace(element.tag) == "choice" 
+		and (child_tag == "orig" or child_tag == "sic")):
+			element.remove(child)
+			element.append(child)
+	
 	element_text = element.text
 	element_tail = element.tail
 	for e in ignore:

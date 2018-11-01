@@ -89,12 +89,14 @@ def get_words_from_element(root):
 	for a_step in walker:
 		# Add starting elements
 		for element in a_step.starting:
-			if (type(element.tag) is str and 
-			strip_namespace(element.tag) == "choice"):
+			if (type(element.tag) is str 
+			and strip_namespace(element.tag) == "choice"):
 				choice_stack.append(choice(element, copy(new_word.text),
 				                    len(words)))
-			if (len(choice_stack) > 0 and 
-			index_of(element, choice_stack[-1].element.getchildren()) > 0):
+			#element_tag = strip_namespace(element.tag)
+			if (len(choice_stack) > 0
+			and index_of(element, choice_stack[-1].element.getchildren()) > 0):
+			#and (element_tag == "sic" or element_tag == "orig")):
 				new_word.alternatives.append(
 					"" + choice_stack[-1].preceding_text)
 			within.append(element)
@@ -125,7 +127,7 @@ def get_words_from_element(root):
 			elif (len(choice_stack) > 0 and 
 			set(choice_stack[-1].element.getchildren()).intersection(
 			set(within))):
-				if len(words) > choice_stack[-1].word_index:
+				if len(words) > choice_stack[0].word_index:
 					if len(words[choice_stack[-1].word_index].alternatives) > 0:
 						words[choice_stack[-1].word_index].alternatives[-1] \
 						+= a_step.character
