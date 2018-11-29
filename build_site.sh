@@ -5,7 +5,7 @@ exceptions=0;
 use_existing=0;
 #new_system=0;
 
-if ![[ -v DOCS ]]; then
+if [ -z "$DOCS" ]; then
 	export DOCS="docs"
 fi
 echo "Using data in $DOCS."
