@@ -411,3 +411,8 @@ searchbar.addEventListener("input", () => {
 }, false);
 sortWordList();
 render();
+
+// Fix the uneven edges on github pages.
+if (window.location.href.includes("github.io")) {
+	document.styleSheets[0].insertRule(".info-box {max-width: 993px;}");
+}
