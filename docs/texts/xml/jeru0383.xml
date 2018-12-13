@@ -40,7 +40,6 @@
                         <objectDesc ana="#ossuary">
                             <supportDesc ana="#stone">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height>20</height>
                                         <width>45</width>
@@ -147,10 +146,10 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-684"/>
+                    <bibl xml:id="b1"><ptr target="IIP-684.xml"/>
                         <biblScope unit="insc">1</biblScope>
                     </bibl>
-                    <bibl xml:id="b2"><ptr target="IIP-684"/><biblScope unit="insc"
+                    <bibl xml:id="b2"><ptr target="IIP-684.xml"/><biblScope unit="insc"
                         >2</biblScope></bibl>
                 </listBibl>
             </div>

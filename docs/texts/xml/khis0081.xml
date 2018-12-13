@@ -25,26 +25,25 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>khis0081</idno>
+                  <idno>Khis 0081</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#invocation" ana="#christian">
-                     <p>Golan. Khisfin. After first century CE. Chancel screen panel? Invocation?.</p>
+                     <p>Golan. Khisfin, Date Unknown. Panel (?). Invocation (?).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#panel">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>59</height>
                               <width>55</width>
                               <depth>24</depth>
                            </dimensions>
-                           <p/>
                         </support>
                         <condition>
                            <p/>
@@ -66,22 +65,22 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>cross</ab>
-                        <locus>top center of panel</locus>
+                        <ab>Cross</ab>
+                        <locus>Top center of panel</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date>unknown</date>
+                     <date>Date Unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089"
+                           >Khisfin</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>
-							Khisfin. Panel</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -119,23 +118,22 @@
               subtype="diplomatic"
               xml:id="khis0081.diplomatic"
               corresp="#khis0081.transcription #khis0081.translation">
-            <p>+<lb/>Χ Μ
-				</p>
+            <p><g type="cross">+</g><lb/>Χ Μ </p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="transcription"
               xml:id="khis0081.transcription"
               corresp="#khis0081.diplomatic #khis0081.translation">
-            <p>
+            <p><g type="cross">+</g><lb/>
                <expan><abbr>Χ</abbr><ex>ριστὸς ὁ ἐκ</ex></expan>
                <expan><abbr>Μ</abbr><ex>αρίας</ex></expan>
-               <choice>
+               <expan>
                   <abbr>
                      <supplied reason="undefined">γ</supplied>
                   </abbr>
-                  <expan>γεννηθείς</expan>
-               </choice>
+                  <ex>εννηθείς</ex>
+               </expan>
             </p>
          </div>
          <div type="translation"

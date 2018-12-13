@@ -40,7 +40,6 @@
                         <objectDesc ana="#floor mosaic">
                             <supportDesc ana="#stone.unknown">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
@@ -142,7 +141,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-700"/>
+                    <bibl xml:id="b1"><ptr target="IIP-700.xml"/>
                         <biblScope unit="page">634</biblScope>
                     </bibl>
                 </listBibl>

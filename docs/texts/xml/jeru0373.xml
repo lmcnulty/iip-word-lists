@@ -40,7 +40,6 @@
                         <objectDesc ana="#handles">
                             <supportDesc ana="#clay">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height>3.8</height>
                                         <width>6.8</width>
@@ -136,7 +135,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-681"/>
+                    <bibl xml:id="b1"><ptr target="IIP-681.xml"/>
                         <biblScope unit="insc">21</biblScope>
                     </bibl>
                 </listBibl>

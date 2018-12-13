@@ -39,7 +39,6 @@
                         <objectDesc ana="#amphora handles">
                             <supportDesc ana="#clay">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
@@ -137,7 +136,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-704"/>
+                    <bibl xml:id="b1"><ptr target="IIP-704.xml"/>
                         <biblScope unit="page">107</biblScope>
                     </bibl>
                 </listBibl>

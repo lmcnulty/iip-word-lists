@@ -40,7 +40,6 @@
                         <objectDesc ana="#lid">
                             <supportDesc ana="#limestone">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height>42</height>
                                         <width>90</width>
@@ -137,7 +136,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-696"/>
+                    <bibl xml:id="b1"><ptr target="IIP-696.xml"/>
                         <biblScope unit="insc">1</biblScope>
                     </bibl>
                 </listBibl>

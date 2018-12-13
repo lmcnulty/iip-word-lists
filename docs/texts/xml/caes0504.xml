@@ -39,7 +39,6 @@
                         <objectDesc ana="#seal">
                             <supportDesc ana="#lead">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width>1.7</width>
@@ -80,7 +79,7 @@
                         </summary>
                         <origin><date notBefore="0500" notAfter="0699" period="">6th or 7th century
                                 CE</date><placeName>
-                                <region/>
+                                <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678401"
                                     >Caesarea</settlement>
                                 <geogName type="site"/>
@@ -111,6 +110,7 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2018-02-07" who="Anya Hong">Initial Entry</change>
+            <change when="2018-10-24" who="Gaia Lembi">Added Region</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -150,7 +150,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-671"/>
+                    <bibl xml:id="b1"><ptr target="IIP-671.xml"/>
                         <biblScope unit="insc">6</biblScope>
                     </bibl>
                 </listBibl>

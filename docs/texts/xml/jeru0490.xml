@@ -39,7 +39,6 @@
                         <objectDesc ana="#plaque">
                             <supportDesc ana="#marble">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height>9.5</height>
                                         <width>10</width>
@@ -140,7 +139,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-690"/>
+                    <bibl xml:id="b1"><ptr target="IIP-690.xml"/>
                         <biblScope unit="page">32</biblScope>
                     </bibl>
                 </listBibl>

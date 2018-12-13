@@ -40,7 +40,6 @@
                         <objectDesc ana="#potsherd">
                             <supportDesc ana="#clay">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height>9</height>
                                         <width>5.5</width>
@@ -137,7 +136,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-681"/>
+                    <bibl xml:id="b1"><ptr target="IIP-681.xml"/>
                         <biblScope unit="insc">23</biblScope>
                     </bibl>
                 </listBibl>

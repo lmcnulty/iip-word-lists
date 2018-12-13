@@ -127,7 +127,7 @@
                         reason="lost">ן</supplied><gap reason="lost" extent="unknown"/></p>
             </div>
             <div type="translation" ana="b1">
-                <p>On of Jason, Korban...</p>
+                <p>Son of Jason, Korban...</p>
             </div>
             <div type="commentary" ana="b1">
                 <p>The use of קרבן on ossuaries is explained as implying that the object is
@@ -137,7 +137,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-678"/>
+                    <bibl xml:id="b1"><ptr target="IIP-678.xml"/>
                         <biblScope unit="insc">5</biblScope>
                     </bibl>
                 </listBibl>

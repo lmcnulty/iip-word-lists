@@ -4,7 +4,7 @@
      xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="anna0001" n="iip">
    <teiHeader>
-      <fileDesc><!-- ********** <titleStmt> ********** -->
+      <fileDesc><!-- ********** <titleStmt> ********** **-->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
             <respStmt>
@@ -44,7 +44,6 @@
                               <width atLeast="56" atMost="59"/>
                               <depth atLeast="25" atMost="29"/>
                            </dimensions>
-                           <p/>
                         </support>
                         <condition>
                            <p/>

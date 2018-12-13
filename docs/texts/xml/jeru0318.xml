@@ -39,7 +39,6 @@
                         <objectDesc ana="#ossuary">
                             <supportDesc ana="#material_unknown">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
@@ -139,7 +138,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-673"/>
+                    <bibl xml:id="b1"><ptr target="IIP-673.xml"/>
                         <biblScope unit="insc">7</biblScope>
                     </bibl>
                 </listBibl>

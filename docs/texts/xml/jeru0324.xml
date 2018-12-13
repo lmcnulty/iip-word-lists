@@ -39,7 +39,6 @@
                         <objectDesc ana="#weight">
                             <supportDesc ana="#stone">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
@@ -135,7 +134,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-675"/>
+                    <bibl xml:id="b1"><ptr target="IIP-675.xml"/>
                         <biblScope unit="insc">1</biblScope>
                     </bibl>
                 </listBibl>

@@ -55,7 +55,6 @@
                         <objectDesc ana="#tombstone">
                             <supportDesc ana="#stone.other">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
@@ -188,7 +187,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-670"/>
+                    <bibl xml:id="b1"><ptr target="IIP-670.xml"/>
                         <biblScope unit="page">89</biblScope>
                     </bibl>
                 </listBibl>

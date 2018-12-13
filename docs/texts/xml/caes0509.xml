@@ -39,7 +39,6 @@
                         <objectDesc ana="#seal">
                             <supportDesc ana="#lead">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width>2.1</width>
@@ -76,10 +75,9 @@
                         </summary>
                         <origin><date notBefore="0500" notAfter="0699" period="">6th-7th century
                                 CE</date><placeName>
-                                <region>Caesarea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678401">
-                                    
-                                </settlement>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678401"
+                                    >Caesarea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">CC90006 I2</geogFeat>
                             </placeName>
@@ -108,6 +106,7 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2018-02-21" who="Anya Hong">Initial Entry</change>
+            <change when="2018-10-24" who="Gaia Lembi">Corrected Place and Region</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -147,7 +146,7 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-971"/>
+                    <bibl xml:id="b1"><ptr target="IIP-971.xml"/>
                         <biblScope unit="insc">11</biblScope>
                     </bibl>
                 </listBibl>

@@ -25,25 +25,24 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>khis0085</idno>
+                  <idno>Khis 0085</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#christian">
-                     <p>Golan. Khisfin. Byzantine Period. Floor mosaic. Dedication.</p>
+                     <p>Golan. Khisfin, Byzantine Period. Floor mosaic. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#mosaic">
+                  <objectDesc ana="floor mosaic">
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>40</height>
                               <width>40</width>
                            </dimensions>
-                           <p/>
                         </support>
                         <condition>
                            <p/>
@@ -75,15 +74,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0400" notAfter="0600">400-600 CE</date>
+                     <date notBefore="0400" notAfter="0600">Byzantine Period</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089"
+                           >Khisfin</settlement>
                         <geogName type="site">church</geogName>
                         <geogFeat type="locus">floor</geogFeat>
                      </placeName>
-                     <p>
-							Khisfin. Floor mosaic.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -106,6 +105,8 @@
       <revisionDesc>
          <change when="2007-04-25" who="persons.xml#Megan_Cohen">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and question
+            mark in transcription)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,8 +130,7 @@
               subtype="transcription"
               xml:id="khis0085.transcription"
               corresp="#khis0085.diplomatic #khis0085.translation">
-            <p>ὑ<lb/>πὲρ <lb/> σωτη<lb/>ρίας Γεωρ<lb/>γίου Σαθη<lb/>φελ<lb/>α (?)
-				</p>
+            <p>ὑ<lb break="no"/>πὲρ <lb/> σωτη<lb break="no"/>ρίας Γεωρ<lb break="no"/>γίου Σαθη<lb break="no"/>φελ<lb break="no"/>α </p>
          </div>
          <div type="translation"
               ana="#b1"
