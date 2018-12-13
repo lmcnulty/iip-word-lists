@@ -50,7 +50,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="7">
+                        <layout columns="1" writtenLines="7">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -118,6 +118,8 @@
          <change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-28" who="Gaia Lembi">Edited encoding (glyph was not done
+            correctly)</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -134,9 +136,9 @@
               subtype="transcription"
               xml:id="beth0149.transcription"
               corresp="#beth0149.translation">
-            <p>Τόπος<lb/> Μαρίνου<lb/> καὶ Εἰού<lb break="no"/>σστας<lb/>
-                    γυνεκ<lb break="no"/> ὸς αὐ<lb break="no"/>τοῦ
-                    (hedera) </p>
+            <p>Τόπος<lb/> Μαρίνου<lb/> καὶ Εἰού<lb break="no"/>σστας<lb/> γυνεκ<lb break="no"/> ὸς
+                  αὐ<lb break="no"/>τοῦ <g type="hedera"/>
+            </p>
          </div>
          <div type="translation"
               ana="#b5"
