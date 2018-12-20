@@ -10,6 +10,8 @@ import copy
 import cltk
 from kwic import *
 
+from alphabet_detector import *
+
 from collections import OrderedDict
 from collections import defaultdict
 from lxml import etree
@@ -101,8 +103,12 @@ def get_words_from_file(path, file_dict, new_system):
 	if textRegion != None:
 		file_dict[path] = iip_file(path, textRegion.text)	
 	mainLang = ""
+	other_langs = ""
 	if (textLang != None):
 		mainLang = textLang.attrib['mainLang']
+		other_langs = textLang.get("otherLangs")
+	#if other_langs != "":
+		
 	for edition in (
 		root.findall(".//tei:div[@type='edition']", namespaces=nsmap) 
 		+ root.findall(".//tei:div[@type='translation']", 
@@ -140,6 +146,11 @@ def get_words_from_file(path, file_dict, new_system):
 					textRegion.text,
 					e.surrounding_elements
 				))
+				if other_langs != "" and other_langs != None:
+					if not "-transl" in mainLang and not "arc" in mainLang:
+						#print(path + " has other_langs")
+						new_words[-1].lang = get_lang_by_alphabet(new_words[-1])
+						#print("lang: " + new_words[-1].lang)
 				new_words[-1].internal_elements = e.internal_elements
 				new_words[-1].alternatives = e.alternatives
 				new_words[-1].preceding = e.preceding
@@ -155,8 +166,8 @@ def get_words_from_file(path, file_dict, new_system):
 			add_element_to_word_list(edition, new_words, edition, 
 			                         mainLang, path, textRegion.text, 
 			                         [])
-		words += new_words
 		#endif
+		words += new_words
 	#endloop
 	null_words = []
 	for word in words:
@@ -170,6 +181,14 @@ def get_words_from_file(path, file_dict, new_system):
 	words = [x for x in words if x not in null_words]
 	return words
 #enddef get_words_from_file
+
+ad = AlphabetDetector()
+def get_lang_by_alphabet(word):
+	print("Setting lang by alphabet for " + word.text)
+	# This doesn't work for aramaic
+	if ad.is_greek(word.text): return "grc"
+	if ad.is_latin(word.text): return "la"
+	if ad.is_hebrew(word.text): return "heb"
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(description="""Produce word list 
@@ -277,6 +296,7 @@ if __name__ == '__main__':
 			                    + "</" + tag + ">")
 		word.xml_context = word.xml_context.replace(XML_NS, "")\
 			.replace(TEI_NS,"")
+	#endloop (occurences)
 		
 	if args.nodiplomatic or args.engstops:
 		occurrences = filtered_words
