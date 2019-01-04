@@ -2026,14 +2026,6 @@ He founded the metropolis
 
 τὴν μητρόπολιν ἔκτισεν 
 
-He founded the metropolis 
-
-τὴν μητρόπολιν ἔκτισεν 
-
-May you flourish Metropolis! 
-
-αὔξοις μητρόπολι 
-
 May you flourish Metropolis! 
 
 αὔξοις μητρόπολι 
@@ -2041,22 +2033,10 @@ May you flourish Metropolis!
 Height 32 feet width 20 feet 
 
 Cdo pedes XXXII Latitudo pedes XX 
-
-Height 32 feet width 20 feet 
-
-Cdo pedes XXXII Latitudo pedes XX 
-
-Along with other works many and great we also lay the pavement mosaic 
-
-μετὰ τῶν ἄλλων πολλῶν καὶ μεγάλων ἔργων καὶ τὸ ἔργον τῆς πλακώ­ σεως ψηφοθετοῦμε ψήφισμα 
 
 Along with other works many and great we also lay the pavement mosaic 
 
 μετὰ τῶν ἄλλων πολλῶν καὶ μεγάλων ἔργων καὶ τὸ ἔργον τῆς πλακώσεως ψηφοθετοῦμε ψήφισμα 
-
-
-
-ΟΘΗ ΤΩΝ ΑΨΙΔΩΝ ΤΗΣ ΨΗΦΩΣΕΩΣ ΠΑΣΗΣ ΗΜΕΝΤΟΙΚΑ ΠΑΝΤ 
 
 
 
@@ -3388,7 +3368,7 @@ There is none like unto the God of Jeshurun Deut 3326
 
 Theodoros scholastikos 
 
-ϹΧΟ ΛΑϹΤΙ ΚΟΥ Θεοδώρου σχολαστικοῦTheodoros scholastikos Θεοδώρου σχολαστικοῦ 
+ϹΧΟ ΛΑϹΤΙ ΚΟΥ Θεοδώρου σχολαστικοῦ 
 
 Leon chartoularios 
 
@@ -3396,11 +3376,11 @@ Leon chartoularios
 
 Georgios kommerkarios 
 
-Γεωργίου κομμερκιαρίου Georgios kommerkarios The second word kommerkarios is uncertain A kommerkarios collected taxes on merchandise in transit Nesbitt 1999 
+Γεωργίου κομμερκιαρίου 
 
 Bardas notarios 
 
-Βάρδας νοτάριος Bardas notarios Translation of notarios is uncertain 
+Βάρδας νοτάριος 
 
 Kerykos stratelates 
 
@@ -3722,14 +3702,6 @@ Remember O Lord thy servant the monk Andrew from the Monastery
 
 ΛΟ ΒΗ 
 
-
-
-ΛΟ ΒΗ 
-
-Stephan son of Hilarios 
-
-Στεφάνoυ Ἱλαρίου 
-
 Stephan son of Hilarios 
 
 Στεφάνoυ Ἱλαρίου 
@@ -3746,10 +3718,6 @@ to Christ
 
 ΣΖΟΥΡΙΖΟΥ Χριστῷ Ε ΑΙΕΝΕΤ 
 
-to Christ 
-
-ΣΖΟΥΡΙΖΟΥ Χριστῷ Ε ΑΙΕΝΕΤ 
-
 Adorned with virtue and modesty lived not a whole year with her Theodora daughter of Erasinos as the Lord willed on the 13th of Panemos 6th indiction year 498 
 
 Ἡ ἀρέτῃ καὶ σωφρούνῃ κεκοσμηένη φθανευπηνπε λσ πενεραν οὐκ ὅλον ἔτος μετ᾽ αὐτὴν πληρώσασα Θεδώρα Ἐρασίνου ὡς τῷ Κῳυρίῳ ἔδοεν ἐν μηνὶ Πανέμου ιγʹ ἰνδικτιῶνος ϛʹ ἔτους υϙηʹ 
@@ -3757,14 +3725,6 @@ Adorned with virtue and modesty lived not a whole year with her Theodora daughte
 Zunain 
 
 Ζονα ῖνος 
-
-Zunain 
-
-Ζονα ῖνος 
-
-
-
-ΑΕΑΡΙ ΟΒΑ ΕΔ ΩΝOΒΕ ΡΔΩΟΔ 
 
 
 
@@ -3778,14 +3738,6 @@ Sergius
 
 Σέργιος 
 
-Sergius 
-
-Σέργιος 
-
-
-
-Σ ΑΚ ΤΟΥ 
-
 
 
 Σ ΑΚ ΤΟΥ 
@@ -3796,19 +3748,7 @@ Sergius
 
 
 
-Μ Α 
-
-
-
 ΛΣ ΘΕ 
-
-
-
-ΛΣ ΘΕ 
-
-
-
-Α Β 
 
 
 
@@ -3826,17 +3766,9 @@ Victor on the 25th of Xanthicos
 
 ΜΥ Βίκτωρ μηνὸς Ξανθικοῦ κεʹ 
 
-Victor on the 25th of Xanthicos 
-
-ΜΥ Βίκτωρ μηνὸς Ξανθικοῦ κεʹ 
-
 Zunain 
 
 Ζωνέ νος 
-
-
-
-Ι Ω Ε Σ 
 
 
 
@@ -3850,21 +3782,9 @@ Zunain
 
 Ζοναῖνος 
 
-Zunain 
-
-Ζοναῖνος 
-
 The blessed Mary Domma went to her rest in the month of Dios 9th indiction 
 
 Ἀνηπάη ὁ μα καρία Μαρίας Δόμνα μηνὸς Διόυ ἰνδικτιῶνος ἐν νατῆς 
-
-The blessed Mary Domma went to her rest in the month of Dios 9th indiction 
-
-Ἀνηπάη ὁ μα καρία Μαρίας Δόμνα μηνὸς Διόυ ἰνδικτιῶνος ἐν νατῆς 
-
-
-
-ΑΒΟΥ ΒΑΟΙ ΕΑΥΙΩ 
 
 
 
@@ -3874,21 +3794,9 @@ went to his rest
 
 ἀνεπάη ΑΙΤ ΟΝ 
 
-went to his rest 
-
-ἀνεπάη ΑΙΤ ΟΝ 
-
 Mulaik or the feminine form Mulaika 
 
 Μωλέχ 
-
-Mulaik or the feminine form Mulaika 
-
-Μωλέχ 
-
-Samuel 
-
-Σαμουέλ 
 
 Samuel 
 
@@ -3900,19 +3808,7 @@ Samuel
 
 
 
-ΑΒ 
-
-
-
 Βιριλο ΤΙ ΒΙΙ 
-
-
-
-Βιριλο ΤΙ ΒΙΙ 
-
-
-
-Κ 
 
 
 
@@ -3926,21 +3822,9 @@ Stephen on the 8th of Panemos 7th indiction Patrick on the 19th 8th indiction ye
 
 ΝΟΝ Σ 
 
-
-
-ΝΟΝ Σ 
-
-Zunain 
-
-Ζονα 
-
 Zunain 
 
 Ζονα ῖνος 
-
-
-
-Σ Α 
 
 
 
@@ -3954,14 +3838,6 @@ Zunain
 
 Ζονε͂νος 
 
-Zunain 
-
-Ζονε͂νος 
-
-
-
-Α Μ Α ΘΥ 
-
 
 
 Α Μ Α ΘΥ 
@@ -3969,14 +3845,6 @@ Zunain
 
 
 Ε Τϛ ΛΑ 
-
-
-
-Ε Τϛ ΛΑ 
-
-John 
-
-Ἰωάννης 
 
 John 
 
@@ -3994,21 +3862,9 @@ perhaps Ζοναῖνος Zunain or Ζηνόβιος Zenobius
 
 Ζ 
 
-perhaps Ζοναῖνος Zunain or Ζηνόβιος Zenobius 
-
-Ζ 
-
 
 
 ΝΘ 
-
-
-
-ΝΘ 
-
-Here lies Umm Musa 11th indiction 
-
-Ἀναπά η Ὀμμο μεύση ἰνδ ιαʹ 
 
 Here lies Umm Musa 11th indiction 
 
@@ -4017,10 +3873,6 @@ Here lies Umm Musa 11th indiction
 Twenty-fourth of Dystros 4th indiction year 465 
 
 μεννὶ Δύσρου κδ ἰνδικτιῶνος δ ἔτους υξε 
-
-
-
-Α ΛΧΕ ΑΘ 
 
 
 
@@ -4036,23 +3888,11 @@ Sergius
 
 
 
-ΡΩ Ν Α 
-
-
-
-ΤΟΥ 
-
-
-
 ΤΟΥ 
 
 30th of Panemos 13th indiction year 475 
 
 Πανέμου λ ἰνδικτιῶνος ιγ ἔτουςυοε 
-
-
-
-ΝΑ Σ 
 
 
 
@@ -4065,14 +3905,6 @@ The blessed Sergius went to rest on the 16th of Dios 1st indiction year 492
 
 
 ΙΕΛΑ 
-
-
-
-ΙΕΛΑ 
-
-Courage Abbeos no one is immortal 
-
-Θάρσι Ἀββέος οὐδὶς ἀθάνατος 
 
 Courage Abbeos no one is immortal 
 
@@ -4088,27 +3920,11 @@ Courage Amir son of Wail no one is immortal
 
 
 
-ΝΟΣ 
-
-
-
-ΛΙ ΜΙΣ 
-
-
-
 ΛΙ ΜΙΣ 
 
 George 
 
 Γεώργιος 
-
-George 
-
-Γεώργιος 
-
-Menas Zeobius Niki 
-
-Μενᾶ Ζηνόβι Νικι 
 
 Menas Zeobius Niki 
 
@@ -4122,21 +3938,9 @@ Courage Umm Said no one is immortal
 
 Ι Ω Ν 
 
-
-
-Ι Ω Ν 
-
 Stephen 
 
 Στέφανος 
-
-Stephen 
-
-Στέφανος 
-
-
-
-ΜΑ ΚΑ 
 
 
 
@@ -4148,19 +3952,7 @@ Stephen
 
 
 
-ΚΕ ΒΕ 
-
-
-
 ΕΒ ΝΙ 
-
-
-
-ΕΒ ΝΙ 
-
-
-
-ΓΙΑ 
 
 
 
@@ -4170,21 +3962,9 @@ The earth is the Lords and the fullness thereof
 
 ΙΤ ΟΠΛΗΡ τοῦ Κυρίου ἡ γῆ καὶ τὸ πλήρωμα αὐτῆς 
 
-The earth is the Lords and the fullness thereof 
-
-ΙΤ ΟΠΛΗΡ τοῦ Κυρίου ἡ γῆ καὶ τὸ πλήρωμα αὐτῆς 
-
 
 
 Α 
-
-
-
-Α 
-
-
-
-Ε 
 
 
 
@@ -4197,14 +3977,6 @@ no one is immortal
 Went to his rest 
 
 Ἀνεπάη ΗΜΑ ΟΥΑ ΝΔ 
-
-Went to his rest 
-
-Ἀνεπάη ΗΜΑ ΟΥΑ ΝΔ 
-
-
-
-ΑΖΟΝ 
 
 
 
@@ -4220,19 +3992,7 @@ Courage
 
 
 
-Μ Α 
-
-
-
 Α Λ ΝΙ 
-
-
-
-Α Λ ΝΙ 
-
-John 
-
-Ἰωάννης 
 
 John 
 
@@ -4244,19 +4004,7 @@ John
 
 
 
-Α ΑΣΚΑ ΩΝΟΙΣΑ 
-
-
-
 ΛΟ 
-
-
-
-ΛΟ 
-
-
-
-Ν Α Σ 
 
 
 
@@ -4266,21 +4014,9 @@ John
 
 ΑΡΙ Αὐδυναίου κζʹ ἔτους η ίνδικτιώνος βʹ 
 
-27th of Audynaios year 2nd indiction 
-
-ΑΡΙ Αὐδυναίου κζʹ ἔτους η ίνδικτιώνος βʹ 
-
 Zunain 
 
 Ζοναῖνος 
-
-Zunain 
-
-Ζοναῖνος 
-
-
-
-Ν 
 
 
 
@@ -4290,21 +4026,9 @@ Eusebius
 
 Εὐσέβιος 
 
-Eusebius 
-
-Εὐσέβιος 
-
 Zenobius 
 
 Ζηνόβιος 
-
-Zenobius 
-
-Ζηνόβιος 
-
-Zunain 
-
-Ζοναῖνος 
 
 Zunain 
 
@@ -4314,21 +4038,9 @@ Peter
 
 Πέτρος 
 
-Peter 
-
-Πέτρος 
-
 
 
 ΕΥ 
-
-
-
-ΕΥ 
-
-Zenobius 
-
-Ζηνόβιο 
 
 Zenobius 
 
@@ -4338,21 +4050,9 @@ bread vegetables
 
 Λ ΠΛΗΣ ψωμὶ ἀπο λάχανα ΚΑΙΤ 
 
-bread vegetables 
-
-Λ ΠΛΗΣ ψωμὶ ἀπο λάχανα ΚΑΙΤ 
-
 for traveling expenses 
 
 των δι᾽ ἐφώδιον ε κοηβοχδο ΦΩΖΟΝ 
-
-for traveling expenses 
-
-των δι᾽ ἐφώδιον ε κοηβοχδο ΦΩΖΟΝ 
-
-Zunain 
-
-τωιω Ζοναῖν ος αγριαιον 
 
 Zunain 
 
@@ -4364,19 +4064,7 @@ Zunain
 
 
 
-Σ 
-
-
-
 ΕΙ ΣΙ 
-
-
-
-ΕΙ ΣΙ 
-
-Qayyam 
-
-Καιαμ 
 
 Qayyam 
 
@@ -4388,19 +4076,7 @@ Qayyam
 
 
 
-ΕΜΟΣ 
-
-
-
 ΟΡ 
-
-
-
-ΟΡ 
-
-
-
-ΒΑΡ 
 
 
 
@@ -4410,21 +4086,9 @@ Qayyam
 
 Ζ 
 
-
-
-Ζ 
-
 Eusebius 
 
 Εὐσέβιος 
-
-Eusebius 
-
-Εὐσέβιος 
-
-
-
-ΣΩ 
 
 
 
@@ -4434,21 +4098,9 @@ Caduceus
 
 Εὐκλείτου 
 
-Caduceus 
-
-Εὐκλείτου 
-
 Sergius 
 
 Σέργιος 
-
-Sergius 
-
-Σέργιος 
-
-
-
-ΥΦΣΙΔ 
 
 
 
@@ -4458,21 +4110,9 @@ Ainillas
 
 Αἰνιλλ ᾶς 
 
-Ainillas 
-
-Αἰνιλλ ᾶς 
-
 
 
 Ε Η ΤΙΡΛ 
-
-
-
-Ε Η ΤΙΡΛ 
-
-
-
-ΕΡ ΩΝ 
 
 
 
@@ -8180,7 +7820,7 @@ Of Gelasios
 
 Here lies Anamos clibanarius tertius of Palmyra 
 
-Ἐνθάδε κεῖται Ἄναμος κλιβανάριςκλιβανάριος τρίτοςΠαλμύρας 
+Ἐνθάδε κεῖται Ἄναμος κλιβανάριος τρίτοςΠαλμύρας 
 
 Be of good cheer Eutherios! No one is immortal 
 
@@ -14264,7 +13904,7 @@ Be remembered for good and for benedition Judah son of Monimos with his children
 
 Autumn equinox 
 
-ΜΕΘΑΠΟΡΙΝΗ ΤΡΟΠΗ Μεθ o πωρινὴ τροπή תקופת תש רי 
+ΜΕΘΑΠΟΡΙΝΗ ΤΡΟΠΗ Μεθ ο πωρινὴ τροπή תקופת תש רי 
 
 Winter solstice 
 
@@ -14472,7 +14112,7 @@ May peace be upon anyone who has offered charity in this holy place and anyone w
 
 southeastern Maximos vowing fulfilled it Long may he live! central southern Aboudemos vowing fulfilled it southwestern Zoilos vowing fulfilled it Long may he live! central western Kalinikos vowing fulfilled it Long may he live! northwestern Siortasis vowing fulfilled it May he be saved! northeastern Profutouros vowing fulfilled it Long may he live! central northern and center Severos disciple of the most illustrious patriarchs fulfilled it Blessings upon him Amen central eastern Ioullos the supervisor completed the whole work 
 
-Μάξιμος εὐχόμεος ἐποίησεν ζήσῃ Ἀβουδέος εὐχόμενος ἐπίησεν Zώϊλος εὐχόμεος ἐποίηεν ζήσῃ Καλίνικο εὐχόμεος ἐποίηεν ζήσῃ Σιόρτασις εὐχόμενος ἐποίησεν σωζέστω Προφοτοῦος εὐχόμνος ἐποίηεν ζήσῃ Σευῆρος θρεπτὸς τῶν λαμροτάτων πατριαρχν ἐποίησν εὐλογία αὐτῷ ἀμήν Ἰοῦλλος προνούμνος πάντ ἐτελίωσε 
+Μάξιμος εὐχόμεος ἐποίησεν ζήσῃ Ἀβουδέος εὐχόμενος ἐπίησεν Ζώϊλος εὐχόμεος ἐποίηεν ζήσῃ Καλίνικο εὐχόμεος ἐποίηεν ζήσῃ Σιόρτασις εὐχόμενος ἐποίησεν σωζέστω Προφοτοῦος εὐχόμνος ἐποίηεν ζήσῃ Σευῆρος θρεπτὸς τῶν λαμροτάτων πατριαρχν ἐποίησν εὐλογία αὐτῷ ἀμήν Ἰοῦλλος προνούμνος πάντ ἐτελίωσε 
 
 Severos disciple of the most illustrious Patriarchs completed it Blessings on him and on Ioullos the supervisor 
 
@@ -14648,11 +14288,11 @@ King Antiochus to Nessos greetings The recorded petition was submitted by the Si
 
 For perpetual peace Diocletian Augustus and Maximianus Augustus and Constantius and Maximianus the noble Caesars erected the wing with the gate by care of Priscus the governor of the province of Syria Palaestina Left ear Numerous vows for the twenty-year jubilee Right ear Numerous vows for the forty-year jubilee 
 
-PERPETVAEPACI DIOCLETIANUSAVGVSET MAXIMIANVSAVGVS CONSTANTIVSETMAXIMIANVS NOBILISSIMICAESARIS ALAMCOSTIACONSTITVERVNT PERPROVIDENTIASPRISCI PRESIDIS Perpetuae paci Diocletianus Augustus et Maximianus Augustus et Constantius et Maximianus nobilissimi Caesares alam cum ostio constituerunt per providentiam Prisci praesidis provinciae Syriae Palaestinae left ear multi votis XX right ear multi votis XL 
+PERPETVAEPACI DIOCLETIANUSAVGVSET MAXIMIANVSAVGVS CONSTANTIVSETMAXIMIANVS NOBILISSIMICAESARIS ALAMCOSTIACONSTITVERVNT PERPROVIDENTIASPRISCI PRESIDIS Perpetuae paci Diocletianus Augustus et Maximianus Augustus et Constantius et Maximianus nobilissimi Caesares alam cum ostio constituerunt per providentiam Prisci praesidis provinciae Syriae Palaestinae multi votis XX multi votis XL 
 
 Monument of Makrinos Macrinus son of Ameros who died at the age of 33 years in the two hundred and 4th year on the 27th day of the month Artemisios 
 
-μνημεῖον ον Μακρῖνος κ Ἀμήρου ἀποθαν όντος ἐτῶν ἠτ λγʹ ἔτους διακοσ σι δʹ μηνὸ ς Ἀρτεμισίου η ζκʹ 
+μνημεῖον ον Μακῖνος Ἀμήρου ἀποθανντος ἐτῶν λγʹ ἔτους διακοσιστοῦ δʹ μηνὸ Ἀρτεμσίου ζκʹ 
 
 Monument of Ennathe daughter of Alphios who died at the age of 33 years in the year 217 on the 17th day of the month of Xandikos on the second day of the Lord Monday Be of good cheer Ennathe no one is immortal 
 
@@ -14692,7 +14332,7 @@ Monument of Obodous daughter of Finatheos who died at the age of two years in th
 
 Monument of Thoai daughter of Prosdokios who died at the age of 16 years in the year 244 on the 11th day of the month Audynaios on the day of Mercury Wednesday Be of good cheer no one is immortal Only God is immortal 
 
-Mνημεῖον Θοάς Προσδοκίυ ἀπογενομνης ἐτῶν ιςʹ ἔτους σμδʹ μηὸς Αὐδυναίου αιʹ ἡμέρᾳ Ἑρμοῦ Θάρσει οὐδείς ἀάνατος ὁΘεὸς ἀθάνατος 
+Μνημεῖον Θοάς Προσδοκίυ ἀπογενομνης ἐτῶν ιςʹ ἔτους σμδʹ μηὸς Αὐδυναίου αιʹ ἡμέρᾳ Ἑρμοῦ Θάρσει οὐδείς ἀάνατος ὁΘεὸς ἀθάνατος 
 
 Monument of Abdalges son of Vaggas who died at the age of 70 years in the two hundred and forty-ninth year on the day of Mars Tuesday 
 
@@ -14704,7 +14344,7 @@ Monument of Siltha daughter of Zenobios who died at the age of 8 years in the ye
 
 Monument of Alkanios son of Aslomos who died at the age of 37 years in the year 250 on the 6th day of the month Panemos Be of good cheer no one is immortal 
 
-Mνημεῖον ο Ἀλ κάνις Ἀσλό μου ἀποθανόν τος ἐτῶν λζʹ ἔτους σνʹ μηνὸς Πανήμου ςʹ θάρσει οὐδείς ἀθάνατος 
+Μνημεῖον ο Ἀλ κάνις Ἀσλό μου ἀποθανόν τος ἐτῶν λζʹ ἔτους σνʹ μηνὸς Πανήμου ςʹ θάρσει οὐδείς ἀθάνατος 
 
 Be of good cheer Monument of Solemos son of Samirabbos who died at the age of 37 years in the year 25 
 
@@ -15756,7 +15396,7 @@ Monument of Aeneas son of Aristonios or Ariston who died on the 3rd day of the m
 
 son of Kassisos the bouleutes who died - having lived thirty years - on the 9th of the month Apellaios You be of good cheer He died having a good name 
 
-κασσαβαθιστα Kασσίσου Βουλευτοῦ ἀποθανόντος ζήσας ἔτη τριάκοντα μηνὸς Ἀπελλαίου θʹ Θάρσει σέ μετὰ καλοῦ ὀνόματος 
+κασσαβαθιστα Κασσίσου Βουλευτοῦ ἀποθανόντος ζήσας ἔτη τριάκοντα μηνὸς Ἀπελλαίου θʹ Θάρσει σέ μετὰ καλοῦ ὀνόματος 
 
 Monument of Matrona daughter of Alphios who died at the age of 35 years on the 22nd day of the month Audynaios 
 
