@@ -1,4 +1,4 @@
-*I am no currently working on this project. See Christian Casey's [fork](https://github.com/christiancasey/iip-word-lists) for an up-to-date version.*
+*I am not currently working on this project. See Christian Casey's [fork](https://github.com/christiancasey/iip-word-lists) for an up-to-date version.*
 
 ---
 
