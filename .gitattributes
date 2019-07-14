@@ -1,3 +1,4 @@
 docs/* linguist-documentation
-docs/* linguist-vendored
+src/web/doubletreejs/* linguist-vendored
+src/web/*.min.js linguist-vendored
 
