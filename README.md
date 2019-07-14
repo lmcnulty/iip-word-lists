@@ -1,3 +1,7 @@
+*I am no currently working on this project. See Christian Casey's [fork](https://github.com/christiancasey/iip-word-lists) for an up-to-date version.
+
+---
+
 ## Introduction
 
 The code in this repository is intended for use in the [Inscriptions of Israel / Palestine project](http://library.brown.edu/cds/projects/iip/search/). It uses Python and LXML to generate word lists from [epidoc](http://www.stoa.org/epidoc/gl/latest/) files and includes a simple web interface.
